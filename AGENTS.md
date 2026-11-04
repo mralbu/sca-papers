@@ -27,8 +27,9 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   else has extractable text.
 - One-page PDFs in 2019 (045–091), 2022 (48–65) and 2023 (048–064) are short
   papers/posters with their own title and authors. Keep them.
-- `2014/SCA2014-051.pdf` is truncated on the server itself (xref missing);
-  mutool can repair it on read.
+- `2014/SCA2014-051.pdf` is truncated on the server itself: no xref and no page
+  tree. mutool, qpdf and pikepdf all fail to recover pages, so convert skips it
+  as unreadable.
 - 2020 has only one file; that year is effectively missing.
 
 ## Decisions

@@ -67,3 +67,7 @@ check:
     uv run pytest -q
     uv run ruff check src tests
     uv run ruff format --check src tests
+
+# Stage 1: convert PDFs to markdown with marker (data/markdown/<id>/). Args: paper IDs, --workers N, --limit N
+convert *args:
+    uv run sca convert {{args}}

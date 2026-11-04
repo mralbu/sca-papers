@@ -6,7 +6,10 @@ authors = [
     { name = "mralbu", email = "1636597+mralbu@users.noreply.github.com" }
 ]
 requires-python = ">=3.12,<3.13"
-dependencies = []
+dependencies = [
+    "marker-pdf>=2.0.0",
+    "pypdfium2>=5.10.1",
+]
 
 [project.scripts]
 sca = "sca.cli:main"
