@@ -79,6 +79,19 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   figure that has a caption.
 - **Topic names:** optional LLM refinement of the c-TF-IDF labels.
 
+## Layout
+
+- `src/sca/`: pipeline package. `paths.py` defines every directory,
+  `corpus.py` maps file names to paper IDs, `cache.py` has the freshness check
+  and atomic writes that keep stages resumable, `cli.py` is the `sca <stage>`
+  entry point.
+- Paper ID = PDF file stem without the `1-` prefix (`SCA2014-051`,
+  `SCA1991-03EURO`, `SCA_2025_1011`), and it is unique across the corpus.
+- `data/` (git-ignored, local only): `inventory.json`, `markdown/<id>/`, and
+  the other stage intermediates.
+- `site/` (published): static site; generated data goes in `site/data/`.
+- `just check` runs pytest and ruff.
+
 ## Conventions
 
 - Python with `uv` (venv + dependencies via `uv`); run stages with `uv run`.

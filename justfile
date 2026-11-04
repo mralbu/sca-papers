@@ -51,3 +51,19 @@ dedup mode="delete":
     touch "{{duplicates}}"
     sort -u "{{duplicates}}" "$found" -o "{{duplicates}}"
     echo "$n duplicate(s) deleted; $(wc -l < "{{duplicates}}") listed in {{duplicates}}"
+
+# --- Pipeline (each stage is resumable: re-runs only process new/changed papers) ---
+
+# Install/sync the Python environment
+setup:
+    uv sync
+
+# Stage 0: list papers with their IDs and source URLs (data/inventory.json)
+inventory:
+    uv run sca inventory
+
+# Run tests and lint
+check:
+    uv run pytest -q
+    uv run ruff check src tests
+    uv run ruff format --check src tests

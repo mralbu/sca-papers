@@ -1,0 +1,28 @@
+[project]
+name = "sca"
+version = "0.1.0"
+description = "Pipeline for the SCA symposium papers explorer"
+authors = [
+    { name = "mralbu", email = "1636597+mralbu@users.noreply.github.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[project.scripts]
+sca = "sca.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
