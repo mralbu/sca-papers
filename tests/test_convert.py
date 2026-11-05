@@ -49,3 +49,19 @@ def test_pdf_newer_than_markdown_is_stale(paper):
     write_output(paper, "# T\n")
     os.utime(paper.pdf, (convert.markdown_path(paper).stat().st_mtime + 10,) * 2)
     assert not convert.is_converted(paper)
+
+
+def test_save_output_drops_empty_images(tmp_path, monkeypatch):
+    from PIL import Image
+
+    from sca import marker_batch
+
+    class Rendered:
+        metadata = {"ok": True}
+
+    images = {"a.jpeg": Image.new("RGB", (4, 4)), "b.jpeg": Image.new("RGB", (0, 3))}
+    text = "x ![](a.jpeg) y ![](b.jpeg) z"
+    monkeypatch.setattr(marker_batch, "text_from_rendered", lambda r: (text, "md", images))
+    marker_batch.save_output(Rendered(), str(tmp_path), "P")
+    assert sorted(p.name for p in tmp_path.iterdir()) == ["P.md", "P_meta.json", "a.jpeg"]
+    assert (tmp_path / "P.md").read_text() == "x ![](a.jpeg) y  z"

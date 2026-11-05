@@ -2,7 +2,8 @@
 
 marker's batch CLI takes a flat folder and names outputs after the file stem,
 so this stage builds ``data/convert-input/<paper id>.pdf`` symlinks for papers
-that still need converting and hands that folder to ``marker``. Output lands in
+that still need converting and hands that folder to marker's batch CLI (via
+``sca.marker_batch``, which patches how outputs are saved). Output lands in
 ``data/markdown/<id>/<id>.md`` with ``<id>_meta.json`` and the extracted
 figures next to it.
 
@@ -17,6 +18,7 @@ whose page tree is gone), the paper is reported as unreadable and skipped.
 import re
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 import pypdfium2
@@ -114,7 +116,14 @@ def run(ids: list[str] | None = None, workers: int | None = None, limit: int | N
         print(f"UNREADABLE {paper.id} ({paper.rel_path}): skipped")
     if len(unreadable) == len(todo):
         return len(unreadable)
-    cmd = ["marker", str(INPUT_DIR), "--output_dir", str(paths.MARKDOWN_DIR)]
+    cmd = [
+        sys.executable,
+        "-m",
+        "sca.marker_batch",
+        str(INPUT_DIR),
+        "--output_dir",
+        str(paths.MARKDOWN_DIR),
+    ]
     cmd += ["--output_format", "markdown", "--skip_existing"]
     if workers:
         cmd += ["--workers", str(workers)]
