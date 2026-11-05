@@ -1,0 +1,14 @@
+# Hand overrides for the topic map (applied by `just topics`).
+#
+# Topic ids come from `just topics` output and are only stable while the
+# corpus and embeddings are unchanged: re-check this file after either changes.
+#
+# merge: fold the listed topics into the first id of each group.
+# rename: replace the c-TF-IDF keyword label of a topic.
+#
+# merge:
+#   - [6, 24]
+# rename:
+#   0: NMR relaxation
+merge: []
+rename: {}

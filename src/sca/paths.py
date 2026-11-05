@@ -22,8 +22,10 @@ METADATA_DIR = DATA_DIR / "metadata"
 EMBEDDINGS_DIR = DATA_DIR / "embeddings"
 TOPICS_DIR = DATA_DIR / "topics"
 CITATIONS_DIR = DATA_DIR / "citations"
+FIGURES_DIR = DATA_DIR / "figures"
 
 SITE_DIR = ROOT / "site"  # published static site
 SITE_DATA_DIR = SITE_DIR / "data"  # generated: papers.json, figures/, ...
+SITE_FIGURES_DIR = SITE_DATA_DIR / "figures"  # one small WebP thumbnail per paper
 
 PDF_BASE_URL = "https://www.jgmaas.com/SCA/"

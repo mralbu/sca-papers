@@ -9,6 +9,9 @@ requires-python = ">=3.12,<3.13"
 dependencies = [
     "marker-pdf>=2.0.0",
     "pypdfium2>=5.10.1",
+    "pyyaml>=6.0.3",
+    "sentence-transformers>=6.2.0",
+    "umap-learn>=0.5.12",
 ]
 
 [project.scripts]

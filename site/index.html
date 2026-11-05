@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SCA Papers Explorer</title>
+  <meta name="description" content="Interactive map of the Society of Core Analysts symposium papers (1987–2026), clustered by topic and sized by in-corpus citations.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/deck.gl@9.1.14/dist.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="bar">
+    <h1>SCA Papers Explorer</h1>
+    <span id="count" class="muted"></span>
+    <a class="muted" href="https://www.jgmaas.com/SCA/" target="_blank" rel="noopener">papers on jgmaas.com</a>
+  </header>
+
+  <aside id="controls" class="panel">
+    <label class="field">
+      <span>Search</span>
+      <input id="search" type="search" placeholder="title, author, abstract, ID…" autocomplete="off">
+    </label>
+    <ol id="results" class="results"></ol>
+
+    <div class="field">
+      <span>Years <output id="year-label"></output></span>
+      <div class="range2">
+        <input id="year-min" type="range" aria-label="first year">
+        <input id="year-max" type="range" aria-label="last year">
+      </div>
+    </div>
+
+    <label class="field">
+      <span>Point size</span>
+      <select id="size-by">
+        <option value="pagerank">PageRank (citation graph)</option>
+        <option value="cited_by">Times cited (in corpus)</option>
+        <option value="uniform">Uniform</option>
+      </select>
+    </label>
+
+    <div class="field">
+      <span>Topics
+        <button id="topics-all" class="link" type="button">all</button>
+        <button id="topics-none" class="link" type="button">none</button>
+      </span>
+      <ul id="topics" class="topics"></ul>
+    </div>
+  </aside>
+
+  <main id="map" aria-label="Map of papers"></main>
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <aside id="detail" class="panel detail" hidden>
+    <button id="close" class="close" type="button" aria-label="Close">×</button>
+    <p class="meta"><span id="d-id"></span> · <span id="d-year"></span> · <span id="d-topic" class="chip"></span></p>
+    <h2 id="d-title"></h2>
+    <p id="d-authors" class="muted"></p>
+    <p class="actions">
+      <a id="d-pdf" target="_blank" rel="noopener">Original PDF ↗</a>
+      <span id="d-scores" class="muted"></span>
+    </p>
+    <figure id="d-figure" hidden>
+      <img id="d-img" alt="" loading="lazy">
+      <figcaption id="d-caption"></figcaption>
+    </figure>
+    <section id="d-abstract-wrap">
+      <h3>Abstract</h3>
+      <p id="d-abstract"></p>
+    </section>
+    <section id="d-cited-wrap">
+      <h3>Cited by (in this corpus)</h3>
+      <ul id="d-cited" class="links"></ul>
+    </section>
+    <section id="d-cites-wrap">
+      <h3>Cites (in this corpus)</h3>
+      <ul id="d-cites" class="links"></ul>
+    </section>
+  </aside>
+</body>
+</html>

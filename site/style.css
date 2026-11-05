@@ -1,0 +1,102 @@
+:root {
+  --bg: #f7f6f2;
+  --panel: #ffffffee;
+  --text: #1d1d1f;
+  --muted: #6b6b70;
+  --line: #d9d7d0;
+  --accent: #2463c7;
+  --shadow: 0 2px 12px #0000001a;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121316;
+    --panel: #1c1d22ee;
+    --text: #e8e8ea;
+    --muted: #9a9aa2;
+    --line: #34353c;
+    --accent: #7aa7ff;
+    --shadow: 0 2px 12px #00000066;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+
+.bar {
+  position: fixed; inset: 0 0 auto 0; height: 44px; z-index: 3;
+  display: flex; align-items: center; gap: 16px; padding: 0 16px;
+  background: var(--panel); border-bottom: 1px solid var(--line);
+}
+.bar h1 { font-size: 15px; margin: 0; }
+.bar a { margin-left: auto; font-size: 13px; }
+
+#map { position: fixed; inset: 44px 0 0 314px; }
+
+.panel {
+  position: fixed; z-index: 2; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 10px; box-shadow: var(--shadow); backdrop-filter: blur(6px);
+}
+#controls {
+  top: 56px; left: 12px; bottom: 12px; width: 290px; padding: 12px; overflow: auto;
+}
+.field { display: block; margin-bottom: 14px; }
+.field > span { display: flex; gap: 8px; align-items: baseline; font-weight: 600; margin-bottom: 4px; }
+input[type="search"], select {
+  width: 100%; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px;
+  background: transparent; color: inherit; font: inherit;
+}
+.range2 { display: grid; gap: 2px; }
+.range2 input { width: 100%; }
+.link { background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font: inherit; font-weight: 400; }
+
+.results { list-style: none; margin: 0 0 12px; padding: 0; max-height: 34vh; overflow: auto; }
+.results li { padding: 4px 6px; border-radius: 6px; cursor: pointer; }
+.results li:hover, .links li:hover { background: #8881; }
+.results small { display: block; color: var(--muted); }
+
+.topics { list-style: none; margin: 0; padding: 0; }
+.topics li {
+  display: grid; grid-template-columns: 12px 1fr auto; gap: 8px; align-items: center;
+  padding: 3px 4px; border-radius: 6px; cursor: pointer; user-select: none;
+}
+.topics li.off { opacity: .35; }
+.topics li:hover { background: #8881; }
+.swatch { width: 12px; height: 12px; border-radius: 50%; }
+.topics .n { color: var(--muted); font-size: 12px; }
+
+.detail { top: 56px; right: 12px; bottom: 12px; width: 400px; padding: 16px 18px; overflow: auto; }
+.detail h2 { font-size: 17px; line-height: 1.3; margin: 4px 0 6px; }
+.detail h3 { font-size: 13px; margin: 18px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.detail .meta { margin: 0; font-size: 12px; color: var(--muted); }
+.chip { padding: 1px 8px; border-radius: 10px; color: #fff; }
+.actions { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.close { position: absolute; top: 6px; right: 10px; border: 0; background: none; color: var(--muted); font-size: 22px; cursor: pointer; }
+figure { margin: 12px 0 0; }
+figure img { width: 100%; height: auto; border-radius: 6px; background: #fff; }
+figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.links { list-style: none; margin: 0; padding: 0; }
+.links li { padding: 3px 6px; border-radius: 6px; cursor: pointer; }
+.links small { color: var(--muted); }
+
+.tooltip {
+  position: fixed; z-index: 4; pointer-events: none; max-width: 340px; padding: 6px 8px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow);
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  #map { left: 0; }
+  #controls { top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 40vh; }
+  .detail { inset: 52px 8px 8px 8px; width: auto; }
+  .bar a { display: none; }
+}

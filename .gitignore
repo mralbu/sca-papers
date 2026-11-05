@@ -1,8 +1,8 @@
-papers/
+/papers/
 .kata.local.toml
 
 # Local-only pipeline outputs (full-text markdown, intermediates). Never published.
-data/
+/data/
 
 # Python / uv
 .venv/

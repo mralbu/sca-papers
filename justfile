@@ -75,3 +75,30 @@ convert *args:
 # Stage 2: rule-based metadata (title, authors, abstract, references) -> data/metadata/. Args: paper IDs (prints them), --force
 metadata *args:
     uv run sca metadata {{args}}
+
+# Stage 3: embeddings -> data/embeddings/<model>/. Args: model names (bge-m3, specter2), --compare
+embed *args:
+    uv run sca embed {{args}}
+
+# Stage 4: 2D map + topics -> data/topics/topics.json (hand overrides in topics.yaml). Args: --model M, --force
+topics *args:
+    uv run sca topics {{args}}
+
+# Stage 5: citation graph + importance (cited_by, PageRank) -> data/citations/. Args: --force
+citations *args:
+    uv run sca citations {{args}}
+
+# Stage 6: figure index + one WebP thumbnail per paper -> data/figures/, site/data/figures/. Args: --force
+figures *args:
+    uv run sca figures {{args}}
+
+# Stage 7: export site/data/ (papers.json, topics.json) from the stage outputs
+site-data:
+    uv run sca site
+
+# Run every stage after convert, in order (each is cached/resumable)
+build: metadata embed topics citations figures site-data
+
+# Serve the site locally at http://localhost:8000
+serve:
+    python3 -m http.server -d site 8000

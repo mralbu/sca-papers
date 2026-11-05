@@ -57,19 +57,36 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
 3. **Embeddings:** title + abstract + first ~500 words of the introduction,
    embedded locally on the GPU with a scientific/general embedding model
    (SPECTER2, `bge-m3` or `nomic-embed`; pick during implementation).
+   Picked `bge-m3` (`just embed --compare`: neighbours' reference lists are
+   more alike than with SPECTER2, 0.158 vs 0.147 TF-IDF cosine; random 0.055).
+   `nomic-embed` was dropped: it needs `trust_remote_code`. Runs on MPS too
+   (~17 min for the corpus on an M4).
 4. **Topics/map:** UMAP → 2D, HDBSCAN clusters, c-TF-IDF keyword labels
    (BERTopic-style). Hand overrides (rename/merge) in a small `topics.yaml`.
+   HDBSCAN uses "leaf" selection (excess-of-mass collapses this corpus into
+   1–2 clusters); outliers are assigned to the nearest cluster but flagged.
+   Topic ids are not stable across re-runs once inputs change (re-embedding
+   20 papers moved 28 topics to 25), so re-check `topics.yaml` after rebuilds.
 5. **Importance:** (a) in-corpus citation counts from parsed reference lists,
    plus (d) PageRank-style centrality on the same citation graph. Matching
    references to corpus papers (explicit SCA IDs, fuzzy title/author/year
    matching) is the hardest step and the one most likely to be wrong; measure
-   match quality.
+   match quality. Hand check of `data/citations/sample.txt`: explicit IDs
+   30/30, title matches ~29/30, title-over-mistyped-ID 25/25 correct; 92% of
+   references that mention SCA are matched. Titles beat IDs on conflict
+   (cited IDs are often mistyped).
 6. **Site:** a static site, not a single HTML file: `index.html` + plain JS (no
    build step) + `papers.json` (metadata, coordinates, scores, summaries) +
    per-paper assets loaded lazily. A fast scatter library (`deck.gl` or
    `regl-scatterplot`), `MiniSearch` for search, year slider and topic
    filters, and a detail panel per paper. Deployed to GitHub Pages via a
    GitHub Action.
+   The Action cannot run the pipeline (no PDFs/markdown in CI), so the
+   generated `site/data/` is committed: rebuild with `just build`, commit,
+   push. Published per paper: title, authors, year, abstract (switch:
+   `INCLUDE_ABSTRACTS` in `site.py`), topic, coordinates, scores, in-corpus
+   citation links, one thumbnail + caption. Never reference lists or full text.
+   Paper text is untrusted: the front end only inserts it via `textContent`.
 
 ### Phase 2 — LLM features (deferred, not started)
 - **Summaries + structured metadata:** one call per paper returning JSON
