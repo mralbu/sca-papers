@@ -71,3 +71,7 @@ check:
 # Stage 1: convert PDFs to markdown with marker (data/markdown/<id>/). Args: paper IDs, --workers N, --limit N
 convert *args:
     uv run sca convert {{args}}
+
+# Stage 2: rule-based metadata (title, authors, abstract, references) -> data/metadata/. Args: paper IDs (prints them), --force
+metadata *args:
+    uv run sca metadata {{args}}

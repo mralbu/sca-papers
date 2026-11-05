@@ -31,6 +31,11 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   tree. mutool, qpdf and pikepdf all fail to recover pages, so convert skips it
   as unreadable.
 - 2020 has only one file; that year is effectively missing.
+- marker defects found while extracting metadata: `SCA2014-010` lost its whole
+  first page (title, authors, abstract) and `SCA2013-067` has its front matter
+  scrambled into one heading. Every other paper with a text layer kept page 1.
+- Some markdown has no title at all (marker dropped it; 21 papers, half of them
+  1988–1995 scans); metadata leaves `title` empty for those, never guesses.
 
 ## Decisions
 
@@ -88,8 +93,11 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   entry point.
 - Paper ID = PDF file stem without the `1-` prefix (`SCA2014-051`,
   `SCA1991-03EURO`, `SCA_2025_1011`), and it is unique across the corpus.
-- `data/` (git-ignored, local only): `inventory.json`, `markdown/<id>/`, and
-  the other stage intermediates.
+- `data/` (git-ignored, local only): `inventory.json`, `markdown/<id>/`,
+  `metadata/` (per-paper JSON in `papers/`, combined `metadata.json`, and a
+  per-year `report.txt` of missing fields), and the other stage intermediates.
+- `metadata.py` rules are heuristics tuned on the corpus. Bump its `VERSION`
+  when they change so cached per-paper outputs are redone.
 - `site/` (published): static site; generated data goes in `site/data/`.
 - `just check` runs pytest and ruff.
 
