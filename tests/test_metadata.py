@@ -229,3 +229,20 @@ def test_process_caches_and_reports(paper):
 
 def test_paper_without_markdown(paper):
     assert metadata.process(paper)["status"] == "no_markdown"
+
+
+def test_title_continuing_with_by_is_not_split():
+    md = (
+        "# A Mechanistic Study of Wettability Alterations in Sandstone by Low Salinity Water "
+        "Injection\n\nShijia Ma, L.A. James\n\n**Abstract.** " + "word " * 30
+    )
+    m = extract(md)
+    assert m.title.endswith("by Low Salinity Water Injection")
+    assert m.authors == ["Shijia Ma", "L.A. James"]
+
+
+def test_ocr_glued_by_splits_title_from_authors():
+    md = "ANALYSIS OF CENTRIFUGE DATAby Douglas Ruth University of Manitoba\n\n## Abstract\n\n"
+    m = extract(md + "word " * 30)
+    assert m.title == "ANALYSIS OF CENTRIFUGE DATA"
+    assert m.authors == ["Douglas Ruth"]

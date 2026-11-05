@@ -35,7 +35,7 @@ from pathlib import Path
 from sca import cache, corpus, paths
 from sca.corpus import Paper
 
-VERSION = 16  # bump when extraction rules change, to invalidate cached outputs
+VERSION = 18  # bump when extraction rules change, to invalidate cached outputs
 
 PAPERS_OUT = paths.METADATA_DIR / "papers"
 COMBINED = paths.METADATA_DIR / "metadata.json"
@@ -262,8 +262,15 @@ def _split_fused_title(raw: str) -> tuple[str, str]:
     if m and _words(clean_inline(m[1])) >= 3:
         return clean_inline(m[1]), m[2]
     text = clean_inline(raw)
-    text = re.sub(r"(?<=[A-Z0-9)])by(?=\s?[A-Z])", " by ", text)  # OCR: "METHODSbyA. E."
-    parts = re.split(r"\s+by\s+(?=[A-Z])", text, maxsplit=1)
+    # OCR glued "by" onto an all-caps title ("METHODSbyA. E.", "DATAby Douglas"): split.
+    glued = re.split(r"(?<=[A-Z0-9)]{2})by(?=\s?[A-Z])", text, maxsplit=1)
+    # Otherwise only before initials: "... METHODS by A. E. Worthington", not
+    # "... Sandstone by Low Salinity Water Injection" (a title that continues).
+    parts = (
+        glued
+        if len(glued) == 2
+        else re.split(r"\s+by\s+(?=(?:[A-Z][a-z]+\s)?[A-Z]\.)", text, maxsplit=1)
+    )
     if len(parts) == 2 and _words(parts[0]) >= 3:
         return parts[0], parts[1]
     m = re.match(r"^((?:[^a-z]*?[A-Z]{2,}[^a-z]*?))\s+(?=[A-Z][a-z]|[A-Z]\.\s?[A-Z])", text)
