@@ -1,0 +1,50 @@
+# Publish site/ to GitHub Pages. The pipeline runs locally (it needs the PDFs,
+# marker output and a GPU); this workflow only uploads the committed site/
+# folder: static files, derived data and figure thumbnails. Never full text or
+# PDFs, which the guard step enforces along with the Pages size limits.
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Guard published content and size limits
+        run: |
+          set -euo pipefail
+          # No full text or PDFs: only the site's own files and derived data.
+          bad=$(find site -type f \( -iname '*.pdf' -o -iname '*.md' \) -print)
+          if [ -n "$bad" ]; then echo "refusing to publish: $bad"; exit 1; fi
+          # GitHub Pages: 100 MB per file, 1 GB per site.
+          big=$(find site -type f -size +100M -print)
+          if [ -n "$big" ]; then echo "files over 100 MB: $big"; exit 1; fi
+          total=$(du -sk site | cut -f1)
+          echo "site size: $((total / 1024)) MB"
+          if [ "$total" -gt 1000000 ]; then echo "site over 1 GB"; exit 1; fi
+          test -s site/data/papers.json
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
