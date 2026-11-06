@@ -34,7 +34,7 @@ just download         # mirror the PDFs into papers/ (re-run to update)
 just dedup            # drop 1991/1992 preview PDFs (recorded in duplicates.txt)
 just convert          # PDF -> markdown with marker (slow; resumable)
 just build            # metadata, embeddings, topics, citations, figures, site data
-just summarize --all --batch   # AI summaries (Claude API, paid; then: just figures site-data)
+just summarize --all --batch   # AI summaries (Claude API, paid; then: just figures && just site-data)
 just serve            # preview the site at http://localhost:8000
 ```
 

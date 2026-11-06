@@ -125,7 +125,7 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   `filled` (which fields came from the LLM); the reading pane labels the
   summary as AI-generated and list cards show the TL;DR. `figures.py` uses
   the LLM's first figure pick (1,880 papers), falling back to the largest
-  captioned figure. Run `just figures site-data` after `summarize`.
+  captioned figure. Run `just figures && just site-data` after `summarize` (`just figures site-data` would pass `site-data` to figures as an argument).
 - **Model:** Sonnet 5.5 via the Batch API. Full run done 2026-11-06: 2,064
   papers, $33.30 including the sample tests, no failures. 20-paper test
   (`data/llm/sample.txt`, `data/llm/compare.html`): Haiku 5.5 summaries were
