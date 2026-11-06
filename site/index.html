@@ -13,6 +13,10 @@
 <body>
   <header class="bar">
     <h1>SCA Papers Explorer</h1>
+    <nav class="views" role="tablist" aria-label="View">
+      <button role="tab" data-view="list" aria-selected="true">List</button>
+      <button role="tab" data-view="map" aria-selected="false">Map</button>
+    </nav>
     <span id="count" class="muted"></span>
     <a class="muted" href="https://www.jgmaas.com/SCA/" target="_blank" rel="noopener">papers on jgmaas.com</a>
   </header>
@@ -22,18 +26,18 @@
       <span>Search</span>
       <input id="search" type="search" placeholder="title, author, abstract, ID…" autocomplete="off">
     </label>
-    <ol id="results" class="results"></ol>
+    <ol id="results" class="results map-only"></ol>
 
     <div class="field">
-      <span>Years <output id="year-label"></output></span>
-      <div class="range2">
-        <div class="track"><div id="year-fill" class="fill"></div></div>
-        <input id="year-min" type="range" aria-label="first year">
-        <input id="year-max" type="range" aria-label="last year">
+      <span>Years <button id="years-reset" class="link" type="button" hidden>reset</button></span>
+      <div class="years">
+        <input id="year-min" type="number" inputmode="numeric" aria-label="First year">
+        <span class="muted">to</span>
+        <input id="year-max" type="number" inputmode="numeric" aria-label="Last year">
       </div>
     </div>
 
-    <label class="field">
+    <label class="field map-only">
       <span>Point size</span>
       <select id="size-by">
         <option value="pagerank">PageRank (citation graph)</option>
@@ -50,35 +54,69 @@
       <ul id="topics" class="topics"></ul>
     </div>
   </aside>
+  <div class="resizer" data-side="left" title="Drag to resize, double-click to reset"></div>
 
-  <main id="map" aria-label="Map of papers"></main>
+  <main id="main">
+    <section id="list-view" class="view" aria-label="List of papers">
+      <div class="list-bar">
+        <span id="list-count" class="muted"></span>
+        <label>Sort
+          <select id="sort">
+            <option value="relevance" disabled>Best match</option>
+            <option value="newest" selected>Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="cited">Most cited</option>
+            <option value="pagerank">PageRank</option>
+          </select>
+        </label>
+      </div>
+      <ol id="list" class="feed"></ol>
+      <div id="list-more" class="muted list-more"></div>
+    </section>
+    <section id="map-view" class="view" aria-label="Map of papers" hidden>
+      <div id="map"></div>
+    </section>
+  </main>
   <div id="tooltip" class="tooltip" hidden></div>
 
-  <aside id="detail" class="panel detail" hidden>
-    <button id="close" class="close" type="button" aria-label="Close">×</button>
-    <p class="meta"><span id="d-id"></span> · <span id="d-year"></span> · <span id="d-topic" class="chip"></span></p>
-    <h2 id="d-title"></h2>
-    <p id="d-authors" class="muted"></p>
-    <p class="actions">
-      <a id="d-pdf" target="_blank" rel="noopener">Original PDF ↗</a>
-      <span id="d-scores" class="muted"></span>
-    </p>
-    <figure id="d-figure" hidden>
-      <img id="d-img" alt="" loading="lazy">
-      <figcaption id="d-caption"></figcaption>
-    </figure>
-    <section id="d-abstract-wrap">
-      <h3>Abstract</h3>
-      <p id="d-abstract"></p>
-    </section>
-    <section id="d-cited-wrap">
-      <h3>Cited by (in this corpus)</h3>
-      <ul id="d-cited" class="links"></ul>
-    </section>
-    <section id="d-cites-wrap">
-      <h3>Cites (in this corpus)</h3>
-      <ul id="d-cites" class="links"></ul>
-    </section>
+  <aside id="detail" class="panel detail" hidden aria-labelledby="d-title">
+    <div class="resizer" data-side="right" title="Drag to resize, double-click to reset"></div>
+    <div class="d-bar">
+      <p class="meta"><span id="d-id"></span> · <span id="d-year"></span></p>
+      <button id="wide" class="icon" type="button" aria-pressed="false" title="Reading mode (R)">⤢</button>
+      <button id="close" class="icon" type="button" aria-label="Close" title="Close (Esc)">×</button>
+    </div>
+    <article class="d-body">
+      <button id="d-topic" class="chip" type="button" title="Show only this topic"></button>
+      <h2 id="d-title"></h2>
+      <p id="d-authors" class="authors"></p>
+      <div class="d-actions">
+        <a id="d-pdf" class="btn primary" target="_blank" rel="noopener">Read PDF ↗</a>
+        <button id="d-copy" class="btn" type="button">Copy link</button>
+      </div>
+      <dl class="stats">
+        <div><dt>Cited by</dt><dd id="d-cited-n"></dd></div>
+        <div><dt>Cites</dt><dd id="d-cites-n"></dd></div>
+        <div><dt>PageRank</dt><dd id="d-rank"></dd></div>
+      </dl>
+      <section id="d-abstract-wrap">
+        <h3>Abstract</h3>
+        <p id="d-abstract" class="abstract"></p>
+      </section>
+      <figure id="d-figure" hidden>
+        <img id="d-img" alt="" loading="lazy">
+        <figcaption id="d-caption"></figcaption>
+      </figure>
+      <section class="related">
+        <div class="tabs" role="tablist">
+          <button role="tab" data-tab="similar" aria-selected="true">Similar <span id="n-similar"></span></button>
+          <button role="tab" data-tab="cited">Cited by <span id="n-cited"></span></button>
+          <button role="tab" data-tab="cites">Cites <span id="n-cites"></span></button>
+        </div>
+        <ul id="d-related" class="cards"></ul>
+        <p id="d-related-empty" class="muted" hidden></p>
+      </section>
+    </article>
   </aside>
 </body>
 </html>

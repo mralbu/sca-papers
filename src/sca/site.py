@@ -10,14 +10,124 @@ Set ``INCLUDE_ABSTRACTS = False`` to publish without abstracts.
 """
 
 import json
+import re
 from collections import defaultdict
 
-from sca import cache, citations, figures, metadata, paths, topics
+import numpy as np
+
+from sca import cache, citations, embed, figures, metadata, paths, topics
 
 INCLUDE_ABSTRACTS = True
 PAPERS_JSON = paths.SITE_DATA_DIR / "papers.json"
 TOPICS_JSON = paths.SITE_DATA_DIR / "topics.json"
 MAX_FILE_BYTES = 100 * 10**6  # GitHub Pages per-file limit
+N_SIMILAR = 8
+
+# Kept upper case when an ALL-CAPS title is re-cased for display.
+ACRONYMS = {
+    "NMR",
+    "SCAL",
+    "RCAL",
+    "CT",
+    "MRI",
+    "EOR",
+    "IOR",
+    "CO2",
+    "SEM",
+    "XRD",
+    "MICP",
+    "USBM",
+    "FIB",
+    "DRP",
+    "LSW",
+    "SAGD",
+    "API",
+    "PVT",
+    "MCT",
+    "NAPL",
+    "DNAPL",
+    "LNAPL",
+    "UK",
+    "USA",
+    "II",
+    "III",
+    "IV",
+    "ESEM",
+    "CPMG",
+    "T1",
+    "T2",
+    "H2",
+    "CH4",
+    "N2",
+    "GPU",
+    "3D",
+    "2D",
+    "4D",
+    "1D",
+    "AI",
+    "ML",
+    "CNN",
+    "PNM",
+    "LBM",
+    "TOC",
+    "HPHT",
+    "PFG",
+    "PGSE",
+    "DDIF",
+}
+SPECIAL = {"PH": "pH"}
+SMALL_WORDS = {
+    "a",
+    "an",
+    "and",
+    "as",
+    "at",
+    "by",
+    "for",
+    "from",
+    "in",
+    "into",
+    "of",
+    "on",
+    "or",
+    "the",
+    "to",
+    "vs",
+    "via",
+    "with",
+}
+
+
+def display_title(title: str) -> str:
+    """Title-case a title that is mostly upper case; leave mixed-case titles alone."""
+    letters = [c for c in title if c.isalpha()]
+    if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.8:
+        return title
+
+    def word(m: re.Match, first: bool) -> str:
+        w = m.group(0)
+        if w in SPECIAL:
+            return SPECIAL[w]
+        if w in ACRONYMS or any(c.isdigit() for c in w) or not re.search(r"[AEIOUY]", w):
+            return w
+        lw = w.lower()
+        return lw if lw in SMALL_WORDS and not first else lw[:1].upper() + lw[1:]
+
+    out, first = [], True
+    for part in re.split(r"(\s+)", title):
+        out.append(re.sub(r"[A-Za-z0-9]+", lambda m, f=first: word(m, f), part))
+        if part.strip():
+            first = part.endswith(":")
+    return "".join(out)
+
+
+def similar(model: str, k: int = N_SIMILAR) -> dict[str, list[str]]:
+    """The k nearest papers to each paper by cosine similarity (vectors are L2-normalised)."""
+    ids, vectors = embed.load(model)
+    sims = vectors @ vectors.T
+    np.fill_diagonal(sims, -np.inf)
+    top = np.argsort(-sims, axis=1)[:, :k]
+    return {pid: [ids[j] for j in row] for pid, row in zip(ids, top, strict=True)}
 
 
 def build() -> tuple[list[dict], list[dict]]:
@@ -25,6 +135,7 @@ def build() -> tuple[list[dict], list[dict]]:
     topic_data = json.loads(topics.OUTPUT.read_text(encoding="utf-8"))
     cite_data = json.loads(citations.OUTPUT.read_text(encoding="utf-8"))
     fig_index = json.loads(figures.INDEX.read_text(encoding="utf-8"))
+    neighbours = similar(topic_data["model"])
     cites, cited = defaultdict(list), defaultdict(list)
     for e in cite_data["edges"]:
         cites[e["source"]].append(e["target"])
@@ -38,7 +149,7 @@ def build() -> tuple[list[dict], list[dict]]:
         pick = (fig_index.get(r["id"]) or {}).get("pick")
         paper = {
             "id": r["id"],
-            "title": r["title"] or r["id"],
+            "title": display_title(r["title"]) if r["title"] else r["id"],
             "authors": r["authors"],
             "year": r["year"],
             "series": r["series"],
@@ -51,6 +162,7 @@ def build() -> tuple[list[dict], list[dict]]:
             "pagerank": score["pagerank"],
             "cites": sorted(cites[r["id"]]),
             "cited": sorted(cited[r["id"]]),
+            "similar": neighbours.get(r["id"], []),
             "figure": f"data/figures/{r['id']}.webp" if pick else None,
             "caption": pick["caption"] if pick else None,
         }

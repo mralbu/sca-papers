@@ -17,6 +17,9 @@ const state = {
   matches: null, // Set of ids matching the search, or null
   selected: null,
   hover: null,
+  view: "list", // "list" | "map"
+  sort: "newest",
+  hitRank: null, // Map id -> search rank, or null
 };
 let deck;
 let search;
@@ -54,9 +57,16 @@ function radius(p) {
 }
 
 function render() {
-  const { ScatterplotLayer, LineLayer } = deck_gl();
   const shown = state.papers.filter(visible);
   $("count").textContent = `${shown.length} of ${state.papers.length} papers`;
+  document.body.classList.toggle("has-detail", !!state.selected);
+  renderList(shown);
+  renderMap(shown);
+}
+
+function renderMap(shown) {
+  if (!deck) return;
+  const { ScatterplotLayer, LineLayer } = deck_gl();
   const sel = state.selected && state.byId.get(state.selected);
   const links = sel
     ? [...sel.cites.map((t) => [sel, t]), ...sel.cited.map((s) => [s, sel.id])]
@@ -90,11 +100,25 @@ function render() {
       getFillColor: (p) => [...state.topics.get(p.topic).rgb, p.outlier ? 150 : 215],
       stroked: true,
       lineWidthUnits: "pixels",
-      getLineWidth: (p) => (p.id === state.selected ? 2.5 : 0.4),
-      getLineColor: (p) => (p.id === state.selected ? [20, 20, 20, 255] : [255, 255, 255, 120]),
-      updateTriggers: { getRadius: state.sizeBy, getLineWidth: state.selected, getLineColor: state.selected },
+      getLineWidth: 0.4,
+      getLineColor: [255, 255, 255, 120],
+      updateTriggers: { getRadius: state.sizeBy },
       onHover: ({ object, x, y }) => tooltip(object, x, y),
       onClick: ({ object }) => object && select(object.id),
+    }),
+    // Selection marker: an accent ring with a halo so it shows on light and dark maps.
+    new ScatterplotLayer({
+      id: "selected",
+      data: sel ? [sel, sel] : [],
+      getPosition: (p) => [p.x * WORLD, (1 - p.y) * WORLD],
+      getRadius: (p) => radius(p) + 6,
+      radiusUnits: "pixels",
+      filled: false,
+      stroked: true,
+      lineWidthUnits: "pixels",
+      getLineWidth: (_, { index }) => (index ? 2.5 : 6),
+      getLineColor: (_, { index }) => (index ? labelTheme().accent : [...labelTheme().pill.slice(0, 3), 200]),
+      updateTriggers: { getRadius: state.sizeBy, getLineColor: labelTheme().key },
     }),
   ];
   state.baseLayers = layers;
@@ -102,7 +126,7 @@ function render() {
   updateLabels(true);
 }
 
-const LABEL_FONT = "600 13px system-ui, -apple-system, Segoe UI, sans-serif";
+const LABEL_FONT = "600 14px system-ui, -apple-system, Segoe UI, sans-serif";
 const LABEL_GAP = 4; // px between label pills
 
 // Pill size in pixels (text + padding + border), measured once per label.
@@ -110,7 +134,7 @@ function labelBox(t) {
   if (!t.box) {
     const ctx = (labelBox.ctx ||= document.createElement("canvas").getContext("2d"));
     ctx.font = LABEL_FONT;
-    t.box = [ctx.measureText(t.short).width + 15, 22];
+    t.box = [ctx.measureText(t.short).width + 15, 23];
   }
   return t.box;
 }
@@ -135,7 +159,7 @@ function placeLabels(zoom) {
 
 function updateLabels(force = false) {
   if (!state.baseLayers) return;
-  const data = placeLabels(state.view?.zoom ?? state.zoom);
+  const data = placeLabels(state.mapView?.zoom ?? state.zoom);
   const key = data.map((t) => t.id).join(",");
   if (!force && key === state.labelKey) return;
   state.labelKey = key;
@@ -145,7 +169,7 @@ function updateLabels(force = false) {
     data,
     getPosition: (t) => [t.x * WORLD, (1 - t.y) * WORLD],
     getText: (t) => t.short,
-    getSize: 13,
+    getSize: 14,
     getColor: theme.text,
     fontWeight: 600,
     fontFamily: "system-ui, -apple-system, Segoe UI, sans-serif",
@@ -169,8 +193,8 @@ function labelTheme() {
     ? document.documentElement.dataset.theme === "dark"
     : matchMedia("(prefers-color-scheme: dark)").matches;
   return dark
-    ? { key: "dark", text: [235, 235, 238, 255], pill: [24, 25, 30, 225] }
-    : { key: "light", text: [29, 29, 31, 255], pill: [255, 255, 255, 230] };
+    ? { key: "dark", text: [235, 235, 238, 255], pill: [24, 25, 30, 225], accent: [122, 167, 255, 255] }
+    : { key: "light", text: [29, 29, 31, 255], pill: [255, 255, 255, 230], accent: [36, 99, 199, 255] };
 }
 
 function deck_gl() {
@@ -213,19 +237,21 @@ function select(id) {
   const panel = $("detail");
   if (!p) {
     panel.hidden = true;
-    render();
+    refreshSelection();
     return;
   }
   const topic = state.topics.get(p.topic);
-  $("d-id").textContent = p.id + (p.series === "euro" ? " (European symposium)" : "");
+  $("d-id").textContent = p.id + (p.series === "euro" ? " · European symposium" : "");
   $("d-year").textContent = p.year;
   $("d-topic").textContent = topic.label;
   $("d-topic").style.background = css(topic.rgb);
   $("d-title").textContent = p.title;
   $("d-authors").textContent = p.authors.join(", ") || "Authors not extracted";
   $("d-pdf").href = p.url;
-  const rank = state.rankOf.get(p.id);
-  $("d-scores").textContent = `cited ${p.cited_by}× in corpus · PageRank #${rank}`;
+  $("d-cited-n").textContent = p.cited.length;
+  $("d-cites-n").textContent = p.cites.length;
+  $("d-rank").textContent = `#${state.rankOf.get(p.id)}`;
+  $("d-rank").title = `of ${state.papers.length} papers, by PageRank on the in-corpus citation graph`;
   const fig = $("d-figure");
   fig.hidden = !p.figure;
   if (p.figure) {
@@ -234,30 +260,264 @@ function select(id) {
   }
   $("d-abstract-wrap").hidden = !p.abstract;
   $("d-abstract").textContent = p.abstract || "";
-  fillLinks("d-cited", p.cited);
-  fillLinks("d-cites", p.cites);
+  $("n-similar").textContent = p.similar.length;
+  $("n-cited").textContent = p.cited.length;
+  $("n-cites").textContent = p.cites.length;
+  showRelated();
   panel.hidden = false;
-  panel.scrollTop = 0;
-  render();
+  panel.querySelector(".d-body").scrollTop = 0;
+  refreshSelection();
 }
 
-function fillLinks(listId, ids) {
-  const items = ids.map((i) => state.byId.get(i)).filter(Boolean).sort((a, b) => b.year - a.year);
-  $(`${listId}-wrap`).hidden = !items.length;
-  $(listId).replaceChildren(...items.map((q) => paperItem(q, () => focus(q.id))));
+// Selection changes don't refilter anything: update the map and card highlight
+// without rebuilding the list (which would lose its scroll position).
+function refreshSelection() {
+  document.body.classList.toggle("has-detail", !!state.selected);
+  markSelectedCard();
+  renderMap(state.papers.filter(visible));
+}
+
+const RELATED_EMPTY = {
+  similar: "No similar papers.",
+  cited: "Not cited by other papers in this corpus (as far as the reference matching can tell).",
+  cites: "No references matched to papers in this corpus.",
+};
+
+function showRelated(tab = state.tab || "similar") {
+  state.tab = tab;
+  for (const b of document.querySelectorAll(".tabs button")) b.setAttribute("aria-selected", b.dataset.tab === tab);
+  const p = state.byId.get(state.selected);
+  if (!p) return;
+  let items = p[tab].map((i) => state.byId.get(i)).filter(Boolean);
+  if (tab !== "similar") items = items.sort((a, b) => b.year - a.year); // similar stays in rank order
+  $("d-related").replaceChildren(...items.map(relatedCard));
+  $("d-related-empty").hidden = items.length > 0;
+  $("d-related-empty").textContent = RELATED_EMPTY[tab];
+}
+
+function relatedCard(q) {
+  const li = document.createElement("li");
+  li.tabIndex = 0;
+  const t = document.createElement("span");
+  t.className = "t";
+  t.textContent = q.title;
+  const m = document.createElement("span");
+  m.className = "m";
+  const dot = document.createElement("span");
+  dot.className = "dot";
+  dot.style.background = css(state.topics.get(q.topic).rgb);
+  const who = q.authors.length ? q.authors[0].split(" ").at(-1) + (q.authors.length > 1 ? " et al." : "") : q.id;
+  m.append(dot, `${q.year} · ${who}` + (q.cited_by ? ` · cited ${q.cited_by}×` : ""));
+  li.append(t, m);
+  li.addEventListener("click", () => focus(q.id));
+  li.addEventListener("keydown", (e) => e.key === "Enter" && focus(q.id));
+  return li;
+}
+
+function setWide(on) {
+  $("detail").classList.toggle("wide", on);
+  $("wide").setAttribute("aria-pressed", on);
+  try {
+    localStorage.setItem("wide", on ? "1" : "");
+  } catch {}
 }
 
 function focus(id) {
   const p = state.byId.get(id);
   if (!p) return;
   select(id);
+  scrollListTo(id);
+  const zoom = Math.max(state.mapView?.zoom ?? 0, 1.2);
   deck.setProps({
     initialViewState: {
       target: [p.x * WORLD, (1 - p.y) * WORLD, 0],
-      zoom: Math.max(state.view?.zoom ?? 0, 1.2),
+      zoom,
       transitionDuration: 500,
     },
   });
+}
+
+// ---- List view -------------------------------------------------------------
+
+const PAGE = 60; // cards rendered per batch; more are appended on scroll
+
+const SORTS = {
+  relevance: (a, b) => state.hitRank.get(a.id) - state.hitRank.get(b.id),
+  newest: (a, b) => b.year - a.year || a.id.localeCompare(b.id),
+  oldest: (a, b) => a.year - b.year || a.id.localeCompare(b.id),
+  cited: (a, b) => b.cited_by - a.cited_by || b.pagerank - a.pagerank,
+  pagerank: (a, b) => b.pagerank - a.pagerank,
+};
+
+function renderList(shown) {
+  const sort = state.sort === "relevance" && !state.hitRank ? "newest" : state.sort;
+  state.listItems = [...shown].sort(SORTS[sort]);
+  state.listShown = 0;
+  state.listSort = sort;
+  $("list").replaceChildren();
+  $("list-count").textContent = state.matches
+    ? `${shown.length} matching paper${shown.length === 1 ? "" : "s"}`
+    : `${shown.length} papers`;
+  appendCards();
+}
+
+function appendCards(upTo = state.listShown + PAGE) {
+  const items = state.listItems, list = $("list");
+  const byYear = state.listSort === "newest" || state.listSort === "oldest";
+  const frag = document.createDocumentFragment();
+  for (let i = state.listShown; i < Math.min(upTo, items.length); i++) {
+    const p = items[i];
+    if (byYear && (i === 0 || items[i - 1].year !== p.year)) {
+      const h = document.createElement("li");
+      h.className = "year-head";
+      h.textContent = p.year;
+      frag.append(h);
+    }
+    frag.append(card(p));
+  }
+  state.listShown = Math.min(upTo, items.length);
+  list.append(frag);
+  const left = items.length - state.listShown;
+  $("list-more").textContent = left > 0 ? `Scroll for ${left} more…` : items.length ? "" : "No papers match the filters.";
+}
+
+function card(p) {
+  const li = document.createElement("li");
+  li.className = "card" + (p.id === state.selected ? " on" : "");
+  li.dataset.id = p.id;
+  li.tabIndex = 0;
+  const body = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "c-meta";
+  const topic = state.topics.get(p.topic);
+  const dot = document.createElement("span");
+  dot.className = "dot";
+  dot.style.background = css(topic.rgb);
+  const metaText = document.createElement("span");
+  metaText.textContent = `${topic.short} · ${p.year} · ${p.id}`;
+  meta.append(dot, metaText);
+  const h = document.createElement("h3");
+  h.textContent = p.title;
+  const au = document.createElement("p");
+  au.className = "c-authors";
+  au.textContent = p.authors.join(", ") || "Authors not extracted";
+  body.append(meta, h, au);
+  if (p.abstract) {
+    const ab = document.createElement("p");
+    ab.className = "c-abs";
+    ab.textContent = p.abstract;
+    body.append(ab);
+  }
+  if (p.cited_by) {
+    const foot = document.createElement("div");
+    foot.className = "c-foot";
+    foot.textContent = `Cited by ${p.cited_by} in this corpus`;
+    body.append(foot);
+  }
+  li.append(body);
+  if (p.figure) {
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.alt = "";
+    img.src = p.figure;
+    li.append(img);
+  }
+  return li;
+}
+
+function scrollListTo(id) {
+  if (state.view !== "list") return;
+  let el = $("list").querySelector(`[data-id="${CSS.escape(id)}"]`);
+  if (!el) {
+    const i = state.listItems.findIndex((p) => p.id === id);
+    if (i < 0) return;
+    appendCards(i + PAGE);
+    el = $("list").querySelector(`[data-id="${CSS.escape(id)}"]`);
+  }
+  el?.scrollIntoView({ block: "nearest" });
+}
+
+function markSelectedCard() {
+  for (const el of $("list").querySelectorAll(".card.on")) el.classList.remove("on");
+  if (state.selected) $("list").querySelector(`[data-id="${CSS.escape(state.selected)}"]`)?.classList.add("on");
+}
+
+function setupList() {
+  const list = $("list");
+  const open = (e) => {
+    const el = e.target.closest(".card");
+    if (el) select(el.dataset.id);
+  };
+  list.addEventListener("click", open);
+  list.addEventListener("keydown", (e) => e.key === "Enter" && open(e));
+  $("list-view").addEventListener("scroll", (e) => {
+    const v = e.target;
+    if (v.scrollTop + v.clientHeight > v.scrollHeight - 800 && state.listShown < state.listItems.length) appendCards();
+  });
+  $("sort").addEventListener("change", (e) => {
+    state.sort = e.target.value;
+    $("list-view").scrollTop = 0;
+    render();
+  });
+}
+
+function setView(view) {
+  state.view = view;
+  document.body.classList.toggle("map", view === "map");
+  $("list-view").hidden = view !== "list";
+  $("map-view").hidden = view !== "map";
+  for (const b of document.querySelectorAll(".views button")) b.setAttribute("aria-selected", b.dataset.view === view);
+  if (view === "list" && state.selected) scrollListTo(state.selected);
+  try {
+    localStorage.setItem("view", view);
+  } catch {}
+}
+
+// ---- Resizable sidebars -------------------------------------------------------
+
+const WIDTHS = { left: [310, 220, 480], right: [560, 360, 1100] }; // default, min, max
+
+function setWidth(side, px) {
+  const [, min, max] = WIDTHS[side];
+  const room = innerWidth - (side === "left" ? state.widths.right : state.widths.left) - 320;
+  state.widths[side] = Math.round(Math.max(min, Math.min(px, max, room)));
+  document.documentElement.style.setProperty(`--${side}-w`, `${state.widths[side]}px`);
+}
+
+function setupResizers() {
+  state.widths = { left: WIDTHS.left[0], right: WIDTHS.right[0] };
+  try {
+    const saved = JSON.parse(localStorage.getItem("widths") || "{}");
+    for (const side of ["left", "right"]) if (saved[side]) state.widths[side] = saved[side];
+  } catch {}
+  for (const side of ["left", "right"]) setWidth(side, state.widths[side]);
+  const save = () => {
+    try {
+      localStorage.setItem("widths", JSON.stringify(state.widths));
+    } catch {}
+  };
+  for (const el of document.querySelectorAll(".resizer")) {
+    const side = el.dataset.side;
+    el.addEventListener("pointerdown", (e) => {
+      e.preventDefault();
+      el.setPointerCapture(e.pointerId);
+      document.body.classList.add("resizing");
+      const move = (ev) => setWidth(side, side === "left" ? ev.clientX - 12 : innerWidth - 12 - ev.clientX);
+      const up = () => {
+        el.removeEventListener("pointermove", move);
+        el.removeEventListener("pointerup", up);
+        document.body.classList.remove("resizing");
+        save();
+      };
+      el.addEventListener("pointermove", move);
+      el.addEventListener("pointerup", up);
+    });
+    el.addEventListener("dblclick", () => {
+      setWidth(side, WIDTHS[side][0]);
+      save();
+    });
+  }
+  addEventListener("resize", () => ["left", "right"].forEach((side) => setWidth(side, state.widths[side])));
 }
 
 function buildTopicList() {
@@ -266,7 +526,7 @@ function buildTopicList() {
   ul.replaceChildren(
     ...sorted.map((t) => {
       const li = document.createElement("li");
-      li.title = t.keywords.join(", ");
+      li.title = `${t.keywords.join(", ")}\n\nClick to toggle, double-click to show only this topic`;
       const sw = document.createElement("span");
       sw.className = "swatch";
       sw.style.background = css(t.rgb);
@@ -285,6 +545,14 @@ function buildTopicList() {
         syncTopicList();
         render();
       });
+      // Double-click: show only this topic (the two clicks before it cancel out).
+      // Double-clicking the only visible topic again shows all topics.
+      li.addEventListener("dblclick", () => {
+        const solo = state.hiddenTopics.size === state.topics.size - 1 && !state.hiddenTopics.has(t.id);
+        state.hiddenTopics = solo ? new Set() : new Set([...state.topics.keys()].filter((k) => k !== t.id));
+        syncTopicList();
+        render();
+      });
       t.li = li;
       return li;
     })
@@ -299,30 +567,49 @@ function setupYears() {
   const years = state.papers.map((p) => p.year);
   const lo = Math.min(...years);
   const hi = Math.max(...years);
-  for (const el of [$("year-min"), $("year-max")]) Object.assign(el, { min: lo, max: hi, step: 1 });
-  $("year-min").value = state.yearMin = lo;
-  $("year-max").value = state.yearMax = hi;
-  // Knobs can't cross: the one being dragged stops at the other's value.
-  const update = (moved) => {
-    const minEl = $("year-min"), maxEl = $("year-max");
-    if (+minEl.value > +maxEl.value) {
-      if (moved === minEl) minEl.value = maxEl.value;
-      else maxEl.value = minEl.value;
-    }
-    const a = +minEl.value, b = +maxEl.value;
-    state.yearMin = a;
-    state.yearMax = b;
-    // When both knobs sit at the right end, keep the first-year knob on top so it can still move.
-    minEl.style.zIndex = a === hi ? 2 : "";
-    const pct = (v) => ((v - lo) / (hi - lo || 1)) * 100;
-    Object.assign($("year-fill").style, { left: `${pct(a)}%`, width: `${pct(b) - pct(a)}%` });
-    $("year-label").textContent = a === b ? `${a}` : `${a}–${b}`;
+  const minEl = $("year-min"), maxEl = $("year-max");
+  for (const el of [minEl, maxEl]) Object.assign(el, { min: lo, max: hi, step: 1, placeholder: "" });
+  minEl.placeholder = lo;
+  maxEl.placeholder = hi;
+  minEl.value = state.yearMin = lo;
+  maxEl.value = state.yearMax = hi;
+
+  // Parse a box: empty means the default end; anything else must be a year in range.
+  const read = (el, fallback) => {
+    const v = el.value.trim();
+    if (!v) return fallback;
+    const n = Number(v);
+    return Number.isInteger(n) && n >= lo && n <= hi ? n : null;
+  };
+  // Apply while typing once both boxes hold valid years (so "20" mid-typing doesn't filter).
+  const apply = () => {
+    const a = read(minEl, lo), b = read(maxEl, hi);
+    minEl.classList.toggle("bad", a === null);
+    maxEl.classList.toggle("bad", b === null);
+    if (a === null || b === null) return;
+    [state.yearMin, state.yearMax] = a <= b ? [a, b] : [b, a];
+    $("years-reset").hidden = state.yearMin === lo && state.yearMax === hi;
     render();
   };
-  $("year-min").addEventListener("input", (e) => update(e.target));
-  $("year-max").addEventListener("input", (e) => update(e.target));
-  Object.assign($("year-fill").style, { left: "0%", width: "100%" });
-  $("year-label").textContent = `${lo}–${hi}`;
+  // On leaving a box (or Enter), tidy up: fill empty/invalid boxes and order the pair.
+  const settle = () => {
+    apply();
+    minEl.value = state.yearMin;
+    maxEl.value = state.yearMax;
+    minEl.classList.remove("bad");
+    maxEl.classList.remove("bad");
+  };
+  for (const el of [minEl, maxEl]) {
+    el.addEventListener("input", apply);
+    el.addEventListener("change", settle);
+    el.addEventListener("keydown", (e) => e.key === "Enter" && settle());
+    el.addEventListener("focus", () => el.select());
+  }
+  $("years-reset").addEventListener("click", () => {
+    minEl.value = lo;
+    maxEl.value = hi;
+    settle();
+  });
 }
 
 function setupSearch() {
@@ -347,14 +634,24 @@ function setupSearch() {
 function runSearch() {
   const q = $("search").value.trim();
   const list = $("results");
+  const sortEl = $("sort");
   if (!q) {
-    state.matches = null;
+    state.matches = state.hitRank = null;
+    sortEl.querySelector('[value="relevance"]').disabled = true;
+    if (state.sort === "relevance") sortEl.value = state.sort = state.sortBeforeSearch || "newest";
     list.replaceChildren();
     render();
     return;
   }
   const hits = search.search(q);
   state.matches = new Set(hits.map((h) => h.id));
+  state.hitRank = new Map(hits.map((h, i) => [h.id, i]));
+  sortEl.querySelector('[value="relevance"]').disabled = false;
+  if (state.sort !== "relevance") {
+    state.sortBeforeSearch = state.sort;
+    sortEl.value = state.sort = "relevance";
+  }
+  $("list-view").scrollTop = 0;
   list.replaceChildren(
     ...hits.slice(0, 40).map((h) => paperItem(state.byId.get(h.id), () => focus(h.id)))
   );
@@ -368,6 +665,7 @@ function runSearch() {
 }
 
 async function main() {
+  setupResizers(); // before measuring the map, so it starts at its final size
   const [papers, topics] = await Promise.all([
     fetch("data/papers.json").then((r) => r.json()),
     fetch("data/topics.json").then((r) => r.json()),
@@ -395,7 +693,7 @@ async function main() {
     initialViewState: { target: [WORLD / 2, WORLD / 2, 0], zoom, minZoom: zoom - 1, maxZoom: 6 },
     controller: { doubleClickZoom: true },
     onViewStateChange: ({ viewState }) => {
-      state.view = viewState;
+      state.mapView = viewState;
       updateLabels();
       return viewState;
     },
@@ -404,6 +702,13 @@ async function main() {
   });
 
   buildTopicList();
+  setupList();
+  for (const b of document.querySelectorAll(".views button")) b.addEventListener("click", () => setView(b.dataset.view));
+  try {
+    setView(localStorage.getItem("view") === "map" ? "map" : "list");
+  } catch {
+    setView("list");
+  }
   setupYears();
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => render());
   setupSearch();
@@ -422,7 +727,32 @@ async function main() {
     render();
   });
   $("close").addEventListener("click", () => select(null));
-  document.addEventListener("keydown", (e) => e.key === "Escape" && select(null));
+  $("wide").addEventListener("click", () => setWide(!$("detail").classList.contains("wide")));
+  try {
+    setWide(localStorage.getItem("wide") === "1");
+  } catch {}
+  for (const b of document.querySelectorAll(".tabs button")) b.addEventListener("click", () => showRelated(b.dataset.tab));
+  $("d-topic").addEventListener("click", () => {
+    const t = state.byId.get(state.selected)?.topic;
+    if (t === undefined) return;
+    state.hiddenTopics = new Set([...state.topics.keys()].filter((k) => k !== t));
+    syncTopicList();
+    render();
+  });
+  $("d-copy").addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(location.href);
+      $("d-copy").textContent = "Copied";
+    } catch {
+      $("d-copy").textContent = "Copy failed";
+    }
+    setTimeout(() => ($("d-copy").textContent = "Copy link"), 1500);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.target.matches("input, select, textarea")) return;
+    if (e.key === "Escape") select(null);
+    else if (e.key === "r" && state.selected) setWide(!$("detail").classList.contains("wide"));
+  });
   window.addEventListener("hashchange", () => focus(location.hash.slice(1)));
   render();
   if (location.hash.length > 1) focus(decodeURIComponent(location.hash.slice(1)));
