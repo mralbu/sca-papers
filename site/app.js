@@ -58,7 +58,9 @@ function radius(p) {
 
 function render() {
   const shown = state.papers.filter(visible);
-  $("count").textContent = `${shown.length} of ${state.papers.length} papers`;
+  // Only worth saying when filters hide something.
+  const all = state.papers.length;
+  $("count").textContent = shown.length < all ? `${shown.length} of ${all} papers` : "";
   document.body.classList.toggle("has-detail", !!state.selected);
   renderList(shown);
   renderMap(shown);
