@@ -1,5 +1,11 @@
 # SCA Papers Explorer
 
+[![Site](https://img.shields.io/badge/site-mralbu.github.io-2a78d6)](https://mralbu.github.io/sca-papers/)
+[![Papers](https://img.shields.io/badge/papers-2%2C064-2a78d6)](https://www.jgmaas.com/SCA/)
+[![Years](https://img.shields.io/badge/years-1987%E2%80%932026-2a78d6)](https://www.jgmaas.com/SCA/)
+[![Data updated](https://img.shields.io/github/last-commit/mralbu/sca-papers/main?path=site%2Fdata%2Fpapers.json&label=data%20updated&color=2a78d6)](https://github.com/mralbu/sca-papers/commits/main/site/data/papers.json)
+[![Deploy](https://github.com/mralbu/sca-papers/actions/workflows/pages.yml/badge.svg)](https://github.com/mralbu/sca-papers/actions/workflows/pages.yml)
+
 **[Open the explorer →](https://mralbu.github.io/sca-papers/)**
 (live once GitHub Pages is enabled for the repo; see [Publishing](#publishing))
 
