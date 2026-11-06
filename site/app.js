@@ -11,9 +11,9 @@ const state = {
   byId: new Map(),
   topics: new Map(),
   hiddenTopics: new Set(),
+  method: "", // AI method label to show, or "" for all
   yearMin: 0,
   yearMax: 0,
-  sizeBy: "pagerank",
   matches: null, // Set of ids matching the search, or null
   selected: null,
   hover: null,
@@ -42,6 +42,11 @@ function hslToRgb(h, s, l) {
 const css = (rgb) => `rgb(${rgb.join(",")})`;
 
 function visible(p) {
+  return (!state.method || p.method === state.method) && visibleAnyMethod(p);
+}
+
+// Every filter except the method one: what the method dropdown counts.
+function visibleAnyMethod(p) {
   return (
     !state.hiddenTopics.has(p.topic) &&
     p.year >= state.yearMin &&
@@ -51,9 +56,8 @@ function visible(p) {
 }
 
 function radius(p) {
-  if (state.sizeBy === "uniform") return 3.5;
-  const v = state.sizeBy === "pagerank" ? p.pagerank - 0.5 : p.cited_by;
-  return 2.5 + 2.2 * Math.sqrt(Math.max(0, v));
+  // Point size from PageRank on the citation graph.
+  return 2.5 + 2.2 * Math.sqrt(Math.max(0, p.pagerank - 0.5));
 }
 
 function render() {
@@ -61,6 +65,7 @@ function render() {
   document.body.classList.toggle("has-detail", !!state.selected);
   renderList(shown);
   renderMap(shown);
+  updateMethodCounts();
 }
 
 function renderMap(shown) {
@@ -101,7 +106,6 @@ function renderMap(shown) {
       lineWidthUnits: "pixels",
       getLineWidth: 0.4,
       getLineColor: [255, 255, 255, 120],
-      updateTriggers: { getRadius: state.sizeBy },
       onHover: ({ object, x, y }) => tooltip(object, x, y),
       onClick: ({ object }) => object && select(object.id),
     }),
@@ -117,7 +121,7 @@ function renderMap(shown) {
       lineWidthUnits: "pixels",
       getLineWidth: (_, { index }) => (index ? 2.5 : 6),
       getLineColor: (_, { index }) => (index ? labelTheme().accent : [...labelTheme().pill.slice(0, 3), 200]),
-      updateTriggers: { getRadius: state.sizeBy, getLineColor: labelTheme().key },
+      updateTriggers: { getLineColor: labelTheme().key },
     }),
   ];
   state.baseLayers = layers;
@@ -194,6 +198,28 @@ function labelTheme() {
   return dark
     ? { key: "dark", text: [235, 235, 238, 255], pill: [24, 25, 30, 225], accent: [122, 167, 255, 255] }
     : { key: "light", text: [29, 29, 31, 255], pill: [255, 255, 255, 230], accent: [36, 99, 199, 255] };
+}
+
+// Header toggle: the icon shows the current theme; clicking switches and saves the choice.
+function setupTheme() {
+  const btn = $("theme");
+  const isDark = () => labelTheme().key === "dark";
+  const sync = () => {
+    btn.textContent = isDark() ? "☾" : "☀\uFE0E"; // monochrome text glyphs, not colour emoji
+    btn.title = isDark() ? "Dark theme. Switch to light" : "Light theme. Switch to dark";
+    btn.setAttribute("aria-label", btn.title);
+  };
+  btn.addEventListener("click", () => {
+    const t = isDark() ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    try {
+      localStorage.setItem("theme", t);
+    } catch {}
+    sync();
+    render();
+  });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", sync);
+  sync();
 }
 
 function deck_gl() {
@@ -341,10 +367,12 @@ function select(id) {
   const kw = $("d-keywords");
   kw.replaceChildren();
   if (p.method) {
-    const m = document.createElement("span");
+    const m = document.createElement("button");
+    m.type = "button";
     m.className = "method";
     m.textContent = p.method;
-    m.title = "Main approach (AI-assigned)";
+    m.title = "Main approach (AI-assigned). Click to show only this method";
+    m.addEventListener("click", () => setMethod(p.method));
     kw.append(m);
   }
   for (const k of p.keywords || []) {
@@ -638,13 +666,21 @@ function setupResizers() {
   addEventListener("resize", () => ["left", "right"].forEach((side) => setWidth(side, state.widths[side])));
 }
 
-function buildTopicList() {
-  const ul = $("topics");
-  const sorted = [...state.topics.values()].sort((a, b) => b.size - a.size);
+// A toggle list of categories (topics, methods). Click toggles one; double-click
+// (or alt/cmd-click) shows only that one, and double-clicking the only visible one
+// shows all again. Items: Map id -> {id, label, size, rgb, tip}. Returns a sync().
+function buildFilterList(ul, countEl, items, hidden) {
+  const sync = () => {
+    for (const t of items.values()) t.li.classList.toggle("off", hidden.has(t.id));
+    const all = items.size;
+    const on = [...items.keys()].filter((k) => !hidden.has(k)).length;
+    countEl.textContent = on < all ? `· ${on} of ${all}` : `· ${all}`;
+  };
+  const sorted = [...items.values()].sort((a, b) => b.size - a.size);
   ul.replaceChildren(
     ...sorted.map((t) => {
       const li = document.createElement("li");
-      li.title = `${t.keywords.join(", ")}\n\nClick to toggle, double-click to show only this topic`;
+      li.title = `${t.tip}\n\nClick to toggle, double-click to show only this one`;
       const sw = document.createElement("span");
       sw.className = "swatch";
       sw.style.background = css(t.rgb);
@@ -655,33 +691,77 @@ function buildTopicList() {
       n.textContent = t.size;
       li.append(sw, name, n);
       li.addEventListener("click", (e) => {
-        if (e.altKey || e.metaKey) {
-          // alt/cmd-click: show only this topic
-          state.hiddenTopics = new Set([...state.topics.keys()].filter((k) => k !== t.id));
-        } else if (state.hiddenTopics.has(t.id)) state.hiddenTopics.delete(t.id);
-        else state.hiddenTopics.add(t.id);
-        syncTopicList();
+        if (e.altKey || e.metaKey) return showOnly(items, hidden, t.id);
+        if (hidden.has(t.id)) hidden.delete(t.id);
+        else hidden.add(t.id);
+        sync();
         render();
       });
-      // Double-click: show only this topic (the two clicks before it cancel out).
-      // Double-clicking the only visible topic again shows all topics.
+      // The two clicks before a double-click cancel out.
       li.addEventListener("dblclick", () => {
-        const solo = state.hiddenTopics.size === state.topics.size - 1 && !state.hiddenTopics.has(t.id);
-        state.hiddenTopics = solo ? new Set() : new Set([...state.topics.keys()].filter((k) => k !== t.id));
-        syncTopicList();
-        render();
+        const solo = !hidden.has(t.id) && [...items.keys()].every((k) => k === t.id || hidden.has(k));
+        if (solo) hidden.clear();
+        showOnly(items, hidden, solo ? null : t.id);
       });
       t.li = li;
       return li;
     })
   );
+  sync();
+  items.sync = sync;
+  return sync;
 }
 
-function syncTopicList() {
-  for (const t of state.topics.values()) t.li.classList.toggle("off", state.hiddenTopics.has(t.id));
-  const all = state.topics.size;
-  const on = all - state.hiddenTopics.size;
-  $("topics-n").textContent = on < all ? `· ${on} of ${all}` : `· ${all}`;
+// Hide every item but `id` (null: hide none), then resync the list and redraw.
+function showOnly(items, hidden, id) {
+  hidden.clear();
+  if (id !== null) for (const k of items.keys()) if (k !== id) hidden.add(k);
+  items.sync?.();
+  render();
+}
+
+function setupFilters() {
+  for (const t of state.topics.values()) t.tip = t.keywords.join(", ");
+  buildFilterList($("topics"), $("topics-n"), state.topics, state.hiddenTopics);
+  $("topics-all").addEventListener("click", () => showOnly(state.topics, state.hiddenTopics, null));
+  $("topics-none").addEventListener("click", () => {
+    for (const k of state.topics.keys()) state.hiddenTopics.add(k);
+    state.topics.sync();
+    render();
+  });
+  setupMethods();
+}
+
+// AI method labels as a dropdown, largest first, with paper counts.
+function setupMethods() {
+  const sizes = new Map();
+  for (const p of state.papers) if (p.method) sizes.set(p.method, (sizes.get(p.method) || 0) + 1);
+  const el = $("method");
+  // Fixed order (largest in the whole corpus first); counts follow the other filters.
+  el.append(...[...sizes].sort((a, b) => b[1] - a[1]).map(([m]) => new Option(m, m)));
+  el.addEventListener("change", () => setMethod(el.value));
+  updateMethodCounts();
+}
+
+// Option counts = papers each method would show under the current topic/year/search
+// filters. Methods with none keep their option, showing (0).
+function updateMethodCounts() {
+  const counts = new Map();
+  let all = 0;
+  for (const p of state.papers) {
+    if (!visibleAnyMethod(p)) continue;
+    all++;
+    counts.set(p.method, (counts.get(p.method) || 0) + 1);
+  }
+  for (const o of $("method").options) {
+    const label = o.value || "All methods";
+    o.textContent = `${label} (${o.value ? counts.get(o.value) || 0 : all})`;
+  }
+}
+
+function setMethod(m) {
+  $("method").value = state.method = m;
+  render();
 }
 
 function setupYears() {
@@ -794,6 +874,7 @@ function runSearch() {
 }
 
 async function main() {
+  setupTheme();
   setupResizers(); // before measuring the map, so it starts at its final size
   const [papers, topics] = await Promise.all([
     fetch("data/papers.json").then((r) => r.json()),
@@ -830,8 +911,7 @@ async function main() {
     layers: [],
   });
 
-  buildTopicList();
-  syncTopicList();
+  setupFilters();
   setupList();
   for (const b of document.querySelectorAll(".views button")) b.addEventListener("click", () => setView(b.dataset.view));
   try {
@@ -842,20 +922,6 @@ async function main() {
   setupYears();
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => render());
   setupSearch();
-  $("size-by").addEventListener("change", (e) => {
-    state.sizeBy = e.target.value;
-    render();
-  });
-  $("topics-all").addEventListener("click", () => {
-    state.hiddenTopics.clear();
-    syncTopicList();
-    render();
-  });
-  $("topics-none").addEventListener("click", () => {
-    state.hiddenTopics = new Set(state.topics.keys());
-    syncTopicList();
-    render();
-  });
   $("close").addEventListener("click", () => select(null));
   $("wide").addEventListener("click", () => setWide(!$("detail").classList.contains("wide")));
   try {
@@ -865,9 +931,7 @@ async function main() {
   $("d-topic").addEventListener("click", () => {
     const t = state.byId.get(state.selected)?.topic;
     if (t === undefined) return;
-    state.hiddenTopics = new Set([...state.topics.keys()].filter((k) => k !== t));
-    syncTopicList();
-    render();
+    showOnly(state.topics, state.hiddenTopics, t);
   });
   $("d-map").addEventListener("click", () => showOnMap(state.selected));
   $("d-copy").addEventListener("click", async () => {

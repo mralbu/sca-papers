@@ -84,7 +84,7 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    per-paper assets loaded lazily. Picked `deck.gl` for the scatter map and
    `MiniSearch` for search (both from jsDelivr, pinned versions). Two views:
    a sortable list (newest, oldest, most cited, PageRank, best match) and the
-   topic map; year-range and topic filters; a reading pane per paper (AI
+   topic map; year-range, topic and AI-method (dropdown) filters; a reading pane per paper (AI
    summary, keywords that search on click, abstract, figure, "Show on map",
    copy link) with Similar (8 nearest bge-m3 neighbours) / Cited by / Cites
    tabs. KaTeX (jsDelivr, pinned) renders inline math. Copy link falls back to

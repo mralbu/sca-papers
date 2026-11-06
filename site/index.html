@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SCA Papers Explorer</title>
   <meta name="description" content="Interactive map of the Society of Core Analysts symposium papers (1987–2026), clustered by topic and sized by in-corpus citations.">
+  <script>
+    // Apply a saved light/dark choice before first paint (no flash); otherwise follow the system.
+    try {
+      const t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch {}
+  </script>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/deck.gl@9.1.14/dist.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.js" defer></script>
@@ -21,6 +28,7 @@
     </nav>
     <span id="count" class="muted"></span>
     <a class="muted" href="https://www.jgmaas.com/SCA/" target="_blank" rel="noopener">papers on jgmaas.com</a>
+    <button id="theme" class="theme" type="button"></button>
   </header>
 
   <aside id="controls" class="panel">
@@ -39,12 +47,10 @@
       </div>
     </div>
 
-    <label class="field map-only">
-      <span>Point size</span>
-      <select id="size-by">
-        <option value="pagerank">PageRank (citation graph)</option>
-        <option value="cited_by">Times cited (in corpus)</option>
-        <option value="uniform">Uniform</option>
+    <label class="field">
+      <span>Method</span>
+      <select id="method" title="Main approach, AI-assigned from the paper's text">
+        <option value="">All methods</option>
       </select>
     </label>
 

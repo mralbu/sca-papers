@@ -24,6 +24,18 @@
     color-scheme: dark;
   }
 }
+/* Theme picked with the header toggle (app.js sets data-theme). */
+:root[data-theme="dark"] {
+  --bg: #121316;
+  --panel: #1c1d22ee;
+  --text: #e8e8ea;
+  --muted: #9a9aa2;
+  --line: #34353c;
+  --accent: #7aa7ff;
+  --shadow: 0 2px 12px #00000066;
+  --card: #1a1b20;
+  color-scheme: dark;
+}
 
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -43,6 +55,11 @@ a { color: var(--accent); }
 }
 .bar h1 { font-size: 16.5px; margin: 0; }
 .bar a { margin-left: auto; font-size: 14.5px; }
+.theme {
+  border: 0; background: none; color: var(--muted); opacity: .45; font: 17px/1 system-ui, sans-serif;
+  padding: 4px 6px; border-radius: 6px; cursor: pointer; transition: opacity .12s;
+}
+.theme:hover, .theme:focus-visible { opacity: 1; }
 .views { display: flex; gap: 2px; padding: 2px; border-radius: 8px; background: #8881; }
 .views button {
   border: 0; background: none; color: var(--muted); font: inherit; font-weight: 600;
@@ -138,6 +155,8 @@ input[type="search"], select, .years input {
   background: color-mix(in srgb, var(--text) 4%, transparent); color: inherit; font: inherit;
   transition: border-color .12s, box-shadow .12s;
 }
+/* Dropdown lists: some browsers (Chrome on Linux) draw them light, ignoring color-scheme. */
+option { background: var(--card); color: var(--text); }
 input[type="search"]:focus, select:focus, .years input:focus {
   outline: none; border-color: var(--accent);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
@@ -218,8 +237,7 @@ input[type="search"]:focus, select:focus, .years input:focus {
   color: var(--text); font: inherit; font-size: 13.5px; cursor: pointer;
 }
 .keywords button:hover { border-color: var(--accent); color: var(--accent); }
-.keywords .method { border-style: dashed; color: var(--muted); cursor: default; }
-.keywords .method:hover { border-color: var(--line); color: var(--muted); }
+.keywords .method { border-style: dashed; color: var(--muted); }
 .filled { margin: -2px 0 8px; font-size: 13px; color: var(--muted); }
 .fig-reason { margin: 4px 0 0; font-size: 13.5px; color: var(--muted); font-style: italic; }
 figure { margin: 22px 0 0; }
@@ -260,4 +278,5 @@ figcaption { font-size: 14px; color: var(--muted); margin-top: 6px; line-height:
   .detail, .detail.wide { inset: 52px 8px 8px 8px; width: auto; }
   #wide { display: none; }
   .bar a { display: none; }
+  .theme { margin-left: auto; }
 }
