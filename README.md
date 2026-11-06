@@ -35,18 +35,6 @@ keywords, method label, why the figure was picked) and one small figure
 thumbnail per paper. PDFs, full text and reference lists stay local; the site
 links to the original PDF on jgmaas.com. The papers belong to SCA.
 
-AI summaries are written by Claude from the paper's text and are labelled as
-AI-generated on the site. They can contain errors: check the PDF.
-
-## Requirements
-
-- [uv](https://docs.astral.sh/uv/) and [just](https://github.com/casey/just)
-- `wget` (download) and `pdftotext` from poppler (`just dedup`)
-- A GPU for the PDF conversion (marker); embeddings also run on Apple MPS or CPU
-- For the AI steps only: Claude API access (`ant auth login`, or
-  `ANTHROPIC_API_KEY`). It costs money: about $33 for the corpus with
-  Sonnet 5.5 and the Batch API, plus a few cents for topic names
-
 ## Quick start
 
 ```sh
@@ -58,9 +46,8 @@ just build            # metadata, embeddings, topics, citations, figures, site d
 just serve            # preview the site at http://localhost:8000
 ```
 
-`just build` runs every stage except the paid AI steps. To include them, run
-them in this order (each recipe separately: `just figures site-data` would pass
-`site-data` to `figures` as an argument):
+`just build` runs every stage except the AI steps (Claude API, paid). To
+include them:
 
 ```sh
 just summarize --all --batch   # AI summaries, keywords, figure picks (paid)
@@ -87,29 +74,6 @@ papers. Run `just` for the full list of recipes and their arguments.
 | AI | `topic-names` | `data/topics/names.json` (readable topic names) |
 
 `data/` is git-ignored and stays local; only `site/` is published.
-
-### AI summaries
-
-`summarize` sends each paper's text (without its reference list) to Claude
-and gets back a summary, keywords, a method label and a figure pick. With no
-arguments it runs a fixed 20-paper sample on Haiku and Sonnet and writes a
-side-by-side page, `data/llm/compare.html`; `--all --batch` runs every paper
-through the Batch API (half price, resumable).
-
-Titles, authors and abstracts from the rule-based parser stay primary. AI
-values only fill fields the parser left empty, and only when they can be found
-in the paper's text, so a title the model made up is never used.
-
-### Topics
-
-Topics come from clustering the embeddings, so their ids change whenever the
-inputs change. `topic-names` caches its names against the current clusters;
-after a rebuild that reshuffles them, the site shows keyword labels until
-`just topic-names` runs again.
-
-Hand overrides go in `topics.yaml`: `merge` folds topics together and `rename`
-sets a name, which beats the AI name. Re-check it after a rebuild, since it
-refers to topic ids.
 
 ## Publishing
 
