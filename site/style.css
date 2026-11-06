@@ -117,19 +117,33 @@ body.resizing #main { pointer-events: none; }
   border-radius: 10px; box-shadow: var(--shadow); backdrop-filter: blur(6px);
 }
 #controls {
-  top: 56px; left: 12px; bottom: 12px; width: var(--left-w); padding: 12px; overflow: auto;
+  top: 56px; left: 12px; bottom: 12px; width: var(--left-w); padding: 14px 14px 12px; overflow: auto;
 }
-.field { display: block; margin-bottom: 14px; }
-.field > span { display: flex; gap: 8px; align-items: baseline; font-weight: 600; margin-bottom: 4px; }
-input[type="search"], select {
-  width: 100%; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px;
-  background: transparent; color: inherit; font: inherit;
+.field { display: block; margin-bottom: 16px; }
+/* Sections after the first get a hairline above them. */
+#controls > .field ~ .field { border-top: 1px solid var(--line); padding-top: 14px; }
+/* Section headers: small, uppercase, muted (same voice as the reading pane's headings). */
+.field > span {
+  display: flex; gap: 6px; align-items: baseline; margin-bottom: 8px;
+  font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em;
+}
+.field > span .link, .field > span .sep, .field > span .n-head {
+  font-size: 13px; text-transform: none; letter-spacing: 0;
+}
+.field > span .n-head { font-weight: 400; }
+.field > span .push { margin-left: auto; }
+.field > span .sep { color: var(--muted); font-weight: 400; }
+input[type="search"], select, .years input {
+  width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 7px;
+  background: color-mix(in srgb, var(--text) 4%, transparent); color: inherit; font: inherit;
+  transition: border-color .12s, box-shadow .12s;
+}
+input[type="search"]:focus, select:focus, .years input:focus {
+  outline: none; border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
 }
 .years { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; align-items: center; }
-.years input {
-  width: 100%; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px;
-  background: transparent; color: inherit; font: inherit; font-variant-numeric: tabular-nums;
-}
+.years input { font-variant-numeric: tabular-nums; }
 .years input:invalid, .years input.bad { border-color: #d64545; }
 .link { background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font: inherit; font-weight: 400; }
 
@@ -141,7 +155,7 @@ input[type="search"], select {
 .topics { list-style: none; margin: 0; padding: 0; }
 .topics li {
   display: grid; grid-template-columns: 12px 1fr auto; gap: 8px; align-items: center;
-  padding: 3px 4px; border-radius: 6px; cursor: pointer; user-select: none;
+  padding: 4px 6px; margin: 0 -6px; border-radius: 6px; cursor: pointer; user-select: none;
 }
 .topics li.off { opacity: .35; }
 .topics li:hover { background: #8881; }

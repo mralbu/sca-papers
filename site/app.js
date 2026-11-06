@@ -682,6 +682,9 @@ function buildTopicList() {
 
 function syncTopicList() {
   for (const t of state.topics.values()) t.li.classList.toggle("off", state.hiddenTopics.has(t.id));
+  const all = state.topics.size;
+  const on = all - state.hiddenTopics.size;
+  $("topics-n").textContent = on < all ? `· ${on} of ${all}` : `· ${all}`;
 }
 
 function setupYears() {
@@ -831,6 +834,7 @@ async function main() {
   });
 
   buildTopicList();
+  syncTopicList();
   setupList();
   for (const b of document.querySelectorAll(".views button")) b.addEventListener("click", () => setView(b.dataset.view));
   try {

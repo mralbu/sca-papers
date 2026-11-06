@@ -26,12 +26,12 @@
   <aside id="controls" class="panel">
     <label class="field">
       <span>Search</span>
-      <input id="search" type="search" placeholder="title, author, abstract, ID…" autocomplete="off">
+      <input id="search" type="search" placeholder="title, author, keyword, ID…" autocomplete="off">
     </label>
     <ol id="results" class="results map-only"></ol>
 
     <div class="field">
-      <span>Years <button id="years-reset" class="link" type="button" hidden>reset</button></span>
+      <span>Years <button id="years-reset" class="link push" type="button" hidden>reset</button></span>
       <div class="years">
         <input id="year-min" type="number" inputmode="numeric" aria-label="First year">
         <span class="muted">to</span>
@@ -49,8 +49,9 @@
     </label>
 
     <div class="field">
-      <span>Topics
-        <button id="topics-all" class="link" type="button">all</button>
+      <span>Topics <span id="topics-n" class="n-head"></span>
+        <button id="topics-all" class="link push" type="button">all</button>
+        <span class="sep" aria-hidden="true">·</span>
         <button id="topics-none" class="link" type="button">none</button>
       </span>
       <ul id="topics" class="topics"></ul>
