@@ -55,7 +55,9 @@ def cluster(points: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """(labels with outliers reassigned to the nearest centroid, outlier mask)."""
     from sklearn.cluster import HDBSCAN
 
-    labels = HDBSCAN(min_cluster_size=MIN_CLUSTER_SIZE, min_samples=MIN_SAMPLES).fit_predict(points)
+    labels = HDBSCAN(
+        min_cluster_size=MIN_CLUSTER_SIZE, min_samples=MIN_SAMPLES, copy=True
+    ).fit_predict(points)
     outlier = labels < 0
     ids = sorted(set(labels[~outlier]))
     if ids and outlier.any():

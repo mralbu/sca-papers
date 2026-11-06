@@ -32,3 +32,7 @@ select = ["E", "F", "I", "B", "UP"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# Upstream deprecations raised on import by marker/surya (pydantic class-based config).
+filterwarnings = [
+    "ignore:Support for class-based `config` is deprecated:DeprecationWarning",
+]
