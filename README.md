@@ -6,9 +6,6 @@
 [![Data updated](https://img.shields.io/github/last-commit/mralbu/sca-papers/main?path=site%2Fdata%2Fpapers.json&label=data%20updated&color=2a78d6)](https://github.com/mralbu/sca-papers/commits/main/site/data/papers.json)
 [![Deploy](https://github.com/mralbu/sca-papers/actions/workflows/pages.yml/badge.svg)](https://github.com/mralbu/sca-papers/actions/workflows/pages.yml)
 
-**[Open the explorer →](https://mralbu.github.io/sca-papers/)**
-(live once GitHub Pages is enabled for the repo; see [Publishing](#publishing))
-
 An interactive explorer for the 2,064 Society of Core Analysts (SCA) symposium
 papers from 1987–2026, mirrored at <https://www.jgmaas.com/SCA/>. Browse them
 as a list or as a topic map, read an AI summary of each paper, and follow
