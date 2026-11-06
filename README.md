@@ -52,6 +52,7 @@ papers. Run `just` for the full list of recipes and their arguments.
 | 6 | `figures` | `data/figures/`, `site/data/figures/<id>.webp` |
 | 7 | `site-data` | `site/data/papers.json`, `site/data/topics.json` |
 | AI | `summarize` | `data/llm/<model>/<id>.json` (summary, keywords, figure pick, checks) |
+| AI | `topic-names` | `data/topics/names.json` (readable topic names; re-run after `topics`) |
 
 `summarize` sends each paper's text (without its reference list) to Claude
 and gets back a summary, keywords, a method label and a figure pick. With no

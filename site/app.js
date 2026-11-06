@@ -807,7 +807,7 @@ async function main() {
   const bySize = [...topics].sort((a, b) => b.size - a.size);
   bySize.forEach((t, i) => {
     t.rgb = topicColor(i);
-    t.short = t.label.split(" / ").slice(0, 2).join(" / ");
+    t.short ||= t.label.split(" / ").slice(0, 2).join(" / ");
     state.topics.set(t.id, t);
   });
   state.rankOf = new Map(

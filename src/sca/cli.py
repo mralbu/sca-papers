@@ -112,6 +112,16 @@ def summarize(args: argparse.Namespace) -> None:
         print(f"comparison -> {page.relative_to(paths.ROOT)}")
 
 
+def topic_names(args: argparse.Namespace) -> None:
+    """Readable topic names from an LLM, cached against the current clusters."""
+    from sca import topic_names as stage
+    from sca import topics as topics_stage
+
+    data = stage.run(force=args.force)
+    topic_data = json.loads(topics_stage.OUTPUT.read_text(encoding="utf-8"))
+    print(stage.table(data, topic_data), end="")
+
+
 def site(args: argparse.Namespace) -> None:
     """Export the published site data (site/data/papers.json, topics.json)."""
     from sca import site as stage
@@ -161,6 +171,9 @@ def main() -> None:
     p.add_argument("--workers", type=int, default=4, help="concurrent API requests")
     p.add_argument("--force", action="store_true", help="ignore cached outputs")
     p.set_defaults(func=summarize)
+    p = stages.add_parser("topic-names", help=topic_names.__doc__)
+    p.add_argument("--force", action="store_true", help="ask again even if cached")
+    p.set_defaults(func=topic_names)
     stages.add_parser("site", help=site.__doc__).set_defaults(func=site)
     args = parser.parse_args()
     args.func(args)

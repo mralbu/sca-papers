@@ -20,7 +20,17 @@ from collections import defaultdict
 
 import numpy as np
 
-from sca import cache, citations, embed, figures, metadata, paths, summarize, topics
+from sca import (
+    cache,
+    citations,
+    embed,
+    figures,
+    metadata,
+    paths,
+    summarize,
+    topic_names,
+    topics,
+)
 
 INCLUDE_ABSTRACTS = True
 PAPERS_JSON = paths.SITE_DATA_DIR / "papers.json"
@@ -214,7 +224,23 @@ def build() -> tuple[list[dict], list[dict]]:
         if fills:
             paper["filled"] = sorted(fills)
         papers.append(paper)
-    return papers, topic_data["topics"]
+    return papers, topic_labels(topic_data)
+
+
+def topic_labels(topic_data: dict) -> list[dict]:
+    """Topics with display names: topics.yaml rename > LLM name > keyword label.
+    ``short`` is the map label; the keyword label stays in ``keyword_label``."""
+    renamed = topics.load_overrides().get("rename", {})
+    names = topic_names.names_for(topic_data)
+    out = []
+    for t in topic_data["topics"]:
+        t = {**t, "keyword_label": " / ".join(t["keywords"][:3])}
+        if t["id"] in renamed:
+            t["short"] = t["label"]
+        elif t["id"] in names:
+            t["label"], t["short"] = names[t["id"]]["name"], names[t["id"]]["short"]
+        out.append(t)
+    return out
 
 
 def run() -> str:

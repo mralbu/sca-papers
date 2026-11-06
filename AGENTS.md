@@ -135,7 +135,14 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   Credentials: an `ant auth login` profile, which the SDK picks up. Costs
   money: confirm before a full run.
 - **Figure selection:** done in the same call (no separate jev model).
-- **Topic names:** optional LLM refinement of the c-TF-IDF labels (not done).
+- **Topic names:** `just topic-names` (`topic_names.py`): one Sonnet 5.5 call
+  for all clusters at once (so names stay distinct), given each cluster's
+  c-TF-IDF keywords, the most common per-paper `topic` labels from
+  `summarize`, and its most-cited titles; returns a name and a short map
+  label (~$0.07). Cached in `data/topics/names.json` against a signature of
+  cluster membership, so after a rebuild reshuffles topics the site falls
+  back to keyword labels until it is re-run. Precedence in `site.py`:
+  `topics.yaml` rename > LLM name > keyword label (kept as `keyword_label`).
 
 ## Layout
 

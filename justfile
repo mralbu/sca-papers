@@ -94,6 +94,10 @@ site-data:
 summarize *args:
     uv run sca summarize {{args}}
 
+# Phase 2: readable topic names (one Claude API call, a few cents; cached against the clusters). Args: --force
+topic-names *args:
+    uv run sca topic-names {{args}}
+
 # Run every stage after convert, in order (each is cached/resumable)
 build: metadata embed topics citations figures site-data
 

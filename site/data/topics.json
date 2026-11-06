@@ -1,7 +1,7 @@
 [
  {
   "id": 0,
-  "label": "nmr / relaxation / t2",
+  "label": "NMR relaxation and pore size",
   "keywords": [
    "nmr",
    "relaxation",
@@ -16,11 +16,13 @@
   ],
   "size": 214,
   "x": 0.8959,
-  "y": 0.2651
+  "y": 0.2651,
+  "keyword_label": "nmr / relaxation / t2",
+  "short": "NMR relaxation"
  },
  {
   "id": 1,
-  "label": "resistivity index / electrical / conductivity",
+  "label": "Electrical resistivity and Archie parameters",
   "keywords": [
    "resistivity index",
    "electrical",
@@ -35,11 +37,13 @@
   ],
   "size": 134,
   "x": 0.49,
-  "y": 0.9454
+  "y": 0.9454,
+  "keyword_label": "resistivity index / electrical / conductivity",
+  "short": "Resistivity, Archie"
  },
  {
   "id": 2,
-  "label": "x-ray / imaging / ct",
+  "label": "X-ray CT and microtomography imaging",
   "keywords": [
    "x-ray",
    "imaging",
@@ -54,11 +58,13 @@
   ],
   "size": 54,
   "x": 0.7174,
-  "y": 0.4717
+  "y": 0.4717,
+  "keyword_label": "x-ray / imaging / ct",
+  "short": "X-ray CT imaging"
  },
  {
   "id": 3,
-  "label": "magnetic susceptibility / anisotropy / paramagnetic",
+  "label": "Magnetic susceptibility rock characterisation",
   "keywords": [
    "magnetic susceptibility",
    "anisotropy",
@@ -73,11 +79,13 @@
   ],
   "size": 34,
   "x": 0.9138,
-  "y": 0.6287
+  "y": 0.6287,
+  "keyword_label": "magnetic susceptibility / anisotropy / paramagnetic",
+  "short": "Magnetic susceptibility"
  },
  {
   "id": 4,
-  "label": "vuggy / dispersion coefficient / vugs",
+  "label": "Vuggy carbonates and tracer dispersion",
   "keywords": [
    "vuggy",
    "dispersion coefficient",
@@ -92,11 +100,13 @@
   ],
   "size": 27,
   "x": 0.4784,
-  "y": 0.5646
+  "y": 0.5646,
+  "keyword_label": "vuggy / dispersion coefficient / vugs",
+  "short": "Vuggy carbonates"
  },
  {
   "id": 5,
-  "label": "scal / relative permeability / saturation",
+  "label": "SCAL programs and relative permeability",
   "keywords": [
    "scal",
    "relative permeability",
@@ -111,11 +121,13 @@
   ],
   "size": 38,
   "x": 0.3471,
-  "y": 0.6724
+  "y": 0.6724,
+  "keyword_label": "scal / relative permeability / saturation",
+  "short": "SCAL programs"
  },
  {
   "id": 6,
-  "label": "fracture / fractures / fractured",
+  "label": "Fractured rock flow and matrix",
   "keywords": [
    "fracture",
    "fractures",
@@ -130,11 +142,13 @@
   ],
   "size": 61,
   "x": 0.5055,
-  "y": 0.4704
+  "y": 0.4704,
+  "keyword_label": "fracture / fractures / fractured",
+  "short": "Fractured rocks"
  },
  {
   "id": 7,
-  "label": "heterogeneity / flow / heterogeneous",
+  "label": "Heterogeneity effects on core flow",
   "keywords": [
    "heterogeneity",
    "flow",
@@ -149,11 +163,13 @@
   ],
   "size": 34,
   "x": 0.4019,
-  "y": 0.5829
+  "y": 0.5829,
+  "keyword_label": "heterogeneity / flow / heterogeneous",
+  "short": "Core heterogeneity"
  },
  {
   "id": 8,
-  "label": "stress / pore pressure / velocity",
+  "label": "Stress, compressibility and acoustic velocity",
   "keywords": [
    "stress",
    "pore pressure",
@@ -168,11 +184,13 @@
   ],
   "size": 70,
   "x": 0.62,
-  "y": 0.8105
+  "y": 0.8105,
+  "keyword_label": "stress / pore pressure / velocity",
+  "short": "Stress and acoustics"
  },
  {
   "id": 9,
-  "label": "gas saturation / gas condensate / relative permeability",
+  "label": "Gas condensate and trapped gas",
   "keywords": [
    "gas saturation",
    "gas condensate",
@@ -187,11 +205,13 @@
   ],
   "size": 53,
   "x": 0.1492,
-  "y": 0.5828
+  "y": 0.5828,
+  "keyword_label": "gas saturation / gas condensate / relative permeability",
+  "short": "Gas condensate, trapped gas"
  },
  {
   "id": 10,
-  "label": "residual oil / oil saturation / capillary",
+  "label": "Residual oil and transition zones",
   "keywords": [
    "residual oil",
    "oil saturation",
@@ -206,11 +226,13 @@
   ],
   "size": 44,
   "x": 0.2794,
-  "y": 0.4641
+  "y": 0.4641,
+  "keyword_label": "residual oil / oil saturation / capillary",
+  "short": "Residual oil"
  },
  {
   "id": 11,
-  "label": "flooding / ct / fluid",
+  "label": "In-situ saturation monitoring in coreflooding",
   "keywords": [
    "flooding",
    "ct",
@@ -225,11 +247,13 @@
   ],
   "size": 39,
   "x": 0.2997,
-  "y": 0.4598
+  "y": 0.4598,
+  "keyword_label": "flooding / ct / fluid",
+  "short": "In-situ saturation"
  },
  {
   "id": 12,
-  "label": "crude oil / wettability / contact angle",
+  "label": "Crude oil-brine-rock wettability chemistry",
   "keywords": [
    "crude oil",
    "wettability",
@@ -244,11 +268,13 @@
   ],
   "size": 37,
   "x": 0.3377,
-  "y": 0.2165
+  "y": 0.2165,
+  "keyword_label": "crude oil / wettability / contact angle",
+  "short": "Crude oil wetting"
  },
  {
   "id": 13,
-  "label": "spontaneous imbibition / oil recovery / initial water",
+  "label": "Spontaneous imbibition oil recovery",
   "keywords": [
    "spontaneous imbibition",
    "oil recovery",
@@ -263,11 +289,13 @@
   ],
   "size": 35,
   "x": 0.3082,
-  "y": 0.3064
+  "y": 0.3064,
+  "keyword_label": "spontaneous imbibition / oil recovery / initial water",
+  "short": "Spontaneous imbibition"
  },
  {
   "id": 14,
-  "label": "wettability / oil / cleaning",
+  "label": "Core wettability evaluation and restoration",
   "keywords": [
    "wettability",
    "oil",
@@ -282,11 +310,13 @@
   ],
   "size": 105,
   "x": 0.4689,
-  "y": 0.1989
+  "y": 0.1989,
+  "keyword_label": "wettability / oil / cleaning",
+  "short": "Wettability evaluation"
  },
  {
   "id": 15,
-  "label": "wettability / nmr / relaxation time",
+  "label": "NMR wettability characterization",
   "keywords": [
    "wettability",
    "nmr",
@@ -301,11 +331,13 @@
   ],
   "size": 25,
   "x": 0.6261,
-  "y": 0.1771
+  "y": 0.1771,
+  "keyword_label": "wettability / nmr / relaxation time",
+  "short": "NMR wettability"
  },
  {
   "id": 16,
-  "label": "co2 injection / oil recovery / water injection",
+  "label": "CO2, carbonated water and WAG injection",
   "keywords": [
    "co2 injection",
    "oil recovery",
@@ -320,11 +352,13 @@
   ],
   "size": 40,
   "x": 0.1407,
-  "y": 0.2361
+  "y": 0.2361,
+  "keyword_label": "co2 injection / oil recovery / water injection",
+  "short": "CO2 and WAG EOR"
  },
  {
   "id": 17,
-  "label": "co2 storage / brine / gas",
+  "label": "CO2 storage, hydrates and rock-fluid reactions",
   "keywords": [
    "co2 storage",
    "brine",
@@ -339,11 +373,13 @@
   ],
   "size": 104,
   "x": 0.24,
-  "y": 0.0999
+  "y": 0.0999,
+  "keyword_label": "co2 storage / brine / gas",
+  "short": "CO2 storage, hydrates"
  },
  {
   "id": 18,
-  "label": "permeability / klinkenberg / gas",
+  "label": "Gas permeability and tight rock measurement",
   "keywords": [
    "permeability",
    "klinkenberg",
@@ -358,11 +394,13 @@
   ],
   "size": 56,
   "x": 0.5368,
-  "y": 0.7
+  "y": 0.7,
+  "keyword_label": "permeability / klinkenberg / gas",
+  "short": "Permeability, tight rock"
  },
  {
   "id": 19,
-  "label": "three-phase relative / gas / oil",
+  "label": "Three-phase relative permeability",
   "keywords": [
    "three-phase relative",
    "gas",
@@ -377,11 +415,13 @@
   ],
   "size": 27,
   "x": 0.1948,
-  "y": 0.5217
+  "y": 0.5217,
+  "keyword_label": "three-phase relative / gas / oil",
+  "short": "Three-phase flow"
  },
  {
   "id": 20,
-  "label": "oil recovery / gravity drainage / gas injection",
+  "label": "Gravity drainage and gas injection",
   "keywords": [
    "oil recovery",
    "gravity drainage",
@@ -396,11 +436,13 @@
   ],
   "size": 35,
   "x": 0.1517,
-  "y": 0.4327
+  "y": 0.4327,
+  "keyword_label": "oil recovery / gravity drainage / gas injection",
+  "short": "Gravity drainage"
  },
  {
   "id": 21,
-  "label": "pore / permeability / digital",
+  "label": "Digital rock and pore network modelling",
   "keywords": [
    "pore",
    "permeability",
@@ -415,11 +457,13 @@
   ],
   "size": 229,
   "x": 0.6319,
-  "y": 0.492
+  "y": 0.492,
+  "keyword_label": "pore / permeability / digital",
+  "short": "Digital rock"
  },
  {
   "id": 22,
-  "label": "coring / drilling / mud",
+  "label": "Coring, core preservation and damage",
   "keywords": [
    "coring",
    "drilling",
@@ -434,11 +478,13 @@
   ],
   "size": 104,
   "x": 0.8053,
-  "y": 0.7411
+  "y": 0.7411,
+  "keyword_label": "coring / drilling / mud",
+  "short": "Coring and preservation"
  },
  {
   "id": 23,
-  "label": "petrophysical / log / porosity",
+  "label": "Core-log petrophysical integration",
   "keywords": [
    "petrophysical",
    "log",
@@ -453,11 +499,13 @@
   ],
   "size": 78,
   "x": 0.7456,
-  "y": 0.6355
+  "y": 0.6355,
+  "keyword_label": "petrophysical / log / porosity",
+  "short": "Core-log petrophysics"
  },
  {
   "id": 24,
-  "label": "nanoparticles / oil recovery / polymer",
+  "label": "Nanoparticle, microbial and polymer EOR",
   "keywords": [
    "nanoparticles",
    "oil recovery",
@@ -472,11 +520,13 @@
   ],
   "size": 70,
   "x": 0.1038,
-  "y": 0.3047
+  "y": 0.3047,
+  "keyword_label": "nanoparticles / oil recovery / polymer",
+  "short": "Nano, microbial EOR"
  },
  {
   "id": 25,
-  "label": "salinity water / oil recovery / brine",
+  "label": "Low salinity waterflooding mechanisms",
   "keywords": [
    "salinity water",
    "oil recovery",
@@ -491,11 +541,13 @@
   ],
   "size": 61,
   "x": 0.0611,
-  "y": 0.1988
+  "y": 0.1988,
+  "keyword_label": "salinity water / oil recovery / brine",
+  "short": "Low salinity flooding"
  },
  {
   "id": 26,
-  "label": "capillary pressure / saturation / pc",
+  "label": "Porous plate and mercury capillary pressure",
   "keywords": [
    "capillary pressure",
    "saturation",
@@ -510,11 +562,13 @@
   ],
   "size": 77,
   "x": 0.262,
-  "y": 0.8128
+  "y": 0.8128,
+  "keyword_label": "capillary pressure / saturation / pc",
+  "short": "Porous plate Pc"
  },
  {
   "id": 27,
-  "label": "centrifuge / capillary pressure / pressure curves",
+  "label": "Centrifuge capillary pressure methods",
   "keywords": [
    "centrifuge",
    "capillary pressure",
@@ -529,11 +583,13 @@
   ],
   "size": 73,
   "x": 0.1645,
-  "y": 0.8684
+  "y": 0.8684,
+  "keyword_label": "centrifuge / capillary pressure / pressure curves",
+  "short": "Centrifuge Pc"
  },
  {
   "id": 28,
-  "label": "flow porous / relative permeability / porous media",
+  "label": "Steady-state two-phase flow physics",
   "keywords": [
    "flow porous",
    "relative permeability",
@@ -548,11 +604,13 @@
   ],
   "size": 27,
   "x": 0.3273,
-  "y": 0.6296
+  "y": 0.6296,
+  "keyword_label": "flow porous / relative permeability / porous media",
+  "short": "Two-phase flow physics"
  },
  {
   "id": 29,
-  "label": "relative permeability / capillary pressure / saturation",
+  "label": "Coreflood interpretation and simulation",
   "keywords": [
    "relative permeability",
    "capillary pressure",
@@ -567,6 +625,8 @@
   ],
   "size": 79,
   "x": 0.259,
-  "y": 0.6681
+  "y": 0.6681,
+  "keyword_label": "relative permeability / capillary pressure / saturation",
+  "short": "Coreflood simulation"
  }
 ]
