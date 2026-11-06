@@ -31,9 +31,13 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   tree. mutool, qpdf and pikepdf all fail to recover pages, so convert skips it
   as unreadable.
 - 2020 has only one file; that year is effectively missing.
-- marker defects found while extracting metadata: `SCA2014-010` lost its whole
-  first page (title, authors, abstract) and `SCA2013-067` has its front matter
-  scrambled into one heading. Every other paper with a text layer kept page 1.
+- marker defects found while extracting metadata: in balanced mode
+  `SCA2014-010` lost its whole first page (title, authors, abstract) and
+  `SCA2013-067` had its front matter scrambled into one heading. Both were
+  re-converted with `--mode fast --disable_ocr` (text layer only, no vLLM
+  server, so it runs on the Mac), which got page 1 right. A plain
+  `just convert` skips them since they count as converted. Every other paper
+  with a text layer kept page 1.
 - Some markdown has no title at all (marker dropped it; 21 papers, half of them
   1988–1995 scans); metadata leaves `title` empty for those, never guesses.
 
