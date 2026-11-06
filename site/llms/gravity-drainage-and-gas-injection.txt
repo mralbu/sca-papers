@@ -1,0 +1,459 @@
+# Gravity drainage and gas injection
+
+> 35 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: oil recovery, gravity drainage, gas injection, viscous, gagd, displacement, water, phase, vapour, immiscible.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Comparing Core Analysis Data to Field Observations for Gravity Drainage Gas Injection
+
+- ID: SCA1999-04, year: 1999
+- Authors: Arne Skauge
+- Method: field or reservoir case study
+- Keywords: gravity drainage, gas injection, residual oil saturation, oil relative permeability, centrifuge, single-well tracer test
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-04)
+
+Core gas-oil relative permeability and residual oil data for the Oseberg field are compared with field tests, showing Sorg below 0.1 and stable gravity drainage.
+
+The paper summarizes SCAL data used to select updip gas injection with gravity drainage for the high-permeability Oseberg sandstone field in the North Sea. Long-core gravity-stable gas injection, centrifuge drainage and gas flooding were used to derive oil relative permeability and residual oil saturation. Long cores gave remaining oil of about 0.08-0.15 and Corey exponents of about 4-5. Centrifuge and gas-flood kro agreed below about 400 mD but diverged at higher permeability. Sorg showed no unique trend with permeability or initial water saturation. Field data, including a gas single-well tracer test (Sorg below 0.1), sponge coring (0.15-0.2) and TDT-P gas front monitoring (5 cm/day), broadly supported the lab results. TDT-derived saturations (about 0.2-0.35) were inconsistent with the other methods. Gas injection was more efficient than waterflooding (0.25 vs 0.4 oil saturation at breakthrough).
+
+## Analysis of Viscous Fingering Reproducibllity in Consolidated Natural Porous Media
+
+- ID: SCA1995-04, year: 1995
+- Authors: Arlindo da Costa e Silva
+- Method: laboratory experiment
+- Keywords: viscous fingering, X-ray CT saturation imaging, unstable immiscible displacement, self-similar response function, beam hardening correction, fractional flow
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-04)
+
+CT-imaged unstable waterfloods in two Vosges sandstone cores show viscous fingering is reproducible, gravity- and heterogeneity-controlled, self-similar, with rate-dependent oil relative permeability and fractional flow.
+
+The study uses X-ray CT to visualize viscous fingering during waterfloods (0.823 cP KI brine displacing 244 cP mineral oil) in two homogeneous, water-wet Vosges sandstone cores (417 and 497 mD, porosity about 0.23). Porosity and saturation were computed voxel by voxel from CT scans, with beam hardening correction bringing CT porosity (0.227, 0.232) in line with conventional values. Eight unstable floods at 0.3 or 0.5 cm3/min, including runs with the core inverted, showed repeated finger locations that changed when the core was turned, indicating deterministic fingering controlled by gravity and minor heterogeneity. Saturation data collapsed onto single response curves versus xD/tD. Oil relative permeability and fractional flow depended on injection rate, while water relative permeability did not, and a slope break indicated fingering and stable zones. Solvent-cleaned sample #1 showed more scatter than sample #2, suggesting solvent alteration of the rock.
+
+## Gas and Water Flood Gravity Drainage in Viscous Oil Field Developments
+
+- ID: SCA1999-35, year: 1999
+- Authors: Nicola Sargent, David Element, Stephen Goodyear, Jane Johnston
+- Method: laboratory experiment
+- Keywords: gas gravity drainage, viscous oil, sandpack, gamma attenuation saturation monitoring, oil relative permeability, waterflood fractional flow
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-35)
+
+Gas and water gravity drainage experiments in sandpacks with oils of 2-210 cp show viscosity-independent relative permeability and fractional flow, with gas injection often preferable for viscous oils.
+
+Viscous oil fields in the UKCS are high-permeability unconsolidated sands where gas injection into a gas cap or water flooding are alternative development options. Gas/oil and water/oil gravity drainage experiments were run in three dry-packed sandpacks (2.5 cm diameter, about 70 cm long, about 5 Darcy, 47% porosity) using Magna lubricating oils from 2 to 210 cp. Saturations were monitored in situ by single-energy gamma attenuation to avoid capillary end effects, and fractional flow and relative permeability were derived. For gas drainage, oil relative permeabilities were independent of viscosity and significantly higher than in consolidated sandstone, allowing very low effective residual oil saturations under suitable conditions. Water flood fractional flow curves also showed no significant viscosity dependence, and comparison of recoveries indicates gas injection can be preferable for high-viscosity oils, especially in more permeable reservoirs.
+
+## Physical Model Experiments to Evaluate the Effect of Wettability and Fractures on the Performance of the Gas Assisted Gravity Drainage (Gagd) Process
+
+- ID: SCA2007_48, year: 2007
+- Authors: Wagirin R. Paidin, Dandina N. Rao
+- Method: laboratory experiment
+- Keywords: gas assisted gravity drainage, wettability alteration, silanization, Hele-Shaw model, fractured porous media, tertiary gas injection
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_48)
+
+Hele-Shaw model GAGD experiments show oil-wet packs and a simulated vertical fracture improve nitrogen gravity drainage oil recovery over water-wet, unfractured cases.
+
+The study extends earlier GAGD work, which was limited to water-wet media, by testing wettability, a vertical fracture, and injection mode (secondary or tertiary). A Hele-Shaw model (1445 cc) was packed with glass beads or silica sand (about 5 Darcy), with n-decane, water and nitrogen. Wettability was changed to oil-wet by silanization with dimethyldichlorosilane, and a fracture was simulated with a mesh box. Oil-wet packs recovered more oil, averaging about 12 %IOIP more than water-wet ones; secondary-mode increments ranged from 8.4 to 14.6 %IOIP. A vertical fracture increased recovery by about 6-7.8 %IOIP on average, and fractured oil-wet 0.13 mm runs gave 9.6 %IOIP incremental recovery.
+
+## Use of Dimensional Analysis for Scaling Immiscible Gas Assisted Gravity Drainage (Gagd) Experiments
+
+- ID: SCA2005-50, year: 2005
+- Authors: Madhav M. Kulkarni, Amit P. Sharma, Dandina N. Rao
+- Method: laboratory experiment
+- Keywords: gas assisted gravity drainage, Bond number, capillary number, gravity number, dimensional analysis, Hele-Shaw physical model
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-50)
+
+Dimensionally scaled GAGD corefloods and Hele-Shaw bead-pack experiments match field Bond and capillary numbers; oil recovery correlates logarithmically with gravity number across lab and field scales.
+
+Gas Assisted Gravity Drainage (GAGD) experiments were designed using dimensional analysis so that Bond and capillary numbers matched ranges from nine gravity-stable field projects. Eight immiscible secondary-mode tests were run in 1-ft and 6-ft Berea corefloods (500 psi) and a 2-D Hele-Shaw glass-bead physical model, varying grain size, fluid pair (decane or paraffin with N2 or CO2) and injection rate. Oil recovery rose logarithmically with both Bond and capillary number, and a miscible coreflood point fell on the same trend. Multiple regression showed Bond number has a stronger effect than capillary number (significance 0.0084 vs 0.0234). Plotted against gravity number, lab and field recoveries collapsed onto a single logarithmic correlation, and dimensionless time scaling mapped 10 minutes of model time to roughly 69-127 days in the Dexter Hawkins field.
+
+## Pore Scale Phenomena of Heavy Oil Recovery Using Vapor Extraction
+
+- ID: SCA2002-26, year: 2002
+- Authors: Ioannis Chatzis, Porous Media
+- Method: laboratory experiment
+- Keywords: VAPEX, heavy oil, glass micromodel, snap-off, gravity drainage, butane vapour absorption
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-26)
+
+Glass micromodel and sintered glass-bead visualizations of butane VAPEX show a thin draining interface, snap-off vapour trapping enhancing mass transfer, and constant interface advance and oil production rate.
+
+VAPEX pore-scale physics are poorly characterized, so butane extraction of ~80,000 cP heavy oil was visualized in etched glass network micromodels (two square networks, 1.36 and 3 mm spacing) and in thin slabs of sintered 600 µm glass beads. Drainage occurs in a monolayer of pores at the interface, with diluted oil flowing as films along the first row of pores and the interface forming dendritic peaks and valleys. Capillary snap-off traps vapour pockets that dissolve and dilute oil below terminal menisci, increasing mass transfer area. The interface advanced at constant velocity, giving constant live-oil production, and slab results matched the 2-D models; no asphaltene precipitation was seen. Using scaling (Q ∝ L^0.55, Q ∝ K^0.47), an example field case (20 m pay, 10 D, 1000 m well) gave a predicted 71 m3/day of live oil containing about 40 wt% solvent.
+
+## Mechanism of Oil Recovery by Gagd in Water-Wet and Oil-Wet Conditions
+
+- ID: SCA2013-086, year: 2013
+- Authors: Weifeng LV, Zhenpeng LENG, Qingjie LIU, Zubo ZHANG, Desheng MA, Shiguan DENG, Danyong LI, Tong LI
+- Method: laboratory experiment
+- Keywords: gas assisted gravity drainage, CT scanning, three-phase saturation, wettability, oil bank, nitrogen injection
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-086.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-086)
+
+CT-scanned nitrogen GAGD after high water cut in water-wet and oil-wet sandstone cores shows an oil bank forms and recovery gains are larger in the water-wet core.
+
+The study examines how gas assisted gravity drainage (GAGD) recovers oil at high water cut and how wettability affects it. Two similar sandstone outcrop cores (about 23% porosity, ~850 mD), one water-wet and one weakly oil-wet, were waterflooded to 99.5% water cut and then flooded with nitrogen from the top at 0.01 ml/min. A medical CT scanner on a rotatable PEEK coreholder tracked three-phase saturations. Nitrogen injection gave additional recovery of 7.45% in the water-wet core (1.83 ml) and 4.37% in the oil-wet core (1.08 ml). An oil enrichment zone ('oil bank') formed at the gas front and was wider and higher in the water-wet core, which the authors attribute to residual oil sitting in pore centers (water-wet) versus pore corners (oil-wet). Tests were at ambient temperature and 5 MPa back pressure, so reservoir conditions were not reproduced.
+
+## Gas Injection and Heterogeneous Wettability: What Is the Relevant Information That Petrophysics Can Provide
+
+- ID: SCA1997-08, year: 1997
+- Authors: Olga VIZIKA, Jean-Patrick DUQUERROIX
+- Method: laboratory experiment
+- Keywords: gas injection, heterogeneous wettability, three-phase relative permeability, dual energy CT scanner, history matching, sandpack
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-08)
+
+Gravity-assisted gas injection in water-wet, oil-wet and layered-wettability sandpacks shows an oil-wet stratum cuts recovery; simulations using homogeneous-core Kr and Pc reproduce the heterogeneous case.
+
+The paper examines how a decimetric wettability heterogeneity affects gas injection. Gravity-assisted secondary gas injection was run in ~50 cm long unconsolidated sandpacks (porosity ~0.35, permeability ~10 D): uniformly water-wet, uniformly oil-wet (silylated), and two water-wet sections separated by a 2 cm oil-wet layer, with 3-phase saturation profiles from dual-energy CT. Oil recovery was 86.8% OOIP (Sorg 11%) in water-wet, 74.8% (21%) in oil-wet and only 67.6% (24%) in the heterogeneous pack, because the oil-wet layer behaves like a fracture that isolates and traps oil in the upper water-wet part. History matching of homogeneous cases gave three-phase relative permeabilities, which together with centrifuge capillary pressures reproduced the heterogeneous recovery and gas profiles well. Omitting capillary pressure in the heterogeneous simulation gave a flat gas profile and poor recovery prediction.
+
+## Copyright 1998, Society of Petroleum Engineers, Inc.Thishi paper was
+
+- ID: SCA1999-03, year: 1999
+- Authors: J.T. Edwards, M.M. Honarpour, R.D. Hazlett, M. Cohen, A. Membere, F. Pebdani, C. Clayton, R. Al-Hussainy
+- Method: field or reservoir case study
+- Keywords: gravity drainage, residual oil saturation, gas-oil relative permeability, centrifuge, capillary end effects, unconsolidated sand
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-03)
+
+Long core, centrifuge and porous plate tests on Ubit unconsolidated sands show gravity drainage Sorg of 3-10%, versus ~30% for gasfloods, validated by coring and simulation.
+
+Gravity drainage during gas cap expansion in the giant Ubit field (offshore Nigeria) needed gas-oil endpoint saturations and relative permeabilities that conventional gasflood tests cannot supply. Long vertical core tests with x-ray and microwave saturation scanning, centrifuge kr and Pc tests, porous plate tests and slow vertical gasfloods were run on unconsolidated sands at reservoir stress and temperature. Gravity drainage Sorg averaged about 7% (3-10%) and was insensitive to Swi, facies and permeability in high quality sands, while gasfloods averaged about 29-30%. A long core test gave a uniform composite Sorg of 10.1%. Coring the secondary gas cap with low invasion water-based mud found Sorg of 2-6%, consistent with the lab data. Simulation matched the observed oil saturations only after kro was corrected for capillary end effects, a change worth about 100 million barrels (10%) of ultimate recovery.
+
+## Wettability Effects in Three-Phase Flow Due to Gravity Drainage
+
+- ID: SCA1999-46, year: 1999
+- Authors: C.A. Grattoni, M.B. Pingo Almada, X. D. Jing, R.A. Dawe
+- Method: laboratory experiment
+- Keywords: gravity drainage, three-phase flow, Bond number, Capillary number, wettability, bead pack
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-46)
+
+Gravity drainage experiments in water-wet and oil-wet bead packs show Capillary number alone fails to correlate oil recovery; a new combined Bond-Capillary number correlates it well.
+
+The study examines how wettability affects three-phase gravity drainage by gas, relevant to gas-cap expansion and crestal gas injection. Experiments used transparent glass bead packs (20x10x0.6 cm, porosity 42%) with water, paraffin and air, in water-wet and oil-wet states, at connate water and after waterflooding. Capillary and Bond numbers were redefined for three-phase flow using fluid morphology and saturation-weighted density differences. In water-wet primary drainage the Bond number rose linearly to 2.24, while in the oil-wet case it was nonlinear and stayed below 1, with a more fingered front. After waterflooding, Bond numbers reached 1.61 (water-wet) and 1.1 (oil-wet). A combined number N = a NB - b(μd/μg)NCa correlated oil recovery well, whereas the Capillary number alone did not.
+
+## Vertical Water Injection in a Hetereogeneous Sand Column; Experiment and Analysis
+
+- ID: SCA2000-45, year: 2000
+- Authors: Svein H Midtlyng, Jostein Alvestad, George Virnovsky
+- Method: laboratory experiment
+- Keywords: gravity stable waterflood, gamma ray saturation monitoring, capillary continuity, mixed wettability, history matching, vertical flow rig
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-45)
+
+A vertical sand column with embedded cores was waterflooded and gamma-ray monitored; simulation showed capillary continuity between sand and cores was lost, so the long-rig concept failed.
+
+Gravity-dominated waterfloods in mixed-wet North Sea reservoirs show falling oil saturation behind the front, and properly scaled SCAL tests would need a long vertical rig. A small-scale test column was built from packed sand with one reservoir core and two Bentheimer cores cast in with epoxy, aged in crude, and flooded with water at 1 ml/h from the bottom for 47 days, then shut in for 13 days and flooded for 8 more. Gamma-ray attenuation gave saturation profiles. Water breakthrough came at 15.4 days with 369 ml of oil produced, and total production was 398 ml, or 80% of STOOIP. History matching with a 1D two-phase model indicated that capillary continuity between sand and cores was broken, and that the sand stayed water-wet (Amott index 0.9) because aging failed. Post-breakthrough oil came mainly from the sand. A steady-state analytical model that assumes capillary continuity reproduced the profiles only qualitatively and mismatched the cores.
+
+## Experimental Investigation of the Gas-Oil Drainage Performance of Water Flooded Rock
+
+- ID: SCA2002-04, year: 2002
+- Authors: Sjaam Oedai, John van Wunnik
+- Method: laboratory experiment
+- Keywords: gas-oil gravity drainage, centrifuge relative permeability, residual oil saturation, saturation history, three-phase relative permeability, oil spreading
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-04)
+
+Centrifuge gas-oil gravity drainage experiments on water-flooded sandstone plugs show lower remaining oil than waterflooding, slightly worsened by waterflooding and largely restored by oil re-saturation.
+
+The study assesses gas-oil gravity drainage (GOGD) with immiscible gas in a water-flooded sandstone reservoir. Plugs from channel, shoreface and mouthbar facies were aged and spun in air in an automated centrifuge with camera detection of produced oil and water, following three histories: drainage at connate water (OG), after waterflood (OWG), and after waterflood plus oil re-saturation (OWOG). Relative permeabilities were derived with the MoReS simulator using single-phase saturation-dependent Corey curves, since Stone, Hirasaki and linear isoperm three-phase models failed. Corey exponents for oil were 4.5 ± 0.2, and the saturation at kro=1e-5 was 0.09 for gas-oil versus 0.15 for water-oil. Waterflooding raised remaining oil by 2 to 9 saturation units and oil re-saturation recovered 2 to 4 units, while no clear dependence on geological unit was found.
+
+## Estimation of Oil Relative Permeability from Gravity Drainage Experiments: Models and Accuracy
+
+- ID: SCA2002-13, year: 2002
+- Authors: B. PEDRERA, H. BERTIN, G. HAMON, L. DALLET
+- Method: data analysis or correlation
+- Keywords: gravity drainage, oil relative permeability, gamma-ray attenuation, inversion method, saturation profile noise, capillary pressure
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-13)
+
+Oil relative permeability from gravity drainage is derived by analytical and inversion methods; both agree, but saturation noise makes low-saturation values unreliable, and the analytical result is a good inversion starting point.
+
+Gas/oil gravity drainage experiments were run on 1 m long, 5 cm diameter Aerolith-10 sintered cores (porosity about 38%, permeability 5-7 D) at irreducible water saturation, with saturation profiles measured by gamma-ray attenuation. Oil relative permeability was computed with an analytical method that uses the final capillary-equilibrium profile for capillary pressure, and with the CAROPT inversion code. Tests on simulated profiles recovered the input Corey exponent well (3.1 vs 3). Adding noise of ±2 saturation points, or the observed ±10 point noise, gave good averaged curves at high oil saturation but a spurious slope change toward optimistic values at low saturation. Inversion matched the analytical results when initialized with the analytical kro, the measured Pc, and fitted to recovery plus the last profile, but its error bars were large near residual oil saturation. Flow regime at very low oil saturation therefore cannot be concluded from these data.
+
+## Details of Gravity Drainage of Heavy Oil During Vapour Extraction
+
+- ID: SCA2004-23, year: 2004
+- Authors: L. James, I. Chatzis
+- Method: laboratory experiment
+- Keywords: VAPEX, heavy oil, micromodel, gravity drainage, butane vapour, pore-scale film flow
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-23)
+
+Glass micromodel VAPEX experiments with butane show live oil drains in only one to two pores at the interface, and interface velocity predicts live oil rates.
+
+VAPEX heavy oil recovery was studied in etched glass micromodels with different pore structures, using n-butane at 23°C against oil-saturated models at 25°C, while tracking interface position and butane uptake. The interface advanced linearly with time except near the top, at about 0.69 pores/h (0.12 cm/h) in model OC-1 and 1.33 pores/h in DC-1. Residual oil location depended on pore geometry, and trapped butane bubble mobilization showed live oil drains in only one to two pores. Darcy gravity-drainage predictions of live oil velocity agreed with measured superficial velocities within about 21% on average for glass-bead models. Diffusion times exceeded drainage times, implying convective mixing and an effective diffusivity near 2.5E-05 cm2/s.
+
+## High-Resolution Imaging of High Mobility Ratio, Immiscible Displacements
+
+- ID: SCA2005-16, year: 2005
+- Authors: Guo-Qing Tang, Anthony R. Kovscek
+- Method: laboratory experiment
+- Keywords: viscous fingering, mobility ratio, X-ray CT saturation imaging, waterflood, shock mobility ratio, Berea sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-16)
+
+CT imaging of waterfloods in a homogeneous Berea core with oils of 0.97-155 cp shows front instability grows with mobility ratio and rate; shock mobility ratio predicts stability.
+
+Waterflood of viscous oil at high mobility ratio lacks fine-scale in-situ saturation data. A 52 cm, 377 md strongly water-wet Berea core, characterized by CT for porosity and permeability and found homogeneous, was waterflooded with n-decane, blandol and drakeol (endpoint M of 0.07, 2 and 12) at 0.35, 1.05 and 2.11 m/d. CT images and 3D reconstructions show a piston-like front at M=0.07, a progressively dispersed front at M=2, and viscous fingering at M=12, with greater rate worsening instability at M≥2 and zero initial water saturation promoting fingering. Ultimate recovery was about 0.46-0.47 OOIP for all oils, but breakthrough recovery fell from about 0.47 to 0.28-0.38 OOIP with increasing M and more pore volumes were needed. Steady-state relative permeability varied with oil viscosity, so a less viscous oil cannot substitute for the real oil, and shock mobility ratios (0.07, 0.83, 2.2) predicted stability.
+
+## Core Analysis Issues in Heavy Oil Recovery Using Vapex
+
+- ID: SCA2005-25, year: 2005
+- Authors: Lesley James, Ioannis Chatzis
+- Method: review or workflow
+- Keywords: VAPEX, heavy oil, solvent gravity drainage, scale-up, VAPEX interface velocity, dispersion coefficient
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-25)
+
+Reviews lab-scale VAPEX heavy oil experiments and scale-up equations, and reports interface advancement measurements showing production rate scales with model height and interface velocity is length-independent.
+
+VAPEX solvent-based heavy oil recovery lacks standardized core analysis and scale-up methods. The paper reviews laboratory models (Hele-Shaw cells, packed troughs, annulus models, micromodels) and the scale-up equations relating live or dead oil rate to permeability and height. Production rate scaled with the square root of permeability but with height raised to powers from 0.5 to 1.1-1.3, depending on the study. Own experiments in unconsolidated 45 cm and 92 cm high models showed rate doubling with height. The VAPEX interface velocity was 0.127 mm/min at 88.5 cm and 0.063 mm/min at 29.5 cm, with a constant ~0.5 cm/h advance in the mid-section of both models. The paper also covers solvent condensation, non-condensable gas effects, and pore-scale mixing as unresolved issues.
+
+## Performance of Near-Miscible Gas and Swag Injection in a Mixed-Wet Core
+
+- ID: SCA2007_26, year: 2007
+- Authors: M. Sohrabi, D.H. Tehrani, M. Al-Abri
+- Method: laboratory experiment
+- Keywords: near-miscible gas injection, SWAG, WAG, mixed-wet core, low gas-oil IFT, USBM wettability index
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_26)
+
+High-pressure coreflood tests in a mixed-wet Clashach sandstone show near-miscible gas, WAG and SWAG injection give high oil recovery, with SWAG highest at breakthrough.
+
+Little experimental data exist on WAG and SWAG in mixed-wet cores at low gas-oil IFT. The authors aged a 67 cm, 1000 mD Clashach sandstone core in crude oil to reach mixed wettability (USBM index -0.02). They ran methane/n-butane/brine floods at 37.8 °C: immiscible gas (1200 psia, IFT 2.7 mN/m), near-miscible gas (1840 psia, IFT 0.04 mN/m), oil injection, two WAG sequences and a SWAG test with gas/water ratio of 1. Immiscible gas recovery differed little between water-wet and mixed-wet cores, whereas near-miscible gas recovered much more, about 5% more than in the water-wet core. Oil recovery continued after gas breakthrough, and SWAG recovered about 90% of initial oil in 1.5 PV; at breakthrough SWAG recovery exceeded both water and gas injection. WAG starting with water recovered 50% of waterflood residual oil in the first gas cycle, leaving only about 4% after two cycles.
+
+## Impact of Displacement Rate on Relative Permeabiilty and Residual Saturation in Gas-Assisted Gravity Drainage Process
+
+- ID: SCA2008-11, year: 2008
+- Authors: S. Ghotbi
+- Method: laboratory experiment
+- Keywords: gravity drainage, gas injection, Hagoort method, Corey relative permeability, critical rate, capillary end effect
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-11)
+
+Gas-injection gravity drainage experiments in sand packs, analyzed with an extended Hagoort method, show higher injection rates raise residual oil and lower oil relative permeability.
+
+Increasing gas injection rate to speed gravity drainage raises viscous forces relative to gravity, which may reduce displacement efficiency. The authors ran nitrogen/n-decane downward displacements in vertical sintered glass-bead packs (3-4 cm diameter, 60 and 120 cm long, about 3.5-16.5 Darcy) at rates from 0.5 to 5 times the critical rate. They extended Hagoort's backward method to give Corey-type oil relative permeability from production data without pressure data, and history-matched gas relative permeability at high rates. Higher injection rates gave higher gas and lower oil relative permeability and much higher residual oil saturation above the critical rate. In lower-permeability, capillary-dominated packs, capillary end effect correction was needed, and higher rates partly produced oil held by the capillary threshold height.
+
+## Microscopic Displacement Efficiency of Alkane and CO2-Based Gaseous Solvents with Heavy Oil
+
+- ID: SCA2010-19, year: 2010
+- Authors: M. Darde, G. Darche
+- Method: laboratory experiment
+- Keywords: gaseous solvent injection, extra-heavy oil, CO2 coreflood, X-ray saturation monitoring, viscous fingering, compositional history matching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-19)
+
+Three 1D corefloods of extra-heavy oil with C2-C3, CO2-C3 and pure CO2 solvents gave large microscopic recoveries (83%, 79%, 58%), but history matching awaits PVT data.
+
+Gaseous solvent injection is considered as an alternative to steam for mobile extra-heavy oil in unconsolidated sand. Three corefloods of about 33 cm were run at reservoir conditions (45-48°C, 47-50 bar) with X-ray saturation monitoring: 80/20 C2-C3 in unconsolidated sand (oil 9900 cP, 3 cc/h), 62/32 CO2-C3 in Aerolith (2800 cP, 0.2 cc/h), and pure CO2 in Aerolith. Final recoveries were 83% (2 OOIP injected), 79% (1.7 OOIP) and 58% (2.2 PV), with solvent breakthrough at 0.01 PV, 0.9 PV and 0.28 PV respectively. The high-rate C2-C3 test showed viscous fingering and early C2 breakthrough, which required a kinetic dissolution formalism to match; the lower-rate tests gave smooth fronts and did not need non-equilibrium solubility. Relative permeabilities remain uncertain because experimental PVT data for the oil-solvent mixtures are missing.
+
+## Efficiency of Gas Injection Scenarios for Intermediate Wettability: Pore-Network Modelling
+
+- ID: SCA2010-37, year: 2010
+- Authors: Yongfei Yang, Marinus I.J. van Dijke, Jun Yao
+- Method: numerical simulation
+- Keywords: pore-network model, intermediate wettability, gas injection, oil wetting films, residual oil saturation, WAG
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-37)
+
+A 3D pore-network model shows that in intermediate-wet systems direct gas injection after drainage recovers more oil than gas injection after waterflooding, and more oil-wet systems recover better.
+
+The study examines gas injection efficiency in intermediate-wet porous media (contact angles 75–105°) using a 3D pore-network model previously validated against WAG micromodel experiments. Two scenarios were compared: direct gas injection after oil drainage versus gas injection after waterflooding, with oil-film threshold values cos θgo* of 0.95, 0.96 and 0.97 and coordination number 3. Direct gas injection gave lower residual oil saturation, because it displaces more oil from large pores, though with threshold 0.95 it was initially higher before ending lower. Aging scenarios and varied fractions of water-wet pores in oil-filled pores (0.2, 0.5, 0.8) showed that more oil-wet systems and more oil-wet pores give better oil recovery by gas. The oil wetting films in gas-filled pores strongly control the residual oil saturation.
+
+## Pore-Scale Fingering During Viscous Oil Displacement
+
+- ID: SCA2011-19, year: 2011
+- Authors: Shashvat Doorwar, Kishore K. Mohanty
+- Method: laboratory experiment
+- Keywords: viscous fingering, micromodel, viscosity ratio, alkaline-surfactant flooding, diffusion limited aggregation, heavy oil
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-19)
+
+Micromodel floods show viscosity ratio controls fingering in viscous oil displacement, and tertiary alkaline-surfactant recovery grows with water-finger surface area, higher after polymer flood.
+
+Thermal methods are unsuitable for some viscous oil reservoirs, so the authors study nonthermal chemical flooding of ~10,000 cP oil at pore scale. Six floods were run in a 5 cm x 5 cm etched silicon micromodel at 5 µl/min: water, 100 cP HPAM polymer and alkaline-surfactant (AS) floods, with oil viscosities of 6, 1,000 and 10,000 cP. At viscosity ratios of about 10^3 or more, water fingers resemble DLA fractal structures with few growing branches, leaving most of the model unswept. Immobile water side branches and surrounding immobile oil explain the reduced oil and water relative permeabilities. AS injection lowered interfacial tension and pulled oil from the sides of water fingers as oil-in-water emulsion, and tertiary recovery was greater after polymer flood because of the larger water-oil contact area. The analysis is qualitative, based on visual observation.
+
+## Stability of CO2-Brine Primary Drainage
+
+- ID: SCA2012-60, year: 2012
+- Authors: H. Ott, S. Berg
+- Method: numerical simulation
+- Keywords: viscous fingering, CO2-brine drainage, shock-front mobility ratio, macroscopic capillary number, gravity number, Buckley-Leverett
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-60.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-60)
+
+Numerical simulations show CO2-brine drainage fingering is predicted by shock-front mobility ratio above 1 and macroscopic capillary number above 1; capillarity stabilizes only core scale, not field scale.
+
+The paper examines the viscous stability of CO2-brine primary drainage relevant to CO2 storage in sandstone aquifers. Using the MoReS finite-volume simulator in 2D and 3D based on earlier experimental geometry, the authors varied viscosity ratio (10-40), Corey exponents (2-5) and CO2 endpoint, and compared stability outcomes with different mobility-ratio definitions. The shock-front mobility ratio M_SF > 1 matched the simulations, whereas the endpoint and total shock-front mobility ratios did not. Realistic capillary pressure (IFT 30 mN/m) stabilizes the front at core scale, but fingering reappears at a transversal scale of about 45 m, consistent with a macroscopic capillary number N_M,cap > 1. Gravity causes overrun with a self-amplifying gravity tongue for N_grav >> 1, which can cause substantial bypassing even when M_s is below 1.5.
+
+## Core Extraction Process for Saturated Oil Recovery (CEPSat™)
+
+- ID: SCA2013-047, year: 2013
+- Authors: Régi Damien Giroux, Francois Ollivier, Kirk Petrophysics, Scott Parker, Jean-Valery Garcia
+- Method: measurement technique or apparatus
+- Keywords: oil sands extraction, dichloromethane elution, partition coefficient Kd, plate elution theory, Dean-Stark comparison, automated solvent extraction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-047.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-047)
+
+An automated multi-sample DCM elution tool (CEPSat) extracts oil from oil sands, recovering about 99.9 wt% in five elutions, with partition coefficients differing for high and low grade ores.
+
+The paper presents CEPSat, an automated multi-sample solvent extraction instrument for rapid oil recovery from oil sand ore. Ores from Alberta, Utah, California and Madagascar were tested, with 21 CEPSat runs and 3 Dean-Stark runs per ore on roughly 1 g samples eluted with DCM. Using plate elution theory, a partition elution coefficient Kd was computed per elution cycle. At n=5 elutions (5 ml DCM per gram), mean oil recovery was 99.92 ± 0.05 wt%, with Kd of 0.057±0.022 ml/g for medium/high grade ores (>10 wt%) and 0.163±0.022 ml/g for low grade ores (<10 wt%). Low grade ores eluted with more difficulty, possibly due to clay and organics. The tool is claimed to be over 10 times faster than Dean-Stark and to handle over 200 samples per day.
+
+## Finger thickening during extra-heavy oil waterflooding: simulation and interpretation using pore-scale modelling
+
+- ID: SCA2014-028, year: 2014
+- Authors: Regaieg M, McDougall S.R, Bondino I, Hamon G
+- Method: numerical simulation
+- Keywords: viscous fingering, finger thickening, pore network model, extra-heavy oil waterflooding, capillary entry pressure, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-028)
+
+A dynamic pore network model reproduces post-breakthrough finger thickening in extra-heavy oil waterfloods, attributing it to plateau pressure drop exceeding mean capillary entry pressure.
+
+Laboratory X-ray imaging of waterfloods in 30x30 cm Bentheimer slabs with 2000 and 7000 cP oil showed water fingers thickening and coalescing after breakthrough, improving sweep. A new fully dynamic 2D pore network model with iterative capillary-pressure coupling, secant-method inlet pressure control and multiple pore filling was built and benchmarked against 35 Lenormand micromodel experiments, reproducing all regimes. Slab-scale simulations, without history matching, reproduced dendritic fingers before breakthrough, thickening afterwards, and the plateau differential pressure. The proposed mechanism is that after breakthrough the pressure drop across spanning fingers falls, leaving the highest gradients at upstream finger tips, and thickening occurs when the plateau pressure drop exceeds mean capillary entry pressure. Sensitivities showed thickening is favored by longer cores (absent at 3.25 cm), weakly oil-wet (100° vs 170°) conditions and higher injection rate (0.05 vs 0.005 cc/hr).
+
+## Corner Oil Film Elevation Above the Gas-Oil
+
+- ID: SCA2015-045, year: 2015
+- Method: theory or analytical model
+- Keywords: gas-assisted gravity drainage, oil film, spreading coefficient, square capillary corner flow, gas-oil capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-045)
+
+Models equilibrium oil film height in the corner of a water-wet square capillary by balancing gravity and capillary pressure, showing how interfacial tension, density difference and oil bank length control it.
+
+Gas-assisted gravity drainage can give very high oil recovery when oil forms a film over water in water-wet porous media, but film behavior depends on pore geometry as well as the spreading coefficient. The authors develop an analytical equilibrium model of an oil film in the corner of a water-wet square capillary tube, balancing gravity and capillary pressure. Two film configurations arise: one limited to a maximum height where oil-water and gas-oil contact radii become equal, and one where the film extends at all heights. The maximum height is independent of tube size and increases with higher gas-oil interfacial tension, lower gas-oil density difference and longer oil bank. Example calculations use an oil-water IFT of 0.03 N/m, oil density 700 kg/m3, water 1000 kg/m3, bank length 0.05 m and zero contact angles. Longer film elevation is expected to raise gas-oil capillary pressure, letting gas enter smaller pore throats; non-equilibrium experiments are under way.
+
+## The Role of Film Flow and Wettability in Immiscible Gas Assisted Gravity Drainage
+
+- ID: SCA2016-036, year: 2016
+- Authors: H. Khorshidian, L.A. James, S.D. Butt
+- Method: laboratory experiment
+- Keywords: gas assisted gravity drainage, film flow, wettability, micromodel, capillary continuity, CO2 injection
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-036)
+
+CO2 gas-assisted gravity drainage in oil-wet and water-wet acrylic micromodels shows wettability controls film flow and residual oil, with higher post-breakthrough recovery in oil-wet media.
+
+The paper examines how wettability and oil film flow affect residual oil in immiscible gas assisted gravity drainage (GAGD). Secondary CO2 GAGD (0.1 cc/hr, 20°C, 25 psig) was run in a heterogeneous 256 x 64 mm acrylic micromodel, in oil-wet and water-wet states, with oil saturation tracked by image analysis. Gas invaded large pores first, bypassing zones with throats below about 400 µm, and post-breakthrough recovery occurred only by film flow. Film flow added about 6% recovery in the oil-wet model versus 2% in the water-wet model. In the water-wet model, water in small pores blocked oil films and residual oil stayed in medium pores, whereas in the oil-wet model it remained in the smallest pores and as rings around grains. Stronger capillary continuity along the pattern edges improved drainage, but film flow ended beyond a critical capillary pressure set by corner geometry.
+
+## Pore-Level Simulation of Heavy Oil and Bitumen Recovery Using the Steam Assisted Gravity Drainage (SAGD)
+
+- ID: SCA2016-065, year: 2016
+- Authors: Arash Behrang, Sahand Etemad, Peyman Mohammadmoradi, Apostolos Kantzas
+- Method: numerical simulation
+- Keywords: SAGD, pore-scale simulation, volume of fluid, phase change, condensation, heavy oil
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-065.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-065)
+
+A VOF-based OpenFOAM solver simulates pore-scale SAGD with condensation and vaporization, and its residual oil pattern agrees with a published visualization experiment.
+
+Pore-scale physics of steam, condensate and heavy oil in SAGD are poorly understood. The authors developed an OpenFOAM CFD solver using the volume of fluid method that solves mass, Navier-Stokes momentum and energy equations under non-isothermal conditions with phase change. Interfacial mass transfer used an empirical intensity factor r = 100 to keep interface temperature near saturation (373 K). Simulations injected steam at 400 K into oil-saturated pore geometries at 300 K, with a viscosity ratio of 10000 and density ratio of 1000. Results show condensate forming at the steam-oil interface, a transient aqueous phase that appears and disappears, and oil production from heating. The simulated residual oil pattern agrees well with a published visualization experiment.
+
+## Pore-Level Study of the Effect of Miscibility and Wettability on Oil Recovery during Gas Assisted Gravity Drainage
+
+- ID: SCA2017-057, year: 2017
+- Authors: H. Khorshidian, L.A. James, S.D. Butt
+- Method: laboratory experiment
+- Keywords: gas assisted gravity drainage, micromodel, wettability, film flow, miscible displacement, interfacial tension
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-057)
+
+Acrylic micromodel GAGD tests with CO2 and propane show oil-wet media recover more oil under immiscible conditions, while miscible propane gives over 99% recovery even in water-wet media.
+
+The paper examines how gas-oil interfacial tension and wettability affect gas assisted gravity drainage at the pore scale. Experiments used a new acrylic micromodel (porosity 0.48, PV 0.94 ml) with fine capillaries for film flow, injecting CO2 or C3H8 at 24°C into Varsol oil, with saturations from image analysis. With CO2, ultimate residual oil was about 0.21 PV in oil-wet versus 0.31 PV in water-wet models, because oil films kept hydraulic continuity to bypassed zones in oil-wet media. Propane at 4 bar gave little change in oil-wet media and a slight 0.03 PV reduction in water-wet media, aided by 32% oil swelling. Miscible propane at 8.4 bar in a water-wet model recovered more than 99% of the oil, since no gas-oil interface formed.
+
+## Pore-Scale Saturation, Temperature, Pressure and Velocity Characterization of SAGD Process
+
+- ID: SCA2017-084, year: 2017
+- Authors: Sahand Etemad, Arash Behrang, Apostolos Kantzas
+- Method: numerical simulation
+- Keywords: SAGD, pore-scale simulation, Volume of Fluid, Lee phase change model, steam fingering, micromodel
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-084.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-084)
+
+Pore-scale CFD simulation of SAGD in a 2D micromodel using OpenFOAM VOF with the Lee phase change model shows steam fingering, condensate blocking, and pressure buildup.
+
+The paper studies pore-scale SAGD phenomena by simulating a reconstructed 2D micromodel (390×390 µm, square grains) in OpenFOAM. A VOF-based compressible multiphase solver was extended with the Lee phase change model (r = 1000 s^-1) to handle steam condensation and evaporation under nonisothermal conditions. Steam at 385 K displaced oil at 280 K at atmospheric pressure (Tsat = 373 K), with an injection velocity of 1e-4 m/s. Steam initially advanced in a piston-like manner until about 190 min, then fingered sideways; condensate formed at the interface, blocked steam from the lower region, and partly revaporized, while oil was trapped behind the swept zone. Temperature dropped sharply across the interface, velocities were highest at the interface, and pressure built up behind it with up to 200 Pa difference between steam and oil. Results are consistent with published micromodel and sand-pack observations.
+
+## Effect of fractures on hot solvent injection in viscous oil: a study using HP-HT micromodel
+
+- ID: SCA2019-010, year: 2019
+- Authors: Igor Bondino, Gerardo Emanuel Romero, Jean-Philippe Chaulet, Anne Brisset, Marelys Mujica
+- Method: laboratory experiment
+- Keywords: micromodel, solvent injection, propane, fractured matrix, minimum miscibility pressure, viscous fingering
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-010)
+
+Eight HP-HT glass micromodel propane injections into viscous oil show pressure, connate water and fracture-to-matrix permeability ratio control recovery, with fractures and dispersion suppressing viscous fingering.
+
+The study examines propane injection into viscous oil (135 cp) in fractured glass micromodels at 8–100 bar and 60–110 °C, covering immiscible, first-contact miscible, near-miscible and supercritical conditions. Eight experiments used sandstone-like and bimodal carbonate-like chips to test pressure, temperature, connate water, injection rate, inlet/outlet layout and fracture size. Above the minimum miscibility pressure all oil was recovered, whereas the immiscible case left about 20% oil and the supercritical near-miscible case about 10%. Connate water in the water-wet chip slowed recovery and promoted early breakthrough via fractures but did not change final recovery. In the carbonate-like chip with large 1 mm fractures, about 80% oil remained after 13 days because solvent flowed only through fractures, a result explained by fracture/matrix resistance ratios. Injection rates exceeded the critical velocity, yet fingers appeared in few tests, attributed to transverse dispersion and fractures; CMG STARS simulations reproduced the main qualitative behaviour except the complex fracture percolation of the immiscible test.
+
+## CT-scan in-situ investigation of waterflood front instabilities during immiscible displacements: effect of viscosity contrast and flow rate
+
+- ID: SCA2019-029, year: 2019
+- Authors: Matthieu Mascle, Elisabeth Rosenberg, Berit Roboele, Espen Kowalewski, Souhail Youssef
+- Method: laboratory experiment
+- Keywords: viscous fingering, waterflood front instability, CT scanning saturation monitoring, Bentheimer sandstone, Doorwar instability number, breakthrough recovery
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-029)
+
+CT-monitored waterfloods in a full-size water-wet Bentheimer plug show breakthrough recovery correlates with Doorwar's number, with high rate and viscosity contrast worsening fingering; capillary trapping dominates early breakthrough.
+
+Unstable waterflood fronts were studied in a 10 cm x 40 cm water-wet Bentheimer plug (22.2% porosity, 2530 mD) inside a medical CT scanner. Five floods used mineral oils of 4.7, 168 and 321 cP at 1.4 and 7.0 cc/min, with saturation imaged in 3D at 0.33x0.33x1.25 mm voxels. The low-viscosity oil case (CF1) displaced in a piston-like way with 50% PV recovery at breakthrough, while the viscous oil cases gave 19-28% PV, falling with higher rate and viscosity ratio. Recovery at breakthrough correlated with Doorwar's instability number but did not align with Doorwar's Boise data. Splitting breakthrough recovery into swept volume and microscopic recovery in swept zones showed sweep of ~90% at 1.4 cc/min and ~70% at 7 cc/min, with microscopic recovery of only ~30%. Capillary trapping, with oil saturation near 60% behind the front, was thus the main cause of early breakthrough.
+
+## Displacement stability revisited – A new criterion for the onset of viscous fingering
+
+- ID: SCA2022-01, year: 2022
+- Authors: Jos G. Maas, Niels Springer, Albert Hebing, Steffen Berg
+- Method: theory or analytical model
+- Keywords: viscous fingering, displacement stability criterion, Hagoort shock-front mobility ratio, unsteady-state drainage, AutoSCORES history matching, Buckley-Leverett
+- Cited by 0 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-01)
+
+A first-principles criterion for onset of viscous fingering (dq/dt at constant ΔP) unifies earlier criteria, is tested by simulation, and shows unstable drives bias SCAL Corey parameters.
+
+The paper derives a new necessary condition for the onset of viscous fingering from the requirement that flow rate in a perturbed stream tube increases at constant pressure drop, using Buckley-Leverett saturation profiles rather than constant saturations. Hele-Shaw, Saffman-Taylor/Chuoke, Hagoort, Dietz and Dumoré criteria emerge as special cases. Stability requires M_end ≤ α (α typically 0.3–0.7) or M_shag < M_α < 1, making the criterion stricter than Hagoort's, with a modified critical rate when gravity acts. 1-D and 2-D SCORES simulations confirm that pre-breakthrough pressure drop declines when the criterion is met, and Berg and Ott's 'Case a' shows fingering once porosity/permeability heterogeneity triggers it. Unsteady-state drainage experiments on Obernkirchener sandstone (stable oil/brine vs unstable Isopar/glycerol, M_end≈130), history matched with AutoSCORES plus centrifuge Pc, gave Corey parameters for the unstable case that differed significantly (t-test, 5% and 1%) from the stable cases, e.g. krwor 0.23 versus 0.47–0.61.
+
+## An Experimental Investigation of Three-phase Flow in a Carbonate Rock during Water-Alternating-Gas Injection Using In-Situ Saturation Measurement Technique
+
+- ID: SCA2023-063, year: 2023
+- Authors: Sheikh Faisal Kader Joy, Shadrack Owusu, Amir Hossain Alizadeh, Mohammad Piri
+- Method: laboratory experiment
+- Keywords: water-alternating-gas, three-phase flow, in-situ saturation X-ray imaging, phase trapping, carbonate, injectivity loss
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-063.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-063)
+
+Three-phase WAG core floods on a water-wet carbonate use in-situ X-ray saturation imaging to study saturation history, phase trapping and injectivity loss.
+
+WAG injection in natural carbonates is poorly understood compared with sandstones, owing to heterogeneity and the difficulty of three-phase floods without in-situ saturation data. The authors run WAG floods on a 10-inch by 1.5-inch water-wet outcrop carbonate core, verified as relatively homogeneous by CT. The fluids are brine, Soltrol 170 and N2, and a robotic X-ray imaging platform with 180 µm resolution gives 3D in-situ saturations. Two saturation histories are compared: gas injected at initial water saturation (WAG-G) and gas injected at waterflood residual oil (WAG-W), each followed by multiple brine/gas cycles. End-point relative permeabilities are used to assess injectivity loss from phase trapping. The text provided gives the design only and reports no quantitative results.
+
+## Gas-Oil interaction and Gravity impact on high permeability WAG experiments
+
+- ID: SCA_2025_1039, year: 2025
+- Authors: Gilles Puyou, Marcel Bourgeois, Bauyrzhan Satken, Nadine Loubere, Anthony Chenieux, Vincent Zozaya, Frederic Merceron, Nicolas Blin, Anne Saint-Pierre, Michel Nguyen, Cyril Caubit, Yoann Guilloux
+- Method: laboratory experiment
+- Keywords: WAG injection, multi-contact miscible gas, stripping and swelling, 2D X-ray imaging, gravity override, three-phase relative permeability
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1039)
+
+Four reservoir-condition multi-contact miscible WAG corefloods with 2D X-ray monitoring show gas-oil stripping/swelling and gravity effects; short-slug WAG gave fastest recovery, reaching 95%.
+
+The study examines gas-oil interaction and gravity in WAG injection for a high-permeability, low-dip deepwater sandstone field. Four corefloods were run at 520 bar and 125°C with live oil, synthetic gas and reservoir cores (about 730–1900 mD): long-slug GWGW horizontal (WAG1a), GWGW vertical (WAG1b), long-slug WGWG (WAG2) and short-slug (0.125 PV) WAG3. Effluents were quantified at reservoir and surface conditions with chromatography, and a CXBox 2D X-ray system tracked saturations. Horizontal GWGW showed strong swelling and stripping and gravity override, with gas stabilized by intervening water; vertical injection produced all oil in the first gas slug with moderate stripping and no swelling. WAG2 had low waterflood efficiency but efficient gas flood, with moderate stripping and no swelling, while WAG3 reached 95% recovery fastest with large stripping and moderate swelling. Trapped gas increased with cycles.
+
+## Advanced Simulation and History Matching Approaches on WAG Experiments in High-Permeability Reservoir Cores
+
+- ID: SCA2026-028, year: 2026
+- Authors: Gilles Puyou, Marcel Bourgeois, Cyril Caubit
+- Method: numerical simulation
+- Keywords: WAG hysteresis, history matching, Land trapping coefficient, alpha-factors, X-ray saturation monitoring, compositional simulation
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-028)
+
+Compares WAG hysteresis models and non-equilibrium corrections (SOR, alpha-factors, BIC) for history matching HPHT WAG corefloods in high-permeability sandstone; improved hysteresis with SOR gives the most consistent match.
+
+Interpreting WAG corefloods in high-permeability cores is non-unique, so the authors reinterpret four HPHT live-oil WAG experiments (long and short slugs, horizontal and vertical) plus two light-condition tests, using pressure, production, effluent composition and 2D X-ray saturation maps. Simulations used the Intersect compositional simulator with a 10-pseudocomponent EOS, a 2D grid with Kv/Kh = 1 to capture gravity segregation, and inlet/outlet dead volumes. Three Larsen–Skauge-type WAG hysteresis variants (conventional, improved, extended with Land water trapping) were combined with SOR, alpha-factors or binary interaction coefficients, and 0D analysis gave Cg, Cw, αg and Rkw ranges. For WAG1a all methods match globally, but accurate gas and water saturations in the second gas cycle require water trapping (improved or extended models). SOR gave the lowest saturation-based objective function, while alpha-factors and BIC are retained for compositional exchange and upscaling. Dead volumes allowed matching the very low differential pressure and Pcgo/Pcow effects. A four-step interpretation workflow is proposed.

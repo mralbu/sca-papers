@@ -1,0 +1,356 @@
+# Three-phase relative permeability
+
+> 27 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: three-phase relative, gas, oil, relative permeability, saturation, three-phase flow, water, relative permeabilities, saturations, wag.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Trapped Gas, Relative Permeability and Residual Oil Saturation of an Oil-Wet Sandstone1
+
+- ID: SCA2000-11, year: 2000
+- Authors: J.G. Kralik, L.J. Manak, A.P. Spence, G.R. Jerauld
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, trapped gas saturation, oil-wet sandstone, water-alternating-gas, residual oil saturation, CT scanning
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-11)
+
+Corefloods on preserved oil-wet sandstone show three-phase trapped gas is about half the two-phase value, trapped gas does not lower residual oil, and it suppresses water relative permeability.
+
+Three-phase flow in native-state oil-wet sandstones is poorly covered by existing relative permeability models. The authors ran waterfloods, gasfloods and waterfloods to trapped gas on preserved composite cores from two sands (A-sand and C-sand) at reservoir conditions, with JBN relative permeabilities, tracer tests and CT scanning. Three-phase trapped gas was about 11-13%, roughly half the two-phase values (about 20-22% at similar maximum gas saturation). A lower-rate flood and CT scans showed this was not capillary desaturation or gas redistribution. Residual oil to waterflood was unchanged by trapped gas, while water relative permeability fell markedly and showed hysteresis and water trapping. Compositional WAG simulations with the generalized Jerauld model showed that lower trapped gas reduces retained gas by about 9-35% depending on the process and reservoir description, with little change in oil recovery.
+
+## Three-Phase Relative Permeabilities and Trapped Gas Measurements Related to Wag Processes
+
+- ID: SCA1994-21, year: 1994
+- Authors: Arne Skauge, Johne A. Larsen
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, WAG, trapped gas saturation, relative permeability hysteresis, Amott wettability index, unsteady-state displacement
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-21)
+
+Unsteady-state gas and water injections on Berea and North Sea sandstones give three-phase relative permeabilities, trapped gas relations and a new gas hysteresis model for WAG.
+
+The paper addresses microscopic displacement efficiency and three-phase relative permeability in WAG processes. Unsteady-state gas and water injection sequences were run on 40-100 cm composite cores of Berea, silanized Berea and four North Sea reservoir sandstones (30-2000 mD) at ambient or reservoir conditions (about 300 bar), with wettability characterized by Amott index. Residual oil saturation in three-phase flow was significantly lower than in two-phase waterflood or gas injection. Wetting-phase kr depended mainly on its own saturation, whereas gas kr showed strong hysteresis, lower for decreasing gas saturation, regardless of wettability. Trapped gas depended strongly on maximum gas saturation (0.17-0.21 in WAG tests) and fitted a Land-type equation; a new hysteresis model implemented in ECLIPSE reasonably predicted WAG effluent and pressure data.
+
+## Residual Oil Saturation and Multiphase Relative Permeability Measurements on a Water-Wet Sandstone Reservoir and a Limestone Reservoir of Mixed Wettability
+
+- ID: SCA1995-03, year: 1995
+- Authors: P. Grivot, L. Bouvier, J. Fournier, A. Silverii
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, residual oil saturation, gamma-ray saturation monitoring, centrifuge, tertiary gas injection, oil isoperms
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-03)
+
+Combining gamma-ray steady-state and automated centrifuge tests, the paper measures three-phase relative permeability and residual oil in a water-wet sandstone and a mixed-wet limestone, finding gas recovery lower in tertiary mode for the limestone.
+
+Tertiary gas injection design requires reliable residual oil saturation and three-phase relative permeability data. The authors combined steady-state tests with dual-energy gamma-ray in situ saturation monitoring (high oil saturations) and automated video-monitored centrifuge tests (high gas saturations) at ambient conditions on plugs from a water-wet sandstone and a mixed-wet limestone. In the sandstone, water relative permeability was the same function of Sw in two-phase and three-phase drainage, so both datasets could be merged to build oil isoperms, and a Fayers or modified Stone 1 model fitted them. Residual oil was very low in both secondary and tertiary gas floods. In the limestone, Sorw depended mainly on permeability rather than wettability, and gas beat water in secondary recovery except at very low column heights and low permeability. Tertiary Sorwg values lay between Sorg and Sorw, so gravity drainage was less efficient in tertiary than in secondary conditions.
+
+## Dual Energy Gamma-Ray Absorption Technique Applied to Oil Relative Permeability Determination During a Tertiary Gas Gravity Drainage Experiment
+
+- ID: SCA1995-10, year: 1995
+- Authors: S. Sakthikumar, V. Giry, Ph. Maquignon
+- Method: laboratory experiment
+- Keywords: gamma-ray absorption, gas gravity drainage, three-phase relative permeability, in situ saturation monitoring, Stone model, capillary end effects
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-10)
+
+Dual-energy gamma-ray absorption monitored three-phase saturations in a tertiary gas gravity drainage coreflood; history matching with a compositional simulator validated the Stone 1 oil relative permeability model.
+
+Predicting tertiary oil recovery from waterflooded reservoirs depends strongly on the three-phase relative permeability model, which is rarely validated experimentally. A 58 cm composite water-wet sandstone core was waterflooded and then subjected to tertiary gas gravity drainage at 230 bar and 71°C with low-IFT equilibrium fluids, while a dual-source (Am-241/Cs-137) gamma-ray rig monitored oil, gas and water saturations in situ. Waterflood recovered 70% IOIP, but residual oil profiles were non-uniform (35% at top, 10% at bottom) owing to capillary end effects. Gas drainage produced tertiary oil, reaching 57% TOIP and 8.5% average oil saturation before core plugging at 1.3 PV gas, with near-zero oil saturation in the upper core. The Foulser method gave Kro falling from 1e-3 to 1e-5 as So dropped from 25% to 10%, and compositional simulation matched production and saturation profiles using the Stone 1 model.
+
+## Recent Application of Special Core Analysis to Fault Rocks
+
+- ID: SCA2006-15, year: 2006
+- Authors: Suleiman Al-Hinai, Quentin Fisher, Bader Al-Busafi, Phil Guise, Carlos A. Grattoni
+- Method: laboratory experiment
+- Keywords: fault rock, gas relative permeability, vapour chamber, pulse decay permeametry, ultracentrifuge capillary pressure, transmissibility multiplier
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-15)
+
+Gas relative permeability and capillary pressure of cataclastic fault rock were measured; including them in a Rotliegend simulation reproduces the 250 bar cross-fault pressure difference that transmissibility multipliers cannot.
+
+Fault rocks affect reservoir compartmentalisation, but transmissibility multipliers based on single-phase permeability often make faults too leaky. Seven cores of cataclastic fault rock from the Lossiemouth fault (Hopeman sandstone, Scotland) were characterised by CT, SEM, porosity, pulse-decay, Klinkenberg and brine permeability (0.001-0.006 mD). Air-water drainage capillary pressure was measured by ultracentrifuge up to 15,000 rpm, with irreducible water saturation not reached and minimum Sw mostly above 40%. Gas relative permeability was measured by pulse decay on samples equilibrated in vapour chambers, showing a sharp fall with increasing water saturation and krg below about 0.01. In an Eclipse model, the transmissibility multiplier approach gave 96 bar in the second compartment after 20 years, whereas a discrete fault with measured multiphase properties gave 343 bar, matching the reported 250 bar differential.
+
+## A New Method to Measure Water, Oil and Gas Saturation Profiles in Three-Phase Gas Injection
+
+- ID: SCA1995-05, year: 1995
+- Authors: O. VIZIKA, F. KALAYDJIAN
+- Method: measurement technique or apparatus
+- Keywords: three-phase saturation profiles, gamma-ray attenuation, electrical resistivity, spreading coefficient, gravity-assisted gas injection, three-phase relative permeability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-05)
+
+Combining electrical resistivity and gamma-ray attenuation gives three-phase saturation profiles in gravity-assisted gas injection; positive spreading coefficient gives far higher oil recovery (54% vs 13%).
+
+The paper presents a method to measure water, oil and gas saturation profiles simultaneously during tertiary gas injection, using resistivity from eight electrodes for water saturation and Americium gamma-ray attenuation for oil and gas. It was applied to gravity-assisted gas injection in water-wet sandpacks (about 120 µm grains, porosity 0.35-0.36) with spreading (S=+13 mN/m) and non-spreading (S=-2 mN/m) fluid systems. Profiles agreed with double-energy CT-scanner profiles and with bulk saturations from weighing recovered fluids, with errors under 3% for water and 4.5% for gas saturation. Spreading conditions recovered 54% OOIP with local residual oil down to 2%, versus about 13% recovery and Sorg near 11% for non-spreading. Oil relative permeabilities derived from profile evolution were very low and, used in a simulator, gave a good history match of recovery curves.
+
+## Effect of Saturation History on Three-Phase Relative Permeability: An Experimental Study
+
+- ID: SCA2013-023, year: 2013
+- Authors: A.H. Alizadeh, M. Piri
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, saturation history, spreading oil layers, gas injection, Bentheimer sandstone, CT saturation measurement
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-023)
+
+Steady-state three-phase gas injection experiments in Bentheimer sandstone with CT saturation show water and gas kr depend on own saturation, and oil kr scales as So^4 at high and So^2 at low saturation.
+
+Three-phase relative permeability is poorly characterized experimentally, and the effect of saturation history is uncertain. The authors built a closed-loop, fully recirculating coreflooding apparatus with dual-energy medical CT for in-situ saturations, and ran steady-state tests on vertical water-wet Bentheimer cores (about 2.4 D, 24% porosity) with brine/Soltrol 170/nitrogen at 800 psig and 20°C. Two secondary gas injections (initial oil saturation 0.90 and 0.65) and one tertiary gas injection (Soi 0.70) gave residual oil saturations of 0.108, 0.145 and 0.173, attributed to differing stability of spreading oil layers and oil/water contact angle hysteresis. Water and gas relative permeabilities depended only on their own saturations, while oil relative permeability was only weakly sensitive to initial oil saturation. Oil kro scaled as So^4 at high oil saturation and So^2 at low saturation, consistent with layer drainage theory.
+
+## A Novel Experimental Apparatus for Determination of Three-Phase Relative Permeabilities at Reservoir Conditions
+
+- ID: SCA1996-36, year: 1996
+- Authors: E. Ebeltoft, J.E. Iversen, K.O. Vatne, M.A. Andersen, J.E. Nordtvedt
+- Method: measurement technique or apparatus
+- Keywords: three-phase relative permeability, acoustic separator, X-ray saturation measurement, reservoir condition flooding, history matching, chalk
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-36)
+
+Describes a closed-loop three-phase flooding apparatus with acoustic separator and X-ray saturation scanning for reservoir-condition relative permeability, with calibration tests and a chalk experiment history-matched.
+
+Three-phase relative permeability data at reservoir conditions are scarce, so a new apparatus was built for simultaneous injection and recycling of water, oil and gas. It uses eight computer-controlled pump cylinders, a three-phase acoustic separator, an X-ray transparent carbon-fiber core holder, and a Cs-filtered X-ray scanner for saturation profiles. Calibration showed pump volume accuracy of ±0.01 ml, pressure within 0.1% of 70,000 kPa range, leakage below 0.1 ml/day, and separator error of ±0.3 cc (about 0.5% of a 55 ml pore volume). In a Berea steady-state test, average saturations from volume balance and X-ray correlated well, though X-ray underestimated water and overestimated gas saturation. Three steady-state experiments on a 2.27 md chalk at 20,700 kPa were history-matched with a B-spline parameterized simulator to estimate relative permeability and capillary pressure surfaces.
+
+## Comparing Hysteresis Models for Relative Permeability in Wag Studies
+
+- ID: SCA1995-06, year: 1995
+- Authors: Johne Alex Larsen, Arne Skauge
+- Method: numerical simulation
+- Keywords: WAG, relative permeability hysteresis, trapped gas, Land relation, three-phase flow, intermediate wettability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-06)
+
+Simulations of immiscible WAG compare Carlson, Killough and a modified SL hysteresis model, showing standard two-phase models cannot capture reduced gas and water mobility seen experimentally.
+
+Standard two-phase relative permeability hysteresis models cannot reproduce the drop in gas and water mobility between primary and tertiary processes observed in intermediate-wet systems during WAG. The authors simulated 1D core-floods and a 2D reservoir cross-section (Eclipse 94) using the Carlson, Killough and a modified SL model with input taken from measured curves and a modified Stone I oil model. A tolerance limit added to the SL model's jump between high- and low-mobility envelopes stabilized the runs and halved CPU time for the 3000-day cross-section. In 1D core-floods, Carlson and Killough gave about 13.2% final oil saturation and SL 11.6%, versus 5% experimentally, from 66% initially. In 2D, SL gave delayed gas breakthrough (900 vs 400 days) and larger gas-swept area. Water mobility representation (primary, secondary or pseudo-hysteresis) strongly changed recovery and water segregation, and the Killough wetting-phase scheme was judged of little use for WAG.
+
+## Three-Phase Saturation Measurement During Gravity Drainage and Tertiary Waterflood: Improvement of Dual Energy Gamma-Ray Attenuation Technique
+
+- ID: SCA2004-06, year: 2004
+- Authors: C. Caubit, H. Bertin, G. Hamon
+- Method: measurement technique or apparatus
+- Keywords: dual energy gamma-ray attenuation, three-phase saturation, gravity drainage, tertiary waterflood, error propagation, Am241 Cs137
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-06)
+
+A dual-source Am241/Cs137 gamma-ray device with separate detectors measures three-phase saturations in a 1 m core; error analysis shows oil saturation least accurate and guides optimized procedures.
+
+Three-phase saturation measurement is needed for tertiary flood and WAG studies. The authors built a dual-energy gamma-ray rig with Am241 and Cs137 sources stacked vertically, each with its own NaI detector, which avoids Compton correction. They ran gas-oil gravity drainage followed by tertiary waterflood on a 1 m Aerolith 10 core (porosity about 0.40, aged to weakly oil-wet) using NaI-doped brine and Marcol 52 oil. Saturation-derived recoveries agreed with mass balance. Error propagation by differential and Taylor-expansion/covariance methods showed Am porosity is more accurate than Cs, oil saturation is the least accurate, and accuracy improves with gas saturation. A front-tracking procedure, using the dual-energy system only in the three-phase zone and Am alone elsewhere, strongly reduced scatter.
+
+## Experimental and Theoretical Three-Phase Relative Permeability for Wag Injection in Mixed Wet and Low Ift Systems
+
+- ID: SCA2010-09, year: 2010
+- Authors: M. Sohrabi, H. Shahverdi, M. Jamiolahmady, M. Fatemi, S. Ireland, G. Robertson
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, WAG injection, near-miscible gas, mixed-wet core, relative permeability hysteresis, history matching
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-09)
+
+Near-miscible WAG coreflood experiments in mixed-wet and water-wet cores yield two- and three-phase kr by history matching; existing three-phase kr models fail to match the data.
+
+Three-phase relative permeability for WAG is usually derived from two-phase data with empirical models, which is uncertain for mixed-wet rock and low-IFT gas. Many two- and three-phase corefloods (water, gas, oil, WAG, SWAG) were run on a 1000 mD mixed-wet and a 65 mD water-wet Clashach core using a C1/nC4 fluid system near its critical point (IFT 0.04 mN/m, 1840 psia, 100°F). An in-house genetic-algorithm coreflood simulator history-matched production and pressure data to give 2D three-phase kr tables for all phases. In the mixed-wet core, all three phases' kr depended on two saturations; three-phase kro was about 30% and krg about 10% of two-phase values, and gas hysteresis exceeded oil hysteresis while krw showed little hysteresis. In the 65 mD core, hysteresis was still considerable, and Stone I/II, Stone Exponent and saturation-weighted interpolation in Eclipse gave widely varying predictions, none matching all data nor the continued oil recovery after gas breakthrough.
+
+## Calculation of Three-Phase Relative Permeabilities from Displacement Experiments with Measurements of in-Situ Saturation
+
+- ID: SCA1995-09, year: 1995
+- Authors: O.O. Eleri, A. Graue, A. Skauge, J. A. Larsen
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, in-situ saturation, nuclear tracer imaging, trapped gas, hysteresis, Clashach sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-09)
+
+Three-phase relative permeabilities in water-wet Clashach sandstone were derived from unsteady-state floods with tracer-imaged in-situ saturations; water kr depends on Sw alone, oil kr shows scatter and hysteresis.
+
+The paper examines how saturation history affects two- and three-phase relative permeability in a water-wet Clashach sandstone core (234 md). Sequences of water, oil and gas injections were run with nuclear tracer imaging to measure in-situ saturations, and three-phase kr was calculated analytically (Virnovsky method). Two-phase displacements were also history-matched with a Levenberg-Marquardt optimization of kr and capillary pressure, which showed limits when only production and pressure data were used and when viscous fingering was not modeled. Trapped gas increased with initial gas saturation and did not fit a Land equation with C=1.9 (C≈3.0 fit better), and trapped gas lowered residual oil. Water kr depended on water saturation alone, gas kr appeared to depend on gas saturation at high saturations, and oil kr showed considerable scatter and hysteresis, suggesting dependence on other phases' saturations.
+
+## Relative Permeabilities for Two- and Three Phase Flow Processes Relevant to the Depressurization of the Statfjord Field
+
+- ID: SCA2008-23, year: 2008
+- Authors: Egil Boye Petersen Jr, Arild Lohne, Kåre O. Vatne, Johan Olav Helland, George Virnovsky, Pål-Eric Øren, Numerical Rocks
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, steady-state history matching, Stone model, capillary end effects, Statfjord depressurisation, gas-oil capillary pressure
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-23)
+
+Steady-state two- and three-phase relative permeabilities measured on Statfjord reservoir core at reservoir conditions; Stone and Baker models fail to predict three-phase data, and two-phase capillary pressure is inadequate.
+
+Depressurisation of the Statfjord Field requires three-phase relative permeabilities, which are usually estimated from two-phase data using empirical models. Steady-state two- and three-phase measurements were made on a 27.3 cm composite reservoir core (873 mD, porosity 0.318) at 200 bar and 91°C with live-type fluids, covering increasing and decreasing gas saturation paths (DDI and IID series). Data were history matched with the Coreflow simulator using independently measured capillary pressure curves to correct for end effects. Eclipse simulations showed Baker's saturation-weighted interpolation and Stone 1/2 poorly reproduced saturations and underestimated pressure drop by 30-40% or more, while tabulated measured three-phase kr gave an excellent match. Matching required artificially high residual oil (0.10-0.25), and inlet capillary pressure estimates indicated three-phase Pcgo and Pcow far larger than two-phase values.
+
+## Measurement of Three-Phase Relative Permeabilities of Various Saturating Histories and Wettability Conditions
+
+- ID: SCA2012-43, year: 2012
+- Authors: Lu Weifeng, Zhang Zubo, Liu Qingjie, Ma Desheng, Wu Kangyun
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, isoperms, CT dual energy scanning, saturation history, wettability, steady-state method
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-43)
+
+Steady-state, CT-monitored three-phase relative permeability tests on water-wet and oil-wet sandstone show wettability controls isoperm shapes, while saturation history mainly affects non-wetting phase isoperms.
+
+Three-phase relative permeability data are scarce for oil-wet rock and uncertain in isoperm shape. The authors ran steady-state water-oil-gas flow experiments on a water-wet (SX1) and a weakly oil-wet (SX2) Shanxi sandstone outcrop, using dual-energy CT (100 and 140 kV) for in-situ saturations and a PEEK coreholder to avoid end effects. Two saturation histories were tested: DDI (gas increasing) and the reversed IID. In the water-wet core, water isoperms were straight lines, oil isoperms concave toward 100% oil, and gas isoperms convex toward 100% gas. In the oil-wet core, all three phases' isoperms were convex toward their own 100% saturation point. Wetting-phase isoperms were similar for both histories, whereas non-wetting phase isoperms and isoperm positions differed, which is explained by trapping of gas and oil.
+
+## Performance and Numerical Interpretation of Gas Drainage Core Tests Under Secondary and Tertiary Conditions
+
+- ID: SCA1995-08, year: 1995
+- Authors: J.-C. Moulu, F. Kalaydjian, J.-M. Martin
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, gas injection, isoperms, pseudo steady-state method, history matching, Fontainebleau sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-08)
+
+Three-phase relative permeabilities are derived by history-matching gas-injection production curves with tabulated Krw, Kro, Krg versus Sw and Sg, starting from a pseudo steady-state estimate.
+
+Steady-state three-phase relative permeabilities poorly represent displacements, especially with non-spreading oil. Gas drainage tests were run on Fontainebleau and Vosges sandstones (about 3000 md, 40-70 cm long) with brine, Soltrol 170 and nitrogen, from two-phase and three-phase initial saturations. A quick pseudo steady-state calculation and isoperm curvature arguments gave preliminary Kr tables, which were then adjusted over several simulation cycles until simulated oil, water and gas production matched experiments. Gas drainage gave lower residual oil than waterflood (Sorg 0.15 vs Sow 0.29). Krw depended on Sw alone, Krg on Sg alone in two Sw domains (above and below 0.35), and Kro on both Sw and Sg with strongly curved isoperms.
+
+## Factors Influencing Three-Phase Flow Parameters in Wag Experiments
+
+- ID: SCA1999-32, year: 1999
+- Authors: Arne Skauge, Ida Veland, Johne Alex Larsen
+- Method: numerical simulation
+- Keywords: WAG, three-phase relative permeability, hysteresis, Land trapping constant, principal component analysis, capillary end effect
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-32)
+
+IWAG core floods on two sandstones are history matched with a three-phase hysteresis model, and PCA of many simulations reveals which parameters control production and pressure.
+
+The paper examines which three-phase flow parameters control oil recovery in immiscible WAG core floods (about 0.1 PV slugs, 1:1 water-gas ratio) on two North Sea sandstone composites, one water-wet (Amott index 0.45) and one intermediate-wet (+0.29). Experiments were history matched with the ECLIPSE three-phase hysteresis option (WAGHYSTR). For core A the match used a Land constant of 2.25, a gas reduction factor of 0.5, a water endpoint reduction of 2, and no coupling of residual oil to trapped gas. Core B needed full coupling of trapped gas to residual oil, Land constant of about 3-3.4, a gas reduction of 4 and a 10-fold water reduction, with WAG recovery reaching 92% of oil in place. Principal component analysis of a lattice-designed set of simulations showed maximum differential pressure correlates with water production and the three-phase water mobility reduction, and gas breakthrough with the gas reduction factor. The Land constant behaved as noise in the PCA. Capillary end effects strongly affected continuous G1W2 and W1G2 floods but little affected WAG slug injection.
+
+## Gas/Oil Relative Permeability Curves for Deep Water Reservoirs
+
+- ID: SCA1999-34, year: 1999
+- Authors: G. Hamon, F. Gouth, P. Bergey, D. Gaujard
+- Method: laboratory experiment
+- Keywords: gas/oil relative permeability, unconsolidated sands, gravity drainage, multi-rate gas flood, grain sorting, Corey exponent
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-34)
+
+Multi-rate gas floods on unconsolidated deep-water sands show oil Kr depends on grain sorting; assigning Kr by sorting in reservoir models changes reserves by about 14%.
+
+Gas reinjection into unconsolidated, highly permeable deep-water turbidite sands depends on gas/oil gravity drainage, which is controlled by oil relative permeability. The authors describe quality control for unconsolidated plugs: an aluminium/rubber sleeve for coring and zero-strain loading, plus brine tracer floods with CT and X-ray profiles to reject heterogeneous samples. Multi-rate unsteady-state gas floods were history-matched with spline-represented Kr and Pc curves. Krog showed a log/log break, with exponent 3.7–6.5 at medium-high So and 1.5–2.5 at low So, attributed to film flow in a spreading system, so single-parameter Corey forms fail. Corey exponent and residual oil correlated with grain sorting (well-sorted: Sorg below 0.05, no 3.7–4.7; poorly sorted: Sorg ~0.15, no 6–6.5), not with porosity or permeability. Using the two extreme Kr sets across a reservoir model gave about 14% difference in reserves.
+
+## Sensitivity Studies of Fluid Flow Across Water-Saturated Faults with High Entry Pressure
+
+- ID: SCA2003-49, year: 2003
+- Authors: M.T. Tweheyo, E. Knudsen, O. Torsæter, J.K. Ringen
+- Method: numerical simulation
+- Keywords: fault seal, capillary entry pressure, compartmentalised reservoir, Eclipse simulation, mercury porosimetry, oil breakthrough
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-49.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-49)
+
+Eclipse 1D simulations of oil flow across a water-saturated ceramic fault next to Berea show breakthrough and recovery depend on fault permeability, entry pressure and thickness.
+
+Water-saturated, low-permeability faults with high entry pressure can compartmentalise reservoirs, as seen in Brent Province fields. The authors simulated two-phase oil/water flow with Eclipse in 1D composite models of Berea sandstone (reservoir) and a ceramic fault (k 0.00295 md, Pe 8 bar, 0.99 cm thick). Corey correlations and mercury porosimetry supplied relative permeability and capillary pressure. Sensitivities varied fault permeability (0.000295-0.0295 md), entry pressure (4-14 bar), thickness and initial reservoir water saturation. Breakthrough was delayed by over ten times for a tenfold thicker fault (232 h vs 14 h) and was earlier with higher permeability; performance was controlled more by permeability than entry pressure. Simulated breakthrough times (14, 8, 10 h) matched experiments (13, 6, 9 h) reasonably.
+
+## Characterization of Multiphase Flow Properties for Tertiary Immiscible Displacement Processes in an Oil-Wet Reservoir
+
+- ID: SCA2006-33, year: 2006
+- Authors: Fred H. L. Wang, M. Matt Honarpour, Nizar F. Djabbarah, Fred M. Haynes
+- Method: laboratory experiment
+- Keywords: double displacement process, gas-oil relative permeability, interfacial tension, spreading coefficient, oil-wet sandstone, steady-state relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-33)
+
+Reservoir-condition double displacement coreflood on Hibernia composite core shows gas injection after waterflood recovers substantial additional oil, supporting gas storage in this oil-wet sandstone.
+
+The study evaluates gas injection following waterflood (double displacement process) for the oil-wet Hibernia sandstone, to assess gas storage feasibility and incremental oil recovery. A composite core (1917 md, 17.9% porosity) was tested with live fluids at 210°F, 4500 psi pore pressure and 4000 psi net confining stress, alongside two-phase water-oil and gas-oil relative permeability, centrifuge capillary pressure, USBM wettability and IFT measurements. Gas-oil relative permeability showed strong gas hysteresis, negligible gravity effect, and strong dependence on IFT (1.82 dyne/cm live fluids versus 15-20 for test fluids). After waterflood at 9:1 water-oil ratio recovered 54% OOIP, gas injection gave an additional 14% OOIP after 1 PV, 18.5% after 11 PV and 15.6% more via a late secondary oil bank over 2,143 PV. A positive spreading coefficient (16.7) and oil-wet behavior explain the high recovery through continuous oil films.
+
+## Surprising Trends on Trapped Hydrocarbon Saturation with Wettability
+
+- ID: SCA2007_51, year: 2007
+- Authors: V. Sander Suicmez, Mohammad Piri, Martin J. Blunt
+- Method: numerical simulation
+- Keywords: pore-network modeling, trapped gas saturation, three-phase flow, wettability, oil layer collapse, Berea sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_51.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_51)
+
+Mixed-wet pore-network modeling of Berea sandstone shows trapped oil and gas vary non-intuitively with wettability and initial gas saturation, contradicting empirical trapping models.
+
+Empirical three-phase trapping models may not reflect pore structure and wettability, so the authors use a three-dimensional mixed-wet random network model of Berea sandstone to compute trapped oil and gas. The sequence was primary drainage, gas injection to varying initial gas saturation, then waterflooding, for water-wet, weakly water-wet, weakly oil-wet and oil-wet cases. Trapped gas in the water-wet case matches Land's model. In strongly oil-wet systems gas becomes intermediate-wet and forms layers, so trapped gas decreases with increasing initial gas saturation. Weakly water-wet media trap more oil and gas than water-wet media at high initial gas saturation, because layer collapse is more common. Trapped oil increases with initial gas saturation in weakly and strongly oil-wet systems, results that simple analysis would predict the opposite of.
+
+## Drainage Three-Phase Flow Relative Permeability on Oil-Wet Carbonate Reservoir Rock Types: Experiments, Interpretation and Comparison with Standard Correlations
+
+- ID: SCA2013-028, year: 2013
+- Authors: P. Egermann, K. Mejdoub, J.-M. Lombard, O. Vizika, Z. Kalam
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, oil-wet carbonate, oil isoperms, gas injection, history matching, Stone model
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-028)
+
+Gas-drainage experiments on two oil-wet carbonate composite cores yield three-phase kr tables; oil isoperms show concavity opposite to water-wet, and Stone-type models fail to reproduce them.
+
+Three-phase relative permeability data are scarce for intermediate to oil-wet carbonates. Two aged composite cores (four plugs each) from two Middle East reservoirs (Amott WI = -0.7) were subjected to N2 injection with dodecane and brine at Swi, at Sorw, and at two intermediate saturation states, monitored by CT scanning. Three-phase kr tables as functions of Sg and Sw were history-matched with a single set per rock type across 8 experiments. krg decreases with increasing water, krw and kro depend on two saturations (except at low Sw or So), and oil isoperms are concave toward the oil phase, consistent with sandstone literature data. Stone 1, geometric, Temeng and Hirasaki models could not reproduce this shape, and in five-spot simulations Stone 1 overestimated oil recovery by 16% at Swi=50%, with a smaller difference at 35%.
+
+## A Protocol to Evaluate Caprock Integrity for Thermal Heavy Oil and Bitumen Recovery Operations
+
+- ID: SCA2014-032, year: 2014
+- Authors: U. Romanova, M. Piwowar, T. Ma
+- Method: review or workflow
+- Keywords: caprock integrity, steam threshold intrusion pressure, high temperature permeability, SAGD, CT scan sample selection
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-032)
+
+Describes a laboratory protocol using CT screening, brine permeability at reservoir and steam temperatures, and gas threshold intrusion tests to judge caprock sealing for thermal heavy oil projects.
+
+Competent shale caprock is required for steam-based heavy oil and bitumen recovery such as SAGD and CSS, to avoid environmental, safety and heat-loss problems. The paper presents a test protocol: field preservation of chilled core, CT scanning for sample selection, mercury intrusion and petrography, brine permeability at reservoir temperature and at 200-265°C, and nitrogen threshold intrusion tests at stepped differential pressures. Permeability classes are proposed: ideal below 0.0001 mD, acceptable below 0.001 mD, passable below 0.01 mD, and generally unacceptable above 0.05 mD. In two example full-diameter samples, sample 1 had 0.0006 mD at 20°C and 0.0001 mD at 240°C with no gas flow until 700 kPa, while sample 2 had 0.03 mD and 0.005 mD with gas breakthrough at 35 kPa. Permeability decreases at high temperature were attributed to clay effects from fresh water. Over 30 years of results, about 60% of samples were definitely acceptable and about 80% acceptable.
+
+## An Overview of the Low and High Temperature Water-Oil Relative Permeability for Oil Sands from Different Formations in Western Canada
+
+- ID: SCA2014-066, year: 2014
+- Authors: U. Romanova, M. Piwowar, T. Ma
+- Method: review or workflow
+- Keywords: oil sands, steamflood, water-oil relative permeability, thermal formation damage, bitumen, clay alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-066.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-066)
+
+Overview of a 30-year database of low and high temperature water-oil relative permeability and steamflood tests on Western Canadian oil sands, showing suppressed water curves and thermal damage in lower quality sands.
+
+The paper reviews 30 years of low and high temperature water-oil relative permeability and steamflood tests on oil sands from the McMurray, Wabiskaw, Clearwater and Grand Rapids formations. It describes core preservation (frozen at -27°C), CT-based sample selection, petrographic characterization, and a test procedure of baseline oil permeability, waterflood, hot waterflood at increasing temperature, steamflood and post-test Dean Stark. Water endpoint relative permeability is strongly suppressed, typically 0.01-0.1, owing to the high bitumen viscosity and unfavourable mobility ratio. Residual oil saturation is lower in steamflood than in waterflood at the same temperature, and brine permeability generally rises with temperature, most below 100°C. Higher quality McMurray shows no formation damage, whereas lower quality McMurray and Grand Rapids show reduced water endpoint permeability, attributed to wettability change and clay alteration such as kaolinite to smectite.
+
+## Determination and Modelling of the Mobility of Connate Water in Oil Sands under Initial Reservoir Conditions
+
+- ID: SCA2014-095, year: 2014
+- Authors: Mingzhe Dong, Wei Zhou
+- Method: laboratory experiment
+- Keywords: initial water mobility, oil sands, wax displacement, triangular tube bundle model, water effective permeability, SAGD
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-095.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-095)
+
+Wax-displaced sandpack experiments measure interstitial water permeability in oil sands; a triangular tube bundle model and correlation reproduce the data and show water is mobile below 10% saturation.
+
+Initial water in bitumen reservoirs (20-30% saturation) is often treated as immobile, with irreducible saturation near 15% in simulations, despite evidence from SAGD history matching that it flows. The authors used molten wax at 70°C to displace water in wet-packed sandpacks (40-170, 70-170 and 100-170 mesh), aged for 3 days, cooled, and measured water permeability by falling head at 21°C, confirming saturation by Dean-Stark. Water effective permeability fell rapidly as saturation decreased, and irreducible saturations were 0.10, 0.075 and 0.050 for Sands A, B and C. A 1000-tube triangular bundle model with Weibull radius distributions matched the relative permeability curves, giving absolute permeabilities of 5.2, 7.1 and 11.4 D. An empirical correlation referenced to Krw at Sw=0.4 with exponent 1.95 predicted the data with 1.99% mean error, R² 0.994 and 3.94% maximum deviation.
+
+## Study of the Three-Phase Fluid Flow Mechanism in Low Permeability and High Gor Reservoirs
+
+- ID: SCA2016-052, year: 2016
+- Authors: JIA Ninghong, LV Weifeng, LIU Qingjie, QIN Jianhua, XU Changfu, LENG Zhenpeng
+- Method: laboratory experiment
+- Keywords: solution gas evolution, three-phase relative permeability, X-ray CT saturation, low permeability reservoir, live oil waterflood, dual-energy CT
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-052.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-052)
+
+CT-monitored waterflood of live oil in low-permeability conglomerate cores shows solution gas evolution cuts oil relative permeability by 27.5% but water relative permeability by only 1.4%.
+
+Solution gas evolution during waterflooding of low-permeability, high-GOR reservoirs reduces production, but its pore-scale effect is poorly understood. Two conglomerate plugs (about 1.4–1.6 mD, porosity 15.7–16.1%) were flooded with live oil (GOR 179 m3/m3, bubble point 10.07 MPa, 53.7°C) in a core flood integrated with a medical dual-energy X-ray CT scanner to measure three-phase saturations. Back pressure was lowered from 12 MPa to 8 MPa for XJ1 and to 4 MPa for XJ2. Gas evolved mainly near the outlet end, with greater extent and higher gas production at lower pressure (16% for XJ2 vs 10% for XJ1). Oil relative permeability fell by 27.5% relative to two-phase flow in XJ2, while water relative permeability fell only 1.4%, consistent with a water-wet system.
+
+## Hibernia Three-Phase Relative Permeability Measurements at Reservoir Conditions
+
+- ID: SCA2017-001, year: 2017
+- Authors: Daniel R. Maloney, Brad E. Milligan
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, steady-state method, WAG hysteresis, trapped gas saturation, saturation trajectory, live fluids reservoir conditions
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-001)
+
+Steady-state three-phase relative permeabilities were measured on oil-wet Hibernia composite cores with live fluids at reservoir conditions along designed saturation trajectories; gas shows the strongest hysteresis.
+
+Three-phase relative permeability data were needed to evaluate double-displacement and WAG schemes in the Hibernia Field. A composite of oil-wet Hibernia plugs was tested at 213°F, 3241 psig pore pressure and 4000 psi net confining pressure using live fluids in a closed-loop recirculating system with an acoustic separator for volumetric saturation. Two-phase gas-brine, gas-oil and oil-brine steady-state tests were run, followed by three-phase tests along saturation trajectories designed to match a prior double-displacement test, then WAG-type cycles and a final unsteady-state waterflood. Brine and oil relative permeabilities mostly followed two-phase trends, while gas relative permeability showed the most saturation-history-dependent hysteresis and depended on all three phases. Trapped brine saturation was about 0.35, and trapped gas saturation followed a Land-type trend with initial gas saturation. The trajectory approach completed the three-phase tests in 3.5 months.
+
+## An Investigation of Three Phase Recovery Mechanisms for Oil Field Optimization by Three-Phase Core Flood and Simulation Studies
+
+- ID: SCA2018-003, year: 2018
+- Authors: C. Jones, J. Brodie, S. Lamb, K. Sadikoglu, United Kingdom
+- Method: laboratory experiment
+- Keywords: three-phase flow, gamma attenuation saturation monitoring, trapped gas saturation, double displacement, residual oil saturation, equilibrium gas flood
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-003)
+
+Two three-phase coreflood sequences (water then gas, gas then oil then water) on sandstone composites at reservoir conditions show tertiary water flood at trapped gas gives lowest residual oil.
+
+BP compared two recovery sequences for a field: waterflood followed by crestal equilibrium gas flood (double displacement), and gas flood followed by oil flood and waterflood. Composites of four sandstone plugs (22-25% porosity, 288-411 mD) were flooded vertically at bubble point and reservoir conditions with live oil, equilibrium gas and doped brine, using gamma attenuation saturation monitoring (GASM) and an in-oven visual separator. In Coreflood 1, Eps rose from 70% after waterflood (Sorw about 0.21 PV after correction for capillary end effects) to 81% after tertiary gas flood (Sor3 0.17-0.20 PV). In Coreflood 2, the secondary gas flood reached only 68% Eps after 47 PV, and the oil flood trapped 0.22-0.24 PV gas. The tertiary waterflood then gave Sor of 0.12-0.14 PV (Eps 84%) and de-trapped about half the gas, with an oil-trapping coefficient a of 0.3-0.5. Separator oil volumes were under-reported, probably from oil shrinkage, so GASM was more reliable.

@@ -1,0 +1,1031 @@
+# Coreflood interpretation and simulation
+
+> 79 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: relative permeability, capillary pressure, saturation, unsteady-state, flow, steady-state, oil, curves, relative permeabilities, water.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Computer simulation of Special Core Analysis (SCAL) flow experiments shared on the Internet
+
+- ID: SCA1997-19, year: 1997
+- Authors: J.G. Maas, A.M. Schulte
+- Method: numerical simulation
+- Keywords: SCAL simulation, capillary end-effect, history matching, relative permeability, centrifuge, unsteady-state
+- Cited by 18 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-19)
+
+Describes SCORES, a web-accessible Shell simulator for unsteady-state, steady-state and centrifuge SCAL experiments, and how history matching resolves relative permeability and capillary pressure interference.
+
+Capillary end-effects and the interference between relative permeability and capillary pressure can bias SCAL results, with residual oil saturation overestimated by up to about 10 saturation units. Shell developed SCORES, a 1-D simplified version of its MoReS reservoir simulator, offered free through a WWW interface that returns results by e-mail as spreadsheets. The paper details the gridding, entrance/exit blocks, fluid inputs and outputs for USS, steady-state and centrifuge (including footbath, RPM table and gravity handling) experiments. It explains that raw JBN or Hassler-Brunner relative permeabilities reproduce production with zero capillary pressure (a 'trivial match') but not saturation profiles. The authors recommend history matching a (U)SS run, a single-speed centrifuge run and a multi-speed centrifuge run with one consistent relative permeability and capillary pressure data set.
+
+## A New Versatile Relative Permeability Correlation
+
+- ID: SCA2005-32, year: 2005
+- Authors: Frode Lomeland, Einar Ebeltoft, Wibeke Hammervold Thomas
+- Method: data analysis or correlation
+- Keywords: LET correlation, relative permeability, steady-state experiment, history matching, Corey correlation, s-shaped oil relative permeability
+- Cited by 12 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-32)
+
+Proposes the 3-parameter LET relative permeability correlation, showing it history-matches steady-state coreflood data where Corey and Chierici fail, and changes full-field water production forecasts.
+
+Standard correlations such as Corey and Chierici lack the flexibility to represent relative permeability over the full saturation range, including s-shaped oil curves. The authors propose the LET correlation, a rational function with parameters L, E and T that control the lower part, the slope position and the upper part of the curve. It was implemented in the Sendra core flow simulator and used to history match differential pressure and production for two steady-state reservoir-condition experiments on North Sea composite cores. Corey and Chierici could not match either data set, while LET matched both and reproduced the s-behaviour of oil relative permeability in case 1 while remaining smooth. In a field model with a thin oil zone, replacing Corey with LET for the oil phase cut simulated well water production to about half over the first 4 years and removed the mismatch with well test data.
+
+## Open Source Simulator Dumux Available for
+
+- ID: SCA2011-08, year: 2011
+- Method: numerical simulation
+- Keywords: DuMux, SCAL simulation, porous plate, continuous injection, resistivity index, capillary end effect
+- Cited by 12 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-08)
+
+The open-source DuMux simulator is adapted to simulate SCAL experiments (USS, SS, centrifuge, porous plate, continuous injection), validated against analytical solutions and MoReS, and used to analyze porous plate and CI measurements.
+
+Relative permeability and capillary pressure measurements interfere through capillary end effects, so residual oil from lab data can be 10-15 saturation units too high; forward simulation is needed to separate them. DuMux, an open-source DUNE-based simulator, was adapted to simulate USS (imbibition and drainage), steady-state, single- and multi-speed centrifuge, porous plate (PP) and continuous injection (CI) experiments, including resistivity index, with a free web interface called SCORES. Validation against Darcy and Buckley-Leverett solutions was excellent, and centrifuge results matched MoReS within 5%. Differences were traced mainly to table interpolation, which shifted production curves by about 3%. Simulation of a PP experiment showed that non-equilibrium gives too high Scw and Pc at low Sw, and that saturation profiles can become heterogeneous with oil building up at the plate. Synthetic CI cases showed strong injection-rate dependence of differential pressure and resistivity: at high rate a constant saturation exponent of 2 appears strongly curved.
+
+## Simultaneous Determination of Relative Permeability and Capillary Pressure Using Data from Several Experiments
+
+- ID: SCA2004-17, year: 2004
+- Authors: A. Sylte, E. Ebeltoft, E.B. Petersen
+- Method: numerical simulation
+- Keywords: history matching, relative permeability, capillary pressure, multi-speed centrifuge, steady state, covariance analysis
+- Cited by 4 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-17)
+
+A multi-scenario history-matching feature in the Sendra simulator jointly fits steady state, unsteady state and centrifuge data to one set of relative permeability and capillary pressure curves, improving accuracy.
+
+Single-experiment history matching gives accurate relative permeability and capillary pressure only in limited saturation ranges. The authors extend the Sendra core flow simulator with a multi-scenario feature that fits several experiments (steady state, unsteady state, single- and multi-speed centrifuge) simultaneously to one set of flow functions. A synthetic study with linearized covariance analysis and B-spline curves shows that the combined interpretation narrows confidence intervals for relative permeability across the saturation range, while capillary pressure is mainly controlled by the multi-speed centrifuge data. When two cores truly have different relative permeabilities, the result is an intermediate curve that is pulled toward the experiment with more data or lower error. Two North Sea water-displacing-oil cases, using Chierici or Corey relative permeability and extended Brooks-Corey capillary pressure, reconciled all experimental data with a single set of curves.
+
+## New Coreflood Simulator Based on Independent Treatment of in-Situ Saturation and Pressure Data
+
+- ID: SCA2002-07, year: 2002
+- Authors: David J Element, Stephen G Goodyear
+- Method: numerical simulation
+- Keywords: coreflood simulation, genetic algorithm, fractional flow, capillary end effect, in-situ saturation profiles, JBN method
+- Cited by 4 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-07)
+
+A coreflood simulator treats saturation and pressure data separately, using observed outlet saturation and a genetic algorithm to derive relative permeability; multi-rate floods with rate steps under 5x work best.
+
+Capillary end effects make JBN interpretation of waterfloods underestimate recovery and suppress relative permeability. The authors recast Darcy's equations into fractional flow, end-effect and water mobility functions, so regression splits into three independent stages and uses the observed outlet saturation history as boundary condition. A genetic algorithm (population 50-100, several hundred generations) was validated on a noise-free synthetic multi-rate flood. It was then applied to a four-rate waterflood on a 6 cm carbonate plug (29% porosity, 14.8 md) with 2 mm resolution saturation profiles, excluding the non-uniform inlet 2 cm; the result gave higher recovery than JBN and a capillary pressure shape whose zero crossing is not uniquely defined. Synthetic design tests showed two rates (4 and 400 ml/h) gave a poorer fractional flow curve than four rates (4, 20, 100, 400 ml/h), and rate steps should not exceed a factor of five to ensure saturation overlap.
+
+## Accuracy of Gas - Oil Relative Permeability from Two-Phase Flow Experiments
+
+- ID: SCA1997-07, year: 1997
+- Authors: M. Aarra
+- Method: laboratory experiment
+- Keywords: gas-oil relative permeability, centrifuge drainage, Bond number, capillary number, constant pressure gradient, parameter estimation
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-07)
+
+Gas-oil relative permeability from long-core gas injection, constant pressure gradient and centrifuge drainage varies with Bond and capillary number, a dependence not explained by capillary end-effects alone.
+
+Gas-oil drainage relative permeability is often calculated neglecting capillary forces, and the resulting errors are rarely discussed. Berea and Bentheimer sandstone cores (about 100 to over 2,000 mD) were tested with three methods. These were long-core gravity-oriented gas injection at 0.85, 1.43 and 8 times the critical rate with X-ray saturation scanning, constant pressure gradient gas injection, and centrifuge drainage at 500-2500 rpm. Higher gas rate gave earlier breakthrough, a more dispersed front and higher gas relative permeability, while oil relative permeability changed less. In centrifuge tests oil kr rose with rpm (Bond number 1e-7 to 1e-3), with a critical Bond number of about 6e-5 to 1e-4 depending on permeability. Simulations including capillary pressure still gave different kro curves at 500 and 2500 rpm, so the variation is not only an end-effect. Covariance analysis showed kr is well defined except near the endpoint saturations.
+
+## Rate Selection for Waterflooding of Intermediate Wet Cores
+
+- ID: SCA2001-20, year: 2001
+- Authors: Arne Skauge, Trond Thorsen, Andre Sylte
+- Method: laboratory experiment
+- Keywords: waterflood rate effect, intermediate wettability, inverse relative permeability estimation, capillary pressure, USBM wettability index, covariance confidence intervals
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-20)
+
+Unsteady-state waterfloods at several rates on intermediate-wet sandstone cores show relative permeability and estimated Pc vary with rate; low-rate floods history-matched with Pc are recommended.
+
+The paper examines how flow rate affects water-oil relative permeability in intermediate-wet sandstone cores (20-600 mD). Each core underwent a USBM/Amott wettability test, then several waterfloods at different rates with cleaning and resaturation between floods, and a repeat spontaneous imbibition test confirmed wettability was preserved. Relative permeability was derived by analytical (JBN) and simulation methods, with the best matches from inverse estimation of Pc and kr simultaneously using splines, with confidence intervals from covariance analysis. Water relative permeability increased systematically with rate, outside confidence intervals, while oil relative permeability varied more complexly. Estimated Pc differed from measured static imbibition Pc even at high rate, and analytical kro was underestimated, so low-rate floods analysed by simulation including Pc are recommended.
+
+## The Significance of Violated Assumptions on Core Analysis Results
+
+- ID: SCA1999-31, year: 1999
+- Authors: J.E. Nordtvedt, E. Ebeltoft, K. Kolltveit, E.B. Petersen, A. Sylte, R. Valestrand
+- Method: numerical simulation
+- Keywords: JBN method, Hagoort centrifuge method, capillary effects, relative permeability, composite core, residual oil saturation
+- Cited by 4 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-31)
+
+Simulated unsteady-state, centrifuge and steady-state data show that neglecting capillary pressure or permeability heterogeneity biases JBN, Hagoort and composite-core relative permeability estimates, creating apparent rate dependency.
+
+Traditional relative permeability interpretation assumes negligible capillary pressure and homogeneous cores, which are often violated. The authors generated synthetic unsteady-state, gas/oil centrifuge and steady-state composite-core data with a fully implicit simulator using known relative permeability and capillary pressure functions. JBN interpretation of unsteady-state data at 0.5–20 ml/min and Hagoort interpretation of centrifuge data at several RPM gave curves that absorb capillary effects, appearing rate and RPM dependent and overestimating residual oil saturation, frequently by about 10 saturation units. The Rapoport-Leas criterion was not sufficient to avoid the effect. For a three-sample composite core (200, 100, 50 mD) with 10% local permeability variation, using one harmonic-mean permeability gave relative permeabilities deviating over the whole saturation range, whereas using the harmonic mean of each sample gave nearly true curves.
+
+## The Uniqueness and Accuracy of Porous Media Multiphase Properties Estimated from Displacement Experiments
+
+- ID: SCA1997-09, year: 1997
+- Authors: A.A. Grimstad, K. Kolltveit, J.E. Nordtvedt, A.T. Watson, T. Mannseth, A. Sylte
+- Method: numerical simulation
+- Keywords: relative permeability estimation, inverse problem, B-spline regression, chi-square criterion, runs test, confidence intervals
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-09)
+
+Proposes chi-square and runs-test criteria to validate relative permeability estimates from displacement data; shows Corey and Chierici fits fail while adaptive B-splines pass.
+
+The paper addresses the ill-conditioned inverse problem of estimating relative permeability and capillary pressure from displacement experiments. It proposes two statistical criteria for accepting an estimate: the weighted least-squares objective J must be consistent with a chi-square distribution, and the number of runs in the residuals must lie within a confidence interval of m/2. In a simulated multirate unsteady-state drainage example (800 data points), Corey and Chierici fits gave J of about 20,000 and 1,500 against an expected value of about 800, and run counts of 132 and 316 against an expected 400, so both fail. A regression-based quadratic B-spline method, adding parameters stepwise, met the criteria at step 8, and linearized covariance analysis gave confidence bands containing the true curves. A second example shows that constant-rate production-only data with negligible capillary pressure determine only the ratio kro/krw, so the individual curves cannot be found.
+
+## Capillary End Effects in Coreflood Calculations
+
+- ID: SCA1996-34, year: 1996
+- Authors: David D. Huang, Matt M. Honarpour
+- Method: theory or analytical model
+- Keywords: capillary end effect, Corey-Burdine equations, terminal oil relative permeability, microwave saturation monitoring, displacement pressure, drainage capillary pressure
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-34)
+
+Analytical Corey-Burdine-based corrections for capillary end effects on terminal oil relative permeability and interstitial water saturation, plus simultaneous kr and Pc estimation, validated on a carbonate oilflood.
+
+Capillary end effects distort end-point relative permeability and saturation computed from corefloods. The authors integrate Darcy's law with Brooks-Corey/Corey-Burdine relations to derive the steady-state saturation profile for oil displacing water in a water-wet core, and produce charts correcting average terminal kro and interstitial water saturation as functions of Pd/|ΔPL| and λ. For λ=2.1 and Pd/|ΔPL|=0.4, the averaged kro is 81% lower than the actual value and the average Siw is 0.164 PV too high. In a reservoir-condition oilflood on a 5 md carbonate core with microwave saturation monitoring, measured kro of 0.65 versus 0.51 averaged and Siw of 0.292 versus 0.324 gave λ=2.3 and Pd=3.28 psi. Predicted Pc and kr agreed with centrifuge, porous-plate, mercury injection and steady-state data, and the predicted saturation profile matched the measured one.
+
+## The Importance of Special Core Analysis in Modelling Remaining Oil Saturation in Carbonate Fields
+
+- ID: SCA2008-03, year: 2008
+- Authors: S.K. Masalmeh, X.D. Jing
+- Method: laboratory experiment
+- Keywords: special core analysis, imbibition capillary pressure, steady state relative permeability, centrifuge history matching, oil-wet carbonate waterflood, cross-flow between layers
+- Cited by 6 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-03)
+
+SCAL capillary pressure and relative permeability data from an oil-wet Cretaceous carbonate are measured, history matched, and used in sector simulations showing their combined control on waterflood cross-flow and remaining oil.
+
+The paper examines how special core analysis data affect waterflood performance and remaining oil saturation in heterogeneous oil-wet carbonate reservoirs. Drainage Pc from mercury injection and centrifuge with four fluid pairs matched well after IFT scaling using the same effective contact angle, provided samples were properly cleaned. Relative permeability was measured on eight samples by steady state with high-rate bump floods plus multi-speed and single-speed centrifuge, history matched numerically. Oil end points were 0.8-1 and water end points 0.6-0.8, oil Corey exponents 4-4.8 and water 2.0-4.2, with steady-state and centrifuge oil kr agreeing well. In a 48-layer inverted five-spot sector model, relative permeability had a strong effect (~10 vs ~20 saturation units difference in lower-zone recovery) when imbibition Pc contrast between layers was low, but little effect when Pc contrast acted as a barrier to cross-flow.
+
+## Impact of SCAL on Carbonate Reservoirs: How Capillary Forces Can Affect Field Performance Predictions
+
+- ID: SCA2003-36, year: 2003
+- Authors: S. K. Masalmeh, X. D. Jing, W. van Vark, S. Christiansen, H. van der Weerd, J. van Dorp
+- Method: numerical simulation
+- Keywords: imbibition capillary pressure, waterflood sweep efficiency, carbonate wettability, layered reservoir cross-flow, reservoir simulation, SCAL
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-36)
+
+Simulations and SCAL Pc measurements show negative imbibition capillary pressure in a layered Middle East carbonate holds water in the upper zone, explaining waterflood behavior without permeability barriers.
+
+Water injected into a layered Middle East carbonate reservoir stays in the high-permeability Upper zone and bypasses the Lower zone, although core kv/kh is near unity and pressure communication exists. Seven simulation scenarios (3D 27-layer and 2D 160-layer models) varied viscous, gravity and capillary cross-flow under water-wet, zero and oil-wet imbibition Pc. Positive Pc gave good sweep of both zones, whereas negative Pc held water in the Upper zone; total recovery to breakthrough was the same, so history matching of total production alone can mislead. SCAL on 20 plugs (0.01–1000 mD) showed hardly any spontaneous imbibition, negative forced-imbibition entry pressures of 3–5 psi for 2–5 mD plugs, and Swc and Sor of 5–10%. A detailed radial model using measured Pc matched observation-well saturation logs, showing capillary forces alone explain performance; recovery was sensitive to Pc curve shape and to preserving low-permeability layers in the Upper zone.
+
+## Carbonate SCAL: Characterisation of Carbonate Rock Types for Determination of Saturation Functions and Residual Oil Saturations
+
+- ID: SCA2004-08, year: 2004
+- Authors: S.K. Masalmeh
+- Method: laboratory experiment
+- Keywords: carbonate rock typing, imbibition capillary pressure, residual oil saturation, Leverett J-function, mercury injection capillary pressure, dual porosity
+- Cited by 5 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-08)
+
+SCAL on 20 heterogeneous carbonate plugs shows imbibition Pc and residual oil saturation do not follow static rock typing, so dynamic data must define rock types.
+
+Carbonate reservoirs are heterogeneous and mixed-wet, yet saturation functions are usually assigned from static rock typing. Twenty plugs of 27-30% porosity (permeability 2-1000 mD) were characterised with thin section, SEM, NMR and Hg-air Pc. Water-oil Pc was measured by centrifuge and CAPRICI over primary drainage, imbibition after aging, and secondary drainage, interpreted by numerical simulation. Primary drainage entry pressure follows permeability, with dual porosity in the high-permeability group, and centrifuge curves match Hg-air for this set. The Leverett J-function split the high-permeability samples into three groups. Sor (5-18%) and imbibition Pc showed no correlation with permeability, drainage Pc or facies; samples s17 and s18 had Sor of 18% and 5%, explained by SEM pore structure. The authors conclude that dynamic rock typing using imbibition Pc, relative permeability and Sor is needed.
+
+## Pseudo Steady State Technique for Relative Permeability Measurement by
+
+- ID: SCA1994-20, year: 1994
+- Authors: G. A. Virnovsky, Y. Guo, K.O. Vatne
+- Method: measurement technique or apparatus
+- Keywords: pseudo-steady-state, relative permeability, ramping schedule, fractional flow, capillary pressure effect, Berea sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-20)
+
+A pseudo-steady-state relative permeability method with continuously ramped flow rates is tested by simulation and Berea experiments, giving valid results faster than steady-state, best when combined with one steady-state point.
+
+Conventional steady-state relative permeability tests need long times to reach equilibrium at each fractional flow. The authors ramp the oil and water injection rates slowly and continuously, and derive a non-linear optimal ramping path from an accuracy parameter γ, the difference between inlet and outlet fractional flow. Simulations with CENDRA, using Corey curves and a 497.7 mD core, show that with zero capillary pressure the ramping error in total mobility is below 1% at γ=0.01. Capillary pressure causes larger errors than ramping, and steady-state curves are equally affected. On a Berea core, one steady-state test and three pseudo-steady-state tests were run; the best results came from one steady-state point (Sw about 42%) followed by pseudo-steady-state ramping at γ=0.01. A ramp with γ=0.02 was too fast, and one starting from low water saturation was dominated by errors at low Sw.
+
+## Rate Effects on Water-Oil Relative Permeability
+
+- ID: SCA2001-19, year: 2001
+- Authors: A. L. Chen, A. C. Wood
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, flow rate effects, capillary end effects, mixed-wet sandstone, x-ray saturation scanning, imbibition
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-19)
+
+Steady-state water-oil imbibition relative permeabilities on mixed-wet and water-wet sandstone composites were independent of interstitial velocity between 2 and 39 ft/day, within about ±3 saturation units.
+
+Laboratory relative permeability is often measured at high rates to suppress capillary end effects, raising the question of whether results represent low reservoir rates. The authors ran steady-state imbibition tests on a mixed-wet Berea composite (30 cm, USBM -0.10) and a water-wet field-plug composite (25.4 cm) at 2, 6, 16 and 39 ft/day, with a recirculating system at 73°F and x-ray in situ saturation scanning. Capillary end effects were excluded by using only the unaffected central section, identified by saturation profiles and internal pressure taps, with Darcy's law applied. Water curves deviated from the average by about ±1 to ±2.5 saturation units, and oil curves by ±2.5 to ±3 units, comparable to measurement accuracy. In the mixed-wet core, the small oil curve shifts followed test order, from slow wettability change, rather than rate. The authors conclude high rates are preferred for laboratory measurements.
+
+## Estimation of Relative Permeability and Capillary Pressure Functions Using Transient and Equilibrium Data from Steady-State Experiments
+
+- ID: SCA1994-18, year: 1994
+- Authors: J.E. Nordtvedt, I.E.I. Oxnevada
+- Method: data analysis or correlation
+- Keywords: steady-state relative permeability, capillary pressure estimation, B-spline parameter estimation, inverse problem, covariance analysis, chalk drainage
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-18)
+
+Relative permeability and capillary pressure are estimated simultaneously by inverse regression with B-splines on transient and equilibrium steady-state data, validated on simulated and chalk core data.
+
+Conventional steady-state relative permeability tests assume uniform saturation and discard transient data, while capillary pressure usually needs a separate experiment. The authors fit B-spline representations of kr and Pc to production and pressure-drop data recorded throughout each rate fraction, using a regression approach with the CENDRA core flood simulator and Levenberg-Marquardt optimization. Spline knots are added guided by residuals across the sequence of rate fractions, and linearized covariance analysis gives 95% confidence intervals. A simulated water-wet drainage case recovered the true curves within the confidence intervals over most of the saturation range. In a primary drainage test on Beer Stone outcrop chalk with a rate step-up scheme, the data were matched well and the estimated Pc agreed with micro-membrane and mercury injection curves scaled by the Leverett J-function, except at high saturations. Confidence intervals were large below Sw of about 0.15, where saturations were not reached.
+
+## Using Explicit and Implicit Methods to Calculate Relative Permeabilities from in Situ Measurements
+
+- ID: SCA1990-25EURO, year: 1990
+- Authors: Kristofer Kolltveit, Jan-Erik Nordtvedt, Frank Hovland, Bjørn A. Kvanvik, Bente Lie
+- Method: laboratory experiment
+- Keywords: relative permeability, drainage, radioactive tracer saturation, pressure gradient, history matching, Darcy's law
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-25EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-25EURO)
+
+Oil-water relative permeabilities are derived from a long-core drainage test with tracer saturation and pressure data, using explicit Darcy analysis and implicit simulator history matching.
+
+Relative permeability determination is limited by poor pressure gradient estimates. A drainage experiment on a 77.8 cm Clashack sandstone core (permeability 0.952 D, porosity 0.183) used a 22Na tracer in the water phase and a germanium detector to measure water saturation at two points 10.1 cm apart, along with differential pressures at those points and the inlet. In the explicit method, the pressure gradient is obtained from the pressures at equal saturation at the two points and a constant saturation front velocity (0.0067 cm/s), and Darcy's law then gives kr. In the implicit method, a simulator with spline-interpolated kr curves is fitted to the data by chi-square minimization. Saturation profiles are sensitive mainly to endpoint kr, whereas pressure gradients are sensitive to the intermediate low-total-mobility region. Delayed pressure transducer response was a problem and required a time-scale correction.
+
+## Improvements of Coreflood Design and Interpretation Using a New Software
+
+- ID: SCA2000-29, year: 2000
+- Authors: A. FINCHAM, F. GOUTH
+- Method: numerical simulation
+- Keywords: parameter estimation, relative permeability, steady-state imbibition design, capillary pressure heterogeneity, saturation profiles, unconsolidated sand
+- Cited by 3 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-29)
+
+CAROPT history-matching software is used to design an optimal steady-state imbibition experiment and to interpret an unconsolidated-sand waterflood with heterogeneous capillary pressure, showing heterogeneity strongly biases relative permeability.
+
+CAROPT couples a core-flood simulator with an optimisation package to estimate relative permeability and capillary pressure from steady-state, unsteady-state and centrifuge experiments, with linear error analysis. For steady-state oil/water imbibition, three rate-schedule designs were compared on a synthetic case; the design adding total-rate variations at low water fractional flow gave the best accuracy over the full saturation range. It was applied to a carbonate sample, and the zero-Pc point (Sw 0.53 vs 0.56) agreed with a restored-state measurement. For unconsolidated 1-10 Darcy sands, a viscous-oil drainage pressure-drop method maps 1D permeability along the core. A waterflood with gamma-ray saturation profiles was matched with a single relative permeability and two capillary pressure curves (low-permeability zones <5 D, high >5 D). The homogeneous model underestimated oil relative permeability and sharpened the water curve, giving pessimistic recovery but optimistic breakthrough, and including saturation profiles reduced parameter uncertainty.
+
+## Comparison of Four Numerical Simulators for SCAL Experiments
+
+- ID: SCA2016-006, year: 2016
+- Authors: Roland Lenormand, Kjetil Lorentzen, Jos G. Maas, Douglas Ruth
+- Method: numerical simulation
+- Keywords: SCAL simulation, boundary conditions, end-piece pressure, unsteady-state relative permeability, steady-state relative permeability, centrifuge drainage
+- Cited by 7 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-006.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-006)
+
+Four SCAL core-flood simulators (CYDAR, PORLAB, SCORES, Sendra) are benchmarked on five SS, USS and centrifuge cases; they agree once inlet pressure boundary conditions are harmonized.
+
+There has been no benchmark for numerical simulators used to design and interpret SCAL experiments, unlike reservoir simulators. Four simulators (CYDAR, PORLAB, SCORES, Sendra) were compared in direct simulation on five cases: steady-state imbibition with smooth and sharp mixed-wet Pc, unsteady-state imbibition with Pc, Buckley-Leverett without Pc, and primary drainage centrifuge. Average saturation and differential pressure curves essentially superimpose across the simulators, showing that extra grid blocks with Pc=0, direct boundary conditions and zero-width blocks are equivalent. Initial discrepancies in USS case 3 came from which phase pressure is measured in the inlet end-piece (water versus the highest, oil, pressure). The authors agreed that the highest pressure applies when the experiment starts at capillary equilibrium with oil in the inlet end-piece, and recommend verifying this experimentally. Input and result tables are provided as reference cases.
+
+## Steady-State Relative Permeability Measurements and Interpretation with Account for Capillary Effects
+
+- ID: SCA1995-02, year: 1995
+- Authors: G.A. Vimovsky
+- Method: numerical simulation
+- Keywords: steady-state relative permeability, capillary end effect, inlet end piece, semi-permeable membrane, phase pressure measurement, 2D simulation
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-02)
+
+A multirate steady-state method corrects capillary effects in relative permeability, and 2D simulations show a membrane inlet end piece makes individual phase pressures measurable.
+
+Conventional steady-state relative permeability interpretation neglects capillary pressure, causing errors especially near residual saturations. The paper presents a multirate method in which total rate is varied at fixed inlet fractional flow, giving inlet saturation, relative permeabilities and capillary pressure from average saturation and phase pressure drops. Tests on synthetic 1D data recover the input curves, while Darcy-based interpretation remains in error even at 2 cc/min. Individual phase pressures require a modified inlet end piece with semi-permeable membranes, which was studied in 2D simulations (60x4 grids, 18.8 cm core, rates 2.0 and 0.2 cc/min). Without a membrane, oil counterflow into the water tubing creates a water-pressure discontinuity (Type 1 end effect). The membrane removes it, but separate fluid injection leaves non-uniform inlet saturation (Type 2), reduced by low rates, longer cores and sandwiched injection geometry.
+
+## Effect of Oil Viscosity on Water/Oil Relative Permeability
+
+- ID: SCA2011-12, year: 2011
+- Authors: Katayoun S Nejad, Eirik Asbjørn Berg, Jon Knut
+- Method: laboratory experiment
+- Keywords: residual oil saturation, oil viscosity, water relative permeability endpoint, heavy oil, USBM wettability, Kro extrapolation
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-12)
+
+Water/oil relative permeability tests on heavy-oil sandstones show higher Sorw and lower Krw(Sorw) with increasing oil viscosity; lab endpoints are biased and should be extrapolated.
+
+The study examines how oil viscosity (1 to 5290 cp, viscosity ratio 1 to 6780) affects residual oil saturation and the water relative permeability endpoint. Steady state, unsteady state and centrifuge relative permeability tests and USBM wettability tests were run on unconsolidated high-permeability sandstone from three heavy oil reservoirs, using crude, live and lab oils. Results combined with Statoil SCAL and literature data show Sorw increasing and Krw(Sorw) decreasing with viscosity ratio and mobility ratio. Centrifuge Sorw was lower than flood Sorw, and USBM indices from -0.3 to 0.4 showed little effect on Sorw (0.16 to 0.24). Extrapolating Kro curves to zero showed lab Sorw up to 0.12 too high and Krw(Sorw) up to 0.15 too low, and 1D history matching did not give a good match. Wettability and pore-scale mechanisms are suggested as causes of the trends.
+
+## Simultaneous Determination of Relative Permeability and Capillary Pressure Curves by Assisted History Matching Several SCAL Experiments
+
+- ID: SCA2011-35, year: 2011
+- Authors: D. Loeve, F. Wilschut, R.H. Hanea, J.G. Maas, P.M.E. van Hooff, P.J. van den Hoek, S.G. Douma, J.F.M. Van Doren
+- Method: numerical simulation
+- Keywords: assisted history matching, EnRML, relative permeability, capillary pressure, multi-speed centrifuge, unsteady-state coreflood
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-35)
+
+An assisted history matching workflow combining EnRML and perturbation gradient optimizers estimates relative permeability and capillary pressure simultaneously from flooding and centrifuge data, tested on synthetic and real cases.
+
+Classical SCAL interpretations (JBN, Hassler-Brunner, etc.) analyze relative permeability and capillary pressure separately and give mutually inconsistent curves. The authors couple the Shell reservoir simulator to a combined EnRML and perturbation-gradient optimizer, using Corey relative permeability and a new 12-parameter, three-zone capillary pressure parameterization, with Swc and Sor also estimated. A 1D 50-block model was tested on a synthetic unsteady-state case (500 mD, 6 cm core, 5% noise), which recovered curves close to the truth with small capillary pressure mismatch near Swc and Sor. Adding multi-speed centrifuge data improved the oil relative permeability and low-Sw capillary pressure estimates. A real oil-wet unsteady-state sample gave a good match despite noisy pressure data, with typical oil-wet curves consistent with earlier studies; the method also yields uncertainty ranges.
+
+## Techniques for Relative Permeability Calculations : A Closer Look
+
+- ID: SCA2000-43, year: 2000
+- Authors: R. Courtial, S. Ghalimi
+- Method: numerical simulation
+- Keywords: unsteady-state relative permeability, numerical inversion, JBN method, in situ saturation profiles, capillary pressure, history matching
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-43)
+
+Synthetic unsteady-state waterflood data are inverted with JBN and numerical methods, with and without in situ saturation profiles, showing numerical inversion and saturation data improve relative permeability accuracy.
+
+The paper evaluates the added value of numerical inversion over analytical (JBN) interpretation of unsteady-state relative permeability experiments, and the effect of including in situ saturation data. Synthetic constant-rate waterflood data were generated for a 7 cm, 35 mD core with Corey relative permeability curves for water-wet (low and high capillarity) and oil-wet cases, two velocities (10 and 0.3 m/day) and two viscosity ratios. Inversions with and without saturation profiles were compared with the input curves via production, pressure drop, and saturation and pressure profile matches. Numerical inversion outperformed JBN, and saturation profiles improved the match, but a unique, accurate solution still needed independently measured capillary pressure. Without measured Pc, high velocity and, for water-wet cases, high viscosity ratio gave better results. The largest errors were in Pc and in water relative permeability at low water saturation, with negligible consequences for numerical inversion.
+
+## Obtaining Relative Permeability Data Using a Combination of Steady-State and Unsteady-State Corefloods
+
+- ID: SCA1990-09, year: 1990
+- Authors: J. L. Shafer, E. M. Braun, A. C. Wood III, J. M. Wooten
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, unsteady-state waterflood, JBN method, viscous fingering, residual oil saturation, oil-water transition zone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-09)
+
+Combining steady-state and unsteady-state waterfloods in one coreflood extends the saturation range of oil-water relative permeability data and checks unsteady-state validity, shown on three core examples.
+
+Unsteady-state waterfloods give no relative permeability data before breakthrough and can be corrupted by viscous fingering or heterogeneity, while steady-state tests struggle near residual oil saturation. The authors run steady-state oil-water flow at one or more fractional flows and then an unsteady-state waterflood without returning the core to low water saturation, using JBN analysis. They argue theoretically that the JBN results are insensitive to initial water saturation. Three cases are presented: a 95 md carbonate composite where the waterflood after 3% oil fractional flow defined the kro shape near residual oil, a 0.12 md shaly siltstone where steady-state points at 80% and 20% oil fractional flow covered the transition-zone saturations, and a 4560 md sandstone composite with viscosity ratio 131 where a 2% oil steady-state point confirmed the unsteady-state data with no apparent fingering. In all cases the steady-state and unsteady-state data were consistent and complementary.
+
+## Development of Automated History-Matching Program Base on Genetic Algorithm for X-Ray CT Core Flooding Experiment
+
+- ID: SCA2004-14, year: 2004
+- Authors: N. Tokuda, S. Takahashi, M. Watanabe, CRC Solutions
+- Method: numerical simulation
+- Keywords: genetic algorithm, history matching, X-ray CT coreflood, relative permeability, capillary pressure, lithofacies
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-14)
+
+A genetic-algorithm history-matching program estimates kro/krw and Pc curves per lithofacies from X-ray CT waterflood tests; blind tests and oil-wet carbonate cores validate it.
+
+History matching of 3D coreflood models under X-ray CT depends on engineer skill and gives no guarantee of an optimum. The authors built an automated program using a genetic algorithm to optimize Corey-type kr and a new flexible Pc parameterization (9 parameters) for water-, oil- and intermediate-wet cases, with a fitness function combining grid-block saturation and differential pressure misfit. Blind tests on 1D and 3D two-rock-type hypothetical models showed excellent kr reproduction regardless of velocity, while Pc recovery was poorer at high rate; combining low and high rate data greatly improved matches. Sensitivity runs suggested population size 50, crossover rate about 0.8 and mutation rate about 0.01, and 20 repeat runs were needed because single runs vary. Applied to three oil-wet carbonate plugs with three lithofacies, it gave kr and Pc curves per lithofacies with good saturation front and pressure matches.
+
+## Applications of the Intercept Method to Correct Steady-State Relative Permeability for Capillary End-Effects
+
+- ID: SCA2015-001, year: 2015
+- Authors: Robin Gupta, Daniel Maloney
+- Method: measurement technique or apparatus
+- Keywords: capillary end-effect, steady-state relative permeability, Intercept Method, gas-condensate, multi-rate corefloods, composite core
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-001)
+
+The Intercept Method uses multi-rate pressure drop and saturation data at each fractional flow to correct steady-state relative permeability for capillary end-effects, collapsing rate-dependent curves into unique ones.
+
+Capillary end-effects cause rate-dependent artifacts in steady-state relative permeability, and raising rate or core length is often impractical, for example in gas-condensate or clay-rich tests. The Intercept Method measures pressure drop at 2-4 total rates for each fractional flow; the pressure-drop intercept gives the end-effect pressure drop, and an intercept of a saturation plot gives the corrected saturation. It was applied to published gas-condensate data (Henderson et al., Ayyalasomayajula et al.), oil-water data (Virnovsky et al.) and an in-house gas-brine drainage test on an 8.7 mD composite. In the gas-brine test the corrections reached up to 51% in pressure drop and 0.06 in brine saturation, with R² above 0.99 for nearly all correction plots. In every case the rate-dependent curve families collapsed to unique rate-independent curves, and the apparent gas-condensate velocity enhancement is attributed to end-effect artifacts. The method needs no simulation, pressure taps or in-situ saturation monitoring, and also corrects plug-junction discontinuities and transducer zero errors.
+
+## Unsteady-State Displacement Combined with Centrifuge Technique for Measurement of Relative Permeability
+
+- ID: SCA1992-22EURO, year: 1992
+- Authors: Jack Haugen
+- Method: laboratory experiment
+- Keywords: unsteady-state relative permeability, centrifuge, Rapoport and Leas scaling, capillary end effect, Amott wettability, Jones and Roszelle
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-22EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-22EURO)
+
+Combining unsteady-state flooding with centrifuge drainage extends relative permeability range; agreement requires correct scaling, with a differential pressure criterion (~17-21 kPa) proposed for intermediate-wet sandstone.
+
+Unsteady-state floods are often affected by capillary end effects, while centrifuge methods are questioned for representativeness. Primary drainage oilfloods on Berea sandstone and waterfloods on intermediate-wet North Sea reservoir sandstone (82-1730 mD; Amott WI -0.01 to 0.07) were run at ambient conditions, each followed by centrifuging at 3000-3500 rpm. For Berea, flood data agreed with centrifuge data only when the Rapoport and Leas factor Lμv exceeded about 1-5, and no hysteresis appeared at the transition. For the intermediate-wet cores, the Rapoport-Leas criterion failed and discrepancies grew with permeability. A criterion based on end-of-flood differential pressure above roughly 17-21 kPa gave good agreement; high-permeability cores would need longer samples to meet it.
+
+## Including Capillary Pressure in Simulations of Steady State Relative Permeability Experiments
+
+- ID: SCA2000-14, year: 2000
+- Authors: S. Poulsen, T. Skauge, S.O. Dyrhol, E. Stenby, A. Skauge
+- Method: laboratory experiment
+- Keywords: steady state relative permeability, capillary end effect, Rapoport-Leas scaling, three-phase flow, history matching, relative permeability hysteresis
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-14)
+
+Steady-state two- and three-phase floods on water-wet sandstone were history-matched with and without capillary pressure, showing capillarity biases oil relative permeability and three-phase flow raises kro and lowers Sor.
+
+Two series of steady-state floods were run on a 17.95 cm composite water-wet North Sea sandstone core (about 100 mD, porosity 29.9%) with brine, n-decane and N2 at 1 ml/min, 20 bar and 40 °C. Relative permeabilities were first calculated with Darcy's law neglecting capillary pressure, then two-phase experiments were history-matched with a semi-analytical steady-state simulator including measured Pc. Including capillary pressure shifted oil relative permeability noticeably even though the rate met standard Rapoport-Leas criteria; neglecting it underestimated kro. Rate studies (0.5–16 ml/min) showed capillary influence on kro for N_RL < 9 in imbibition and N_RL < 18 in drainage, with no rate window avoiding both capillary effects and viscous instability in drainage. Three-phase data (calculated neglecting Pc) showed higher kro at low oil saturation, reduced water kr in imbibition-type processes, and lower residual oil than two-phase flow.
+
+## Experimental Investigation of Unsteady-State Relative Permeability in Sand-Packs
+
+- ID: SCA2001-22, year: 2001
+- Authors: Jonathan T. Bartley, Douglas W. Ruth
+- Method: laboratory experiment
+- Keywords: JBN method, unsteady-state relative permeability, sand-pack waterflood, viscosity ratio, statistical t-test, end-point relative permeability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-22)
+
+81 repeated unsteady-state waterfloods in sand and bead packs, analyzed by JBN with t-tests, show permeability dominates relative permeability, with viscosity ratio and pressure drop weaker, mainly affecting water.
+
+Literature on whether viscosity ratio and flow rate affect JBN relative permeability is based on few experiments. The authors ran 81 vertical, upward waterfloods in glass-bead and silica sand packs (207, 47, 11 μm²) using three mineral oils (viscosity ratios 29, 54, 171) at three fixed pressure drops (2.5, 5, 10 kPa), each condition repeated at least three times. Production data were smoothed with cubic B-splines, JBN curves were averaged with 95% confidence intervals, and two-sample t-tests compared conditions. Absolute permeability significantly shifted both oil and water curves, lower permeability giving lower curves. Viscosity ratio mainly affected water relative permeability in mid-saturation ranges, and pressure drop had the weakest effect, though water end-point relative permeability and saturation increased with pressure and decreased with oil viscosity. Breakthrough saturation checks (0.430 predicted vs 0.399 measured) indicated some capillary end effect.
+
+## Evaluation of Effect of Capillary Forces on Measurements in Linear Waterfloods by Simulation
+
+- ID: SCA2003-45, year: 2003
+- Authors: R. Murali
+- Method: numerical simulation
+- Keywords: unsteady-state relative permeability, Jones-Roszelle method, capillary number, viscosity ratio, Dykstra-Parsons heterogeneity, mixed-wet
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-45)
+
+1D black-oil simulations of unsteady-state floods show how capillary number, viscosity ratio, wettability and heterogeneity bias Jones-Roszelle relative permeabilities relative to the input curves.
+
+Unsteady-state relative permeability interpretation by the Jones-Roszelle method assumes negligible capillary forces and a homogeneous core, assumptions that are often violated. The author simulated waterfloods in a 1D black-oil model with assumed input relative permeability curves, then computed relative permeabilities from the simulated output and compared them with the input. Parameters varied were scaling coefficient (0.1 to 10, Ca 0.00045 to 0.045), viscosity ratio (0.5, 1.23, 5), water-wet versus mixed-wet J-functions, and heterogeneity (Dykstra-Parsons coefficient 0.1, 0.5, 0.8). Best kro estimates came at high capillary number and high viscosity ratio, with large errors at low saturations. For homogeneous water-wet cores the measured endpoint krw matched the true value, whereas low-rate floods severely distorted krw curves. In heterogeneous cores errors were similar for VDP 0.1 to 0.5 but large at VDP 0.8 for water-wet cores, while mixed-wet cores showed the largest errors at intermediate VDP.
+
+## Design of Three-Phase Relative Permeability Experiments
+
+- ID: SCA1995-01, year: 1995
+- Authors: H. Urkedal, K. Langaas, J.E. Nordtvedt, A.T. Watson
+- Method: numerical simulation
+- Keywords: three-phase relative permeability, covariance analysis, confidence intervals, experimental design, B-spline parameterization, steady-state vs unsteady-state
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-01)
+
+Linearized covariance analysis gives confidence intervals on three-phase relative permeability surfaces, comparing six steady- and unsteady-state flooding designs; steady-state data and added water-gas data improve accuracy.
+
+Accurate estimation of three-phase relative permeability functions depends on how floods are designed and what data are collected. The authors extend a linearized covariance analysis to three phases, using a black-oil coreflood simulator (CENDRA) and bivariate B-spline representations of kr surfaces (51 effective parameters) to compute pointwise confidence intervals. Six DDI-type designs, built from steady-state and unsteady-state experiments with water-oil, gas and water-gas injections, were compared with simulated production and pressure-drop data (errors of 0.005 PV and 20 kPa). Relative permeabilities are well determined only in saturation regions covered by the data, roughly Sw 0.3-1 and Sg 0-0.6. Steady-state data gave tighter intervals than unsteady-state data, often by an order of magnitude, and adding water-gas injection greatly improved the water and gas relative permeabilities in otherwise poorly constrained regions.
+
+## The Effects of Displacement Rate and Wettability on Imbibition Relative Permeabilities
+
+- ID: SCA2005-39, year: 2005
+- Authors: V.H. Nguyen, A.P. Sheppard, M.A. Knackstedt, W.V. Pinczewski
+- Method: numerical simulation
+- Keywords: dynamic network model, imbibition relative permeability, snap-off, capillary number, pore-throat aspect ratio, Berea sandstone
+- Cited by 2 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-39)
+
+A dynamic pore network model of Berea shows imbibition relative permeability rate sensitivity grows with pore-throat aspect ratio, and rate suppresses snap-off much as contact angle does.
+
+Laboratory reports disagree on whether imbibition relative permeability depends on displacement rate, and quasi-static network models ignore rate. A dynamic network model of film flow and snap-off, built on a Berea network of about 12,000 pores and 26,000 throats, was used to study rate, contact angle, aspect ratio and pore shape. Matching Oak's strongly water-wet Berea data at Ca=3.4x10-6 needed a 30° contact angle with the dynamic model, versus an average of 60° for the quasi-static model. Berea has an aspect ratio of about 2 and is nearly rate insensitive, whereas a modified network with an aspect ratio of about 8 shows strong rate dependence. Increasing rate or contact angle raises relative permeability and lowers residual saturation, and at 60° with triangular pores snap-off is fully suppressed and rate no longer matters. Pore shape also matters, since a zero contact angle match required hexagonal pores.
+
+## Multiphase flow imaging through X-ray microtomography : Reconsideration of capillary end-effects and boundary conditions
+
+- ID: SCA2019-019, year: 2019
+- Authors: Franck Nono, Peter Moonen, Hélène Berthet, Richard Rivenq
+- Method: digital rock or imaging
+- Keywords: capillary end-effects, X-ray microtomography, outlet boundary condition, Bentheimer sandstone, unsteady-state displacement, saturation profiles
+- Cited by 4 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-019)
+
+Micro-CT imaging of oil/brine drainage and waterflooding in Bentheimer plugs shows outlet saturation varies with rate and end-pieces violate zero-Pc boundary conditions, producing end-effects in the last mm.
+
+Capillary end-effects and boundary conditions were examined with X-ray microtomography during unsteady-state decane/brine drainage and waterflooding in eight Bentheimer plugs (4 mm and 1 cm diameter, 1–5 cm long), water-wet and amine-altered, at Ca from 2.5e-8 to 1.35e-5. With grooved diffusers (E1), inlet and outlet diffusers were fully oil-filled in drainage, and the outlet saturation profiles showed a steep brine drop in the last millimetres and a peak that depended on rate, with counter-current oil fingers. Waterflooding gave Sorw of 40–45% (water-wet) and 20–32% (altered), with distortions within the last 3–5 mm that conventional saturation monitoring would miss. A free-outlet diffuser (E2) gave monotonic profiles with maximum brine saturation at the outlet, but outlet saturation still changed by up to 20% with rate; droplet curvature gave Pc of about 0.2–5 mbar. Darcy-scale history matching with CYDAR and SCORES matched the profiles after truncating the last 2 mm, which carried up to about 10% of the simulated pressure gradient even at the highest Ca.
+
+## Using a Weight Method for Laboratoryry Fluid Production Measurements
+
+- ID: SCA1993-06, year: 1993
+- Authors: D. R. Maloney, A. D. Brinkmeyer
+- Method: measurement technique or apparatus
+- Keywords: unsteady-state relative permeability, fluid production measurement, weight method separator, electronic balance, water breakthrough, backpressure
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-06)
+
+Describes a two-vessel separator that calculates produced oil and brine volumes from balance weight changes in unsteady-state floods, enabling automated, high-resolution production data even for slowly separating fluids.
+
+Manual reading of oil and brine volumes in collection tubes is tedious and error-prone in unsteady-state relative permeability tests, especially when fluids separate slowly. The authors built a separator with two vessels on electronic balances: the first closed vessel is initially brine-filled and displaces brine to the second as fluid is produced. Oil and brine volumes follow from the two weight changes and the known fluid densities. For an example with 0.86 and 1.00 g/cm3 fluids, 0.1 cm3 resolution requires balances resolving 0.01 g. Example production-versus-time data show clear water breakthrough and many data points. The method can be run with backpressure, but it is limited by vibration, balance temperature limits, balance time delays, fines production and density changes.
+
+## Versatile Three-Phase Correlations for Relative Permeability and Capillary Pressure
+
+- ID: SCA2013-034, year: 2013
+- Authors: Frode Lomeland, Einar Ebeltoft
+- Method: theory or analytical model
+- Keywords: three-phase relative permeability, LET correlation, steady-state experiments, residual oil saturation path, three-phase capillary pressure, Stone-1 and Baker models
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-034.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-034)
+
+Extends the LET relative permeability and capillary pressure correlations to three-phase flow, and matches steady-state North Sea sandstone data better than Stone-1 and Baker.
+
+Common three-phase models such as Stone-1 and Baker combine two-phase tables and assume water and gas relative permeability depend only on their own saturation, which is poorly suited to weakly water-wet reservoir-condition data. The authors extend the LET correlation (and LETx with extended saturation normalization) so that all phase relative permeabilities depend on two saturations, using six three-phase parameters. They also provide a super-parabolic function for residual oil and gas saturation paths and three-phase LET capillary pressure functions, including behavior after crossing the Sor path. The approach is applied to steady-state three-phase experiments on a North Sea sandstone composite core (28.78 cm long, k about 4981 mD, porosity 0.31, 90.5 °C, 29 MPa), interpreted with a simulator corrected for capillary end effects. LET and LETx match the measured water and gas relative permeabilities well, while Stone-1 and Baker do not, and the fitted surfaces are exported as Eclipse tables.
+
+## Determination of Two Phase Relative Permeability from Core Floods with Constant Pressure Boundaries
+
+- ID: SCA2014-074, year: 2014
+- Authors: Jie Cao, Lesley A. James, Thormod E. Johansen
+- Method: theory or analytical model
+- Keywords: relative permeability, constant pressure boundary, Buckley–Leverett fractional flow, unsteady-state displacement, JBN method
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-074.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-074)
+
+Presents an analytical interpretation method for unsteady-state relative permeability from constant-pressure core floods; re-interpreting published data gives higher oil relative permeability than the Jones and Roszelle method.
+
+Classical Buckley–Leverett/JBN interpretation assumes constant total flow rate, yet many core floods, especially gas floods, are run at constant pressure boundaries. The authors use a recent analytical solution of fractional flow theory with constant pressure boundaries, which gives total flux, saturation positions and the pressure profile as functions of time. Relative permeabilities follow from Darcy's law at breakthrough using the fractional flow, outlet saturation from mass balance, and pressure gradient from the analytical pressure profile, avoiding numerical differentiation for f'(S). They re-interpreted a published waterflood (ΔP 6.89×10^5 Pa, K 3.54×10^-14 m², porosity 0.215, Swc 0.35). Water relative permeability matched the Jones and Roszelle result, while oil relative permeability was larger and the frontal saturation differed. Experimental validation and heterogeneity effects remain future work.
+
+## Wettability and Rate Effects on End-Point Relative Permeability to Water
+
+- ID: SCA1999-37, year: 1999
+- Authors: J.X. Wang, J.S. Buckley
+- Method: laboratory experiment
+- Keywords: end-point relative permeability, mixed-wet Berea sandstone, rate dependence, hysteresis, Amott imbibition, capillary number
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-37)
+
+Water end-point relative permeability is rate-independent in strongly water-wet Berea but rises with flow rate, with hysteresis, in weakly water-wet and mixed-wet cores, likely from oil redistribution.
+
+Water relative permeability at residual oil saturation, krw(Sor), is often assumed independent of flow rate, but this may hold only for strongly water-wet rock. Berea sandstone cores (~800 md) were tested strongly water-wet (Soltrol-130), weakly water-wet (Spraberry crude) and mixed-wet (Sulimar Queen crude), with water rates stepped up and down at residual oil saturation. In strongly water-wet cores pressure drop was linear with rate with no hysteresis. In weakly water-wet and mixed-wet cores krw(Sor) increased with rate even after oil production ceased, with hysteresis between rate-up and rate-down steps and between repeated cycles, persisting up to 400 ml/hr, beyond rates where capillary end effects are expected. Extended brine aging or high-rate flooding made the cores more water-wet (faster imbibition) and raised krw(Sor). The authors propose that flow redistributes oil, breaking oil bridges in mixed-wet pores, and caution against applying high-rate coreflood results to reservoir rates.
+
+## Improved Relative Permeability Measured by Injecting Oil Following a Brine Injection Test
+
+- ID: SCA2005-65, year: 2005
+- Authors: R.B.Z.L. Moreno, D.J. Schiozer, M.M. Kikuchi, E.J. Bonet
+- Method: laboratory experiment
+- Keywords: unsteady-state relative permeability, JBN method, oil injection, wettability alteration, Botucatu sandstone, fractional flow
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-65.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-65)
+
+Unsteady-state oil injection after water injection in Botucatu sandstone widens the saturation range for relative permeability, with gains depending on oil viscosity and wettability.
+
+Unsteady-state water-injection relative permeability tests cover only a limited saturation range after breakthrough. The authors followed them with oil injection on 25 cm Botucatu sandstone cores, which show negligible hysteresis, using high rates to avoid capillary end effects and X-ray saturation scans. Twelve tests spanned permeabilities from about 100 to 8000 mD, oil viscosities of 1.5, 12 and 108 cP, and hydrophilic and Quilon-treated hydrophobic cores. Results were calculated with JBN, and steady-state tests were calculated with Darcy's law. A 'range' ratio compared the saturation interval investigated by oil injection against water injection. Oil injection extended the measured region, and hydrophobic cores gave larger ranges. Oil injection and steady-state oil relative permeabilities agreed. With water-injection-only curves, high-viscosity oil showed large discrepancies and low-viscosity oil showed none.
+
+## Review of the Intercept Method for Relative Permeability Correction Using a Variety of Case Study Data
+
+- ID: SCA2018-030, year: 2018
+- Authors: Jules Reed, Jos Maas
+- Method: numerical simulation
+- Keywords: intercept method, steady-state relative permeability, capillary end effect, multi-rate coreflood, SCORES simulation, residual oil saturation
+- Cited by 2 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-030)
+
+Simulated multi-rate steady-state corefloods on six cases show the Intercept Method corrects capillary end effects well, except near fw=1 where the end effect exceeds the sample length.
+
+The Intercept Method (Gupta and Maloney, 2014) corrects steady-state relative permeability and saturation for capillary end effects using multiple total flow rates at each fractional flow, without Pc or ISSM data. The authors tested it by simulating multi-rate steady-state experiments in SCORES for six cases (sandstones and a carbonate; water-wet to oil-wet; 4.9–32 cm samples) using Corey kr and Skjaeveland Pc inputs. The method reproduced input curves well for most fractional flows, e.g. Case 0 Sor 0.203 vs 0.2 and krw endpoint within 2%. It failed at high fw (0.999 and 1) when the capillary end effect was not captured within the sample, giving non-unique kr values (up to 16.7% error in krw for Case 3) and no true residual oil, except in the carbonate Case 5. Stable steady state was essential, sometimes requiring impractically long times (about 20 days for fw=1 in Case 3). Non-unique kr per total rate is proposed as a diagnostic, and flow-simulator design of the experiment is recommended.
+
+## Interrelationship between resistivity and relative permeability of a carbonate rock during drainage and imbibition experiments
+
+- ID: SCA2013-046, year: 2013
+- Authors: F. Pairoys, A. Al-Zoukani, A. Keskin
+- Method: laboratory experiment
+- Keywords: resistivity index, relative permeability, steady-state coreflood, Archie saturation exponent, imbibition, carbonate grainstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-046.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-046)
+
+Extends Li's resistivity-based relative permeability model to imbibition; steady-state tests on a vuggy carbonate show poor drainage match but good imbibition match.
+
+The study tests whether relative permeability can be inferred from resistivity index using Li's model, motivated by the lack of a downhole Kr measurement. Three slabs of a vuggy water-wet ooid grainstone outcrop (porosity about 38-40%, permeability 1300-1800 mD) were used for porous plate Pc-RI, steady-state and unsteady-state tests with brine and Soltrol 130. The saturation exponent n was 1.55 from the porous plate test and 1.47 from steady-state drainage, while the unsteady-state test gave an unreasonably high 3.25. In drainage, the model reproduced Kr in shape and magnitude but matched poorly with a fitted pore size distribution index of 3.75. An imbibition extension, which normalizes RI by its minimum value, matched the steady-state Kr acceptably (n=1.54), though more rock types and wettabilities need testing.
+
+## Numerical and Experimental Investigation into the Effects of Viscosity and Injection Rate on Relative Permeability and Oil Recovery
+
+- ID: SCA2005-40, year: 2005
+- Authors: H.S. Al-Shuraiqi, C.A. Grattoni
+- Method: laboratory experiment
+- Keywords: JBN unsteady-state method, viscosity ratio, capillary number, bead-pack waterflood, apparent relative permeability, viscous fingering
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-40)
+
+Bead-pack waterfloods and simulations show JBN relative permeabilities depend on viscosity ratio and rate, so curves from one condition cannot predict recovery at another.
+
+Relative permeabilities measured at high rate and viscosity ratio are routinely used in simulations at lower reservoir rates and viscosity ratios, a practice not fully tested. The authors ran unsteady-state waterfloods in a 2D glass bead-pack (38% porosity, 29 D) with light oil (M=1.5) and viscous oil (M=10.6) at 1 and 5 ml/min, deriving relative permeabilities by JBN and simulating each displacement without history matching. Curve shapes and end points changed markedly with viscosity ratio and rate despite similar interfacial tension, contact angle and capillary number. Simulations reproduced each experiment using its own JBN curves, but swapping curves between viscosity ratios gave recovery errors of 8-10% at 1 PV injected. The JBN curves are therefore 'apparent', lumping capillary and fingering effects, and cannot be transferred to other conditions.
+
+## Recommended Procedure for Determination of Relative Permeabilities
+
+- ID: SCA2016-004, year: 2016
+- Authors: Roland Lenormand, Guillaume Lenormand
+- Method: numerical simulation
+- Keywords: JBN method, unsteady-state relative permeability, steady-state relative permeability, capillary end effect, history matching, residual oil saturation
+- Cited by 1 papers in the corpus, cites 7
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-004.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-004)
+
+Using numerical simulations, the paper shows one-step JBN experiments should be discarded and recommends a combined steady-state and multi-step unsteady-state procedure for imbibition relative permeability, given lab-reservoir velocity mismatch.
+
+The paper examines the physical mechanisms behind oil/water imbibition relative permeability experiments, arguing that one-step JBN tests are dominated by fingering, channeling and capillary end effects and overestimate Sor by 15-30%. For multi-step USS tests, the inlet differential pressure equals the negative capillary pressure at the inlet, so only the negative part of the Pc curve is explored and design is difficult without a known Pc. Steady-state tests at high total rate (1000 cc/h) give nearly uniform saturations controlled by fractional flow and work for any wettability, while at 2-20 cc/h the saturation range narrows (0.3-0.6 at 20 cc/h). Simulations of an 8 cm sample and a 200 m 1-D reservoir show lab velocities far exceed reservoir ones and reservoir capillary pressures stay limited, so lab Sor differs from field recovery. The recommended procedure is SS at about 20 cc/h followed by multi-step USS, with history matching by numerical simulation.
+
+## SCA1994-19
+
+- ID: SCA1994-19, year: 1994
+- Authors: Gary Potter, Gary Lyle
+- Method: measurement technique or apparatus
+- Keywords: unsteady-state relative permeability, gas displacing oil, capillary number, stabilized displacement front, automated permeameter, high permeability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-19)
+
+An automated gas-liquid permeameter allows higher flow rates for high-permeability cores, and a minimum differential pressure of about 10 times capillary pressure is proposed for reliable unsteady-state relative permeability.
+
+Unsteady-state gas-displacing-oil relative permeability tests on high-permeability samples often run at too low a differential pressure, so capillary forces dominate and the data are unreliable. Manual data collection (about 3 s per point) limits flow rate; for a 1 darcy, 2 in. by 3 in. sample this gives only about 0.5 psi. The authors built an automated permeameter with a balance for liquid volumes, mass flow meters for gas, and a ballast tank downstream of the flow meters to suppress back-pressure regulator hysteresis (a ballast 100 times the upstream volume gives 1% error). Using the Jones-Parra and Calhoun stabilized-front length, they argue front length scales with the ratio of capillary pressure to differential pressure. Saturation profiles and tests at different pressures (an 800 mD sandstone at 2.5 psi versus 11 psi) support minimum differential pressures of about 4 psi for gas-oil and 6 psi for gas-water, or roughly 10 times a capillary pressure of 0.4 psi.
+
+## Obtaining High Quality SCAL Data: Combining Different Measurement Techniques, Saturation Monitoring, Numerical Interpretation and Continuous Monitoring of Experimental Data
+
+- ID: SCA2018-015, year: 2018
+- Authors: Yingxue Wang, Shehadeh K. Masalmehb
+- Method: laboratory experiment
+- Keywords: relative permeability, steady-state test, multispeed centrifuge, numerical history matching, imbibition capillary pressure, QA/QC
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-015.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-015)
+
+A carefully designed, QC'd SCAL program combining steady-state and centrifuge tests with numerical interpretation gives consistent oil-water relative permeability for a Gulf of Mexico sandstone (Sor ~22%).
+
+Earlier SCAL measurements on a high-temperature (>300 °F), high-salinity deep-water Gulf of Mexico sandstone gave poor-quality relative permeability data. A new program used 14 paired plugs (10–780 mD, 17–26% porosity), with porous-plate initialization, four-week aging, gentle cyclohexane cleaning to preserve solid hydrocarbon, and supplementary QC tests. Seven plugs underwent steady-state tests with X-ray saturation monitoring and seven underwent multispeed centrifuge imbibition and secondary drainage tests. A 1D MoReS simulation history-matched both test types with a common set of kr and Pc curves. Imbibition Pc indicated non-water-wet conditions, and the seven kr sets were consistent: Sor 0.19–0.25, kro(Swi) 0.55–0.65, krw(Sor) 0.18–0.24, no 2.5–2.9, nw 2.0–2.6. Average values were Sor ~0.22, kro ~0.6, krw ~0.2, no ~2.9, nw ~2.3. The previous programs showed much wider scatter in Sor and kro(Swi).
+
+## Relative Permeability Measurement Using Rapid In-Situ Saturation Measurement with $^{23}\text{Na}$ MRI
+
+- ID: SCA2024_1032, year: 2024
+- Authors: Mohammad Sadegh Zamiri, Naser Ansaribaranghar, Florea Marica, Andrés Ramírez Aguilera, Derrick Green, Cyril Caubit, Benjamin Nicot, Bruce J. Balcom
+- Method: measurement technique or apparatus
+- Keywords: relative permeability, 23Na MRI, SE-SPI saturation profiles, capillary end effect, fractional flow, primary drainage
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1032)
+
+A model-free relative permeability method uses 23Na MRI saturation derivatives plus pressure drop; validated on synthetic CYDAR data and a Bentheimer drainage, agreeing with conventional simulation.
+
+Conventional relative permeability interpretation relies on simulation with assumed functional forms because capillary end effects prevent direct use of Darcy's law. The authors use rapid in-situ saturation profiles to compute saturation derivatives in time and position, from which water flow rate, fractional flow and capillary dispersion functions are obtained. A parametrized capillary pressure curve is then fitted to the measured pressure drop to extract kr curves without assuming a kr model. The method was validated with synthetic CYDAR drainage and imbibition data, and applied to a primary drainage of S20 oil into a Bentheimer plug (1.1 D, porosity 0.24) imaged with 23Na SE-SPI MRI at five rate steps (2–60 ml/hr). The derived kr points agreed with Corey-type curves history-matched by CYDAR to pressure drop and production data.
+
+## Jack Haugen
+
+- ID: SCA1990-24EURO, year: 1990
+- Authors: Jack Haugen
+- Method: laboratory experiment
+- Keywords: unsteady-state relative permeability, intermediate wettability, scaling coefficient, viscous fingering, stability number, Amott wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-24EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-24EURO)
+
+Multi-rate unsteady-state waterfloods on intermediate-wet North Sea sandstone show lower scaling coefficients suffice for stabilized flow, while high rates cause viscous fingering per Peters' stability number.
+
+Unsteady-state relative permeability tests on intermediate-wettability cores are problematic because scaling criteria from strongly wetted rock demand unrealistically high rates. Waterfloods were run at several rates on the same North Sea sandstone plugs (107 to 870 mD) with brine and refined oil at ambient conditions. Amott tests showed mixed wettability (WI -0.01 to 0.07), and reproducibility checks showed stable base permeability and wettability. Oil relative permeability was rate-independent early but showed a systematic rate effect at the end of displacement. A scaling coefficient Lμv > 0.10 was enough to stabilize the front at breakthrough, far below the 1-5 for strongly wet rock. Peters' stability number with wettability parameter C = 150 identified viscous fingering at high rates, and a pressure drop of 2.7-6.8 kPa was a useful guideline.
+
+## Gravity Effect Under Steady-State and Unsteady-State Core Flooding and Criteria to Avoid It
+
+- ID: SCA1991-25EURO, year: 1991
+- Authors: Ying Guo, Victor Nilsen, Frank Hovland
+- Method: numerical simulation
+- Keywords: gravity segregation, segregation number, CT scanning, steady-state coreflooding, 2D numerical simulation, relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-25EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-25EURO)
+
+CT scanning and 2D simulations of a high-permeability North Sea core show gravity segregation in horizontal floods, with onset at a segregation number of about 1e-3.
+
+Horizontal coreflooding at low rates, high permeability or unfavourable mobility ratio can be affected by gravity segregation, which invalidates standard interpretation. CT imaging of a homogeneous 4061 md North Sea core during primary drainage, imbibition (170 cc/h) and steady-state floods showed water in the lower half and oil in the upper half, most strongly at a 0.5/0.5 rate ratio, with segregation visible already at the inlet. 2D simulations with the CENDRA simulator, compared with 1D runs, used a segregation number Ns = KΔρg/(uμ) and a normalized breakthrough production to define a segregation curve. The curve is flat at low Ns and falls steeply above about 1e-3, for both drainage and imbibition. Gravity-affected floods give earlier breakthrough and lower differential pressure, so relative permeability is overestimated. For steady-state floods, reproducing the observations required separate inlet injection mimicking the dual-tube end piece. The criterion applies to the rock system studied, and relative permeability shape matters, since straighter curves enhance segregation.
+
+## Duality Principle for Integral and Distributed Methods of Capillary Pressure and Relative Permeability Determination from Steady-State Flow
+
+- ID: SCA1996-31, year: 1996
+- Authors: M. Panfilov, Yu. Somov
+- Method: theory or analytical model
+- Keywords: steady-state flow, capillary pressure, relative permeability, duality principle, saturation distribution, gas-condensate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-31)
+
+Shows integral and distributed steady-state interpretation methods share the same governing equation, and proposes three new combined methods to obtain capillary pressure and both relative permeabilities.
+
+The paper analyzes two-phase steady-state experiments in which convective flow is balanced by capillary counter-flow, with the outlet face held at the oil percolation threshold. It classifies interpretation methods into integral (using averaged and boundary data from a series of experiments) and distributed (using the measured saturation profile), and proves both derive from the same differential equation, a duality principle. Three new methods are proposed: a multiple-rate integral method extending Ramakrishnan and Cappiello to give water permeability, a combined distributed-integral method, and a half-parametric distributed method that fits the power-law saturation behavior near the outlet end to get the oil permeability exponent. A synthetic test with noisy saturation data (beta=3, s*=0.8) recovered the capillary pressure curve close to the exact one. The half-parametric method is argued to extend to velocity-dependent relative permeabilities such as in gas-condensate flow.
+
+## Application of Conlposi te Mcmhra~les to Determine Relative Perrncabili t ies frorrl Displacement Experiments
+
+- ID: SCA1996-33, year: 1996
+- Authors: Hans M. Helset
+- Method: numerical simulation
+- Keywords: relative permeability, JBN method, traveling wave, capillary end effect, composite membrane, in-situ saturation measurement
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-33)
+
+A traveling-wave method gives relative permeabilities from low-rate displacement tests using in-situ saturation and pressure; 2D simulations show outlet composite membranes reduce end effects but distort pressures after breakthrough.
+
+Standard JBN interpretation neglects capillary pressure, needs high rates and fails across the saturation shock. The authors derive equations to compute each phase's relative permeability from the traveling-wave part of the saturation profile, using in-situ saturation and phase pressure measurements at low rates. They also estimate the traveling-wave length (3.3 cm analytically versus 4.8 cm simulated, owing to numerical dispersion). 2D simulations of a 20 cm core (133 md, porosity 0.22) with a combined water-wet/oil-wet outlet membrane show the average saturation stays close to 1D profiles and deviates only 1-2% from uniform at steady state, best when the outlet pressure difference equals the capillary pressure. Phase separation at the outlet causes an extra pressure rise after breakthrough, with gradients about a factor 3 too large, so only pre-breakthrough pressure data can be interpreted.
+
+## Application of a Steady-State Three-Phase Simulator to Interpret Flow Experiments
+
+- ID: SCA1996-35, year: 1996
+- Authors: G.A. Vimovsky, J. Mykkeltveit, J.E. Nordtvedt
+- Method: numerical simulation
+- Keywords: three-phase relative permeability, steady-state simulator, capillary pressure, parameter estimation, B-spline, inverse problem
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-35)
+
+A fast 1D steady-state three-phase simulator including capillary forces is combined with B-spline parameter estimation to derive relative permeabilities from synthetic floods, outperforming Darcy interpretation for gas.
+
+Steady-state three-phase relative permeability measurements are normally interpreted with Darcy's law, neglecting capillary pressure. The authors derive a 1D steady-state model with viscous, gravity and capillary forces, reduced to two ODEs for saturation profiles solved by Runge-Kutta. Simulations with chalk-like data at 0.04, 0.4 and 4 cc/min and 15 fractional flows each show that average saturations depend strongly on total rate, so experiments need careful planning. Relative permeabilities were estimated by inverse modelling with tensor-product B-splines (27 parameters) and Levenberg-Marquardt minimization on synthetic data. Darcy interpretation gave absolute deviations of 0.01, 0.05 and 0.07 for water, oil and gas at 0.4 cc/min, and strongly underestimated gas relative permeability at low gas saturation, which parameter estimation improved. Real data, experimental errors and higher capillary pressures remain to be tested.
+
+## Determination of Saturation Functions of Tight Core Samples Based on Measured Saturation Profiles
+
+- ID: SCA1997-21, year: 1997
+- Authors: C. M. Nielsen, J. K. Larsen, N. Bech, J. Reffstrup, Dansk Olie, D. Olsen
+- Method: measurement technique or apparatus
+- Keywords: end effect, saturation profile, NMR imaging, parameter estimation, scanning curves, chalk capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-21)
+
+Uses capillary end-effect saturation profiles measured by 1D NMR, with parameter estimation and Killough scanning, to derive drainage and imbibition relative permeability and capillary pressure in tight chalk.
+
+Strong capillary end effects in low-permeability cores are exploited rather than avoided to determine relative permeability and capillary pressure. Steady-state saturation profiles from 1D NMR (4.7 T, 0.4 mm resolution) and total pressure drop are fitted by non-linear least squares, with threshold pressure included in the objective function. Reversing the flow direction shifts the end effect and creates an intrinsic imbibition process, handled with Killough scanning curves and Land trapping. The method reproduced synthetic input functions from an ECLIPSE-simulated drainage case. On a water-wet Maastrichtian chalk plug (M113, 26.36% porosity, 0.70 mD) the drainage kro and Pc were obtained; the Pc plateau was at significantly different pressure from scaled mercury injection data. Simulations showed that the hump in the reversed-flood profile results from scanning behavior, while the imbibition parameter estimation remains to be demonstrated.
+
+## Numerical Interpretation of Gas/Oil SCAL
+
+- ID: SCA1999-38, year: 1999
+- Authors: N. van der Post, W. Boom
+- Method: numerical simulation
+- Keywords: gas/oil relative permeability, JBN method, gas compressibility, history matching, unsteady-state displacement, model liquids
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-38)
+
+Numerical re-interpretation of gas/oil unsteady-state floods with a reservoir simulator shows JBN overestimates gas relative permeability by about a factor 3 when gas compressibility is ignored.
+
+Gas/oil SCAL is prone to pitfalls such as gas compressibility, gravity override, non-Darcy flow and viscous fingering, and analytical JBN interpretation ignores compressibility. Five Isopar/nitrogen imbibition floods without back pressure were history-matched with a 2D reservoir simulator; two are presented (53 mD and 2.5 mD cores, pressure drops 0.9 and 6.8 bar). Non-Darcy flow (about 1% of pressure drop), gravity and plug heterogeneity (about 10% production difference) had little effect. Adding gas compressibility raised simulated gas production by a factor of about 2-3, so the fitted gas relative permeabilities were lower than the JBN values. The re-interpreted curves moved toward those measured with model liquids but did not match them, possibly because of unstable displacement; the authors recommend model liquids where possible.
+
+## Prediction of Formation Water Saturation from Routine Core Data Populations
+
+- ID: SCA1999-55, year: 1999
+- Authors: P. Mitchell, Integrated Core, A. M. Brown
+- Method: data analysis or correlation
+- Keywords: water saturation model, drainage capillary pressure, permeability, free water level, thin beds, probe permeametry
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-55)
+
+An empirical power-law model links water saturation to permeability and capillary pressure or height, predicting saturation and free water level from core data at higher resolution than logs.
+
+The paper proposes an empirical model in which water saturation is a planar function of capillary pressure (or height above FWL) and permeability in tri-logarithmic space, fitted directly by multivariate regression. It is applied to capillary pressure data and directly extracted core saturations from a UK Central North Sea Palaeocene well and two West of Shetland wells. Mean differences between measured and modelled Sw were 0.019 (North Sea) and 0.012 (West of Shetland); the permeability exponent was about -0.266. The model flagged a ~15% pore volume typographical error in one sample and, with FWL as a fitted parameter, matched the field FWL to within 7 cm. Applied to routine and probe permeability, it showed logs underestimating hydrocarbon in thin-bedded intervals because of bed boundary effects.
+
+## New Coreflood Interpretation Method Based on Direct Processing of in-Situ Saturation Data
+
+- ID: SCA2000-28, year: 2000
+- Authors: Matthew Goodfield, Stephen G Goodyear, Peter H Townsley
+- Method: theory or analytical model
+- Keywords: in-situ saturation monitoring, coreflood interpretation, capillary end effect, fractional flow, gravity drainage, JBN method
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-28)
+
+A direct method (dyrectSCAL) computes fractional flow, capillary dispersion and relative permeability from in-situ saturation profiles without boundary-condition assumptions, validated on noisy synthetic floods.
+
+Conventional JBN interpretation fails when capillary pressure matters, and simulation-based history matching depends on assumed outlet boundary conditions. The authors recast Darcy's equations into a saturation (fractional flow plus capillary dispersion) equation solved locally by linear regression at fixed saturations, and a global pressure equation solved for water mobility. The method covers unsteady-state, steady-state, multi-rate and gravity drainage floods, with smoothing techniques for noisy data. It was validated on simulator-generated data: a 10 cm horizontal water-oil unsteady-state flood and a 60 cm gas-oil gravity drainage flood, with 40 saturation positions and added Gaussian noise. The fractional flow was recovered for saturations above about 0.5, including points below the Buckley-Leverett shock front owing to the capillary end effect, and recovery factor matched well, whereas JBN gave early breakthrough and too high residual oil. The gravity drainage version recovered oil relative permeability for saturations above about 0.3 without pressure data.
+
+## Steam-Water Relative Permeability by the Capillary Pressure Method
+
+- ID: SCA2001-24, year: 2001
+- Authors: Kewen Li, Roland N. Horne
+- Method: data analysis or correlation
+- Keywords: steam-water relative permeability, capillary pressure method, Purcell model, Brooks-Corey model, tortuosity factor, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-24)
+
+Purcell, Burdine, Corey and Brooks-Corey capillary pressure models were used to predict steam-water relative permeability in Berea sandstone; Purcell fits water phase best, others fit steam drainage.
+
+Steam-water relative permeability is hard to measure because of phase change, so the authors tested whether capillary pressure models can predict it. Purcell, Burdine, Corey and Brooks-Corey models were applied to steam-water capillary pressure measured at about 120°C in Berea sandstone, in drainage and imbibition, and compared with relative permeabilities measured simultaneously on the same core. The Purcell model matched water-phase relative permeability almost exactly in both drainage and imbibition, suggesting a tortuosity factor is unnecessary for the wetting phase, but it failed for the steam phase. The other models gave steam relative permeabilities close to measurements in drainage but well below them in imbibition. A nitrogen-water drainage test on fired Berea gave similar trends, with the water curve lying between the Purcell and Corey predictions.
+
+## X-Ray Imaging Technique Simplifies and Improves Reservoir-Condition Unsteady-State Relative Permeability Measurements
+
+- ID: SCA2002-11, year: 2002
+- Authors: D. R. Maloney
+- Method: measurement technique or apparatus
+- Keywords: unsteady-state relative permeability, x-ray imaging, image intensifier, saturation monitoring, live oil reservoir conditions, Jones-Roszelle method
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-11)
+
+An x-ray image intensifier tracks bulk core saturation during unsteady-state floods, removing tubing-volume and time-lag corrections and working even when live fluids form emulsions.
+
+Conventional unsteady-state relative permeability tests infer saturation from fluid production measured downstream, which requires tubing-volume and time-lag corrections and fails when fluids separate slowly. The paper uses x-ray images of the whole core, taken with an image intensifier, and relates the natural log of average grey scale in a region of interest linearly to saturation. The correlation is calibrated from the early oil flood, before breakthrough, using the pore volume. It was applied to four Berea cores (3.81 x 12.7 cm) with live oils of 18 and 54 cP at 140 atm and 54 °C, where brine droplets stacked at the separator interface made volumetric measurement impractical. Imaging gave less scatter than separator data, and production observed in the separator lagged the pressure response by 45 minutes. Relative permeability from the Jones-Roszelle method was consistent across the four tests. The method assumes the region of interest represents the whole plug, which limits it for heterogeneous cores.
+
+## A Look at Break-Through and End-Point Data from Repeated Water-Flood Experiments in Glass Bead-Packs and Sand-Packs
+
+- ID: SCA2002-17, year: 2002
+- Authors: J.T. Bartley, D.W. Ruth
+- Method: laboratory experiment
+- Keywords: waterflood break-through, capillary number, viscous fingering, Peters and Flock stability number, Rapoport and Leas criterion, sand-pack
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-17)
+
+Analysis of break-through and end-point data from 92 constant-pressure waterfloods in bead- and sand-packs shows stability criteria fail to scale results, and all floods were viscously unstable.
+
+The paper examines uninterpreted break-through and end-point data from 92 constant-pressure waterfloods in vertical packs of glass beads (K about 207 µm²) and medium and fine silica sand (47 and 11 µm²). Variables were pressure drop (0.25–1 m water head), mineral oil viscosity (ratios 29, 54, 171) and permeability, each with at least three repeats. End-point water saturation increased with capillary number, with permeability and with applied pressure; lighter oil gave higher end-point Ca and Sw. Residual oil versus end-point krw agreed qualitatively with Archer's pore-geometry-factor work, extended to √(K/φ) of 25.4 µm for glass beads. The Rapoport–Leas and Lake groups showed no trend or plateau, while Peters–Flock Ns exceeded 13.56 in all runs, indicating viscous fingering, with break-through saturation decreasing as Ns and oil viscosity increased.
+
+## Strength Variations with Deformation in Unconsolidated Rock After Water Breakthrough
+
+- ID: SCA2002-22, year: 2002
+- Authors: Gang Han, Maurice B. Dusseault
+- Method: theory or analytical model
+- Keywords: capillary strength, liquid bridge, unconsolidated sand, water breakthrough, sand production, unconfined compressive strength
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-22)
+
+Analytical liquid-bridge models for detached and squeezed spherical grains predict how capillary strength of unconsolidated sand varies with water saturation and strain, weakening faster under compression.
+
+Water breakthrough weakens unconsolidated reservoir sand by reducing capillary cohesion, but quantitative descriptions have been limited to tangential grain contacts. The authors develop two analytical toroidal liquid-bridge models, for detached (a>0) and squeezed (a<0) uniform spheres, giving capillary force and UCS as functions of water saturation and interparticle distance, and add a volumetric strain term to follow strength at constant bridge volume. Calculations used R = 0.2 mm, surface tension 0.036 N/m, porosity 30%, friction angle 60°. Capillary strength peaks at low water saturation and then falls to zero, and the peak is lower and occurs at higher saturation as particles are more separated or squeezed. Peak strength rose from about 200 Pa to 900 Pa as contact angle went from 1 rad to 0, and smaller grains give several kPa. At constant bridge volume, strength falls with compression (383 to 95 Pa at strain 0.02) but only to 316 Pa in extension, which implies rapid weakening during depletion; no experimental verification is available.
+
+## Experimental Results for High Flow Rates of Oil-Water Through High Permeability Media
+
+- ID: SCA2003-17, year: 2003
+- Authors: S. Abdobal, M. Fourar, R. Lenormand
+- Method: laboratory experiment
+- Keywords: emulsion flow, high-velocity inertial flow, Forchheimer equation, oil-water relative permeability, siliconate wettability alteration, sand pack
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-17)
+
+Oil-water flow experiments in high-permeability sand packs show emulsion formation, wettability-dependent pressure drop, and velocity-dependent oil relative permeability, so standard Kr models fail.
+
+In high-permeability (super K) zones, high oil-water rates can cause inertial effects and emulsions that challenge relative permeability models. The authors injected Marcol oil (about 30 cP) and water at steady state through 6 cm x 35 cm sand packs of roughly 3 mm quartz, water-wet and siliconate-treated (intermediate wet). Permeabilities were about 3.4-5.0 x10^3 Darcy; water showed Forchheimer inertial behavior while Marcol followed Darcy's law. Two-phase flow produced an oil-in-water emulsion at all rates; wettability strongly changed pressure drop and effective emulsion viscosity but not saturation. Interpretation with generalized Darcy gave a single water Kr curve but a family of oil Kr curves depending on velocity, so emulsion flow cannot be described by standard relative permeabilities.
+
+## Water Oil Relative Permeability Comparative Study: Steady Versus Unsteady State
+
+- ID: SCA2005-77, year: 2005
+- Authors: Celso C.M. Branco, Euclides J. Bonet
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, unsteady-state JBN, experimental design ANOVA, pre-breakthrough saturation, Corey interpolation, reservoir simulation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-77.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-77)
+
+Compares steady-state and unsteady-state water/oil relative permeability in outcrop cores using experimental design; permeability dominates end points, and pre-breakthrough curve shape changes simulated recovery.
+
+The study compares water/oil relative permeability from unsteady-state (JBN) and steady-state tests on outcrop samples with refined mineral oils at ambient temperature. A repeatability study and a 2-level, 3-factor experimental design (absolute permeability, oil viscosity 1.2 vs 130 cP, flow regime) with more than 20 tests were analyzed by ANOVA and response surface methodology. Absolute permeability was the dominant factor for recovery factor, residual oil saturation and water relative permeability end point (p = 0.0007), while viscosity and flow regime were not significant. Steady-state curves differed in shape from USS curves even with matched end points, because USS gives no data between Swi and breakthrough. Simulation of a 17 API offshore sandstone reservoir with different Corey interpolations (nw 1.2, 3.5, 5) gave different recoveries, with nw=5 closest to the steady-state result.
+
+## Automatic History Matching Using Differential Evolution Algorithm
+
+- ID: SCA2006-38, year: 2006
+- Authors: Jianxin Wang, Jill S. Buckley
+- Method: numerical simulation
+- Keywords: differential evolution, automatic history matching, relative permeability, dynamic capillary pressure, B-spline, unsteady-state waterflood
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-38)
+
+A differential evolution global optimizer drives a 1-D history matching simulator that estimates relative permeability and dynamic capillary pressure from waterflood data, converging within minutes.
+
+Gradient-based history matching of unsteady-state coreflood data is costly and prone to local minima. The authors built a Windows-based 1-D simulator that uses differential evolution (mutation, crossover, selection) to fit oil recovery and pressure drop, with Corey or cubic B-spline relative permeability and a new single-function capillary pressure model with six parameters. It was tested on waterfloods of two Berea sandstone plugs (about 790-800 md, 20-21% Swi) at 80 cm3/hr. B-spline matches were as good as or significantly better than Corey matches, and small differences in recovery gave very different kr and Pc curves. With default NP=100, F=0.8 and Cr=0.5, the objective function converged after about a dozen iterations, and kr after 10 iterations (~1.5 min) was close to that after 200 iterations.
+
+## Integration of Water/Oil Capillary Pressures from Different Measurements in a Common Capillary Pressure Model for an Extremely Heterogeneous Carbonate Reservoir (Case Study)
+
+- ID: SCA2008-06, year: 2008
+- Authors: Ali Al-Harrasi, Zaal Alias, Abhijit Mookerjee, Michiel Van Rijen, Khalid Maamari
+- Method: data analysis or correlation
+- Keywords: capillary pressure modelling, MICP, centrifuge drainage and imbibition, imbibition contact angle, primary rock types, Lambda function
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-06)
+
+Centrifuge and MICP water-oil capillary pressure data from a heterogeneous Omani carbonate are quality-checked and fitted per rock type with a modified Lambda model, giving an imbibition contact angle of 125°.
+
+Capillary pressure data from the heterogeneous, fractured Natih carbonate reservoir in Oman were integrated into a common model to support cm-scale and dynamic simulation. Of 233 screened SCAL plugs, 47 had multi-speed centrifuge results and matching MICP curves; 36% failed a permeability consistency check and 16 samples were excluded as broken or losing grains. Primary drainage curves were fitted per primary rock type (PRT A–E) with a modified Lambda (Brooks-Corey/Skjaeveland plus third term) model, honouring MICP entry pressure and centrifuge connate water saturation. Imbibition curves were calculated from drainage curves by the Masalmeh and Jing method, giving an average imbibition contact angle of 125° with residual oil saturation fixed at 0.1. Only connate water saturation correlated with permeability. The new data narrowed spontaneous imbibition from 15% to 2% and Sor from 0.1–0.4 to 0.03–0.17, and detailed PRT models gave lower waterflood recovery than averaged models, so steam is being considered.
+
+## A New Algorithm for Estimating Three-Phase Relative Permeability from Unsteady-State Core Experiments
+
+- ID: SCA2010-42, year: 2010
+- Authors: Hamidreza Shahverdi, Mehran Sohrabi, Mahmoud Jamiolahmady
+- Method: numerical simulation
+- Keywords: three-phase relative permeability, genetic algorithm, history matching, B-spline, unsteady-state coreflood, SWAG
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-42)
+
+A genetic-algorithm history-matching method with B-spline kr functions estimates three-phase relative permeability from unsteady-state corefloods, verified against Eclipse synthetic data and a mixed-wet gas injection experiment.
+
+Conventional JBN analysis of unsteady-state corefloods is limited in saturation range and cannot include capillary pressure, and most three-phase kr models assume krw and krg depend only on their own saturation. The authors developed a history-matching program using a genetic algorithm (20 populations, 200 iterations) to fit quadratic B-spline kr surfaces, with inequality constraints and capillary pressure included. Each kr is a function of two independent saturations, and the objective is the misfit in pressure drop and fluid recovery. It was verified using synthetic SWAG data generated with Eclipse 100, where estimated kr matched the input values over the saturation range covered. It was then applied to a gas injection test on a mixed-wet core (61.3 cm long, 1000 md, 60% oil/40% water initially, 1840 psia), giving good matches to oil production and pressure drop, and re-simulation in Eclipse with the estimated kr reproduced the data. Estimated kr is most accurate near the saturation trajectory of the experiment.
+
+## Three-Phase Unsteady-State Relative Permeability Measurements in Consolidated Cores Using Three Immiscible Liquids
+
+- ID: SCA2010-43, year: 2010
+- Authors: Peilin Cao, Shameem Siddiqui
+- Method: laboratory experiment
+- Keywords: three-phase relative permeability, unsteady-state coreflood, Buckley-Leverett three-phase theory, saturation trajectory, Stone's model, ternary diagram
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-43)
+
+Unsteady-state three-phase coreflooding in Berea with brine, FC-40 and Soltrol gives relative permeabilities and saturation paths; empirical models like Stone's often fail to match them.
+
+Reliable three-phase relative permeability data are scarce, so empirical models extrapolate from two-phase data. The authors ran eight unsteady-state floods in one Berea core (porosity 23.3%) using brine, FC-40 (heavy phase) and Soltrol-130 (light phase) at 10 cc/min, 21.5 °C. They performed DDI, DID and IDD dynamic injection runs and calculated three-phase relative permeabilities with the Grader and O'Meara three-phase Buckley-Leverett extension. DDI saturation paths matched literature trends, and the DID runs mapped more of the ternary diagram interior. IDD runs showed bypassing, with no FC-40 or Soltrol produced after water breakthrough. Stone's I and II, Baker's and Hustad-Hansen models matched only in parts of the saturation range, and all under-predicted FC-40 in Run 5.
+
+## SCAL Importance and Challenges for an Integrated Petrophysical Evaluation of the Rau Discovery
+
+- ID: SCA2012-47, year: 2012
+- Authors: Kåre Langaas, Stefano Pruno, Petter Gahre
+- Method: data analysis or correlation
+- Keywords: saturation-height model, porous plate capillary pressure, MICP, J-function, Archie saturation exponent, glauconitic sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-47)
+
+Builds a SCAL-based saturation-height model for the glauconitic Rau Ty sandstone from porous plate and MICP data, and shows it supports log Sw with n=2.1.
+
+Water saturation was a key uncertainty in the Rau discovery because Dean Stark plugs were cut 25 days after coring with oil-based mud. A SCAL program was run with porous plate capillary pressure and resistivity index at pseudo-reservoir conditions, plus MICP on end trims from 28 plugs. Archie n averaged 2.2, falling to about 2.0 at high water saturation, which is attributed to glauconite. Swirr was estimated from the micro-pore entry pressure (8-15 bar oil-brine) in MICP and from porous plate Sw at 12 bar. Mobile water was modelled with a J-function and lambda fit, giving a saturation-height function. Applied to the cored well and to a non-cored well with NMR permeability corrected using MDT mobility, it matched log Sw using n=2.1 better than a rock-variable n approach.
+
+## Interpretation Method for Relative Permeability with Full Account for Dynamic Capillary Pressure
+
+- ID: SCA2013-060, year: 2013
+- Authors: Xie Quan, He Shunli, Ma Desheng, Liu Qingjie
+- Method: theory or analytical model
+- Keywords: dynamic capillary pressure, unsteady-state relative permeability, end effect, Buckley-Leverett, low permeability coreflooding, water saturation gradient
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-060)
+
+Derives analytical equations to interpret unsteady-state coreflood relative permeability including dynamic capillary pressure and end effect, for constant-rate and constant-pressure displacement; no experimental validation yet.
+
+Conventional unsteady-state interpretation ignores dynamic capillary pressure and end effects, which is inconsistent with low-permeability coreflooding. The authors build a one-dimensional Darcy and Buckley-Leverett based model, including a dynamic capillary pressure term with a Hassanizadeh-type relaxation coefficient. They derive explicit expressions for water and oil relative permeability under constant pressure difference (Eqs. 12, 14) and constant injection rate (Eqs. 16, 17). A material balance approach gives the outlet water saturation and its gradient in space and time. No synthetic or experimental validation is presented; the authors note the equations are not extensively verified and that examples will be shown in the poster.
+
+## Direct Calculation of Dynamic Relative Permeabilities from in-Situ Phase Pressures and Fluid Saturations
+
+- ID: SCA2013-097, year: 2013
+- Authors: B. Brattekås, A. Brautaset, A. Graue
+- Method: laboratory experiment
+- Keywords: in-situ phase pressure, MRI saturation monitoring, unsteady-state relative permeability, semi-permeable discs, dynamic capillary pressure, Portland chalk
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-097.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-097)
+
+Relative permeabilities are calculated directly from MRI-derived in-situ saturations and separately measured local oil and water phase pressures during waterfloods of water-wet and neutral-wet Portland chalk.
+
+Conventional unsteady-state relative permeability methods need high rates and capillary pressure approximations. Three Portland chalk cores (about 5 mD, 47% porosity) were waterflooded in an MRI scanner at constant pressure or rate (one strongly water-wet, two aged to neutral-wet). Local oil and water phase pressures were measured with oil-wet and water-wet semi-permeable discs at two ports, and saturations were taken from MRI. Darcy velocities were derived from the saturation data via continuity and an average front velocity, giving kro and krw directly without end-effect influence and over a wide saturation range. Nonlinear velocity assumptions changed kr by at most 0.03 (core 1) and below 0.007 (cores 2 and 3). The curves were consistent with wettability and Craig's rules, but krw for water-wet chalk exceeded steady-state values owing to spontaneous imbibition. Neutral-wet kr stayed below 16% of effective permeability, and pressure measurement reliability was the main challenge.
+
+## Waterflood Stability in SCAL Analysis
+
+- ID: SCA2014-001, year: 2014
+- Authors: Ø. Eide, M. A. Fernø, S. Nybø, A. Graue
+- Method: laboratory experiment
+- Keywords: waterflood stability, scaling coefficient, capillary end-effect, nuclear tracer imaging, wettability, water breakthrough
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-001)
+
+Waterfloods on chalk, limestone and sandstone cores show the scaling coefficient needed for stable flooding rises with permeability and is slightly lower in near neutral-wet chalk.
+
+Laboratory waterfloods are affected by capillary end-effects and instability because core plugs are small, so the paper examines when a flood is stable using a scaling coefficient (length × water viscosity × injection rate). Waterfloods were run at multiple rates on strongly water-wet Rørdal chalk, Edwards limestone and Bentheim sandstone, plus two aged near neutral-wet chalk cores, with nuclear tracer imaging (Na-22) used to detect water arrival at the outlet. In strongly water-wet cores, a time gap between water arrival and breakthrough occurred at low scaling coefficients and vanished above about 0.6 (chalk, 4.6 mD), 0.8 (limestone, 11.8 mD) and 1.5 (sandstone, ~1000 mD). Capillary desaturation appeared only above a scaling coefficient of about 10 (roughly 800 ml/h), far above field rates. Near neutral-wet chalk showed reduced end-effects and perhaps a slightly lower required coefficient, though this was not consistent across both cores.
+
+## Analytical Interpretation Methods for Dynamic Immiscible Core Flooding at Constant Differential Pressure
+
+- ID: SCA2015-039, year: 2015
+- Authors: Jie Cao, Xiaolong Liu, Lesley James, Thormod Johansen
+- Method: theory or analytical model
+- Keywords: relative permeability, constant differential pressure, unsteady state core flood, JBN method, Jones-Roszelle method, fractional flow theory
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-039)
+
+Constant-differential-pressure unsteady-state core floods are interpreted with a new analytical method and compared with JBN and Jones-Roszelle; the new method gives smoother, more stable relative permeability curves.
+
+Relative permeability from unsteady-state floods run at constant differential pressure is conventionally interpreted with JBN or Jones-Roszelle methods, which rely on numerical differentiation. The authors apply a recently developed analytical solution of fractional flow theory with constant pressure boundaries, which yields flow rate as a function of time and avoids numerical differentiation. Two sandstone floods at room temperature were tested: a 32 cP crude oil in a 10 mD core (243 psi) and a 3 cP oil in an 876 mD core (1 psi). JBN and Jones-Roszelle results showed non-monotonic variations (Sw 0.55-0.75 in Case 1, 0.45-0.55 in Case 2, larger in Case 2 due to scattered effective viscosity), while the new method gave smooth curves in both cases.
+
+## Analytical Gas-Oil Relative Permeability Interpretation Method for Immiscible Flooding Experiments under Constant Differential Pressure Conditions
+
+- ID: SCA2016-034, year: 2016
+- Authors: Hashem Nekouie, Jie Cao, L.A. James, T.E. Johansen
+- Method: theory or analytical model
+- Keywords: unsteady-state relative permeability, JBN method, constant differential pressure, gas flooding, history matching, Buckley-Leverett
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-034.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-034)
+
+An analytical constant-differential-pressure interpretation method is extended to gas-liquid unsteady-state floods and compared with JBN and history matching; it gives smoother curves but lower liquid relative permeability.
+
+Interpreting unsteady-state gas-liquid relative permeability is difficult because JBN relies on numerical differentiation and constant-rate assumptions. The authors extend an analytical method, based on Buckley-Leverett theory generalized to constant-pressure boundaries, to immiscible gas flooding with capillary pressure neglected. Nitrogen displaced oil in a 133 mD Berea sandstone (differential pressure 0.15 bar) and water in a 9 mD Carbon Tan core (1.16 bar). Data were interpreted with the new method, JBN, and CYDAR history matching. All three methods agree in trend and gas relative permeability, while the new method gives lower liquid relative permeability and smoother curves with less oscillation. History matching closely followed JBN because it used a Corey model fitted to JBN results. Further experiments are needed to verify accuracy.
+
+## Estimation of Gas Condensate Relative Permeability using a Lattice Boltzmann Modelling approach
+
+- ID: SCA2019-015, year: 2019
+- Authors: Josephina Schembre-McCabe, Jairam Kamath, Andrew Fager, Bernd Crouse
+- Method: digital rock or imaging
+- Keywords: Lattice Boltzmann method, gas condensate relative permeability, capillary number, condensate dropout, Berea sandstone, micro-CT digital rock
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-015.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-015)
+
+Multiphase Lattice Boltzmann simulations on a micro-CT Berea model give gas/condensate relative permeability for displacement and dropout, matching literature krg versus krg/kro data across capillary numbers.
+
+Condensate banking forecasts need imbibition gas/oil relative permeability as a function of capillary number, which is hard to measure. The authors ran a Shan-Chen multiphase Lattice Boltzmann solver on a 600^3 sub-volume of a micro-CT Berea sandstone image (2.6 μm/voxel, 17.8% connected porosity, 670 mD simulated). Five runs covered steady-state drainage (Nc 1e-5), steady-state imbibition (1e-6), and condensate dropout at Nc 1e-6, 1e-5 and 5e-5, with condensate as the wetting phase and a viscosity ratio of 10. Dropout gave lower gas and condensate relative permeability than displacement, attributed to poorer gas connectivity, but the differences were small in the krg versus krg/kro form. Gas mobility rose and trapped gas blob size fell as capillary number increased. Computed krg versus krg/kro agreed with published sandstone data across three Nc ranges, though comparison on the same sample is still needed.
+
+## Simultaneous Interpretation and Uncertainty Analysis of SCAL Data from Complex Rocks
+
+- ID: SCA2022-33, year: 2022
+- Authors: Omideza Amrollahinasab, Siroos Azizmohammadi, Holger Ott
+- Method: numerical simulation
+- Keywords: steady-state relative permeability, centrifuge capillary pressure, history matching, MCMC uncertainty, point-by-point saturation functions, Estaillades limestone
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-33)
+
+An open-source MRST simulator history-matches steady-state and centrifuge SCAL data simultaneously with point-by-point saturation functions and MCMC uncertainty, showing sample-to-sample variation dominates in Estaillades limestone.
+
+Relative permeability and capillary pressure are usually not interpreted numerically with uncertainty, and power-law parametrizations (Corey, LET) struggle for complex carbonates. The authors built a MATLAB-MRST simulator that matches steady-state (SS) relative permeability and multispeed centrifuge (CF) drainage data simultaneously, using fmincon active-set history matching with a point-by-point representation (17 points per kr curve, 8 for Pc) and monotonicity constraints. It was benchmarked on synthetic data from Lenormand and Loeve, then applied to two SS and three CF experiments on Estaillades limestone (porosity ~0.28, ~164 mD). Corey, LET and modified Corey fits did not describe the data, while the point-by-point approach matched pressure and saturation profiles. ParaDRAM MCMC (20,000 unique samples, ~1.5 million likelihood calls, about a week of computing) gave P10–P90 intervals, with the largest uncertainty near connate water saturation and bimodal histograms in places. Sample-to-sample variation between the two SS plugs exceeded the individual-data-set uncertainty.
+
+## Effect of LET Parameters Combination in Relative Permeability towards Core and Field Scale Simulation
+
+- ID: SCA2023-030, year: 2023
+- Authors: Wilson Wiranda, Kurdistan Chawsin, Rolf Myhr
+- Method: numerical simulation
+- Keywords: LET correlation, relative permeability, coreflood simulation, field-scale simulation, parameter non-uniqueness, Norne field
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-030)
+
+Different LET parameter combinations giving near-identical relative permeability curves are generated via L–log(E)/T linear trends; core and field simulations on UNISIM-I and Norne show small to moderate recovery differences.
+
+LET relative permeability parameters are non-unique, so several L-E-T sets can fit the same laboratory data. The authors generated 1100 combinations per sample by fixing L and curve-fitting E and T, finding negative linear relations of L with log(E) and with T, and built a multivariate regression (R2 of 0.997) to update E and T from L. Applying a field trend model left only 24 of 1100 combinations plausible for one sample. Combinations with L varied by ±0.5 were tested in coreflood and field simulations on UNISIM-I (oil-water) and Norne (three-phase) with OPM. UNISIM-I gave a 0.68% coreflood recovery difference and about 0.08% at field scale. Norne gave 3.94% (water-oil) and 4.84% (gas-oil) coreflood differences and a wider field range, with differences emerging mid-to-late field life.
+
+## An Experimental Investigation of Oil Recovery Mechanisms and Relative Permeability Curves Obtained by Steady-State versus Unsteady-State Displacement
+
+- ID: SCA2024_1028, year: 2024
+- Authors: Bashir Alkhazmi, Amir Farzaneh, Mehran Sohrabi
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, unsteady-state coreflood, history matching 3RPSim, X-ray in-situ saturation monitoring, residual oil saturation, Clashach sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1028)
+
+Steady-state and unsteady-state waterfloods on a long weakly water-wet Clashach core show SS gives ~10% higher residual oil and lower kro than history-matched USS.
+
+The paper compares steady-state (SS) and unsteady-state (USS) forced-imbibition coreflood experiments on a 2 ft, 65 mD, 18% porosity weakly water-wet Clashach sandstone, run at 1840 psia and 38 °C with live C1/C4 oil, X-ray in-situ saturation monitoring and a rotating core to remove gravity. The SS test used eleven water/oil injection ratios and recovered 50-51.5% IOIP, versus 62% for the USS waterflood. Water breakthrough occurred at 0.243 PV in SS and 0.475 PV in USS, and the final SS pressure drop was about three times higher. Remaining oil saturation was about 10% higher in SS. USS kro, obtained by history matching with 3RPSim, was higher and USS krw lower than SS values at Sw ≥ 40%. The authors conclude that substituting SS kr for USS kr would underestimate oil recovery and overestimate water recovery in simulation.
+
+## Improved Method of Relative Permeability Measurements Using Steady State Technique
+
+- ID: SCA_2025_1071, year: 2025
+- Authors: Ahmed Alratrout, Ahmed Shehata, ADNOC Onshore, Abu Dhabi
+- Method: measurement technique or apparatus
+- Keywords: steady state relative permeability, in-situ saturation monitoring, X-ray scanning, methanol calibration, live oil carbonate, drainage and imbibition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1071.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1071)
+
+Methanol is used to calibrate 1D X-ray/gamma scans at the start of steady-state relative permeability tests on carbonates, giving real-time saturation with small deviations from live-oil calibration.
+
+Conventional steady-state relative permeability tests calibrate saturation profiles only after the experiment, because the 100% live-oil reference scan is available only at the end. The authors instead acquire a 100% methanol base scan at the start as a temporary stand-in for live oil, giving in-situ saturation profiles throughout. Tests used 20 carbonate plugs (0.16 to 280 mD, 13 to 30% porosity) from three Middle East reservoirs, with live oil and brine at reservoir conditions, 9 fractional flow steps plus bump floods, aging, and imbibition. X-ray scans of methanol- and oil-saturated plugs differed by only 0.06 to 1.77%, with no correlation to permeability. Calculated saturations using methanol versus oil differed by 0.07 to 0.41% at the first fraction, rising to 0.53 to 2.29% at the final drainage bump flood. Average X-ray counts increased with pore volume, and methanol and oil showed similar trends that differed from brine.
+
+## Multi-scale experimental study of trapped gas mobilization in carbonate rocks
+
+- ID: SCA_2025_1081, year: 2025
+- Authors: Dev Joshi, Ziqiang Qin, Amir H. Alizadeh, Mohammad Piri
+- Method: laboratory experiment
+- Keywords: capillary desaturation curve, trapped gas saturation, capillary number, micro-CT, carbonate, sub-resolution porosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1081.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1081)
+
+Micro-CT and macro-scale coreflooding of N2/brine in carbonates show trapped gas saturation decreases continuously with capillary number, with no distinct critical capillary number, via ganglion fragmentation and mobilization.
+
+Conventional capillary desaturation curves assume constant residual non-wetting saturation below a critical capillary number, but gas/liquid systems in carbonates appear to deviate. The authors ran high-pressure, high-temperature N2/brine drainage and waterflood experiments on Estaillades outcrop and two reservoir carbonates, using micro-CT on 8 mm miniature plugs and robotic X-ray CT on a 38 mm reservoir plug. Differential imaging quantified sub-resolution porosity, and in-situ contact angles confirmed water-wet conditions. Trapped gas saturation decreased continuously with increasing brine flow rate even at N_ca below 10^-6, with no distinct capillary- or viscous-dominated regime. Pore-scale images and cluster analysis showed trapped globule fragmentation, mobilization (including in brine-filled pores), and coalescence into larger clusters, and macro-scale saturation profiles agreed.
+
+## Analysis of Capillary End-Effects in Steady-state and Unsteady-state Gas-Oil Relative Permeability Experiments
+
+- ID: SCA2026-026, year: 2026
+- Authors: Leili Moghadasi, Nicola Bona, Dario Renna, Martin Bartosek, Luca Visconti
+- Method: laboratory experiment
+- Keywords: capillary end-effects, gas-oil relative permeability, steady-state vs unsteady-state, 4D X-ray CT saturation, dynamic capillary pressure, history matching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-026)
+
+SS and USS gas-oil relative permeability tests with 4D CT on one sandstone plug show opposite outlet end-effects, attributed to re-imbibition, capillary backpressure and dynamic Pc.
+
+Gas-oil relative permeability was measured by steady-state and unsteady-state methods on the same sandstone plug (413 mD Klinkenberg, 19.5% porosity, Swir 15.5%) with N2 and doped Soltrol under 4D CT saturation monitoring. Relative permeability curves from the two methods were broadly consistent after history matching with SENDRA; SS krg reached only 0.09 and kro was 0.59 at Swir. The saturation profiles differed strongly at the outlet: USS showed the expected oil saturation rise (about 0.6), whereas SS showed an unexpected sharp oil saturation drop at the outlet in all co-injection steps. The history-matched Pc curves differed greatly (Skjeveland Co of 25 kPa for SS versus 1.6 kPa for USS). The authors attribute the discrepancy to local re-imbibition hysteresis, capillary backpressure (~10 kPa for 10 µm pores) and dynamic capillary pressure (5-20 kPa), and argue that spatially resolved saturation data are needed for interpretation.
+
+## Development of a Computer Vision and Deep Learning-Based Methodology for Fluid Interface Detection in Visual Separators for SCAL Experiments
+
+- ID: SCA2026-056, year: 2026
+- Authors: Diogo Silveira, Caio Souza, João Abrantes, Cláudia Sheid, Luís Calçada, Luiz Meleiro, Filipe Furtado
+- Method: measurement technique or apparatus
+- Keywords: visual separator, meniscus detection, YOLOv8, relative permeability, optical character recognition, parallax correction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-056)
+
+An automated YOLOv8, OCR and optical-correction system tracks brine-oil menisci in visual separators, matching pump volumes within about 1-6% AARD and generally beating idealized human readings.
+
+Manual reading of menisci in visual separators used in relative permeability tests is subjective and limited to about 1 mm resolution. The authors built a system with a custom ruler (squares, triangles, numbers), OCR, YOLOv8 meniscus detection, edge detection, PID camera tracking and Snell's-law correction for the borosilicate window. Twelve brine/light mineral oil tests at 22 °C and atmospheric pressure were run at pump rates from 0.005 to 5 mL/min, using a 744×480 monochrome camera (about 0.083 mm/pixel). Measured volumes agreed with the pump with AARD of 1.06-5.69% and slope deviations of about -0.06 to 3.2%. The system beat an idealized ±1 mm human reading in 10 of 12 experiments, but errors grew at the lowest flow rates because of camera resolution and changes in the chosen meniscus edge. Tests at high pressure and temperature and with a higher-resolution camera remain to be done.
+
+## Interpretation of Special Core Analysis using Finite Volume Graph Networks and Operator Learning
+
+- ID: SCA2026-076, year: 2026
+- Authors: Roman Manasipov, Bettina Jenei
+- Method: numerical simulation
+- Keywords: PI-DeepONet, finite volume graph network, B-spline relative permeability, unsteady-state coreflooding, weak-entropy PINN, gradient-based inversion
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-076.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-076)
+
+A physics-informed DeepONet with a finite-volume graph network trunk and B-spline relative permeabilities acts as a differentiable surrogate for interpreting unsteady-state coreflooding, matching DuMuX shock fronts.
+
+Interpreting unsteady-state core floods for relative permeability is limited by analytical assumptions and by costly history matching. The authors build a PI-DeepONet whose branch takes B-spline control polygons plus rock-fluid parameters, and whose trunk is a finite-volume graph network trained with a weak-entropy and TVD loss to capture Buckley-Leverett shocks. The dimensionless formulation allows application across core sizes, and inversion uses gradient optimization initialized from JBN with Corey curves. The model was trained on an 80-cell mesh for 4000 epochs against DuMuX simulations (8 cm, 100 mD core, 1 cP water, 5 cP oil), with data loss converging to about 5e-5 and conservation residual at machine precision. Validation shows saturation shocks and Corey curves matching the DuMuX reference closely. The full inversion on measured data is described but not demonstrated with results.

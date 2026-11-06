@@ -1,0 +1,486 @@
+# Crude oil-brine-rock wettability chemistry
+
+> 37 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: crude oil, wettability, contact angle, surface, asphaltene, wetting, brine, chalk, water, alteration.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## New Method to Prepare Outcrop Chalk Cores for Wettability and Oil Recovery Studies at Low Initial Water Saturation
+
+- ID: SCA2007_37, year: 2007
+- Authors: Tina Puntervold, Skule Strand, Tor Austad
+- Method: laboratory experiment
+- Keywords: chalk wettability, sulfate adsorption, spontaneous imbibition, chromatographic wettability test, porous plate drainage, Stevns Klint chalk
+- Cited by 6 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_37)
+
+Trace sulfate in outcrop Stevns Klint chalk concentrates during porous-plate drainage and makes cores more water-wet; pre-flushing with 4 PV distilled water gives representative wettability.
+
+Outcrop chalk used for wettability and oil recovery studies at low Swi (~10%) can contain trace sulfate, which is up-concentrated in the residual water during porous-plate drainage. Stevns Klint chalk cores were flooded with 4 PV distilled water; about 5.3 mg SO4 per core (PV ~34 ml) was eluted, and drainage alone removed only 2.2 mg, leaving an apparent 0.74 g/l in the residual water, about one-third of seawater. Cleaned cores were much less water-wet: spontaneous imbibition recovered about 70% of oil in 4 days for non-cleaned cores versus 30% in 13 days for cleaned cores. Chromatographic wettability indices were 0.84 (non-cleaned) and 0.65 (cleaned). Cleaned cores responded strongly to seawater at higher temperature (up to ~40-50% extra recovery at 110-130 °C), while Swi of 10-22% had little effect. The authors recommend flushing chalk with at least 4 PV of sulfate-free brine or distilled water before saturation.
+
+## The Effect of Different Crude Oil/Brine/Rock Combinations on Wettability Through Spontaneous Imbibition
+
+- ID: SCA2003-02, year: 2003
+- Authors: Hongguang Tie, Zhengxin Tong, Norman R. Morrow Chemical
+- Method: laboratory experiment
+- Keywords: mixed wettability, spontaneous imbibition, asphaltene precipitation, Amott index, crude oil solvency, limestone
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-02)
+
+Spontaneous imbibition and Amott indices compare MXW and MXW-F wetting in Berea sandstone and Mt. Gambier limestone with two crude oils. Limestone is more sensitive to crude solvency; MXW-F is less water-wet.
+
+The study compares mixed-wet (MXW) and MXW-F (crude removed, organic film left) wetting states in Berea sandstone and Mt. Gambier limestone using Minnelusa (9.0% asphaltene) and Cottonwood (2.3% asphaltene, higher acid/base number ratio) crude oils. Crude solvency was reduced by adding 14-30 vol% n-decane. Imbibition rates were scaled with a dimensionless time group, and Amott indices were measured on selected cores. Cottonwood oil reduced imbibition rate more than Minnelusa oil in both rocks, and limestone showed a systematic rate decrease with added alkane while sandstone changed little except for Minnelusa at 22% decane. MXW-F cores imbibed more slowly than MXW cores (Cottonwood recovery about 10% limestone and 11% sandstone vs 28% and 33%), and direct displacement of crude by mineral oil almost suppressed imbibition, attributed to asphaltene surface precipitation. Amott Iw-o was water-wet for MXW cores and intermediate for MXW-F cores, with the lowest value -0.88 for a limestone core flooded directly with mineral oil.
+
+## Oil Recovery by Spontaneous Imbibition Before and After Wettability Alteration of Three Carbonate Rocks by a Moderately Asphaltic Crude Oil
+
+- ID: SCA2005-11, year: 2005
+- Authors: Hongguang Tie, Norman R. Morrow Chemical
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, limestone wettability, Amott indices, mixed wettability, asphaltene precipitation, scaled imbibition
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-11)
+
+Spontaneous imbibition and Amott indices on three outcrop limestones show wettability shifts from very strongly water-wet to MXW, MXW-F and MXW-DF states after Cottonwood crude exposure, with the largest change for MXW-DF.
+
+Carbonate wettability alteration by crude oil was studied using three outcrop limestones: Whitestone UZ (7 md grainstone), Edwards (GC) (about 11-13 md grainstone) and Gambier (about 4000 md reef boundstone). Very strongly water-wet imbibition scaled well with correlations for other rock types, though final oil recoveries differed (62.8%, 53.8% and 41.5% for Gambier, Whitestone UZ and Edwards). Cores were aged in Cottonwood Creek crude at initial water saturation (16-29%) for 10 days at 75°C to give MXW, MXW-F (solvent then mineral oil) and MXW-DF (direct displacement) states. For all rocks, imbibition rate and extent decreased in the order MXW > MXW-F > MXW-DF. MXW Amott-Willhite indices ranged from 0.44 to 0.63, while MXW-DF cores were near neutral (-0.05 to -0.1). Total recovery from the grainstones peaked at weakly water-wet MXW-F conditions, and Edwards (GC) is proposed as a model limestone.
+
+## Experimental Investigation of Oil Compositional and Surfactant Effects on Wettability at Reservoir Conditions
+
+- ID: SCA2005-53, year: 2005
+- Authors: Wei Xu, Subhash C. Ayirala, Dandina N. Rao The Craft
+- Method: laboratory experiment
+- Keywords: dual-drop dual-crystal contact angle, live crude oil, anionic surfactant, wettability alteration, dolomite, four-region adsorption model
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-53)
+
+DDDC contact angle measurements at Yates reservoir conditions show live oil is weakly water-wet while stocktank oil is oil-wet, and an anionic surfactant shifts both toward oil-wet states.
+
+Wettability data at reservoir conditions with live oil are scarce, so the authors measured dual-drop dual-crystal contact angles on Yates and outcrop dolomite at 82°F and 700 psi using synthetic brine, stocktank oil, and live synthetic oil. Stocktank oil gave a strongly oil-wet advancing angle of 152°, whereas live oil gave about 55°, weakly water-wet. An anionic ethoxy sulphate surfactant (500–3500 ppm) reduced the stocktank angle to 135–141°, but raised the live-oil angle to a maximum of 165° at 1000 ppm and 120–135° at 1500–3500 ppm. At higher concentrations the stocktank oil drops would not mingle, likely due to charge repulsion between adsorbed surfactant heads. The concentration dependence was explained with a four-region surfactant adsorption model, and the authors suggest possible mixed-wettability development for oil recovery.
+
+## Sulfate in Rock Samples from Carbonate Reservoirs
+
+- ID: SCA2008-19, year: 2008
+- Authors: Ingebret Fjelde
+- Method: laboratory experiment
+- Keywords: sulfate concentration, chalk wettability, reservoir core plug preparation, spontaneous imbibition, easily accessible sulfate, Stevns Klint chalk
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-19)
+
+Trim-offs and core plugs from two North Sea chalk fields contain sulfate above levels known to alter chalk wettability, so core preparation procedures should be modified.
+
+Sulfate is known to shift outcrop chalk toward water-wet conditions, so its presence in reservoir chalk matters for core preparation. Trim-off samples and core plugs from two chalk fields were crushed and extracted with distilled water, 3 M HCl or formation water, and sulfate was measured by BaCl2 turbidity and ICP. Easily accessible sulfate was determined by injecting formation water through toluene/methanol-cleaned plugs and analysing the effluent. Outcrop Liege and Stevns Klint chalks contained about 0.03 mg/g, while reservoir trim-offs reached 0.67 mg/g (field A) and 0.58 mg/g (field B). Easily accessible sulfate was 0.38-0.78 mg/g in field A plugs and 0.10-0.20 mg/g in field B plugs, all above the roughly 0.05 mg/g reported to affect wettability. Low Al/sulfate ratios argued against mud contamination, suggesting the sulfate is native, possibly carbonate-associated, and core preparation should depend on its origin.
+
+## Fluid distribution in kaolinite- or illite-bearing cores. Cryo-SEM observations versus bulk measurements
+
+- ID: SCA1996-27, year: 1996
+- Authors: Claudine Durand, Elisabeth Rosenberg
+- Method: laboratory experiment
+- Keywords: cryo-SEM, wettability, kaolinite, illite, Amott-IFP wettability index, aging
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-27)
+
+Cryo-SEM of four Brent sandstones shows kaolinite and platy illite retain oil after aging while fibrous illite stays water-wet, qualitatively consistent with Amott-IFP bulk wettability.
+
+Cryo-SEM was used to image oil and brine distribution in four Brent sandstone samples (CAR1-CAR4) rich in kaolinite, dickite, platy illite or fibrous illite. Companion samples were centrifuged to immediate Swi, immediate Sor, aged Swi and Sor after one month of aging in crude oil, and imaged by backscattered electrons with EDS. Kaolinite/dickite clusters retained oil, and aging increased the association of oil with clay; fibrous illite remained hydrophilic. Platy illite (CAR1, 13.8 wt% illite, no kaolinite) behaved as the most oil-wet sample (Amott-IFP WI -1 after aging), suggesting kaolinite-like Al-OH surfaces. Bulk wettability depends on clay type, morphology, amount and distribution, with a minimal amount of oil-prone clay needed; agreement with Swi, Sor and WI is only qualitative because of 2D versus 3D scale differences.
+
+## A Chemical Model for the Seawater-CO2- Carbonate System – Aqueous and Surface Chemistry
+
+- ID: SCA2008-18, year: 2008
+- Authors: A. Hiorth, L. M. Cathles, J. Kolnes, O. Vikane, A. Lohne, R. I. Korsnes, M. V. Madland
+- Method: theory or analytical model
+- Keywords: surface complexation model, zeta potential, chalk water weakening, calcite dissolution, seawater injection, anhydrite precipitation
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-18)
+
+A surface complexation and aqueous chemistry model for calcite-brine-CO2 matches zeta potentials and suggests calcite dissolution, not surface potential change, explains chalk wettability change and water weakening in seawater at high temperature.
+
+Seawater injection into chalk changes oil recovery and mechanical strength at elevated temperature, and the mechanism is debated. The authors built a chemical model combining aqueous speciation (HKF equation of state, SUPCRT data) with a surface complexation model for calcite using the Grahame equation, with temperature dependence of surface constants assumed equal to aqueous ones. The model reproduces room-temperature zeta potential data from Thompson and Pownall (0.005 M NaCl) and UiS measurements (0.573 M NaCl with added Mg or sulphate). Predicted surface potential for seawater and Ekofisk formation water varies only weakly and almost linearly with temperature (25-130°C), so it cannot explain the effects seen only above about 70°C. Anhydrite precipitation at high temperature forces calcite dissolution, and the calculated dissolved calcium correlates with oil recovery in six imbibition experiments, though this is not proof.
+
+## Kaolinite Wettability – the Effect of Salinity, pH and Calcium
+
+- ID: SCA2010-11, year: 2010
+- Authors: Evgenia V. Lebedeva, Andrew Fogden, Tim J. Senden, Mark A. Knackstedt
+- Method: laboratory experiment
+- Keywords: kaolinite, contact angle hysteresis, asphaltene deposition, low salinity, calcium chloride, micro-CT
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-11)
+
+Thin immobilized kaolinite coats on glass are used to measure crude oil adhesion and asphaltene deposition versus NaCl, CaCl2 and pH; adhesion rises at low salinity and low pH.
+
+Kaolinite strongly influences reservoir wettability, but local wettability in rock is hard to measure. The authors developed ~1 µm thick, smooth kaolinite (KGa-1b) coats on glass and measured contact angle hysteresis of Minnelusa crude drops in 24 brines varying NaCl, CaCl2 and pH (4, natural, 9). Hysteresis, a proxy for adhesion, rose with decreasing NaCl concentration and pH; at natural pH, brines above 0.1 M ionic strength gave hysteresis below 17°, with adhesion only for 0.001–0.01 M CaCl2 alone. After 8 days of aging at 60 °C, asphaltene deposition (scanner grayscale) generally decreased with salinity and correlated with hysteresis. SEM/AFM showed high NaCl limits deposit to kaolinite edges, while high CaCl2 restricts oil penetration into aggregates, and micro-CT of a kaolinite-rich sandstone showed no movement of large particles during low-salinity flooding.
+
+## Changes in Wettability State Due to Waterflooding
+
+- ID: SCA2011-15, year: 2011
+- Authors: Andrew Fogden, Evgenia V. Lebedeva
+- Method: laboratory experiment
+- Keywords: waterflooding wettability alteration, FESEM oil deposits, kaolinite-coated glass, low salinity flooding, asphaltene adsorption, contact angle
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-15)
+
+FESEM, contact angle and fluorescence show waterflooding leaves oil nano-droplet residues on aged glass and kaolinite-coated glass, with residue amount depending on flood salinity and pH.
+
+The study probes how waterflooding changes the wettability state set by crude oil drainage and 30-day aging at 60°C on bare glass and kaolinite-coated glass. Substrates were aged in Na-Ca brines (50 or 1 g/l, pH 4, 6, 9) and flooded with a matrix of brines, then analyzed by FESEM image analysis, pendant-drop contact angles (glass) and fluorescence spectroscopy of extracted asphaltenics (kaolinite). On glass, the oil film retracts and detaches during flooding, leaving nano-droplets in foam-like trails. Residues were least at flood pH 6 for 50 g/l floods, but increased with flood pH for 1 g/l floods, attributed to precursor brine film thickening that disconnects surface oil. Contact angles varied up to 17° (receding) and 27° (advancing) and correlated best with deposit acircularity. On kaolinite-coated glass, residual asphaltenics were greatest at flood pH 6 and systematically higher for 1 g/l floods, with rough porous coats stranding more oil.
+
+## Mixing Small Amounts of Crude Oil with Large Amounts of Asphaltene Precipitant
+
+- ID: SCA2006-02, year: 2006
+- Authors: Jill S.Buckley
+- Method: laboratory experiment
+- Keywords: asphaltene precipitation, wettability alteration, MXW-DF, crude oil compatibility, spontaneous imbibition, Berea sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-02)
+
+Asphaltene skins forming when small crude volumes meet large volumes of precipitant block mixing, trapping crude oil in Berea cores and making them less water-wet after S220 displacement.
+
+When an asphaltic crude is displaced by an asphaltene precipitant such as Soltrol 220, wettability becomes much less water-wet than with a solvent displacement. This paper tests whether small pockets of crude are retained because asphaltenes precipitate at the crude/precipitant boundary and retard mixing. Compatibility tests (test tubes, pendant drop) mixed small crude volumes into n-C10, decalin, toluene and S220. Minnelusa-02 (8.6% n-C7 asphaltenes) formed rigid, non-mixing interfaces in n-C10, and about 0.02 mL of crude in 3 mL S220 gave roughly 10% denser phase until ultrasonic agitation. In Berea cores (74–78 md) flooded with S220 after Minnelusa crude, 7.9–8.6% of the original oil in place was retained, versus 0.1% for the low-asphaltene Gullfaks crude. The compatibility test correlates mainly with asphaltene content and would miss damage from small amounts of unstable asphaltenes.
+
+## Wettability Control by Adsorption from Crude Oil – Aspects of Temperature and Increased Water Saturation
+
+- ID: SCA2005-07, year: 2005
+- Authors: Norman R. Morrow
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, mixed wettability, wettability alteration, temperature effect, residual oil saturation aging, Berea sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-07)
+
+Spontaneous imbibition in crude-oil-aged and mineral-oil-probed Berea sandstones shows wettability shifts toward water wetness with elevated temperature and aging at residual oil saturation.
+
+The study examines how temperature and increased water saturation alter wettability in Berea sandstone cores prepared as MXW (aged in Minnelusa crude at Swi ~24%, 75°C, 10 days) and MXW-F (crude replaced by decalin then mineral oil). Spontaneous imbibition was measured at 22°C and 75°C, including sequential cycles with re-aging at Swi or at Sor (imbibition or forced) in brine. Imbibition at 75°C was about five times faster in scaled time than at 22°C for MXW cores, and eight pressurized cores at 200 psi confirmed that gas evolution did not cause the effect. Re-aging in crude oil at Swi gave no change or reduced water wetness, whereas aging at Sor in brine (e.g., 25 days at 75°C, Sw rising from 43.2% to 68.3%) shifted cores toward water wetness. MXW-F cores also became more water wet at 75°C but remained less water wet than MXW cores, and later imbibition curves repeatedly crossed the initial ones.
+
+## A Systematic Investigation of Wetting Stability in Aged Chalk
+
+- ID: SCA2014-037, year: 2014
+- Authors: M. Steinsbø, A. Graue, M.A. Fernø
+- Method: laboratory experiment
+- Keywords: Amott-Harvey index, wettability stability, dynamic aging, spontaneous imbibition, Rørdal chalk, initial water saturation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-037.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-037)
+
+Rørdal chalk plugs aged dynamically in crude oil showed stable Amott-Harvey water indices (average change 0.04) over two spontaneous and forced imbibition cycles, across aging times and initial water saturations.
+
+Reliable EOR wettability studies need stable, uniform wetting states in aged cores. Twelve outcrop Rørdal chalk plugs were aged dynamically with North Sea crude at 80°C for 2 or 6 days at low (~0.23), medium (~0.29) or high (~0.35) initial water saturation. Two cycles of drainage, spontaneous and forced imbibition were run with n-Decane and brine. Amott-Harvey Iw ranged from 0.39 to 0.80, decreasing with longer aging and lower initial Sw, and changed by only 0.04 on average (0.00-0.10) between cycles. End-point Swsp rose with higher initial Sw and shorter aging (e.g. 0.46 to 0.56 for 6-day aging) but was repeatable within ±0.02 between cycles. Stevns and Niobrara chalk gave less consistent wettability results.
+
+## Predicting the Interfacial Tension of Brine/Gas (or Condensates) Systems
+
+- ID: SCA1992-08EURO, year: 1992
+- Authors: Michel J. Argaud
+- Method: data analysis or correlation
+- Keywords: interfacial tension, brine surface tension, salinity correction, parachor, Firoozabadi-Ramey correlation, gas/brine IFT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-08EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-08EURO)
+
+Reviews literature data to predict brine surface tension and gas/brine interfacial tension, improves the Firoozabadi-Ramey correlation with a parachor/molar mass correction, and tests it on a gas/brine case.
+
+Capillary pressure conversion from ambient to reservoir conditions requires estimates of brine surface tension and gas or condensate/brine interfacial tension (IFT). The paper compiles literature data and derives salt-specific coefficients for the increase in brine surface tension (e.g. 1.63 mN/m per molal for NaCl, about 3 for MgCl2 and CaCl2). Alkane/brine IFT increments are 0.84 to 0.95 of the surface-tension values, and may scale with Kelvin temperature. The Firoozabadi & Ramey correlation is re-examined against pure hydrocarbon, gas and C1-C10 mixture data. It is improved with a parachor/molar mass correction, which gives separate gas (δρ>0.7 g/cm3) and liquid hydrocarbon (δρ<0.5) domains, but it still fails for gas-liquid mixtures. In a real methane-rich gas/brine case at 120-130°C and 353-453 bar, predicted IFTs agreed with measured values of 42-45 mN/m within about ±0.5 to 2 mN/m, though the temperature trend was wrong.
+
+## Technique for Observing Oil-Wetting of Carbonate Surfaces Using FT-IR
+
+- ID: SCA1995-12, year: 1995
+- Authors: J. J. Funk, P. L. Dahlstrom, W. C. Haltmar, J. M. Perdue
+- Method: measurement technique or apparatus
+- Keywords: FT-IR ATR spectroscopy, carbonate wettability, sputter-coated calcite, crude oil adsorption, asphaltenes, XPS
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-12)
+
+ATR FT-IR on ZnSe crystals sputter-coated with calcite tracks crude oil component adsorption over time, showing polar O, S and N species adsorb and equilibrate near 130 hours.
+
+Bulk wettability measurements give little information on molecular-level oil-carbonate interactions. The authors sputter-coated zinc selenide ATR crystals with an 8.5 nm calcium carbonate layer (verified by XPS and IR) and contacted them with a 27° API Middle East stock tank oil, its cyclohexane maltenes, and weak acid and aromatic fractions. Subtracting the initial spectrum from later spectra over 96 to 672 hours revealed adsorption at about 1100-1150, 1610 and 3350-3400 cm-1, with loss of C-H bands at 2850-2930 cm-1, indicating adsorption of polar oxygen, sulfur and possibly nitrogen compounds while less polar hydrocarbons are displaced. Asphaltenes (0.42 wt%) significantly altered the adsorption and hydrogen bonding behavior, and aromatics adsorbed similarly to whole crude. Adsorption leveled off at roughly 130 hours, and residual absorbance after cleaning suggested strongly bonded material.
+
+## Wetting Alteration of Silicate Surfaces by Brine and Crude Oil
+
+- ID: SCA1995-32, year: 1995
+- Authors: C. Bousseau, Y. Liu, J.S. Buckley
+- Method: laboratory experiment
+- Keywords: wetting alteration, brine pH, Amott index, spontaneous imbibition, Aerolith, adhesion test
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-32)
+
+Brine pH (4 vs 8) controls crude-oil wetting alteration on glass, Aerolith and Berea; wetting trends match across scales, but recovery depends on pore structure.
+
+The study links wetting alteration of flat glass surfaces to that in cores, using pH 4 and pH 8 0.1 M NaCl brines with Alaska A-93 asphaltic crude. Adhesion and adsorption tests on glass at 80°C showed an adhesion-to-nonadhesion transition between pH 4 and 6. Aerolith-10 synthetic silica cores aged in crude oil showed weakly water-wet behavior at both pH values, with Amott water indices of 0.49 (pH 4) and 0.97 (pH 8), in line with the flat-surface predictions. In high-rate waterfloods of Aerolith, final recovery was 87% OOIP at pH 8 versus 74% at pH 4. Berea sandstone showed the opposite trend (about 74% OOIP at pH 4 versus 48% at pH 8), attributed to greater capillary trapping, mixed wetting and possible rock-brine interactions.
+
+## Asphaltene Molecules Association Effect on Crude Oil Flow Through Porous Medium
+
+- ID: SCA1996-32, year: 1996
+- Authors: Galtsev V.E, Ametov I.M, Kuznetsov A.M, Kovalev A.G, Salnikov D.I
+- Method: laboratory experiment
+- Keywords: asphaltene adsorption, filamentary structures, electron paramagnetic resonance, crude oil permeability, resin-asphaltene fraction, flow direction dependence
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-32)
+
+Adsorption of resin-asphaltene fractions forms filamentary asphaltene structures in pores, explaining reduced oil permeability and its dependence on flow direction, rate and rate-change history.
+
+Crude oil permeability in porous media differs strongly from gas permeability and depends on flow direction and rate. Kara-Chukhur crude oil was flowed through ground quartz sand columns and a Bentheimer sandstone plug (0.29 µm² gas permeability), and resin-asphaltene fraction (RAF) in effluent was measured by EPR. RAF adsorption (1.6-2.6e-7 g/cm² on sand) coincided with permeability dropping to a lower constant value; the layer thickness implied (160-270 Å) rules out monolayer or polyassociate layers, supporting filamentary structures with diameter of 23-39 Å and length near 1.3 µm. Pressure drop was lower for reverse flow than forward flow, indicating residual filament tilt. Pressure stabilized in ~120 s after a rate increase but 3000-6000 s after a decrease, attributed to diffusion-controlled filament growth; fitted P~Q^n gave n of 0.47-0.63 versus the predicted 0.5.
+
+## Crude Oil/Brine Contact Angles on Quartz Glass
+
+- ID: SCA1997-12, year: 1997
+- Authors: X. Xie, N.R. Morrow
+- Method: laboratory experiment
+- Keywords: Wilhelmy plate contact angle, wettability alteration, asphaltene adsorption, brine salinity and pH, aging temperature, spontaneous imbibition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-12)
+
+Wilhelmy plate contact angles on crude-oil-aged quartz glass vary with pH, aging time and temperature, oil composition and brine; porous media prove more water-wet than angles suggest.
+
+The study quantifies wetting alteration of quartz glass by adsorption from crude oils using dynamic Wilhelmy plate contact angles against decane under brine. Variables were brine pH (4-10) and NaCl molarity, aging time (1-500 h), aging temperature (room vs 88°C), oil composition (A'93, A'95, CS crudes and A'93 maltenes), measurement temperature, and synthetic reservoir brines with 10- and 100-fold dilutions. Aging at room temperature left plates water-wet (angles up to about 60°), whereas aging at 88°C in A'93 crude gave advancing angles of 150-170° beyond 96 h. The asphaltic crude altered wettability much more than its maltenes or the low-asphaltene CS oil. Advancing angles were lower at reservoir temperature and rose with brine dilution. Compared with imbibition and waterflood results in Berea and Aerolith cores, trends agreed qualitatively, but porous media appeared more water-wet than flat-quartz angles indicated.
+
+## Making Successful Permeability Measurements with Asphaltic Crude Oils
+
+- ID: SCA2002-10, year: 2002
+- Authors: Kory Holmes, Gary Potter, Dan Scott, Wade Williams, Tom Fate
+- Method: laboratory experiment
+- Keywords: asphaltene flocculation, live crude oil, oil permeability, wettability restoration, sacrificial core, relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-10)
+
+Three lab approaches (sacrificial core filtration, live crude oil, mineral oil replacement) avoid asphaltene plugging and give stable oil permeability in sandstone and carbonate cores.
+
+Flocculated asphaltenes in dead crude oil plug core samples and alter wettability, making oil permeability and relative permeability measurements unstable. The authors describe three approaches: an inline sacrificial core upstream of the test plug, use of live recombined crude oil, and wettability restoration with dead crude above flocculation pressure followed by displacement with refined mineral oil. Without the sacrificial core, oil permeability fell from 160 to 55 mD (about 67% loss within four pore volumes); with it, the test sample's pressure stayed stable while the sacrificial plug clogged. Live oil gave stable permeability in carbonate (250–280°F) and Gulf of Mexico sandstone (163°F) cases, and in one case recovered some lost permeability. Aging dead crude 1700 psi above flocculation pressure, then displacing with mineral oil, regained part of the permeability and preserved oil-wet relative permeability character.
+
+## Crude Oil Composition and the Stability of Mixed Wettability in Sandstones
+
+- ID: SCA2002-31, year: 2002
+- Authors: Zhengxin Tong, Xina Xie, Norman R. Morrow Chemical
+- Method: laboratory experiment
+- Keywords: mixed wettability, spontaneous imbibition, asphaltic crude oil, paraffinic crude oil, Berea sandstone, viscosity scaling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-31)
+
+Spontaneous imbibition in Berea cores aged with asphaltic Minnelusa oil gave stable, reproducible mixed wetting, while paraffinic Gullfaks oil gave poorly reproducible, only partly stable wetting.
+
+The study compares how an asphaltic (Minnelusa) and a paraffinic (Gullfaks) crude oil alter wettability of Berea sandstone, relating results to earlier contact angle work on smooth quartz. Cores at Swi of about 25% were aged 10 days at 75°C, flushed with decalin, and saturated with mineral oils of 3.8 to 172.6 cp to create MXW-F wettability. Up to four sequential spontaneous imbibition tests were run, scaled with the geometric mean of oil and water viscosity. Minnelusa cores gave reproducible, stable imbibition behavior consistent with the previous A95 results, and re-aging slightly decreased imbibition rates. Gullfaks cores were more water-wet but duplicates split into slow (3 cores) and fast (9 cores) groups, so wetting was not reproducible, though some cores were stable between the 2nd and 3rd imbibition. Contact angles on smooth quartz agreed only qualitatively and did not predict imbibition rates.
+
+## Effect of Crude Oil Composition on Wettability of Mica
+
+- ID: SCA2003-01, year: 2003
+- Authors: Lei Yang, Jianxin Wang, Tianguang Fan, Jill S. Buckley
+- Method: data analysis or correlation
+- Keywords: wettability alteration, mica contact angle, crude oil asphaltenes, acid and base number, multivariate regression, water film stability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-01)
+
+Mica wetting alteration by over 100 crude oils is related to oil properties; single-property correlations are weak, but multivariate regression and neural networks do better.
+
+The study asks which crude oil properties control wetting alteration of mica, using a database of more than 200 crude oils. Mica plates were pre-equilibrated with pH 4 (0.01 M Cl) or pH 8 (1 M Cl) buffer, aged in crude oil for 21 days, rinsed with toluene, and water-advancing contact angles were measured under decane. Oil properties included density, molecular weight, viscosity, SARA fractions, refractive index and onset RI, acid and base numbers, isoelectric point, and trace metals. Asphaltene content correlated with API gravity, RI and molecular weight, but weakly with acid and base number. Single-parameter fits to contact angle all had low R2 (mostly below 0.25), while multiple linear regression identified n-C7 asphaltenes, resins, base/acid ratio and Zn as significant terms. Non-linear neural networks gave better relationships.
+
+## Another Look at Ekofisk Wettability
+
+- ID: SCA2004-01, year: 2004
+- Authors: G. Hamon
+- Method: data analysis or correlation
+- Keywords: wettability, spontaneous imbibition, Ekofisk chalk, height above free water level, pore network modelling, data mining
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-01)
+
+Review of 250 Ekofisk chalk wettability tests shows water-wetness is controlled mainly by height above free water level; pore network modelling then generates depth-dependent relative permeability.
+
+Laboratory wettability results for the Ekofisk chalk showed large scatter and disagreed with waterflood performance. More than 250 spontaneous imbibition tests from ten wells were compiled with 25 parameters each and analysed with rule-finding data mining and regression. Water-wetness is not controlled by porosity, permeability or initial water saturation, but by elevation above the free water level, with strongly water-wet samples near the contact. Much of the remaining scatter comes from too-high laboratory initial water saturations (more than 10 saturation units from reservoir values) and likely oil-base mud contamination, and imbibition increases with test temperature. Matrix water-oil relative permeability curves were then generated with a pore network model anchored on MICP, spontaneous imbibition and water-wet corefloods; predicted Krw max rises and Sorw falls as spontaneous imbibition decreases.
+
+## Crude Oil/Brine Interfacial Tensions
+
+- ID: SCA2005-01, year: 2005
+- Authors: Jill S. Buckley, Tianguang Fan PRRC
+- Method: laboratory experiment
+- Keywords: interfacial tension, pendant drop, crude oil acid number, asphaltenes, brine pH, transient IFT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-01)
+
+Pendant-drop transient IFT of 41 crude oils against brines of varying pH and salinity correlates with asphaltene content, acid and base numbers, and viscosity, and helps flag contaminated oils.
+
+Crude oil/brine IFT data tied to oil chemistry are scarce, so the authors measured transient pendant-drop IFT over 2000 s for 41 characterized crude oils. Aqueous phases were distilled water, 0.1M NaCl and synthetic seawater, with pH 3 to 10. IFT typically fell by 4.7 ± 2.9 mN/m (about 23%) from initial to equilibrium, with a maximum change of 15.6 mN/m at pH 9. A multivariate fit of equilibrium IFT to pH, n-C7 asphaltenes, acid number, base number and viscosity gave R2 = 0.46. At fixed pH in 0.1M NaCl, asphaltenes and base number raise IFT, while acid number lowers it, mainly in acidic conditions. Contaminated oils were identified by large fractional IFT decreases with time and by IFTs far below those predicted by the correlations.
+
+## Relative Permeability and Wettability Implications of Dilute Surfactants at Reservoir Conditions
+
+- ID: SCA2005-09, year: 2005
+- Authors: Ayodeji A. Abe, Amit P. Sharma, Subhash C. Ayirala, Madhav M. Kulkarni, Dandina N. Rao
+- Method: laboratory experiment
+- Keywords: surfactant wettability alteration, relative permeability history matching, mixed wettability, live oil coreflood, Yates dolomite, krw/kro ratio
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-09)
+
+Brine floods with dilute nonionic surfactant in Yates dolomite at reservoir conditions show wettability alteration; live oil gave ~20% OOIP extra recovery versus ~6% with stocktank oil.
+
+The study tests whether dilute surfactant can enhance recovery by wettability alteration rather than IFT reduction. Corefloods were run at 82°F and 700 psi on one Yates fractured dolomite core, with synthetic brine, a nonionic ethoxy alcohol surfactant at 0–5000 ppm, and either stocktank oil (15.4 cp) or live oil (5.6 cp). Relative permeabilities were obtained by history matching pressure drop and recovery with a JBN-based simulator. With stocktank oil, recovery rose only from 67.5% to 73.3% OOIP (optimum 3500 ppm), and krw/kro shifted right, indicating a change from strongly oil-wet (contact angle 155°) to weakly oil-wet. With live oil, recovery rose from 66% to 86% at 1500 ppm and then fell to 71% at 5000 ppm. Rightward krw/kro shifts, rising Swi and low Sor indicate mixed wettability developing from an initially weakly water-wet state (55°).
+
+## Wettability Alteration of Chalk by Sulphate Containing Water, Monitored by Contact Angle Measurement
+
+- ID: SCA2007_01, year: 2007
+- Authors: Liping Yu, Dag C. Standnes, Svein M. Skjæveland
+- Method: laboratory experiment
+- Keywords: contact angle, drop shape analysis, chalk wettability, sulphate seawater, calcite crystal, stearic acid
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_01)
+
+Contact angle (DSA) measurements on chalk slices and calcite crystals show wettability shifts toward water-wet with exposure time and temperature; sulphate effect appears only at 130°C.
+
+The study examines whether sulphate in seawater alters chalk wettability, as suggested by spontaneous imbibition experiments. Contact angles of oil droplets were measured by drop shape analysis on Stevns Klint chalk slices and on calcite crystals aged in crude oil (Oil A) or stearic acid/n-decane (Oil B), after exposure to distilled water, synthetic seawater and 4x sulphate seawater at 20–130°C. Calcite aged in stearic acid gave reproducible initial angles of 124–136°, falling to about 72° at 50°C and 58–63° at 90°C with no difference between brines. At 130°C, angles stabilized near 80° for DW versus 70° for SSW and 68° for SSW-4S, a small but distinct sulphate effect. Crude oil only made calcite neutral-wet, and chalk slice measurements (initial 140° or 80°, dropping to about 38°) were judged hard to interpret because of porosity, roughness and saturation changes.
+
+## New Method to Clean Carbonate Reservoir Cores by Seawater
+
+- ID: SCA2008-15, year: 2008
+- Authors: T. Austad, S. Strand, T. Puntervold, R. Rostami
+- Method: laboratory experiment
+- Keywords: chromatographic wettability test, seawater wettability alteration, limestone core cleaning, spontaneous imbibition, sulfate adsorption, carboxylic material
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-15)
+
+Flooding toluene/methanol-cleaned Middle Eastern limestone cores with seawater at 130 °C increases water-wet area, measured chromatographically, by about 14-32%, showing seawater can act as a cleaning fluid.
+
+Strongly adsorbed carboxylic material is not removed from carbonate cores by toluene and methanol, which hinders reliable primary drainage Pc measurement. Reservoir limestone cores from the Middle East were cleaned with toluene and methanol, then flooded with 3-9 PV of synthetic seawater at 130 °C. Wettability was assessed with the chromatographic SCN-/sulfate test, with Stevns Klint chalk used as a reference. In chalk, seawater at 130 °C raised the water-wet index from 0.61 to about 1.1 and gave about 49% OOIP spontaneous imbibition recovery, while 90 °C gave under 10%. In limestone, the water-wet area rose by 32% (core 46A) and 14% (core C#33A), and C#20A went from nearly oil-wet to clearly water-wet within 3 PV. The small 14% increase raised decane imbibition recovery from 3.3% to about 8%.
+
+## Experimental Investigation of Deposition of Crude Oil Components in Brine-Filled Pores
+
+- ID: SCA2009-23, year: 2009
+- Authors: Andrew Fogden
+- Method: laboratory experiment
+- Keywords: asphaltene deposition, porous silica film, wettability, UV-visible spectroscopy, thin brine film rupture, CaCl2 brine
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-23)
+
+Latex-templated porous silica films aged wet in Minnelusa crude all acquired asphaltene deposits; CaCl2 reduced deposition, NaCl had little effect, showing fine pores can become oil-wet.
+
+The study tests whether fine-scale pores and roughness in reservoir rock stay water-wet during crude oil aging. Water-wet silica films about 5 µm thick with sub-micron pores (templated by HPS 59 and HPS 61 latex, porosity ~92-94%) were equilibrated in NaCl brines (16-512 mM, with or without 10% CaCl2, some degassed), aged in Minnelusa crude at 60°C for 72 h, then cleaned with decalin and heptane. Deposits were quantified by document scanning and UV-visible absorbance at 365 nm, calibrated with asphaltene standards via an augmented Beer-Lambert relation, and imaged by FESEM. All samples showed deposition; NaCl concentration had little effect, while CaCl2 reduced it, for example from 7.1% to 0.75% of pore volume in HPS 59 (about 5.4 to 0.6 nm average layer thickness). FESEM showed fairly uniform nanometric layers lining the framework. A mechanism is proposed whereby convexly curved brine films on struts rupture under very large meniscus pressure (about -5.7 MPa), letting oil invade and render the pores oil-wet.
+
+## Modeling Asphaltene Deposition Related Damages Through Core Flooding Tests
+
+- ID: SCA2010-33, year: 2010
+- Authors: Ali Rezaian, Morteza Haghighat Sefat, Mohammad Alipanah, Amin Kordestany, Mohammad Yousefi Khoshdaregi, Erfan Sarvaramini
+- Method: laboratory experiment
+- Keywords: asphaltene deposition, formation damage, permeability reduction, dynamic core flooding, sandstone, bridging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-33)
+
+Dynamic core floods of asphaltene-bearing gasoil in sandstone show large permeability loss, rising with concentration and injection velocity, with simultaneous deposition and bridge removal.
+
+The paper studies permeability damage from asphaltene deposition in sandstone under dynamic flow. Five sets of two-plug sandstone cores (about 22% porosity, about 40 mD) were flooded with gasoil containing pre-separated asphaltene (n-hexane precipitated) at velocities of 4.5 to 7.5 cm/s and varied concentrations. After flooding, porosity fell to an average of 11% and permeability to an average of 4.44 mD (0.2 to 14 mD). Asphaltene particles were not filtered at the inlet face and deposited with decreasing amounts along the core, while pressure fluctuations indicated bridge removal and simultaneous deposition. Damage increased with higher concentration at constant rate and with higher velocity at constant concentration, and a model was said to be developed to predict floods.
+
+## Study of Wettability Alteration Mechanisms by Surfactants
+
+- ID: SCA2010-38, year: 2010
+- Authors: M. Vafie-Seftia, A.Mousavi Moghadama
+- Method: laboratory experiment
+- Keywords: wettability alteration, surfactants, zeta potential, thermogravimetric analysis, contact angle, calcite stearic acid
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-38)
+
+Calcite made oil-wet with stearic acid was treated with cationic, anionic and nonionic surfactants; zeta potential, TGA and contact angle show cationic surfactants restore water-wetness best.
+
+The mechanisms by which surfactants alter wettability of oil-wet carbonate are not fully understood. Calcite powder and plates were made oil-wet by aging in 0.01 M stearic acid in n-heptane, raising the water contact angle from 0° to 138°. They were then aged in cationic, anionic and nonionic (TX-100) surfactant solutions at different concentrations and analyzed by zeta potential, TGA and contact angle. Cationic surfactants shifted zeta potential from -22 to +22.4 mV, reaching +44.8 mV at about 1 wt%, through electrostatic attraction and ion-pair formation with adsorbed fatty acid. Anionic surfactants worked mainly via weaker hydrophobic tail interactions and performed worst, while the nonionic surfactant displaced fatty acid via its ethoxy groups. TGA showed the least residual fatty acid after cationic treatment and the most after anionic, and contact angle decreased with increasing surfactant concentration.
+
+## Performance of Fluorochemicals on Wettability Alteration of Carbonate Rocks to Alleviate Condensate/Water Banking
+
+- ID: SCA2012-21, year: 2012
+- Authors: DuPont de Nemours
+- Method: laboratory experiment
+- Keywords: wettability alteration, fluorosurfactant, gas-condensate banking, carbonate contact angle, spontaneous imbibition, unsteady-state displacement
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-21)
+
+Two fluorosurfactants (anionic and nonionic) were tested for gas-wetting alteration of limestone; the anionic one raised oil relative permeability 1.7-fold at 130°C, while the nonionic one plugged the core inlet.
+
+Condensate and water banking near gas-condensate wells reduces productivity, and wettability alteration of carbonates by fluorochemicals is poorly studied. Contact angles on Texas Cream limestone substrates were measured for nonionic (C) and anionic (Z) fluorosurfactants across concentration, solvent, brine and temperature (65–190°C), followed by spontaneous imbibition and unsteady-state N2/decane displacement tests on cores at 130°C. Chemical C gave about 100° air/decane and 140° air/water angles in water, but its 243 nm aggregates plugged the core inlet, since 15–30% of pore volume has radius under 250 nm. Chemical Z at 0.5 wt% in water gave 115° air/decane and 139° air/water; alcohol solvents lowered oil repellency, it precipitated at 160–190°C, and it coagulated in 10% NaCl and in CaCl2. Injecting about 10 PV of Z raised decane relative permeability from 0.16 to 0.27 (factor of 1.7) without permeability damage, whereas 1 PV saturation delivered too little chemical.
+
+## Measurements of Remaining Oil Saturation in Mixed-Wet Carbonates
+
+- ID: SCA2013-050, year: 2013
+- Authors: Nayef Al-Ansi, Martin J. Blunt
+- Method: laboratory experiment
+- Keywords: mixed-wet carbonates, remaining oil saturation, spontaneous imbibition, porous plate drainage, capillary trapping, wettability alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-050)
+
+Water-wet and acid-aged mixed-wet Estaillades, Ketton and Portland limestones were waterflooded after porous-plate drainage; remaining oil saturation versus initial saturation is non-monotonic after 20 PV in mixed-wet cores.
+
+The study examines capillary trapping of oil in water-wet and mixed-wet carbonates, extending earlier work on Indiana limestone. Estaillades, Ketton and Portland cores (3.8 cm by 7.5 cm) were drained with n-decane using a porous plate to set different initial oil saturations. Mixed-wet states were created with 1.5 wt% cyclohexanepentanoic acid in n-decane and 30+ days of aging. Spontaneous imbibition was measured in Amott cells, followed by waterflooding up to 20 PV with rates increased from 0.1 to 30 ml/min (up to 0.35 ml/min for low-permeability Portland). Water-wet cores gave significant spontaneous imbibition, whereas mixed-wet cores gave under 5% of initial oil in place, with continued recovery during brine injection. Remaining oil saturation after 20 PV showed a non-monotonic trend with initial saturation for Estaillades and Portland, while Ketton showed no wettability alteration effect, possibly due to its high permeability.
+
+## Asphaltene Deposition in Petroleum Reservoirs: Dynamic Test & Connectionist Modeling
+
+- ID: SCA2013-092, year: 2013
+- Authors: S. Zendehboudi, A. Bahadori, M.A. Ahmadi
+- Method: data analysis or correlation
+- Keywords: asphaltene deposition, artificial neural network, particle swarm optimization, imperialist competitive algorithm, CO2 flooding, bubble point pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-092.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-092)
+
+CO2 core-flood tests and a solid thermodynamic model supply data for ANN models tuned by PSO and ICA, which predict asphaltene deposition and bubble point pressure better than conventional models.
+
+Asphaltene deposition reduces permeability and oil rate, and conventional prediction tools are often inaccurate. The authors ran dynamic CO2 core-flooding tests on a light oil (33 API) in a 10 cm by 30 cm physical model, at pressures up to 9000 psia and 20-100 °C. Deposited asphaltene was determined from the dried-core mass difference, and a solid-model thermodynamic framework gave the equilibrium compositions and phase envelope. ANN-BP, ANN-PSO and ANN-ICA models were trained on the data. In testing, ANN-ICA (R2 0.976, MSE 0.0248) and ANN-PSO (R2 0.969, MSE 0.0296) outperformed conventional ANN (R2 0.925, MSE 0.221) and the Hu et al. model (R2 0.857, MSE 0.98). ANOVA showed pressure drop and temperature dominate deposition, while temperature and GOR control bubble point pressure.
+
+## Investigation of the Effect of Temperature and Pressure on Interfacial Tension and Wettability
+
+- ID: SCA2018-062, year: 2018
+- Authors: Taha M. Okasha
+- Method: laboratory experiment
+- Keywords: interfacial tension, contact angle, pendant drop, live oil, reservoir conditions, carbonate wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-062)
+
+Pendant-drop measurements of IFT and contact angle at up to 90 °C and 3,000 psig show live oil IFT rises with temperature and carbonate wettability shifts toward neutral.
+
+The study addresses the lack of IFT and wettability data at reservoir temperature and pressure. A high-pressure, high-temperature pendant drop tensiometer measured IFT of dead and recombined live oil against synthetic brine up to 90 °C and 3,000 psig. Contact angles were measured on pure calcite plates and natural carbonate rock plates (90-100% calcite). Dead oil/brine IFT decreased with temperature and increased with pressure (at 90 °C, 18.2 to 21.0 dyne/cm), whereas live oil/brine IFT increased with temperature (29.6 to 38.5 dyne/cm from 26.6 to 90 °C), about 83% higher than dead oil. Contact angles on rock rose with temperature (46-47° to 74-76°) and with aging time, needing four to six days to stabilize, indicating neutral to slightly water-wet behavior; calcite stayed at 41-44°.
+
+## Robust and Efficient Evaluation of Oil/Water Contact Angles and Wettability Alteration Using a Modified Washburn Method
+
+- ID: SCA2019-064, year: 2019
+- Authors: Alhasan B. Fuseni, Ziyad Kaidar, Abdulkareem M. AlSofi
+- Method: measurement technique or apparatus
+- Keywords: modified Washburn method, contact angle, wettability alteration, surfactant screening, carbonate powder sorption, nanosurfactant
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-064.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-064)
+
+A modified Washburn powder-sorption method estimates oil/water contact angles on surfactant-treated carbonate, screening wettability alteration; the nanosurfactant altered wettability most.
+
+Screening surfactants for wettability alteration normally relies on direct contact angle measurements, which are difficult when ultra-low IFT makes oil drops spread prematurely. The authors use a modified Washburn capillary-rise sorption method on carbonate powder (80-100 mesh) coated with four surfactants (anionic alpha olefin sulfonate, cationic quaternary ammonium, amphoteric, and a nanosurfactant). Hexane sorption gives the rock constant, then crude oil and brine/surfactant sorption give oil/air and water/air contact angles, from which oil/water contact angles are derived. Benchmarking against direct contact angle measurements showed acceptable agreement for screening purposes. The nanosurfactant produced the largest wettability alteration.
+
+## The role of heterogeneous wettability for hydrocarbon production from imbibition in a mixed multiporous carbonate reservoir rock investigated by magnetic resonance techniques
+
+- ID: SCA2019-071, year: 2019
+- Authors: Jun Gao, Hyung T. Kwak
+- Method: laboratory experiment
+- Keywords: NMR T2 distribution, MRI saturation profiles, wettability alteration, spontaneous imbibition, multiporous carbonate, aging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-071.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-071)
+
+NMR T2 and MRI monitoring of aging and D2O imbibition in multiporous carbonate plugs shows wettability alteration depends on initial water saturation, aging time and pore system.
+
+Wettability correlations from sandstone and mono-pore chalk may not apply to carbonates with multiple pore systems, so pore-scale oil distribution needs direct identification. Three types of clean reservoir plugs (macropore, micropore, and mixed) were selected from 100% water-saturated T2 distributions. Plugs were oil-saturated at different levels by centrifuge, aged at 75°C for varying times, then imbibed in D2O with two ends open while monitored by NMR T2 and MRI saturation profiles, followed by a small water head of 1-2 inches. Lower initial water saturation and longer aging gave greater wettability alteration, with micropores less altered, partly due to lower oil saturation. No clear imbibition water fronts appeared in MRI profiles. Applying the water head produced additional oil in some samples, with the micropore increase attributed to better water contact after local capillary barriers were overcome.
+
+## Optimization of core restoration procedure based on adsorption of polar crude oil components onto sandstone and carbonate rocks
+
+- ID: SCA2023-008, year: 2023
+- Authors: Aleksandr Mamonov, Skule Strand, Tina Puntervold, Panagiotis Aslanidis, Iván Darío Piñerez Torrijos
+- Method: laboratory experiment
+- Keywords: core restoration, wettability reproduction, polar organic components adsorption, spontaneous imbibition, mild core cleaning, desiccation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-008)
+
+Spontaneous imbibition tests on chalk and sandstone show large crude oil exposure reduces water wetness, while mild cleaning, desiccation and (1-Swi)PV oil exposure reproduces wettability between restorations.
+
+Core restoration can alter wettability through adsorption of polar crude oil components, making wettability hard to reproduce. Stevns Klint outcrop chalk (SK27, SK29) and Varg reservoir sandstone (V6, V7) were restored twice, with Swi set by desiccation (10% chalk, 20% sandstone), mild cleaning between restorations, and aging for 2 weeks. Cores exposed to 5 PV (chalk) or 11 PV (sandstone) of crude oil in both restorations showed lower spontaneous imbibition recovery in R2: chalk fell from 41 to 22 %OOIP and sandstone from 30 to 21 %OOIP. Cores exposed to only (1-Swi)PV of oil reproduced imbibition rate and ultimate recovery (chalk 37 %OOIP, sandstone 25 %OOIP in R1). The proposed procedure of mild cleaning, desiccation and limited oil exposure preserves wettability across restorations.
+
+## Positive Capillary Forces: The Key for Optimized Oil Recovery in Low-Permeable Cores
+
+- ID: SCA2023-024, year: 2023
+- Authors: Md Ashraful Islam Khan, Skule Strand, Tina Puntervold, Aleksandr Mamonov
+- Method: laboratory experiment
+- Keywords: Smart Water, spontaneous imbibition, capillary forces, Stevns Klint chalk, Amott water index, viscous flooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-024.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-024)
+
+Spontaneous imbibition and low-rate viscous flooding on restored Stevns Klint chalk show that small increases in positive capillary forces, e.g. with seawater as Smart Water, markedly raise oil recovery.
+
+The paper examines how capillary forces control oil recovery in low-permeability heterogeneous chalk, which reservoir simulators often underweight. Stevns Klint outcrop chalk cores (~4 mD, ~48% porosity) were restored with 10% Swi and aged in an oil with AN 0.58 mg KOH/g, then tested by spontaneous imbibition and viscous flooding (1 PV/day) with formation water (FW) and seawater (SW) at 90–130 °C. Heptane-saturated, strongly water-wet core recovered 75% OOIP by imbibition, while aged cores gave only 22–25% OOIP with FW (Amott water index ~0.31). SW raised imbibition recovery to 37% at 90 °C, 50% at 110 °C and 58% at 130 °C, and the water index to 0.49. In viscous flooding, SW gave 64% vs 53% OOIP for FW at 90 °C, and 74% vs 68% at 130 °C, with similar pressure drops. Scaled pressure drops imply viscous flow cannot drive matrix displacement at reservoir scale, so matrix oil depends on capillary forces.
+
+## EOR Brine Optimization Using Pore-Lining vs Bulk Mineralogy: Integrating Automated Mineralogy and Wettability Alteration Modeling
+
+- ID: SCA2026-045, year: 2026
+- Authors: Vahideh Mirchi, Patrick Brady, Jenny Omma, Samantha Bell, Matt Flannery, William Dorsey
+- Method: numerical simulation
+- Keywords: automated mineralogy, pore-lining minerals, surface complexation modeling, bond product sum, low salinity waterflooding, wettability alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-045)
+
+Pore-lining mineralogy from QEMSCAN feeds a surface complexation (BPS) model; it predicts more oil-wet behavior and different salinity sensitivity than bulk-mineralogy inputs.
+
+Brine design for low-salinity and engineered waterflooding is typically based on bulk mineralogy (XRD), which misrepresents the mineral surfaces exposed to oil. The authors used SEM-EDS automated mineralogy (QEMSCAN WellSite, 1 or 4 micron steps) on two sandstones to separate pore-lining from bulk mineral fractions. These were scaled by assumed surface areas (quartz 0.1, calcite 0.1, kaolinite 10, illite 50 m²/g) and fed into a Bond Product Sum surface complexation model at 90°C, TAN/TBN of 1/3 and PCO2 of 0.032 atm. For Rock A, bulk inputs (70–80% quartz) predicted strongly water-wet behavior with little salinity sensitivity, whereas pore-lining illite gave substantially more oil-wet behavior, with higher salinity reducing adhesion. For Rock B, about 55% of the pore lining was microcrystalline quartz, and BPS rose with assumed surface area (1, 10, 100 m²/g) relative to the bulk case. The work is modeling only; core-flood validation, roughness characterization and BET comparison are left to future work.

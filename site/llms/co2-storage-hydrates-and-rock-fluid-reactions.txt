@@ -1,0 +1,1356 @@
+# CO2 storage, hydrates and rock-fluid reactions
+
+> 104 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: co2 storage, brine, gas, hydrate, permeability, dissolution, injection, salt, relative, precipitation.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## An Integrated Approach to Assess the Petrophysical Properties of Rocks Altered by Rock/Fluid Interactions (CO2 Injection)
+
+- ID: SCA2005-03, year: 2005
+- Authors: S. Bekri, O. Vizika
+- Method: laboratory experiment
+- Keywords: CO2 storage, rock/fluid interaction, carbonate dissolution, pore network model, mercury porosimetry, permeability-porosity evolution
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-03)
+
+Homogeneous acid alteration of two carbonates shows permeability gains of 30-70% for ~2 porosity units; pore network modeling identifies the dissolution scenario matching the data.
+
+Far-field CO2-induced dissolution is mimicked by placing static acid (pH 1) quasi-instantaneously in the pore space of thin carbonate slices at Swi, repeating treatments and measuring permeability between each. Two carbonates were tested: a homogeneous low-permeability limestone (1.76 to 2.35 md, porosity 22.9 to 24.5%) and a bimodal carbonate (468 to 762 md, 27.7 to 29.5%), giving 30% and 70% permeability gains. Mercury porosimetry before and after showed changes mainly in the larger pore radii, and the small pores were unaffected, probably because of irreducible water. A 3D pore network model calibrated on Rock 1 (mercury Pc and gas/water relative permeability) was used to test five dissolution scenarios. The scenario with reaction-limited dissolution in which pore bodies grow twice as fast as throats (S4) best reproduced the permeability-porosity trend and the pore size distribution change.
+
+## Displacement and Mass Transfer of CO2/Brine in Sandstone
+
+- ID: SCA2011-05, year: 2011
+- Authors: H. Ott, S. Berg, S. Oedai
+- Method: laboratory experiment
+- Keywords: CO2/brine drainage, CT saturation monitoring, history matching relative permeability, viscous fingering stability, CO2 dissolution mass transfer, Berea sandstone
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-05)
+
+Unsteady-state CT-monitored CO2/brine floods in Berea sandstone give drainage kr and Pc by history matching, show stable displacement with channeling, and quantify CO2 dissolution effects.
+
+The study addresses CO2/brine displacement and mass transfer relevant to geological storage. Unsteady-state core floods on a 380 mD Berea core at 45°C and 100 bar were monitored by medical CT, and kr and Pc were obtained by history matching, benchmarked against a decane/brine experiment on the same core. CO2/brine gave Corey exponents of about 2.5 (brine) and 3 (CO2), differing from decane/brine (4.5 and 2.8), suggesting more intermediate-wet behavior, and brine kr was higher than published steady-state data. Buckley-Leverett stability analysis (shock-front mobility ratio about 1.06) and simulations showed the displacement is not viscous fingering; the observed channeling stems from minor heterogeneity, best matched with a high-K, low-Pc layer. Unsaturated-fluid floods showed small water evaporation near the inlet and CO2 dissolution of about 0.09 PV in brine, and brine imbibition at residual CO2 showed dissolution-dominated CO2 loss (0.19 PV vs 0.31 PV expected).
+
+## Experimental Investigation of Cooling Effects Resulting from Injecting High Pressure Liquid or Supercritical CO2 into a Low Pressure Gas Reservoir
+
+- ID: SCA2008-40, year: 2008
+- Authors: Daniel R. Maloney, Marcos Briceno
+- Method: laboratory experiment
+- Keywords: Joule-Thomson cooling, CO2 injection, depleted gas reservoir, hydrate formation, CO2 phase change, slim tube
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-40)
+
+Flooding a 50 ft sand-packed tube with 3,500 psig CO2 showed Joule-Thomson cooling is masked by heat transfer at 198 °F, but liquid-to-vapor transition at room temperature caused ice/hydrate blockage.
+
+Injecting high-pressure CO2 into depleted gas reservoirs may cause Joule-Thomson cooling and hydrate or ice formation that impairs injectivity. The authors flooded an insulated 50 ft slim tube packed with 156 mD sand (80% methane, 20% brine, 200-500 psig) with 3,500 psig room-temperature CO2, measuring pressure and temperature at nine stations. In the 198 °F oven tests, heat transfer masked Joule-Thomson cooling and temperatures dropped by less than 10 °F; methane compression at the front even raised temperature. In cool-down tests, temperatures down to 30 °F occurred where CO2 changed from liquid to vapor, without flow impairment. In room-temperature tests, blockage formed within minutes near the liquid-to-vapor transition (about 122 cm from the outlet), cutting mass flow by 98%, and persisted until heated; later problems may arise as the near-well region cools.
+
+## SCA2010-20
+
+- ID: SCA2010-20, year: 2010
+- Method: laboratory experiment
+- Keywords: salt precipitation, CO2 sequestration, formation dry-out, micro-CT, supercritical H2S, capillary backflow
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-20)
+
+Core floods show dry CO2 injection into brine-saturated sandstone causes local salt precipitation that cuts absolute permeability but not CO2 effective permeability, while SC H2S in dry limestone produces water.
+
+The paper examines two consequences of formation dry-out from injecting dry or under-saturated acid-forming fluids such as CO2 and H2S. Dry supercritical CO2 was injected into brine-saturated Berea sandstone (500 mD, 22% porosity) at 45°C and 100 bar, with micro-CT monitoring of saturation and precipitated salt. Mean solid-salt saturation was 4.6% and locally up to 20%, indicating capillary-driven brine backflow. Absolute permeability fell by a factor of 4, yet effective CO2 permeability rose by a factor of 5, and salt formed near CO2 flow paths, leaving them open. Tough2 simulations reproduced local precipitation through backflow but cannot capture the experimental saturation gradient because evaporation kinetics are not included. In the second experiment, SC H2S injected into dry Euville limestone (110°C, 110 bar) produced CO2 and about 1 ml of liquid water through a dissolution reaction, with dark sulfide-like alteration of clays. This shows that a dry zone is not necessarily chemically inert.
+
+## Co-Injected CO2-Brine Interactions with Indiana Limestone
+
+- ID: SCA2003-19, year: 2003
+- Authors: Reid B. Grigg, Robert K. Svec
+- Method: laboratory experiment
+- Keywords: CO2-brine coinjection, carbonate dissolution, carbonate precipitation, Indiana limestone, back-scattered electron imaging, tracer metals
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-19)
+
+Co-injecting CO2 and tracer-doped brine through Indiana limestone at reservoir conditions caused dissolution and a solution channel, while Mn- and Sr-rich carbonate deposits formed near the channel tip.
+
+Injectivity changes in CO2 WAG and sequestration projects may reflect carbonate dissolution and precipitation. A two-segment composite Indiana limestone core (56.5 cm, 17.35% porosity) was flooded at 100°F and 2000 psig outlet pressure with 1:1 CO2 and brine for about 155 PV. The brine carried Mn, Mg and Sr chlorides as tracers to give new deposits a compositional contrast with the rock. Porosity and permeability first decreased, then rose; a solution channel formed in segment A and permeability reached 1978 md. Chemical analysis and BSEI showed Mn up to 500 times baseline and Sr about twice baseline, peaking at 15 cm near the channel tip. Deposits were Mn-rich (about 66% Mn-carbonate) and showed zoned euhedral growth, indicating that dissolution and deposition occur in close proximity.
+
+## A Special Core Analysis Approach to Create Gas Hydrates in Sediment Samples
+
+- ID: SCA2005-29, year: 2005
+- Authors: Sverre Hetland
+- Method: measurement technique or apparatus
+- Keywords: gas hydrate formation, porous plate method, Bentheim sandstone, resistivity monitoring, gas consumption, hydrate saturation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-29)
+
+Develops a porous-plate, semi-dynamic recirculation method to form methane hydrates in Bentheim sandstone, reaching up to 45% pore volume, quantified from pressure and gas consumption.
+
+Realistic hydrate-bearing sediment samples are scarce, so the authors adapted special core analysis equipment to form methane hydrate in water-saturated Bentheim sandstone plugs. Static tests and dynamic gas injection gave only minor hydrate because a hydrate film at the gas-water interface halts further formation. A semi-dynamic method with a water-wet semipermeable porous plate at the outlet, with continuous gas injection at gradually rising differential pressure, caused repeated hydrate film formation and collapse and produced significant hydrate. Tests ran at 60-65 bar and 1-2°C in a closed recirculation rig, with system pressure, differential pressure and resistivity logged. Hydrate amount was calculated from gas consumption via the ideal gas law and sI hydrate stoichiometry (7.68 CH4 per 46 H2O, density 0.914 g/ml). Hydrate saturations up to 45% of pore volume were achieved, and hydrate appears to be homogeneously distributed, located at the gas-water interface.
+
+## Experimental Investigation of Residual CO2 Saturation Distribution in Carbonate Rock
+
+- ID: SCA2008-53, year: 2008
+- Authors: Hiroshi Okabe, Yoshihiro Tsuchiya
+- Method: laboratory experiment
+- Keywords: residual CO2 saturation, capillary trapping, X-ray CT saturation monitoring, carbonate heterogeneity, CO2-saturated brine, CO2 storage
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-53)
+
+X-ray CT-monitored CO2-brine coreflood on a heterogeneous Middle Eastern carbonate shows CO2 flows through high-porosity zones and is trapped in lower-porosity zones, with 0.23 average residual saturation.
+
+The study examines capillary trapping of CO2 in carbonate rock for saline aquifer storage. A 38 mm by 75 mm Middle Eastern carbonate plug (14.0% porosity, 6.7 md) was flooded with CO2 and brine at 40°C, 2,000 psig overburden and 1,420 psig pore pressure, with in-situ saturation monitored by X-ray CT using 15 wt% NaI-doped brine. CO2 was injected at 0.5, 1 and 4.5 cc/min, then CO2-saturated brine was injected to displace mobile CO2 without dissolution effects. CO2 preferentially flowed through higher-porosity regions, and the residual CO2 saturation correlated with the porosity distribution, with trapping in lower-porosity areas. The average trapped CO2 saturation was 0.23, excluding dissolved CO2, and average water saturation after CO2 flooding was about 0.6.
+
+## CO2 Reactive Transport in Limestone: Flow Regimes, Fluid Flow and Mechanical Rock Properties
+
+- ID: SCA2013-029, year: 2013
+- Authors: H. Ott, C. H. Pentland, K. Eide-Engdahl, A. J. van der Linden, O. Gharbi, A. Makurat
+- Method: laboratory experiment
+- Keywords: CO2 sequestration, wormholing, calcite dissolution, reactive transport, CT imaging, Young's modulus
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-029)
+
+CT-monitored core floods in Estaillades and Euville limestone show CO2-brine wormholing alters single- and two-phase flow, while only homogeneous dissolution markedly weakens elastic stiffness and strength.
+
+Calcite dissolution during CO2 storage in carbonates may change flow fields and rock integrity. The authors ran CT-monitored single-phase tracer and CO2-brine drainage floods at 100 bar and 50 °C on Estaillades and Euville limestone, before and after reactive wormhole formation. The wormhole structure was highly ramified (fractal dimension ~1.89) with roughly constant total cross-section, and wormhole competition agreed with earlier simulations. Fluid leak-off increased with ramification, and CO2 leak-off was lower than brine leak-off. Single- and two-phase injection at the same Pe gave similar wormhole patterns. Triaxial tests showed wormholing barely changed Young's modulus, whereas homogeneous dissolution by retarded acid reduced stiffness linearly with porosity increase and lowered the friction angle.
+
+## Permeability Measurements on Hydrate-Bearing Sandstone Cores with Excess Water
+
+- ID: SCA2016-082, year: 2016
+- Authors: Stian Almenningen, Håkon Juliussen, Geir Ersland
+- Method: laboratory experiment
+- Keywords: methane hydrate, effective gas permeability, Bentheim sandstone, hydrate saturation, pore-filling hydrate growth, excess water
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-082.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-082)
+
+Effective methane gas permeability was measured in hydrate-bearing Bentheim sandstone with excess water; permeability dropped from mD to μD below gas saturation 0.34-0.38, indicating pore-filling hydrate growth.
+
+Permeability of hydrate-filled sediments controls gas production and CO2 injection, but data at intermediate-to-high hydrate saturations are scarce. Bentheim sandstone cores (porosity 0.22, 1.3-1.9 D) were brine-saturated to different levels, pressurized with methane at 8.3 MPa, and cooled to 4°C to form hydrate. Effective gas permeability was measured by Darcy's law at several low flow rates, with immobile water, giving hydrate saturations of 0.37-0.61. Gas relative permeability showed a transition at final gas saturation 0.34-0.38, from mD above to μD below, with reductions up to five orders of magnitude relative to the water-gas state. Cores with similar hydrate saturations differed widely in permeability, so permeability cannot be correlated to hydrate saturation alone when excess water and gas coexist. Comparison at equal gas saturation before and after hydrate formation points to pore-filling hydrate growth.
+
+## An approach for image-based quantification of fines migration in geologic columns and core samples
+
+- ID: SCA2022-39, year: 2022
+- Authors: Collin R. Sutton, Christopher Zahasky
+- Method: laboratory experiment
+- Keywords: fines migration, kaolinite, micro-PET imaging, DLVO theory, colloid filtration theory, ionic strength
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-39)
+
+Micro-PET imaging of 64Cu-labeled kaolinite in Ottawa sand packs shows fines immobilized within ~2 cm and not remobilized by low salinity, unlike UV-Vis column results and models.
+
+The study examines kaolinite fines migration in Ottawa sand packs under changing ionic strength, using UV-Vis effluent analysis, a 1D advection-dispersion-reaction model with colloid filtration theory and DLVO calculations, and micro-PET imaging of 64Cu-radiolabeled kaolinite. In UV-Vis column tests, kaolinite effluent was larger with DI water (0.73 mM, 0.5% of injected) than with 100 mM NaCl (0.12 mM, 0.08%), and switching from 100 mM to 1 mM NaCl remobilized kaolinite. The analytical model matched the order of magnitude and peak heights but missed tailing, early arrival and the remobilization peak. Micro-PET showed the radiolabeled kaolinite penetrated only about 2 cm and was not remobilized by low salinity injection. The authors attribute this to divalent Cu2+ sorption altering kaolinite surface charge, indicating fines migration depends on available cations, not only ionic strength.
+
+## Diffusion measurements with hydrogen and methane through reservoir rock samples
+
+- ID: SCA2023-032, year: 2023
+- Authors: Julia Michelsen, Nils Langanke, Birger Hagemann, Sebastian Hogeweg, Leonhard Ganzer
+- Method: measurement technique or apparatus
+- Keywords: hydrogen diffusion, underground hydrogen storage, effective diffusion coefficient, methane, water saturation, gas chromatography
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-032)
+
+A novel pseudo-stationary one-chamber method measures hydrogen-methane effective diffusion in reservoir sandstones at storage conditions, finding trends with pressure and temperature that deviate from conventional correlations.
+
+Underground hydrogen storage in depleted gas fields requires knowledge of H2-CH4 mixing, including molecular diffusion at reservoir conditions. A pseudo-stationary one-chamber diffusion cell was built: the sample and a large chamber are filled with hydrogen, methane is injected on the opposite side, and outflow composition is analysed by gas chromatograph. Effective diffusion coefficients were obtained by manually matching a 1D COMSOL model; 36 measurements on mostly sandstone samples covered 10–287.5 bar and 25–107 °C. Coefficients ranged from 5.0·10^-9 to 3.71·10^-7 m2/s and increased with porosity. For Bentheimer sandstone, D decreased with pressure up to about 75 bar and then increased, and decreased with temperature, both contrary to Fuller/Millington-Quirk correlations. Water saturation of 40% and 60% reduced D from 1.1·10^-7 to 4.0·10^-8 and 5.0·10^-9 m2/s. Three repeats gave a standard deviation of 5.6·10^-9 m2/s, and a Berea measurement was within the same order of magnitude as a literature value.
+
+## Defining absolute permeability for CO2 injection projects: scope for increased economic storage capacity
+
+- ID: SCA_2025_1037, year: 2025
+- Authors: Jos G. Maas, Dario Santonico, Albert Hebing, Niels Springer
+- Method: laboratory experiment
+- Keywords: absolute permeability, Klinkenberg gas permeability, brine permeability, CO2 drainage relative permeability, Obernkirchener sandstone, CCS injectivity
+- Cited by 1 papers in the corpus, cites 14
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1037.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1037)
+
+Brine permeability in clean OBKN sandstone is statistically ~30% below gas permeability; the authors recommend normalising CO2-brine relative permeabilities to Klinkenberg gas permeability, which simulations show gives identical results.
+
+Brine permeability is usually used to normalise CO2 drainage relative permeabilities, but gas permeability is often higher, giving kr above unity that commercial simulators reject. Four ceramic (corundum) plugs and four OBKN sandstone plugs were tested with Klinkenberg gas, light and viscous oil, and high- and low-salinity brine, with XCT homogeneity checks, QC re-measurements and t-test statistics. OBKN brine permeability (~7.7 mD) was 27–35% below gas permeability (~11.3 mD) regardless of salinity or aging, while oil and ceramic plug permeabilities matched gas permeability. Brine-oil differences were significant even at the 0.1% level, which the authors attribute to ionic/electrical double-layer effects. SCORES simulations of drainage with kro normalised to 100 mD (endpoint 1.63) or 166.7 mD gas permeability gave identical production, pressure and saturation profiles, so renormalising to gas permeability is recommended; Leverett-J capillary scaling needs an IFT adjustment. This could raise projected injectivity and improve CCS screening economics.
+
+## Pressure, Temperature and Ionic Strength Effects on the Wettability of CO2-Brine-Sandstone System: Core-Scale Contact Angle Measurements
+
+- ID: SCA2013-003, year: 2013
+- Authors: Ali Al-Menhali, Samuel Krevor
+- Method: laboratory experiment
+- Keywords: CO2-brine contact angle, semi-dynamic capillary pressure, X-ray CT saturation, mercury injection capillary pressure, Berea sandstone, CO2 storage wettability
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-003)
+
+Semi-dynamic CO2-brine capillary pressure measurements with X-ray CT on Berea sandstone, compared with MICP, give an effective core-scale contact angle of about 50° at 60 °C and 14 MPa.
+
+Wettability of CO2-brine-rock systems affects CO2 storage and EOR, yet reported contact angles vary widely. The authors apply the Pini et al. technique: semi-dynamic drainage capillary pressure measured at the inlet face of a Berea core (73 mD, 8 in long, 1.5 in diameter) with X-ray CT saturations, compared with MICP on an adjacent subsample. The contact angle is a fitting parameter when scaling MICP curves by IFT. The first experiment used 1 mol/kg NaCl, 60 °C and 14 MPa (IFT 34.5 mN/m), with CO2 flow rates of 0.1 to 50 ml/min and Pc above 200 kPa. The best-fit effective contact angle was 50° with a ±10° sensitivity range. Further measurements across pressure, temperature and salinity are planned.
+
+## Gas Relative Permeability Reduction Due to Waterblocking – a Laboratory Based Analysis
+
+- ID: SCA2000-38, year: 2000
+- Authors: Catherine Laroche, Jairam Kamath, Frank Nakagawa, Yanis Yortsos
+- Method: laboratory experiment
+- Keywords: waterblocking, gas relative permeability, evaporation regime, humid methane injection, gas condensate, methanol
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-38)
+
+Humid methane floods of a liquid-saturated sandstone show displacement then long evaporation regimes; a model yields gas relative permeability, with evaporation driven by pressure gradient.
+
+Waterblocking from aqueous completion fluids was suspected of reducing gas deliverability in a North Sea gas condensate field. Constant pressure-drop (10 psi) humid methane floods were run on a preserved 3-plug sandstone composite (16% porosity, 14 md, 16 cm) containing brine, methanol, isopropanol, toluene or brine-methanol mixtures, fully saturated or with trapped gas, for over 10,000 PV. Gas rate rose in a displacement regime (100-200 PV at most) reaching only 20-30% of dry-core rate, leaving 65-70% residual liquid, followed by a slow evaporation regime needing over 10,000 PV. A mass-balance model showed evaporation is driven by the pressure gradient even with humid gas. NMR profiles and scaling analysis ruled out capillary end effects and viscous fingering, suggesting pore-level bypassing, and with trapped gas, evaporation of liquid rings reconnects trapped gas and raises Krg.
+
+## Pore-scale Analysis of CO2-brine Displacement in Berea Sandstone and Its Implications to CO2 Injectivity
+
+- ID: SCA2022-37, year: 2022
+- Authors: Guangyuan Sun, Zhuang Sun, Andrew Fager, Bernd Crouse, Dassault Systèmes, San Francisco
+- Method: numerical simulation
+- Keywords: lattice Boltzmann, CO2-brine relative permeability, wettability, viscosity ratio, CO2 injectivity, micro-CT Berea sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-37)
+
+Lattice Boltzmann simulations on Berea micro-CT show viscosity ratio and wettability strongly affect CO2-brine drainage relative permeability, interfacial tension little; water-wet favors injectivity without fracturing.
+
+The study examines how interfacial tension (30-45 mN/m), viscosity ratio (0.05-0.17) and wettability affect CO2-brine drainage relative permeability for CO2 storage. A Berea sandstone micro-CT image (2.02 µm/voxel, porosity 15.7%, permeability 235 mD) was used with a Shan-Chen lattice Boltzmann steady-state method at capillary number ~1e-5. Interfacial tension had a weak effect, while viscosity ratio and wettability had clear effects. Water-wet conditions gave lower residual brine saturation (16.4% vs 28.6%) and higher CO2 effective permeability (141.1 vs 90.4 mD) than mixed-wet. A near-wellbore Abaqus geomechanics model showed water-wet gives higher injectivity at low rates without fracturing, whereas mixed-wet gives higher injectivity once fractures are induced.
+
+## A Fast Method for Homogeneous Dissolution of Chalk Specimens for Laboratory Experiments – Documentation by X-Ray CT-Scanning and Scanning Electron Microscopy
+
+- ID: SCA2016-072, year: 2016
+- Authors: Claus Kjøller, Lykourgos Sigalas, Helle F. Christensen, Mona Minde
+- Method: laboratory experiment
+- Keywords: chalk dissolution, retarded acid, AcidgenTM FG, X-ray CT histogram, FEG-SEM, Stevns chalk
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-072.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-072)
+
+Heat-activated AcidgenTM FG dissolves Stevns outcrop and reservoir chalk plugs homogeneously, verified by CT and SEM, whereas acetic acid dissolves them inhomogeneously from the outside.
+
+Laboratory studies of chalk dissolution effects on rock mechanics are hampered by inhomogeneous dissolution. The authors treated Stevns outcrop chalk plugs (30 most homogeneous of 98) and 28 reservoir chalk plugs with retarded acid AcidgenTM FG (2, 5, 15% v/v) or acetic acid, using vacuum saturation, 48 h heating at 50°C, flushing, drying and repeated cycles. Average CT-number correlated linearly with helium porosity, and CT histograms shifted to lower values while keeping their shape and standard deviation, indicating homogeneous porosity increase of up to at least 3.5% absolute. Porosity increase was near-linear with the number of treatments and proportional to concentration; 15% caused failure along healed fractures, so 5% was set as the upper limit. FEG-SEM of 850 images showed more dismantled coccolith rings and more <1 µm grains after treatment. Acetic acid produced little porosity change but reduced plug dimensions, indicating dissolution from the outside.
+
+## Integrated thermo-poro-mechanical characterization for CO2 Sequestration at deep aquifer conditions
+
+- ID: SCA2022-03, year: 2022
+- Authors: Sudarshan Govindarajan, Munir Aldin, Akshay Thombare, Omar Abdulbaki, Deepak Gokaraju, Abhijit Mitra, Robert Patterson
+- Method: laboratory experiment
+- Keywords: supercritical CO2 brine displacement, Biot-Gassmann-Brie fluid substitution, resistivity index saturation exponent, porous plate, poroelastic Biot coefficient, ultrasonic velocity
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-03)
+
+A laboratory workflow combining triaxial, poroelastic and supercritical CO2 flood tests with resistivity and acoustics on Buff Berea; Biot-Gassmann-Brie fits velocities, and a modified Reuss model is proposed.
+
+The study develops an integrated lab workflow for CO2 sequestration characterization at deep aquifer conditions. Buff Berea sandstone plugs (porosity ~24.5%) underwent triaxial tests and poroelastic coefficient measurements at 35 and 65°C and 2000 psi effective stress. Supercritical CO2 was then injected into brine-saturated plugs using a porous plate with differential-pressure-driven flow while monitoring resistivity and ultrasonic Vp. At ambient temperature resistivity rose 362.7%, the saturation exponent was 2, residual brine saturation was ~48%, and Vp fell 6.44% (10991 to 10325 ft/s). Biot-Gassmann-Brie (exponent 1.25) matched velocities with 0.49–0.82% error, while a proposed modified Reuss model (m=0.3) gave a maximum error of 1.48%. Post-flood UCS dropped 24% and cohesion 18% relative to virgin samples; the 65°C test suffered breakthrough from excessive rate, and a carbonate test at 120°C gave n=1.75 and Sw≈0.4.
+
+## Relative Permeability Measurements in Carbonate Rock
+
+- ID: SCA2000-01, year: 2000
+- Authors: E. M. Withjack
+- Method: laboratory experiment
+- Keywords: relative permeability, core damage, carbonate reservoir, steady state x-ray CT, unsteady state JBN, non-scaling brine
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-01)
+
+Relative permeability tests on Southwest Andrews carbonate cores showed core damage in unflushed samples; mild miscible flushing and non-scaling brine avoided it in unsteady and steady state tests.
+
+Relative permeability testing of Wolfcamp and Canyon carbonate plugs from three Southwest Andrews Field wells was hampered by low conductivity and heterogeneity; only about 10% of 184 plugs were successfully tested. Unsteady state tests with crude or refined oil and steady state x-ray CT tests with doped oil were compared, along with synthetic versus non-scaling brine and preflushing. Unflushed cores tested with synthetic brine showed water relative permeability curves flattening with increasing water saturation, indicating damage, while steady state tests gave curves more consistent with field performance. A plug subjected to mild toluene/methanol flushing, aging and non-scaling brine gave undamaged-looking curves in both unsteady and steady state tests. Coreflood history matches (JBN versus simulation) needed about 30% reduction in absolute permeability and supported the measured curves; average oil recovery was about 43% PV, inversely related to initial water saturation.
+
+## A Reappraisal of the Evidence for Damage Caused by Oven Drying of Hydrocarbon Zone Core
+
+- ID: SCA2001-05, year: 2001
+- Authors: P. Mitchell, Integrated Core, A. M. Brown, K.J. Sincock
+- Method: laboratory experiment
+- Keywords: oven drying damage, clay morphology, Klinkenberg permeability, height above free water level, drainage capillary pressure, effective oil permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-05)
+
+Oil-zone core shows Klinkenberg and oil permeabilities agree, so brine resaturation, not oven drying, alters clay; damage susceptibility rises toward the free water level.
+
+Brine versus gas permeability differences have been taken as evidence of oven-drying damage to clays, but this study questions that inference for hydrocarbon-zone core. For 21 preserved West of Shetland oil-zone samples, effective oil permeability (never dried) closely matched dried Klinkenberg permeability, while brine permeability was consistently lower. For 11 Central North Sea Triassic gas-reservoir samples with illite and chlorite, drainage capillary pressure and Klinkenberg permeability were compared before and after oven drying. Samples more than about 76 m above free water level showed Klinkenberg ratios near unity and unchanged saturation at 64 psi. Samples nearer the free water level showed large ratios (e.g. 2.3 vs 0.091 mD at 10 m) and higher post-drying hydrocarbon saturation, indicating partial irreversible damage. The authors propose that susceptibility depends on capillary-force history, i.e. height above FWL.
+
+## Monitoring the Formation and Dissociation of Gas Hydrate in Reservoir Rock Using Magnetic Resonance Imaging
+
+- ID: SCA2003-55, year: 2003
+- Authors: A. Graue, E. Aspenes, B. Kvamme, B A. Baldwin, J. Stevens, D. P. Tobola, D. R. Zornes
+- Method: laboratory experiment
+- Keywords: gas hydrate, magnetic resonance imaging, CO2 hydrate, hydrate formation, sandstone core, CO2 sequestration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-55)
+
+MRI was used to image CO2 and methane hydrate formation in a water-saturated sandstone plug, showing nucleation-driven growth from the gas inlet and permeability loss before pores filled.
+
+Gas hydrate in porous rock matters for energy resources, CO2 storage, and injection hazards, but forming and imaging it in cores is difficult. The authors built an MRI-compatible cooling system using Fluorinert as confining and cooling fluid, with a composite core holder. A brine-saturated sandstone plug at about 80 bar was partly displaced by liquid CO2 (0.5 PV), then cooled to 2 °C (and also 8 °C) to form hydrate, with MRI tuned to image only liquid precursors. Intensity profiles and 2D slice images over 24 hours showed hydrate growth mainly near the CO2 inlet, as a uniform band, consistent with nucleation followed by crystal growth and limited by CO2 supply. Permeability fell to zero when less than half the sample was hydrate-filled, implying localized pore filling; methane gave similar results.
+
+## Measurements of Petrophysical Properties of Coal for CO2 Sequestration
+
+- ID: SCA2006-10, year: 2006
+- Authors: C. A. Grattoni, M. Ahsan, S. Durucan, X. D. Jing
+- Method: laboratory experiment
+- Keywords: coal matrix swelling, CO2 sequestration, NMR T2 relaxation, coal permeability, enhanced coalbed methane, net stress
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-10)
+
+Measures NMR pore structure, gas-induced matrix swelling and simultaneous permeability-strain of European coals, showing CO2 adsorption swelling sharply reduces cleat permeability.
+
+The study addresses how CO2 injection affects petrophysical properties of coals for storage and enhanced coalbed methane recovery. European coals from high volatile bituminous to anthracite were characterised by NMR T2 on water-saturated plugs, which showed bimodal or multimodal pore structures and porosity agreeing with gravimetric values. Unconfined strain measurements with helium, methane and CO2 showed linear shrinkage for helium and Langmuir-like swelling for adsorbing gases, with CO2 swelling 2-4 times that of methane and correlating with rank. Simultaneous permeability-strain tests showed helium permeability fell by a factor of 7 as net stress rose from 1 to 5.5 MPa, fitted by Seidle and Sigal models. For CO2, permeability fell by a factor of 22 when pore pressure rose from 0.15 to 3.5 MPa due to matrix swelling closing cleats.
+
+## An Experimental Investigation of the Rock Properties Evolution Associated to Different Levels of CO2 Injection Like Alteration Processes
+
+- ID: SCA2006-34, year: 2006
+- Authors: P. Egermann, E. Bemer, B. Zinszner
+- Method: laboratory experiment
+- Keywords: CO2 storage, carbonate dissolution, retarded acid, permeability evolution, geomechanical properties, ultrasonic velocity
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-34)
+
+Retarded-acid injection homogeneously dissolves long carbonate cores, showing limited permeability gain, mechanical weakening beyond porosity trends, and rock-dependent acoustic velocity responses to CO2-like alteration.
+
+CO2 storage can chemically alter reservoir rock, changing flow, mechanical and acoustic properties. The authors developed a retarded-acid procedure, activated at 60-70°C, to dissolve 40 x 80 mm carbonate cores homogeneously without wormholing; CT profiles confirmed uniform alteration, unlike quasi-instantaneous acid placement, which failed on long cores. On a pelletoidal packstone and a bioclastic grainstone, porosity rose up to about 4 units (about 0.4 per treatment), but permeability increased only 3-15% (e.g. 2.92 to 3.03 mD and 146 to 171 mD), attributed to fines mobilization. NMR T2 shifted to shorter times, and uniaxial tests showed stiffness and strength decreasing faster with porosity than for intact limestones, with shear modulus most affected. P-wave velocity decreased as expected for the packstone but much more steeply for the grainstone, possibly due to selective dissolution of intergranular porosity.
+
+## Reactive Transport: Experiments and Pore-Network Modelling
+
+- ID: SCA2007_10, year: 2007
+- Authors: L. Algive, S. Bekri, M. Robin, O. Vizika
+- Method: numerical simulation
+- Keywords: calcite deposition, pore network model, reactive transport, Peclet-Damköhler number, glass micromodel, CO2 storage
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_10)
+
+Glass micromodel calcite deposition experiments and a pore-network reactive transport model show deposition patterns and permeability-porosity trends are governed by both microscopic PeDa and macroscopic beta numbers.
+
+Calcite deposition during CO2 storage can change porosity and permeability, but prediction needs regime-dependent relationships. Calcite was deposited in an etched glass micromodel (18.5 x 3.5 cm, mean throat 0.1 mm) at saturation ratio 75 and PeDa of about 100, with Pe of about 2000 and 10. High Pe gave deposition along flow paths, preferentially in throats, while low Pe gave compact deposition near the inlet. A pore-network model solves the macroscopic convection-diffusion equation with semi-analytical apparent reactivity coefficients for capillaries and spheres. Simulations on a 10x10 2D network showed that the ratio beta = PeDa*/(Pe*+1) and the local PeDa control the deposit location and the K-porosity relation. For beta > 1 deposition is in big pores and porosity falls faster than permeability. For beta < 1 deposition is uniform or in throats, so permeability falls faster than porosity.
+
+## Measurements of Hydrate Formation in Sandstone
+
+- ID: SCA2007_36, year: 2007
+- Authors: J.C. Stevens, B.A. Baldwin, A. Graue, G. Ersland, J. Husebø, J.J. Howard
+- Method: laboratory experiment
+- Keywords: gas hydrate formation, MRI imaging, Bentheim sandstone, methane hydrate, brine salinity, permeability reduction
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_36)
+
+Methane hydrate was formed in Bentheim sandstone and monitored by MRI, gas volume and permeability; formation was faster at lower water saturation and salinity, with permeability staying above 1 mD.
+
+Laboratory hydrate formation in sandstone is needed to evaluate gas production from natural hydrate deposits. Methane hydrate was formed in Bentheim sandstone (23% porosity, 1100 mD) at 3-4 °C and 8.3 MPa pore pressure, in whole cores and in split cores with a 4 mm spacer, using an MRI-compatible holder with temperature control to 0.1 °C. Formation was tracked by loss of MRI signal from free water and gas, methane pump volumes, and nitrogen permeability. Formation was uniform along the core; at 0.50 initial saturation and low salinity all water converted in about 40 hours, while a 0.08 final water saturation was seen in another test. Hydrate formed faster at lower initial water saturation and in 0.1 wt% versus 3.0 wt% NaCl brine, and 5 wt% brine converted less than half the water. Permeability dropped to 1-25 mD, never below 1 mD, and did not recover after hydrate dissociation by depressurization.
+
+## Evaluation of Water Evaporation and Salt Precipitation Due to Flow in Gas Reservoirs
+
+- ID: SCA2009-14, year: 2009
+- Authors: Carlos Grattoni, Phil Guise, Graham Phillips, Quentin Fisher, Rob Knipe
+- Method: laboratory experiment
+- Keywords: water vaporisation, halite precipitation, CT saturation profiles, dry gas injection, Rotliegend sandstone, formation damage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-14)
+
+Dry methane flooding of Rotliegend sandstone with 20% NaCl brine, monitored by CT, shows constant then falling vaporisation rates, incomplete drying and uneven halite precipitation.
+
+Water vaporisation by dry gas flow can concentrate brine and precipitate halite, damaging injectivity and productivity in gas reservoirs. Dry methane was flowed at 2940 psi and 45 °C through a Rotliegend sandstone plug (porosity 14.1%, 50.7 mD) holding 20% NaCl brine, with in-situ gas saturation tracked by X-ray CT and produced water captured in a desiccator. Water production showed an initial constant-rate regime followed by a decline to negligible after about 7 moles of gas. The evaporation front reached the core end at about 34 hours, and gas was not in local equilibrium behind it. Final brine saturation was about 8-9%, and material balance indicated salt filling about 0.5% of pore space; SEM showed halite concentrated in fine-grained, clay-rich laminae. Across experiments the final brine saturation was 3-10%, contrary to models predicting complete drying.
+
+## Experimental Study on Halite Precipitation During CO2 Sequestration
+
+- ID: SCA2009-25, year: 2009
+- Authors: Y. Wanga, E. Mackieb, J. Rohan, T. Lucea, R. Knabea, M. Appel
+- Method: laboratory experiment
+- Keywords: halite precipitation, supercritical CO2 core flood, CO2 sequestration, gas relative permeability, ESEM EDS, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-25)
+
+Supercritical CO2 flooding of a brine-saturated Berea core precipitated halite, roughly halving gas relative permeability at remaining water saturation, confirmed by ESEM and EDS imaging.
+
+Halite precipitation during SC CO2 injection into saline formations can impair near-wellbore injectivity. A 28.1 cm by 3.76 cm Berea core (18% porosity) saturated with 25% NaCl brine was flooded with dry SC CO2 at 50 C and 82 bar, at 9.5 cc/min, for about 331 PV until brine production stopped. Remaining water saturation was about 41% by mass balance (36-43% from production). Gas permeability at Swf was 31 mD against 118 mD for the dry core and 79 mD brine permeability, giving krg of 0.394, roughly half that of an unexposed Berea. ESEM/EDS showed halite crystals and salt-coated grains along the core, including pore-throat blockage and hopper crystals indicating rapid precipitation.
+
+## Diffusive and Convective Drying on a Shaly Sandstone Using NMR Measurements
+
+- ID: SCA2009-34, year: 2009
+- Authors: Y. Peysson, M. Fleury, F. Norrant
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, drying rate, CO2 storage, salt precipitation, shaly sandstone, convective drying
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-34)
+
+NMR monitoring of diffusive and convective drying of a Vosges sandstone shows no drying front, a temperature-driven rate matching a T^4 law, much faster convective drying, and complex salt effects.
+
+Dry CO2 injection in near-wellbore regions can dry out brine-saturated shaly sandstone and precipitate salt. A single Vosges sandstone plug (125 mD, 21.8% porosity, about 30% clay-bound water) was dried in diffusive and convective (air flow) modes while low-field NMR (23.7 MHz) tracked T2 distributions and 1D saturation profiles. Diffusive drying time fell from 300 h at 30°C to 20 h at 58°C, and relative drying rate followed a (T/T0)^4 law from Raoult's law and gas kinetics. No drying front appeared; large inter-granular pores dried first, then clay-bound water, leaving a residual Sw of about 0.04 attributed to clay interlayer water. Convective drying took only hours, with rates about 10 times larger and roughly, but not strictly, linear in air flow rate. With 250 and 300 g/l NaCl, drying was faster at high saturation (likely efflorescence) and dropped sharply near Sw=0.45.
+
+## Petrophysical Measurements for CO2 Storage: Application to the Ketzin Site
+
+- ID: SCA2010-06, year: 2010
+- Authors: M. Fleury, S. Gautier, N. Gland, P. Boulin B. Norden, C. Schmidt-Hattenberger
+- Method: laboratory experiment
+- Keywords: CO2 storage, clay bound water NMR cut-off, centrifuge drainage capillary pressure, water relative permeability, resistivity index FRIM, caprock permeability and diffusivity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-06)
+
+An integrated log and core workflow characterizes Ketzin reservoir and caprock for CO2 storage, giving clay-bound-water cut-off, Pc, krw, resistivity index, caprock permeability and diffusivity.
+
+The paper presents a petrophysical workflow for CO2 storage appraisal applied to the Ketzin site (Stuttgart Formation sandstone and caprock). NMR and resistivity logs guided sample selection and gave an 8 ms T2 cut-off for clay-bound water (lab range 5-9 ms). Air-brine centrifuge drainage gave Pc and krw: Swirr was about 30% in the upper zone and 24% in the lower zone, with Corey exponents of about 6-8 and krw dropping sharply below Sw≈45%. FRIM resistivity index on the upper zone showed non-Archie behaviour (n≈3.5 above Sw 0.82, then 2.0), with no drainage-imbibition hysteresis, and the lower zone gave n=1.7. For the caprock, a push-pull steady-state method gave about 29 nD water permeability and a D2O NMR tracer test gave a pore diffusivity of 0.8e-9 m2/s at 30°C versus 2.6e-9 m2/s for bulk water.
+
+## Halite Precipitation and Permeability Assessment During Supercritical CO2 Core Flood
+
+- ID: SCA2010-18, year: 2010
+- Authors: Y. Wanga, T. Luce, C. Ishizawa, M. Shucka, K. Smitha, H. Ott, M. Appel
+- Method: laboratory experiment
+- Keywords: halite precipitation, supercritical CO2, Berea sandstone, MRI saturation profile, pressure side taps, permeability impairment
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-18)
+
+Supercritical CO2 flooding of a brine-saturated Berea core created an inlet dry zone with halite precipitation, halving gas effective permeability, confirmed by pressure taps and MRI.
+
+The study examines halite precipitation and permeability impairment when dry supercritical CO2 is injected into brine-saturated rock. A 29 cm Berea core (17% porosity, 25 wt% NaCl brine) was flooded with about 176 PV of SC CO2 at 50 C and ~1200 psi, with six pressure side taps and post-flood MRI. Remaining water saturation was 42±6%. Klinkenberg gas permeability was ~240 mD dry, and brine permeability was 143 mD. SC CO2 permeability during flood was 58 mD overall and ~15 mD near the inlet, and post-flood CO2 permeability was 89 mD. This was a factor of 1.6–2.6 below the expected value at the same Swf. MRI showed the inlet side was drier, indicating the permeability loss came from salt precipitation lowering absolute permeability, explained by evaporation, condensation and capillary backflow.
+
+## Research on the Elemental Sulphur Deposition Mechanism in High Sulphur Gas Reservoir by NMR
+
+- ID: SCA2010-48, year: 2010
+- Authors: Shang Genhua, Shi Yunqing, Li Guangyue, Lang Dongjiang, Li Hongwei
+- Method: laboratory experiment
+- Keywords: elemental sulphur deposition, NMR T2, sour gas reservoir, formation damage, gas flow rate, sulphur particle size
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-48)
+
+NMR T2 measurements on cores show elemental sulphur deposits mainly in large pores, and most of it is displaced by continued high-rate gas flow, so damage is reversible.
+
+Elemental sulphur precipitates in high-sulphur gas reservoirs as pressure falls, and may block pores and reduce gas well output. The authors used NMR T2 measurements on cores, comparing gas signal before and after sulphur deposition at constant temperature, to locate where sulphur deposits. Sulphur mainly reduced gas content in large pores (above the T2 cutoff), while gas signal in some small pores increased. With continued gas production and higher flow rate, large-pore signals recovered toward the original state, indicating sulphur was displaced. Particle-size analysis of produced sulphur showed the distribution shifted to smaller sizes as cumulative gas production increased from 0 to 5000. The authors conclude that sulphur damage is largely reversible if gas production is maintained.
+
+## Geologic Storage of Carbon Dioxide: An Experimental Study of Permanent Capillary Trapping and Relative Permeability
+
+- ID: SCA2011-04, year: 2011
+- Authors: M. Akbarabadi, M. Piri
+- Method: laboratory experiment
+- Keywords: capillary trapping, CO2/brine relative permeability, supercritical CO2, CT saturation monitoring, residual CO2 saturation, Berea sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-04)
+
+Full-recirculation CT-monitored drainage/imbibition experiments on Berea and Nugget sandstones show about 50-70% of initial CO2 can be capillary-trapped, more at lower initial CO2 saturation.
+
+The study examines capillary trapping and relative permeability of CO2/brine in Berea and Nugget sandstone cores, aiming to cover a wide range of initial brine saturations. Forty-six drainage and imbibition tests were run in a reservoir-condition full-recirculation system with medical CT saturation monitoring, using gaseous CO2 (20 °C, 502 psig) and supercritical CO2 (55 °C, 1595.5 psig) at maximum CO2 rates up to 120 cc/min. Maximum scCO2 saturation in Berea ranged from 0.32 to 0.60, and Nugget reached about 67% versus 52% in Berea at 10 cc/min. For a given initial saturation, trapped gCO2 exceeded trapped scCO2, attributed to brine being less wetting with scCO2, and Nugget trapped more scCO2 than Berea. Residual scCO2 was 20-32%, i.e. 49-78% of CO2 in place, with higher efficiency at lower initial CO2 saturation. Brine relative permeability rose during dissolution of trapped scCO2 without noticeable mobilization.
+
+## Wettability of Common Rock-Forming Minerals in a CO2-Brine System at Reservoir Conditions
+
+- ID: SCA2011-06, year: 2011
+- Authors: John Mills, Masoud Riazi, Mehran Sohrabi, U.K. Edinburgh
+- Method: laboratory experiment
+- Keywords: CO2 wettability, contact angle, captive bubble, supercritical CO2, interfacial tension, mineral surfaces
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-06)
+
+Captive-bubble contact angles of CO2 and N2 on pure minerals and plates in brine at 800-2000 psi and 40°C show water-wet conditions throughout.
+
+CO2 wettability matters for capillary trapping in storage, but Amott-USBM tests cannot readily use supercritical CO2. The authors measured contact angles with static and dynamic captive bubble methods on quartz and mica plates plus raw quartz, biotite, orthoclase, labradorite and calcite. Tests used 35,000 ppm brine, plain and carbonated, with CO2 and N2, at 800-2000 psi and 40°C. All systems were strongly water-wet to water-wet (e.g. quartz plate 27-40°, mica about 35-43°, calcite 25-28°), and brine carbonation changed angles little except for orthoclase (13° more water-wet) and the quartz plate. CO2 and N2 gave comparable angles at high pressure. IFT was 42.5 mN/m for CO2-brine at low pressure and 29.1 mN/m at high pressure, versus 67.1 and 61.2 mN/m for N2. Calcite showed local dissolution with plain brine and widespread etching with carbonated brine.
+
+## The Effect of Salinity and pH on Gelation Time of Polymer Gels Using Central Composite Design Method
+
+- ID: SCA2011-50, year: 2011
+- Authors: Mahsa Baghban Salehi, Mohsen Vafaie Seftiea, Asefe Mousavi Moghadamb, Ahmad Dadvand Koohi, Khosrow Jarrahian
+- Method: laboratory experiment
+- Keywords: gelation time, central composite design, response surface methodology, PAMPS/Cr(III) hydrogel, water shut-off, pH and salinity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-50)
+
+Central composite design is used to model how pH and NaCl concentration affect gelation time of PAMPS/Cr(III) acetate gels at 90°C, finding pH dominates.
+
+Water shut-off gels need predictable gelation times, which depend on reservoir salinity and pH. A sulfonated polyacrylamide (PAMPS)/chromium(III) acetate gelant was tested at 90°C, with gelation time taken as the viscosity-curve inflection point measured on a rheometer. A 13-run central composite design varied NaCl (0–30,000 ppm) and pH (2–9), and a quadratic model was fitted (R² = 0.9245, F = 9.7, P = 0.0047). The model shows pH has a larger effect than salinity, with a significant interaction: at pH 2–4 gelation time rises with NaCl, while above pH 4 it falls. Optimization gave maximum gelation times of about 384 s (pH 2, 29,050 ppm Na) and 378 s (pH 9, 0 ppm).
+
+## CO2-Brine-Rock Interactions in Reservoir Chalk Rock – a Coupled Experimental and Numerical Approach for Obtaining Hydrochemical Results at Reservoir Conditions
+
+- ID: SCA2012-04, year: 2012
+- Authors: Claus Kjøller, John Zuta
+- Method: laboratory experiment
+- Keywords: CO2 WAG, PHREEQC geochemical modelling, chalk dissolution, carbonated water flooding, reservoir-condition water sampling, calcite equilibrium
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-04)
+
+Chalk plugs were flooded with carbonated water or CO2-seawater WAG; PHREEQC calculations from CO2 pressure measured at sampling recover reservoir-condition water chemistry, validated by mass balance.
+
+CO2 degassing during sample depressurisation alters water chemistry measured in reservoir-condition CO2 flooding experiments. The authors built a rig with sample loops and a secondary sample cylinder where CO2 pressure and pH are measured, then used PHREEQC forward modelling assuming calcite equilibrium to back-calculate reservoir-condition chemistry. Four reservoir chalk plugs (porosity 27–33%, permeability about 1–1.5 mD) were tested: carbonated water at 2,500 psig and 75°C, and CO2/seawater WAG at 4,500 psig and 25°C. Calculated and measured CO2 pressures at sampling agreed within about 0.5 bar. Estimated reservoir Ca was 1,850 mg/L (measured 1,200) for Scenario 1 and 4,370 mg/L (measured 2,300) for Scenario 2, with pH 4.8 and 4.6. Predicted calcite weight losses matched measurements well in Scenario 1 (1.29 and 1.23 g vs 1.25 g for the plug without grain loss) and less well in Scenario 2 (3.09 g vs 2.60–2.81 g), though far better than the 1.44 g implied by uncorrected Ca.
+
+## Salt Precipitation Due to SC-Gas Injection: Single Versus Multi-Porosity Rocks
+
+- ID: SCA2012-07, year: 2012
+- Authors: H. Ott, J. Snippe, K. de Kloe, H. Husain, A. Abri
+- Method: laboratory experiment
+- Keywords: salt precipitation, CO2 injection dry-out, multi-porosity dolomite, injectivity impairment, dual-porosity simulation, Verma-Pruess permeability-porosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-07)
+
+Dry SC-CO2 core floods on multi-porosity dolomite show severe salt-induced permeability loss at mobile brine but none at residual brine, unlike Berea sandstone; dual-porosity simulations explain why.
+
+Dry-out from injecting under-saturated supercritical CO2/acid gas can precipitate salt and impair injectivity. Core floods were run on high-permeability Middle Eastern dolomite samples (1-inch plugs, 34-307 mD, porosity 0.13-0.19) at 110 bar and 110°C. Floods started from water, brine, or decane at residual brine saturation (centrifuge-prepared, 28 wt% NaCl), and were compared with earlier Berea results. With mobile brine, permeability fell by one to three orders of magnitude (e.g. ~350-fold, 110-fold), whereas at residual brine saturation only a minor change was seen, so no injectivity risk is expected for the EOR case but a strong risk for saline-aquifer sequestration. Berea instead showed improving effective permeability. A dual-porosity simulation with a Verma-Pruess K(φ) relation reproduces this: micro-porosity feeds brine and salt to the CO2-conducting macro-porosity, where salt precipitates exclusively. The macro-to-total porosity ratio controls the permeability reduction and dry-out delay.
+
+## Mechanical behavior of an altered reservoir limestone: multi-scale and core analysis approaches
+
+- ID: SCA2012-10, year: 2012
+- Authors: Louis Zinsmeister, Jérémie Dautriat, Nicolas Gland, Alexandre Dimanov, Michel Bornert, Jean Raphanel
+- Method: laboratory experiment
+- Keywords: retarded acid treatment, digital image correlation, Lavoux limestone, mechanical weakening, CO2 storage, strain localization
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-10)
+
+Lavoux limestone is homogeneously altered by retarded acid treatment; petrophysics, triaxial tests and DIC show weakening and strain localization beyond what porosity increase explains.
+
+CO2 storage can chemically alter reservoir rock, but conventional CO2-brine injection gives heterogeneous wormholing. Lavoux oolitic limestone (~24% porosity, bimodal pore system) was homogeneously altered by retarded acid treatment (RAT), with porosity rising linearly about 0.2 p.u. per RAT and permeability evolving cyclically, likely due to mobilized fine particles. Thin sections and SEM showed corrosion pits and loss of cement cohesion. After 3 RATs at equal porosity, uniaxial tests showed Young's modulus falling from 23.6 to 11.8 GPa and UCS from 33.8 to 18.3 MPa, so porosity alone does not explain weakening. Optical and SEM digital image correlation showed diffuse, homogeneous deformation with sudden failure in intact samples, but strong strain localization and early microcracking at grain contacts in altered samples.
+
+## CO2-Brine Relative Permeability Characteristics of Low Permeable Sandstones in Svalbard
+
+- ID: SCA2012-42, year: 2012
+- Authors: Raheleh Farokhpoor, Erik Lindeberg, Mai Britt E. Mørk
+- Method: laboratory experiment
+- Keywords: CO2-brine relative permeability, CO2 storage, tight sandstone, core flooding, hysteresis, Svalbard
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-42)
+
+CO2-brine drainage and imbibition core floods on two tight Svalbard sandstones show limited brine displacement and hysteresis, with iron-mineral reactions and induced microfractures altering the rock.
+
+The study supports CO2 storage assessment in a low-permeability (<1 mD) Triassic-Jurassic saline aquifer sandstone below Longyearbyen, Svalbard. Two long cores (32 and 35 cm; porosity 10% and 3.5%) were flooded with CO2 and brine at reservoir conditions (80 bar inlet, 75 bar outlet, ~20 °C, 200 bar overburden). Capillary pressure data set the endpoint saturations, and Sendra history matching produced the relative permeability curves. CO2 displaced only 30-40% of the brine (less than 20% during the initial flood). Sample 1 showed severe hysteresis, brown effluent and post-flood fractures, attributed to CO2-acidified brine reacting with siderite, Fe-chlorite and calcite cement. Sample 2 had much lower brine permeability and high irreducible water saturation, and small residual gas saturations reduced brine permeability significantly.
+
+## The Impact of CO2-Brine Interfacial Tension on the Relative Permeability of the CO2- Brine-Sandstone System at Reservoir Conditions
+
+- ID: SCA2013-033, year: 2013
+- Authors: Catriona Reynolds, Martin Blunt, Sam Krevor
+- Method: laboratory experiment
+- Keywords: CO2-brine interfacial tension, steady-state relative permeability, Bentheimer sandstone, X-ray CT saturation, Buckley-Leverett, CO2 storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-033)
+
+Presents a planned steady-state core flood program and first CO2-brine drainage relative permeability on Bentheimer at 36 mN/m IFT, using Buckley-Leverett theory to design flow steps.
+
+Relative permeability controls CO2 plume migration and trapping, but the effect of CO2-brine IFT (25-55 mN/m) is unknown, since oil-brine systems show IFT dependence only below about 1 mN/m. A program of eight steady-state core floods is planned, with conditions chosen along lines of constant viscosity ratio to isolate IFT effects. The paper also shows how Buckley-Leverett fractional flow theory can be used to select fractional flows and estimate time to steady state, especially at high CO2 saturation. The first drainage experiment used Bentheimer sandstone (k 1.98 D, porosity 0.2) at 100°C and 11.2 MPa with IFT 36 mN/m, and CT-measured saturations. Six steps gave Sw falling from 0.70 to 0.42, with CO2 relative permeability rising from 0.0023 to 0.17 and water relative permeability falling from 0.136 to 0.0045. Saturation profiles were mostly uniform with about a 10% increase toward the outlet, indicating a capillary pressure gradient.
+
+## CO2 capillary entry pressure into flow barrier and caprock
+
+- ID: SCA2013-054, year: 2013
+- Authors: Raheleh Farokhpoor, Idar Akervol, Ole Torsæter, Bård J. A. Bjørkvik
+- Method: laboratory experiment
+- Keywords: CO2 capillary entry pressure, contact angle, muscovite mica, caprock sealing integrity, step-by-step method, wettability alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-054)
+
+CO2 contact angle on muscovite mica rose with pressure and exposure time, while repeated CO2-brine exposure of a tight core lowered capillary entry pressure, mainly via permeability change.
+
+The study asks whether CO2 exposure alters caprock wettability and lowers capillary sealing. Captive-drop contact angles were measured on muscovite mica in 0.8 M NaCl brine at 36 °C up to 400 bar; the angle rose from 16° to 36° as pressure went from 10 to 300 bar, and from 35° to 60.5° over 48 days at 105 bar. Step-by-step capillary entry pressure tests were run on a tight core (0.09 mD gas permeability, 15.2% He porosity) at 20 °C with 75 bar outlet pressure. N2 entry pressure was 6.05 bar, and CO2 entry pressure fell from 5.04 to 4.56 to 4.00 bar over successive exposures. Brine permeability changed (0.0017 to 0.0007 to 0.0012 to 0.0017 mD), probably from fines migration or carbonic acid reactions, and a permeability-scaled IFT correction explained the entry pressures well. The authors conclude the reduction is dominated by permeability and pore structure changes, so a wettability effect cannot be isolated with this method.
+
+## CO2-Brine Displacement in Heterogeneous Carbonates
+
+- ID: SCA2014-019, year: 2014
+- Authors: H. Ott, C.H. Pentland, S. Oedai
+- Method: laboratory experiment
+- Keywords: CO2-brine relative permeability, Estaillades limestone, assisted history matching, unsteady-state coreflood, primary drainage, core-scale heterogeneity
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-019)
+
+Unsteady-state CO2-brine and decane-brine drainage floods on Estaillades limestone are history matched with parameterized relative permeabilities; CO2-brine kr is lower, and heterogeneity and SS/USS differences raise open questions.
+
+CO2-brine primary drainage relative permeability in heterogeneous carbonates is hard to measure because core-scale heterogeneity is not statistically represented in the sample. Unsteady-state CO2-brine and decane-brine floods were run on 3-inch by 15 cm Estaillades limestone cores (porosity ~0.3, ~220 mD) at 100 bar and 50°C, with CT saturation monitoring. Porosity profiles and tracer floods did not predict two-phase displacement performance, so homogeneity can only be judged after the experiment. A 1-D model was history matched using assisted history matching (experimental design, proxy model, MCMC) with Corey, modified Corey and LET parameterizations. Modified Corey best matched CO2-brine (RMSE 1.27) and LET best matched decane-brine (RMSE 1.34). Both wetting and non-wetting kr were lower for CO2-brine than decane-brine, only Sw 0.6-1.0 was accessed, and steady-state data could not reproduce the unsteady-state floods.
+
+## Environmental Impacts of CO2 Leakages from Storage Sites on the Quality of Potable Groundwater of Shallow Aquifers
+
+- ID: SCA2014-045, year: 2014
+- Authors: K. Terzi, C.A. Aggelopoulos, I. Bountas, C.D. Tsakiroglou
+- Method: laboratory experiment
+- Keywords: CO2 leakage, groundwater quality, metal mobilization, two-site sorption model, inverse modeling, fixed-bed column
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-045)
+
+CO2-water co-injection through metal-coated sand columns shows pH drop to ~3.6 mobilizes most metals except Fe; inverse modeling gives equilibrium and kinetic desorption parameters.
+
+CO2 leakage from storage sites into shallow aquifers may mobilize trace metals and degrade potable groundwater. Well-sorted silica sand (125-250 µm) was coated with eight metals (Cr, Mn, Fe, Co, Ni, Cu, Zn, Cd) by pH-controlled precipitation and packed into two 0.4 m columns, one with CO2/water co-injection and one water-only control. Effluent pH fell to about 3.6 and conductivity rose; Mn, Ni, Cu, Zn and Co release increased by orders of magnitude relative to the control, Cr moderately, and Cd dissolved readily in both. Fe stayed bound as goethite. SEM-EDS, XPS and AAS of the sand before and after confirmed these trends. Inverse modeling with a two-site sorption model gave desorption rate ranking Cd > Cu > Ni ~ Cr > Mn ~ Zn and partition coefficients consistent with batch tests.
+
+## Determination of CO2 and H2S Influence on Mineralogical Composition and Petrophysical Parameters of Aquifer and Cap Rocks
+
+- ID: SCA2014-078, year: 2014
+- Authors: Krzysztof Labus, Grzegorz Leśniak, Renata Cicha-Szot
+- Method: laboratory experiment
+- Keywords: CO2 storage, H2S acid gas, autoclave experiments, geochemical modeling, mineral trapping, cap rock
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-078.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-078)
+
+Autoclave experiments and geochemical modeling show CO2/H2S dissolve carbonates and form secondary minerals in aquifer and cap rocks, giving mineral trapping up to 1.9 kgCO2/m3.
+
+The study addresses how acid gases (CO2, H2S) alter mineralogy and porosity of aquifer sandstones and cap rock mudstones and marls from the Upper Silesian Coal Basin and the Jurassic Mikulov Formation. Samples were characterized by thin sections, XRD and mercury intrusion porosimetry, then reacted in autoclaves with brine and gas at 60–180 bar and 40–80°C for 40–75 days, and examined by SEM/EDX. Grain dissolution, strongest in carbonates, occurred in all samples. Dawsonite, iron sulfides, elemental sulfur, and gypsum/celestite formed as secondary phases. At 150 bar and 80°C, dry marl expelled water from clays and pyrite oxidized, while at 80 bar no effect was seen. Kinetic modeling in Geochemist's Workbench showed porosity rising during 100 days of injection and falling by several percentage points over 20,000 years. Mineral trapping capacity was 1.2–1.9 kgCO2/m3 for sandstones and 0.89–1.42 kgCO2/m3 for cap rocks, with solubility trapping above 4.0 kgCO2/m3 in high-porosity aquifers.
+
+## The Impact of Fluid Properties and Flow Conditions on the Measurement of Relative Permeability for CO2-Brine System
+
+- ID: SCA2014-089, year: 2014
+- Authors: Ben Niu, John Crawshaw, Sam Krevor
+- Method: numerical simulation
+- Keywords: CO2-brine relative permeability, steady-state method, JBN method, capillary end effect, gravity segregation, history matching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-089.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-089)
+
+Simulations of steady-state, JBN and history-matching CO2-brine relative permeability measurements show capillary end effect and gravity segregation dominate errors; dimensionless numbers guide experiment design.
+
+Relative permeability measurements for CO2-brine are complicated by high viscosity ratio, low density ratio, capillary end effects and gravity segregation. The authors built 1D and 2D homogeneous black-oil (CMG IMEX) models of a 30 cm by 3.8 cm Berea sandstone core with Brooks-Corey curves, and simulated steady-state and JBN unsteady-state experiments. Apparent curves matched the input curves except at the residual water end point, where capillary end effect dominates; JBN only covers saturations after breakthrough. Varying pressure, temperature (IFT 37-46 mN/m, viscosity ratio 12-20) had little effect, while low injection rates (to 0.4 cc/min) made gravity segregation dominant. Saturation range and relative error were mapped against gravity, capillary and shape numbers for experiment design, and history matching showed gas relative permeability is more sensitive to ±14% pressure and ±10% production errors.
+
+## X-Ray microscopy imaging of reactive transport and drying of salt solutions in fractured porous media from core- to pore- scale
+
+- ID: SCA2014-090, year: 2014
+- Authors: I. Daher, J.P. Crawshaw, G.C. Maitland, E.S. Boek
+- Method: laboratory experiment
+- Keywords: salt precipitation, CO2 sequestration, dry-out experiment, micro-CT imaging, fractured porous media, evaporation rate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-090.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-090)
+
+Dry-out experiments on Bentheimer and Ketton cores with one exposed face, with micro-CT, show capillary-driven brine flow deposits salt only near the evaporating surface.
+
+Salt precipitation during dry CO2 injection into fractured reservoirs can reduce fracture permeability. The authors imitated the fracture-matrix interface by drying 6 mm diameter, 2–4.5 cm long Bentheimer and Ketton cores from one exposed face in an oven with airflow, recording mass loss and imaging salt with micro-CT at 2.5 µm voxels. With water, evaporation was constant down to a saturation of about 0.2, and was 3.5 times faster at 60°C than at 30°C, consistent with the vapour pressure difference. Core length did not change this, with about 80% of drying in the constant-rate regime. With saturated NaCl brine, evaporation slowed as salt grew and mass loss became roughly linear in the square root of time. Micro-CT of Ketton showed salt only at the surface and to about one grain diameter depth, indicating capillary-driven transport to the surface.
+
+## The Impact of Reservoir Conditions on Wetting and Multiphase Flow Properties Measurements for CO2-Brine-Rock System During Primary Drainage
+
+- ID: SCA2015-018, year: 2015
+- Authors: Ali Al-Menhali, Ben Niu, Samuel Krevor
+- Method: laboratory experiment
+- Keywords: semi-dynamic capillary pressure, CO2-brine wettability, Berea sandstone, X-ray CT saturation, interfacial tension scaling, N2-water analogue
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-018)
+
+Semi-dynamic primary drainage Pc on one Berea sandstone at 5-20 MPa shows IFT-scaled CO2-brine curves match N2-water, indicating strongly water-wet behaviour unaffected by pressure.
+
+Contact-angle studies report conflicting CO2-brine wettability trends with pressure, temperature and salinity. The authors measured primary drainage capillary pressure with the semi-dynamic method on a single 20.3 cm Berea core (212 mD, 21% porosity) with in situ X-ray CT saturation monitoring. Experiments used CO2-water at 50 °C and 5, 10 and 20 MPa (IFT falling from 47 to 30 mN/m), plus N2-water at 10 MPa and 25 °C as a strongly water-wet benchmark. After scaling by IFT, the Pc curves collapsed, indicating no change in effective wetting with pressure, and agreed with N2-water. CT saturation-distribution differences between experiments came from noise at low water/CO2 density contrast (uncertainty 0.115-0.379); a NaI-doped brine repeat confirmed unchanged saturations, and coarsening reduced uncertainty to 0.115-0.129.
+
+## The Impact of Reservoir Conditions on Multiphase Flow in the CO2-Brine System in Permeable Sandstone
+
+- ID: SCA2015-019, year: 2015
+- Authors: Samuel Krevor, Catriona Reynolds, Ali Al-Menhali, Ben Niu, Carbon Storage
+- Method: laboratory experiment
+- Keywords: CO2-brine relative permeability, capillary heterogeneity, residual trapping initial-residual curve, semi-dynamic capillary pressure, interfacial tension scaling, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-019)
+
+Over 30 CO2-brine core floods in Berea and Bentheimer sandstone show capillary pressure (IFT-scaled), relative permeability and residual trapping are insensitive to reservoir conditions; heterogeneity explains the scatter.
+
+Literature on CO2-brine wettability and relative permeability is contradictory about the effects of pressure, temperature and salinity. The authors ran over 30 core floods in Berea (210 mD) and Bentheimer (1.8 D) sandstone at 5-21 MPa, 25-90 C and 0-5 M NaCl, using semi-dynamic capillary pressure, steady-state relative permeability with X-ray CT saturation, and an end-effect-based initial-residual trapping test. Capillary pressure curves collapse when scaled by interfacial tension, and intrinsic relative permeability (IFT 37-62 mN/m) matched N2-water data. Initial-residual trapping curves were also indistinguishable from N2-water, indicating a water-wet system. When CO2 viscosity was below 30 μPa s, viscous forces were too weak relative to capillary heterogeneity, giving heterogeneous saturations and condition-dependent effective relative permeability; scaling driving forces against capillary heterogeneity can guide core flood design.
+
+## Study of Petrophysical Properties Alterations of Carbonate Rocks Under Carbonate Water Injection
+
+- ID: SCA2015-044, year: 2015
+- Authors: Eric Yuji Yasuda, Erika Tomie Koroishi, Osvair Vidal Trevisan, Euclides José Bonet
+- Method: laboratory experiment
+- Keywords: carbonated water injection, coquina carbonate, permeability alteration, X-ray CT porosity, wormhole dissolution, multiple pressure taps
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-044)
+
+Carbonated water was injected into a long coquina core at 2,000 psi; CT showed porosity rising from 13% to 17% and permeability jumping from 0.2 to 12 D.
+
+CO2-enriched brine can dissolve carbonate minerals and alter porosity and permeability, which matters for CO2 storage and injection. A long outcrop coquina core (Morro do Chaves, Brazil) was flooded with carbonated water at 22°C and 2,000 psi at 0.5, 1 and 2 cc/min. The coreholder had eight pressure taps to resolve permeability along the core, and X-ray CT (69 slices, 0.5 mm resolution) tracked porosity. Mean porosity rose steadily from 13% to 17% with injected volume. Permeability stayed roughly constant up to about 120 PVI, then rose from 0.2 D to 12 D between 120 and 170 PVI after the rate was raised to 1 cc/min, and plateaued at 12 D. This increase was attributed to a wormhole-like preferential flow path seen on CT. Changes were uneven along the core, with sections K2 and K6 changing most and later declining, probably from fines migration clogging channels.
+
+## Rock Property Changes for Carbonate Reservoir During CO2 Injection
+
+- ID: SCA2015-047, year: 2015
+- Authors: M. Shimokawara, S. Takahashi, F. Kono, A. Kato, K. Tsushima JOGMEC
+- Method: laboratory experiment
+- Keywords: CO2 saturated water flooding, carbonate dissolution, porosity change, elastic wave velocity, compaction, NMR porosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-047.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-047)
+
+CO2-saturated water flooding of Middle East carbonate cores shows early dissolution, compaction-driven porosity loss in a loaded sample, and about 5-10% drops in elastic wave velocities.
+
+CO2 injection into carbonate reservoirs dissolves minerals and changes porosity and seismic velocity, which has not been quantified well. Two 1.5-inch plugs from a Middle East reservoir (porosity 0.271 and 0.221) were flooded with CO2-saturated water (pH 3.9) at 0.1 ml/min for 100 PVI, one with and one without compaction load. Porosity (helium, NMR), elastic velocities, effluent cations and SEM were assessed every 50 PVI. The unloaded core's porosity rose 3.6% in the first 50 PVI and 6.0% from 50 to 100 PVI, while the loaded core's porosity fell 4.3% in the first 50 PVI and then stayed constant, leaving about an 8% difference. P-wave velocity fell about 10% in both cores in the first 50 PVI; S-wave velocity fell 10% in the unloaded core and 5% in the loaded one. Dissolved mass matched the porosity change, indicating dissolution weakens the frame and enables compaction.
+
+## The Impact of Mineral Dissolution on the Characterization of Pore Structure and Multiphase Flow Properties in Carbonates
+
+- ID: SCA2016-039, year: 2016
+- Authors: Ben Niu, Sam Krevor
+- Method: laboratory experiment
+- Keywords: uniform dissolution, retarded acid, residual trapping, mercury injection capillary pressure, Ketton, relative permeability
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-039)
+
+Temperature-retarded acid produced uniform stepwise calcite dissolution in Ketton and Estaillades cores, showing Ketton's relative permeability and gas trapping change with porosity while Estaillades barely changes.
+
+Core-scale tests on Ketton and Estaillades limestone used temperature-retarded acid (Acidgen FG) to dissolve about 0.5% of rock mass per stage uniformly, enabling property measurements on representative-size cores. After stages, the authors measured steady-state relative permeability, residual gas trapping (initial-residual curves), MICP pore throat distributions, and micro-CT and medical CT images. Ketton porosity rose from 0.219 to 0.236 over four stages, while permeability changed non-monotonically (2.84 to 3.61 to 2.79 D), possibly from pore blockage by released particles. Ketton macro-pores (10-100 µm) enlarged while micro-pores (0.01-0.1 µm) stayed about the same, and residual trapping decreased slightly. Estaillades porosity rose from 0.279 to 0.295 with almost no change in trapping or pore size distribution, and Ketton became more favorable to gas flow.
+
+## Water-Soluble Silicate Gelants for Disproportionate Permeability Reduction: Importance of Formation Wetting and Treatment Conditions
+
+- ID: SCA2016-071, year: 2016
+- Authors: Reza Askarinezhad, Dimitrios G. Hatzignatiou
+- Method: laboratory experiment
+- Keywords: disproportionate permeability reduction, sodium silicate gelant, residual resistance factor, wettability, Berea sandstone, water shutoff
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-071.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-071)
+
+Silicate gelants were tested for DPR in water-wet and oil-wet Berea cores; System A worked favorably only in oil-wet cores, especially with low-watercut treatment after high-watercut production.
+
+Water-soluble sodium silicate gelants (System A, high SiO2:Na2O ratio; System B, low ratio) were evaluated as disproportionate permeability reduction agents in 22-25 cm Berea cores, using steady-state two-phase gelant/oil placement and gelation at 60°C for one week. In water-wet cores at 22% watercut, System A gave very high residual resistance factors (RRFw 100, RRFo 460), so no positive DPR effect. System B gels shrank by up to 50% and eroded, giving low RRFs (2.7 water, 3.8 oil) with weak contrast. In chemically altered oil-wet cores, System A gave RRFw 14 and RRFo 6 at 22% watercut, much more favorable than in water-wet cores. Treating at 22% WC after pre-treatment production at 78% WC lowered RRFo further (3.4-4.5), and hysteresis was negligible. The authors attribute the wettability effect to better oil-phase continuity in oil-wet media and a mixed-wet state after gel placement.
+
+## Investigation on the Petrophysical Changes on a Coquina Core Under Carbonate Water Injection Assisted by Computerized Tomography
+
+- ID: SCA2017-043, year: 2017
+- Authors: Eric Yuji Yasuda, Erika Tomie Koroishi, Osvair Vidal Trevisan, Janeth Alina Vidal Vargas
+- Method: laboratory experiment
+- Keywords: carbonate water injection, wormhole, CT porosity, coquina, Damköhler number, calcite dissolution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-043)
+
+CO2-saturated brine was injected into a coquina core at four flow rates; CT and pressure taps showed porosity rising about 1.4-1.75 points, permeability rising roughly twentyfold, and a wormhole near the inlet.
+
+The study examines how injecting CO2-saturated brine changes porosity and permeability in a Brazilian coquina carbonate (Morro do Chaves) core, relevant to CO2 EOR and sequestration. The experiment ran at 2,000 psi and 18°C with flow rates of 0.025, 0.075, 0.1 and 2 cc/min, in a CT-compatible coreholder with multiple pressure taps giving five local permeability sections. Porosity rose from 12.27% to 13.69% by CT (1.75% variation by the authors' figure) and by 1.42% from effluent calcium concentration, with a steeper increase at 2 cc/min. Overall permeability increased about twenty times, with local decreases at low rates (attributed to precipitation) and increases at high rates, reaching up to 4 D near the inlet. Pe (0.3–23) and Da (0.0015–0.034) numbers were estimated, and CT showed a dominant or ramified wormhole near the injection face.
+
+## Experimental Investigation of the Impact of Salt Precipitation on CO2 Injectivity
+
+- ID: SCA2017-044, year: 2017
+- Authors: Yen Adams Sokama-Neuyam, Jann Rune Ursin
+- Method: laboratory experiment
+- Keywords: salt precipitation, CO2 injectivity, brine vaporization, capillary backflow, salt cake, supercritical CO2 core flood
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-044)
+
+Core floods on Berea and Bentheimer sandstones show salt cake forms at the CO2 injection inlet via capillary backflow, and drying impairs injectivity by about 29%.
+
+Salt precipitation from brine vaporization near the wellbore can impair CO2 injectivity in deep saline reservoirs. Supercritical CO2 (80 bar, 45 °C) was injected into 20 cm long, 3.81 cm diameter sandstone cores saturated with NaCl brine (Bentheimer) or synthetic formation water (Berea). Massive salt cake formed at the inlet while the core was still wet, with none at the outlet, which points to capillary backflow of brine. Less salt cake formed at higher injection rate (5 vs 1 ml/min) and at lower salinity (75 vs 120 g/l). After complete dry-out, injectivity impairment measured with liquid CO2 was about 36% at 1 ml/min, falling to about 25% at 5 ml/min and staying roughly unchanged at 10 ml/min, averaging about 29%.
+
+## On the Risk of Permeability Alteration by Salt Precipitation: An Experimental Investigation Using X-Ray Radiography
+
+- ID: SCA2017-054, year: 2017
+- Authors: Souhail Youssef, Yannick Peysson, Olivier Lopez, Jostein Alvestad, Christin Weierholt Strandli, Øivind Fevang
+- Method: laboratory experiment
+- Keywords: salt precipitation, X-ray radiography, gas drying, Bentheimer sandstone, capillary contact, KBr brine
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-054)
+
+X-ray radiography of nitrogen injection into brine-saturated Bentheimer sandstone shows salt precipitation impairs permeability only with capillary brine contact; humid gas with brine inhibits complete dry-out.
+
+Drying by gas injection can precipitate salt and impair near-wellbore permeability in gas production and aquifer storage. Five experiments were run on a small Bentheimer sandstone plug (1 cm by 2 cm, 23% porosity, 1350 mD) with nitrogen, deionized water or 100 g/l KBr brine, dry or humid gas, and with or without capillary contact, imaged by X-ray radiography at 100 mbar inlet pressure. Dry gas dried the sample in about two hours with a front moving inlet to outlet, whereas humid gas took about ten hours and dried from the outlet due to gas expansion. With brine, dry gas without capillary contact precipitated salt but caused no permeability loss, since salt was under 1% of pore volume. Humid gas with brine stabilized at about 50% gas relative permeability because salt lowered vapor pressure and inhibited dry-out. Dry gas with capillary contact produced cycles of precipitation and dilution of a salt strip near the inlet, ending with gas flow stopping after about six hours.
+
+## Water Permeability Measurements on Hydrate-Saturated Sandstone Cores with Immobile Gas
+
+- ID: SCA2017-096, year: 2017
+- Authors: Stian Almenningen, Geir Ersland
+- Method: laboratory experiment
+- Keywords: methane hydrate, water permeability, Bentheim sandstone, hydrate saturation, Masuda permeability model, immobile gas
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-096.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-096)
+
+Brine permeability of methane-hydrate-bearing Bentheim sandstone with immobile gas was measured; values were orders of magnitude below standard models, which matched only with fitted exponents.
+
+Effective water permeability in hydrate-saturated sandstone is needed to calibrate permeability models and reservoir simulators for hydrate production. Nine Bentheim cores (porosity 0.22-0.24, 0.9-1.1 D) were brine-saturated to 0.72-0.95, and hydrate was formed from methane at 8.3 MPa and 4°C, using salinities of 0.1-4.0 wt% NaCl. Constant-rate brine injection and Darcy's law gave permeability, with final hydrate saturations of 0.19-0.60 and gas saturation up to 0.18. Permeability was at most 100-200 µD (relative permeability about 0.0001) and fell to zero below a water saturation of about 0.40. The core starting at Swi 0.95 reached only 0.19 hydrate saturation but near-zero permeability, attributed to hydrate blocking the core ends. Only the Masuda (N = 14) and TOUGH+HYDRATE (n = 7) fitted models matched the data; fixed-parameter pore-filling and pore-coating models did not.
+
+## Monitoring Core Measurements with High-Resolution Temperature Arrays
+
+- ID: SCA2018-014, year: 2018
+- Authors: James J. Howard, Keith C. Hester
+- Method: measurement technique or apparatus
+- Keywords: distributed temperature sensing, optical backscatter reflectance fiber, methane hydrate, CO2-CH4 exchange, MRI, sand pack
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-014)
+
+A fiber-optic OBR temperature array, combined with MRI, tracked non-uniform methane hydrate formation, dissociation and CO2-CH4 exchange in a sand pack with fine time and spatial resolution.
+
+Core experiments usually hold temperature constant, so thermal signals from reactions such as hydrate formation go unmonitored. The authors threaded an OBR fiber (0.1 °C sensitivity, 5 mm stations, 30 s interval) through a PEEK tube in an Ottawa F110 sand pack (~11 cm long, 5.05 cm diameter, ~40% porosity) inside an MRI-compatible holder. Methane hydrate formation at 4 °C produced several-degree temperature rises, increasing from 1.4 to 2.4 °C at the inlet end, and MRI showed non-uniform formation reaching about 72% hydrate saturation and permeability falling from 200–400 mD to 30 mD. N2 injection dissociated about half the hydrate and raised permeability to 55 mD, and subsequent CO2-N2 injection reformed hydrate to about 80% saturation with permeability of 10 mD. A depressurization test showed a large initial temperature drop from gas expansion and a roughly four-hour lag before MRI showed dissociation. The fiber is effectively a 1D measurement with limited radial resolution, but it responds faster than MRI and complements it.
+
+## Monitoring Gas Hydrate Formation with Magnetic Resonance Imaging in a Metallic Core Holder
+
+- ID: SCA2018-025, year: 2018
+- Authors: Mojtaba Shakerian, Armin Afrough, Sarah Vashaee, Florin Marica, Yuechao Zhao, Jiafei Zhao, Yongchen Song, Bruce J. Balcom
+- Method: laboratory experiment
+- Keywords: methane hydrate, SPRITE MRI, T1-T2 correlation, π-EPI, residual water saturation, metallic core holder
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-025.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-025)
+
+Low-field MRI (SPRITE, π-EPI, T1-T2) in a metallic core holder tracked methane hydrate growth in water-saturated sand, quantifying residual water and identifying pore gas.
+
+Methane hydrate formation was monitored in a water-saturated sand pack (44% porosity, 500 ppm SDS) at 1500 psi and 4 °C using a metallic MRI-compatible core holder at 0.2 T. 1D SPRITE profiles, 3D π-EPI, SE-SPI T2 maps and bulk T1-T2 measurements followed fluids over ten days. After a 2 h induction period, hydrate formed first at the gas/sand interface, with water saturation falling from 100% to 32% by 2.75 h and about 70% of pore water converted within 4 h. π-EPI showed inhomogeneous formation, more hydrate near the wall. Bulk T1-T2 resolved bulk gas, bulk water, pore water and a long-T1 pore gas peak (~10 s, falling to 1.4 s at 200 h); residual water saturation reached 2.8% after ten days. Gradient vibration appeared to catalyze nucleation.
+
+## CO2-Brine Injectivity Tests in High CO2 Content Carbonate Field, Sarawak Basin, Offshore East Malaysia
+
+- ID: SCA2018-031, year: 2018
+- Authors: A Giwelli, MZ Kashim, MB Clennell, L Esteban, R Noble, C White, S Vialle Ghasemiziarani, M Myers, A Saeedi, S Salwani Md Shah
+- Method: laboratory experiment
+- Keywords: CO2 injectivity, scCO2 coreflooding, fines migration, carbonate dissolution, NMR T2, X-ray CT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-031)
+
+Cyclic scCO2/live brine coreflooding of three carbonate plugs at reservoir conditions showed no clear formation damage; a calcite-dolomite pre-column prevented dissolution.
+
+CO2 injectivity was assessed for a carbonate gas field with about 70% CO2, where fines mobilization and geochemical reactions could impair injection. Three dolomite-calcite plugs (44% calcite, 54% dolomite) were flooded at 150 °C and 5250 psi pore pressure with scCO2 at 2–14 ml/min over 7 cycles, about 200 PV total. Two samples received live brine pre-equilibrated through a calcite-dolomite packed column; one did not. Pre/post gas porosity changed by -0.4 and -0.9% with the column but rose 7.8% without it, and permeability fell 2.2–5.4% in all samples. Effluent calcium, CT density profiles and NMR T2 agreed that the sample without the column dissolved more, and no critical flow rate was reached within the applied rates. NMR showed a reduction of long T2 near 500 ms and growth of a peak near 40 ms.
+
+## High Field MRI of Hydrate Phase Transitions in Sandstone
+
+- ID: SCA2018-052, year: 2018
+- Authors: S. Almenningen, J. Gauteplass, V.F. Veland, G.L. Aastveit, P. Fotland, G. Ersland
+- Method: laboratory experiment
+- Keywords: gas hydrate, high field MRI, RAREst, CPMG T2 distribution, Bentheimer sandstone, water saturation calibration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-052.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-052)
+
+4.7 T MRI with RAREst and CPMG imaged hydrate formation and dissociation in Bentheimer sandstone, giving 42±3% hydrate saturation and pore-filling growth in the largest pores.
+
+The study develops a high field (4.7 T) MRI and NMR T2 methodology for hydrate-bearing sandstone using a non-magnetic PEEK/titanium core holder with fluorinert confinement. A calibration on eight Bentheimer cores (water saturation 27-68%) showed a linear relation between mean RAREst voxel intensity and saturation, with signal vanishing near 20% water saturation and a strong dependence on reference power. Hydrate was formed in a 10 cm Bentheimer core at 21°C and 10 MPa from 65% brine (0.1 wt% NaCl) and a 78% methane/22% propane gas mixture. Final hydrate saturation was 42±3%, distributed heterogeneously, which suggests growth at discrete sites limited by mass transport. CPMG T2* distributions fell most at the longest times, indicating pore-filling growth in the largest pores. Depressurization expelled water from the core, so the final signal was lower than the initial signal after dissociation.
+
+## Permeability alteration by salt precipitation: numerical and experimental investigation using X-Ray Radiography
+
+- ID: SCA2019-004, year: 2019
+- Authors: Olivier Lopez, Souhail Youssef, Audrey Estublier, Jostein Alvestad, Christin Weierholt Strandli
+- Method: laboratory experiment
+- Keywords: salt precipitation, dry gas injection, X-ray radiography, capillary contact, Bentheimer sandstone, reactive transport simulation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-004.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-004)
+
+Dry nitrogen injection into KBr-brine-saturated Bentheimer sandstone, imaged by X-ray radiography and simulated, shows salt precipitation impairs permeability only when capillary contact with brine is maintained.
+
+Gas production and storage wells risk salt plugging when dry gas evaporates brine near the wellbore. Dry nitrogen was injected into a Bentheimer sandstone plug (10 mm x 20 mm) and a Bentheimer/Molière composite saturated with deionized water or 100 g/l KBr brine, with X-ray radiography tracking saturation and salt. Without capillary contact, salt precipitated near the outlet but gas permeability was unchanged, since the initial salt amount was only about 0.01 PV. With outlet capillary contact, gas rate cycled through decline and rise with growing amplitude and fell to zero after about six hours as a salt strip migrated toward the inlet. With lateral contact in the composite, a diagonal salt barrier plugged the Bentheimer half. A 2D compositional model (CooresFlow) with a Kozeny-Carman critical-porosity permeability law, calibrated on Exp 3, reproduced the drying, salt accumulation and cycling, predicting permeability falling to 1-10 mD in the salt zone.
+
+## Storing CO2 as solid hydrate in shallow aquifers: Electrical resistivity measurements in hydrate-bearing sandstone
+
+- ID: SCA2019-018, year: 2019
+- Authors: Jarand Gauteplass, Stian Almenningen, Geir Ersland
+- Method: laboratory experiment
+- Keywords: CO2 hydrate, Archie saturation exponent, electrical resistivity, Bentheimer sandstone, CO2 storage, hydrate induction time
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-018)
+
+Resistivity measurements in Bentheimer sandstone during liquid CO2 injection and hydrate formation give Archie saturation exponents (about 2.1 for CO2-brine, 2.3 with hydrate) that agree with PVT saturations.
+
+The study examines electrical resistivity as a monitoring tool for CO2 stored as solid hydrate at the base of the hydrate stability zone in shallow aquifers. Bentheimer sandstone cores (5 cm by 15 cm, porosity 0.22) saturated with 3.5 or 5 wt% NaCl brine were flooded with liquid CO2 at 0.5, 5 or 10 cm3/min at 7.0 MPa and 20 °C, then hydrate was formed at 4 °C, either at constant pressure or by flow-induced formation. The saturation exponent n was 1.9-2.3 (mean 2.1) for CO2-brine and 1.7-3.0 (mean 2.3) during hydrate growth, depending on the initial saturation distribution. A modified Archie equation with a dynamic R0* accounting for reduced effective porosity and increased brine salinity matched PVT-derived saturations well after CO2 breakthrough. In flow-induced experiments, raising salinity from 3.5 to 5 wt% prolonged induction time by about 1.5 hours, and raising temperature from 4 to 6 °C doubled it from 3.8 to 7.6 hours. Hydrate formation blocked CO2 flow in all corefloods.
+
+## Metre scale gas-brine coreflood investigation of plume mobility and trapping
+
+- ID: SCA2019-070, year: 2019
+- Authors: Michael B. Clennell, Cameron White, Ausama Giwelli, Matt Myers
+- Method: laboratory experiment
+- Keywords: CO2 storage, Bentheimer sandstone, X-ray CT, gas-brine coreflood, residual gas trapping, flow instability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-070)
+
+Metre-scale nitrogen-brine floods in Bentheimer sandstone with CT imaging show gas channeling dominates over gravity, giving poor trapping unless gas is injected slowly from the top.
+
+CO2 storage in the high-permeability (~1 Darcy) Sandpiper Formation, Petrel basin, faces uncertain plume mobility, and no suitable cores were available. Metre-long (~1 m x 100 mm) Bentheimer sandstone cores were used as an analogue with a nitrogen-brine system, monitored by medical X-ray CT. Gas injected at the base of a core tilted at 17 degrees, and of a vertical core, formed channels that bypassed most brine, giving early breakthrough, inefficient trapping and little gas displacement by subsequent brine sweep. Slow gas injection from the top of the vertical core formed a stable cap reaching the maximum initial gas saturation without breakthrough, and brine imbibition pushed the cap down and left a diffuse zone of residual gas. Capillary-viscous instabilities outweighed gravity even in a highly homogeneous rock.
+
+## Methane Production through Combined Depressurization + Hydrate Swapping method in the Sandy Porous Medium under Permafrost Temperature Conditions
+
+- ID: SCA2019-075, year: 2019
+- Authors: Jyoti S Pandey, Nicolas von Solms
+- Method: laboratory experiment
+- Keywords: methane hydrate, hydrate swapping, CO2/N2 exchange, depressurization, permafrost sand, core flooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-075.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-075)
+
+Core flooding experiments on methane hydrate in sands show combined depressurization and CO2/N2 swapping recovers at least 30% of methane, improving with larger grains and N2 mixtures.
+
+Most discovered hydrate reservoirs are in sandy media in permafrost, and methane recovery depends on the porous medium and production technique. The study combines instant partial depressurization with in-situ swapping of hydrate methane by CO2 or CO2/N2 mixtures. Twelve experiments were run in a purpose-built core flooding apparatus on three artificial hydrate-bearing sands (0.25-0.3, 0.33-0.4 and 0.32-0.7 mm grain sizes) at 269.15-274.15 K and 20-40 bar. Recovery depended on temperature and particle size, increasing with larger grains, and CO2+N2 gave higher recovery than pure CO2. At least 30% of methane was replaced in most experiments after 120 hours. Gas chromatography and calculations showed N2 allows additional recovery despite a reduced driving force, while higher CO2 fractions raised the driving force.
+
+## Calcite-functionalized micromodels for pore-scale investigations of CO2 storage security
+
+- ID: SCA2021-008, year: 2021
+- Authors: Malin Haugen, Benyamine Benali, Tore Føyen, Wen Song, Martin A. Fernø, Bergit Brattekås
+- Method: measurement technique or apparatus
+- Keywords: microbially induced calcite precipitation, micromodel, Sporosarcina pasteurii, CO2 storage, image analysis porosity, carbonate dissolution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-008)
+
+Silicon micromodels were functionalized with calcite via bacterial precipitation (MICP) and imaged full-model to quantify porosity loss, enabling later CO2 dissolution studies.
+
+The study develops an improved procedure to functionalize sandstone-pattern silicon micromodels (porosity 0.61, PV 11.1 µL, 30 µm depth) with calcite using Sporosarcina pasteurii and urea/CaCl2 injection. A pressure-capable, temperature-controlled setup with an automatic scanning microscope captures full-model images at 1.1 µm/pixel in 82 s (293 s with fluorescence). Two experiments differed in cementation concentration (1 M vs 0.5 M), settling time and pressure. Experiment A produced a calcite fraction of 0.13 in the inlet subset but only 0.04 over the full model, indicating uneven distribution, while the lower-concentration experiment B gave 0.006 with more even distribution. Python-script segmentation agreed with manual polygons (0.13 vs 0.15). Precipitation caused rapid pressure increases, CO2 bubbles affected saturation, and a preliminary test showed CO2-saturated HCl dissolving calcite at 100 bar with bubble formation.
+
+## Study of relative permeability curves for a CO2-brine system at reservoir conditions in carbonates
+
+- ID: SCA2021-011, year: 2021
+- Authors: Jorge Tovar, Tatiana Berna, Tálisson Borges, Janeth Vidal, Rafael Valladares, Gabriel Soares, Erika Koroishi
+- Method: laboratory experiment
+- Keywords: scCO2 relative permeability, unsteady-state coreflood, CT saturation monitoring, Corey model, Land trapping parameter, Pre-salt carbonate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-011)
+
+Unsteady-state scCO2/carbonated-brine drainage and imbibition coreflood on a Pre-salt carbonate composite core at 8,500 psi and 70°C, with CT saturation monitoring, shows fingering, hysteresis and weak brine wetting.
+
+CO2 relative permeability data at true reservoir conditions are scarce for Brazilian Pre-salt carbonates. A five-plug composite core (25.28 cm, 182 mD, 15.7% porosity) was flooded with scCO2 and equilibrated carbonated brine at 8,500 psi and 70°C, with saturation tracked by medical CT and mass balance. Produced-volume analysis showed viscous fingering (drainage M = 5.01), so JBN could not be used and Corey curves were built with literature exponents and measured endpoints. Drainage reached residual ECB saturation of 27%, and imbibition left 19.5% trapped scCO2, with ECB relative permeability hysteresis (endpoint 0.47) and an scCO2 endpoint of 0.89. The low trapping and the small end effect suggest the cores were not strongly water-wet, and Land trapping parameters varied along the core, with gaps between plugs causing loss of capillary continuity and distorted CT saturations.
+
+## In-situ investigation of salt precipitation dynamic induced by gas flowthrough drying using simultaneous Neutron and X-ray dual-beam Radiography
+
+- ID: SCA2021-021, year: 2021
+- Authors: Matthieu Mascle, Olivier Lopez, Herve Deschamps, Lars Rennan, Nicolas Lenoir, Alessandro Tengattini, Souhail Youssef
+- Method: measurement technique or apparatus
+- Keywords: neutron radiography, X-ray radiography, salt precipitation, gas drying, Bentheimer sandstone, capillary contact
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-021)
+
+Simultaneous neutron and X-ray radiography separates water, dissolved and precipitated salt during gas drying of Bentheimer sandstone, revealing salt bank migration and alternating gas draw-down and build-up cycles.
+
+Gas flow-through drying of brine-saturated rock causes salt precipitation that reduces injectivity, but X-ray alone cannot separate water saturation from salt content. The authors used simultaneous neutron and X-ray radiography at NeXT-Grenoble (ILL) on a 2 cm Bentheimer sandstone plug (23% porosity, 1500 mD) with dry nitrogen and 100 g/L KBr brine. Two calibration dry-outs (deionized water and KBr brine) defined a normalization giving gas saturation, salt mass, brine concentration and porosity loss. With a brine capillary contact at the outlet, salt in the sample rose about fourfold, and a 13-15% local porosity reduction triggered salt bank migration toward the gas inlet, with a roughly sixfold flow rate drop. At lower inlet pressure (0.35 bar), a second salt bank formed, lowering the peak porosity loss from 30% to 20% and producing alternating gas draw-down and build-up cycles. The capillary-contact brine supply was estimated at about 190 μl/h.
+
+## Core Characterization of Patterson #5-25 Well for Carbon Capture and Storage in Western Kansas
+
+- ID: SCA2022-38, year: 2022
+- Authors: Thomas Paronish, Rhiannon Schmitt, Dustin Crandall, Franek Hasiuk, Eugene Holubnyak
+- Method: digital rock or imaging
+- Keywords: CO2 storage, micro-CT segmentation, Ilastik, multi-sensor core logger, Arbuckle dolomite, dual-energy CT density
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-38)
+
+Non-destructive core logging, medical CT and micro-CT segmentation characterize reservoir and seal quality of 625 ft of Patterson #5-25 core for CO2 storage in Kansas.
+
+The study characterizes about 625 ft of core from the Patterson #5-25 well (CarbonSAFE Phase 2, western Kansas) to assess CO2 storage reservoirs and seals. Core was measured with a Geotek multi-sensor logger (gamma density, XRF, P-wave, magnetic susceptibility) and dual-energy medical CT, and compared with KGS core porosity/permeability and NMR/Coates logs. Five micro-CT volumes (2.36 µm voxels) were segmented with Ilastik to obtain mineralogy and porosity. The Morrow Sandstone had the best reservoir quality (about 25% porosity, 20 mD; micro-CT porosity 19.6%), and the Reagan Sandstone/Granite wash and vuggy Arbuckle dolomites also showed reservoir potential. The Atoka, Meramecian and Osage were identified as seals. Micro-CT porosities were lower in dolomites (3–7%) than core-scale values, indicating secondary vuggy porosity controls storage, and beam hardening limited the segmentation.
+
+## Carbon Capture and Storage (CCS), Evaluation of Carbon Dioxide Storage Efficiency at the Western Siberia Field
+
+- ID: SCA2022-48, year: 2022
+- Authors: Pavel Golub, Andrei Cheban, Evgenii Romanov
+- Method: laboratory experiment
+- Keywords: CO2 storage, underground gas storage, liquid CO2 injection, buffer gas replacement, core flooding, mineral composition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-48)
+
+Liquid CO2 injection and 7-day holding experiments on Western Siberia reservoir cores assess CO2 effects on mineralogy and reservoir properties for underground gas storage use.
+
+The study addresses replacing part of the buffer gas in underground gas storages (UGS) with CO2 in Western Siberia, which could also lower capital costs. Liquid CO2 was injected into single core samples of the target reservoir at residual water saturation under reservoir conditions. Samples were held with CO2 for 7 days. The effect of liquid CO2 on mineral composition and reservoir properties was evaluated. The authors conclude with technical solutions for efficient use of UGS facilities for CO2 storage; no quantitative results are given in the abstract.
+
+## Direct measurement of in-situ hydrogen-water-quartz system relative permeability for Underground Hydrogen Storage in A Depleted Gas Reservoir
+
+- ID: SCA2022-58, year: 2022
+- Authors: Scott Higgs, Ying Da Wang, Jonathan Ennis-King, Samuel J. Jackson, Ryan T. Armstrong, Peyman Mostaghimi
+- Method: digital rock or imaging
+- Keywords: underground hydrogen storage, hydrogen-water relative permeability, in-situ wettability, micro-CT coreflooding, Bentheimer sandstone, MRST simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-58.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-58)
+
+Measures in-situ wettability and hydrogen-water relative permeability in Bentheimer sandstone using micro-CT coreflooding, validates it by simulation, and applies it to field-scale hydrogen storage predictions.
+
+The study addresses the lack of petrophysical data, including wettability, interfacial tension and relative permeability, for underground hydrogen storage. Hydrogen and water were co-injected in a Bentheimer sandstone core, with in-situ wettability measured directly from micro-CT images. Saturation was analysed using micro-CT together with MICP and simulation data. Relative permeability curves were validated against laboratory experiments, direct simulation on micro-CT images and MRST simulations. Site-specific field-scale MRST models were then built to predict hydrogen storage and retrieval in cyclic operation, as well as injectivity and deliverability, supporting the use of depleted gas reservoirs.
+
+## Measurement of trapped gas saturation in carbonate rock: comparing 2-phase and 3-phase data to support CCS and CO2 EOR projects
+
+- ID: SCA2023-001, year: 2023
+- Authors: Shehadeh Masalmeh, Amir Farzaneh, Mehran Sohrabi, Ali Al-Mesmari, Mohammad Al-Hammadi, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: trapped gas saturation, WAG, CO2 storage, three-phase flow, Land trapping correlation, carbonate coreflood
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-001)
+
+Coreflood measurements on limestone cores show trapped CO2 saturation differs strongly between 2-phase and 3-phase flow and depends on injection sequence, initial water, rock type and trapping fluid.
+
+Trapped gas saturation (Sgt) is key for CCS and gas-based EOR, but 2-phase and 3-phase data for carbonates are scarce. Corefloods were run on limestone cores from reservoirs B and G and a saline aquifer, using live fluids, CO2 and gas mixtures, in 2-phase water-gas, oil-gas and 3-phase WAG experiments starting with gas (WAG_G) or water (WAG_W), at connate and mobile initial water. In 2-phase water-gas tests trapped CO2 reached about 46-50%, and trapping by water exceeded trapping by oil by 15-20 saturation units. In 3-phase tests, WAG_W gave higher Sgt (e.g. 19% vs 8% on core B2; 36% vs 14% on core G) despite lower initial gas, and Sgt rose with initial water saturation (14% to 19% for WAG_G, 20% to 26% for WAG_W at Swi 40% and 60%). Sgt depends on gas distribution, pore occupancy, saturation history, wettability and rock type, so a simple Sgi-Sgt trapping function cannot represent WAG.
+
+## CO2-Brine Relative Permeability Measurements at Reservoir Conditions: how to reconciliate SS and USS methods?
+
+- ID: SCA2023-002, year: 2023
+- Authors: Matthieu Mascle, Ameline Oisel, Per Kristian Munkerud², Einar Ebeltoft, Olivier Lopez², Colin Pryme², Souhail Youssef
+- Method: laboratory experiment
+- Keywords: CO2-brine relative permeability, steady-state method, unsteady-state history matching, semi-dynamic capillary pressure, capillary end effect, X-ray saturation monitoring
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-002.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-002)
+
+CO2-brine drainage kr curves on a small Fontainebleau sandstone at 54°C and 90 bar combine steady-state, history-matched unsteady-state and semi-dynamic Pc, using X-ray saturation maps for quality control.
+
+CO2-brine relative permeability data are scarce and inconsistent, partly because of the choice of steady-state (SS) versus unsteady-state (US) methods. Drainage experiments were run on one 20 mm Grès-de-Fontainebleau plug (12.7% porosity, Kw about 150 mD) at 54°C and 90 bar in the CAL-X mini-coreflood with 2D X-ray saturation monitoring. A semi-dynamic Pc curve was measured with temperature corrections, the SS test used decreasing water fractional flow, and the US test (CO2 at 1.57 cc/min) was history-matched with CYDAR using the SS kr as the starting point. Saturation maps showed unstable, heterogeneous flow in the SS test until fw fell below about 10%, so the analytical Darcy solution applied to only a few points, and the final fw=0 point was biased by capillary end effects. The SS and US curves agreed well otherwise. Inlet Swr was 15-16%, while history matching gave Swir of about 5.5%; matching from random initial curves gave very different solutions. The authors recommend combining SS and US methods, an independent Pc measurement, high flowrates and local saturation imaging.
+
+## A review and discussion on laboratory investigations involving supercritical CO2 for storage
+
+- ID: SCA2023-003, year: 2023
+- Authors: Mahsan Basafa, Omid Mohammadzadeh, Lesley Anne James
+- Method: review or workflow
+- Keywords: supercritical CO2, CO2 storage, in-situ pH measurement, CO2-brine-rock interaction, residual trapping, coreflooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-003)
+
+Reviews supercritical CO2 phase behaviour, CO2-brine-rock reactions, pH measurement and coreflooding studies for geological storage, stressing that degassed ambient pH misrepresents in-situ conditions.
+
+The review addresses laboratory considerations for CO2 storage in saline aquifers and depleted oil and gas reservoirs, where CO2 is injected as a supercritical fluid (>31°C, >7.38 MPa). It covers CO2 solubility in brine and oil, water and hydrocarbon solubility in supercritical CO2, dry-out and salt precipitation, and asphaltene risk in waterflood residual oil. Mineral reactions with carbonic acid (dissolution of carbonates and clays, reprecipitation, caprock effects) are summarized along with a table of coreflooding studies on sandstone, carbonate, shale and siltstone. The authors point out that pH is usually measured on degassed brine at ambient conditions, which raises pH and misrepresents in-situ values. They discuss in-situ electrometric and optical methods, favoring iridium oxide sensors for HPHT, high-salinity use. Wettability and sub-core heterogeneity effects on trapping are also reviewed, with conflicting literature views on wettability.
+
+## A Laboratory Investigation of Enhanced Gas Recovery by CO2 Injection
+
+- ID: SCA2023-009, year: 2023
+- Authors: Chris Jones, Mike Spearing, Maynard Marrion, Arief Maulana, Frans Silitonga
+- Method: laboratory experiment
+- Keywords: enhanced gas recovery, CO2 trapped gas saturation, Land correlation, paleo residual gas zone, in-situ saturation monitoring, CO2 wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-009)
+
+Reservoir-condition corefloods show supercritical CO2 injection fully recovers trapped methane from a paleo residual gas zone without water blocking, and trapped CO2 is lower than trapped CH4, suggesting partial wetting.
+
+The study supports a CCUS feasibility assessment by measuring drainage and imbibition relative permeability, trapped gas saturation and EGR efficiency in a sandstone composite of three plugs at 3000 psi and 90 °C using equilibrium fluids and in-situ saturation monitoring. A CO2 flood at 4 ml/h of the trapped methane state (Sgt(CH4) ≈ 0.53–0.55 PV) recovered all methane within about 2 PV injected, showing no significant water blocking. Trapped CO2 (0.34 PV) was about 0.1 PV lower than trapped CH4 at similar initial gas saturation (Land c = 1.15 vs 0.74), and digital rock modelling matched this with a ~70° contact angle, implying partial CO2 wetting in this rock type. Remaining water saturation after EGR secondary drainage was 0.35 PV versus 0.55 PV for primary drainage into brine, implying larger CO2 storage capacity in a paleo residual zone. Gas permeability at porous-plate Swi (163 mD) exceeded that at the end of drainage (64.2 mD), and ambient N2 tests matched the CH4 trapping but may be optimistic for CO2.
+
+## CO2/brine relative permeability estimation using effective rock/fluid properties: A machine learning-based approach
+
+- ID: SCA2023-010, year: 2023
+- Authors: Fatemeh Reisi, Omid Mohammadzadeh, Lesley A. James
+- Method: data analysis or correlation
+- Keywords: CO2/brine relative permeability, machine learning, decision tree regression, Gaussian process regression, sensitivity analysis, CO2 storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-010)
+
+Machine learning models trained on ~700 literature CO2/brine relative permeability points predict kr well using rock/fluid properties; decision tree and Gaussian process regression performed best.
+
+CO2/brine relative permeability is needed for storage assessment but is affected by rock-fluid reactions that conventional saturation-based models ignore. The authors compiled about 700 literature data points with rock and fluid properties (permeability, porosity, density, viscosity, IFT, CO2 solubility, mineralogy, salinity, saturations), filling ~10% missing values with correlations. They trained DTR, GPR, LR and BRR models. DTR (RMSE 0.01, R2 0.96) and GPR (RMSE 0.025, R2 0.94) clearly outperformed LR (R2 0.64) and BRR (R2 0.62), and reproduced full kr curves from three literature cases with R2 above 0.96. Using only porosity, permeability and saturation degraded accuracy, and sensitivity analysis ranked salinity, viscosities, porosity, permeability, and iron and halite content as most influential.
+
+## Steady-state supercritical CO2 and brine relative permeability measurements at different pressure conditions
+
+- ID: SCA2023-015, year: 2023
+- Authors: Bo Gao, Elizabeth Lyons, Daulet Magzymov, Larry Poore, Gloria Besil, Stacy Richardson, Lisa Lun
+- Method: laboratory experiment
+- Keywords: scCO2-brine relative permeability, steady-state method, recirculating system, Berea sandstone, CO2 storage, trapped gas hysteresis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-015.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-015)
+
+Steady-state scCO2-brine relative permeability on one Berea core at 12.4 and 30 MPa shows no significant pressure effect on drainage and strongly water-wet hysteresis behavior.
+
+Conflicting literature suggests scCO2-brine relative permeability and wettability depend on pressure. The authors measured steady-state drainage relative permeability on a single 30.7 cm Berea core (16.5% porosity, 51.8 mD gas permeability) at 77°C with equilibrated fluids in a recirculating system, at 12.4 and 30 MPa pore pressure. Primary drainage curves at the two pressures were similar, with no inferred wettability effect. At 12.4 MPa, imbibition showed negligible brine hysteresis but significant gas hysteresis from trapped scCO2, and secondary drainage showed no hysteresis. Absolute brine permeability (33.4 and 29.8 mD) was about 60% of gas permeability. Practical recommendations include fluid equilibration, Hastelloy and AFLAS materials, differential pressure below 0.2 MPa, long core and bump rates to mitigate end effects.
+
+## SCAL model for CCS – Insights from the first commercial CO2 project on the Norwegian Continental Shelf, Northern Lights
+
+- ID: SCA2023-016, year: 2023
+- Authors: Einar Ebeltoft, Marion Recordon, Renata Meneguolo, Jørgen Gausdal Jacobsen, Reza Askarinezhad, Richy Pitman
+- Method: laboratory experiment
+- Keywords: CO2 storage relative permeability, supercritical CO2 steady-state, multi-speed centrifuge capillary pressure, residual water saturation, trapped CO2 Land correlation, LET correlation history matching
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-016)
+
+A SCAL model for CO2 storage in the Northern Lights aquifer is built from N2 and scCO2 experiments; relative permeability shape and Swr-permeability trends control plume migration.
+
+The paper builds a SCAL model (primary drainage and imbibition relative permeability, capillary pressure, trapped CO2) for the Johansen and Cook sandstones of the Northern Lights CCS project. The program used 42 plugs in 52 experiments: steady-state, single- and multi-speed centrifuge, porous plate and unsteady-state trapped-gas tests, run with N2 at ambient conditions and scCO2 at 107 °C and 270 bar. All experiments were history matched with Sendra using LET correlations, anchoring relative permeability to centrifuge-derived end points; krg(Swr) was near unity, and single-speed centrifuge data were discarded for unreliably high Swr. Swr–permeability trends differ for the two formations and, with Land trapping correlations, feed an end-point-scaled Eclipse 300 CO2STORE model. Simulations show relative permeability shape matters most for plume migration distance, Swr–k correlation less, trapped CO2 uncertainty negligible for migration, and zero capillary pressure gives slightly farther migration. Lower capillary pressure at reservoir than ambient conditions after IFT scaling suggests N2 may not fully represent scCO2, motivating more supercritical data.
+
+## Risk of permeability impairment due to CO2 hydrates formation in sandstone: an experimental investigation using X-Ray Radiography
+
+- ID: SCA2023-017, year: 2023
+- Authors: Matthieu Mascle, Ameline Oisel, Nicolas Gland, Raymond Jellema, Luc Pauget, Souhail Youssef
+- Method: laboratory experiment
+- Keywords: CO2 hydrates, X-ray radiography, injectivity impairment, CO2 relative permeability, memory effect, Fontainebleau sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-017)
+
+CO2 hydrates formed in Fontainebleau sandstone under CO2 flow were tracked by X-ray radiography; CO2 relative permeability fell more at higher initial water saturation, beyond a simple volume-expansion model.
+
+CO2 injection into depleted gas reservoirs can cool the near-wellbore region and form hydrates with residual water, impairing injectivity. Mini-coreflood experiments on a 12% porosity, 312 mD Fontainebleau sandstone plug (10 mm x 20 mm) were run in the CAL-X X-ray radiography platform at 25 bar and 5°C with deionized water and initial Sw of 13, 29, 46 and 50%. Hydrate formation was triggered by cooling to -5°C, exploiting a memory effect for repeat formations, and was detected as increased X-ray attenuation without dopants, while differential pressure gave the CO2 relative permeability during formation. Formation lasted days, and the hydrate quantity was not proportional to initial water, indicating incomplete conversion. At 4 h, KrCO2 fell to 62%, 24%, 13% and 13% of its hydrate-free value as Sw rose from 13 to 50%, well below a simple 28% volume-expansion model, so hydrate Kr curves must be measured experimentally.
+
+## Characterization and Modeling of Hydroxyapatite Growth on Calcite Surfaces for Improved Oil Recovery
+
+- ID: SCA2023-052, year: 2023
+- Authors: Salem Alshammari, Dong Kyu Cha, Moataz Abu Alsaud, Subhash Ayirala, Ali Yousef
+- Method: numerical simulation
+- Keywords: hydroxyapatite, calcite dissolution, saturation index, geochemical modeling, STEM-EDX, phosphate injection water
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-052.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-052)
+
+Geochemical modeling and STEM-EDX show that calcite dissolution in phosphate-bearing high salinity water makes hydroxyapatite precipitation favourable, and it grows on calcite surfaces.
+
+Phosphate solutions interacting with carbonate minerals may matter for improved oil recovery, but the geochemical reactions involved are complex. The authors modeled reactions between calcite and high salinity injection water containing 1000 ppm dihydrogen phosphate, with CO2 fugacity at atmospheric conditions. The hydroxyapatite saturation index shifts from negative to positive after calcite is added, because dissolution raises Ca2+ and carbonate activity; calcium directly raises the ion activity product, while carbonate lowers proton activity. Precipitation of hydroxyapatite thus becomes thermodynamically favourable. STEM with EDX of calcite particles confirmed hydroxyapatite growth on the calcite surface.
+
+## Study the effect of brine salinity concentration and confining pressure on both static and dynamic Rock Mechanical
+
+- ID: SCA2023-057, year: 2023
+- Authors: Hussain Jeshi, Adnan Makrami, Haider Albohaza, Ahmed Alqroos
+- Method: laboratory experiment
+- Keywords: compressional and shear velocity, brine salinity, Berea sandstone, dynamic elastic properties, partial saturation, mud filtration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-057)
+
+Ultrasonic velocities were measured on Berea sandstone at stepwise brine saturation and three salinities; velocity trends with saturation and salinity varied between cases.
+
+Rock mechanical properties are key to drilling and well trajectory planning, and brine salinity may alter them near the wellbore where mud filtrate invades. Three Berea sandstone sister plugs were measured for compressional and shear velocities, first dry and then saturated with brine at 25,000, 75,000 and 150,000 ppm. Saturation was raised stepwise (25%, 50%, 75%, 100%), with velocities measured and dynamic elastic properties calculated at each stage. Results showed varied relations: velocities sometimes increased and sometimes decreased with saturation, and in some cases changed with brine concentration. The authors suggest the data help link lab measurements to field data and predict property changes in zones affected by mud filtration.
+
+## Experimental characterization of the chemical reactivity of wet scCO2 in reservoir and caprocks under elevated pressure and temperature conditions
+
+- ID: SCA2023-058, year: 2023
+- Authors: Nicolás Rangel Jurado, Xiang-Zhao Kong, Anna Kottsova, Maren Brehme, Federico Games, Stefano Bernasconi, Luiz Grafulha, Martin O. Saar
+- Method: laboratory experiment
+- Keywords: CO2-plume geothermal, supercritical CO2, fluid-rock reactions, batch reactor experiments, Muschelkalk, ICP-OES
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-058.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-058)
+
+Batch reactions of wet scCO2 with Swiss Muschelkalk and Gipskeuper rocks at 35 MPa and 150 °C for 500 hours characterize chemical reactivity for CO2-plume geothermal systems.
+
+CO2-Plume Geothermal systems use pure or water-bearing supercritical CO2 as the working fluid, but their chemical behavior is poorly constrained by field or experimental data. The authors ran core-scale batch reactions on rock specimens from the Muschelkalk and Gipskeuper formations in Switzerland with wet scCO2 at about 35 MPa and 150 °C for roughly 500 hours. Changes in petrophysical properties, morphology and mineralogy were characterized with SEM, XRD, XRCT and stable isotope analysis. Fluid effluents were analyzed by ICP-OES to follow ion transport associated with dissolution reactions. The abstract reports no quantitative results, stating that the work provides insight into fluid-mineral interactions with CO2-rich fluids.
+
+## Residual Trapping during Sequestration of Supercritical CO2 in Carbonate Saline Aquifers: A Core-Scale Experimental Study Using In-Situ Saturation Measurement Technique
+
+- ID: SCA2023-062, year: 2023
+- Authors: Uche Igwe, Shadrack Owusu, Amir Hossain Alizadeh, Mohammad Piri
+- Method: laboratory experiment
+- Keywords: residual CO2 trapping, capillary desaturation curve, scCO2/brine core flooding, in-situ X-ray saturation, carbonate aquifer, capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-062)
+
+Core-flooding experiments with scCO2/brine on an outcrop carbonate, using in-situ X-ray saturation imaging, examine residual CO2 trapping and capillary desaturation curves across capillary- to viscous-dominated regimes.
+
+Residual trapping of CO2 in carbonate saline aquifers is less studied than in sandstones, and prior work mostly covered capillary-dominated flow (capillary number below 10-5). The authors ran two-phase scCO2/brine core floods on an outcrop carbonate core (3.8 cm diameter, 25.4 cm long) at 50 °C and 10 MPa in a closed-loop high-pressure system with robotic X-ray imaging. Cores were brine saturated, flooded with scCO2 to set initial water saturation, then flooded with brine to residual CO2 saturation. Images give in-situ saturation profiles used to study the effect of initial saturation and capillary number, and to build capillary desaturation curves identifying where CO2 stays trapped or is mobilized. The abstract reports no quantitative results.
+
+## Measurement of CO2 Uptake Capacity in Source Rock Shales for GCS
+
+- ID: SCA2024_1017, year: 2024
+- Authors: Jin-Hong Chen, Amy J. Cairns, Stacey M. Althaus, J. David Broyles
+- Method: measurement technique or apparatus
+- Keywords: CO2 uptake capacity, 13C NMR spectroscopy, absolute sorption, source rock shale, geologic carbon sequestration, kerogen absorption
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1017)
+
+A high-field 13C NMR method measures total CO2 uptake in intact preserved shale plugs with in situ fluids, avoiding limits of volumetric adsorption on crushed powders.
+
+Estimating CO2 storage capacity in source rock shales is difficult because CO2 is stored as free gas, adsorbed gas, and gas absorbed in kerogen and in situ fluids, and conventional volumetric or gravimetric adsorption on dried powders captures only excess adsorption. The authors developed a 13C NMR spectroscopy method using 13C-labeled CO2 and a zirconia overburden cell in a 500 MHz spectrometer, applied to preserved slim plugs (3.5 mm) at 40°C and up to 4000 psi. The plug and annulus CO2 peaks are resolved by linewidth and chemical shift and deconvolved with two Lorentzians. The annulus signal serves as an internal density standard, which gives absolute sorption without an equation of state; annulus density matched NIST Refprop. At 500 psi one plug gave 7.93 mg/g. Five plugs from two wells averaged 42.9 mg/g at 4000 psi, with well B plugs 2–3 times higher than well A. Extrapolated to a hypothetical 100 x 100 km, 50 m thick shale this gives an upper-limit capacity of about 4.9e10 tons CO2. Crushed-sample volumetric isotherms at 80°C were repeatable over three runs but are treated only as a screening reference.
+
+## Use of Analog Two-Phase Relative Permeability Data to estimate drainage CO2/Brine Relative Permeability Curves
+
+- ID: SCA2024_1022, year: 2024
+- Authors: Josephina Schembre-McCabe, Morteza Akbarabadi, Jon Burger, Michael Rauschhuber, Will Richardson
+- Method: data analysis or correlation
+- Keywords: CO2/brine relative permeability, analog fluids, total mobility, fractional flow, lattice Boltzmann, carbon storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1022)
+
+Proposes an uncertainty-based workflow using total mobility and displacement efficiency to approximate drainage CO2/brine relative permeability from N2/mineral oil and N2/brine analog data in sandstones.
+
+CO2/brine drainage relative permeability data are scarce and rarely reach high CO2 saturations (generally Snw below ~55%). The authors compiled published data for sandstones (porosity 17-25%, air permeability 50-800 mD) with different fluid pairs and compared them through capillary number, total mobility, fractional flow and displacement efficiency. Lattice Boltzmann simulations on a Bentheimer image (2 µm/voxel, 24%, 2,400 mD) at viscosity ratios of 0.02, 0.1 and 1 and constant Nc of 1e-5 showed that viscosity ratio alone causes a small uncertainty band relative to the literature spread. CO2/brine can be approximated by N2/mineral oil or N2/brine data, weighted toward low non-wetting values, since CO2/brine shows slightly lower total mobility. Low/mid/high injectivity relative permeability sets were derived and tested against N2/mineral oil data from analog field samples, with good agreement. The authors recommend about 70% of test effort on analog fluid relative permeability and 30% on CO2/brine steady-state tests.
+
+## Experimental determination of different saturation functions for simulation of underground geological CO2 storage
+
+- ID: SCA2024_1057, year: 2024
+- Authors: Bettina Jenei, Mohammed Al-Eryani, Roman Manasipov, Leonhard Ganzer
+- Method: laboratory experiment
+- Keywords: CO2-brine relative permeability, unsteady-state core flooding, carbonated water, history matching, DuMuX, Corey exponents
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1057)
+
+A core-flooding setup with an integrated CO2 saturation unit measures supercritical CO2 drainage into carbonated water; history matching shows dissolved CO2 changes relative permeability and remaining water saturation.
+
+CO2-brine relative permeability data rarely account for dissolved CO2 in the aqueous phase, though storage zones differ in free and dissolved CO2. The authors built a closed core-flooding apparatus with a liquid saturation unit so carbonated water can be displaced by supercritical CO2 at constant conditions, and measured water and brine viscosity with and without CO2 using a capillary method. Unsteady-state drainage runs on Bentheimer sandstone (25% porosity, about 2000 mD) at 80 bar and 45°C were interpreted by history matching with a DuMuX-based inverse tool using Powell's method, after benchmarking DuMuX against SCORES. Saturated carbonated water gave Corey exponents cw=1.8 and cn=2.2 with remaining water saturation of 30%, while undersaturated water gave cw=3.9 and cn=2.0 with 40%. Dissolved CO2 therefore appears to affect multiphase flow, but without in-situ saturation data and given non-uniqueness, the results are a proof of concept needing further verification.
+
+## Characterization of Onshore Formations in Nova Scotia for CO2 Storage
+
+- ID: SCA2024_1080, year: 2024
+- Authors: Mahsan Basafa, Lucky Abiashue, Omid Mohammadzadeh, Michael G. Babechuk, Alexandre Plourde, John Carey, Paul Durling, Peter Giles, Carla Skinner, Lesley A. James
+- Method: laboratory experiment
+- Keywords: CO2 storage, Klinkenberg permeability, helium porosimetry, XRD XRF mineralogy, basalt mineralization, chemical index of alteration
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1080.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1080)
+
+Core plugs of Nova Scotia Boss Point sandstone and North Mountain basalt were measured for porosity, permeability, and mineralogy; basalt is tight but reactive, sandstone more permeable but unreactive.
+
+The study screens two onshore Nova Scotia formations for CO2 storage: Boss Point sandstone and North Mountain basalt, using 20 core plugs (10 each). Plugs were mildly cleaned with cold isopropanol and methanol to preserve sensitive clays, then measured for helium porosity and Klinkenberg-corrected gas permeability, with XRD and XRF on selected samples. Sandstone mostly had porosity above 10% (up to 17.5%) and permeability up to 3.36 mD, while basalt porosity was mostly low (2.4% minimum) with permeability generally below about 0.17 mD. Basalt is dominated by augite and anorthite with CIA 37-39 and ICV above 2.2, indicating fresh rock with strong Ca and Mg release potential for mineralization. Sandstone is quartz-rich with albite and kaolinite, CIA about 64-66, and low Ca and Mg, so limited mineralization potential; basalt injectivity would require higher-permeability zones or enhancement.
+
+## A Novel Grain-Contact Modelling Approach for Enhanced Petro-Elastic Simulations in Digital Rock Physics Applications
+
+- ID: SCA_2025_1015, year: 2025
+- Authors: Matthias Halisch, Arne Jacob, Olga Lykhachova, Gordon Burmester
+- Method: digital rock or imaging
+- Keywords: grain-contact stiffness, digital rock physics, petro-elastic modelling, reactive transport simulation, carbonate cement dissolution, CO2 storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1015.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1015)
+
+A contact-area-dependent stiffness correction for micro-CT digital rock simulations reproduces measured saturated Vp/Vs in sandstones and tracks velocity and porosity changes from carbonate cement dissolution in a CCS reservoir rock.
+
+Standard micro-CT based elastic simulations overestimate stiffness because limited resolution overstates grain-grain contacts. The authors segment grain contacts with a watershed method (GeoDict GrainFind) and apply an area- and grain-size-dependent stiffness reduction. They tested it on Gildehauser and Berea sandstones and an offshore CCS candidate sandstone (NZ, 2-10% carbonate cement), using 1.5 µm scans, lab ultrasonic Vp/Vs, XRD and thin sections. For Gildehauser, a 14% interface threshold gave Vp 3746 and Vs 2254 m/s versus 4522/2740 m/s without correction. Saturated simulations for Gildehauser and Berea were within about 8% (Berea <5%), while dry-state errors were large (Berea +54% Vp, +59% Vs). Reactive transport simulation of carbonate dissolution in NZ raised porosity from 16.3% to 19.4% at 3% dissolution and lowered saturated Vp from 4630 to 4198 m/s. Imbibition and drainage relative permeabilities shifted toward higher mobility after dissolution.
+
+## The responses of electrical resistivity tool to CO2 dissolution in brine and carbon mineralization – Implication for Monitoring Underground CO2 Sequestration
+
+- ID: SCA_2025_1017, year: 2025
+- Authors: Abdulrauf Rasheed Adebayo
+- Method: laboratory experiment
+- Keywords: electrical resistivity, CO2 storage monitoring, CO2 dissolution in brine, carbon mineralization, limestone dissolution, EDTA chelation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1017)
+
+Lab flow and static experiments show electrical resistivity tracks CO2 plume migration and rock dissolution/mineralization but not CO2 dissolution in brine, yielding a resistivity response model.
+
+Published field and lab data conflict on whether electrical resistivity can detect CO2 dissolution in brine and subsequent mineralization. Three experiment types were run at high pressure and temperature: supercritical CO2 displacing brine in Indiana limestone, charged brine flooding Berea sandstone plus a bulk-fluid resistivity cell, and 60–80 day static CO2 storage in limestone. Rock resistivity rose from 5.3 ohm·m on CO2 displacement of brine. Dead and charged brine both measured about 0.2 ohm·m, and charged-brine flow in Berea lowered rock resistivity only ~3%. In static limestone, resistivity fell ~19% (3.2 to 2.5 ohm·m) with rock dissolution then recovered with precipitation, permeability dropped 37% (540 to 335 mD), and brine TDS rose from 62,062 to 70,336 mg/l. An EDTA chelation test reversed the resistivity response, supporting the ion-leaching interpretation, and a response model was proposed.
+
+## Pore-scale simulations for a Geothermal Reservoir under lithostatic pressure and different tail watetter injection scenarios
+
+- ID: SCA_2025_1022, year: 2025
+- Authors: Rita Mwendia Njeru, Matthias Halisch, Arne Jacob, Andreas Weber, János Szanyi
+- Method: numerical simulation
+- Keywords: digital rock physics, geothermal reinjection, pore throat size distribution, lithostatic compaction, μ-CT imaging, unconsolidated sandstone clogging
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1022)
+
+Digital rock simulations of weakly cemented Dunántúli Group sandstone show permeability falling from 95 to 81 mD and pore throats narrowing as injection pressure rises from lithostatic to 75 bar.
+
+Reinjection wells in the Hungarian Dunántúli Group geothermal sandstone reservoir clog quickly, and the role of stress-induced compaction is poorly understood. Weakly cemented sandstone cores (27–31% porosity, 60–400 mD) from 1936–1960 m were characterized by buoyancy porosity, gas permeability and μ-CT, then modeled in GeoDict (Stokes flow, FFT-based mechanics, digital MICP, pore-size analysis). Scenarios were lithostatic load, 25 bar and 75 bar injection. Simulated Y-direction permeability fell from 95.06 mD (lithostatic) to 91.41 mD (25 bar) and 81.12 mD (75 bar), with through porosity dropping from 9.32% to 8.22% and the throat distribution shifting to narrower throats. The authors conclude mechanical compaction alone can reduce injectivity and compounds particle clogging. The digital volumes are not representative REVs, so only relative trends are considered valid.
+
+## Geochemical reactions in reservoir rock and capillary sealing capacity of caprock during hydrogen admixing in the underground gas storage complex Rehden
+
+- ID: SCA_2025_1038, year: 2025
+- Authors: Nils Langanke, James Funk, Alexander Gubik, Jonas Wegner, Leonhard Ganzer
+- Method: laboratory experiment
+- Keywords: underground hydrogen storage, capillary entry pressure, caprock sealing, geochemical modelling, batch reactor experiments, contact angle and interfacial tension
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1038.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1038)
+
+Batch-reactor, capillary entry pressure and geochemical modelling work on Rehden reservoir and caprock cores finds minimal hydrogen reactivity and caprock sealing comparable to methane.
+
+The study assesses hydrogen admixing in the Rehden underground gas storage complex, focusing on geochemical reactions and caprock sealing. Dolomite, limestone and anhydrite plugs were kept in brine under methane or hydrogen for two months (103 °C, then 130 °C, 280 bar), with SEM-EDS, IC, ICP-OES and GC monitoring. No significant mineralogical differences were seen between gases, though dolomite and limestone plugs cracked along mineral interfaces. Geochemical modelling projected porosity increases of only 1.1–3.2% over several years. Step-by-step entry pressure tests on anhydrite (above 60 bar) and red claystone (above 25 bar) showed no gas flow for methane or hydrogen. The Laplace-equation estimate for claystone was 76 bar (methane) and 82 bar (hydrogen), while MICP underestimated the anhydrite sealing pressure (about 3–10 bar).
+
+## Leveraging Analogues for CO2 Core Flood Experiments: Enhancing Reservoir Simulation Inputs
+
+- ID: SCA_2025_1044, year: 2025
+- Authors: Egil Boye Petersen, Reza Askarinezhad, Arild Lohne, John C. Zuta, Ronald Sørlie
+- Method: laboratory experiment
+- Keywords: CO2 core flood, analogue SCAL, steady-state relative permeability, history matching, Land trapping constant, MICP capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1044)
+
+Ivar Aasen sandstone analogue floods (scCO2/brine, N2, MICP) are history-matched to build a SCAL model with optimistic, base and pessimistic kr-Pc families for Poseidon CO2 storage.
+
+Poseidon CO2 storage lacks reservoir cores, so Ivar Aasen sandstone plugs (10 to 1000 mD) were used as analogues. Steady-state scCO2/brine drainage and unsteady-state imbibition floods were run at 193 bar pore pressure, 103 bar net confining pressure and 69°C, with 1D X-ray saturation monitoring. Floods were history matched with IORCoreSim using LET and Skjæveland functions to correct for strong capillary end effects. Compositional and geochemical simulations showed minor calcite effects (water viscosity 0.695 to 0.698 cp), so geochemistry was omitted from history matching. Including Pc in the history match gave better matches than using MICP Pc directly. The merged dataset gave Swir falling from about 0.23 at 10 mD to below 0.08 above 1 D, and a Land constant of 2.3 (range 1.5–3.8). Three kr–Pc families bracketing the data were implemented in the Poseidon dynamic model.
+
+## Experimental investigation on wettability alteration of Glauconitic sandstone during CO2 Storage
+
+- ID: SCA_2025_1054, year: 2025
+- Authors: Wael F. Al-Masri, Samira Mohammadkhani, Bettina Jenei, Behzad Rostami
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, supercritical CO2 flooding, wettability alteration, glauconitic sandstone, CO2 storage, core cleaning
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1054)
+
+Spontaneous imbibition on Nini West glauconitic sandstone shows scCO2 flooding shifts oil-leg cores toward water-wet, giving higher brine saturation than solvent-cleaned cores.
+
+Wettability of glauconitic sandstone from the depleted Nini West oil field was studied for CO2 storage. Six plugs (water leg WL1/WL2, oil leg OL1/OL2, and CF1/CF2) were cleaned by Soxhlet or flow-through solvents, and CF1/CF2 were flooded with brine and scCO2 at 200 bar and 60 °C. Wettability was assessed by gravimetric spontaneous imbibition of synthetic brine. Water-leg cores reached 69.5% and 70.6% brine saturation, solvent-cleaned oil-leg cores only 42.2% (Soxhlet) and 32.6% (flow-through), while scCO2-flooded cores reached 63.2% (CF1) and 55.1% (CF2). The authors conclude that scCO2 shifts the rock toward water-wet more effectively than solvents, with CF2 less altered because more brine remained in it during flooding (14.65% vs 2.65%).
+
+## Investigating Dispersive H2 and CO2 Transport by means of medical-CT and GC-Supported Core Flooding Experiments
+
+- ID: SCA_2025_1055, year: 2025
+- Authors: Gerald Stiedl, Boris Jammernegg, Holger Ott
+- Method: laboratory experiment
+- Keywords: underground hydrogen storage, gas-gas dispersion, medical CT core flooding, advection-dispersion equation, effective diffusion coefficient, dispersivity
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1055)
+
+Medical-CT and GC-monitored core floods in Berea sandstone quantify H2 dispersion in N2 and CO2, showing brine saturation raises dispersivity about tenfold while hydrogen solubility loss stays below 1%.
+
+Underground hydrogen storage efficiency depends on diffusion and dispersion of injected gases, so the authors built a CT-compatible PEEK core holder with inline micro-GC and Coriolis density measurement. H2 displaced N2 or supercritical CO2 in dry Berea cores (1.5 and 3 inch) at 100 bar and 50 °C, with Peclet numbers of 5 to 78. Fitting the 1D advection-dispersion equation gave a dry effective H2-N2 diffusion coefficient of 1.75e-7 m2/s, close to the correlation-based 1.55e-7 m2/s. With an immobile brine saturation of 0.74, effective diffusion fell to 4.57e-8 m2/s but dispersivity rose from 2.3e-3 m to 1.9e-2 m, so dispersion is lower at low velocity and higher at high velocity than in dry cores. The maximum dissolvable hydrogen was about 0.01 mol (about 1% of a pore volume), below detection.
+
+## Monitoring Salt Precipitation in Porous Media Using $^{23}\text{Na}$ MRI: Implications for CO2 Storage
+
+- ID: SCA_2025_1069, year: 2025
+- Authors: Naser Ansaribaranghar, Mohammad Sadegh Zamiri, Michael Dick, Rheya Rajeev, Florea Marica, Andrés Ramírez Aguilera, Derrick Green, Benjamin Nicot, Bruce J. Balcom
+- Method: measurement technique or apparatus
+- Keywords: 23Na MRI, salt precipitation, CO2 storage injectivity, capillary backflow, T1 and T2* relaxation, SPRITE imaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1069.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1069)
+
+23Na and 1H MRI quantify solution and crystalline sodium during N2 drying of brine-saturated Bentheimer, showing salt precipitates at the inlet drying front via capillary backflow.
+
+Salt precipitation during dry CO2 injection can reduce injectivity, and X-ray μCT requires non-representative fluids and salts. The authors used a variable-field magnet to run 23Na and 1H MR/MRI at a common frequency on a Bentheimer plug (porosity 0.24) saturated with 8 wt% NaCl and flushed with dry N2. T2* (4.2 ms solution vs 253 μs crystal) and T1 (46 ms vs ~13 s) contrasts separated solution from crystalline sodium; total sodium stayed constant and the 0.8 g mass gain matched the MR-measured crystals. Brine displacement (4.8 ml effluent vs 4.7 ml by MRI) was fast compared with evaporation. Salt accumulated at the inlet, with solution sodium concentration rising toward the inlet while 1H was slightly higher toward the outlet, indicating capillary backflow. A 2D SPRITE image showed heterogeneous salt deposition with two intense spots near the inlet.
+
+## Role of limestone micro-porosity on dissolution patterns during reactive transport with carbonated water
+
+- ID: SCA_2025_1080, year: 2025
+- Authors: Matthieu Mascle, Hervé Deschamps, Souhail Youssef, Fadi Nader
+- Method: laboratory experiment
+- Keywords: reactive transport, carbonated water dissolution, micro-porosity, X-ray micro-tomography, KBr tracer test, wormhole
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1080.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1080)
+
+Carbonated-water dissolution of Lavoux and Euville limestone cores, imaged by micro-CT and tracer tests, shows micro-porosity controls dissolution pattern: Euville forms wormholes, permeability up 100-fold; Lavoux up under 2-fold.
+
+Two pure-calcite limestones, Lavoux and Euville, with different macro- and micro-porosity, were reacted with carbonated water (10 bar CO2, 25°C, 0.1 cc/min) in mini plugs. Characterization combined 5 µm micro-CT before and after alteration, KBr tracer tests monitored by X-ray radiography, a Coats and Smith dead-end model history match, and krypton BET surface area. Lavoux has about 8.8% micro-porosity versus 3.1% for Euville, a transfer coefficient Ks of 1.77 versus 0.076 min^-1, and about twice the specific surface. Euville dissolution broke through after 4 h as localized wormholes, while Lavoux gave a slower, more sustained front that had not broken through in 16 h. Permeability rose from 33 to 3500 mD in Euville (x107) and from 130 to 226 mD in Lavoux (x1.7). Local dissolution was much higher in micro-porous grains, while core-scale rate before breakthrough was transport-limited and equal for both.
+
+## Equilibrium Modelling of CO2-Brine Systems for Geological Carbon Storage Applications; Experimental Measurements and Thermodynamic Modelling
+
+- ID: SCA_2025_1089, year: 2025
+- Authors: Sepideh Alimohammadi, Lucky Abiashue, Babatunde S. Adigun, Peng Zhou, Gideon Nyame, Abdulazeez Babatunde, Omidreza Mohammadzadeh, Lesley A. James
+- Method: laboratory experiment
+- Keywords: CO2 solubility in brine, e-SRK-P equation of state, Pitzer-Debye-Hückel, solubility trapping, volume displacement, geological carbon storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1089.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1089)
+
+Measures CO2 solubility in NaCl brine with a rocking equilibration protocol and shows the e-SRK-P equation of state predicts it slightly better than Duan and Sun's model.
+
+Accurate CO2 solubility in brine is needed for assessing solubility trapping in geological storage, but cubic EoS neglect polar and electrolyte effects. The authors applied an extended SRK-Polar EoS with Pitzer-Debye-Hückel electrolyte terms (e-SRK-P), using literature binary interaction parameters. They also measured CO2 solubility in 4 wt% NaCl at 77°C and about 124 bar after 1, 3 and 5 days of mechanical rocking, quantifying released gas by mass balance and water-column volume displacement. Solubility rose from about 0.854 to 0.868 mol/kg with rocking time, and the 5-day value matched Duan and Sun (0.868 mol/kg) and Yan et al. data. Against literature data at 353, 393 and 433 K (4 mol/kg NaCl), e-SRK-P gave AADs of 3.14, 2.42 and 2.01% versus 3.85, 3.33 and 2.57% for Duan and Sun.
+
+## Fast-Track SCAL Methodology for Evaluating Relative Permeability in CO2 Storage Aquifers
+
+- ID: SCA2026-001, year: 2026
+- Authors: Fabrice Pairoys, Maria Villalobos
+- Method: review or workflow
+- Keywords: CO2-brine relative permeability, MICP, Brooks-Corey model, Land trapping model, Class VI permit, Mount Simon Sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-001)
+
+A fast MICP-based Brooks–Corey and Land workflow gives CO2-brine Kr within two weeks for Class VI permitting; coreflood benchmarks show good drainage agreement, weaker imbibition.
+
+Class VI permit applications need CO2-brine relative permeability before full SCAL programs finish. The authors derived primary drainage Kr for Mount Simon sandstone mid and high flow units from MICP, converted with measured CO2-brine IFT (22.4 mN/m) and contact angle (43.1°), using Brooks-Corey. Endpoints came from Timur and Bennion-Bachu correlations, and imbibition Kr from Land's model with Sgr of 0.20. Unsteady-state coreflood history matches on three composite stacks at reservoir conditions (104°F, 1732 psi) showed close agreement for drainage, but imbibition differed because experimental CO2 Corey exponents were about twice as high. Reservoir simulations over 12 years of injection gave plume areas of 1,018 versus 934 acres (8% difference) for indirect versus SCAL curves. Omitting imbibition Pc changed the 200-year plume area by about 10%.
+
+## Research on Enhanced CO2 Sequestration in Deep Saline Aquifers by Integrated Biological and Biomimetic Strategies
+
+- ID: SCA2026-014, year: 2026
+- Authors: Weifeng Lyu Lu Wang, Shumin Ni, Ming Gao, Chang He, Zemin Ji, Mingyuan Wang
+- Method: laboratory experiment
+- Keywords: cbbM gene qPCR, carbonic anhydrase, Co@ZIF-8/Ag biomimetic nanozyme, CO2 mineralization, deep saline aquifer, CaCO3 precipitation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-014)
+
+Quantifies cbbM carbon-fixation gene abundance in saline aquifer water and shows a biomimetic Co@ZIF-8/Ag catalyst raises CO2 mineralization 7.7% over control at 20 MPa, 80 °C.
+
+Biological carbon fixation and enzyme-assisted mineralization were evaluated for a deep saline aquifer (Weizhou Formation, Fushan Oilfield, ~1890 m, 71 °C). qPCR targeting the cbbM gene (Type II RubisCO) gave abundances of about 10^7–10^8 copies/mL, reported as the first such measurement in a saline aquifer. Batch piston-reactor tests at 20 MPa and 80 °C injected CO2-saturated Tris buffer into formation water with bovine carbonic anhydrase or a 10% Co@ZIF-8/Ag biomimetic nanozyme. In in-situ formation water, precipitate masses were 152.45 mg (blank), 155.40 mg (natural CA) and 163.50 mg (biomimetic), i.e. 3.37, 3.45 and 3.63 mg CO2/mL, a 7.7% gain for the biomimetic catalyst. In simulated CaCl2 water the gains were larger (9% natural, 46% biomimetic). Lower Ca2+ and inhibition by Mg2+, SO4 2- and salinity are proposed to explain the weaker response in real water; XRD and SEM show CaCO3 polymorphs with better crystallinity for the biomimetic case.
+
+## Assessing CCS capillary trapping capacity of Ivar Aasen field through steady state supercritical CO2-brine relative permeability measurements at reservoir conditions
+
+- ID: SCA2026-018, year: 2026
+- Authors: Nasiru Abiodun Idowu, Egil Boye Petersen, Gunn Anita Løvrød, Trond Laxåbakk Danielsen, Arne Johan Førnes, Stratum Reservoir, AkerBP Stavanger
+- Method: laboratory experiment
+- Keywords: scCO2-brine relative permeability, capillary trapping, steady-state imbibition, in-situ saturation monitoring, Land coefficient, CO2 storage
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-018)
+
+Steady-state scCO2-brine imbibition, secondary drainage and imbibition on Ivar Aasen sandstone at reservoir conditions give ~0.36 FPV capillary trapping; excess brine throughput strips trapped CO2, so limit to 5 PV.
+
+The study measures steady-state scCO2-brine relative permeability on Ivar Aasen sandstone (porosity 0.222, Kw 154 mD) at 69 °C and 193 bar to assess capillary trapping for CCS. Cores were cleaned by Soxhlet and critical point drying, Swi was set by porous plate, and saturations were tracked by gamma-ray ISSM with equilibrated, CsCl-doped brine. Imbibition gave trapped scCO2 of 0.366 FPV (trapping efficiency 47.5%) and endpoint krw of 0.025, indicating strong water-wetness; history matching gave 0.352 FPV and krw of 0.027. Secondary imbibition reproduced the first imbibition (0.381 FPV, Land C 1.317 vs 1.432). Trapped CO2 held after 10 PV of brine, but 2,166 PV (and 2,989 PV in secondary imbibition) stripped it to Sw of 1.0, so the authors recommend at most 5 PV at Fw = 1 and bump floods, and a constant flow direction across stages.
+
+## Experimental Investigation of H2-Brine Relative Permeability in Tight Sandstone for Assessing Underground Hydrogen Storage Efficiency
+
+- ID: SCA2026-022, year: 2026
+- Authors: Bettina Jenei, Wael F. Al-Masri, Souhail Youssef, Basil Alwardy, Birger Hagemann, Leonhard Ganzer
+- Method: laboratory experiment
+- Keywords: H2-brine relative permeability, underground hydrogen storage, unsteady-state core flooding, history matching, Brooks-Corey capillary pressure, tight sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-022)
+
+Unsteady-state H2-brine primary drainage on two tight Buntsandstein plugs, interpreted by history matching with Corey and Brooks-Corey models, shows strong permeability dependence of relative permeability.
+
+Published H2-brine relative permeability data are scarce and come from higher-permeability rocks, so none cover the tight sandstones of central European depleted gas reservoirs. Two Buntsandstein plugs (brine permeability 0.295 and 0.685 mD, porosity ~13.5%) were flooded with H2 at constant pressure difference (7.9/3 bara, 20°C) in a hydrogen-approved lab. Relative permeability was derived by JBN and by 1D numerical history matching with Corey relative permeability and Brooks-Corey capillary pressure. The JBN gas endpoints were inflated by neglecting gas expansion, so they served only as starting values. History matching gave Swirr 0.10 and krg 0.45 (nw 5.0, ng 3.5) for the tighter core, versus Swirr 0.07 and krg 0.90 (nw 7.5, ng 2.37) for the other. Brine permeability was well below Klinkenberg-corrected gas permeability, and the authors recommend sample-specific renormalisation and caution against using N2 or CO2 analogues without formation-specific measurements.
+
+## Experimental Investigation of Bio-Reactive Transport at the Continuum Scale for Underground Hydrogen Storage
+
+- ID: SCA2026-040, year: 2026
+- Authors: Gerald Stiedl, Patrick Jasek, Holger Ott
+- Method: laboratory experiment
+- Keywords: underground hydrogen storage, microbial methanation, gas dispersion, CT core flooding, CO2 solubility breakthrough, bio-clogging permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-040)
+
+Core flooding with CT and GC on Berea sandstone quantifies H2 dispersion, CO2 solubility retardation, microbial methanation rates (0.178-0.284 mmol/L/h) and a 50% permeability loss.
+
+The study addresses dispersion and bio-reactive transport of H2 and CO2 relevant to underground hydrogen storage and in-situ methanation. Berea sandstone cores (1.5 and 3 inch, 30 cm, 120-250 mD) were flooded at 50 °C and 80-100 bar in a medical CT core flooding facility with inline micro-GC, for dry, brine-saturated and methanogen-inoculated states. For dry H2-N2 displacement an effective diffusion coefficient of 1.75e-7 m²/s was obtained, close to the 1.55e-7 m²/s predicted. A stationary brine phase lowered dispersion at low rates and delayed CO2 breakthrough by about 0.5 PV, consistent with CO2 solubility, while H2 solubility was below 1%. With active microbes, outlet CO2 fell from 2.49% to about 1.5-1.7%, H2 from 9.97% to 8.7-9.2%, and CH4 reached 0.15-0.25%, giving methane formation rates of 0.178-0.284 mmol/L/h. Permeability dropped about 50% from biomass bio-clogging.
+
+## Comparison of CO2-Brine and N2-Brine Relative Permeability on Multiple Rock Types Using Physical and Digital Rock Analysis Methods
+
+- ID: SCA2026-062, year: 2026
+- Authors: Melissa Martin, Michael Suhrer, Stephen Drylie, Feiyan Chen, Phillip Mendoza, Birol Dindoruk, Gustavo Carpio
+- Method: laboratory experiment
+- Keywords: CO2-brine relative permeability, unsteady-state drainage, digital rock analysis, lattice Boltzmann simulation, Brooks-Corey model, fines migration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-062)
+
+Unsteady-state N2-brine and CO2-brine drainage relative permeability on quarry sandstones are compared with Brooks-Corey models and digital rock simulations; N2 at matched conditions approximates supercritical CO2.
+
+CO2-brine relative permeability testing is difficult and costly, so the study compares alternative fluid pairs and digital rock analysis (DRA) for CCUS characterization. Unsteady-state drainage tests were run on Nugget, Bentheimer and Bandera Brown sandstones with ambient N2, elevated-condition N2 (150°F, 1500 psi) and supercritical CO2, plus decane-brine centrifuge tests on Berea. Results were compared with Brooks-Corey fits from capillary pressure and lattice Boltzmann DRA on 2 µm/voxel micro-CT volumes. Nugget showed fines migration (kaolinite redistribution), so separate plugs were used for the other rocks; N2 and CO2 matched closely for Bentheimer, less well for Bandera Brown. Lab curves flattened at high gas saturation in high-permeability, low-pressure-drop systems due to bypassing, which low-capillary-number DRA avoids. The authors conclude that N2 can approximate supercritical CO2 drainage on clean water-wet sands and that combining methods reduces uncertainty.
+
+## From Pore-Scale Reactive Transport to Reactor Performance: Quantifying Geomethanation Efficiency
+
+- ID: SCA2026-064, year: 2026
+- Authors: Patrick Jasek, Gerald Stiedl, Holger Ott, Montanuniversität Leoben
+- Method: laboratory experiment
+- Keywords: geomethanation, microfluidic micromodel, biomass permeability, gas–liquid mass transfer, Damköhler Péclet analysis, underground hydrogen storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-064.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-064)
+
+A microfluidic–numerical workflow links pore-scale biomass and transport to methane productivity, finding biomass permeability of ~100 mD and methane rates of 0.30–0.35 mmol/L/h limited by interfacial transfer.
+
+The paper addresses how microbial growth and gas–liquid mass transfer control geomethanation (H2/CO2 to CH4) in depleted gas reservoirs. A glass micromodel (20 × 10 mm, 20 µm deep, porosity 0.57, 2.53 D) was inoculated with methanogens in synthetic Molasse Basin brine and run saturated and unsaturated (40 °C, 2.5 bar(g)), with time-lapse imaging, segmentation, Stokes–Brinkman simulations and micro-GC. Matching pressure response to simulations gave an intrinsic biomass permeability of 100 ± 50 mD, so biomass reduced porosity without blocking flow. Under gas cycling, methane evolution reached about 0.30–0.35 mmol L⁻¹ h⁻¹, and a mechanistic reactor model reproduced the GC data. Pe–Da, Sherwood and Thiele analysis showed performance controlled mainly by external gas–liquid transfer, brine connectivity and interfacial renewal rather than internal biomass diffusion, with H2 having higher Sherwood numbers than CO2.
+
+## Steady-State Relative Permeability and Residual Trapping of scCO2- Brine and N2-Brine in Berea Sandstone: A Comparative Experimental Study
+
+- ID: SCA2026-071, year: 2026
+- Authors: Naser Ansaribaranghar, Maziyar Mahmoodi, Yueping Yu, Hamidreza Shahosseini, Mahsan Basafa, Alejandro Romero Fragoso, Lucky Abiashue, Lisa Lun, Daulet Magzymov, John Molinaris, Lesley A. James
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, scCO2-brine, N2 surrogate, Land trapping coefficient, residual gas trapping, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-071.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-071)
+
+Steady-state corefloods on one Berea plug at 30 MPa and 77 °C show N2-brine and scCO2-brine relative permeability and trapping are nearly identical, supporting N2 as a surrogate.
+
+Because scCO2-brine relative permeability tests are difficult, N2 is often used as a surrogate; this study checks that in clean Berea sandstone. A single Berea plug (18.8% porosity, 61-63 mD) was tested in a recirculating HPHT steady-state apparatus at 30 MPa and 77 °C through primary drainage, imbibition and secondary drainage, with one N2 test and two scCO2 tests. Minimum water saturation was 0.37-0.48, maximum gas kr 0.31-0.69, and Corey exponents about 2.2-3.1. Residual gas saturation was 0.33-0.37 (trapping efficiency 59-66%) and fit the Land model with C = 1. Brine and gas curves crossed near Sw 0.65, indicating strongly water-wet behavior. Secondary drainage retraced the imbibition path with no extra scanning loops. Permeability fell irreversibly to 31.6 mD after an intermediate unreported flood, but kr normalization is unaffected. There was no in-situ saturation monitoring.
+
+## Best Practices for Steady-State scCO2–Brine Relative Permeability Measurements
+
+- ID: SCA2026-072, year: 2026
+- Authors: Naser Ansaribaranghar, Hamidreza Shahosseini, Mahsan Basafa, Maziyar Mahmoodi, Yueping Yu, Alejandro Romero Fragoso, Lucky Abiashue, Lesley A. James
+- Method: review or workflow
+- Keywords: scCO2–brine relative permeability, steady-state coreflood, capillary end effect, modified intercept method, closed-loop HPHT system, uncertainty propagation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-072.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-072)
+
+Presents a best-practice workflow for steady-state scCO2–brine relative permeability in a closed-loop HPHT system, covering QC steps, capillary end-effect correction and uncertainty propagation.
+
+Scatter in scCO2–brine relative permeability data stems from inconsistent handling of capillary end effects, fluid equilibration and mass transfer. The paper documents a complete closed-loop HPHT coreflood workflow (77 °C, 4350 psi) covering core and live-brine preparation, characterization, leak and dead-volume calibration, fractional-flow design with drainage, imbibition and secondary drainage, and separator-based material-balance saturation. Capillary end effects are corrected by multi-rate bump tests with the Modified Intercept Method, keeping capillary number ≤10 for viscous-dominated flow. An absolute error-propagation framework is given for saturation and kr, along with post-test mass balance and porosity/permeability re-evaluation. The paper stresses that steady-state curves are scanning curves ending at Sw,min above Swirr, recommending independent Pc data and optional in-situ saturation monitoring; full datasets are in a companion paper.
+
+## Field-scale impact of relative permeability normalisation-reference consistency on CO2 injectivity predictions
+
+- ID: SCA2026-077, year: 2026
+- Authors: Bettina Jenei, Semetei Zhainakov, Abdulrahman Helal, Wael Al-Masri, Leonhard Ganzer
+- Method: numerical simulation
+- Keywords: relative permeability normalisation, CO2 injectivity, Klinkenberg gas permeability, brine permeability, compositional reservoir simulation, kr above unity
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-077.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-077)
+
+Simulations of a synthetic saline aquifer show that mixing gas-normalised relative permeability with a brine-based grid permeability lowers CO2 injectivity and plume extent, while consistent formulations match.
+
+Brine permeability can be lower than Klinkenberg-corrected gas permeability (kw/kg = 0.60 in the adopted dataset), so the choice of normalisation reference changes CO2 relative permeability, with brine-normalised endpoints reaching 1.633. The authors ran compositional fully implicit Intersect simulations of a homogeneous 1000×1000×10 m saline aquifer (100 mD kw, 55 °C, 135 bar) with 20 years of injection plus a 10,000-day forecast. Three cases were compared: a mismatched kw grid with kg-normalised kr (A), consistent kg grid and kg kr (B), and consistent kw grid and kw kr with kr above 1 (C). Cases B and C gave equivalent results, while Case A showed lower injectivity, higher near-wellbore pressure buildup, and a smaller plume (224 vs 254 m at end of injection, 285 vs 312 m after 10,000 days). The relative permeability tables come from an oil-brine dataset used as a proxy, and the model is homogeneous without hysteresis, so results are proof-of-concept.

@@ -1,0 +1,1356 @@
+# Coring, core preservation and damage
+
+> 104 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: coring, drilling, mud, damage, invasion, formation, sponge, quality, hole, fluid.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Reservoir Petrophysics of Poorly Consolidated Rocksi. Well-Site Procedures and Laboratory Methods
+
+- ID: SCA1987-04, year: 1987
+- Authors: A. E. Worthington, J. Gidman, G. H. Newman, La Habra
+- Method: measurement technique or apparatus
+- Keywords: poorly consolidated sandstone, well-site core handling, resin stabilization, plunge cutting, restored stress, formation factor
+- Cited by 7 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1987/SCA1987-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1987-04)
+
+Describes well-site stabilization with resin, chilling and plunge-cut plugs, plus unjacketed at-stress lab measurements, for poorly consolidated cores, giving better preservation than freezing and jacketing.
+
+Freezing and jacketing of poorly consolidated cores disrupts bedding contacts and causes grain rearrangement and crushing. The authors describe careful barrel and liner handling, filling the core-liner annulus with a self-polymerizing isocyanate-polyol resin, ice-temperature storage, top slabbing, and plunge cutting of plugs. Plugs go directly into a Hassler-type pressure vessel with a KalRez sleeve at net effective stress. There they are cleaned by solvent flow, miscibly saturated with brine, and measured for brine permeability, formation factor, resistivity index, air permeability, pore volume and grain density. Applied to over 1400 ft of Inglewood Field core with over 94% recovery, the method preserved sand-shale contacts, and cleaning took days rather than weeks. Fines migrated substantially when air displaced NaCl brine, but only slightly with KCl/CaCl2 brine.
+
+## New Coring System Reduces Filtrate Invasion
+
+- ID: SCA1990-03EURO, year: 1990
+- Authors: Gordon A. Tibbitts, M.G. Reed, M. McCarter, Eastman Christensen Co
+- Method: field or reservoir case study
+- Keywords: filtrate invasion, low invasion core bit, PDC cutters, bromide tracer, spurt loss, Dean-Stark saturation
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-03EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-03EURO)
+
+A low-invasion PDC core bit, piloted shoe and bland low-spurt-loss mud kept filtrate within about 0.5 inch of the core surface in Elk Hills Stevens sandstone.
+
+Coring fluid filtrate invasion compromises measured saturations, wettability and permeability. The authors describe a low invasion system with a sparse-cutter PDC bit with shaped gage cutters, a nested pilot core shoe, high penetration rates and a bland low-spurt-loss water-base mud. It was field tested in the Stevens sand at Elk Hills, cutting 571 ft of 4-inch core with 96.3% recovery at an average 68.6 ft/hr, with sandstone rates of about 150-310 ft/hr versus about 5 ft/hr for conventional diamond bits. Bromide and iodide tracers and Dean-Stark saturations on 38 dissected depths showed average invasion of about 0.25 inch, with little beyond 0.5 inch, and usable uninvaded centers at every depth. Invasion was not significantly related to brine permeability (0.01-45 md), though the outer half-inch was partially flushed of oil.
+
+## Reservoir Water Saturation Measured on Cores; Case Histories and Recommendations
+
+- ID: SCA1999-06, year: 1999
+- Authors: J.K. Ringen, C. Halvorsen, K.A. Lehne, H. Rueslaatten, H. Holand
+- Method: field or reservoir case study
+- Keywords: Dean-Stark extraction, mud filtrate invasion, tritium tracer, water saturation, Archie saturation exponent, oil-based mud coring
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-06)
+
+Reviews methods and six North Sea case histories for obtaining reservoir water saturation from cores, showing tracer-doped mud and rig-site plugging are needed with water-based mud.
+
+Core water saturation is often compromised by mud filtrate invasion, so the paper sets out a workflow covering planning, tracer doping (tritium or deuterium), low-invasion coring, rig-site plugging, Dean-Stark extraction and corrections. With water-based mud, invasion can be large and increases at the top of each core and in higher permeability. Plugs drilled at the rig site showed more tracer than those drilled a week later in the lab. With oil-based mud, tracer showed little or no water invasion into the core centre. Six Statoil field cases show core Sw verifying logs, adjusting Archie n (e.g. 2.04 to 2.28), evaluating wettability effects (n of about 2.13 to 2.90), and handling thin-bed and microporous formations. Tritium costs about US$1000 per well versus about US$10,000 for D2O.
+
+## Application of Low Invasion Coring and Outcrop Studies to Reservoir Development Planning for the Villano Field
+
+- ID: SCA1999-02, year: 1999
+- Authors: J. J. Rathmell, Laura K. Atkins, James G. Kralik
+- Method: field or reservoir case study
+- Keywords: low invasion coring, bromide tracer filtrate, connate water saturation, steady-state relative permeability, Archie saturation exponent, stochastic shale modeling
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-02)
+
+Low invasion water-based-mud coring, steady-state relative permeability, and outcrop-based shale modeling in the Villano Field gave reliable water saturation, salinity gradient, and a development plan.
+
+Villano 2 logs gave connate water saturation near 30% versus about 17% from mercury injection, so Villano 3 was cored with water-based mud using a bromide tracer for low invasion. Filtrate averaged about 5% pv in plugs above 10 md, and about 86% of horizontal plugs had under 10% pv filtrate. Corrected core data revealed a chloride gradient from 36,000 ppm at the top to 2600 ppm at the water-oil contact. With native-state Archie n varying with saturation, log-derived Sw matched core (mean 9.84% vs 9.96% pv). Unsteady-state waterflood relative permeability was unreliable because of viscous instability at a viscosity ratio of 40, whereas steady-state and centrifuge data were consistent (Sorw 0.187). Outcrop and core data conditioned a stochastic shale generator for a simulation that supported a plan of five high-angle wells at a 40,000 STBD plateau.
+
+## The Preservation or Removal of Solid Bituminous Material, as Part of the Core Analysis Programme on the Elgin-Franklin Field
+
+- ID: SCA2001-48, year: 2001
+- Authors: Clive Cornwall
+- Method: laboratory experiment
+- Keywords: pyrobitumen, core cleaning, Soxhlet extraction, grain density, HPHT gas condensate, thin section point counting
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-48)
+
+Benign versus harsh cleaning and drying of Elgin-Franklin pyrobitumen-bearing sandstone plugs produced only small rises in porosity, permeability and grain density, near measurement repeatability, so routine preparation was judged acceptable.
+
+Elgin-Franklin HPHT gas condensate sandstones contain solid pyrobitumen and kerogen, and the concern was that standard cleaning could remove them and artificially raise permeability, porosity and grain density. Plug pairs from two 'black core' locations were cleaned and dried sequentially with a benign regime (isopropanol/methanol, constant immersion, 60°C humidity-controlled oven) and a harsh regime (toluene/methanol Soxhlet, 95°C oven). Between cycles, porosity rose by about 0.5-0.6 porosity percent, grain density by about 0.01 g/cc, and permeability by up to about 1 mD on ~19 mD samples. Point-count bitumen content fell from 17.3% to 13.3%, but this is within the semi-quantitative repeatability of 200-point counts. The changes were near the measurement repeatability, so the evidence was insufficient to show that standard preparation harms data quality. A benign-harsh control was nonetheless applied to development cores, with average variations of about 1% in permeability and 0.45-0.56 porosity percent across 628 and 37 control plugs in two wells.
+
+## Accuracy and Reliability of Electronic Instrument Core Orientation Surveys
+
+- ID: SCA1990-28, year: 1990
+- Authors: WILLIAM E. HENRY
+- Method: field or reservoir case study
+- Keywords: core orientation, electronic survey instrument, paleomagnetic orientation, tool vibration, master orientation line, quality control
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-28)
+
+Case studies from two Texas wells show electronic core orientation surveys suffer from vibration, torque, time-depth and setup errors; quality control procedures and paleomagnetic checks are recommended.
+
+Electronic survey instrument (E.S.I.) core orientation replaces multishot photography but is prone to errors from tool setup, vibration, torque, data editing and core handling. In a west Texas Ellenburger well (SFBU 4-62), eight oriented cores were taken under foam drilling with severe vibration. Multiple reports for the same core differed by up to 170°, subjective editing hid scatter of up to 173° in raw shots, and one core was misoriented by about 144° because of incorrect time-depth correlation. Paleomagnetic orientation exposed these errors, and corrected E.S.I. reports then agreed within about ±15° (±5° for the time-corrected core). A south Texas well showed alignment errors of about 20° from a loose telescope, bent barrel and miscalibrated cross-hair, fixed with a rifle sight and level calibration verified to ±1°. The paper gives a checklist of quality control procedures including stationary readings, stopwatch timing, a Master Orientation Line on core, and routine paleomagnetic checks.
+
+## Application of NMR- and CT-Analytical Methods to Assess the Formation Damage Potential of Drilling Fluids
+
+- ID: SCA1998-13, year: 1998
+- Authors: C.H. van der Zwaag, F. Stallmach, Jan Erik Hanssen
+- Method: laboratory experiment
+- Keywords: formation damage, NMR relaxation time, NMR imaging, drilling fluid additives, return permeability, X-ray CT
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-13)
+
+NMR relaxometry, NMR imaging and CT on oil-saturated Berea show PAC and xanthan cause lasting damage while polyglycol is largely removed by backflooding.
+
+The study assesses formation damage from three water-based mud additives (polyanionic cellulose, xanthan, polyglycol) in oil-saturated hollow-cylinder Berea sandstone (ka about 80 md). Samples were flooded at 80°C with additive solutions (50 PV for PAC and glycol, 9 PV for xanthan) and backflooded with crude oil. NMR T2 distributions, NMR imaging with radial relaxation-time-weighted porosity profiles, and CT were run at each saturation state. Return oil permeability was 39% for PAC, 77% for glycol and 44% for xanthan. PAC accumulated near the inflow hole and persisted after backflooding, xanthan displaced oil evenly but was poorly back-produced, and glycol effects were temporary. CT showed insignificant contrast between fluid states because brine and oil have similar density, whereas NMR detected the changes.
+
+## Increasing the Value of Core Analysis
+
+- ID: SCA1991-04EURO, year: 1991
+- Authors: Peter R. Whattler
+- Method: review or workflow
+- Keywords: core analysis reporting, plug history sheet, core continuity and depth shifting, Klinkenberg permeability, wellsite core handling, special core analysis
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-04EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-04EURO)
+
+Describes Enterprise Oil's contractual work schedules and report structures that make core contractors record wellsite, laboratory and experimental observations, with examples showing practical benefits.
+
+Historical core analysis reports are often bare data tables with a covering letter, which limits later reuse and can mislead inexperienced users. Enterprise Oil formalised work schedules, backed by contract penalty clauses, covering coring, wellsite core catching, laboratory core fitting, plugging, routine analysis, photography, preservation and reporting. Routine analysis includes separate horizontal and vertical plugs, Hassler permeability at 200 and 400 psi, Klinkenberg and overburden tests. Reports follow a 20-section routine structure and a special core analysis structure that includes plug history sheets, a reference volume of worksheets and calibrations, and data on magnetic media. Examples show benefits: a wellsite technician's report explained poor core recovery, core break continuity coding eased depth matching, and a saw-blade wear observation led to a toothed core head with savings of about $6 x 15k per well.
+
+## The Effects of Freezing on Tracer Distribution in Cores
+
+- ID: SCA1992-12EURO, year: 1992
+- Authors: June Gidman, Frank J. Conner
+- Method: laboratory experiment
+- Keywords: core freezing, mud filtrate tracer, fluid migration, oil saturation, sandpack, liquid nitrogen
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-12EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-12EURO)
+
+Freezing brine-saturated cores and sandpacks in dry ice or liquid nitrogen redistributes salt tracers, so frozen-core tracer analysis misjudges mud filtrate invasion; subsample at the wellsite.
+
+Tracers added to coring mud are used to estimate filtrate invasion and correct oil saturation, and cores are normally frozen on the assumption that this immobilizes fluids. The authors saturated 4-inch Berea, kaolinitic and Boise sandstone cores and Ottawa sandpacks (coarse, fine, layered) with KCl or KBr brines, froze them in dry ice or liquid nitrogen, stored them frozen, and subsampled them in a freezer for K+ or Cl- analysis. In every case tracer migrated inward and upward. Dry-ice sandpacks showed center concentrations of about 278% of original K+, with surface ice from 50% to over 1000% of original. Cores showed smaller shifts (about 20% in the kaolinitic core). Liquid nitrogen gave only about 10% deviation but fractured the Boise core. They conclude that tracers are not immobilized by freezing and recommend sampling and subsampling at the wellsite.
+
+## Core Sample Preparation – an Insight in to New Procedures
+
+- ID: SCA2004-50, year: 2004
+- Authors: M. Byrne, I. Patey
+- Method: laboratory experiment
+- Keywords: acetate peel, rock flour, Continuous Immersion Soxhlet cleaning, fibrous illite, core cleaning and drying, SEM
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-50)
+
+Proposes an acetate peel to remove rock flour from plug end faces and a continuous immersion Soxhlet cleaning method that avoids illite collapse seen with hot Soxhlet and hot drying.
+
+Plug cutting, cleaning and drying can alter rock properties, so the authors propose two new preparation procedures. An acetone-softened acetate peel removes rock flour from plug end faces; SEM shows brushing pushes fines into pores while the peel leaves them open. Air permeability rose slightly after peeling (fine sandstone 7.18 to 7.56 mD, chalk 1.83 to 1.92 mD). A Continuous Immersion Soxhlet (CIS) cleaner keeps samples immersed in warm solvent, followed by 60°C drying. Conventional hot Soxhlet with 120°C drying collapsed fibrous illite in samples with 0.8–4.3% illite and raised air permeability (e.g. 60.3 vs 48.4 mD, 13.9 vs 10.2 mD), with little change in grain density and small porosity increases.
+
+## Laboratory Assessment of the Efficiency of Core Preservation Techniques
+
+- ID: SCA2007_58, year: 2007
+- Authors: Jean-Valery Garcia, Kirk Petrophysics, Andrew Hurst, Colin Taylor
+- Method: laboratory experiment
+- Keywords: core preservation, wax dipping, Lithotarge foam, dehydration weight loss, pore volume loss
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_58.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_58)
+
+Weight-loss dehydration tests on 36 plugs compare three commercial waxes with Lithotarge foam; waxes lose under 0.5% pore volume over 38 weeks, foam about 2.8%.
+
+Core preservation aims to keep native fluids and their distribution until later analysis. Nine sets of four adjacent 1.5-inch clastic and carbonate plugs (0.07 to ~2000 mD gas permeability) were cleaned, dried and resaturated, then preserved with one of three commercial waxes (wrapped in Saran/aluminium) or Lithotarge closed-cell foam. Weight loss was tracked for 38 weeks, expressed as percent of pore volume. Wax-dipped samples lost under 0.5% of pore volume at both 6 and 38 weeks, with no clear differences between the waxes. Lithotarge lost about 1.7% at 6 weeks and 2.8% at 38 weeks, but performed comparably to waxes up to about 60 days. Loss was highest in the lowest-porosity samples with little trend against permeability; the aluminium/Saran wrap is probably the main barrier in the wax method.
+
+## Recent Experience with Unconsolidated Core Analysis
+
+- ID: SCA2007_41, year: 2007
+- Authors: Richard Rosen, Bill Mickelson, Jason Fry, George Hill, Bob Knabe, Munir Sharf-Aldin, Meta Rock
+- Method: measurement technique or apparatus
+- Keywords: unconsolidated sand, core freezing, bulk volume strain, stressed mercury capillary pressure, resistivity index, sample damage
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_41)
+
+Describes Shell's protocols and new equipment for handling, freezing, plugging and measuring unconsolidated cores, using bulk volume strain to flag sample damage and enabling 30,000 psi stressed mercury capillary pressure.
+
+Unconsolidated sand is very difficult to analyze, so every step from coring to measurement must limit disturbance. The paper describes Shell's practice of keeping core frozen with dry ice, stabilizing it in cardboard tubes with foam, and drilling plugs with liquid nitrogen. Plugs are Teflon-sleeved with sintered frits and loaded into stress cells within 30 seconds, with bulk volume strain gauges to monitor damage. Benchmark undamaged samples show strains of 1-5%, while strains above 10% (e.g. a 40% porosity plug with CT-visible dilation) give unreasonable results. New equipment includes high-precision syringe pumps, 16-bit transducers, a mercury capillary pressure apparatus to 30,000 psi with Boyle's law pore volume and strain measurement, and a hybrid continuous-injection/equilibrium resistivity index and crude-brine capillary pressure apparatus.
+
+## SCAL : An Indispensable Step for Formation Damage Evaluation
+
+- ID: SCA2000-15, year: 2000
+- Authors: D.G. Longeron
+- Method: laboratory experiment
+- Keywords: formation damage, dynamic mud filtration, return permeability, filter cake breakers, invert emulsion mud, long core tests
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-15)
+
+Dynamic mud leak-off tests on 40 cm sandstone cores compare 8 muds and cleanup breakers; invert emulsion muds damage less, and IEM breakers worsen damage.
+
+The paper presents an IFP laboratory methodology to simulate drilling mud invasion on long cores (5 cm diameter, up to 40 cm) with dynamic filtration, pressure taps along the core and oil backflow to measure return permeability. Study 1 tested five water-based and three invert emulsion muds on high-permeability Vosges sandstone. WBM gave global return permeabilities of 11-39% with severe damage (8-22%) in the first 5 cm, partly from trapped filtrate. IEM gave 68-94%, with local return permeabilities above 100% at 10-30 cm, possibly from reduced connate water; surfactants cut IFT by a factor of up to 45. Study 2 on Vosges and Berea cores showed WBM breakers (NaOCl, enzyme) raised ultimate return permeability by 10-26%, whereas IEM breakers (EGMBE, emulsified acid, surfactants) added damage of 6-48% IRP and 7-30% URP, so natural cleanup is recommended for IEM.
+
+## Effect of Glauconite on Petrophysical Properties as Revealed by Core Analysis
+
+- ID: SCA2003-32, year: 2003
+- Authors: Wibeke Hammervold Thomas, Jon Knut Ringen, Sten Ola Rasch
+- Method: laboratory experiment
+- Keywords: glauconite, Dean-Stark water saturation, resistivity index, saturation exponent, ESEM, micro-porosity
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-32)
+
+Special core analysis of a North Sea glauconitic sandstone shows water-filled, water-wet glauconite pellets explain high Dean-Stark water saturations, nonlinear resistivity index behavior and humidity-dependent porosity.
+
+Logs and Dean-Stark data disagreed on water saturation in a North Sea sandstone (porosity ~31-32%, permeability 100-200 mD). Log estimates were 20-40% while Dean-Stark gave 40-70%, even with traced oil-based mud, and well tests produced only oil. Petrography and ESEM showed 18-30% glauconite pellets with ~40% internal porosity that were water-filled and water-wet. Capillary pressure and resistivity tests gave very high irreducible water saturation and concave-upward RI vs Sw curves, opposite to the clay effect; n was 3.0 by endpoint versus 2.7 by regression. Humidity-controlled drying lowered measured porosity by about 1.5 p.u. Using an effective pore system made RI curves closer to linear and gave normal Sorw values (16-17% versus 7-12% total).
+
+## Improved Method for Extraction and Quantification of Hydrocarbon Content of Sponge Core Liners
+
+- ID: SCA1990-19, year: 1990
+- Authors: R. DiFoggio, C. L. Calkin, W. E. Ellington, G. G. Setser
+- Method: measurement technique or apparatus
+- Keywords: sponge core, Freon-11 extraction, Soxhlet solvent disperser, oil saturation, gas chromatography residual solvent, asphaltene precipitation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-19)
+
+Freon-11 Soxhlet extraction of sponge core liners, partial distillation and GC residual-solvent correction accurately recover oil volumes for crudes of 15-40 API gravity.
+
+Sponge core oil quantification was unreliable in a 1985 blind test of service company methods, showing random and systematic errors. The authors selected Freon-11 as extraction solvent because it does not swell polyurethane, dissolves crude well with little asphaltene precipitation, and boils at 23.8°C. They designed Soxhlet extractors for one-foot sponge sections in aluminum liners, with sintered stainless steel solvent dispersers and a chilled 5-bulb Allihn condenser, refluxing about one pore volume per hour for 48 hours. Extracts were partially distilled to 65°C vapor temperature, removing about 85% of the Freon, and residual Freon was measured by GC and subtracted, with centrifugation and KOH used to remove sponge material. Tests on synthetic samples with four oils showed good agreement between injected and measured volumes, and over 3000 feet of sponge core have been analyzed, with good agreement with log saturations.
+
+## Petrophysical Significance of Oriented Sidewall Cores for Improved Reservoir Characterization
+
+- ID: SCA1991-08EURO, year: 1991
+- Authors: Diana K.T. Hansen, Milton B. Enderlin, Fort Worth
+- Method: field or reservoir case study
+- Keywords: oriented sidewall cores, anisotropy of magnetic susceptibility, borehole televiewer, directional permeability, skin damage, oriented thin sections
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-08EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-08EURO)
+
+Shows how rotary-drilled sidewall cores can be oriented from tool marks and televiewer images, enabling AMS, oriented thin sections, directional permeability and skin damage studies.
+
+Whole core is often unavailable, so the authors examine whether rotary-drilled sidewall cores can be oriented and used for directional petrophysical and sedimentologic work. Top and formation/borehole ends are identified from diamond bit tool marks and marked with ink, and magnetic orientation is obtained by locating core holes on borehole televiewer (CAST) images. In 30 cores from two wells in Cretaceous sandstone, AMS foliation dips (4.2° and 5.8°) were compared with dipmeter dips (5-15°), agreeing in one well but differing by 90° in the other. Berea tests indicated vertical permeability above 0.1 mD can be measured on drilled sidewall cores. In a nine-well Devonian sandstone study of 195 cores, 86% showed increased permeability after trimming to the formation end, though trimming and ultrasonic cleaning may contribute. The authors describe these as preliminary studies needing further validation.
+
+## Avoiding Routine Core Analysis Plug Damage by Proper Evaluation of Core Gamma-Ray, Core Description and Wellsite Core Sampling
+
+- ID: SCA2018-047, year: 2018
+- Authors: Norbert Schleifer, Emmanuel Kesse, George Lawrence, Wintershall Holding, Wintershall Norge, DEA Deutsche Erdöl AG
+- Method: field or reservoir case study
+- Keywords: plug cleaning damage, Soxhlet extraction, core gamma-ray, Dean Stark, Hot Shot plugs, routine core analysis
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-047.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-047)
+
+Two German oilfield cases show 49% and 60% of RCA plugs fractured during cleaning, concentrated in high-gamma, muddy zones identifiable beforehand, so milder selective cleaning is recommended.
+
+Routine core analysis plugs from two German wells (Dogger sandstone and Malm carbonate) were damaged during cleaning: 43 of 88 plugs in well M (mild chloroform/methanol immersion) and 128 of 212 in well S (hot Soxhlet with methanol then toluene). The authors compared damaged plug locations with total core gamma-ray, quick-look core description, and wellsite Dean Stark and Hot Shot plugs. Damage correlated with high gamma-ray zones (above about 120 API in well M) and with mudstone, argillaceous sandstone, distal mouth bar and pro-delta facies, as well as some wackestone. Additional well S plugs cleaned by immersion showed no damage. Oil saturation effects could not be evaluated because only three Dean Stark data points lay in damaged zones. They recommend using these data to flag fragile zones and apply milder or cold cleaning there, avoiding biased data and loss of SCAL backup plugs.
+
+## Maximizing the Impact of Routine Core Analysis on Special Core and Log Analysis: Unconsolidated Sandstones
+
+- ID: SCA2001-07, year: 2001
+- Authors: Ted Griffin, John Shafer
+- Method: field or reservoir case study
+- Keywords: unconsolidated sandstone, particle size distribution, CT scanning, core-to-log depth shift, net-to-gross, probe permeability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-07)
+
+Shows how wellsite measurements, CT, particle size data, probe permeability and core photo analysis on frozen unconsolidated sandstone core support early log analysis, net-to-gross estimates and SCAL plug selection.
+
+Unconsolidated, interbedded oil sandstone was cored with oil-based mud in three 90-ft cores, stabilized by freezing in dry ice, and analyzed with a high-density routine program (249 statistical plugs, 411 archived). Wellsite gamma and gamma-gamma density, CT scans, Dean Stark saturations, porosity, permeability and particle size distribution (PSD) were used to compare core with log data. CT-derived density matched to the density log gave a 4.7 ft depth shift for core 2. PSD-predicted capillary pressure agreed with MICP typically within ±5 saturation percent and tracked Dean Stark saturations, giving an early check on Archie parameters. In laminated intervals, plug data could not capture net-to-gross; probe permeability, core description and UV/white-light image analysis gave NTG of 34-48%, and KH of about 3500 md-ft from probe data versus about 1000 md-ft from plugs.
+
+## Sample Preparation for Unconventional Analysis: A Case Against Solvent Extraction
+
+- ID: SCA2014-002, year: 2014
+- Authors: Jon Burger, Doug McCarty, Russ Peacher, Timothy Fischer
+- Method: laboratory experiment
+- Keywords: Dean-Stark extraction, retort porosity, shale organic matter, thermogravimetric analysis, Rock-Eval, subcritical nitrogen adsorption
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-002.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-002)
+
+Dean-Stark solvent extraction raises shale porosity by up to 2 PU versus retort because it removes solid organic matter, not clay structural water.
+
+Dean-Stark (solvent) and retort preparation give different porosities in unconventional rocks, typically 1-2 PU in 4-8 PU systems. A round robin on equivalent quarter core sections sent to three vendors showed Dean-Stark porosity up to 2 PU above retort, while total evolved water volumes were nearly identical. XRD before and after Dean-Stark showed no clay dehydroxylation peak shifts, ruling out structural water loss. Rock-Eval showed Dean-Stark removed most S1 and about half of S2, with TOC reduced by 15%. TGA and N2 adsorption showed Dean-Stark removes organic matter in the 400-600°C range and opens more pores than a 200°C thermal extraction. The authors conclude solvent extraction alters organic-rich pore networks and overestimates porosity, and recommend retort or thermal extraction.
+
+## Special Core Analysis Loading Conditions for a Friable, Stress-Sensitive Sandstone
+
+- ID: SCA1990-06EURO, year: 1990
+- Authors: Lindsay N. Kaye, James D. Hacksma, Sally Knudson, James E. Smith
+- Method: laboratory experiment
+- Keywords: anisotropic loading, friable sandstone, overburden porosity correction, pore volume compressibility, triaxial failure, sonic velocity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-06EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-06EURO)
+
+Anisotropic loading of vertical plugs from friable Gryphon sandstone gives stable grain packing versus isotropic loading, and lab sonic data suggest near-wellbore formation damage affecting logs.
+
+Isotropic overburden testing of horizontal plugs from friable, high-porosity (35%+) Gryphon sandstone caused progressive non-recoverable deformation and hysteresis, with horizontal stresses exceeding in situ values. A modified Hoek cell was used on vertical plugs from Wells B, C and D, loaded isotropically or anisotropically (axial 2600 psig; jacket 1800 or 1400 psig) over two cycles, with pore volume, axial strain, kerosene permeability and sonic times monitored. The anisotropic set with 1400 psig jacket pressure gave the most stable deformation, and hysteresis acceptance criteria were defined. Stable tests showed about 5-6% pore volume reduction, up to 1% axial strain, and porosity correction factors of about 0.94-0.95 (range 0.898-0.985), while oil permeability was only marginally sensitive to loading type. Lab sonic velocities were faster than log values, implying a damaged zone of roughly 5-18 inches around the wellbore. Dry triaxial tests gave apparent internal friction angles of 54-63° at higher initial stresses.
+
+## Horizontal Core Acquisition And Orientation For Formation Evaluation
+
+- ID: SCA1990-17, year: 1990
+- Authors: Robert A. Skopec, Monte M. Mann Diamant Boart Stratabit, Susan P. Grier
+- Method: measurement technique or apparatus
+- Keywords: horizontal coring, core orientation, electronic multishot instrument, laser alignment system, fractured carbonate, scribe skip
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-17)
+
+Describes coring assembly, stabilization, electronic multishot survey and laser alignment improvements that give near-complete recovery and accurate orientation of horizontal core from fractured carbonates.
+
+Horizontal drilling in fractured carbonates needs core to define facies and fractures, but recovery and orientation were unreliable. Oryx and service companies developed a medium-radius coring assembly with fiberglass inner barrels, multiple core catchers, a modified core head and dual-stabilizer outer barrel. The dual-stabilizer design (1/8 in and 1/2 in undergauge) held inclination drop to about 0.1°/30 ft versus 0.3° for a slick assembly and 0.7° for two-point stabilization, giving near-100% recovery on four projects. Orientation used an Electronic Multishot Instrument with non-magnetic collars, shock absorber, blade centralizers and a patent-pending Laser Alignment System accurate to ±1°, versus errors up to 26° with optical telescope alignment. Laboratory comparison of EMI toolface with observed groove rotation agreed closely, and 'scribe skip' of up to 86° was identified as unique to horizontal coring; fractures were measured by goniometer and classified as natural or induced.
+
+## Incorporating Core Analysis Data Uncertainty in Assest Value Assessment
+
+- ID: SCA1999-05, year: 1999
+- Authors: Andree J. Bouchard, Matthew J. Fox
+- Method: review or workflow
+- Keywords: decision and risk analysis, Monte Carlo NPV, tornado chart, wettability uncertainty, pore volume compressibility, value of information
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-05)
+
+Monte Carlo NPV models with Decision and Risk Analysis quantify how core analysis parameter uncertainty affects asset value, shown in three reservoir examples, guiding core acquisition.
+
+The paper presents a Decision and Risk Analysis workflow that builds probabilistic NPV models, with triangular distributions for core analysis parameters, to identify critical uncertainties and justify data acquisition. Tornado charts and cumulative NPV distributions rank the influence of parameters. In a complex carbonate waterflood, core-related parameters account for about 51% of NPV uncertainty. In a fractured oil reservoir, wettability (Amott-Harvey -0.20 to +0.20) swings NPV nearly ±100% and core-related parameters account for about 67% of uncertainty. In an over-pressured mini-basin, pore-volume compressibility dominates and core-related parameters account for about 55%. The analyses supported additional coring, wettability measurements and side-track coring. The authors note that core data are imperfect information and this must be included in value-of-information calculations.
+
+## Core Analysis Program for a Giant, Complex Fractured Carbonate Field in Oman: Learnings and Key Results
+
+- ID: SCA2006-19, year: 2006
+- Authors: Abhijit Mookerjee, Zaal A. Alias
+- Method: field or reservoir case study
+- Keywords: SCAL sample selection, Amott-USBM wettability, centrifuge relative permeability, residual oil saturation, fractured carbonate, lithofacies association
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-19)
+
+Describes a facies-based coring and SCAL program (1800 m core, eight wells) for Oman's Natih carbonate field; early results show oil-wet behavior, little imbibition and higher residual oil.
+
+A giant, 35-year-old fractured Natih carbonate field in Oman had poor core recovery and little aged SCAL data, leaving large reservoir uncertainties. A campaign in 2003-2005 acquired about 1800 m of core from eight wells, giving over 4100 plugs. SCAL samples were screened with routine data, thin sections, air-mercury capillary pressure, CT scans and a 14-association lithofacies scheme. The SCAL program included centrifuge Pc with Amott-USBM wettability, centrifuge and steady-state relative permeability, gas-oil tests, FRF and stress-dependent poroperm, and resistivity index with NMR. Early results show consistently oil-wet samples, very little spontaneous imbibition, Sorw of 14-26% (versus 5-20% assumed) and Sorg of 12-23%. Steady-state floods showed significant oil end-effects, and stress permeability tests were affected by plastic deformation.
+
+## Advanced Rca -
+
+- ID: SCA2014-094, year: 2014
+- Authors: Special Core Analysis
+- Method: review or workflow
+- Keywords: routine core analysis, wettability, mud invasion, MICP, NMR T2, COBR
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-094.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-094)
+
+Proposes an 'Advanced RCA' program adding quick SCAL-type tests (mud invasion check, mineralogy, CEC, MICP, NMR, wettability) early alongside routine core analysis.
+
+SCAL results often arrive too late to influence development plans, so the authors propose extending routine core analysis with simple, fast tests on regularly spaced samples taken at the well site. Recommended steps include plugging and preserving samples early, extracting fluids or salts to check mud invasion, and running XRD, SEM, CEC and MICP on end trims. Plugs saturated with synthetic formation water are used for water permeability, formation factor, NMR T2, critical flow rate and brine sensitivity, and simplified rock strength tests identify fragile zones. Several wettability methods (Amott spontaneous imbibition rate, adhesion, contact angle, COBR assessment) should be run early, on fresh samples only if uncontaminated. Two Norwegian Continental Shelf examples illustrate the approach, including a wettability test on a Seal Peel and pore-scale modelling calibrated with Advanced RCA data.
+
+## Potential Effects of Current and Future Drilling Fluid Systems on Core Analysis
+
+- ID: SCA2000-16, year: 2000
+- Authors: C.H. van der Zwaag, Rob Crossley, Ger van Graas, Kjell Foss
+- Method: laboratory experiment
+- Keywords: drilling fluid filtrate invasion, Amott/USBM wettability, NMR T2 relaxation, mobile oil recovery factor, NMR imaging, core contamination
+- Cited by 1 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-16)
+
+Outcrop sandstone and chalk plugs were invaded with 0.5 PV of four drilling fluid filtrates; water-based filtrates cut mobile oil recovery and shortened NMR T2.
+
+The study examines how water-based (carbonate, glycol, silicate) and oil-based drilling fluids alter core analysis results. Blaxters sandstone and Liege chalk plugs were restored to Swi with crude oil, exposed to 0.5 PV of filtrate at 80°C, then given Amott/USBM wettability tests, NMR relaxometry at 2 and 10 MHz, and NMR imaging. Most of the wettability shift in sandstone (Amott index from 0.9 to near neutral) came from ageing in crude, not mud. Glycol and carbonate water-based filtrates strongly reduced mobile oil recovery in sandstone (about 44-55% versus 76% baseline), whereas silicate and oil-based mud left it near baseline. Water-based filtrates lowered NMR porosity and shifted T2 to shorter times, while oil-based mud lengthened T2. NMR imaging T2 profiles showed the filtrate distribution in a plug.
+
+## SCA2012-39
+
+- ID: SCA2012-39, year: 2012
+- Authors: Michael Gay
+- Method: review or workflow
+- Keywords: core preservation, carbonate core, Mylar heat seal bag, nitrogen vacuum cycling, whole core analysis, native state
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-39)
+
+Describes a step-by-step procedure for stabilizing and preserving carbonate core in liners using bubble wrap, foil, and nitrogen-flushed vacuum-sealed Mylar heat-seal bags for long-term storage.
+
+Carbonate cores with vugs and fractures cannot be preserved with epoxy, gypsum or foam, since these fill the voids and alter native state. The paper gives a 33-step procedure for core in split or whole liners: cutting into 1 m sections, marking, stabilizing with bubble wrap, taping, wrapping in plastic and aluminum foil, and inserting in a Mylar (nylon/aluminum/polypropylene) heat-seal bag. The bag is cycled vacuum, nitrogen, vacuum through a manifold (about 10 psig nitrogen, vacuum under 1 minute) and heat-sealed. This replaces air with dry nitrogen without pulling fluids from the core. The cores can be shipped and stored for years, and CT scanned or gamma logged while still in the bags. The technique was developed and field-validated with service companies.
+
+## Wax Core Preservation – Extended Review of Existing Methodologies
+
+- ID: SCA2014-097, year: 2014
+- Authors: Mathilde Rousselle, ALS Petrophysics, Jean-Valery Garcia, Mike Gay
+- Method: laboratory experiment
+- Keywords: core preservation, wax dipping, API RP40, fluid desaturation, sandstone plugs, saturation retention
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-097.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-097)
+
+Wax-coated sandstone plugs prepared with RP40 and deviating practices were weighed over one month; wax cooling, dipping time, wax type and storage temperature affected fluid loss.
+
+Well-site wax preservation of core plugs often deviates from API RP40, and the effect of such practices on retained fluid saturation was tested. Fifty-four water-resaturated sandstone plugs (30–1,500 mD, 17–32% porosity) were wrapped and coated in six groups, varying wrapping materials, cooling method, wax type and viscosity, dip time, wire handle and storage temperature. Weights were tracked for one month, and apparent and actual desaturation were calculated. Wrapping type and layer count had no effect once waxed (about 1% pore volume loss), while wrapping without wax lost about 0.35% per day. Shaking to cool caused air trapping and uneven wax with losses up to 2% or more, and water-cooling caused weight changes and contamination. A 1-minute dip was acceptable but 5 minutes caused losses and film damage, and the high-melting Wax 2 exuded and failed in hot storage. Unpreserved 1000 mD plugs lost 15–25% of pore volume within two hours, so time before preservation is critical.
+
+## Freezing of Poorly Consolidated Rock: Method of Stabilization or Alteration?
+
+- ID: SCA2013-093, year: 2013
+- Authors: Dmitry Korobkov, Alexander Nadeev, Andrey Kazak, Natalia Bogdanovich, Ivan Dimitriev, Svetlana Rudakovskaya, Sergey Lebedev, Aleksandr Denisenko
+- Method: laboratory experiment
+- Keywords: core freezing, poorly consolidated sandstone, micro-CT image registration, NMR T2, triaxial yield point, clay swelling
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-093.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-093)
+
+Over 60 poorly consolidated Suzunskoye plugs were measured before and after liquid nitrogen freezing; fluid transport properties changed little, but mechanical properties and micro-structure changed notably in clayey rocks.
+
+Freezing is widely used to preserve poorly consolidated core, but its effect on rock properties is hard to predict. More than 60 plugs from the Suzunskoye field were measured before and after freezing in liquid nitrogen (-196 °C, Sw~35%), including porosity, permeability, NMR, resistivity, acoustic velocity, centrifuge residual water, triaxial tests and micro-CT. Porosity rose by up to 5.4% and permeability up to 3 times in high-clay rocks, and slowness changed by up to 5%, while formation factor showed no average change and NMR T2 distributions mostly agreed. Triaxial pairs showed yield-pressure differences of 10-15 MPa in some cases, indicating failure induced by freezing. Registered micro-CT images showed grain splitting, new fractures, migration of particles under 40 µm and altered grain contacts, most strongly in clayey, fine-grained sandstones. The authors recommend micro-CT of representative plugs before and after freezing and uncertainty analysis when results feed geomechanics.
+
+## Results of a Tracerless Core Invasion Study Using Multivariate Curve Resolution
+
+- ID: SCA2004-38, year: 2004
+- Authors: C. Jones, J. Burger
+- Method: data analysis or correlation
+- Keywords: core invasion, multivariate curve resolution, principal component analysis, ICP-MS, coring fluid contamination, cesium natural tracer
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-38)
+
+Multivariate curve resolution of ICP-MS fingerprints of core waters and coring fluids quantified mud invasion without a tracer, finding contamination mostly below 1%, supported by a cesium natural tracer.
+
+A core invasion study was needed but the tracer was not available at the wellsite, so contamination of core formation water by coring fluid was estimated from natural chemical fingerprints. Water centrifuged from plugs and five coring fluids were diluted in 1% HNO3 and analyzed on an ICP-MS over the full 260-mass spectrum. Masses were screened, PCA showed coring fluids separate clearly from formation waters (first 8 PCs significant), and MCR with non-negativity and fixed coring-fluid end-member constraints gave contamination. The technique has about 1% absolute resolution, and no contamination above that limit was evident in most cores; maximum values were 0.0-1.7%. Cesium was found to be a natural tracer (about 370 ppb in coring fluid versus 70 ppt to 5 ppb in formation water), consistent with very small invasion. No control samples were available, so MCR precision and accuracy remain undefined.
+
+## Unconventional Tight Oil Reservoirs: A Call for New Standardized Core Analysis Workflows and Research
+
+- ID: SCA2015-022, year: 2015
+- Authors: Gary A. Simpson, Neil S. Fishman
+- Method: laboratory experiment
+- Keywords: Dean Stark extraction, Bakken Three Forks, water saturation, formation water salinity, halite precipitation, NMR saturation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-022)
+
+Investigating why Bakken/Three Forks core water saturations disagree with logs, the authors find salinity-correction errors and halite contamination, and call for new tight-oil core analysis standards.
+
+Core water saturations of 40-60% from Middle Bakken and Three Forks plugs conflicted with logs showing 100% water saturation, prompting a review of RCA (Dean Stark) and GRI crushed-rock workflows. Using default salinities of 30,000-50,000 ppm instead of the actual up to 360,000 ppm in the brine volume correction changed calculated water saturation by up to 15.34%. Crushing already-cleaned plugs released up to 15% more water and further hydrocarbons, indicating incomplete cleaning, and SEM showed halite occluding pores, probably precipitated after core retrieval. Methanol is needed in addition to the chloroform/methanol azeotrope to remove halite from crushed rock. Comparing retort, 20 MHz NMR and Dean Stark on twin plugs gave inconsistent porosities and saturations, so no method was shown to be most accurate. Bench tests showed negligible anhydrite weight loss in methanol over two weeks, ruling out dissolution. The authors call for new tight-oil-specific workflows and revision of API RP 40.
+
+## Laboratory Induced Damage - a Review of the Problem
+
+- ID: SCA1990-05EURO, year: 1990
+- Authors: Gary G. Sinclair, Steven J. Duguid
+- Method: review or workflow
+- Keywords: formation damage, critical velocity, fines migration, clay swelling, core cleaning and drying, mineralogical screening
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-05EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-05EURO)
+
+Reviews how core handling, cleaning, drying and high-rate flow tests induce laboratory damage, and recommends mineralogical screening, compatible brines and critical velocity tests to avoid it.
+
+The paper reviews laboratory practices that alter core samples and yield data unrepresentative of the reservoir. It covers plug drilling fluids, Soxhlet cleaning with toluene/methanol, and hot-oven drying at 105 C, which can collapse illite and make clays brittle. For flow tests it discusses incompatible brines, clay swelling, mica alteration and fines migration, and the traditional 6 cm3/min end-point rate, which far exceeds field velocities (about 166 ft/day in a 1.5" 15% porosity plug). High rates can cause non-Darcy flow, fines movement and excessive downstream net confining stress. The authors recommend XRD, infrared spectroscopy and SEM screening, synthetic brines matched to formation brine, and critical velocity tests to set maximum flow rates.
+
+## Pressure Coring: Better Cores for Better Analyses
+
+- ID: SCA1991-05EURO, year: 1991
+- Authors: Nick G. Eaton, S.R. Radford, C. Segrest, Eastman Christensen, Coring Division
+- Method: review or workflow
+- Keywords: pressure coring, pressure core barrel, low invasion coring, filtrate invasion, coal gas content, fluid saturation
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-05EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-05EURO)
+
+Describes the pressure core barrel, its operation, low-invasion coring and analysis, and a coal seam case showing pressure cores give more accurate gas content than other sampling methods.
+
+The paper reviews pressure coring, which retrieves core at near bottomhole pressure to avoid fluid expulsion and gas loss during retrieval. It describes the double-tube barrel (6.0 and 8.0 in OD, 10,000 and 5,000 psi ratings, about 80% average pressure retention), the pressure regulator, ball valve seals, optional non-invading gel, and surface flushing and freezing procedures. Low-invasion PDC bit technology and low fluid loss mud are presented as ways to limit filtrate flushing, which pressure coring alone does not prevent. A 1983 field record showed 165 cores, 83.6% core recovery and 69% average pressure recovery. In a Fruitland coal case (San Juan Basin), a temperature-compensated pressure core gave 601.4 SCF/ton, while sidewall cores were 5.6% off, conventional cores 7-13% low and drill cuttings 24-28% low.
+
+## Quantitative Analysis of Oil Based Mud Filtrate Invasion
+
+- ID: SCA1991-06EURO, year: 1991
+- Authors: Trewin B
+- Method: measurement technique or apparatus
+- Keywords: oil-based mud filtrate invasion, gas chromatography fingerprint, C16 isoprenoid nC15 ratio, core plugging, native state wettability, calibration curve
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-06EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-06EURO)
+
+A tracer-free gas chromatography fingerprint method quantifies oil-based mud filtrate invasion in core trims, accurate to about ±2 wt%, demonstrated on a North Sea sandstone.
+
+Oil-based mud filtrate can alter core wettability, so invasion must be minimised and quantified. The method extracts hydrocarbons from small core trims (1.5 in diameter, 0.25 in thick) with boiling toluene, concentrates the extract and analyses it by GC. The C16 isoprenoid:nC15 peak-area ratio separates crude (R=0.38) from mud base oil (R=0.76), and a calibration curve built from known mixtures converts the ratio to filtrate weight fraction, with error of about ±2 wt% below 20 wt%. In a case study on a permeable sandstone cored at 90 ft/hr and plugged on site with vacuum assistance, 6 of 8 samples showed negligible invasion beyond 1 in. Adjacent plugs showed the same invasion profile. The method needs no on-site tracer and can be applied retrospectively.
+
+## Quantifying Mud Contamination Without Adding Tracers
+
+- ID: SCA2016-032, year: 2016
+- Authors: K.S. Årland, M. Bastow
+- Method: laboratory experiment
+- Keywords: mud invasion, natural tracers, gas chromatography, Soxhlet extraction, centrifuge, polyglycol
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-032)
+
+Inherent mud components (base oils, glycols, salts) analysed by geochemistry quantify mud invasion in core fluids across five North Sea wells, replacing added tracers.
+
+Mud invasion compromises core analysis, and added tracers are costly. The authors use inherent mud components, such as base oil or polyglycol in oil and excess KCl in water, as natural tracers. Fluids were recovered by Soxhlet extraction or centrifuge from five Norwegian sandstone wells (two OBM, three WBM with SCN tracer) and analysed by GC, SARA and ion analysis, with mud fraction from mixture modelling. In well A1 crude oil fraction at the core centre was 27% versus 19% downhole, and centrifuging removed about 50% of the extractable organic matter, leaving polars and asphaltenes behind. In water-based wells, mud fraction in water generally exceeded that in oil, agreed with SCN tracer, and Na/K decreased with contamination; the C2 gas zone was shown to be severely flooded.
+
+## A New Method for Stabilization of Friable and Unconsolidated Core Samples at Well-Site
+
+- ID: SCA1996-03, year: 1996
+- Authors: B.G. TjetIand, B.A. Arde, Luc Bolle, Prod. RTS B.V, Ase Scheie, Carlo Venturini, Agip SPA
+- Method: laboratory experiment
+- Keywords: core stabilization, gypsum core protection, isocyanate resin, wettability alteration, unconsolidated core, Amott imbibition
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-03)
+
+Gypsum injected into the core-liner annulus is presented as a non-toxic alternative to isocyanate resin for stabilizing friable cores, with no measured petrophysical effects and good field results.
+
+Isocyanate resin injected between core and liner is the standard way to stabilize friable cores, but it may alter wettability and poses health hazards. Screening on Berea plugs saturated with crude oil pre-reacted with isocyanate showed slower imbibition and lower total imbibition, suggesting less water-wet behaviour; contact angle and water-phase tests were inconclusive. Gypsum (hemihydrate plaster) was developed as a substitute, with hardening time adjustable by citric acid retarder (17 to 119 min for 0 to 0.08%) and independent of temperature from 2 to 60°C. Lab tests showed invasion of only 1-2 mm in a 40 D synthetic sandstone, no change in porosity or permeability, slight gamma-ray attenuation, and one-component strengths of 12-18 MPa. Six offshore field tests in varied lithologies and muds gave fair to very good results, and the one-component system with a peristaltic pump was recommended.
+
+## Evaluating Potential Geothermal Reservoirs in Northern Germany by Interpreting NMR and CT Results of Core Plugs and Sidewall Cores
+
+- ID: SCA2010-41, year: 2010
+- Authors: W. Hübner, J. Orilski, M. Halisch, T. Leibniz
+- Method: laboratory experiment
+- Keywords: low-field NMR T2, micro-CT, geothermal reservoir, sidewall cores, drilling-induced fractures, Timur-Coates permeability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-41)
+
+Plugs and sidewall cores from a Hannover geothermal well were characterized by NMR, CT and petrophysics; only Lower Cretaceous sandstones are good reservoirs, and drilling-induced fractures bias permeability.
+
+A ~3900 m geothermal demonstration well in Hannover provided about 100 plugs and 23 sidewall cores from Wealden, Dogger, Keuper and Middle Bunter sandstones. Porosity, grain density, ambient permeability, 0.2 T NMR T2 distributions and micro-CT were measured, including NMR before and after desalination of salt-laden sidewall cores. Wealden sandstones (~1200 m) had porosity of 11.9–17.2% and permeability from 1 to several hundred mD, with large pores seen in CT. Dogger, Keuper and Middle Bunter had porosity below 10% (Middle Bunter below 5%) and permeability well below 1 mD. Drilling-induced fractures, imaged by CT (up to ~50 µm wide), inflated permeability in some plugs, whereas NMR-derived (Timur-Coates) permeability was less sensitive. Salt shifted T2 slightly but was insignificant for pore size distributions, so older formations would need hydraulic fracturing.
+
+## A Statistical Analysis of the Accuracy and Reproducibility of Standard Core Analysis
+
+- ID: SCA1987-01, year: 1987
+- Authors: David C. Thomas, Virgil J. Pugh
+- Method: data analysis or correlation
+- Keywords: bulk volume mercury immersion, Boyle's law porosimetry, air permeability, coefficient of variation, quality assurance, interlaboratory reproducibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1987/SCA1987-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1987-01)
+
+Statistical analysis of repeated porosity, grain density and air permeability measurements on Amoco test plugs validates experience-based acceptance limits and reveals a systematic low bias in air permeability.
+
+Amoco runs a quality assurance program for commercial core analysis labs, using about 70 plugs spanning 0.01–1,000 md, 3–40% porosity and 2.6–2.9 g/cc grain density. About 1,900 Amoco tests and 600 service-company analyses were compiled and analyzed using mean, standard deviation and coefficient of variation. The paper describes the Boyle's law grain volume, mercury immersion bulk volume and manual air permeameter methods. Excessive mercury immersion depth biases bulk volume low and porosity by about 0.2 to 0.4 porosity %, and is the most common cause of lab failure. Statistically derived 99% limits (e.g. ±0.23 porosity %, ±0.0093 g/cc) are tighter than the experience-based limits (±0.5 %, ±0.01 g/cc), which are therefore valid and conservative. Service-company air permeabilities show a systematic negative bias, speculated to result from insufficient stabilization time.
+
+## Offshore Gulf Coast Formation Evaluation: Comparison and Use of Unconsolidated Core Data, Wireline Logs and Sidewall Core Data
+
+- ID: SCA1989-06, year: 1989
+- Authors: Malcolm F. Hynson, Charles G. Chiasson, Mercer L. Brugler
+- Method: field or reservoir case study
+- Keywords: unconsolidated softcore, sidewall core analysis, critical water saturation, minimum productive resistivity, log-core calibration, shale volume FTIR
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-06)
+
+Shows how Gulf Coast wireline log shale volume, porosity and Sw are calibrated to unconsolidated softcore data, and how sidewall cores and critical water saturation supplement evaluation.
+
+Formation evaluation of young, shaly Gulf Coast reservoirs is difficult, and conventional cores are rarely cut in every well. The authors describe softcore handling and analysis, then calibrate log-derived Vsh to FTIR clay volume (Vsh_c = 1.75 Vsh_log + 7.61) and log porosity to overburden core porosity (r = 0.744). Log Sw (Rw 0.05 ohm-m, m 1.83, n 1.58) was about 7 saturation percent lower than capillary pressure Sw, and was adjusted to the capillary data. Critical water saturation is converted to minimum productive resistivity (Rmp) and compared with deep resistivity to identify productive zones and water contacts. Sidewall cores, with particle size analysis, give useful permeability, porosity, grain size and Sciw in medium-to-high quality sands, though percussion alteration limits reserve calculations; an example identified contacts at 9479 and 9523 ft despite oil-filtrate contamination.
+
+## Continuous Coring of the KTB Pilot Hole: A Case History
+
+- ID: SCA1989-12, year: 1989
+- Authors: Joachim Oppelt, Nick Eaton, Lothar Wohlgemuth, Eastman Christensen, Fed. Rep.
+- Method: field or reservoir case study
+- Keywords: wireline coring, KTB pilot hole, impregnated diamond core bit, core recovery, crystalline basement drilling, core orientation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-12)
+
+Describes the new wireline drill string and coring system developed for the KTB pilot hole, which reached 4,000 m with about 98% core recovery in wireline sections.
+
+The KTB pilot hole in crystalline basement in Bavaria had to be continuously cored in a 6-inch hole to 3000-5000 m, requiring a new wireline drill string and core barrel. Eastman Christensen developed an externally flush 5-1/2" pipe with 9 m joints, a 94 mm core barrel with jam indicator, an electronic inclination/orientation recorder, and impregnated diamond bits, run with an inorganic thixotropic mud. The top 480 m was cored with roller cones (about 43% recovery in that section), then 3142.6 m was wireline cored with 97.84% recovery. Impregnated bits averaged about 48 m per bit at 1.7 m/h, with footage rising from about 40 m to 80 m during the project. Directional control, a stuck string at 3893 m and a sidetrack were the main problems; the hole ended at 4000.1 m after 560 days. Findings included more folded rock than expected, early core disking, a gradient of 30 °C/km and about 125 °C at 4000 m, and the paper outlines plans for the superdeep hole.
+
+## Major Advance in Sampling and Preserving Unconsolidated Reservoir Core
+
+- ID: SCA1990-01EURO, year: 1990
+- Authors: Kevan J. Sincock, Laszlo Lombos, Kenneth W. MacGregor
+- Method: measurement technique or apparatus
+- Keywords: unconsolidated core, core preservation, elastomer sleeve confinement, Mohr-Coulomb failure, X-ray CT, wellsite coring
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-01EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-01EURO)
+
+A wellsite Soft Sediment Tool applies a vacuum-expanded elastomer sleeve to confine and seal unconsolidated core, preserving structure better than freezing or resin, as shown by X-ray CT.
+
+Unconsolidated cores are hard to preserve without disturbing structure or wettability, and freezing and resin injection have drawbacks such as temperature cycling and chemical contamination. The authors developed the Soft Sediment Tool (SST), which uses a vacuum expander to place 0.3 m fibretube-cut core with serrated polyurethane endcaps inside a clean nitrile rubber sleeve that contracts to give light confinement. Lame thick-wall theory gives about 0.062 MPa radial and 0.028 MPa axial stress for a 102 mm core in an 89 mm sleeve, and Mohr-Coulomb analysis (C = 0.035 MPa, phi = 30 degrees) indicates lateral shear failure during sleeving is unlikely. Field use over two years and X-ray CT comparison with adjacent frozen core showed many open fractures in the frozen sample but only one pre-existing mud-filled fracture in the SST sample. Samples are wax dipped for storage, and a modified expander is being tested to balance axial and lateral stresses.
+
+## SCA1990-02EURO
+
+- ID: SCA1990-02EURO, year: 1990
+- Authors: Alistair Donaldson, Graham M. Clydesdale, Diamant Boart
+- Method: review or workflow
+- Keywords: unconsolidated core, coring equipment, drilling fluid invasion, fibreglass inner barrel, resin preservation, core handling
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-02EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-02EURO)
+
+Describes coring equipment and procedures that reduce mud invasion and mechanical damage, achieving over 95% recovery of unconsolidated North Sea Paleocene and Eocene core.
+
+Obtaining high-quality core from unconsolidated North Sea formations requires attention to fluid invasion, mechanical integrity and surface handling. The authors describe light-set PDC coreheads with pilot lower shoes, face-discharge coreheads (diverting about 60% of mud flow) and internal-lip shoes (about 95% diverted). Procedures include mud weight close to formation pressure, sharply reduced flowrate, 30 or 60 ft barrels, all-fibreglass inner tubes and careful tripping. Surface handling uses an air-driven saw to part the fibretube without rotation, a shear plate boot, a support cradle, drainage racks, resin injection and refrigerated storage at 5 °C. Over 5,000 ft of Paleocene and Eocene core cut over two years gave overall recovery above 95%.
+
+## Core Preservation - an Alternative Approach
+
+- ID: SCA1990-04EURO, year: 1990
+- Authors: Clive K. Cornwall
+- Method: laboratory experiment
+- Keywords: core preservation, Core Preservation Container, wettability maintenance, clay fabric SEM, irreducible water saturation, Amott index
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-04EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-04EURO)
+
+Describes a glass Core Preservation Container that stores whole core immersed in compatible liquid under nitrogen, with field trials and screening showing preserved clay fabric and Swi stability.
+
+Conventional wrap-and-seal core preservation allows oxygen ingress, fluid loss and wettability or clay-fabric alteration. The author developed the Core Preservation Container (CPC), a sealed glass vessel holding whole core (up to 11 in x 5.25 in) immersed in deoxygenated brine or oil under a 15-20 psig nitrogen blanket, and gives guidelines for immersion liquid choice. Field trials led to design changes (foam-lined crate, improved cradle, safe-glass sleeve) to prevent glass fracture in transit. SEM showed smectite honeycomb fabric intact after 60 days in a CPC but collapsed in an unpreserved chip. Amott indices on two sandstone sets gave limited, inconclusive wettability differences, while Statoil data showed Swi changes of +1 to +2% for CPC plugs and -1 to -3% for laminate versus -37 to +19% for unprotected or strippable-plastic plugs after cleaning.
+
+## Development of Coring and Electronic Data Logging Systems Enhance Data Quality and Quantity Facilitating Improved Oriented Core Analysis
+
+- ID: SCA1990-08EURO, year: 1990
+- Authors: Wallace Hay, Iain Knott, Gordon Shiells
+- Method: measurement technique or apparatus
+- Keywords: oriented coring, electronic multishot survey, scribe line spiralling, computer aided goniometer, core orientation error, Corienting barrel
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-08EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-08EURO)
+
+A new Corienting core barrel with an electronic multishot survey tool and computer-aided goniometers raises oriented core data success above 90% and cuts overall orientation error to under ±8 degrees.
+
+Conventional oriented coring used photo-mechanical multishot tools with failure rates above 50%. They required stopping coring and circulation every 5-6 ft, risking stuck pipe, core damage and lost rig time. The authors describe the Corienting barrel, which isolates the survey tool in a non-magnetic inner-barrel section and reduces scribe-line spiralling, combined with a solid-state electronic multishot tool holding 2000 records and sampling about 6 shots per foot while drilling. Reported results include over 90% success in obtaining full orientation data, with about 95% of runs having tandem verification. Usable analysed data rose from 28% for conventional coring to 60-70%, and about 1 hour of rig time was saved per 60 ft cored at 20 ft/hr. Error budgets give ±6.5 to ±12 degrees for Corienting/EM versus ±11.5 to ±17.5 degrees for conventional systems. Computer-aided goniometers reduce reorientation error to ±1-2 degrees, giving overall error under ±8 degrees.
+
+## A Computerised Electromagnetic Goniometer and Its Applications in the Study of Reservoir Anisotropy
+
+- ID: SCA1990-09EURO, year: 1990
+- Authors: Martin Bedrock, James G Buchanan
+- Method: measurement technique or apparatus
+- Keywords: electromagnetic goniometer, core orientation, fracture orientation, reservoir anisotropy, dip log, cross-bedding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-09EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-09EURO)
+
+Describes a computerised electromagnetic goniometer for measuring bedding and fracture orientation on core, and shows how its data plots help interpret reservoir anisotropy.
+
+Bedding structures and fractures control reservoir anisotropy, so accurate orientation data from core are needed for geological models. The paper describes an electromagnetic goniometer with a 3D digitizing stylus, roller core holder and menu-driven software that records bedding and fracture orientation, corrected for well deviation. Accuracy is ±2 degrees, checked with a plastic calibration core. Core orientation methods (downhole survey, dipmeter/structural map, palaeomagnetism) are reviewed. Examples show fracture dip logs, stereonets and rose diagrams, a fluvial channel sequence where unit-by-unit cross-bed plots reveal channel trend, and an aeolian sequence where foreset azimuths separate seif from barchan/transverse dunes.
+
+## Rapid, Room-Temperature Quantitative Analysis of Oil in Sponge Core
+
+- ID: SCA1990-21, year: 1990
+- Authors: L.B. Owen, Terra Tek
+- Method: measurement technique or apparatus
+- Keywords: sponge core, oil extraction, methylene chloride, optical spectrometry, oil saturation, absorbance calibration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-21)
+
+A room-temperature method shreds sponge core in methylene chloride and quantifies extracted oil by visible absorbance, recovering known oil volumes with 5.6% average error.
+
+Sponge coring corrects oil saturation for oil lost during core recovery, but this correction depends on complete oil extraction and accurate volume measurement. The paper presents a patent-pending method that soaks the sponge liner in methylene chloride, separates it from the aluminum liner, and shreds it with a high-speed rotary cutter in a sealed vessel for 20 minutes at room temperature. Oil in the filtered solvent is quantified by visible absorbance at 440 nm against calibration mixtures made with representative stock tank oil. Validation used 17 water-saturated sponge samples (6 in long, 4 in diameter) injected with known oil volumes. Blank correction for sponge dissolution was under 0.2 ml, detection was possible down to 0.04 ml, and average error was 5.6%, with the largest relative errors at trace oil volumes.
+
+## Core Analysis to Calibrate Geological Interpretation
+
+- ID: SCA1991-01EURO, year: 1991
+- Authors: Lindsay N. Kaye
+- Method: review or workflow
+- Keywords: production geology, reservoir appraisal, porofacies, core heterogeneity, image analysis, core-log integration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-01EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-01EURO)
+
+A keynote review arguing that core data, integrated with logs, test data and petrophysics, are essential for calibrating geological reservoir descriptions during appraisal.
+
+The paper gives a personal view of how core and core analysis support geological interpretation and reservoir description in appraisal projects, and argues for production geology as a discipline within petroleum engineering. It reviews core-based tools: orientation and fracture logging, FMS/dipmeter calibration, minipermeametry, X-ray CT, NMR, XRD/XRF, SEM, petrography, image analysis, mercury porosimetry and surface spectroscopy for wettability. It stresses porofacies and rock-type groupings that are petrophysically meaningful, beyond simple porosity-permeability transforms. It cautions about sampling bias, scale effects, and artifacts from coring, plugging and cleaning, and notes that 2D and limited 3D images cannot resolve pore connectivity. It concludes with a checklist of questions on uncertainty and sample suitability, and no numerical results are presented.
+
+## An Innovative Approach to Exploration and Exploitation
+
+- ID: SCA1991-01, year: 1991
+- Authors: Scott H. Walker, Keith K. Millheim
+- Method: field or reservoir case study
+- Keywords: slim hole drilling, continuous coring, wellsite core analysis, core bits, slim hole well control, cationic polymer mud
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-01)
+
+Describes adapting mining slim-hole continuous coring to oilfield exploration, with field tests of 37,000 ft at 98.3% recovery, automated on-site core analysis, and lower costs than conventional drilling.
+
+The paper addresses whether mining-type slim hole continuous coring can be adapted to oil and gas exploration. A mining contractor's trial at Amoco's Catoosa facility reached only 1,950 ft in 38 days with washouts and stuck pipe, though core recovery was 100%. Amoco then developed improved core bits, a cationic polymer brine mud, solids control, servo-controlled weight-on-bit and slim hole well control methods. Field wells in Michigan, Kansas, Colorado and Texas cored over 37,000 ft with 98.3% recovery; 73 bits averaged 18.5 ft/hr, and an automated on-site module analyzed up to 550 ft of core per day. Cost estimates show slim hole continuous coring at $655/ft vs $1,224/ft in Alaska, $132 vs $193 in Pakistan, and $211 vs $338 in Kenya, with conventional coring costing three to four times more.
+
+## Effective Integration of Core and Log Data
+
+- ID: SCA1991-02, year: 1991
+- Authors: Paul F Worthington
+- Method: review or workflow
+- Keywords: core-log integration, key intervals, depth averaging of core data, signal-enhanced density log, Archie scaling, vertical resolution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-02)
+
+Proposes a strategy for tying logs to core using key intervals, depth matching and averaging core to log resolution, and tests algorithm scale-robustness; Archie fails, density works.
+
+The paper addresses how to reduce uncertainty when calibrating well logs against core data. It sets out prerequisites (matched depths, representative scales, equivalent textures, comparable measurements) and recommends restricting calibration to fully cored key intervals of thick beds, with plugs sampled at 6-inch spacing. A simulated density log over six beds shows that a five-point running mean of core data over about 2 ft removes the scatter in the core-log crossplot. A scaling analysis of a two-half block shows the resistivity-porosity (Archie) route is not scale-robust unless m = 1, whereas the density-porosity relation is robust. Ocean Drilling Program developments are described: a sonic core monitor, a multi-sensor track and interactive core-log display.
+
+## In-Situ Stress Evaluation in Core Analysis
+
+- ID: SCA1991-03, year: 1991
+- Authors: R. A. Skopec
+- Method: review or workflow
+- Keywords: in-situ stress, anelastic strain recovery, differential strain curve analysis, microfrac, Mohr-Coulomb failure envelope, oriented core
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-03)
+
+Reviews an integrated workflow of oriented pilot-hole coring, stress-orientation methods, rock mechanics testing and microfracs to optimize horizontal well azimuth and wellbore stability in fractured reservoirs.
+
+Horizontal wells in naturally fractured reservoirs need prior knowledge of in-situ stress magnitude and direction, fracture strike and rock mechanical properties. The paper outlines a workflow used by Oryx Energy: drill a vertical pilot hole, cut oriented core, run openhole microfracs for minimum horizontal stress, and perform core-based tests. Stress orientation is determined by anelastic strain recovery (ASR), differential strain curve analysis (DSA) and ultrasonic velocity analysis, all based on microcrack theory. Triaxial testing at reconstructed in-situ effective confining stress yields Mohr-Coulomb failure envelopes, using at least four plugs, for wellbore stability analysis. Fracture orientation from core is compared with ASR stress direction, and an example horizontal core in the Austin Chalk is shown. The paper is a qualitative review and gives no new measured dataset.
+
+## Laboratory Program Design for Unconsolidated Heavy Oil Reservoirs: A Case Study
+
+- ID: SCA1991-04, year: 1991
+- Authors: Craig F. Lamb
+- Method: review or workflow
+- Keywords: fines migration, unsteady-state relative permeability, unconsolidated heavy oil sand, clay swelling, test sequencing, steam recovery
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-04)
+
+A case study of core testing on an unconsolidated heavy oil sandstone shows fines migration spoiled early relative permeability tests, so fines tests and petrology should come first.
+
+Core from two wells in an unconsolidated, conglomeratic heavy oil reservoir was tested with basic analysis, petrology (30 detailed thin sections, SEM, XRD, steam treatment) and supplementary tests. Because of project timing, tests ran simultaneously, and the first unsteady-state relative permeability test on a four-plug stack at 100°C (oil 1300 cp) gave very high differential pressures, sample deformation, fines production, permeability loss and high residual oil. SEM showed fines packed against the screens. Repeating with two-plug stacks at 150–250°C gave lower pressures and good history matches, though fines still plugged the 120 mesh screen. Fines mobilization tests showed any pressure gradient mobilized fines, and a 24 mesh screen greatly reduced permeability loss. The authors recommend a test sequence: basic analysis, petrology, resistivity by bed, fines/clay swelling, steam recovery, then relative permeability on single plugs, adding about 2 months (40%).
+
+## Liquified-Gas Extraction and Near-Infrared Analysis of Core
+
+- ID: SCA1991-31, year: 1991
+- Authors: Rocco DiFoggio
+- Method: measurement technique or apparatus
+- Keywords: liquified-gas extraction, cyclopropane, near-infrared spectroscopy, crude oil API gravity, asphaltenes, sidewall cores
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-31)
+
+Describes cold liquified-gas (cyclopropane) Soxhlet extraction of core to recover pure crude and water, plus near-infrared regression to predict crude properties from tiny extract samples.
+
+Dean-Stark extraction heats core, risks damaging gypsum or clay, and discards the extracted crude. The paper proposes liquified-gas extraction in a pressurized Soxhlet using cyclopropane, vinyl chloride or Freon-152a at room temperature, with a 3A molecular sieve desiccant to trap water and leave nearly pure crude in the flask. A Berea plug saturated with 33.3° API crude gave an extract of 32.7° API, and a following toluene extraction showed no colour. Cyclopropane is judged the best overall choice, vinyl chloride the best solvent but carcinogenic, and Freon-152a a poor solvent. NIR regressions on crude spectra (1100-2500 nm) gave R=0.996 for asphaltenes, 0.972 for API gravity and density, and 0.997 for API over 13.9-60.2°. They work on samples as small as 12 microliters, and training with deliberately topped samples can predict produced-crude API gravity before light-end loss.
+
+## Determination of Oil Saturations in Sponge Coring by Gas Chromatography
+
+- ID: SCA1993-05, year: 1993
+- Authors: W.J. Looyestijn, B.A. Schipper
+- Method: measurement technique or apparatus
+- Keywords: sponge coring, gas chromatography, Dean-Stark extraction, residual oil saturation, n-alkane calibration, toluene extraction
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-05)
+
+Gas chromatography of toluene extracts quantifies oil in sponge cores to about 0.1% PV, avoiding Dean-Stark errors from sponge dissolution and trapped solids.
+
+Dean-Stark extraction is unreliable for the polyurethane sponge used in sponge coring because the sponge partly dissolves in solvents and trapped clay particles wash out, overestimating oil. The authors instead calibrate gas chromatography on summed n-alkane peaks (C10-C19) using known solutions of field crude in toluene; sponge-derived peaks do not coincide with these. A North Sea field example gave a linear calibration up to 3 wt% crude. Four 29 cm sponge samples gave low, uniform oil contents by GC, whereas extended Dean-Stark results varied widely (0.6 to 8.0 g/ft). Precision is estimated better than 0.4 ml oil per foot of sponge, about 0.1% PV for a 3.5-inch core at 25% porosity. For the core samples themselves, GC and Dean-Stark agreed within about 0.7% PV.
+
+## Characterization and Saturation Determination of Geothermal Rock by CT and NMR
+
+- ID: SCA1995-15, year: 1995
+- Authors: E. M. Withjack, J. R. Durham
+- Method: laboratory experiment
+- Keywords: geothermal rock, NMR water saturation, tritium tracer, coring fluid invasion, CT scanning, vapor transport
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-15)
+
+Pressure coring of Geysers geothermal graywacke with tritium tracer, NMR saturation and CT flooding shows coring-fluid invasion grows with downhole delay and occurs by vapor transport.
+
+Water saturation in Geysers geothermal graywacke (1-5% porosity, ~400 F) is hard to measure by Dean-Stark, so a wireline pressure-coring method with frozen core recovery and tritium-tagged coring fluid was developed. NMR was used for saturation, with a feasibility accuracy of about ±20% PV (±0.04 ml). Core Run #69, held downhole ~24 h, showed 30-50% central invasion (50-70% in outer donuts), while rapidly recovered Run #88 appeared uninvaded with Sw of about 3-13%. Whole-core CT could not separate invasion from edge x-ray attenuation artifacts. Liquid injection advanced only ~1 cm in 8 h at 500 psi (k ≈ 0.0005 md), Fick diffusion was two orders too low, and Darcy vapor-flow calculations plus xenon CT flow tests supported vapor convection as the invasion mechanism.
+
+## Recent Advances in Coring Technology: New Techniques to Enhance Reservoir Evaluation and Improve Coring Economics
+
+- ID: SCA1996-04, year: 1996
+- Authors: R.A. Skopec, P. Collee, P. Tyler
+- Method: review or workflow
+- Keywords: gel coring, low-invasion coring, coring-while-drilling, mud filtrate invasion, core preservation, PDC core head
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-04)
+
+Describes gel coring for downhole core preservation and a wireline Coring-While-Drilling system, outlining design, field use in Norway, and benefits for core quality and coring cost.
+
+Core damage from drilling fluid filtrate invasion and handling, together with high rig-time costs, compromises core analysis. The paper describes gel coring, in which a viscous polypropylene glycol gel preloaded in the inner barrel is released by a floating piston to encapsulate the core downhole, and discusses its use with low-invasion PDC core heads. Laboratory tests at 200°F and 250 psig on water-saturated rocks up to 10 Darcy showed zero spurt loss and water loss. Over 25 gel cores were cut in Norway since 1994 at temperatures to 275°F, with barrels up to 360 ft and improved recoveries in more than half of projects. The Coring-While-Drilling system uses a wireline-retrievable inner barrel in an anti-whirl PDC bit to cut cores up to 2 in. diameter and 30 ft long without tripping, offering a cost-effective way to obtain core where conventional coring is uneconomic.
+
+## Successful Field Evaluation of the Efficiency of a Gas Gravity Drainage Process by Applying Recent Developments in Sponge Coring Technique in a Major Oil Field
+
+- ID: SCA1996-05, year: 1996
+- Authors: Marc Durandeau, Medhat El-Emam, Abdel-Hamid Anis, Gianni Fanti
+- Method: field or reservoir case study
+- Keywords: sponge coring, gas gravity drainage, residual oil saturation, deuterium oxide tracer, low invasion coring, Dean-Stark
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-05)
+
+Optimized sponge coring with low-invasion coreheads and D2O tracing in an Abu Dhabi Arab D reservoir shows residual oil after gas drainage averages 11% PV, far below SCAL.
+
+Open-hole logs could not quantify residual oil saturation after gas gravity drainage in an Arab D sub-reservoir offshore Abu Dhabi, so an optimized sponge coring project was run. 90 ft was cut in three runs with low-invasion coreheads, oil-wet sponge liners, D2O mud tracing at about 275 ppm, and on-site plug trimming. Tracer levels in inner and outer plugs matched formation water (about 153 ppm), indicating none to minimal filtrate invasion. Centrifuge tests produced no oil, and sponge oil was mostly under 0.5% PV. Residual oil in the Arab D middle layer was 5.5-16.7% PV (average 11%), versus 38-60% PV (average 42%) from viscous-force SCAL on cleaned samples. Logs showed a gas effect but could not quantify residual oil, likely because of filtrate slumping.
+
+## Some Practical Applications of Recent Core Analysis Advances
+
+- ID: SCA1996-38, year: 1996
+- Authors: N. V. Williams'
+- Method: laboratory experiment
+- Keywords: imbibition capillary pressure, low invasion coring, residual oil saturation, capillary number, spreading coefficient, transitional reservoirs
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-38)
+
+Santos tested new core analysis procedures on Eromanga and Cooper Basin cores, finding that reservoir-capillary-pressure restoration and low flow rates give residual oil saturations that agree with logs.
+
+Santos ran experiments in 1992-1995 on Eromanga and Cooper Basin cores to improve special core analysis. A new imbibition capillary pressure procedure for reservoirs that have leaked matched log analysis better than drainage curves. Low invasion coring gave connate water resistivity equal to aquifer water, but six saturation methods spread by 20-30 saturation units. For transitional reservoirs, bringing plugs to initial water saturation at reservoir capillary pressure and flooding at low capillary number lowered average residual oil saturation from 36% (100 high Pc/high N tests) to 28.5% (15 low Pc/low N tests) and doubled connate water saturation at reservoir top from about 15% to 30%. Spreading experiments on a 500 md plug gave similar residual oil for positive and negative spreading coefficients, and mud particle sizing showed volume versus number distributions give very different impressions of damage potential.
+
+## A Quality Control Program in Core Analysis
+
+- ID: SCA1997-13, year: 1997
+- Authors: James R. Bulau, M. Matt
+- Method: review or workflow
+- Keywords: quality control, interlaboratory comparison, check plugs, routine core analysis, permeability measurement error, lab qualification
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-13)
+
+Mobil's lab pre-qualification and data consistency program shows labs can reproduce check-plug porosity to ±0.3%, permeability to ±15% and grain density to ±0.01 g/cc.
+
+Mobil describes a core analysis QC program used since 1992 that has evaluated 30 labs on five continents. Labs measure porosity, permeability and grain density on circulated 3.8 cm check plugs (sandstones, limestones, ceramics, metal-encased composites) and undergo on-site inspection. Overburden pore volume porosity agreed within ±0.3%, grain density within ±0.01 g/cc, and permeability within ±10% below 1000 mD (±15% for labs good at high permeability). One lab was judged unqualified. Many labs could not measure permeability reliably above 2000 mD and only one recognized its limit. Repeat measurements at a second lab on about 5% of plugs exposed a permeability problem from screens clogged with fines in the loading pistons and a porosity error from incomplete pressure equilibration. Comparison with a database caught anomalous formation factors likely caused by incomplete saturation.
+
+## CORE ANALYSIS: IS IT REALY WORTH IT? Konstantin Mirotchnik3 Apostolos Kantzas2,3 1: Epic Consulting Services, Calgary, Alberta, Canada, 3: TIPM Laboratory, Calgary, Alberta, Canada
+
+- ID: SCA1998-30, year: 1998
+- Authors: Michael Aikman, Mehran Pooladi-Darvish
+- Method: numerical simulation
+- Keywords: relative permeability, Corey correlation, waterflood simulation, economic evaluation, NPV, special core analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-30)
+
+Simulated waterflood of a hypothetical reservoir with lab versus estimated relative permeability shows large cashflow differences, supporting the economic value of special core analysis.
+
+The paper asks whether expensive special core analysis (oil-water relative permeability, up to C$15,000 per plug) is justified compared with correlations. A black-oil simulation of two inverted five-spot patterns (1 year primary, 9 years waterflood) was run with twelve saturation-function sets: synthetic Corey curves, laboratory unsteady-state curves from Eolian sandstone, and lab endpoints with estimated Corey exponents. Each set was applied either by three porosity-keyed rock types or by a single rock type. Output was fed into an economic package (NPV10, payout, ROR, PIR). Initial oil in place differed by over 10% between models (1.79 vs 1.61 million m3), and 10-year recovery was 33.3%, 38.6% and 37.7% for the three heterogeneous cases. NPV10 of fully synthetic (6397 $K) and lab-data (6357 $K) cases matched only by coincidence, as annual cashflow profiles differed strongly; single-rock-type models over- or under-predicted performance.
+
+## New suite of modified laboratory procedures and dedicated software for the effective integration of the core analysis and wireline data sets
+
+- ID: SCA1998-45, year: 1998
+- Authors: Paul N. Theologou, Robert D. East
+- Method: review or workflow
+- Keywords: extended core data set, J-function, capillary pressure, core-log integration, probabilistic petrophysical model, surface area Qv
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-45)
+
+Presents an extended core data set measured on plug offcuts plus a core interpretation software module, with a case study showing core-log inconsistencies in porosity and water saturation.
+
+Routine core analysis lacks interpretive capability, while special core analysis is costly and sparsely sampled. The authors propose an intermediate suite measured mainly on offcuts of RCA plugs: total, effective and furnace porosity, ambient capillary pressure, surface area by polar molecule adsorption, spectral gamma and sample description. A core interpretation module was built within a mainstream log analysis package. It handles overburden corrections, capillary pressure curve fitting and J-functions, Qv from surface area, permeability and heterogeneity estimates, and facies discrimination. In a case study of the Heavy well, J-function water saturations and overburden core porosity were compared with a probabilistic log interpretation. The log model predicted optimistic porosity and higher water saturation than capillary theory. Forcing the model to match the core values degraded the reconstruction quality. This leaves either an erroneous log model or a reservoir not in capillary equilibrium.
+
+## Coring to Conserve Residual Water Saturation and Its Use When Interpreting Electrical Logs
+
+- ID: SCA1998-50, year: 1998
+- Authors: V. G. Mamyashev, B. U. Khairullin, L. A. Vylegjanina
+- Method: field or reservoir case study
+- Keywords: insulated coring, residual water saturation, mud filtrate invasion, log-core resistivity relationship, oil-based mud, West Siberia
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-50)
+
+Describes insulated water-based-mud coring (KIM receivers) that preserves residual water saturation in West Siberian cores and builds log-core resistivity-water content relationships, giving data comparable to oil-based-mud coring.
+
+Filtrate invasion during coring distorts saturations and electrical properties, and oil-based mud is costly and environmentally problematic. The authors describe KIM hermetic and isolating core receivers (67, 80, 100 mm) that insulate core from water-based mud, with wellsite invasion depth checked by fluorescent or chemical tracers and central samples sealed in paraffin. More than 30 West Siberian wells were cored this way, with average recovery of 91% (82.5% in unconsolidated Senonian and Senomanian rocks). Residual water saturations matched those from OBM-cored wells. Resistivity versus water content did not follow Archie-Dahnov and differed between reservoir and non-reservoir rocks because of silt content. Log-core relationships were derived for Surgut region beds (AS, BS, JS) and a temperature-dependent conversion from core to formation resistivity. The technique works best in low-permeability rocks and is less effective above about 500-700 mD or where gas expansion expels water at k below 3-5 mD.
+
+## Unconsolidated Conventional Core Case History - Gulf Coast Sandstone Reservoir
+
+- ID: SCA1999-54, year: 1999
+- Authors: Ron Shook, Melanie Dunn
+- Method: field or reservoir case study
+- Keywords: unconsolidated sandstone, steady-state relative permeability, unsteady-state gas-oil, USBM wettability, pore volume compressibility, Archie cementation exponent
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-54)
+
+Case history of coring, freezing, and routine and special analysis of 120 ft of unconsolidated Gulf Coast sandstone; unsteady-state gas-oil relative permeability proved most reliable for simulation.
+
+A 120 ft whole core from an unconsolidated Gulf Coast sandstone was frozen with dry ice at the wellsite, chopped, shipped, CT scanned, slabbed and plugged using liquid nitrogen to build a reservoir simulation model. Routine analysis of 93 plugs at 2100 psi net stress gave porosity of 7.9-38.5% (average 34.2%) and air permeability of 0.06-3310 md (average 1980 md), with vertical and horizontal permeability equivalent. Special tests on three intervals covered acoustic velocity, pore volume compressibility (36-66 x10^-6), and electrical properties (m = 1.41, n = 2.02). Using the measured m reduced the log-calculated water saturation by 7-10 percent, matching capillary pressure values. USBM wettability was slightly water-wet to slightly oil-wet (0.100 to -0.229), so preserved-state samples were used. Steady-state water-oil curves were consistent (residual oil 30.2%), but steady-state gas-oil tests gave high residual oil (51.7%) due to end effects, so unsteady-state data (residual oil 34.0%) were used in the model.
+
+## Teague-Blinebry Improved Oil Recovery Feasibility Study
+
+- ID: SCA1999-58, year: 1999
+- Authors: Robert K. Svec, Reid B. Grigg
+- Method: field or reservoir case study
+- Keywords: minipermeameter, fracture conductivity, CO2 flooding, slim tube MMP, wettability index, log-derived net pay
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-58.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-58)
+
+Core tests, well-log pay analysis and slim-tube MMP work show the tight, fractured, oil-wet Blinebry dolomite responds to water and CO2 flooding; the upper Blinebry is the target.
+
+The Teague-Blinebry field in Lea County, New Mexico, has low matrix permeability and expects primary recovery below 10% of OOIP, so water and CO2 injection feasibility was assessed. Work included description of 251 ft of core, minipermeametry on 79 intervals, brine permeability on eight plugs, water and CO2 floods on two plugs, wettability, and slim-tube MMP tests. Matrix permeability is very low (rarely above 1 md), but a fractured plug had 0.53 md versus 0.003 md for the matrix, and step-rate tests gave an effective permeability of 1.15 md. CO2 produced significant oil after waterflood, wettability index was -0.608 (strongly oil-wet), and MMP was about 1000 psig or the bubble point if higher. Log analysis of 18 density/neutron wells and 57 sonic wells gave OOIP and net pay for 65 wells; the upper Blinebry holds about 70% of net pay and is the main target.
+
+## Core Petrophysical Measurements on Unconsolidated Sands in Deep Water Reservoir
+
+- ID: SCA2000-34, year: 2000
+- Authors: B. Levallois
+- Method: data analysis or correlation
+- Keywords: unconsolidated sands, grain size distribution, formation exponent m*, Juhasz shaly sand model, cation exchange capacity, core log upscaling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-34)
+
+Petrophysical data on 1000 unconsolidated deep-offshore sand samples link porosity and permeability to grain size, show m* varies with clay content, and use upscaled core logs to match well logs.
+
+Coring of unconsolidated deep-offshore tertiary sands requires careful petrophysics. Porosity, permeability, grain size by laser diffraction and XRD mineralogy were measured at reservoir effective stress on 1000 clean sands (<5% clay) from 6 fields. Porosity (20-40%) and permeability (100 mD to 5 D) are uncorrelated, but porosity increases with finer median grain size and better sorting, while permeability shows a weaker trend with grain size and sorting. On 37 shaly samples from two wells, CEC correlates linearly with clay content and the shaly-sand formation exponent m* increases with clay content, so assuming constant m* in the Juhasz method is erroneous. Continuous centimetric core logs of porosity, permeability, grain density and clay content, built from plugs, CT and sedimentology and then smoothed over 60 cm, match well-log interpretations where direct sample-to-log comparison fails.
+
+## Integration of Core, Log and Test Data to Improve the Characterisation of a Thinly Bedded Reservoir
+
+- ID: SCA2001-04, year: 2001
+- Authors: Magdalena Wisniak, Xu-Dong Jing, Paul Blair
+- Method: field or reservoir case study
+- Keywords: NMR T2 cut-off, low resistivity pay, Waxman-Smits, smectite clay, irreducible water saturation, thin beds
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-04)
+
+Integrates core, NMR, logs, FMI and well tests for a smectite-rich thinly bedded gas sand, showing high water saturation is largely immobile irreducible water; the NMR T2 cut-off is 7 ms.
+
+Thinly laminated, low resistivity turbidite sands in an Eastern Mediterranean field are poorly resolved by conventional logs. Routine and special core data from three wells were reviewed; XRD showed 16-38 wt% clay (mixed illite/smectite, smectite, illite), and effective porosity exceeding total porosity was attributed to clay swelling and bulk volume errors. Archie, Indonesia, Simandoux and Waxman-Smits models were compared; Archie gave total water saturation in the low resistivity sands, while Waxman-Smits gave the highest gas saturation, with Sw still about 60-70%. Low-field NMR (2 MHz) on three samples showed a dominant clay-bound peak near 1 ms. A desaturation experiment gave a T2 cut-off of 7 ms instead of 30-40 ms, so Swirr was 73-83% instead of 89-92%, and the NMR permeability estimate changed by up to an order of magnitude. Well test interpretation using an FMI-based facies model and a net-to-gross of about 20% gave about 200 mD near the well, consistent with core data, and explained dry gas production from the high-Sw interval.
+
+## A New Methodology to Derive Both Relative Permeability and Effective Permeability Reduction Profile from Numerical Simulations of Formation Damage Experiments
+
+- ID: SCA2001-25, year: 2001
+- Authors: P. Egermann, D. Longeron, F. Lamy
+- Method: numerical simulation
+- Keywords: formation damage, water-based mud, oil backflow return permeability, history matching, relative permeability, flow initiation pressure
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-25)
+
+A 1-D simulation-based method splits water-based mud damage in Berea cores into solids-invasion and filtrate-trapping effects; higher oil backflow rates give better permeability restoration.
+
+Water-based mud invasion damages near-wellbore permeability through both internal filter cake from solids and aqueous filtrate trapping (relative permeability effect). IFP ran dynamic mud leak-off tests on two Berea cores (2100 md, 33 cm; 641 md, 10.4 cm) at 60°C and 20 bar overbalance, followed by oil backflow at 30–500 cc/hr, with pressure taps along the long core. Effective permeability reduction profiles were fitted with a three-parameter model (S, Xe, a), and a 1-D two-phase simulator was history-matched to pressure drops and filtrate production. A single set of water/oil relative permeability curves matched each core and resembled standard water-wet Berea curves. Restoration of permeability improved with backflow rate (the damaged-face section ratio rose from 0.04 at 30 cc/hr to 0.17 at 500 cc/hr, and Xe fell from about 5 to 2.7 cm), and the trapping of filtrate contributed significantly to the damage.
+
+## Coring in the New Millennium
+
+- ID: SCA2001-40, year: 2001
+- Authors: Abdel-Hamid Anis
+- Method: field or reservoir case study
+- Keywords: core barrel design, pre-split inner tube, core damage, core recovery, fractured carbonates, Thamama reservoir
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-40)
+
+A new stiffer core barrel with a pre-split two-half-shell inner tube reduces core damage and gives over 30% more usable core in Gulf carbonate case histories.
+
+Conventional coring systems damage cores through barrel buckling, lateral loads, and sawing or pushing cores out of inner tubes, which compromises petrophysical and rock mechanics data. The paper describes a new core barrel with four-fold greater flexural resistance, full-gauge stabilisers at each joint and top and bottom inner barrel bearings. It also uses a pre-split inner tube made of two half shells that can be opened immediately for core inspection. Case histories from Gulf reservoirs (Thamama and Arab carbonates, barrel lengths 40 to 180 ft) showed average core recovery of 98.7% and over 30% more usable core, especially in fragile zones. Traditional barrels left 8-12% of recovered core stuck in the inner tube. The pre-split tube also allowed rapid structural and fracture analysis of oriented cores with minimal handling.
+
+## Understanding Reservoir Continuity in the Mid to Late Jurassic Laminaria Formation, Australian Timor Sea, by Integrating Core and Log Data
+
+- ID: SCA2001-43, year: 2001
+- Authors: Duncan Barr, Russell Gray
+- Method: field or reservoir case study
+- Keywords: hydraulic units, flow zone indicator, Kozeny-Carmen, permeability prediction, reservoir continuity, Laminaria Formation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-43)
+
+Core, biostratigraphy and hydraulic unit analysis show Laminaria Formation sandstones are laterally continuous, and hydraulic units predict permeability in thin sandstones better than porosity-permeability or facies correlations.
+
+The study aimed to establish the lateral continuity of reservoir sandstones in the Middle to Late Jurassic Laminaria Formation, Timor Sea, and to assess thin high-permeability sandstones near the formation top. Twelve wells, nine of them extensively cored, were used, with biostratigraphy, sedimentological core descriptions, ichnofacies, routine core analysis and wireline logs. Eight Hydraulic Units were defined from FZI (modified Kozeny-Carmen) using cluster analysis and histograms. Bayesian prediction from gamma ray, sonic and neutron-density logs extended these units to uncored intervals, and permeability was then calculated from the predicted units. A blind test on well Vidalia-1, with a learning set from six other wells, showed hydraulic unit permeability prediction agreed better than single-line or facies-based porosity-permeability correlations. Most facies, including the thin upper sandstones, were laterally continuous, though some top sandstones pinch out toward the southeast. Subsequent reservoir simulation raised estimated ultimate recovery.
+
+## Low-Invasion Coring in West Siberia, Direct Estimation of Core Fluid Saturation
+
+- ID: SCA2001-51, year: 2001
+- Authors: Igor V. Fedortsov, Yevgeny A. Romanov, Vyacheslav M. Ilyin
+- Method: field or reservoir case study
+- Keywords: low-invasion coring, oil-based mud core, tracer filtrate invasion, water saturation, resistivity-saturation relationship, West Siberia
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-51.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-51)
+
+Compares low-invasion and oil-based mud cores from three Surgut dome fields, showing resistivity–water saturation relationships agree when tracer screening removes filtrate-invaded samples.
+
+Oil-based mud coring is costly, so OJSC Surgutneftegas tested low-invasion coring in Surgut dome fields of West Siberia. Filtrate invasion was controlled with tracers added to the drilling mud. Pore water was displaced with non-polar oil and its resistivity and chemistry measured, so invaded or diluted samples could be rejected. Water saturation could be corrected only for filtrate dilution up to about 30%. In three fields (permeability from 1 mD to 2 D, porosity 10-30%, including oil-wet rock), resistivity versus water saturation from low-invasion core matched oil-based mud core. In field B about 30% of the core was heavily invaded, but the remaining samples gave results consistent with capillary pressure curves. The authors conclude low-invasion coring is effective and cheaper than oil-based mud coring if technology requirements are strictly met.
+
+## Use of Low-Invasion Coring Technique for Estimation of Reserves Depletion in the Field Samotlor
+
+- ID: SCA2001-52, year: 2001
+- Authors: Bulat Y. Hairullin, Vener G. Mamyashev, I.S. Jaffarov, Chingiskhan I. Khalikov
+- Method: field or reservoir case study
+- Keywords: low-invasion coring, residual oil saturation, water retaining capacity, formation water salinity, resistivity-saturation relation, Samotlor field
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-52)
+
+Low-invasion water-base-mud coring in a Samotlor well, combined with resistivity and water-retention relations, identifies poorly drained zones and shows interlayers below 80-100 mD were not depleted.
+
+Samotlor's main formations (AV2-3, AV4-3, BV8) are heavily depleted and water-cut, and log-based oil saturation is uncertain because formation water salinity changed during waterflooding. Low-invasion coring with water-base mud was run in a well, with samples cut at liquid nitrogen temperature to preserve saturation. Tracer concentrations in the mud varied too much for quality control, so invasion was assessed from pore-water mineral content and chemical composition, using aqueous extracts and displacement of interstitial water with non-polar oil. Theoretical resistivity-water saturation curves for 14 g/l (injected) and 26 g/l (connate) brine were compared with core data. The maximum Sw error was under 15% at 6 Ohm and 30% porosity. An algorithm combining porosity, water retaining capacity (Sw0), relative water saturation versus height above OWC, and resistivity separates poorly drained from watered intervals. Interlayers with permeability below 80-100 mD were not involved in depletion in the AV group.
+
+## Evaluation of Formation Damage Caused by Completion and Workover Fluids
+
+- ID: SCA2001-66, year: 2001
+- Authors: Yousry Abdou Zayed, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: formation damage, completion fluids, return permeability, workover, Nubia sandstone, oil-wet wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-66.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-66)
+
+Core tests on Nubia sandstone show completion and workover fluids cut oil permeability to 7-74% of initial, with fluid solids the main damage cause.
+
+Productivity losses after workovers in three wells were linked to completion fluids: CaCl2 (95% decline), filtered seawater (100%) and diesel (48%). Laboratory work on Nubia sandstone core (average 450 mD, 16% porosity, 5% water saturation, grain density 2.64 g/cc) included conventional analysis, thin section, XRD and wettability data indicating an oil-wet system. XRD showed 95 wt% quartz and 2 wt% kaolinite, and water sensitivity and velocity tests showed no clay swelling or fines migration. Return permeability tests with flow opposite to production gave final oil permeabilities of 7% to 74% of initial values. The author concludes that solids in the fluids are the major cause of damage and recommends solids control, fluid filtration, and minimizing overbalance.
+
+## Use of a Non-Destructive Method to Estimate Drilling Fluid Invasion Depth in Cores, Application to Formation Damage
+
+- ID: SCA2002-19, year: 2002
+- Authors: H. Menouar, H. M. Aman, A. A. Al-Majed, M. A. Khan, S.Z. Jilani
+- Method: laboratory experiment
+- Keywords: drilling fluid invasion, ultrasonic velocity, formation damage, return permeability, particle size bridging, skin factor
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-19)
+
+Ultrasonic velocity profiling of Berea cores maps drilling mud invasion depth; larger mud particles reduce invasion, skin and permeability loss, while longer contact time worsens damage.
+
+Drilling fluid invasion causes formation damage, and the paper proposes ultrasonic wave propagation along the core as a non-destructive way to measure invasion depth. Oil-saturated Berea sandstone cores at irreducible water saturation were contaminated in a dynamic leak-off cell (150 F, 100 psi overbalance) with four water-based muds differing only in average particle diameter (8, 12, 21, 41 microns). The method was validated on a core half-contaminated and half-virgin, where velocity was clearly higher in the invaded zone. Invasion depth decreased with increasing particle diameter, and the effect was stronger at 30 h than at 4 h contact. Return permeability ranged about 34-61% and rose with particle size until a plateau near 15 microns. Skin, calculated with Hawkins' relation, fell with larger particles and rose with longer contact time.
+
+## Investigation of the Oil Saturation of the Swept Zone of the Harding Field, Ukcs
+
+- ID: SCA2003-34, year: 2003
+- Authors: J Williams, K Sincock, Integrated Core
+- Method: laboratory experiment
+- Keywords: Archie saturation exponent, resistivity index, electrical anisotropy, residual oil saturation, swept zone, gamma saturation monitoring
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-34)
+
+SCAL resistivity index tests at reservoir conditions on Harding swept-zone plugs show directional anisotropy and lower saturation exponents at Sor, improving log-based remaining oil estimates.
+
+Remaining oil saturation in the swept zone of the Harding field could not be measured directly on core from well 9/23b-A21 because of synthetic oil-based mud and gas-drive expulsion. Plugs from an unconsolidated sandstone were tested at reservoir stress, temperature and pressure for porosity, formation factor 'm' and resistivity index 'n'. Porosity fell to 0.955-0.963 of ambient values and m changed only from 1.756 to 1.721. Resistivity index was measured along and across the plugs after drainage to Swi and then waterflood to Sor at a reservoir-like advance rate, with saturation monitored by gamma attenuation. Horizontal n at Sor was lower than drainage n (Sample 3: 1.749 vs 2.27, about 5.5 saturation units at 1 ohm-m and 30% porosity), while vertical n at Sor was higher (up to 2.89), indicating anisotropy from oil trapped in pore attics. The authors recommend imbibition n at Sor in the direction suited to well inclination, with sqrt(nv·nh) for horizontal wells, and the highest Rw and n, which indicates better sweep than previously thought.
+
+## Effectiveness of a Complex Approach Towards the Study of the West Siberia Pukurian Suite Reservoirs Presented by Poorly Cemented Rocks
+
+- ID: SCA2003-57, year: 2003
+- Authors: V. Fedortsov, V. Toporkov, B. Hairullin
+- Method: field or reservoir case study
+- Keywords: poorly cemented sandstone, low-invasion coring, fluorescein tracer, core freezing, effective gas permeability, resistivity index
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-57)
+
+Low-invasion coring in plastic inner barrels with liquid-nitrogen freezing of poorly cemented Pokurian sands enabled reliable porosity, permeability and saturation data and revealed thin lamination in PK-1.
+
+Poorly cemented Pokurian suite reservoirs (PK-1, Severo-Komsomolskoye field) were poorly characterized because old coring methods gave bad recovery. About 28 m of core was cut with a KIM barrel in disposable plastic inner barrels using water-base polymer mud with fluorescein tracer, then frozen in liquid nitrogen for plugging and analysis. Tracer data showed filtrate invasion generally under 10% (typically 5-6%), so only two samples were excluded. Core photos showed a thin-laminated reservoir instead of the homogeneous one assumed earlier. Best reservoirs had porosity above 40% and gas permeability up to 1000 mD or more, with porosity falling 2.5-3.5 absolute percent at reservoir stress. Effective gas permeability best represents in-situ permeability. Water saturation and resistivity agreed closely with OBM core, and porous-plate data gave m=1.70 and n=1.62 for estimating oil and gas saturation from logs.
+
+## Examination of Unconsolidated Core by Nuclear-Magnetic Resonance Method
+
+- ID: SCA2003-65, year: 2003
+- Authors: Toporkov V.G, Rudakovskaya S.Yu, Rakhmanin M.Yu
+- Method: laboratory experiment
+- Keywords: unconsolidated core, liquid nitrogen freezing, NMR T2 relaxation, porosity and permeability, core lifting fluid loss
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-65.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-65)
+
+NMR relaxation, porosity, permeability and petrography show liquid-nitrogen freezing (-196 °C) of unconsolidated Miocene sand cores does not significantly alter pore structure, partly because cores are not fully saturated.
+
+Unconsolidated sand and clay reservoirs in Russia (West Siberia, Sakhalin offshore) are sampled by freezing cores in liquid nitrogen, and the effect of freezing on rock properties was unclear. Miocene Sakhalin core was sampled both by plunger pressing out without freezing and by liquid-nitrogen freezing, and porosity and permeability were compared (20 samples each). NMR (CoreSpec-1000, CPMG, TE = 0.5 ms) T2 distributions before and after freezing showed no substantial change in clay porosity, capillary-bound water or effective porosity, and thin-section petrography showed no grain shift or shatter. Experiments modelling core lifting with CH4 or CO2 showed fluid loss from degassing, which generally offsets the volume expansion from water crystallization, so cores are not fully saturated at freezing. A composite NMR core holder for 0-50 MPa confining and pore pressure was built, and initial results indicate that measurement conditions strongly affect relaxation curves of unconsolidated rocks.
+
+## Revitalizing the Use of Sponge Core for the Determination of Remaining Oil Saturations in Carbonate Reservoirs
+
+- ID: SCA2004-31, year: 2004
+- Authors: J. Funk, M. Al-Khan, R. Eyvazzadeh, P. Dudenas, D. Jones, B. Wilson
+- Method: field or reservoir case study
+- Keywords: sponge coring, remaining oil saturation, tracer analysis, NMR log-inject-log, X-ray CT scanning, Arab-D carbonate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-31)
+
+Saudi Aramco's revived sponge coring in an Arab-D well, with tracers, CT imaging and whole-core analysis, benchmarked NMR log-inject-log remaining oil saturation with low core flushing (<10%).
+
+Saudi Aramco resumed sponge coring after twelve years to measure remaining oil saturation in the Arab-D carbonate reservoir of Ghawar field. A low-invasion coring system was used with iodide and bromide tracers, and cores were preserved in ProtecCore, CT scanned, photographed under white and UV light, and analyzed by Dean-Stark and sponge oil extraction. Of 202 whole core samples (160 ft, 90.6% of the 176 ft target), tracer data showed flushing below 10%, and average fluid saturation was 83%. Bulk volume oil was bounded by a decreasing function of RQI. NMR log-inject-log with MnCl2-doped mud compared well with sponge core ROS, and NMR-derived Sw with MDT Rw supported resistivity interpretation, with mismatches tied to lithology changes.
+
+## The Manufacture and Use of Artificial Consolidated Core Samples in China
+
+- ID: SCA2004-43, year: 2004
+- Authors: Q. Jishun
+- Method: review or workflow
+- Keywords: artificial consolidated core, quartz sand cementation, similarity principle, capillary pressure curve, oil-water relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-43)
+
+Reviews Chinese technology for making artificial consolidated cores (materials, forming, cementation, evaluation) and shows they closely match natural cores in basic properties, capillary pressure and relative permeability.
+
+Suitable natural or outcrop cores are often unavailable or expensive, so China has developed artificial consolidated cores for oil-water displacement studies. The paper reviews the design based on similarity principles and the manufacturing steps: material screening (quartz sand skeleton, organic or inorganic cement), forming (dry compaction, vibration, casting, filled sand) and cementation at low temperature (below 100 °C) or high temperature (up to 800 °C). Evaluation covers porosity, permeability, capillary pressure, relative permeability, wettability, mechanical and fluid-sensitivity parameters, plus repeatability. A comparison of artificial and natural cores from Shengli Oilfield shows similar air permeability (0.453 vs 0.466 and 1.097 vs 1.070) and similar pore structure parameters, with capillary pressure and relative permeability curves close to natural rock. The author notes remaining problems: uniformity and repeatability, strength, lack of artificial fractured limestone, and the absence of industry standards.
+
+## Improving the Evaluation of Petrophysical Properties for Unconsolidated Sands
+
+- ID: SCA2005-34, year: 2005
+- Authors: Carlos A. Grattoni, Magdalena Wisniak, X.D. Jing
+- Method: laboratory experiment
+- Keywords: synthetic core plugs, unconsolidated sands, NMR T2 cut-off, stress hysteresis, Archie cementation exponent, turbidite laminated sands
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-34)
+
+Synthetic plugs rebuilt from loose turbiditic sands reproduce original core porosity and cementation exponent well and permeability fairly, and support NMR, capillary pressure and resistivity measurements.
+
+Unconsolidated turbiditic sands from the Mediterranean Lower Pliocene are hard to plug, and core plugs often disintegrate during testing. The authors built synthetic plugs from the loose material of ten disintegrated cores and cycled them twice between 500 and 1800 psi hydrostatic stress in a multi-sample cell, measuring porosity, formation factor and brine permeability. Large loading-unloading hysteresis was seen in porosity, formation factor and permeability, while the Archie cementation exponent stayed almost constant. At 600 psi, synthetic-plug porosity and cementation exponent matched the original core data very well, and permeability correlated but was lower by up to a factor of five, possibly from fines segregation. NMR T2 gave porosity within 2.5 p.u., a T2 cut-off of 7.1-9.8 ms (versus the conventional 33 ms), a combined permeability model using Ffi/Bvi and T2 geometric mean that outperformed Coates and Kenyon, and NMR-derived drainage capillary pressures agreeing well with measured curves.
+
+## Coring and Core Analysis: Challenges of Offshore Ultra Deep Water Reservoirs
+
+- ID: SCA2007_21, year: 2007
+- Authors: John Shafer, Tom Fate
+- Method: review or workflow
+- Keywords: synthetic base mud filtrate, HTHP viscosity, interfacial tension, Biot coefficient, pore volume compressibility, effective stress permeability
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_21)
+
+Reviews coring and core analysis challenges for ultra-deep-water Gulf of Mexico reservoirs at over 20,000 psi pore pressure, covering mud filtrate, viscosity, IFT, stress, permeability and compressibility.
+
+Lower Tertiary Paleogene reservoirs in the ultra-deep-water Gulf of Mexico have pore pressures above 20,000 psi and temperatures of 230-260°F, creating coring and laboratory challenges. Synthetic-base mud filtrate alters wettability and contaminates wireline oil samples (up to 30%), so sized CaCO3 bridging and controlled trip rates are recommended. Viscometers are limited to about 20,000 psi and no HTHP certified standards exist, giving roughly 20% viscosity uncertainty; live-oil IFT uncertainty could reach 100%, changing OOIP by about ±20% for ~1 mD rock but ±2% for ~100 mD. Net confining stress changes from about 2,000 to 6,600 psi when a Biot coefficient of 0.8 is applied. Permeability rises with pore pressure (10-50% by 20,000 psi), and pore volume compressibility roughly doubles at reservoir temperature when water is present, with lower Young modulus.
+
+## Core Petrophysical Synthesis Carried Out at a Scale of a Basin, Some Examples from Tertiary Offshore Reservoirs
+
+- ID: SCA2007_27, year: 2007
+- Authors: M. Bennes, G. Hamon
+- Method: data analysis or correlation
+- Keywords: multi-field core synthesis, unconsolidated turbidites, stress correction, capillary pressure water saturation model, Dean-Stark, core petrophysical log
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_27)
+
+A multi-field core synthesis of 1800 turbidite samples, corrected to common stress and quality-controlled, yields facies trends, a Pc-based Sw model, outlier detection and core-log agreement.
+
+Single-field core studies risk bias from limited sampling and selective acquisition, so the authors pooled data from more than 1800 samples, 22 wells and 8 fields in Tertiary turbidites. Porosity and permeability were corrected to a 125 bar effective stress using 42 compressibility tests (permeability corrections of 10-38% per 100 bar), and 200 samples were discarded after quality control with XRD, grain size and CT data. Within each facies, permeability-porosity scatter is controlled by clay fraction, and one deeper reservoir (Res X) is an outlier with about 7 s.u. lower porosity and lower permeability, attributed to quartz overgrowth cementation. From 84 drainage Pc curves (69 retained, MICP, centrifuge, porous plate), a single Sw model versus permeability and height above FWL was built (r² 0.64-0.86), and it agrees with 251 Dean-Stark saturations. Core petrophysical logs upscaled with a 50 cm window agree with log-derived Sw, with the largest discrepancies (>±10 s.u.) in rapidly varying facies.
+
+## The Value Added from Proper Core Analysis
+
+- ID: SCA2008-04, year: 2008
+- Authors: Bård Ottesen, Odd Hjelmeland
+- Method: review or workflow
+- Keywords: special core analysis, relative permeability, JBN end effects, rock typing, pore volume compressibility, in-situ saturation monitoring
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-04)
+
+Four field examples show that carefully planned, representative core analysis, including rock typing, stress-sensitivity and process-focused SCAL, changes reservoir development decisions and adds substantial value.
+
+The paper argues that representative core and properly designed core analysis programmes are essential for field development, covering core handling, rock typing, plug selection, and choice of experimental conditions. Four examples illustrate this. In a low-permeability gas reservoir, conventional core analysis (USD 3,500) led to testing a sand that logs had dismissed, adding about 75 mmcf, a cost-benefit ratio of 1:129. In a weakly consolidated sandstone field, measured pore volume compressibility (porosity falling from 0.325 to 0.256 at 10,000 psi) contradicted analogue values, and production dropped from ~8 to 1.5-3 mmcfgd, leading to reduced chokes, frac-packed replacement wells and avoided drilling. In an unconsolidated heavy-oil sand, in-situ saturation monitoring showed non-uniform profiles, so JBN interpretation was misleading versus simulation-corrected relative permeability. In Middle East carbonates, new SCAL with rock typing, CT plug selection, aged preserved samples and reservoir conditions gave lower early water kr and much higher oil kr near residual saturation than old data.
+
+## Value of Information from a Diverse Portfolio of Coring and Core Analysis Projects
+
+- ID: SCA2010-04, year: 2010
+- Authors: O.B. Wilson, P.J. Tarabbia, A. Jabri, M. Kraaijveld
+- Method: review or workflow
+- Keywords: value of information, SCAL program design, core recovery and quality, peer review, electrical properties sensitivity, tight gas
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-04)
+
+PDO describes a structured workflow of peer review, VOI analysis and milestone gating for coring and SCAL programs, illustrated by three Oman case studies.
+
+The paper presents Petroleum Development Oman's process for planning, justifying and executing coring and SCAL programs using value of information (VOI) analysis, mandatory peer reviews, milestone decision gates and close-out reviews. Historical KPIs from 108 coring jobs give probability of success for coring (≥90% recovery with quality 2 or better) of 81% in carbonate and 66% in sand. Case 1 (gas reservoir) uses a decision-uncertainty matrix to show a perfect-information VOI of $3.0M, and the peer review required a formation water sample and clay study before SCAL. Case 2 (carbonate oil field) showed that quality-filtered legacy SCAL was sufficient for a full history match, delivering the study 18 months early. Case 3 (tight gas) used m and n sensitivity analysis to limit new work to formation factor and MICP, since n-exponent measurement in tight sand is unreliable.
+
+## Maximizing the Value of Core
+
+- ID: SCA2010-05, year: 2010
+- Authors: Lee E. Whitebay Whitebay
+- Method: review or workflow
+- Keywords: core handling and preservation, coring program planning, drilling fluid filtrate invasion, wettability preservation, master orientation line, sampling priorities
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-05)
+
+A non-technical review arguing that early, stakeholder-agreed planning of coring, handling, preservation and sampling sequence maximizes core data value relative to acquisition cost.
+
+The paper addresses how core data accuracy can be compromised during cutting, handling, transport, storage and sampling, and how planning prevents this. It reviews reasons for coring, how data priorities shift over a field's life, and cost drivers such as rig time and special drilling fluids. It stresses wettability preservation and mechanical integrity as the main concerns, and compares cheap low-additive muds against costly low-invasion fluids with tracers. Practical recommendations include a written plan with checklists, a dedicated project coordinator, early contact with service companies, marking core with a master orientation line, depth matching core gamma to logs, and sampling in priority order (whole core, plugs, SCAL, then slabbing). Planning is recommended six months to a year before coring; no experimental data are presented.
+
+## Preservation of Core Integrity: A Comparative Study of Core Stabilization Products
+
+- ID: SCA2010-07, year: 2010
+- Authors: Salima Baraka-Lokmane, Malcolm Wignell, Martin Smith, Bas Schipper
+- Method: laboratory experiment
+- Keywords: core stabilization, Lithotarge, expandable foam, epoxy resin, contact angle wettability, XRD XRF invasion
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-07)
+
+Four core stabilization products were tested on eight sandstones; foam and Lithotarge did not invade pores or alter wettability, while resins invaded and epoxy changed wettability.
+
+Core stabilization products injected between core and liner may invade pores and alter rock properties such as wettability. Eight sandstones (porosity 18-27%, permeability 103-2337 mD) were encased with polyester resin, epoxy resin, Lithotarge and expandable foam. Thin sections, SEM, XRD and XRF assessed invasion, and ESEM and goniometer contact angles assessed wettability. Foam and Lithotarge showed minimal infiltration (below about 1 wt% by XRD) and left wettability unchanged. Polyester resin penetrated deeply and epoxy partially, and epoxy made sample S1 oil wet. The authors recommend foam and Lithotarge, and advise against resins for samples intended for special core analysis.
+
+## Well Site Core Stabilization and Packaging - the First Step in Acquiring Undisturbed Core –
+
+- ID: SCA2010-35, year: 2010
+- Authors: Jean-Valery Garcia, Julien Rousseau, David Dourel, Kirk Petrophysics
+- Method: laboratory experiment
+- Keywords: core stabilization, core transportation, shock accelerometer, CT scanning, polyurethane foam, unconsolidated core
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-35)
+
+Crash tests on stabilized and unstabilized sand-pack cores in foam-lined containers, monitored by accelerometers and CT, show stabilization and proper packing prevent transport damage.
+
+Core damage during handling and transport can compromise formation evaluation, and the effect of packaging on core integrity had not been well studied. The authors ran 256 test combinations using artificial unconsolidated sand packs (25% water saturation, 1% or 3% cement) with polyurethane foam or epoxy resin stabilization, hard, soft, flat or mixed foam layers, and with or without foam pillows. Containers holding up to 20 m of 4-inch core were subjected to lateral forklift bumping, angular drops from 13 cm and forklift transport over broken ground, with triaxial accelerometers recording shocks and CT scans taken before and after. Peak accelerations were highest in the bottom layers (about 6-8 G versus about 3-4 G at top), and soft foam gave lower accelerations than hard foam, which bounced. Non-stabilized cores showed structural damage on CT while foam-stabilized cores showed none. Recommendations include loading core from the top layers down, leaving bottom layers empty, filling voids with foam pillows, and installing shock trackers.
+
+## Some Practical Lessons Learned During 30 Years in the SCAL Lab
+
+- ID: SCA2011-01, year: 2011
+- Authors: E. M. (Ted) Braun
+- Method: review or workflow
+- Keywords: gas diffusion through sleeves, tin pest, oil-water separator, steady-state relative permeability, equilibration time, water evaporation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-01)
+
+A veteran SCAL consultant describes experimental artifacts from hardware and fluid behavior, such as gas diffusion and tin pest, and advocates rehearsing tests with simple calculations.
+
+The paper collects practical problems met over 30 years of special core analysis. Examples include gas diffusion through rubber sleeves, nitrogen confining fluid and Teflon bags, and tin foil degrading to grey powder (tin pest) in cold storage. Others are density-sensitive oil-water separators, HCl formed from chlorinated solvents and water that attacked stainless steel, and calcium sulfate precipitating at heat-trace hot spots. It also shows how hand calculations can screen tests beforehand: the brine permeability time constant rises from about 2 min at 1 mD to about 200 min at 0.01 mD, and steady-state equilibration at fw of 0.0001 would take about 5.4 days against 1.3 days at 0.01. Other cases cover choosing fractional flows and estimating water evaporation during gas flow. The main lesson is to consider hardware and fluids alongside the rock, investigate anomalies, document failures, and pre-calculate expected results.
+
+## Freezing Procedure, the Key for a Successful Formation Evaluation Program - How to Ensure Core Samples Remain Frozen During the Entire Processing and Transportation Stage –
+
+- ID: SCA2011-40, year: 2011
+- Authors: Julien Rousseau, Francois Ollivier, Scott Parker, Kirk Petrophysics
+- Method: field or reservoir case study
+- Keywords: core freezing, dry ice, unconsolidated core, core preservation, thermocouple monitoring, core transportation
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-40)
+
+Field freezing tests with dry ice pellets, liners and instrumented shipping containers show how pellet size, liner material and lithology control core freezing time, yielding operational recommendations.
+
+Freezing is used to preserve unconsolidated cores, but poor planning and temperature control can damage cores and compromise later analyses. The authors ran freezing tests with thermocouple probes in the core centre, using dry ice pellets or blocks, in Brazil and UK conditions (10-30 °C ambient). Using 1.6 mm pellets gave uniform freezing in about 180 min, versus 240 min for 6 mm pellets and over 400 min for blocks not in contact with the liner. Aluminum liners froze about 15% faster than fiberglass (180 vs 210 min). Freezing time rose with ambient temperature, oil saturation and shale content (240 min for oily sand, over 500 min for shale). Pellets sublimate 40-50% faster than blocks, and metal reinforcement of the shipping container raises sublimation by about 20%. The paper recommends full-length freezing with the smallest pellets, a probe every meter, and a detailed logistics plan.
+
+## The Core Analysis Elephant in the Petrophysics Room
+
+- ID: SCA2012-29, year: 2012
+- Authors: C. McPhee, United Kingdom
+- Method: review or workflow
+- Keywords: sleeve conformance pressure, Archie cementation and saturation exponents, formation factor, mercury injection capillary pressure, SCAL quality control, STOIIP uncertainty
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-29)
+
+Shows how unreported lab artefacts distort porosity, Archie exponents and MICP, and proposes a management roadmap that cut unfit SCAL data from about 70% to under 10%.
+
+An audit of over 30,000 SCAL measurements suggests about 70% are unfit for purpose, owing to poor test design, reporting and client-lab communication. Examples show how small artefacts have large effects: wrong sleeve conformance pressure underestimated stressed porosity by 7% and GIIP by 4%, and surface brine at ambient conditions biased Archie m by -30% and n by +15%. Grain loss can cause a 20 saturation unit error in Sw, and high-pressure mercury injection on small chip samples distorts capillary pressure curves. For a 100 MMstb North Sea example these errors shift STOIIP by -8, +12 and -7 MMstb. The proposed roadmap uses a client core analysis focal point, better test and reporting specifications, plug history sheets and real-time QC, reducing data redundancy from 70% to below 10%.
+
+## Evaluation of the Micro-Core Quality Using Drilling Mechanics Data
+
+- ID: SCA2012-38, year: 2012
+- Authors: Yuichi Shinmoto, Shinichi Kodama, Benoit Deschamps
+- Method: field or reservoir case study
+- Keywords: micro-core bit, drilling mechanics, weight-on-bit, core recovery, micro-core quality index, PDC bit
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-38)
+
+Field tests of an 8-1/2" micro-core bit in andesite, marble and tuff relate drilling parameters to core recovery and propose a micro-core quality index (MCQI).
+
+Micro-core bits cut roughly 1-inch cores continuously while drilling, but cores can be damaged during drilling and circulation. Eight field tests were run with an 8-1/2" PDC micro-core bit in Ashino-andesite (UCS 14 MPa), white marble (122 MPa) and Oya tuff (7 MPa), with instrumented recording of ROP, WOB, torque, rotary speed, flow rate and pump pressure. Core recovery was nearly 100% in most cases, 86% in Case 5, and 78-91% in the tuff cases (in Case 7 the sample bottom fell out). In Case 1, quality dropped with higher ROP, and jamming at the bit stalled drilling near 1 m depth. Reducing rotary speed to 25 RPM and raising WOB to 30 kN restored ROP to 3 m/hr and improved quality. A quality index (MCQI) based on sieve and caliper measurements of maximum and minimum core diameter was proposed and matched visual quality along depth.
+
+## Core Derived Data in Near Wellbore Modelling
+
+- ID: SCA2012-48, year: 2012
+- Authors: M. Byrne, E. Rojas, Y. Sorrentino, United Kingdom
+- Method: numerical simulation
+- Keywords: return permeability, formation damage, computational fluid dynamics, finite element modelling, sand production, Drucker-Prager triaxial calibration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-48)
+
+Shows how core-derived return permeability and triaxial strength data feed CFD inflow and finite element sanding models to predict formation damage impact and sand onset.
+
+Core test results are often extrapolated to the near wellbore with crude models. Two examples show how core data can be fed into detailed numerical models. In the first, return permeability tests on three mud systems gave filtrate damage depth and mud cake permeability, which were input to a 3D CFD inflow model; predicted rates were 6300 stb/d for undamaged open hole and 5200 stb/d for a perforated case with crushed zone and Mud 2. In the second, triaxial stress-strain curves for two cases were matched with an extended Drucker-Prager elasto-plastic finite element model, giving critical plastic strains of 5 and 2 millistrains. Well-scale plane strain models predicted no sanding for Case 1, while Case 2 exceeds its limit at drawdowns above 15 MPa, with no safe drawdown below about 27 MPa reservoir pressure.
+
+## Extreme HPHT Coring, Handling and Analysis
+
+- ID: SCA2013-031, year: 2013
+- Method: review or workflow
+- Keywords: HPHT coring, oil-based mud tracers, D2O Dean-Stark, CMT-1000, core handling, mud invasion
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-031)
+
+Case history of planning and executing wellsite core handling and laboratory analysis for extreme HPHT North Sea wells, using tracers and integrated procedures to limit core damage.
+
+The paper presents a case history of coring, handling and analysing core from extreme HPHT exploration wells in the UK Central Graben, with pressures up to 25,000 psi and temperatures up to 400 F. It describes integrated planning with an extended operator and contractor team, a continuous-learning cycle (PEAL), and an HSE-led approach. Wellsite measures included D2O and CMT-1000 tracers in the oil-based mud, cooling of core in Blandol baths, handling cradles and spreader bars to avoid flexing, preserved SCAL and geomechanical samples, and shock monitors during transport. Laboratory work covered CT scanning, spectral core gamma, a cleaning and drying study (XRD, SEM), 360-degree and plug imaging, and helium porosity and CMS-300 permeability. The D2O results showed no water-phase invasion in most samples, which identified robust Dean-Stark saturations. CMT-1000 showed significant oil-phase invasion only in high-permeability zones, and the authors conclude that mud solids optimisation could reduce invasion in future wells.
+
+## Alternatives to Conventional Techniques for Quantifying Liquid Fluids Contents on Large Batches of Bitumen-Saturated Samples
+
+- ID: SCA2013-035, year: 2013
+- Authors: B. Lalanne, JB. Berrut
+- Method: measurement technique or apparatus
+- Keywords: solid-phase extraction, ASPEC, Dean Stark, bitumen content, Retort, ASE
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-035.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-035)
+
+Automated solid-phase extraction (ASPEC) was selected over Retort and Dean Stark for bitumen content on over 17,000 core samples, agreeing well with Dean Stark and ASE QC checks.
+
+A bitumen mining coring campaign (130 shallow wells, up to 300 measurements per day, over 17,000 samples) needed fast, cheap, transportable and HSE-friendly fluid content measurements. The authors compared Retort, Dean Stark, Rock-Eval, ASE and ASPEC solid-phase extraction, and chose ASPEC (3 min per sample, up to 480 per day, 3 ml dichloromethane, about US$10 per sample versus US$75-100 for Dean Stark). The protocol grinds the sample, dries it at 45°C to get water by mass balance, extracts bitumen with DCM at ambient temperature, and evaporates the solvent. Feasibility tests showed Iatroscan compositions of ASPEC (20°C) and ASE (100°C) extracts were similar. Repeatability was good, grinding size had limited effect, and results on twin plugs correlated satisfactorily with ASE and Dean Stark. Random QC checks during the campaign (every ~100 samples against a second ASPEC, every ~20 against Dean Stark) showed no drift or bias.
+
+## A New Coring Technology to Quantify Hydrocarbon Content and Saturation
+
+- ID: SCA2013-094, year: 2013
+- Authors: Matt Bjorum
+- Method: field or reservoir case study
+- Keywords: pressure coring, gas in place, lost gas, shale gas, canister desorption, core retrieval
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-094.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-094)
+
+Describes a pseudo pressure coring tool with a variable-volume barrel and canisters; in a dry shale gas test, lost-gas estimates exceeded 50% of gas in place.
+
+Conventional coring loses gas and fluids on the trip to surface, so gas-in-place must be estimated with lost-gas models. The paper describes a pseudo pressure coring tool that seals the core at reservoir conditions and lets fluids expand into storage canisters on a variable-volume system. This lowers working pressure (max 1000 psi, 250°F) and allows 3-4 inch diameter cores up to 10 ft long, run on conventional or wireline platforms. In a dry shale gas case study, conventional canister samples were compared with adjacent pressure cores, with gas measured in a heated water bath, then in the lab, plus residual gas. The traditional lost-gas estimate accounted for more than 50% of the gas in place, showing large losses with conventional coring. Values are withheld for confidentiality, and further porosity, saturation and adsorption measurements are ongoing.
+
+## A Coring Matrix for Success
+
+- ID: SCA2014-086, year: 2014
+- Authors: Mike Gay
+- Method: review or workflow
+- Keywords: coring program design, core catcher, PDC bit, unconsolidated sand coring, core preservation, coring fluid
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-086.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-086)
+
+Presents a decision framework linking lithology and analysis objectives to coring tools, fluids, parameters and handling, illustrated with unconsolidated sand for SCAL and carbonate for routine analysis.
+
+Core data quality depends on core quality, which depends on matching coring tools, fluids, parameters and handling to rock type and planned analyses. The paper classifies coring objectives as archival, geomechanical/geochemical, routine, and special core analysis. Two scenarios are worked through: unconsolidated sand for SCAL and carbonate for routine analysis. For unconsolidated sand it recommends a full-closure catcher, a PDC bit at ≤1 ft/min, vented inner barrels, shorter barrels, and bland water-based mud with pH 7.0-8.5. For carbonate it recommends collet catchers, PDC or TSP/diamond bits depending on vugs and fractures, and long barrels. Common guidance covers slow trip-out, core cradles, marking, stabilization, and shipping with shock/tilt sensors, and a table maps bits, catchers and barrel materials to applications.
+
+## Sand Control for Unconsolidated Heavy Oil Reservoirs: A Laboratory Test Protocol and Recent Field Observations
+
+- ID: SCA2015-055, year: 2015
+- Authors: U.G. Romanova, M. Piwowar, T. Ma
+- Method: laboratory experiment
+- Keywords: sand control, slotted liners, wire wrapped screens, SAGD, unconsolidated heavy oil, produced fines
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-055)
+
+A sand control coreflood protocol for unconsolidated heavy oil reservoirs compares slotted liners and screens; results agree with Western Canada SAGD field observations.
+
+Sand production and liner plugging are major problems in unconsolidated heavy oil reservoirs, especially under thermal operations such as SAGD. The authors describe a laboratory protocol using reservoir core, synthetic brine and mineral oil matched to in-situ viscosity, with coreflood tests at field-representative rates. Pressure drop across the sand control media and mass of produced fines are measured, with a device judged inadequate if more than 0.1 g fines are produced or delta P exceeds 5 psi. Results show that slot aperture of about 1.8 x D10 works rather than the conventional 2 x D10 (for sand with under 5 wt% fines below 44 microns), that rolled top liners outperform straight cut, and that wire wrapped and premium screens plug less than liners. Field data from the Leismer and JACOS Hangingstone SAGD projects, with gradual plugging and failures in liners and low pressure drop for screens, are consistent with these trends. Over 1000 tests have been run and the protocol is an industry standard in Western Canada.
+
+## Manufacture of water wet artificial core by chemical modification method
+
+- ID: SCA2016-094, year: 2016
+- Authors: Haojun Xie, Aifen Li, Jianfei Qin, Bonifasi Lazaro
+- Method: laboratory experiment
+- Keywords: artificial core, chemically modified epoxy, water-wet, contact angle, stress sensitivity, NMR pore distribution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-094.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-094)
+
+Epoxy E-51 modified with glycine yields water-wet quartz-sand artificial cores that match conventional epoxy cores in porosity, permeability, and pore structure, and remain stable after soaking.
+
+Conventional epoxy-cemented artificial cores are oil-wet, while sintered or surfactant-treated cores suffer from water sensitivity and unstable wettability. The authors modified E-51 epoxy with glycine (epoxy:glycine mole ratio 3:1, 80°C, 3.5 h) to add hydrophilic groups, cured it with triethanolamine at 65°C, and cemented 100–120 mesh quartz sand into 1-inch cores. Oil-water contact angles were about 106° on ordinary epoxy coating versus 40.5° on modified epoxy, and 103° versus 47° on core slices. Eight cores had porosity of about 0.35 and gas permeability of about 1450–1510 mD regardless of epoxy type. After 48 h soaking in kerosene or 5 wt% brine, stress sensitivity stayed low (permeability above 85% of initial at 10 MPa), and NMR showed similar single-peak pore distributions for both core types.
+
+## Offshore Wireline Coring – Closing Technical and Economic Gaps
+
+- ID: SCA2016-098, year: 2016
+- Authors: Dave Whitby, Coring Technical
+- Method: review or workflow
+- Keywords: wireline coring, offshore coring, drilling insert, surface pressure control, core tripping, core surface logging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-098.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-098)
+
+Argues that modern wireline retrievable coring has overcome historical safety, core quality and technical objections, offering offshore operators more core and substantial rig-time savings.
+
+The paper reviews why wireline coring has seen limited offshore uptake, citing perception, small historical core diameters, differential sticking and swabbing concerns, well control, and core degradation during tripping. It describes modern solutions: cores up to 3.5 in. diameter and 56 m length, large-bore drillstrings, coring jars, surface pressure control rated to 15,000 psi, circulating/rotating arrangements, and drilling inserts that allow coring and drilling in one BHA trip. Benefits include retrieval at about 70 m/min, more core per well, fewer trips, reduced sidewall coring, quick logging of cores at surface, and fast resolution of jammed runs. The author concludes savings are proven in thousands of onshore wells and reported in limited offshore cases. This is a qualitative review without new experimental data.
+
+## Rock Strength Prediction During Coring Operation
+
+- ID: SCA2017-048, year: 2017
+- Authors: Dee Moronkeji, Raul Villegas, Richard Shouse, Umesh Prasad
+- Method: data analysis or correlation
+- Keywords: unconfined compressive strength, mechanical specific energy, rate of penetration, acoustic slowness, Young's modulus, coring bit selection
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-048.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-048)
+
+Log-derived UCS from acoustic slowness is compared with lab triaxial strength on cement, shale, sandstone and granite cores, and related to ROP and mechanical specific energy.
+
+Coring planning needs reliable rock strength estimates, so a proprietary acoustic-slowness UCS model was validated against laboratory data from a well in Okmulgee County, Oklahoma. Cement, shale, sandstone and basement granite cores were tested with triaxial, ultrasonic, indirect tensile and XRD measurements. The log-based UCS matched lab values well for shale and cement, but under-predicted sandstone, where the Freyburg correlation worked better. ROP decreased with increasing UCS and Young's modulus, and lower grain modulus corresponded to higher ROP, though XRD data were limited to six samples. MSE decreased as ROP increased in both drilling and coring data, and was higher in shale than sandstone; granite had very low ROP (0.5 ft/hr) with a bit not suited to it.
+
+## A New Chemical Remediation Product to Prevent Sand Production from Unconsolidated Porous Media
+
+- ID: SCA2018-041, year: 2018
+- Authors: B. Marchand, C. A. Davy, F. Agostini, F. Skoczylas, A. Lange, L. Jeannin, P. Egermann
+- Method: laboratory experiment
+- Keywords: chemical consolidation, sand production, fluidization test, polyacrylamide binder, gas storage, gas permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-041.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-041)
+
+Novel chemical binders injected into compacted sand analogues strengthen them like PAM, resist water injection better, and binders E and F preserve gas permeability.
+
+Sand production in unconsolidated gas-storage reservoirs can be limited by chemical consolidation, but existing binders such as PAM reduce permeability and lose strength with water. Compacted standard siliceous sand tubes (10 mm diameter, porosity 26.5-28.5%) were used as analogues of the weakest in situ sandstones (porosity 15.5-28.7%), checked by porosity and MIP/micro-CT pore size distributions. Seven new binders (SB, A-F) were injected, flushed with air and matured under three schemes (m1-m3, 20 or 70 °C), then tested by argon fluidization up to 15 ln/min or 0.5 MPa, with and without water injection. Binders A-D gave Pmax 1.5-3.1 times that of PAM and survived water injection, but gas permeability fell 1.3-2.2 times below PAM. Binders E and F gave Pmax similar to PAM without permeability loss and kept strength after water injection at 70 °C, but failed after 20 °C maturation; PAM and SB failed after water injection.
+
+## Formation Damage in the Inter-Well Zones: Experiments and Advanced Analytics
+
+- ID: SCA2018-043, year: 2018
+- Authors: Denis Orlov, Dmitry Koroteev
+- Method: data analysis or correlation
+- Keywords: self-colmatation, fines migration, formation damage, machine learning, XGBoost, feature importance
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-043)
+
+Predicts self-colmatation (fines-migration permeability damage) in Vendian sandstones from rock properties using cross-plot correlations and machine learning; machine learning gave higher R2 and consistent feature rankings.
+
+Self-colmatation, the permeability loss caused by entrainment of in-situ fines during clean water injection, was studied in Lower Vendian sandstones of the Nepa-Botuoba Arch. Twenty-two single-phase water floods at residual oil saturation (porosity 6-21%, permeability 10-1650 mD) gave permeability reductions of 1.02 to 4.76 times after 3.5-20 pore volumes. The curves were fitted with a three-parameter model (α, n, Rmin), which was then related to 16-17 rock and flooding features by manual cross-plots and by machine learning, with missing data filled by neural networks. Machine learning models reached R2 of 0.68 (α, XGBoost), 0.61 (n, Lasso) and 0.44 (Rmin, Gradient Boosting), above the manual averages of 0.62, 0.36 and 0.33. Permeability, porosity, microcline content and the fractions of 6-12 µm and >30 µm pore throats were the dominant features, and the two approaches largely agreed. The small dataset with missing values limits the reliability of these R2 values.
+
+## Integrated workflow for rotary sidewall cores orientation: best practices and examples from planning to execution
+
+- ID: SCA2021-027, year: 2021
+- Authors: Giorgio Volonté, Antonella Bersani, Roberto Berto, Riccardo Cerri, Fabio Pinelli
+- Method: review or workflow
+- Keywords: rotary sidewall cores, core orientation, X-ray CT unrolled image, borehole image logs, bedding dip matching
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-027)
+
+Presents a workflow matching X-ray CT unrolled images of rotary sidewall cores to borehole image logs to reconstruct in situ orientation, with handling requirements and two field examples.
+
+Rotary sidewall cores are increasingly used instead of bottom hole cores, but their in situ orientation is unknown, which limits geomechanical, permeability anisotropy, fracture and sedimentological studies. The paper sets minimum requirements for coring planning (before and after image logs, tool procedures), wellsite handling, marking, photography and CT scanning. It introduces the Eni SideWall Core Goniometry (e-SWCG) procedure: a 360° unrolled CT image (about 250 µm resolution) is loaded in dip-analysis software as an image log and rotated by trial and error until a geological feature matches the sinusoid picked on the log image. The method fixes the vertical direction uniquely, leaving a 180° azimuth/high-low side ambiguity that needs extra information such as post-coring images, tool taxi azimuth or wellbore end identification. In a carbonate case with all variables unknown, a match was reached after testing four base cases and a further 25° rotation. In a clastic case with tool taxi azimuth, a 10° lateral shift gave the match.
+
+## Laboratory Measurement of Total Porosity and Fluid Saturations for Unconventional Tight Rocks: Methodologies, Challenges, and Comparison
+
+- ID: SCA2023-021, year: 2023
+- Authors: Min Cheng, Rayvan Watson, Alberto Latuff, Aaron Rodriguez, Peter Kaufman, Joshua Miller, Rafael A. Mendoza, Elizabeth Krukowski, Robert Cole
+- Method: laboratory experiment
+- Keywords: crushed rock analysis, closed retort, NMR T2 cutoff, T1T2 maps, Bakken, total porosity
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-021)
+
+Compares CRA, 300C closed retort and NMR porosity and saturations on 15 Bakken cores, and derives NMR T2 cutoffs from retort free/bound fluid separation.
+
+Total porosity and fluid saturations in tight unconventional rocks differ between crushed rock analysis, retort and NMR because of differing assumptions and uncertainties. Fifteen Bakken samples (Upper/Lower Bakken Shale, Middle Bakken, Three Forks) were tested with NMR (Te 0.1 and 0.2 ms, T1T2 maps) and 105/300C closed retort, and compared with legacy CRA/RCA, with XRD, TOC and MICP support. In shales, CRA porosity was about 31% higher than retort and 25% higher than NMR, likely from solvent removal of bitumen; NMR in non-shales was about 14% above RCA and 20% above retort. Crushing lost about 3.5% of liquid, and the 300 kppm brine required a supersaturated density/HI extrapolation (1.23 g/ml, HI 0.86). Combining retort free/bound water with NMR gave T2 cutoffs averaging 0.16 ms for shales, 0.91 ms for Middle Bakken and 4.59 ms for Three Forks.
+
+## Core preservation packaging materials and techniques, their advantages and limitations
+
+- ID: SCA2023-036, year: 2023
+- Authors: Douglas Boyd, Mohamed Al Tamimi, Hesham Shebl
+- Method: review or workflow
+- Keywords: core preservation, laminate bags, wax and wrap, oxygen scavenger, water loss, wettability preservation
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-036)
+
+Reviews core preservation materials (cling film, foil, wax, laminate bags, immersion) and storage, concluding laminates beat wrap-and-wax and suggesting a 2-3 year preservation limit.
+
+The paper reviews materials and techniques for preserving cores after reaching surface, drawing on published studies (Hunt and Cobb 1988, Auman 1989, Wunderlich 1991, Garcia 2007, Rousselle 2014) and ADNOC experience. Cling films, especially post-2004 LDPE Saran Wrap, have high oxygen permeability and can swell in crude. Aluminum foil leaks at folds and corrodes in brine or at extreme pH, and waxes do not stop oxygen ingress or water loss. Wax-and-wrap samples lost 50-80% of water in two years versus 2-5% for laminate bags, and ADNOC whole cores were dry after five years. Laminate bags are recommended with vacuum, inert gas flush, oxygen scavenger and humidification, while oil immersion suits shale. Storage at 4-10 °C and 45-55% RH is advised and 2-3 years is offered as a preservation limit.
+
+## Pre-operational drilling fluid evaluation of oil- and water-based drilling muds considering the impact on core analysis. A case study from the Upper Jurassic in the Northern North Sea
+
+- ID: SCA2024_1060, year: 2024
+- Authors: Norbert Schleifer, Jörn Schünemann, Oliver Czuprat, Ricardo Leo Marques Rouxinol, Arild Fjogstad
+- Method: laboratory experiment
+- Keywords: drilling mud contamination, wettability alteration, spontaneous imbibition, clay swelling, Kirby sandstone, XRF and μ-CT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1060)
+
+Three drilling muds (one OBM, two WBM) were tested on Kirby sandstone and cuttings for clay swelling, wettability alteration and formation damage; the OBM was selected despite greatest wettability change.
+
+Core analysts are rarely involved in drilling fluid selection, yet muds can alter core properties. Two water-based and one synthetic oil-based mud were tested on Upper Jurassic cuttings (clay swelling) and on Kirby sandstone plugs (about 20% porosity, ~30 and ~40 mD) at Swi, after 24 h ultracentrifuge exposure at 50°C. The OBM limited clay swelling to under 4.5%, versus 9.7–18.6% for the WBMs and 20–31% for tap water. Flow-through cleaning with 5 PV oil removed OBM almost completely (mass change under 0.54 g), but left about 1 g (#2 WBM) and over 2 g (#3 WBM). Spontaneous imbibition showed all muds reduced water-wetness, with the OBM largest (Sw increase below 10%, versus above 20% for dummies); μ-CT and XRF detected barite on the outer surface of #2 WBM plugs and bromide from #3 WBM. Pre- versus post-test porosity and permeability dropped mainly for the WBM plugs, and the OBM was chosen for drilling based on overall performance and traceability.
+
+## First Offshore Deployment of Large-Diameter Pressurised Coring Technology in a Mature Waterflooded Field
+
+- ID: SCA2026-039, year: 2026
+- Authors: Dave Saucier, Pavel Gramin, Rufat Guliyev, Murad Murtuzaliyev, Kevan Sincock, Tobias Rothenwänder, David Wunsch, Erik Anders, Ludovic Delmar
+- Method: field or reservoir case study
+- Keywords: pressure coring, remaining oil saturation, Dean-Stark extraction, mud filtrate tracer, waterflood, log calibration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-039)
+
+Case history of the first offshore large-diameter pressure coring in a waterflooded field: six full-length runs, validated remaining-oil saturations agreeing with log-derived values despite two seal failures.
+
+Quantifying remaining oil behind the waterflood front in a mature offshore field is difficult with conventional coring, so a drillpipe-conveyed large-diameter pressure corer (LPC) was deployed from a PDQ platform in a complex 3D S-shaped sidetrack drilled with oil-based mud. Six 3 m runs cut 17.8 m and recovered 18.21 m (102%), comprising three mudstones and three sandstones; four runs held pressure to surface, while two sandstone runs had seal problems (one partial, one unpressurised). Cores were de-pressured at the wellsite with gas sampling and GOR measurement, then Dean–Stark extracted and corrected for mud filtrate using 1-BN oil tracer and for shrinkage. Annulus versus return-line tracer differed by only 0.7% (below 1% uncertainty), indicating negligible oil loss to the annulus. Core oil saturations agreed with log-derived values from Archie inputs and resistivity-while-drilling, and a wellsite Sor estimate matched laboratory results within about three saturation units for fully pressurised cores. Lessons included seal and core-catcher redesign, depth control, and hole cleaning.

@@ -1,0 +1,914 @@
+# Stress, compressibility and acoustic velocity
+
+> 70 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: stress, pore pressure, velocity, permeability, porosity, compressibility, acoustic, stresses, pore volume, loading.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Measurement of Pore Compressibility Characteristics in Rock Exhibiting "Pore Collapse" and Volumetric Creep
+
+- ID: SCA1991-24, year: 1991
+- Authors: J. M. Hamilton, J. L. Shafer
+- Method: laboratory experiment
+- Keywords: pore collapse, volumetric creep, pore compressibility, reservoir compaction, loading rate correction, diatomite
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-24)
+
+Hydrostatic compaction and creep tests on diatomite and carbonate show fast lab loading overestimates pore-collapse stress; a log-rate extrapolation corrects compaction predictions to field depletion rates.
+
+Standard lab pore compressibility tests load rocks at hundreds of psi/hr, versus about 0.01 psi/hr in the field, so rocks that creep show an apparent preconsolidation and an overestimated pore-collapse stress. Hydrostatic tests with tetradecane as pore fluid were run on a diatomite and a moldic carbonate, varying loading rate from 1000 to 10 psi/hr and including a 10-day constant-stress creep hold at 1500 psi. Creep was linear in void ratio versus log time, about 0.05 per log cycle for diatomite, matching the separation between loading-rate curves. Extrapolating five log cycles lowers the diatomite yield estimate by about 250 psi and the carbonate by about 1300 psi, and in a hypothetical 200 ft diatomite example raises predicted compaction from 4 ft to 20 ft. Incomplete pore pressure dissipation, seen as an overshoot after yield, can mimic rate effects; diatomite matrix permeability (0.003 md) was far below flow-through permeability (0.05 md), requiring about two hours between load steps.
+
+## Laboratory Measurement of Oil/Water Saturations by an Ultrasonic Technique
+
+- ID: SCA1992-11EURO, year: 1992
+- Authors: F. Deflandre, R. Lenormand
+- Method: measurement technique or apparatus
+- Keywords: sound velocity, saturation measurement, ultrasonic transit time, imbibition calibration, temperature effect, Biot theory
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-11EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-11EURO)
+
+Ultrasonic sound-velocity calibration for oil/water saturation in cores during imbibition is linear for So 0.2-0.5, can use effluent mass balance, but is highly temperature sensitive.
+
+Sound velocity through core samples is used to measure oil/water saturations during coreflooding, with calibration for immiscible fluids being the main problem. Piezoelectric transducers (about 350 kHz, 4 mm resolution, 1 ns timing) were used on Vosges and Berea sandstones and Lavoux limestone, with CT scanner (about 2% accuracy) and effluent mass balance as saturation references. For imbibition with connate oil, a linear relation between relative velocity and saturation holds for So of 0.2-0.5, and a single law fits all transducers in a homogeneous sample, so two effluent measurements can calibrate it. Temperature sensitivity is high: about +90 ns per °C in a Vosges sandstone at So=0.3, whereas pressure effect is about 35 ns per bar, mainly from the solid. The technique offers high speed, low cost and no safety hazards but is limited to liquids and needs thermal regulation.
+
+## Mechanical Properties Analysis: The Key to Understanding Petrophysical Properties Stress Sensitivity
+
+- ID: SCA1993-21, year: 1993
+- Authors: R.A. Farquhar, B.D.G. Smart, B.R. Crawford, A.C. Todd, J.A. Tweedie
+- Method: laboratory experiment
+- Keywords: stress sensitivity, Young's modulus, microcracks, strain relaxation, Rotliegendes sandstone, permeability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-21)
+
+Stress sensitivity of permeability and Young's modulus in Rotliegendes sandstones depends on facies; the porosity-modulus trend fails at low stress, indicating core-recovery microcracks.
+
+The study examines stress sensitivity of porosity, permeability, electrical conductivity and Young's modulus in low permeability Rotliegendes sandstones from three depositional facies (aeolian, fluvial, lake margin sabkha). Plugs were tested up to 34.5 MPa mean stress, with properties fitted by a dual exponential function, and elastic properties measured in a Hoek triaxial cell with strain gauges. Permeability dropped by 13% to over 90%, and Young's modulus rose by a factor of about 2 to 3.5 between 6.9 and 34.5 MPa. Stress sensitivity clustered by facies, with aeolian samples least and sabkha most sensitive in Young's modulus. The expected porosity-Young's modulus relationship developed only at high confining pressure. Anisotropy of Young's modulus, Klinkenberg slip-factor exponent (-0.37 at 6.9 MPa), and SEM/thin-section grain-boundary cracks support stress-relaxation microcracks, so low-stress routine core data may not represent in situ structure. Facies-based correction is proposed.
+
+## Laboratory Acoustic Measurements for Reservoir Characterization: Consequences of Core Alteration
+
+- ID: SCA1999-26, year: 1999
+- Authors: Rune M. Holt
+- Method: laboratory experiment
+- Keywords: core damage, elastic wave velocity, stress dependence, synthetic sandstone, velocity anisotropy, stress release
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-26)
+
+Synthetic sandstone made under stress and then unloaded and reloaded shows that coring stress release permanently lowers velocities by 9-12% and inflates measured stress dependence.
+
+Core damage from stress release is usually ignored when interpreting laboratory wave velocities. Synthetic sandstone (about 20% porosity, sodium silicate cemented with CO2 under 30 MPa axial and 15 MPa radial stress) was used to simulate coring by unloading, then reloading and uniaxial compaction, with P- and S-wave velocities measured at 0.5 MHz. Cementation raised P velocities from about 2200/1995 m/s to 3460/3325 m/s, while unloading strongly reduced velocities and inverted the anisotropy. After reloading to in situ stress, velocities stayed 9-12% lower (axial P 3050 m/s). Velocities of the simulated core rose near 10% when axial stress went from 30 to 60 MPa, versus 2-3% for virgin rock, and a natural sandstone core behaved qualitatively like the simulated core. The author concludes that much of the stress dependence seen in core studies is damage-related, which can bias reservoir monitoring feasibility assessments.
+
+## Stress Sensitivity of Saturation and End-Point Relative Permeabilities
+
+- ID: SCA2001-11, year: 2001
+- Authors: C. Jones, A. A. Al-Quraishi, J. M. Somerville, S. A. Hamilton
+- Method: laboratory experiment
+- Keywords: stress sensitivity, relative permeability, end-point permeability, initial water saturation, residual oil saturation, Locharbriggs sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-11)
+
+Oil-water flooding of Locharbriggs sandstone at 400–8000 psi shows Swi decreases, Sor increases and oil end-point permeability falls with stress, more than single-phase permeability.
+
+Little data exist on how multiphase flow properties respond to stress changes from pore pressure depletion. Six Locharbriggs sandstone plugs (porosity 25.4–28.0%, permeability 1051–1644 mD, strongly water wet, Amott-Harvey 0.91) were flooded to Swi and Sor in a Hoek cell, either with stress stepped up on one plug or with separate tests at 400, 3000 and 8000 psi. Saturations came from produced volumes corrected for stress-induced pore volume loss (about 5% at 8000 psi). Swi fell from about 0.40 at 400 psi to 0.385 at 3000 psi and 0.377 at 8000 psi, explained by brine squeezed from small pores. Sor rose with stress because oil volume stayed constant while pore volume shrank. Oil end-point permeability dropped about 15% from 400 to 3000 psi versus 8% for single-phase permeability, and kro at Sw=0.4 fell from 0.611 to 0.562. Water relative permeability showed no significant change.
+
+## Interpretation and Reliability of Laboratory Tests Measuring Porosity, Pore Compressibility, and Velocity on Unconsolidated Deep Offshore Reservoirs
+
+- ID: SCA2002-21, year: 2002
+- Authors: Luc Pauget, F. Specia, A. Boubazine
+- Method: laboratory experiment
+- Keywords: unconsolidated sand, pore compressibility, creep logarithmic law, loading rate correction, Cam Clay model, oedometric uniaxial strain test
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-21)
+
+Laboratory tests on unconsolidated reservoir sands show coring does not destroy mechanical properties; creep follows a logarithmic law enabling loading-rate correction, and isotropic tests convert to oedometric with a factor of about 0.67.
+
+Reliable porosity and pore compressibility data on unconsolidated sands matter for deep-offshore and heavy oil reservoirs, but coring damage and viscous behavior raise doubts. The authors simulated the coring stress path in the laboratory and found that hardening is erased and initial porosity drops, yet compressibility on virgin loading and P-wave velocity are unchanged, so mechanical properties are recovered. From hundreds of creep tests lasting 1 to 30 days, a logarithmic law (De Waal) fitted better than a finite-strain power law; the creep coefficient b (about 0.024 on average) was independent of stress between 40 and 300 bar. Loading-rate correction with this coefficient matched measured compressibility over a 100-fold rate range, with corrections of 6% for a tenfold and 12% for a hundredfold change. Using Cam Clay theory, isotropic compressibility equals oedometric compressibility times (1+2K'0)/3; with K'0 of 0.45-0.55 the factor is 0.63-0.7 (about 0.67), supported by test comparisons.
+
+## Laboratory Determination of Stress-Path Dependency of Directional Permeabilities of Estaillades Limestone
+
+- ID: SCA2008-26, year: 2008
+- Authors: J. Dautriat, N. Gland, A. Dimanov, J. Raphanel, O. Vizika
+- Method: laboratory experiment
+- Keywords: triaxial stress path, directional permeability, Estaillades limestone, pore collapse, yield cap, isopermeability contours
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-26)
+
+Triaxial tests on Estaillades limestone along stress paths K=0 to 1 with axial and radial permeability measurements show permeability loss depends strongly on stress path, greatest under hydrostatic pore collapse.
+
+Reservoir stress changes alter carbonate permeability and its anisotropy, but standard triaxial cells measure only axial permeability. The authors used a triaxial cell with flow ports measuring axial (full and mid-length) and two radial permeabilities on 38.1 x 80 mm Estaillades limestone plugs (porosity about 29%, k about 150 mD, bimodal pores at 10 and 0.2 µm). Samples were loaded continuously at constant K from 0 to 1. Low K gave brittle failure with dilatancy and microfracturing of dense aggregates, while high K gave pore collapse of macroporosity; hydrostatic stepwise loading showed collapse near 25-35 MPa with permeability falling to 10-20% of initial. Elliptic yield caps and a Mohr-Coulomb line were fitted, and isopermeability maps in (p',q) space show radial permeability decreasing faster than axial, largely controlled by mean stress near elastic conditions and by shear at low K.
+
+## Pore Pressure Effects and Permeability: Effective Stress Issues for High Pressure Reservoirs
+
+- ID: SCA2009-03, year: 2009
+- Authors: Greg Boitnott, New England, Testing Analysis John Shafer
+- Method: laboratory experiment
+- Keywords: effective stress coefficient, permeability, pore pressure depletion, Lower Tertiary sandstone, loading path, poroelasticity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-03)
+
+Cyclic brine permeability tests on a Lower Tertiary Gulf of Mexico sandstone give an effective stress coefficient for permeability of about 2 to 2.4, and depletion paths reduce permeability more than constant-pore-pressure tests.
+
+Routine permeability tests at reduced stress and low pore pressure may misrepresent deep, high-pressure Gulf of Mexico Lower Tertiary reservoirs. A 15 mD, 20% porosity sandstone was tested with a servo-controlled apparatus using steady-state brine flow and a protocol of three loading paths: equal changes in Pc and Pp, Pp change at constant Pc, and Pc change at constant Pp. The effective stress coefficient for permeability was 2.0–2.8 in the first test, with an average of 2.4. After repeated cycling over 5 days, permeability fell 30% and history dependence faded, giving values of 2.0–2.2. A poroelastic uniaxial-strain test showed true pore pressure depletion gave higher starting permeability and larger reduction than constant-pore-pressure loading at equivalent effective drawdown. The authors conclude that tests should use reservoir-representative stresses and pore pressures.
+
+## Pore Volume Compressibilities under Different Stress Conditions
+
+- ID: SCA1990-05, year: 1990
+- Authors: Ziqiong Zheng, John McLennan, Arfon Jones, Terra Tek, Salt Lake City
+- Method: laboratory experiment
+- Keywords: pore volume compressibility, uniaxial strain, pore pressure drawdown, hydrostatic compression, pore collapse, effective stress
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-05)
+
+Pore volume compressibility of sandstones measured under hydrostatic compression and simulated uniaxial-strain drawdown differs by up to a factor of two, so hydrostatic values misrepresent production conditions.
+
+Routine pore volume compressibility is measured under hydrostatic compression at constant (atmospheric) pore pressure, which does not reflect reservoir drawdown with constant overburden and zero lateral strain. Seven relatively unconsolidated sandstones were tested: three twin pairs (Group A) under both hydrostatic compression and simulated production, and four samples (Group B) under simulated production only. Drawdown ran from 4800 to 2000 psi with confining pressure servo-controlled to hold lateral strain constant. At equivalent effective mean stress, simulated-production compressibility was up to about twice the hydrostatic value (e.g., A-3 at 4200-2000 psi: 30.4 vs 22 ×10^-6 psi^-1; A-2: 28.9 vs 6). Samples A-1, A-2 and B-4 showed rising compressibility with drawdown, attributed to microfracturing and pore collapse driven by deviatoric stress. The authors conclude hydrostatic values should not be used directly for reservoir characterization and that compressibility depends on absolute pore pressure, not effective stress alone.
+
+## EFFECTS OF CORING ON PETROPHYSICAL MEASUREMENTS. Rune M. Holt, IKU Petroleum Research and NTH Norwegian Institute of Technology, Trondheim, Norway release effects can be studied in a systematic way
+
+- ID: SCA1994-07, year: 1994
+- Authors: Rune M. Holt
+- Method: laboratory experiment
+- Keywords: core damage, stress release, synthetic sandstone, acoustic velocity, porosity reduction, compaction
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-07)
+
+Synthetic sandstones formed under in situ stress and then unloaded and reloaded show that simulated coring permanently reduces porosity, sound velocities and compaction stiffness in weak sandstone.
+
+Core damage from stress release, pore pressure release, temperature change and non-native fluids can permanently alter core properties, so core data may not represent the in situ rock. Weak synthetic sandstones (about 30% porosity, unconfined strength below 5 MPa) were cemented with sodium silicate and CO2 under 15 MPa axial and 7.5 MPa radial stress in a triaxial cell. They then went through unloading-reloading cycles simulating coring, with anisotropic or isotropic unloading, fast or slow. Anisotropic unloading left permanent porosity reductions of 0.5-1% units, which implies a 10-15% permeability reduction by a Kozeny-Carman estimate. P- and S-wave velocities fell 30-50% during unloading and stayed 5-15% lower after reloading. The reloaded rock was 50-100% softer than virgin rock at low stress, so core data would overestimate reservoir compaction.
+
+## A Thermoporoelastic (T-P-E) Model Developed for Core Tripping Failure Analysis
+
+- ID: SCA2017-026, year: 2017
+- Authors: Rahman Ashena, Gerhard Thonhauser, Holger Ott, Vamegh Rasouli, Siroos Azizmohammadi, Michael Prohaska
+- Method: theory or analytical model
+- Keywords: core tripping, thermoporoelasticity, Griffith tensile failure, hydraulic diffusivity, induced stresses, tight gas core
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-026)
+
+A step-wise thermoporoelastic model predicts tensile failure of tight cores during tripping; thermal stresses are minor, and hydraulic diffusivity and bottomhole depth control safe retrieval.
+
+Tripping cores to surface drops confining pressure, pore pressure and temperature at the core boundary, and the lag in the core interior can induce tensile micro-fractures. The authors built an analytical thermoporoelastic model (Laplace transform solutions, implemented in Matlab) that treats tripping as discrete steps combined by superposition, and applies Griffith's tensile failure criterion to induced radial and hoop stresses. Benchmarking against a published Ansys-Fluent case (4-inch core, 2% porosity, 1502 m) showed good agreement, with the T-P-E model giving larger induced pore pressure because it includes mechanical and thermal effects. For a typical tight gas core (diffusivity 1e-8 m2/s, tensile strength ~2 MPa, 0.45 m/s tripping speed), thermal effects accounted for only about 6% of induced stresses. Failure was predicted for all bottomhole depths except 500 m, so the industry-suggested speed was judged unsuitable for very tight samples.
+
+## Boundary Effect on Porosity Measurements and Its Resolution by Method and Mathematical Means
+
+- ID: SCA1987-09, year: 1987
+- Authors: Servet Unalmiser
+- Method: laboratory experiment
+- Keywords: boundary effect, caliper bulk volume, surface pore volume, Hassler core holder, porosity correction, overburden pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1987/SCA1987-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1987-09)
+
+Shows that caliper bulk volume creates false surface pore volume that biases porosity, proposes two mathematical corrections, and shows early overburden porosity loss partly reflects sleeve conformance.
+
+Porosity from different methods differs because the plug surface boundary introduces distorted (false) pore volume. Six Berea and five Aramco sandstone plugs were measured six ways (helium Boyle's law in a Hassler holder, matrix cup, kerosene resaturation, caliper). The spread between lowest (direct PV/caliper BV) and highest (caliper BV minus matrix-cup GV) porosity averaged 1.2 porosity units (6.6%) for Berea and 4.4 units (16.8%) for Aramco. Two corrections were developed using surface pore volumes from mercury injection (0.025 cc Berea, 0.15 cc Aramco) and an assumed damaged surface depth tied to grain size. Full-diameter versus plug comparisons on Aramco limestones showed plug porosity 0.7–2.0 porosity units higher. A solid brass plug with machined channels lost all apparent pore volume by 600 psi confining pressure, showing that early porosity reduction under overburden is largely sleeve conformance, not compressibility. The authors recommend avoiding caliper bulk volume.
+
+## SCA1990-07EURO
+
+- ID: SCA1990-07EURO, year: 1990
+- Authors: John A. Nieto, David P. Yale, Robert J. Evans
+- Method: laboratory experiment
+- Keywords: core compaction correction, pore volume compressibility, biaxial loading, uniaxial correction, creep, formation resistivity factor
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-07EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-07EURO)
+
+Hydrostatic, slow-loading and biaxial tests on Central North Sea sandstones show compaction corrections below 0.95, with loading rate mattering more than stress state; uniaxial correction is questioned.
+
+Core compaction correction in the North Sea is commonly taken as 0.95, derived from hydrostatic tests plus a uniaxial correction factor of 0.62 based on linear elasticity (Teeuw). The authors tested 24 Jurassic and Triassic sandstone plugs using three-cycle hydrostatic loading to 10,000 psi (8 hours), single-cycle loading at 750 psi/day (10 days), and biaxial loading with radial/axial ratios of 0.65-0.85 derived from fracture gradients. At 6000 psi effective stress, porosity reduction factors were about 0.89 (Jurassic) and 0.93 (Triassic) for three-cycle tests, and 0.87 and 0.90 for 10-day tests, so slow loading (creep) gave larger reduction. Biaxial results were similar to or within 1% of three-cycle results, indicating rate of loading matters more than stress regime. They argue the uniaxial correction is invalid because porosity-stress curves are nonlinear, and recommend measuring porosity at an in-situ-equivalent hydrostatic stress (about 0.856 of effective overburden) applied slowly.
+
+## A Simple Check for the Presence of Solid Salt in the Pore Space of Gas Reservoirs by Comparing Porosity and Grain Density Changes Resulting from Salt Extraction
+
+- ID: SCA1990-11EURO, year: 1990
+- Authors: Werner H. Muck
+- Method: data analysis or correlation
+- Keywords: solid salt, salt extraction, Archimedes porosity, grain density, North German gas reservoirs, halite
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-11EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-11EURO)
+
+Compares porosity and grain density before and after salt extraction to compute the density of removed material, distinguishing natural solid salt from drying or mud-filtrate artifacts in North German gas reservoirs.
+
+North German gas reservoir cores often give porosities and grain densities that are too low when measured on uncleaned, oven-dried plugs, because of salt in the pore space. Porosity and grain density were measured by the Archimedes (isopropanol buoyancy) method before and after salt extraction, with repeatability of ±0.1 p.u. and reproducibility of ±0.2 p.u. The average density of the extracted material and an excess porosity term (accounting for 15% evaporation residue of saturated brine) classify samples into three types: no solid salt, natural solid salt (density 2.16 ± 0.2 g/cm3), or salt plugging pore throats. In a middle Bunter core, most of the 26 samples showed porosity rising from about 5% to 25% after extraction and extracted-material densities near 2.2 g/cm3, confirming halite. The error analysis shows interpretation becomes unreliable below a porosity change of 2 p.u. A routine screen of 200 wells flagged 15 as probably containing solid salt, found only in the middle Bunter and Zechstein. Only five of these had been noted in the original core reports. Plugs should be drilled with mineral oil if solid salt is indicated, since fresh water drilling raised permeability from 40 to 400 mD.
+
+## Poroperm Evaluation on in Relation to Applied Stress States for a Gas Reservoir
+
+- ID: SCA1990-13EURO, year: 1990
+- Authors: Rodney A. Farquhar, Dianne E. Tompkins
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, Klinkenberg permeability, stress state, helium porosity, Rotliegendes sandstone, drill stem test permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-13EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-13EURO)
+
+Porosity and Klinkenberg permeability of North Sea Rotliegendes sandstones were measured under hydrostatic, biaxial, triaxial and uniaxial stress; stress-corrected permeability averages matched DST values better than conventional data.
+
+Conventional core analysis is run at non-standard confining stresses, so the effect of stress state and rock type on porosity and permeability was tested. Plugs from Permian Rotliegendes lithic and sublithic arenites (aeolian, fluvial and lake margin facies) were loaded from 500 to 4000 psi in a purpose-built core holder, with helium porosity and Klinkenberg permeability measured at each step. Porosity fell by up to 18.5% (4000 vs 1000 psi), more under hydrostatic than biaxial loading and independent of facies. Permeability fell by roughly 15 to 70%, depending mainly on facies and less on stress state, and most of the reduction occurred in the first 1500 psi, possibly from sleeve compliance and stress-relief cracks. Facies-based conversion factors gave pseudo-stress permeability averages closer to DST permeabilities than conventional core data in most intervals.
+
+## Core Analysis to Calibrate Geophysical Interpretation
+
+- ID: SCA1991-02EURO, year: 1991
+- Authors: Dominique Marion, Bernard Zinszner
+- Method: review or workflow
+- Keywords: acoustic velocity, velocity-porosity relationship, sonic log calibration, pore geometry, clay content, velocity dispersion
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-02EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-02EURO)
+
+Reviews how porosity, pore geometry, saturation, fluid type and clay affect core acoustic velocities, and shows how core data calibrate seismic and sonic interpretation.
+
+The paper reviews how rock and fluid properties control acoustic velocity and how core measurements can calibrate geophysical interpretation. Core data show that velocity depends on porosity but also on pore geometry (vuggy dolomites have higher velocity at a given porosity), clay content (Han et al. regressions for Vp and Vs), stress, saturation and fluid type. Compressional velocity in tar sand can fall as much as 30% with heating versus 3-5% in water-saturated sand, supporting seismic monitoring of thermal EOR fronts. Applications include gas bright-spot discrimination using P and S waves, conversion of tomograms to porosity maps, and sonic log calibration, where upscaled core velocities agree with the sonic log within 3% in rapidly varying intervals. Core-derived velocity-porosity relations predicted reservoir porosity better than the time-average equation, which underestimated it. The authors caution that frequency dispersion and scale differences limit direct transfer of laboratory results to seismic and sonic scales.
+
+## Acoustic Core Analysis in Reservoir Appraisal
+
+- ID: SCA1991-11EURO, year: 1991
+- Authors: W. Keith Hirsche, Zhijing Wang, George Sedgwick, Western Geophysical, U.K. Isleworth
+- Method: laboratory experiment
+- Keywords: acoustic velocity, carbonate cores, Gassmann equation, pore aspect ratio, effective confining pressure, Vp/Vs fluid substitution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-11EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-11EURO)
+
+Ultrasonic P and S velocities on over 100 Alberta carbonate cores show pressure, porosity and saturation effects, and a three-type pore-geometry classification explains variable fluid sensitivity.
+
+The study addresses the non-unique link between seismic velocity and porosity, pressure and pore fluid in carbonates. Pulse-transmission velocities (500 kHz) were measured on more than 100 Alberta limestone and dolomite cores (porosity 0.02-0.21) at net confining pressures of 6.9-34.5 MPa, under gas, mineral oil, solvent and water saturation. Vp rose 2-35% in gas-saturated cores with pressure, and porosity-velocity correlation was -0.72 (gas) and -0.84 (oil). Gas-to-oil saturation raised Vp by an average 13%, 7% and 6% at 6.9, 20.7 and 34.5 MPa, while oil and water differed by under 3%. Gassmann predicted saturated velocities within about 2% on average, whereas the time-average equation under-predicted; Toksoz modelling attributed deviations to low-aspect-ratio pores. Cores were classified into Types 1-3 by saturation sensitivity (>10%, 5-10%, <5%), with Type 3 giving porosity correlations better than -0.9 and Vp/Vs averaging 1.85 in gas versus 1.97 in oil.
+
+## Integration of Core and Downhole Acoustic Measurements - Shear and Compressional
+
+- ID: SCA1991-12EURO, year: 1991
+- Authors: John A. Nieto, David P. Yale
+- Method: data analysis or correlation
+- Keywords: shear wave velocity, dipole sonic log, Biot-Gassmann, Poisson's ratio, static vs dynamic moduli, Rotliegendes sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-12EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-12EURO)
+
+Core P and S velocities on Rotliegendes sandstone agree with dipole sonic logs, giving porosity transforms; drained dynamic Poisson's ratio matches static, but other dynamic moduli do not.
+
+The study integrates laboratory shear and compressional velocities on brine-saturated Rotliegendes sandstone plugs and whole cores (1 to 4 in. diameter, two wells) with Mobil SWAL dipole shear and LSAL compressional logs. Velocities were measured to 5000 psi confining stress (4000 psi effective), with a compaction porosity correction of 0.94 of ambient. Core and log velocities agree well (shear transit time 123.0 vs 124.5 µs/ft), and porosity-velocity transforms reproduce core porosity over both wells. Velocities depend strongly on stress (ambient P velocity about 35% lower, S more than 50% lower than at 4000 psi) but show no apparent sample size effect, though samples larger than 2 in. are preferred. After Biot-Gassmann correction, dynamic Poisson's ratio correlates with static values, whereas dynamic Young's modulus is 3 to 5 times the static value and pore compressibility correlates poorly.
+
+## Rock Mechanics Contribution to the Determination of Fluid Flow Properties
+
+- ID: SCA1991-13EURO, year: 1991
+- Authors: Maurice J. Boutéca, Jean-Paul Sarda, Jérôme Laurent
+- Method: theory or analytical model
+- Keywords: Biot coefficient, poroelasticity, drained bulk modulus, diffusivity equation, carbonate porosity, compressibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-13EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-13EURO)
+
+Applies Biot poroelasticity to the diffusivity equation, measures Kd, b and M on five carbonates, and derives a porosity-based relation for Biot's coefficient b.
+
+The paper examines how rock deformation enters the pressure diffusivity equation using Biot's poroelastic theory. Two diffusivity coefficients result, for constant isotropic stress and for constant volumetric deformation, and they differ by about a factor of 2 for weak rocks such as Estaillades carbonate. Under isotropic stress, the drained bulk modulus Kd, Biot's coefficient b and the coefficient M were measured on five carbonates (porosity 4–29%) using cycles of confining and pore pressure with volumetric pumps. b rose from 0.34 (Larrys) to 0.88 (Estaillades), and M is approximated reasonably by the product of porosity and fluid compressibility. Measured b was compared with Hashin-Shtrikman and Miller lower bounds, and a phenomenological cubic-block model with Ec/Es = 0.19 fitted the b-porosity data well.
+
+## Static and Dynamic Testing of Coal Specimens
+
+- ID: SCA1991-20, year: 1991
+- Authors: Z. Zheng, M. Khodaverdian, J. D. McLennan, Terra Tek, Salt Lake City
+- Method: laboratory experiment
+- Keywords: coal, static and dynamic moduli, ultrasonic velocity, cleat saturation, Poisson's ratio, specimen preparation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-20)
+
+Ultrasonic velocities were measured on stepwise-ground coal during triaxial and hydrostatic loading; dynamic moduli exceeded static ones, and saturation raised P-wave but lowered S-wave velocity.
+
+Static and dynamic elastic properties of coal are poorly documented, and friability complicates specimen preparation. Stepwise grinding into a 60-sided polygon caused the least cleat disturbance compared with coring or water-saturated freezing. Two Pennsylvania-type coals (apparent porosity 4.2% and 7.1%) were tested dry and oil-saturated, with 1 MHz P and S velocities measured concurrently with strain during hydrostatic and triaxial loading. Dynamic Young's and bulk moduli exceeded static values and were most stress-sensitive at low effective stress, while Poisson's ratio showed no static-dynamic relationship. P-wave velocity rose with saturation, but S-wave velocity fell, which the authors attribute to fluid in cleats reducing solid contact and damping shear transmission, raising dynamic Poisson's ratio. Cyclic tests at 2000 psi confinement showed modulus falling from 470 to 310 ksi as cleat pressure rose from 500 to 1500 psi.
+
+## The Precision of Grain Volume Porosimeters
+
+- ID: SCA1991-29, year: 1991
+- Authors: Douglas Ruth, Terry Pohjoisrinne
+- Method: measurement technique or apparatus
+- Keywords: gas expansion porosimeter, grain volume, stochastic simulation, measurement precision, helium versus nitrogen, calibration standards
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-29)
+
+Stochastic modelling and repeat measurements on aluminium billets show gas expansion porosimeters are far more precise than transducer specs imply, and helium is preferred over nitrogen.
+
+The paper examines the precision of grain volume measurement in a gas expansion (Boyle's law) porosimeter. A stochastic model, with Gaussian pressure errors propagated through the calibration regression, was compared with repeat experiments using ball bearings and aluminium billets whose true volumes were established by chemical-composition density, Archimedes and small-chamber porosimetry. Quoted transducer precision (0.0025 of full scale) is really an accuracy; actual repeatability is about 0.0001–0.001, well within the 0.004 fractional error needed for grain density within ±10 kg/m³. Precision degrades when grain volume falls below 50% of chamber volume, and the optimum reference-to-sample chamber ratio is 0.25–0.5; initial pressure has little effect if the gauge range matches it. Caliper-derived volumes were inadequate as calibration standards, and nitrogen gave slightly lower grain volumes than helium on sandstones (up to 0.3%), suggesting adsorption, so helium is recommended.
+
+## Acoustic Properties and Their Dependence on Porosity, Mineralogy, and Saturation: Applications to Field-Scale Measurements
+
+- ID: SCA1992-03EURO, year: 1992
+- Authors: Dominique Marion, Diane Jizba
+- Method: laboratory experiment
+- Keywords: acoustic velocity, shaly sandstone, Gassmann theory, partial saturation, velocity dispersion, Vp/Vs
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-03EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-03EURO)
+
+Lab P and S velocities on shaly sandstones show porosity and clay control and Gassmann failure at partial saturation; calibrated relations are applied to sonic log interpretation.
+
+The study addresses how porosity, clay content, saturation and frequency affect P and S velocities in a North Sea shaly sandstone reservoir. Thirteen core samples (porosity 0.9-14%, clay 0-50%) were measured by pulse transmission at sonic and ultrasonic frequencies, up to 37 MPa confining pressure, with mineral moduli from drained unjacketed tests. Linear regressions of velocity on porosity and clay content were derived, showing clay affects shear velocity most and saturation mainly affects Vp. Gassmann underestimates the dry-to-brine velocity increase; a local-flow unrelaxed-frame model explains much of the dispersion, and a mixed relaxed/unrelaxed bulk modulus relation describes partial saturation. Core relations matched well-log data and were used to estimate porosity from shear sonic and to identify gas zones from Vp/Vs, confirmed by neutron-density crossover.
+
+## Sonic wave velocity and X-ray tomography images for partially saturated rocks. Evidence of microscopic fluid distribution effect on acoustic properties
+
+- ID: SCA1992-14EURO, year: 1992
+- Authors: Thierry Cadoret, Dominique Marion, Bernard Zinszner
+- Method: laboratory experiment
+- Keywords: resonant bar, partial saturation, P-wave velocity, X-ray tomography, fluid distribution, drying and depressurization
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-14EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-14EURO)
+
+Resonant-bar sonic velocities on partially saturated limestones, with X-ray tomography saturation maps, show Vp at high Sw depends on drying versus depressurization because of different fluid distributions.
+
+Sonic velocities (1 m, 8 cm diameter resonant bars) were measured on eight quarry limestones (porosity 18-40%, permeability 8-4000 mD) at partial water saturation. Saturation was changed by drying (drainage) and by spontaneous imbibition followed by depressurization. Vs decreased with Sw only through density and did not depend on the saturation method. Vp was method-independent for Sw between about 15% and 80%, but above 80% it rose strongly with Sw in drying while staying near the density trend under depressurization until close to 100%. X-ray tomography saturation maps showed millimetric homogeneity for depressurization at all Sw, but centimetric gas clusters in drying at high Sw. The fully saturated centimetric patches stiffen the rock, so Vp interpretation requires knowing the fluid distribution.
+
+## Some Core Analyses Issues Related to Deep Water Gulf of Mexico Turbidites
+
+- ID: SCA1993-15, year: 1993
+- Authors: R. M. Ostermeier
+- Method: laboratory experiment
+- Keywords: reservoir compaction, unconsolidated turbidite sands, pore volume compressibility, creep relaxation, oil permeability at Swi, stress cycling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-15)
+
+Stress tests on unconsolidated deep-water GOM turbidite sands show widely varying compressibility and creep, and compaction cuts oil permeability 4 to 5 times more than porosity.
+
+Compaction of highly geo-pressured, unconsolidated deep water Gulf of Mexico turbidites threatens subsidence, casing integrity and productivity, so a special core analysis program measured stress effects on porosity and permeability. Sample quality was controlled by CT scanning, thin sections and careful brine/solvent cleaning to avoid polymer and iron-oxide plugging. Stress cycling of twin plugs gave no benefit: it did not speed equilibrium or improve accuracy, and changed porosity at in situ stress by under 0.5 porosity units. Isostatic tests on four prospects showed large differences in pore volume compressibility and creep, explained by load-bearing ductile grains (Prospects A, B, C) versus hard-grain Hertzian elasticity (Prospect D, about 1% strain, 70% rebound). Oil permeability at initial water saturation (to avoid fines movement) fell 4 to 5 times more than porosity in relative terms, with permeability-porosity following a single curve independent of creep for monotonically increasing stress.
+
+## Routine Determination of Pore Compressibility at Any Pressure Based on Two Point Measurements
+
+- ID: SCA1993-17, year: 1993
+- Authors: Servet Unalmiser, Terry J. Swalwell
+- Method: measurement technique or apparatus
+- Keywords: pore volume compressibility, net overburden pressure, Boyle's law porosimeter, poroelasticity, uniaxial strain conversion, power-law pore volume–pressure relation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-17)
+
+A power-law fit of pore volume versus net overburden pressure, measured at two or more stresses in a porosimeter, gives pore compressibility at any pressure for 714 carbonate and 32 sandstone plugs.
+
+Conventional pore compressibility tests are slow and costly. The authors measure pore volume at increasing confining pressure with pore pressure near atmospheric, using a microcomputer-controlled helium Boyle's law porosimeter. Pore volume versus pressure follows V_p = b·P^-m on a log-log plot, so C_p = -m/P. The fit was tested on 714 carbonate plugs (500–3,500 psi) and 32 sandstone plugs (up to 3,500 psi, with six taken to 9,500 psi), giving R² above 99% for most samples (lowest 89%). Compressibility correlates with porosity: in limestone it falls with porosity below 15% and rises above 15%, while in sandstone it falls with porosity, with a slope change near 12%. Two pressures (about 1,500 and 3,500 psi) suffice to determine compressibility, porosity at stress and relative porosity change routinely.
+
+## An Experimental Study of the Contribution of the Pore Volume Change to Production Within the Framework of Biot'S Theory
+
+- ID: SCA1993-19, year: 1993
+- Authors: V.MAURY. EAP
+- Method: laboratory experiment
+- Keywords: Biot coefficient, poroelasticity, pore volume compressibility, effective stress law, carbonates
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-19)
+
+Poroelastic tests on six carbonates (4-45% porosity) confirm Biot theory for pore volume change; the pore volume stress coefficient is near 1, and rock compressibility grows with porosity.
+
+The paper derives an effective stress law for pore volume variation from Biot's poroelasticity, with pore volume coefficient alpha_p and pore incompressibility Kp = Kd/b. Six carbonates (Larrys, Tavel, Vilhonneur, Lavoux, Estaillades limestones and Meudon chalk, porosity 4-45%) were tested in a cell with independent control of confining and pore pressure and bulk and pore volume, using 5 cm by 14 cm samples and tests completed within 12 hours. Biot coefficient b rose from 0.36 to 0.96 with porosity, while alpha_p stayed about 0.92-0.98. Computed and measured pore volume variations agreed well for low-porosity rocks, and for higher-porosity rocks after correcting for coating fitting in the first loading cycle. For constant total stress depletion, the ratio c_fl/(c_fl+c_mp) for water ranged from 0.8 to 0.5, so rock compressibility contributes from 20-30% to over 100% of fluid compressibility.
+
+## An Innovative New Cell for Testing Rock Core Under True Triaxial Stress States
+
+- ID: SCA1993-20, year: 1993
+- Authors: B.G.D. SMART, B.R. CRAWFORD
+- Method: measurement technique or apparatus
+- Keywords: true triaxial cell, intermediate principal stress, stress-dependent permeability, servo-controlled confining pressure, Locharbriggs sandstone, rock failure criteria
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-20)
+
+A true triaxial cell using 24 pressurised trapped tubes applies unequal principal stresses to cylindrical core plugs; tests on Locharbriggs sandstone show σ2 strongly affects strength and permeability.
+
+Routine core tests use hydrostatic or axisymmetric triaxial stress, while cubic or hollow-cylinder polyaxial methods are impractical for core plugs. The authors designed a cell in which 24 pvc trapped tubes between the sleeve and cell wall, grouped into three servo-controlled hydraulic circuits, apply differential radial pressure to a 30 mm diameter plug within a stiff axial compression rig. Fifteen dry failure tests on Locharbriggs sandstone (σ3 of 10 and 30 MPa, σ2–σ3 up to 12 MPa) showed that increasing σ2 raises both peak and residual strength, with fracture strike parallel to σ2. Channel pressures were held within about 0.5 MPa, and volumetric data showed dilation parallel to σ3 with contraction parallel to σ2. Axial permeability with oil and water permeants fell much more under differential confinement than under uniform confinement, and the von Mises criterion fitted polyaxial data better than the extended Griffith criterion.
+
+## Amplitude-Versus-Offset Interpretation, Scaling Factors, and Other Challenges Associated With Acoustic Data Integration
+
+- ID: SCA1994-17, year: 1994
+- Authors: Robert A. Skopec, Christopher P. Ross
+- Method: laboratory experiment
+- Keywords: AVO, Poisson's ratio, Zoeppritz equations, ultrasonic velocity, partial gas saturation, acoustic data scaling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-17)
+
+Ultrasonic P- and S-wave measurements on sandstone plugs at varying brine saturation and pressure constrain Poisson's ratio and Zoeppritz AVO modeling, supporting integration of core, log and seismic data.
+
+AVO inversion for hydrocarbons is non-unique and often lacks petrophysical control, so the authors use core measurements to constrain it. Ultrasonic (50-200 kHz) P- and S-wave velocities were measured on vertically oriented fluvial sandstone plugs at 0, 33, 70 and 100% brine saturation and four confining pressures at room temperature. Poisson's ratio rose from about 0.2 (dry) to nearly 0.3 (brine-saturated), and P-wave velocity differences between dry and saturated states ranged 2 to 35%, while S-wave velocity changed little. Velocities rose with pressure up to about 5000 psi, indicating microcrack closure. Zoeppritz modeling with lab sand values and wireline shale values gave a gas-sand/shale reflection coefficient rising from +0.008 at normal incidence to under +0.06 at 30°, while the wet sand became less negative, consistent with seismic CMP data. The paper also discusses reconciling data across seismic, log and lab scales.
+
+## Stress Dependence of the Cementation Exponent
+
+- ID: SCA1995-18, year: 1995
+- Authors: M. Hausenblas
+- Method: laboratory experiment
+- Keywords: cementation exponent, formation resistivity factor, isostatic stress, Archie equation, outcrop sandstone, glass-bead samples
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-18)
+
+Formation resistivity factor and porosity of outcrop sandstones and glass-bead packs were measured up to 700 bar; the cementation exponent's stress response depends on porosity, with large increases in low-porosity rocks.
+
+The cementation exponent in Archie's equation is usually treated as constant, but resistivity and porosity both change with stress. Formation factor and porosity were measured on Castlegate, Bentheim, Darley Dale and Fontainebleau outcrop sandstones and sintered glass-bead samples under isostatic stress up to 700 bar. Between 50 and 700 bar porosity fell by 4-8% in all samples, but the formation factor rose by 5-20% in the high-porosity sandstones and by 100-300% in Fontainebleau, versus only 1.5-4% in glass beads. The cementation exponent increased with stress below about 15% porosity and decreased slightly above about 20%, while glass beads showed a porosity-independent decrease. Reservoir core data confirmed the trends, and errors of more than 10% in hydrocarbon saturation can arise in low-porosity rocks if stress is not simulated. Tangential grain contacts closing under stress are proposed as the explanation for the sandstone behaviour.
+
+## The Influence of Intergranular Microcracks on the Petrophysical Properties of Sandstone - Experiments to Quantify Effects of Core Damage
+
+- ID: SCA1995-24, year: 1995
+- Authors: P.M.T.M. Schutjens, M. Hausenblas, M. Dijkshoom, J.G. van
+- Method: laboratory experiment
+- Keywords: core damage, intergranular microcracks, grain boundary width, ultrasonic velocity, volumetric compressibility, formation resistivity factor
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-24)
+
+Heating Bentheim sandstone to 650°C to mimic coring damage widened grain boundaries, lowering Vp by 25%, raising low-stress compressibility 30% and lowering resistivity; reservoir sandstone showed similar widths.
+
+Coring-induced intergranular cracking may make core data unrepresentative of in-situ rock. Core damage was simulated by heating Bentheim outcrop sandstone to 650°C for 24 hours, and grain boundary widths were measured on SEM photomicrographs. Grain boundary widths rose from 0.1-0.3 µm to 0.1-0.9 µm and porosity from about 23.7% to 24.3%. Compressional velocity dropped about 25% (water-saturated MD3 from 3.06 to 2.21 km/s), volumetric compressibility rose about 30% below 60 bar, and formation resistivity factor fell about 10%. Differences vanished above 60 bar, but heated samples had more inelastic compaction (inelastic/elastic ratio about 0.55 versus 0.14). A gas reservoir sandstone showed grain boundary widths of 0.2-2.8 µm, similar to or wider than the heated samples, suggesting the boundaries opened during or after coring.
+
+## Multistage Triaxial Testing of Actual Reservoir Cores Under Simulated Reservoir Conditions
+
+- ID: SCA1995-28, year: 1995
+- Method: laboratory experiment
+- Keywords: multistage triaxial test, failure envelope, Young's modulus, Biot constant, stress invariants, reservoir sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-28)
+
+Multistage triaxial compression tests on a single reservoir sandstone plug give failure envelopes and Young's moduli under reservoir conditions, matching single-stage results on Berea sandstone.
+
+Actual preserved reservoir cores are scarce, so full failure envelopes were obtained from multistage triaxial tests on single plugs instead of at least three single-stage tests. Consolidated and poorly consolidated sandstone plugs were cleaned, measured for porosity and permeability, and tested dry (500–2000 psi confining) and then saturated with brine at 2650 psi pore pressure and four confining pressures (3150–4650 psi). A comparison on Berea sandstone (500, 3500, 5000, 7000 psi) showed the multistage envelope, with or without extrapolation, was close to the envelope from four single-stage tests. Stiffness and failure load increased with confining pressure; Young's modulus for sample 1 rose from 35.2 to 42.3 ksi, while sample 2 was lower (27.7–29.1 ksi), indicating reservoir layering. Failure envelopes were approximately linear in the J1–sqrt(J2D) invariant space, a Drucker-Prager-type form.
+
+## Core Elastic Properties of the Monterey Formation, Santa Maria Basin, California
+
+- ID: SCA1997-35, year: 1997
+- Authors: Xingzhou Liu
+- Method: laboratory experiment
+- Keywords: ultrasonic velocity, elastic anisotropy, Monterey Formation, sonic porosity, porcelanite, Gassmann fluid substitution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-35)
+
+Ultrasonic velocity, anisotropy and permeability measurements on Monterey Formation core and outcrop samples show lithology, porosity, pressure and lamination control elastic properties, informing sonic porosity interpretation.
+
+The Monterey Formation has complex, finely laminated lithologies (porcelanite, siliceous shale, shale, dolomite) that complicate sonic log porosity interpretation. Core and outcrop plugs were cut at 0, 45 and 90 degrees to bedding and measured for porosity, mineralogy, and dry and brine-saturated ultrasonic P and S velocities at 2-50 MPa effective pressure. Velocity is controlled mainly by the proportions of dolomite and kerogen-rich detritus, then porosity, lamination, pressure and saturation. Velocity-porosity trends separate four lithology groups with extrapolated matrix P-wave velocities of 7.16, 5.90, 5.12 and 4.37 km/s. Phosphatic-organic shale and less compacted outcrop porcelanite show the strongest anisotropy, and outcrop samples show about 30% less compaction-related porosity loss than core. Liquid permeability anisotropy in a high-porosity outcrop sample is about 10:1 versus about 2:1 for velocity.
+
+## Correlation of Rock Permeability and Anisotropic Stress Conditions for the Integration of Rock Mechanical and Hydraulic Flow Models
+
+- ID: SCA1998-26, year: 1998
+- Authors: G. Pusch, J. R. Weber
+- Method: laboratory experiment
+- Keywords: permeability dilatancy, triaxial compression, deviatoric stress, critical Poisson ratio, microfracturing, KTB gneiss
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-26)
+
+Triaxial compression permeability tests on sandstone, gneiss, salt and coal show a permeability minimum at a critical stress ratio, fitted by an empirical correlation linked to Poisson ratio.
+
+Laboratory-to-in-situ permeability transfer usually assumes isotropic stress, but stresses near cavities and wells are anisotropic. The authors ran triaxial compression tests with nitrogen flow (pore pressure up to 1 MPa, 20 °C) on Rotliegendes sandstone, KTB gneiss, rock salt and subbituminous coal. Permeability decreased to a minimum at a characteristic axial/radial stress ratio and then rose through dilatancy and microfracturing. Cyclic tests on gneiss showed softening when loaded parallel to foliation (2.2 to 4.5 nD over three cycles) and hardening when perpendicular. An empirical power-law/exponential correlation fitted all four rocks with regression better than 94%, giving critical stress ratios of 1.92 to 5.28. The minimum converts to a critical Poisson ratio consistent with independent measurements.
+
+## Experimental Study of the Stress Paths Influence on Monophasic Permeability Evolution
+
+- ID: SCA1998-27, year: 1998
+- Authors: J-P. Sarda, F.M.R. Ferfera, O. Vincké, M. Boutéca, P. Longuemare
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, triaxial loading, stress path, Vosges sandstone, mechanical damage threshold, deviatoric stress
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-27)
+
+Triaxial tests on two Vosges sandstones show a p'-q permeability-change criterion; outside it, 20% porosity rock loses permeability while 17% porosity rock gains it at damage onset.
+
+Depletion-induced stress changes can raise or lower reservoir permeability, and the role of the stress deviator is unclear. Triaxial tests were run on Vosges sandstone samples of about 19.5% porosity (320-460 mD) and 17% porosity (<1 mD), using oil and steady-state flow, with vertical loading, proportional loading and constant mean stress paths at various confining and pore pressures. A criterion in the p'-q plane separates a domain of nil or small permeability change from one with significant change. In the 19.5% samples permeability falls by up to 60% beyond the threshold, at a constant rate for a given stress path, with the criterion lying below the damage threshold. In the 17% samples permeability increases beyond a threshold that coincides with mechanical damage, attributed to microcrack opening and propagation.
+
+## Stress-Dependent Porosity and Permeability of a Suite of Samples from Saudi Arabian Sandstone and Limestone Reservoirs
+
+- ID: SCA2000-33, year: 2000
+- Authors: M. A. Mohiuddin, G. Korvin, A. Abdulraheem, M. R. Awal, K. Khan, M. S. Khan, H. M. Hassan
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, confining pressure, pressure pulse decay, hysteresis, pore collapse, limestone and sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-33)
+
+Porosity and permeability of 25 sandstones and 25 limestones were measured from 0 to 82 MPa confining pressure; sandstones and limestones show distinct stress behavior, fitted with simple exponentials.
+
+The study measured porosity (helium expansion) and permeability (steady-state or pressure pulse decay for tight samples) simultaneously on 50 Saudi Arabian reservoir cores, half sandstone and half limestone. Confining pressure was cycled 0-82 MPa with nine loading and four unloading steps. Both properties decline exponentially with pressure and are fitted by f(P)=f1+f2 exp(-aP) and k(P)=k1+k2 exp(-bP); limestones are often fitted with negative constants. Sandstones showed little hysteresis and lost most permeability when initially tight (<0.1 md lost 90-99.9%; >10 md lost ~30%). Limestones showed a critical porosity of ~15% and high-permeability grainstones (up to ~500 md) dropped sharply near 70 MPa without recovery, suggesting pore collapse.
+
+## A New Method in Preparing Laboratory Core Acoustic Data for Assisting Seismic-based Reservoir Characterization
+
+- ID: SCA2000-48, year: 2000
+- Authors: Bambang Widarsono
+- Method: measurement technique or apparatus
+- Keywords: acoustic velocity, Gassmann model, Poisson ratio, dry rock moduli, seismic reservoir characterization, water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-48)
+
+Proposes deriving effective dry rock-matrix elastic moduli indirectly from P- and S-wave core measurements at varied water saturation and reservoir conditions, using Gassmann modelling, to support seismic porosity and saturation mapping.
+
+Seismic-based mapping of porosity and water saturation needs dry rock-matrix bulk and shear moduli, which well logs usually lack. The authors propose measuring P- and S-wave velocities on Central Sumatra oil sandstone cores at several water-oil saturations, at simulated overburden pressure and reservoir conditions. Synthetic brine slightly more saline than formation brine was used to prevent clay swelling. Gassmann modelling with elastic wave theory is iterated against the lab data to extract 'effective' matrix moduli, validated by comparing modelled and observed water saturation. The moduli are then applied to well-log modelling, adjusted for density and shaliness and calibrated by correlating log and core P-wave velocities, to produce cross-plots for interpreting seismic attributes. The paper reports the procedure as promising but gives no quantitative results in the text.
+
+## Application of the Kaiser Effect to the Measurement of in-Situ Stresses in Arabian Devonian Sandstone
+
+- ID: SCA2001-08, year: 2001
+- Authors: W. T. Lauten, Ashraf Tahini, Merajuddin Khan, New England, The Saudi
+- Method: laboratory experiment
+- Keywords: Kaiser Effect, acoustic emission, in-situ stress tensor, oriented core, borehole breakout, Mohr-Coulomb failure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-08)
+
+Kaiser Effect acoustic emission tests on three oriented subplugs of Devonian sandstone gave the full in-situ stress tensor, corroborated by borehole breakouts and triaxial strength data.
+
+Hydraulic fracture design in the Devonian Jauf sandstone of Saudi Arabia needs the magnitude and direction of the principal stresses. Three horizontal 1.5-inch subplugs from oriented core were cut at 0, π/4 and π/2 to the scribe mark, jacketed, confined at 5 MPa and loaded uniaxially while eight AE sensors recorded onset. AE onset occurred at 25.7, 32.8 and 56.6 MPa, and a Mohr's circle analysis gave effective horizontal stresses of 28.58 and 63.9 MPa, with the minimum stress oriented 141° (about 39° west of north). Adding the 59.7 MPa pore pressure and the 104.5 MPa vertical stress from the density log gives SHmax 123.6 > Sv 104.5 > Shmin 88.2 MPa, a 35.1 MPa anisotropy compared with 3.9 MPa from well logs. Triaxial tests (UCS 62.3 MPa, friction angle 39.5°, Biot constant 0.75) predict breakouts spanning about 60°, matching the image log, and the stress directions agree with regional breakout data.
+
+## In Situ Porosity from Cores: The Rock Mechanics Approach to Overburden Correction
+
+- ID: SCA2001-09, year: 2001
+- Authors: Rune M. Holt, Christian Lehr, Cor J. Kenter, Pier Spits
+- Method: laboratory experiment
+- Keywords: overburden correction, in situ porosity, poroelasticity, Biot coefficient, stress path, discrete particle model
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-09)
+
+Porosity overburden correction can be obtained by isotropic loading to the in situ mean effective stress, supported by poroelastic theory, synthetic sandstone and discrete-particle tests, and field cores.
+
+Standard overburden corrections for core porosity rely on an ad hoc stress factor (s=0.62) with weak scientific basis, producing systematic errors in reserve estimates. The authors derive porosity change from linear poroelasticity, showing it depends on mean effective stress. They tested this with synthetic sandstones subjected to simulated coring and reloading along anisotropic and isotropic paths, and with PFC3D discrete particle simulations. Volumetric strain against mean stress was path independent. Competent rock (20% porosity) showed no permanent porosity damage, while weak 30% porosity synthetic rock lost about 0.5 p.u. Three Dutch field sandstone cores (13.2% porosity, 25.5 MPa mean effective stress) loaded along isotropic, proportional and K0 paths gave the same correction factor, 0.922 (12.2% in situ porosity). The standard method gave 0.946, which is too optimistic. Guidelines are given for practical use, including measuring pore strain rather than bulk strain when only one is available.
+
+## Petrophysical Studies of Sandstones Under True-Triaxial Stress Conditions
+
+- ID: SCA2001-10, year: 2001
+- Authors: M.S. King, X.D. Jing
+- Method: measurement technique or apparatus
+- Keywords: true-triaxial stress, directional permeability, ultrasonic shear-wave splitting, acoustic emission, differential strain analysis, stress path
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-10)
+
+Describes a true-triaxial loading apparatus for cubic sandstone specimens and its evolution, showing directional permeability, conductivity and capillary pressure depend strongly on stress path.
+
+The paper describes a polyaxial stress loading system for cubic rock specimens (51 mm, later 40 mm) with independently servo-controlled principal stresses up to 200 MPa and pore pressures up to 145 MPa. Ultrasonic P and S transducers, AE sensors and a pressure-sealing scheme with PEEK faceplates were added over successive modifications. Applications reviewed include relating permeability to shear-wave splitting in fractured sandstones, comparing USWS with DSA for in situ stress, and AE moment-tensor analysis of fracturing. On an Oman reservoir sample at 34.5 MPa equivalent hydrostatic stress, permeability anisotropy was strong (366, 220 and 15 mD in x, y, z) while resistivity anisotropy was milder. In depletion tests, z-direction permeability fell about 60%, with up to 10% more reduction under hydrostatic than true-triaxial stress, and capillary pressure curves showed the same trend.
+
+## Relationship Between Reservoir Productivity and Pore Pressure Drop
+
+- ID: SCA2001-37, year: 2001
+- Authors: Musaed N. J. Al-Awad
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, pore pressure drop, effective stress, productivity prediction, Darcy radial flow, Hoek cell
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-37)
+
+Measured permeability versus confining stress for three Saudi rocks and Berea sandstone, then used polynomial fits in radial Darcy flow to show constant-permeability assumptions overestimate productivity.
+
+Permeability decline with rising effective stress (pore pressure drop) can reduce reservoir productivity, but is often ignored. Absolute permeability of Berea sandstone, two Saudi sandstones and a Saudi carbonate was measured with a steady-state liquid permeameter in a Hoek cell at several confining pressures up to 5000 psi. Permeability fell with confining pressure, more strongly in high-porosity, high-permeability sandstones than in the carbonate, and was fully recovered when confining pressure returned to 500 psi, indicating no pore collapse. Fourth-degree polynomial fits of permeability versus pore pressure were put into radial single-phase steady-state Darcy flow. For a 25% pore pressure drop, productivity fell by 8%, 13%, 25% and 3% for samples N1 to N4, so pressure-independent permeability overestimates production.
+
+## Attenuation Changes During Oilflood Experiments
+
+- ID: SCA2001-54, year: 2001
+- Authors: C. Jones, J. M. Somerville
+- Method: laboratory experiment
+- Keywords: ultrasonic attenuation, oilflood, Clashach sandstone, 4D seismic, squirt flow, fluid mobility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-54)
+
+Ultrasonic oilflood of stiff Clashach sandstone shows Vp changes under 1% while signal amplitude varies strongly, correlating with total fluid mobility, suggesting amplitude as a seismic monitoring attribute.
+
+Stiff rocks show little Vp change with saturation, so repeat seismic surveys may miss them; the authors test whether amplitude is more sensitive. Clashach sandstone cores (porosity 13.5-14.5%, permeability 100-350 mD) were brine saturated and flooded with light oil in a Hoek cell at 21 MPa, with flow rates stepped from 0.05 to 16 cc/min and ultrasonic (~600 kHz) Vp and Vs measured throughout. Sw fell to 0.29, Vp changed by less than 1%, but amplitude dropped from 0.18 to 0.13 V at Sw 0.63 and rose to 0.22 V at Sw 0.29. Q was about 30-50. Amplitude correlated roughly linearly with total fluid mobility computed from relative permeability, qualitatively consistent with a Biot/squirt-flow model (Dvorkin et al.) using effective viscosity.
+
+## Attenuation Characteristics of Saudi Arabian Reservoir Sandstone and Limestone Cores
+
+- ID: SCA2001-57, year: 2001
+- Authors: M. A. Mohiuddin, G. Korvin, A. Abdulraheem, K. Khan
+- Method: laboratory experiment
+- Keywords: attenuation quality factor, Qp/Qs ratio, spectral ratio method, ultrasonic velocity, confining pressure, permeability correlation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-57)
+
+Ultrasonic P- and S-wave quality factors of 20 Saudi sandstone and limestone cores show that the Qp/Qs ratio correlates with porosity and permeability better than Q itself.
+
+Seismic attenuation correlates only weakly with porosity and permeability, which limits its use for reservoir characterization. Twenty Saudi Arabian sandstone and limestone reservoir cores were measured dry and water saturated at nine confining pressures up to 82 MPa. Quality factors were computed with the spectral ratio method at 700 kHz central frequency, with diffraction correction. The method was checked on Gres des Vosges sandstone against Lucet (1989) and agreed closely (e.g. Qp 18 vs 17 at 5 MPa). Q increased with confining pressure, and Qp of dry rocks exceeded Qp of water-saturated rocks. Qp/Qs correlated with porosity and, better, with permeability. Qp/Qs was below 1 for dry sandstones, while limestones and water-saturated sandstones had Qp/Qs ≥ 1. Combining Qp/Qs with Vp/Vs helped separate saturation states.
+
+## Developed Correlations Between Petrophysical, Acoustic, Physical Properties for Synthetic Sandstone
+
+- ID: SCA2002-45, year: 2002
+- Authors: E.S. Al-Homadhi, G.M. Hamada, King Saud
+- Method: data analysis or correlation
+- Keywords: ultrasonic wave velocity, synthetic sandstone, porosity-velocity correlation, permeability prediction, cementation and compaction, grain size
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-45)
+
+Ultrasonic velocity was measured on synthetic compacted sandstones and empirically correlated with porosity, permeability, cement content, compaction pressure and pore size.
+
+Obtaining homogeneous natural cores is difficult, so synthetic sandstones were made from sieved sand (five grain-size groups, mean 90-275 µm) cemented with 4, 6 and 8% sodium silicate and compacted at 11,000-23,000 psi. Porosity and permeability were measured previously; ultrasonic velocity was measured here with a PUNDIT tester. Porosity decreases slightly and permeability increases with grain size, while cementation and compaction reduce both. Velocity decreases linearly with porosity, mean pore size and permeability, and increases with compaction pressure and cement content. Linear regression equations are given for each cement concentration and compaction pressure, for example V = 6438.1 - 10506 f at 8% cement and 22,600 psi, allowing porosity and permeability to be estimated from velocity.
+
+## Effective Stress Law for the Permeability of Clay-Rich Sandstones
+
+- ID: SCA2002-50, year: 2002
+- Authors: Widad Al-Wardy, Robert W. Zimmerman, Medicine London
+- Method: theory or analytical model
+- Keywords: effective stress coefficient, permeability, clay-rich sandstone, pore-lining clay, stiffness ratio
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-50)
+
+Two elastic pore-clay models (clay shell lining pores vs. clay particles touching pore walls) predict permeability effective stress coefficients rising with clay content; the particle model better fits literature data.
+
+Clay-rich sandstones show permeability effective stress coefficients n_k well above unity, up to about 7 at 20% clay, which cannot occur in single-mineral rocks. The authors analyze two cylindrical-pore models: the Zoback and Byerlee shell model with a clay lining, and a model with clay particles tangentially attached to the pore wall. They combine elasticity solutions with Poiseuille and eccentric-cylinder viscous flow solutions, assuming clay is about 20 times more compliant than quartz. For 20% porosity, stiffness ratio 20 and clay fraction 0.2, the shell model gives n_k = 1.93 and the particle model 4.60. The shell model cannot exceed about 3-4, while the particle model roughly fits the literature compilation of Kwon et al., and better with a stiffness ratio of 30.
+
+## Thermal Petrophysical Effects on Effective Permeability of Porous Sandstone
+
+- ID: SCA2002-54, year: 2002
+- Authors: Zhu Bin, Liu Li, Liu Qingjie
+- Method: laboratory experiment
+- Keywords: thermal expansion, effective permeability, Carman-Kozeny equation, sandstone, temperature effect, formation damage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-54)
+
+Heating sandstones from room temperature to 80°C changes brine permeability only slightly (under about 10%), consistent with a Carman-Kozeny model using small thermal pore-volume changes.
+
+Literature reports on how temperature affects sandstone permeability conflict, and the role of rock-skeleton thermal expansion had not been examined. Brine permeability was measured on fired quartz sandstone outcrop cores and on reservoir sandstones containing swelling clays (5-80 md) from room temperature to 80°C, with confining pressure about 2.7 MPa above pore pressure and at least 24 h stabilization at each step. Fired quartz sandstone showed less than 5% permeability change up to 70°C, within experimental error, while clay-bearing sandstones showed a slight decrease of under 10%. A Carman-Kozeny-based expression linking permeability ratio to porosity change and grain thermal expansion predicts a decrease, and measured pore-volume changes of 0.4-0.5% give a 5-9% permeability reduction. The authors conclude the thermal effect is small, near experimental error, and negligible for cores with low water and rate sensitivity under smooth heating.
+
+## Calculating in Situ Stresses in Overpressured Settings
+
+- ID: SCA2003-62, year: 2003
+- Authors: Terry Miller, John Shafer
+- Method: theory or analytical model
+- Keywords: overpressure, in situ stress, compaction disequilibrium, pore volume compressibility, stress path, yield surface
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-62.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-62)
+
+Shows how compaction-disequilibrium versus source overpressure produce different in situ horizontal stresses at equal pore pressure and depth, and gives calculation procedures and effects on pore volume compressibility.
+
+Core porosity, permeability and rock mechanics tests depend on correct in situ stresses, which in overpressured reservoirs depend on how the overpressure developed. The paper outlines a stress calculation procedure using overburden integration, leak-off tests and the coefficient k0 (about 0.6 in sands, 0.8 in shales). For compaction disequilibrium, k0 applies directly; for source overpressure, unloading from maximum stress is modeled elastically using Poisson's ratio. In a conceptual deepwater GOM case (5,000 ft water, sands at 22,000 ft TVD), the two mechanisms give identical vertical effective stress and pore pressure but mean effective stress of 1153 psi (CDE) versus 2156 psi (source). Stress path analysis shows the source case starts inside the yield surface, giving lower initial pore volume compressibility during depletion, and horizontal stress can exceed vertical.
+
+## Influence of Pore Pressure Decline on the Permeability of North Sea Sandstones
+
+- ID: SCA2004-45, year: 2004
+- Authors: A. KHARROUBI
+- Method: laboratory experiment
+- Keywords: pore pressure depletion, stress-dependent permeability, uniaxial strain compaction, permeability-porosity power law, HP/HT sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-45)
+
+Depletion-path uniaxial compaction tests on North Sea HP/HT sandstones show permeability losses of about 15% (F1) and over 50% (F3), with rock-type-specific power laws linking permeability to porosity.
+
+Permeability loss during reservoir depletion must be quantified under realistic stress paths. A new apparatus (COMPLYS) was built to measure permeability, pore volume change, strain and resistivity simultaneously, with stresses and pore pressure up to 150 MPa. North Sea HP/HT sandstone plugs (4 cm diameter, porosity 15-30%, permeability 3-700 mD) of two rock types, F1 and F3, were tested under uniaxial strain (zero lateral strain) while pore pressure dropped from 110 to 10 MPa in eight steps. Permeability fell by about 15% for F1 (Young modulus above 15000 MPa) and by more than 50% for F3. The relation K/K0 = (φ/φ0)^n fits F1 with n = 7 (correlation 0.8) and F3 approximately with n = 18, so no general law applies and rock-type-specific depletion tests are needed.
+
+## Role of Associated Minerals and Porosity in VP-VS Response for Sandstone and Limestone
+
+- ID: SCA2004-46, year: 2004
+- Authors: V. Saxena
+- Method: data analysis or correlation
+- Keywords: dry frame Vp-Vs relation, clay-porosity ratio, Gassmann fluid substitution, shaly sandstone, carbonate velocity, multivariate regression
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-46)
+
+Semi-empirical dry-frame Vp-Vs relations including a clay-to-porosity ratio term are derived from published core data for sandstone and carbonates, and are independent of confining pressure.
+
+Dry-frame Vp is often unknown in logging because only wet velocities are measured, especially in clay-bearing formations. Multivariate regression was applied to published core datasets (69 Han sandstones, 90 Rafavich carbonates, 13 Wilkens siliceous limestones) to relate Vp to Vs and a 'clapor' term (Vcl/porosity). Sandstone regression gave a correlation of 0.98, and carbonate relations gave 0.9 (dolomitic lime), 0.81 (calcitic dolomite) and 0.85 (siliceous lime). Predicted Vp/Vs and Kd/μ for clean sandstone, calcite and dolomite matched theoretical values. Verification on Troll sands, synthetic sand-kaolinite samples and 22 additional carbonates gave errors mostly below 4%, with larger errors at porosity above 0.33, clay above 0.35 or pressure below 10 MPa. The relations appear independent of pressure and of associated mineral type, but need more validation for high-porosity, high-clay or fractured rocks.
+
+## Dependence of Ultrasonic Velocities and Dynamic Elastic Rock Properties on Stress and Saturation Changes
+
+- ID: SCA2005-64, year: 2005
+- Authors: K. Khan, V. Aurifullah, M.A. Mohiuddin, A. Abdulraheem
+- Method: laboratory experiment
+- Keywords: ultrasonic velocity, dynamic elastic moduli, effective stress, saturation, sandstone, bulk modulus
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-64.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-64)
+
+Ultrasonic Vp and Vs on 45 sandstones show velocity and moduli respond differently to stress and saturation: E and G track stress, bulk modulus tracks saturation.
+
+Stress and saturation changes during production alter rock velocities and moduli, yet lab measurements are often made at minimal stress and without in-situ saturation. Ultrasonic Vp and Vs were measured on 45 Middle Eastern sandstones, mostly below 17% porosity, at 500 psi and at reservoir effective stress (3500 or 5000 psi), under dry, brine-saturated and Swi states (Swi by porous plate with nitrogen). Velocity rose by 10% to 80% with stress, most strongly in high-porosity and dry samples. Dry samples showed similar Vp and Vs increases, whereas saturated and Swi samples showed a larger Vs increase than Vp. Young's and shear moduli were sensitive to stress but not saturation, while bulk modulus changed with saturation and only with stress when dry. Some bulk moduli exceeded the 37 GPa of quartz, which is attributed to 2-20% clay minerals (muscovite, illite, kaolinite).
+
+## Recent Advances in the Measurement of Pore Volume Compressibility of Reservoir Rocks
+
+- ID: SCA2008-12, year: 2008
+- Authors: Shameem Siddiqui, James J. Funk, Aon A. Khamees, Ahmad M. Al-Harbi
+- Method: measurement technique or apparatus
+- Keywords: pore volume compressibility, dual-energy CT, Autolab, carbonate reservoir, net confining pressure, effective atomic number
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-12)
+
+Dual- and single-energy CT scanning is used to measure slice-by-slice pore volume compressibility of carbonate plugs, matching conventional Autolab results and published correlations.
+
+Conventional pore volume compressibility (Cpc) tests give one average value per plug. This work adapts a CT coreflooding setup with a hydrostatic coreholder to derive Cpc from X-ray attenuation changes at multiple slice locations, using NaI-doped brine. Four Middle-Eastern carbonate plugs were tested at confining pressures up to 4500 psi, two with dual-energy (80/140 kV) and two with single-energy scans. CT-derived Cpc agreed with Autolab-1000 measurements within test repeatability, apart from first-cycle values for one sample that were lower, possibly from seal conformance or a minor leak. Results also agreed with published correlations for Saudi carbonates by rock type, and one test showed a 34.7% permeability reduction after loading. The method yields a band of Cpc curves per plug, roughly equivalent to about 10 conventional tests, and dual-energy is preferred since grain density need not be known.
+
+## Impact of Stress on Fluid Flow: A Detailed Study on Low Permeability Rocks
+
+- ID: SCA2008-25, year: 2008
+- Authors: Suleiman Al-Hinaia, Quentin Fishera, Carlos Grattonia
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, tight gas sandstone, fault rock, gas relative permeability, pulse-decay permeability, effective stress hysteresis
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-25)
+
+Gas permeability and relative permeability of tight gas sandstones, fault rocks and siltstone were measured versus effective stress; sensitivity varies widely and is much greater when partially water saturated.
+
+The study addresses how effective stress affects absolute and gas relative permeability in low-permeability rocks. Samples were tight gas sandstones, cataclastic fault rocks (Hopeman, Vale of Eden, 90 Fathom) and Mam Tor siltstone, measured by pulse decay or Klinkenberg-corrected steady state in a Hassler-type holder, with water saturation set in vapour chambers. Tight gas sandstones and Mam Tor siltstone were most stress sensitive (e.g. 60-80% permeability loss from 500 to 2000 psi), with hysteresis on unloading. Quartz-cemented Hopeman fault rock was nearly insensitive (0.0035 to 0.0032 mD from 300 to 1500 psi), and other fault rocks showed moderate reductions of about 45-50%. Gas relative permeability was far more stress sensitive than single-phase permeability, with up to a factor of 14 reduction in Mam Tor siltstone versus a factor of 3 for dry gas permeability, and gas flow ceased at Sw about 66%.
+
+## Experimental Investigation of the Effective Stress Coefficient for Various High Porosity Outcrop Chalks
+
+- ID: SCA2008-45, year: 2008
+- Authors: E. Omdal, H. Breivik, K.E. Næss, R.I. Korsnes, M.V. Madland
+- Method: laboratory experiment
+- Keywords: effective stress coefficient, constant bulk volume test, outcrop chalk, Stevns Klint, triaxial compressibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-45)
+
+Constant bulk volume triaxial tests on high porosity outcrop chalks show the effective stress coefficient depends on stress state and pore fluid, and is not close to unity.
+
+Standard chalk testing assumes an effective stress coefficient near unity, but simultaneous increases of confining and pore pressure on Stevns Klint chalk produced about 7‰ axial strain, which contradicts this. The authors measured the coefficient in constant bulk volume triaxial tests, raising pore pressure while regulating total stress to hold volumetric strain constant. Samples were Stevns Klint (porosity 43-48%) and Kansas (36.8%) chalks, tested at two laboratories with water, kerosene or ethylene glycol as pore fluid. Measured α was about 0.55-0.89, rising in the elastic regime and falling in the plastic regime, with a lower value for ethylene glycol than for water. The lower-porosity Kansas chalk gave the highest α (0.89-0.93), contrary to earlier porosity-based trends. A worst-case laboratory sleeve correction raises the Stevns Klint kerosene values to 0.81-0.96, and loading rate showed no significant effect.
+
+## Attempt to Measure Velocity at Low Frequency by Modified Tri-Axial Destructive Instrument
+
+- ID: SCA2010-40, year: 2010
+- Authors: Fumio Kono, Shigenobu Onozuka, Satoshi Izumotani, Naoyuki Shimoda
+- Method: measurement technique or apparatus
+- Keywords: low-frequency velocity, Young's modulus, strain gauge, tri-axial instrument, frequency dispersion, elastic moduli
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-40)
+
+A tri-axial destructive instrument was fitted with a hydraulic low-frequency vibrator to measure aluminum Young's moduli at 20-160 Hz; derived velocities matched literature values, with no dispersion seen.
+
+Laboratory ultrasonic velocities at high frequency differ from field velocities, so low-frequency lab measurements are needed for upscaling. The authors added a hydraulic vibrator (0-160 Hz) to the axial rod of an existing tri-axial destructive instrument. An aluminum plug (38 mm diameter, ~50 mm long) with strain gauges was tested at 20-160 Hz under 1000, 2000 and 3000 psi overburden, and travel time was measured at 500 kHz. Vp and Vs were calculated from Young's modulus and Poisson's ratio. Average low-frequency velocities were 6.354 km/s (P) and 3.077 km/s (S), versus literature 6.42 and 3.04 km/s, and 6.325 and 2.835 km/s at 500 kHz. No frequency dispersion was observed, but velocities depended on overburden pressure; rock samples are planned next.
+
+## Pore Pressure Evolution and Core Damage: A Computational Fluid Dynamics Approach
+
+- ID: SCA2011-41, year: 2011
+- Authors: I. Zubizarreta, M. Byrne, M.A. Jimenez, E. Rojas, Y. Sorrentino, M.A. Velazco. Senergy. Aberdeen, United Kingdom
+- Method: numerical simulation
+- Keywords: core retrieval tripping, pore pressure release, computational fluid dynamics, tensile failure criterion, shale gas coring, core damage
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-41)
+
+CFD modelling of pore pressure differentials in a gas-bearing core during retrieval shows tensile failure risk rises as permeability falls, with shales likely damaged at economic tripping times.
+
+Core damage from pore pressure release during tripping out is usually managed with rules of thumb, which can be too slow or too fast. The authors built a 3D CFD model of a 4 inch cylindrical core with single-phase compressible methane flow, starting at 4000 psi pore pressure and depressurizing to atmospheric. A tensile failure criterion of 100 psi (tensile strength about 1/12 of a 1200 psi compressive strength) was applied, with no mud cake. For 300 mD, a 10 second trip keeps the differential below 38 psi, whereas for 0.001 mD a 6 hour trip exceeds 100 psi during the final 1.77 hours. For a 0.00001 mD shale, 100 psi is exceeded at 0.105 hrs in a 6 hour trip and at 0.210 hrs in a 12 hour trip, so damage is expected at economic tripping rates.
+
+## Hydromechanical Behavior of Sands Under Proportional Triaxial Compression Tests
+
+- ID: SCA2011-46, year: 2011
+- Authors: Van Hung Nguyen, Jean Guélard, Nicolas Gland, Jérémie Dautriat, Christian David
+- Method: laboratory experiment
+- Keywords: proportional triaxial compression, yield cap, modified Cam-Clay, unconsolidated sand, stress-dependent permeability, grain crushing
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-46)
+
+Proportional triaxial tests with permeability measurements on glass beads and Durance sand show yield caps and permeability loss depend on stress path and grain angularity.
+
+Unconsolidated reservoirs undergo stress paths that differ from standard hydrostatic or constant-confining tests, so coupled hydromechanical data are needed. Proportional triaxial compression tests (stress path ratio K from 0.2 to 1) with axial permeability measurements were run on ~1 mm glass beads and angular Durance quartz sand, dry and brine-drained, at 40°C. Hydrostatic yield stress P* was about 30 MPa for glass beads, matching the Zhang et al. Hertzian power law, but about 10 MPa for Durance sand, where the model overestimates (20 MPa). Modified Cam-Clay fits gave M=0.85 and P*=30 MPa for beads and M=1.1 and P*=10 MPa for sand. Laser diffraction showed more grain damage at lower K (higher shear), and permeability dropped by up to two orders of magnitude in the plastic regime. Dry sand bulk modulus was about 0.35 GPa versus 0.23 GPa when saturated, and a Crawford-type permeability model with C=14 reproduced the K=1 permeability evolution.
+
+## Large Pressure Depletions in Ultra Deepwater Gom Reservoirs Can Significantly Reduce Near Well Bore Permeability and Pore Volume
+
+- ID: SCA2012-08, year: 2012
+- Authors: John L. Shafer, Kevin Vorhaben, Greg N. Boitnott
+- Method: data analysis or correlation
+- Keywords: pore pressure depletion, pore volume compressibility, effective stress coefficient, creep, Biot alpha, stress-dependent permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-08)
+
+The paper shows how to correct effective-stress laboratory pore volume and permeability data for pore pressure depletion stress path and creep to predict ultra-deepwater GoM reservoir behavior.
+
+Ultra-deepwater GoM Miocene and Lower Tertiary sandstones with pore pressures above 17,000 psi can undergo large depletions, but commercial labs usually measure permeability only at low pore pressure in effective-stress uniaxial tests. The authors show that effective stress coefficients (Biot alpha about 0.65-0.7 for stiff samples) and stress path differences mean such tests understate compaction and permeability loss. Creep during 48-hour holds at 12,000 psi depletion increased volumetric strain by about 32% in a day and extrapolates to about 190% over 30 years, potentially tripling the pore volume change. Corrections for stress path (pore volume compressibility 10-20% higher), creep, and a 150% increase in permeability decline rate were applied to effective-stress data. Viscosity reduction offsets permeability loss, with relative transmissibility peaking near 7,000 psi depletion.
+
+## Effect of Mechanical Loading and Water Saturation on the Gas Recovery of Tight Gas: Experimental Study
+
+- ID: SCA2012-26, year: 2012
+- Authors: X. Fu, F. Agostini, L. Jeannin, C.A. Davy, F. Skoczylas
+- Method: laboratory experiment
+- Keywords: tight gas sandstone, gas permeability, confining pressure, water saturation, poro-mechanics, bulk modulus
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-26)
+
+Tight sandstone gas permeability falls with confining pressure and water saturation; poro-mechanical tests show pores become trapped as microcracks close under load.
+
+The study examines how porosity, confining pressure and water saturation control gas permeability in tight gas sandstones from 4836-5014 m depth, with porosities of 2.5-12% and initial water saturations of 12-43%. Permeability was measured by transient pulse tests at 5-60 MPa confinement. Homogeneous saturations were set with saturated brine solutions in desiccators, which could not exceed about 62% saturation. Permeability dropped by at least one order of magnitude from 5 to 60 MPa. The drop exceeded 200-fold at 2.5% porosity, 13-fold at 8.5% and about 2-fold at 12%, which points to microcracks closing under load. Gas relative permeability fell sharply as saturation rose. Porosity measured under confinement fell by more than the volumetric strain (Δφ > εv), and Ks decreased with pressure, which the authors attribute to pores being trapped as cracks close around them.
+
+## Permeability Change Under Different Stress and Fluid Pressure Conditions
+
+- ID: SCA2013-001, year: 2013
+- Authors: Russ Ewy, Paul Hagin, Craig Bovberg, Mark Shalz, San Ramon
+- Method: laboratory experiment
+- Keywords: effective stress coefficient, permeability depletion, uniaxial strain, biaxial stress apparatus, pore pressure, sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-001)
+
+A new apparatus with independent axial stress, confining stress and pore pressure shows the permeability effective stress coefficient varies and is often below one, so depletion tests must be measured directly.
+
+The paper tests whether permeability depends only on effective stress, using an apparatus that flows along the sample axis with independent axial stress, confining stress and pore pressure up to 138 MPa. Deep reservoir sandstones (about 20-22.5% porosity, 15-35 md air permeability) were tested by raising stress at ~0.7 MPa pore pressure (dS) or by lowering pore pressure from 114 to 16 MPa at constant 134.5 MPa confining stress (dP). The effective stress coefficient for permeability was below one over most conditions but exceeded one at low effective stress for one sample group. Constant-effective-stress tests gave mixed results sensitive to viscosity-pressure calibration. Biaxial-stress results matched uniaxial-strain results when plotted against mean effective stress, whereas hydrostatic tests showed much less permeability reduction. The authors conclude that only a true depletion test at reservoir fluid pressure reliably predicts permeability loss.
+
+## Improved Wellbore Stability Prediction by Application of Swelling Pressure
+
+- ID: SCA2014-083, year: 2014
+- Authors: Paweł Budak, Renata Cicha-Szot, Maja Mroczkowska, Marcin Majkrzak, Anna Przelaskowska, Tadeusz Szpunar
+- Method: theory or analytical model
+- Keywords: swelling pressure, wellbore stability, diffuse double layer theory, shale, mud weight window, cation exchange capacity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-083.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-083)
+
+A simple elastic wellbore stability model that adds clay swelling pressure (measured or DDL-calculated) to predict critical depth and safe mud weight window in shales.
+
+Shale instability is usually attributed to mud-rock incompatibility, but rock mechanics also matters. The authors extend an elastic, maximum-principal-strain model by adding swelling pressure to pore pressure at the wellbore wall, yielding critical depth and minimum/maximum mud density. Twelve Cretaceous, Carboniferous, Silurian and Ordovician mudrock samples were tested for UCS, Poisson's ratio, Young's modulus, CEC, mineralogy (XRD, FTIR, SEM) and constant-volume swelling pressure (0.05–4.70 MPa). For Silurian shales, measured swelling pressure agreed well with DDL-theory estimates. For unconsolidated kaolinite-rich rocks, including swelling pressure shifted critical depth by over 1500 m and mud weight limits by about 250 kg/m3, and Silurian samples with the lowest quartz content showed the largest discrepancy.
+
+## Laboratory approach to the study of rock dynamic and static elastic anisotropy under high hydrostatic pressure
+
+- ID: SCA2014-093, year: 2014
+- Authors: T. Lokajíček, T. Svitek, M. Petružálek
+- Method: measurement technique or apparatus
+- Keywords: elastic anisotropy, spherical samples, ultrasonic P and S waves, stiffness tensor, hydrostatic pressure, strain anisotropy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-093.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-093)
+
+A high-pressure ultrasonic head measures P and two S waves plus strain on 50 mm rock spheres in 132 directions, giving full 3D elastic anisotropy.
+
+The paper presents a new high-pressure measuring head for ultrasonic P- and S-wave sounding of 50 mm spherical rock samples in 132 independent directions under hydrostatic pressure up to 100 MPa. Velocities from P, S1 and S2 waves are inverted via the Christoffel equation to obtain the full 21-component stiffness tensor and 3D Young's modulus distribution without assuming symmetry. A second configuration with P sensors and a linear resistor (about 5 µm resolution) measures sphere diameter change, giving static bulk modulus and strain anisotropy up to 400 MPa. It was calibrated on glass and Murital C plastic spheres, and demonstrated on quartzite and migmatite. In migmatite, maximum P velocity lies in the foliation plane where strain is minimum, and the reverse in the perpendicular direction. P velocity accuracy is about 50 m/s, and S1/S2 model accuracy is 50–70 and 70–90 m/s; P/S and deformation cannot be measured in one loading cycle.
+
+## Effect of Hydrostatic Loading on the Pore Structure and Transfer Properties of a Tight Gas Sandstone
+
+- ID: SCA2015-030, year: 2015
+- Authors: Yi WANG, Catherine DAVY, Franck AGOSTINI, Frédéric SKOCZYLAS, Laurent JEANNIN
+- Method: laboratory experiment
+- Keywords: tight gas sandstone, stress-dependent permeability, gas-accessible porosity, pore entrapment, drained bulk modulus, partial water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-030)
+
+Hydrostatic loading up to 40 MPa on tight gas sandstone cuts gas permeability and accessible porosity, more so when partially water saturated, attributed to pore entrapment.
+
+Tight gas sandstones from North Africa (water porosity 1.5–5%) were tested in a hydrostatic cell that measures gas permeability, gas-accessible pore volume and poro-elastic moduli (using LVDTs) under confining pressure. In the dry state, normalized permeability fell by about 90% from 3 to 40 MPa, and porosity dropped about 10% (25% for the lowest-porosity sample 3379). Pore volume declined faster than sample volume below 10 MPa, interpreted as micro-crack closure trapping pores. The drained bulk modulus Kb rose about 200% between 3 and 10 MPa, reaching about 20 GPa at 40 MPa, while Ks could not be measured reliably. At Sw = 25.6%, permeability dropped 70% between 3 and 10 MPa and accessible pore volume lost about 30% between 10 and 20 MPa, showing stronger stress sensitivity.
+
+## Micro-Seismic Evaluation of Fracturing in Cores During Triaxial Compression Tests
+
+- ID: SCA2015-031, year: 2015
+- Authors: Y. Xiao, A. Abugharara, S.D. Butt
+- Method: laboratory experiment
+- Keywords: acoustic emission, triaxial compression, dominant frequency, AE source location, confined compression strength, rock failure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-031)
+
+Acoustic emission was monitored during triaxial compression of cement-based synthetic cores; event rate tracks deformation and failure, dominant frequency decreases with deformation, and source locations match observed cracks.
+
+The study uses acoustic emission (AE) monitoring to track cracking and failure in cores during confined compression strength tests. Three strengths of cement-aggregate rock-like material (UCS 20, 55.5, 87.5 MPa) were cored to NQ size and tested at 2 and 4 MPa confining pressure in a Hoek cell, with two 1.14 MHz P-wave sensors in the end platens. AE events began near the end of linear loading and increased sharply around failure. Dominant frequency tended to decrease with deformation, event energy correlated with peak amplitude and decreased with dominant frequency, and no clear relation between DF and strength was found. Source locations concentrated in the upper half of low-strength cores and were more uniform in high-strength cores, consistent with post-failure shear cracks; medium-strength cores gave few events because of poor sensor contact.
+
+## Experimental Caracterisation of the Relative Gas Permeability of Very Low Permeability Rocks
+
+- ID: SCA2016-008, year: 2016
+- Authors: F. Bignonnet, P. Egermann, Z. Duan, F. Skoczylas
+- Method: laboratory experiment
+- Keywords: relative gas permeability, critical gas saturation, caprock, Klinkenberg correction, water sorption isotherm, percolation theory
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-008)
+
+Relative gas permeability of a tight carbonate caprock was measured at imposed humidity saturations, showing a critical gas saturation near 30%, explained by percolation and dispersed gas flow.
+
+Relative gas permeability data on very low permeability caprock are scarce. Eight 37 mm by 10 mm samples (intrinsic gas permeability about 0.24 µD, gas porosity 11.7-12.7%) were partially saturated by equilibration at relative humidities of 43-98% (Pcap 2.7-114 MPa). Steady-state argon permeability was measured at confining pressures of 2 and 9 MPa with Klinkenberg correction. Except for two micro-cracked outlier samples, krg fell on a master curve with a critical gas saturation of 0.29 ± 0.04. About 70% of the porosity lies in pores below 50 nm. The authors combine percolation theory and the plateau shape of solution-gas-drive krg curves to propose a composite krg curve with extremely low values (plateau near 1e-4) below Sgc, implying a dynamic barrier for caprock gas confinement.
+
+## Micro-Scale Experimental Investigation of the Effect of Hydrostatic Stress on Pore-Space Deformation and Fluid Occupancy
+
+- ID: SCA2016-026, year: 2016
+- Authors: M. Asadollahkhan Vali, A.H. Alizadeh, M. Piri, J. Wallace
+- Method: laboratory experiment
+- Keywords: hydrostatic confining stress, micro-CT imaging, pore-space deformation, Berea sandstone, effective oil permeability, representative elementary volume
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-026)
+
+Micro-CT core-flooding on miniature Berea plugs shows raising hydrostatic stress from 600 to 2,000 psig reduces porosity and permeability and rearranges oil and brine at the pore scale.
+
+Stress-induced pore deformation affects flow properties, but pore-scale experimental evidence was lacking. Two miniature Berea sandstone plugs (5 mm diameter, about 11 mm long) were flooded inside a micro-CT scanner (2 µm resolution) in single-phase brine and two-phase oil-brine tests, with confining stress raised from 600 to 2,000 psig at 500 psig pore pressure. In single-phase flow, brine permeability fell from 652 to 407 mD and porosity from 18.84% to 15.13%, with larger pores affected most, while the porosity REV stayed at 1.65 mm cubes. In the two-phase test, water saturation dropped from 55% to 50.08% and effective oil permeability from 296 to 169 mD. Images showed pore elements switching between oil and brine occupancy and oil clusters becoming connected after compaction.
+
+## Geomechanical Simulation of Core Microfractures While Pulling Out Of Hole
+
+- ID: SCA2016-091, year: 2016
+- Authors: Rahman Ashena, Gerhard Thonhauser, Walter Vortisch, Michael Prohaska, Rasoul Arabjamaloei
+- Method: numerical simulation
+- Keywords: core microfractures, poroelasticity, tensile failure criterion, pull out of hole, finite element modeling, hydraulic diffusivity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-091.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-091)
+
+Poroelastic modeling merged with finite element analysis simulates core pressure and circumferential stress during retrieval, predicting that shale cores develop tensile microfractures almost instantly, mostly near the boundary.
+
+Cores retrieved to surface experience pressure and temperature drops, and slow fluid escape can create internal pore pressure exceeding outside pressure and induce tensile microfractures. The authors modified poroelastic models (Laplace-domain solution with Stehfest inversion) and merged them with finite element modeling to account for gradual stress change during tripping. Fracture initiation was judged with two criteria: Griffith (circumferential effective stress equal to minus tensile strength) and inside-outside pressure difference exceeding tensile strength. A shale gas case (Biot 0.74, diffusivity 6e-8 m2/s, UCS 20 MPa, tensile strength 2.5 MPa, pull-out schedule of 2-18 min/stand over 25.55 hr) predicted severe microfracturing. Fractures initiated almost instantly (about 0.5e3 s or more) because of the shale's low permeability and diffusivity, and concentrated near the core boundary.
+
+## Microstructural Investigation of Stress-Dependent Permeability in Tight Oil Rocks
+
+- ID: SCA2017-017, year: 2017
+- Authors: Hubert King, Michael Sansone, Pavel Kortunov, Ye Xu, Nicole Callen Shreerang Chhatre, Hemant Sahoo, Antonio Buono
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, NMR T2 relaxation, X-ray microtomography, xenon imaging, high-permeability streaks, Wolfcamp
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-017)
+
+NMR and xenon-enhanced X-ray tomography on Wolfcamp tight oil plugs show stress-dependent permeability is controlled by high-permeability streaks, while matrix permeability is stress-insensitive.
+
+Tight oil rocks show irreversible permeability loss with rising net confining stress, and the pore-scale origin was investigated on two Wolfcamp plugs. Steady-state toluene permeability fell from ~50 to ~20 nD for sample A (exponent 2.3e-4/psi) and from ~990 to ~60 nD for sample B (6.8e-4/psi). Stress-dependent 2 MHz NMR T2 measurements showed ~8-9% total porosity loss, with macropore volume dropping 14% and 30% over 1,000-3,000 psi and micropores about 18%, while the T2<1 ms nanopore signal was insensitive. XMT with xenon imaging on a companion sample revealed bedding-parallel high-permeability streaks (15,000 to 3,500 nD at NCS 1400 to 2800 psi) while matrix permeability (~0.8 nD) showed no stress response. The authors conclude that the streaks, not the matrix, drive stress dependence, and that these features are not ubiquitous across tight rocks.
+
+## Loading Effects on Gas Relative Permeability of a Low Permeable Sandstone
+
+- ID: SCA2018-023, year: 2018
+- Authors: F. Agostini, P. Egermann, L. Jeannin, E. Portier, F. Skoczylas, Y. Wang
+- Method: laboratory experiment
+- Keywords: tight gas sandstone, gas relative permeability, permeability jail, confining pressure, APEX pore size, mercury intrusion porosimetry
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-023)
+
+Gas relative permeability of tight Algerian sandstones, measured at 3 and 40 MPa confinement, decreases with loading, and the permeability-jail saturation correlates with the MIP APEX pore size.
+
+Tight gas sandstone reservoirs are stress sensitive, but gas relative permeability is usually measured without varying confinement. Steady-state gas permeability was measured on samples from the Ordovician of the Sbaa Basin, Algeria (porosity 1.5-5.0%, dry permeability about 0.06-0.6 µD), at controlled water saturation and confining pressures from 3 to 40 MPa. All samples show a sharp drop in gas relative permeability at Sw of 0.3-0.4 at 3 MPa. For all samples but one (4458), gas relative permeability fell with higher confinement, and the permeability-jail threshold (2% criterion) shifted to lower water saturation. At 3 MPa the threshold saturation did not correlate with water porosity but did with MIP APEX pore size: the jail pore size was about 80% of the APEX size. The authors recommend measuring relative permeability under loading and suggest pore network modelling or loaded capillary pressure to extend the prediction.
+
+## Core-Based Diagnostics of Sanding Prone Pay Zones in the Ordovician Sarah Sandstone Reservoir, Northern Saudi Arabia
+
+- ID: SCA2019-066, year: 2019
+- Authors: M. S. Ameen, A. Y. Coulibaly, A. Rees, L. Jihong
+- Method: field or reservoir case study
+- Keywords: sand production, hollow cylinder test, unconfined compressive strength, drawdown threshold, Sarah Sandstone, geomechanical model
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-066.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-066)
+
+Core-based mechanical, petrophysical and petrographic analysis of Sarah Sandstone shows sanding occurs in weak, poorly cemented clean sandstones, worsened by drawdown, depletion and water production.
+
+Sand production was detected early in gas exploration of the Ordovician Sarah Sandstone in Northern Saudi Arabia, prompting an integrated coring, logging and dynamic testing campaign. Cores from sanding zones in key wells were characterized by rock mechanical, petrophysical and petrographic methods, including hollow cylinder (thick wall cylinder) tests. Sanding zones are clean, fine- to coarse-grained, rounded, highly porous and permeable, poorly consolidated and poorly cemented sandstones with low Young's modulus, low unconfined compressive strength and low cohesion. Field sanding increased with lower wellhead pressure and higher drawdown, and hollow cylinder tests showed failure is promoted by increasing confining pressure with depletion. Statistical geomechanical models estimated the drawdown threshold for sanding and were calibrated against dynamic tests, and water production sharply increased sanding by reducing capillary pressure.
+
+## Angle-dependent ultrasonic wave propagation in rocks for estimating high-resolution elastic properties of complex core samples
+
+- ID: SCA2022-09, year: 2022
+- Authors: Daria Olszowska, Gabriel Gallardo-Giozza, Domenico Crisafulli, Carlos Torres-Verdín
+- Method: measurement technique or apparatus
+- Keywords: ultrasonic reflection coefficient, angle-dependent measurement, elastic property heterogeneity, P- and S-wave velocity, bounded beam model, spatial resolution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-09)
+
+A pitch-catch ultrasonic reflection-coefficient method estimates Vp, Vs and density along rock surfaces with high resolution, matching transmission data within about 5% on homogeneous samples.
+
+Standard laboratory methods average over thin layers and miss small-scale variations in rock elastic properties. The authors built an apparatus that measures ultrasonic reflection coefficients versus incidence angle, using 1 MHz and 2.25 MHz transducers on water-saturated samples. Measurements are matched to bounded-beam semi-analytical and SOFI2D finite-difference simulations via trust-region inversion. On homogeneous Berea Sandstone and Texas Cream Limestone, velocities and density agreed with transmission within about 5%, except Vs of the limestone (7.1%). On a synthetic layered stack and a natural layered carbonate, smaller, higher-frequency transducers gave better resolution but were harder to match; in the carbonate, Vp varied from 5061 to 6158 m/s (17.8%) and Vs by 6.7% across locations.
+
+## Stress Dependency of Permeability and Porosity Using Micromechanics Digital Rock
+
+- ID: SCA2024_1058, year: 2024
+- Authors: Guangyuan Sun, Zhuang Sun, Rafael Salazar-Tio, Andrew Fager, Bernd Crouse, Dassault Systèmes
+- Method: numerical simulation
+- Keywords: stress-dependent permeability, micromechanics digital rock, Lattice Boltzmann method, grain-grain contact, pore throat necking, Fontainebleau sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1058.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1058)
+
+A digital rock workflow couples finite-element grain-contact micromechanics with Lattice Boltzmann flow to show porosity and permeability decline with stress, more strongly in the tighter sandstone.
+
+Stress sensitivity of porosity and permeability is usually measured in costly, sample-damaging lab tests. The authors couple a micro-CT-based micromechanics model (grain segmentation, conformal meshing, Abaqus/Explicit contact) with a Shan-Chen Lattice Boltzmann solver. Two Fontainebleau-type sandstone images (12.67% and 23.82% porosity, initial permeability about 700-800 mD and 8500-9000 mD) were compressed to a maximum effective stress of 107.29 MPa. Porosity and permeability followed exponential stress laws (R2 up to 0.9999). The material constant was 1.99e-4 vs 1.55e-4 MPa-1 for porosity, and 6.1e-4 to 8.5e-4 MPa-1 for permeability, higher in the tight sample. Permeability fell up to 9.0% (tight) and 6.1% (loose), and average pore diameter fell 1.27-1.42%. Multiphase imbibition on the tight sample gave a similar residual oil saturation (about 60%) but lower water and oil effective permeabilities under stress.

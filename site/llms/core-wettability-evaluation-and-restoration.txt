@@ -1,0 +1,1366 @@
+# Core wettability evaluation and restoration
+
+> 105 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: wettability, oil, cleaning, state, contact, amott, surface, wetting, restoration, aging.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Wettability Evaluation During Restored State Core Analysis
+
+- ID: SCA1990-16, year: 1990
+- Authors: G. J. Hirasaki, J. A. Rohan, S. T. Dubey
+- Method: laboratory experiment
+- Keywords: restored state core analysis, USBM and Amott indices, core cleaning solvents, mixed wettability, Brownell-Katz number, capillary end effect
+- Cited by 13 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-16)
+
+Sequential solvent cleaning, unlike Dean-Stark, makes North Sea sandstone cores water-wet; aging restores mixed wettability, and much remaining oil in mixed-wet cores is a capillary end effect.
+
+The study evaluates wettability changes through restored state core analysis of North Sea sandstone cores (200–500 md, porosity about 0.25) to estimate remaining oil saturation after waterflooding. An automated centrifuge gave USBM and Amott indices; as-received cores were oil-wet (USBM about -1.12), and Dean-Stark toluene plus chloroform-methanol cleaning left them intermediate-wet. A multi-solvent sequence (alphamethylnaphthalene, toluene, chloroform, chloroform-methanol, methanol) raised USBM to about 1.0 and remaining oil saturation from 9% (crude, as received) to 28% (refined oil), still below the 37.5% water-wet value. Aging 28 days in crude made cores mixed-wet and lowered residual oil by about 0.13; Dean-Stark cores stayed more oil-wet, differing by about 0.04 in residual oil. Brownell-Katz analysis and CT scans showed that remaining oil in mixed-wet cores is mainly held by capillary end effects with film-drainage production, so reservoir remaining oil must be computed from relative permeability and buoyancy.
+
+## Wettability of Asab Reservoir Rock : Comparison of Various Evaluation Methods Role of Lithology
+
+- ID: SCA1991-09, year: 1991
+- Authors: Louis Cuiec, Fathi A. Yahya, Abu Dhabi, United Arab
+- Method: laboratory experiment
+- Keywords: Amott/IFP wettability index, n-heptanol adsorption, contact angle, mixed wettability, wettability restoration, carbonate facies
+- Cited by 8 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-09)
+
+Wettability of Asab Thamama Zone B carbonate was assessed by contact angle, n-heptanol and Amott/IFP tests; methods agree, rock is mixed, mostly neutral to oil-wet, and restoration works.
+
+The study evaluates wettability of the Asab Thamama Zone B carbonate reservoir (Abu Dhabi) to compare evaluation methods and test the role of facies. On one M2 facies core, contact angle, n-heptanol adsorption and Amott/IFP tests (25, 85 and 121°C, up to 204 bar, different oils) all indicated neutral to slightly oil-preferential wettability. Amott/IFP spontaneous recoveries were 1.3-4.2% PV in both directions, with WI of -0.07, -0.05 and -0.01, indicating mixed wettability independent of oil type or temperature. n-heptanol gave 78% oil-wet surface for preserved and 62% for restored rock. Ten samples from five facies (M1, M2, R2, M3A, LM) were tested preserved, cleaned and restored; M1, M2 and M3A were slightly to strongly oil-preferential, R2 neutral to slightly oil-wet, and LM neutral to slightly water-wet. Even after extensive solvent cleaning, upper facies M1 and M2 could not be made strongly water-wet, suggesting non-extractable hydrophobic surface material, and restored wettability was similar to preserved.
+
+## Alteration of Wettability by Drilling Mud Filtrates
+
+- ID: SCA1994-08, year: 1994
+- Authors: J.S. Buckley, N.R. Morrow
+- Method: laboratory experiment
+- Keywords: wettability alteration, drilling mud filtrate, Amott-Harvey index, Berea sandstone, water-based mud additives, fresh core
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-08)
+
+Amott indexes on Berea cores show water-based mud filtrates alter wettability far less than individual additives, with a KCl/FCLS/Drispac mud causing minimal change across initial wettabilities.
+
+Drilling fluids can alter core wettability, compromising measurements on fresh cores. Seven common water-based mud additives were flushed individually through strongly water-wet Berea sandstone (about 600 md), and filtrates of seven practical water-based muds were flushed through cores prepared with initial wettability from strongly water-wet to strongly oil-wet. Wettability was assessed by Amott and Amott-Harvey indexes before and after exposure. All additives reduced water-wetness and increased oil-wetness, with polymers showing strong concentration dependence, and Drispac and XC caused plugging. Filtrates caused much less alteration than individual additives, attributed to adsorption of surface-active components on clay removed in the mud cake. The KCl/FCLS/CMC/Drispac filtrate (DF-4) changed the index by less than 0.20 overall and less than 0.1 for moderately oil-wet to moderately water-wet cores, while the XC-polymer muds (DF-3, DF-7) caused the largest changes.
+
+## Imaging of Pore Scale Distribution of Fluids and Wettability
+
+- ID: SCA2008-16, year: 2008
+- Authors: Munish Kumar, Tim Senden, Mark A. Knackstedt, Shane J. Latham, Val Pinczewski, Robert M. Sok, Adrian P. Sheppard, Michael L. Turner
+- Method: digital rock or imaging
+- Keywords: wettability alteration, plasma cleaning, micro-CT image registration, pore-scale fluid distribution, percolation network model, residual gas saturation
+- Cited by 3 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-16)
+
+Water-plasma cleaning sets defined wettability states in small cores; registered micro-CT images of air-water drainage and imbibition are compared pore-by-pore with percolation models.
+
+The paper addresses how wettability controls pore-scale fluid distribution and presents a cold water-plasma method to clean cores to a strongly water-wet state and a freezing/hydrophobing route to mixed-wet states (modified Carter WI of 0.08 and 0.16). Seven small cores (5-6 mm; Fontainebleau sandstone, sucrosic dolomite, oomoldic grainstone) were imaged by micro-CT at ~3 micron voxels, with voxel-registered dry and partially saturated images using CsI brine. Centrifuge drainage and spontaneous imbibition showed gas residing in the larger pores, and imaged saturations agreed with measured values. Drainage matched invasion percolation, including in the oomoldic sample where poorly connected large molds stayed water-filled. In imbibition the ordinary percolation threshold gave trapped gas of 48-58%, well above measured values of 21-40%, but cluster distributions matched once the covering radius was increased to match saturation. Short contact time gave Sgr of 37% versus 21-24% after 24 h in water-wet Fontainebleau sandstone.
+
+## Core Wettability : Should Iah Equal Iusbm ?
+
+- ID: SCA1998-09, year: 1998
+- Authors: A.B. Dixit, J.S. Buckley, S.R. McDougall, K.S. Sorbie
+- Method: numerical simulation
+- Keywords: USBM wettability index, Amott-Harvey index, pore network modelling, mixed-wet, snap-off, fractional wettability
+- Cited by 5 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-09)
+
+Analytical and pore-network models show USBM and Amott-Harvey indices agree only for fractionally-wet, snap-off-free systems; mixed-wet large pores and snap-off raise IUSBM above IAH.
+
+USBM and Amott-Harvey wettability indices are used interchangeably, yet literature data show considerable scatter between them. The authors derived analytical IUSBM–IAH relations for fractionally-wet (FW), mixed-wet with large oil-wet pores (MWL) and mixed-wet with small oil-wet pores (MWS) media with uniform pore size distribution. They then ran 20³ and 25³ pore network simulations varying PSD, pore size range, coordination number (4, 6), volume exponent (1–3), displacement mechanism and oil-wet fraction (0.187–0.567). IAH equals IUSBM only for FW systems with piston-like displacement; MWL and snap-off in water-wet pores push IUSBM above IAH, while IUSBM < IAH arises only when small pores are oil-wet and snap-off is suppressed. Simulated trends reproduce the main features of literature data, including most points above the 1:1 line and an almost empty quadrant of IUSBM<0, IAH>0.
+
+## Impacts of Wettability on Capillary Pressure and Relative Permeability
+
+- ID: SCA1999-07, year: 1999
+- Authors: A. Graue, T. Bognø, R.W. Moe, B.A. Baldwin, E.A. Spinler, D. Maloney, D.P. Tobola
+- Method: laboratory experiment
+- Keywords: wettability alteration, Amott water index, centrifuge capillary pressure, steady-state relative permeability, chalk, forced imbibition
+- Cited by 7 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-07)
+
+Capillary pressure and relative permeability were measured on Rørdal chalk aged to three wettability states, showing reproducible, stable wettability alteration and consistent trends toward less water-wet conditions.
+
+Capillary pressure and relative permeability in fractured-chalk reservoir studies depend on wettability, so outcrop Rørdal chalk plugs (1-5 mD, 43-48% porosity) were aged in crude oil at 90°C at Swi=25% to give strongly water-wet, moderately water-wet (Iw≈0.5-0.6) and near-neutral-wet (Iw≈0.3-0.4) states. Wettability was characterized by Amott indices and imbibition rate and endpoint, and duplicate plugs reproduced the imbibition behavior. Repeat Amott tests after 50 PV water and 70 PV oil flushing and shipping showed the alteration was stable. Centrifuge secondary drainage curves at less water-wet conditions had lower threshold pressure, more curvature and higher immobile water. Forced imbibition curves became flatter and residual oil decreased, but higher pressure drops were needed. Steady-state water relative permeability increased at a given saturation toward less water-wet states, although the Iw=0.5 curve was somewhat offset. History matching of waterfloods in chalk blocks indicated the capillary pressure data were more reliable than the steady-state relative permeability data.
+
+## Application of Differential Scanning Calorimetry to Core Analysis
+
+- ID: SCA2013-055, year: 2013
+- Authors: Evgeny Dyshlyuk
+- Method: measurement technique or apparatus
+- Keywords: differential scanning calorimetry, specific heat capacity, thermoporometry, pore size distribution, immersion calorimetry, controlled pore glass
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-055)
+
+Outlines how heat-flow Calvet DSC can measure core specific heat capacity, pore size distribution by thermoporometry, wettability and surface area via immersion calorimetry.
+
+The paper presents differential scanning calorimetry, using a Setaram BT2.15 Calvet-type heat-flow instrument, as a versatile tool for core analysis. Specific heat capacity is determined from blank, reference (Al2O3) and sample runs, reaching about 1% precision in step mode and 1.7% in continuous mode over -196 to 200 °C. Pore size distribution is obtained by thermoporometry from the freezing-point depression of confined water, demonstrated on a mixture of controlled pore glasses (50, 100, 300 nm) that gave distinct endothermic peaks plus a bulk water peak. Wettability and surface area are addressed through immersion calorimetry, relating immersion enthalpy to contact angle and using a modified Harkins-Jura procedure with pre-coated samples. The thermoporometry range is limited to pores up to about 1 μm, narrower than mercury injection.
+
+## Wettability Laboratory Evaluation Under Reservoir Conditions: A New Apparatus
+
+- ID: SCA1995-29, year: 1995
+- Authors: L. Cuiec
+- Method: measurement technique or apparatus
+- Keywords: Amott-Harvey wettability index, reservoir conditions apparatus, temperature effect on wettability, recombined oil, mixed wettability, sandstone and carbonate
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-29)
+
+A new apparatus performs the Amott-Harvey wettability test at reservoir conditions; tests on three sandstones and a carbonate show condition effects are reservoir-specific and unpredictable.
+
+Wettability measured at room conditions may not represent reservoirs, and no apparatus could run all four Amott-Harvey stages without releasing pressure and temperature. The author built an apparatus operating up to 450 bar and 170°C, plus an intermediate cell (25 bar, 80°C). Amott-Harvey tests were run at room, intermediate and reservoir conditions on cleaned samples from three clayey sandstones and one Middle East carbonate, using synthetic brine and stock-tank, topped or recombined oil. Sandstone No. 2 shifted from I_AH of about -0.75 at room conditions to +0.25 intermediate and +0.42 reservoir. Sandstone No. 1 went from -0.11 to +0.10 to -0.28, and the carbonate stayed near zero (-0.05 to -0.01) under all conditions. Temperature increases often raised water affinity in sandstones, but the response could not be predicted, so testing at reservoir conditions is recommended.
+
+## Cryo ESEM Studies of Emulsions and Fluid Distribution at Pore Scale
+
+- ID: SCA2006-43, year: 2006
+- Authors: Tony Boassen, Espen Kowalewski, Pål V. Hemmingsen
+- Method: measurement technique or apparatus
+- Keywords: Cryo ESEM, X-ray EDS elemental mapping, fluid distribution pore scale, seal peel cores, particle-stabilized emulsions, wettability
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-43)
+
+Cryo ESEM with EDS imaging of frozen, fractured, uncoated samples shows pore-scale oil/brine distribution in rocks and particles at oil-water interfaces in emulsions.
+
+The paper presents Cryo ESEM combined with X-ray EDS as a way to image fluid distribution at pore scale and to characterize emulsions. Samples are frozen in liquid nitrogen and freeze-fractured, with no conductive coating or fluid dopant needed. Backscattered electron images and elemental maps (C for oil, O and Cl for brine) were used on a calcite carbonate saturated with paraffin oil, North Sea sandstone seal-peel cores, and crude oil-in-water emulsions stabilized by BaSO4 particles. In a carbonate example, image analysis gave oil area 30.6% and brine area 17.2%, so So was 0.64, with brine on mineral surfaces indicating water-wet conditions. Seal-peel sandstone showed few oil droplets in brine, and BaSO4 particles formed shells around oil droplets at the interface.
+
+## Determination of Wettability of Iranian Carbonate Reservoir Rocks in Restored-State
+
+- ID: SCA2003-43, year: 2003
+- Authors: Mohammad-Reza Esfahani
+- Method: laboratory experiment
+- Keywords: Amott-USBM combined index, restored-state wettability, carbonate reservoir, centrifuge capillary pressure, relative permeability crossover saturation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-43)
+
+Wettability of eleven restored-state Iranian carbonate plugs at 90°C was measured; Amott tests gave intermediate wettability, while combined Amott/USBM indicated mostly oil-wet.
+
+Wettability of Iranian dolomite and limestone reservoir rocks was characterized on eleven plugs from Fields M and R, cleaned, saturated with formation water, flooded with crude oil and aged 40 days at 90°C. Qualitative relative permeability results were contradictory: crossover saturations (33-46%) indicated oil-wet, while Krw at Sor was below Kro at Swi. Amott tests by core flooding and by centrifuge agreed and mostly gave intermediate wettability (Amott-Harvey indices near zero), with only interval D of Field R water-wet (about 0.49-0.61). Combined Amott/USBM indices were mostly negative (e.g. -0.31 to -0.85), indicating oil-wet behavior except for plug 13 (+0.374). The authors conclude the combined method is more informative than Amott or USBM alone and about as time-efficient as Amott.
+
+## Fractional Wettability and Petrophysical Parameters of Porous Media
+
+- ID: SCA1992-20EURO, year: 1992
+- Authors: J. M. Lombard, R. Lenormand
+- Method: laboratory experiment
+- Keywords: fractional wettability, silanated sand, Amott and USBM indices, percolation threshold, relative permeability hysteresis, saturation exponent
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-20EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-20EURO)
+
+Sand packs mixing water-wet and silanated oil-wet sand show how fractional wettability controls capillary pressure, wettability indices, relative permeability hysteresis and saturation exponent, with percolation thresholds at f=0.25 and 0.75.
+
+The study addresses how fractional wettability affects flow and electrical properties. Synthetic unconsolidated packs (70-100 µm sand, porosity 40%, K≈2.3 D) were made by mixing water-wet sand with silanated oil-wet sand at fractions f from 0 to 1; the silane treatment was stable over three months. Centrifuge capillary pressure (drainage and imbibition), USBM, Amott and Amott-IFP indices, steady-state relative permeability and resistivity indices were measured. Wettability indices fall monotonically with f (e.g. Amott-IFP from 1 to -1), with plateaus and spontaneous displacements linked to the 3D percolation threshold of 0.25 (and 0.75). Primary drainage Pc decreases with increasing f, relative permeability hysteresis depends on f, and the saturation exponent n increases with f while the cementation factor stays at 1.5.
+
+## Experimental Evidence of Different Intermediate Wetting States
+
+- ID: SCA2004-04, year: 2004
+- Authors: A. Skauge, K. Spildo, L. Høiland, B. Vik, B. Ottesen
+- Method: laboratory experiment
+- Keywords: mixed-wet large, mixed-wet small, fractional wettability, ESEM, USBM Amott-Harvey indices, disjoining pressure
+- Cited by 3 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-04)
+
+ESEM and thin-section imaging of MWL and MWS reservoir cores show local mineral wetting consistent with the wetting classes inferred from USBM and Amott-Harvey indices.
+
+Intermediate-wet reservoirs have been classified as fractional-wet, mixed-wet large or mixed-wet small by comparing USBM and Amott-Harvey indices, and this study seeks direct pore-scale evidence. A disjoining-pressure argument based on pore shape (circular, star-shaped, triangular) explains why oil-wetting may occur in large pores, small pores, or independent of size. Cores from an MWL and an MWS reservoir were examined by thin section, SEM and ESEM water condensation. In the MWL core, quartz and K-feldspar in large pores showed water droplets (less water-wet) while kaolinite and mica in small pores were water-wet. In the MWS core, quartz was more water-wet and only high-surface-area minerals such as mica deviated from water-wet behaviour. Literature cases (Prudhoe Bay, Rueslåtten et al.) support the classification, though wettability indices are still needed to separate the classes.
+
+## Petrophysics of Shu'Aiba Reservoir, Shaybah Field
+
+- ID: SCA2000-35, year: 2000
+- Authors: Taha M. Okasha, James J. Funk, Yaslam S. Balobaid
+- Method: laboratory experiment
+- Keywords: reservoir quality index, flow zone indicator, Krw/Kro correlation, USBM and Amott wettability, mercury injection pore size distribution, Shu'aiba carbonate
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-35)
+
+Conventional and special core analysis of Shaybah's Shu'aiba carbonate shows strong heterogeneity, intermediate to water-wet behavior, bimodal pore systems, and yields a Krw/Kro correlation and RQI-based zonation.
+
+The study characterizes the heterogeneous Shu'aiba limestone reservoir of Shaybah field using routine and special core analysis on preserved plugs and composite cores. Porosity and permeability varied widely between and within wells (e.g., 8–178 md vs 9–36 md over the same interval), and a modified cumulative-RQI versus depth technique was developed to identify flow zones and select samples. Unsteady-state reservoir-condition relative permeability tests showed substantial oil recovery beyond breakthrough, and a polynomial regression of Krw/Kro versus normalized saturation (202 data pairs, r≈0.94) was derived. Amott and USBM indices (−0.02 to 0.78) indicated intermediate to water-wet behavior, becoming more water-wet with depth, consistent with Craig's rules. Mercury injection showed unimodal and bimodal pore systems with median pore radii of 0.5–1.5 microns increasing with permeability.
+
+## Effect of Pressure on Wettability Restoration and Crude Characterization Using Infra-Red Spectrometry
+
+- ID: SCA1991-10, year: 1991
+- Method: laboratory experiment
+- Keywords: wettability restoration, aging pressure, Amott index, core cleaning, FTIR crude oxidation, core preservation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-10)
+
+Aging North Sea sandstone cores at low pressure gave more oil-wet Amott results than high-pressure aging; core drying and crude oxidation, tracked by infrared, also alter wettability.
+
+The paper examines how aging pressure affects wettability restoration of cores from two North Sea sandstone reservoirs (H and V), with wettability measured by the Amott index. Cores were cleaned by solvent flow-through, saturated with brine and stock-tank crude, and aged for 30 days at reservoir temperature, at either 200 psi or bubble-point pressure. Low-pressure aging gave more oil-wet cores: H2 went from +0.8 to about -0.3 to -0.4 at low pressure versus +0.25 to +0.3 at high pressure, and V1 went from 0 to -0.3 versus 0. Poorly preserved, dried cores (H1, V1) could only be cleaned to neutral wettability, while well-preserved cores cleaned to water-wet. Infrared measurement of the acid C=O band proved more sensitive to crude oxidation than acid number, and oxidation was faster at 120 F and when brine and 316 stainless steel were present together.
+
+## The Measurement of Core Sample Surface Wettability Heterogeneity by Adsorption Calorimetry
+
+- ID: SCA2014-088, year: 2014
+- Authors: Evgeny Dyshlyuk, Natalya Bogdanovich, Dmitry Korobkov, Vera Pletneva
+- Method: measurement technique or apparatus
+- Keywords: adsorption calorimetry, wettability heterogeneity, water vapor adsorption isotherm, differential scanning calorimetry, dolomite, enthalpy of adsorption
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-088.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-088)
+
+Water vapor adsorption isotherms and DSC calorimetry on dolomite miniplugs before and after extraction show native cores are homogeneously oil-wet, while extracted cores are heterogeneous and more water-affine.
+
+Standard wettability tests such as Amott and USBM yield a single number and say nothing about spatial heterogeneity of wettability. The authors combined water vapor adsorption isotherms (desiccator with salt solutions, microbalance) with isothermal Calvet-type DSC heat measurements at 25 °C. They tested five pairs of low-permeability (~3 mD) dolomite miniplugs (~85% dolomite) before and after Soxhlet extraction with benzol. Adsorption isotherms were lower for extracted cores, although BET surface area grew about 1.7 times after extraction, so mass-based hydrophobicity coefficients would give a wrong wettability interpretation here. Integral specific heat of non-extracted cores lay below the water liquefaction enthalpy (2444 kJ/kg), whereas extracted cores lay above it. Differential heat curves showed extracted cores to be heterogeneous and non-extracted cores homogeneous, similar to carbon surfaces, indicating oil-wet surfaces without water-wet small pores.
+
+## Wetting and Waterflood Oil Recovery of a Moderately Viscous Crude Oil
+
+- ID: SCA1993-23, year: 1993
+- Authors: Jean-Michel Villard, Jill S. Buckley, Norman R. Morrow, Renaud Gauchet
+- Method: laboratory experiment
+- Keywords: wettability alteration, Amott index, aging temperature, viscous crude oil waterflood, spontaneous imbibition, micromodel visualization
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-23)
+
+Aging Berea cores in 46 cp Schuricht crude at higher temperature lowers water-wetness (Amott index) and improves waterflood recovery; micromodels and history matching support this.
+
+The study tests whether wettability alteration trends seen for lighter crudes also hold for a 46 cp Schuricht crude oil. Berea sandstone cores (about 550-735 md, 21% porosity) were aged at initial water saturation for 3-30 days at 26-80°C. Amott indices fell to about 0.4 after 12 days of aging at 53°C. The Amott index to water was 0.61 at 26°C aging and about 0.5 at 53°C, while imbibition rate and recovery decreased with aging temperature (32% to 27% from 26°C to 80°C). Waterflood recovery improved as cores became less water-wet, but it decreased slightly with injection rate (7.5-30 ml/hr). Micromodel floods showed that short aging gave water-wet displacement with ganglia trapping, whereas 80°C aging gave intermediate wetting and more efficient displacement. History matching with a 1D simulator gave Pc and kr curves, and Amott indices from the simulated Pc were reasonably consistent with measured values. The expected leftward shift of the kr crossover with decreasing water-wetness was not observed.
+
+## Wettability Analysis Using Micro-CT, Fesem and Qemscan, and Its Applications to Digital Rock Physics
+
+- ID: SCA2015-010, year: 2015
+- Authors: Nasiru Idowu, Haili Long, Pål-Eric Øren, Anna M. Carnerup, Andrew Fogden, Igor Bondino, Lars Sundal
+- Method: digital rock or imaging
+- Keywords: wettability, micro-CT registration, FESEM asphaltene, QEMSCAN, pore network modeling, Amott index
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-010)
+
+Registered micro-CT, FESEM and QEMSCAN imaging of two sandstone miniplugs reveals water-wet versus oil-wet behavior, and the wettability informs pore network simulations that match SCAL data.
+
+Conventional wettability tests give only averaged values, so the authors combine micro-CT, FESEM and QEMSCAN on 6 mm miniplugs of an outcrop and a reservoir sandstone with similar porosity (~22.5%) and permeability (524 and 853 mD). Tomograms were taken after drainage and ageing, spontaneous imbibition and forced imbibition. The outcrop sample imbibed spontaneously (Sw from 3.0 to 59.3%, Amott Iw 0.60-0.94), while the reservoir sample did not (Sw 3.2 to 4.5%, Iw 0.01-0.04) but responded strongly to forced imbibition. FESEM showed little asphaltene on the outcrop and near-complete asphaltene coverage, including on clay linings, in the reservoir sample, which the authors attribute mainly to the different crude oils. Pore network models with oil-wet parameters (contact angles 100-150°) for the reservoir sample reproduced MICP, spontaneous imbibition volume and Iw (0.018 vs 0.014 measured), and gave relative permeability qualitatively consistent with core data.
+
+## 1990 Sca Conference Paper Number 9007
+
+- ID: SCA1990-07, year: 1990
+- Authors: Pore Size
+- Method: laboratory experiment
+- Keywords: Amott wettability index, mercury porosimetry, Berea sandstone, waterflood oil recovery, residual oil saturation, surface area
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-07)
+
+Radial waterfloods on 22 Berea cores, with Amott wettability and mercury porosimetry on plugs, link surface area and pore-throat size to wettability, oil recovery and residual oil.
+
+The study examines how surface area and pore-size distribution affect oil recovery at breakthrough and floodout, residual oil saturation and wettability in Berea sandstone. Waterfloods were run on 22 radial Berea cores (12.7 cm diameter, 5.08 cm long) with 10 cp oil at 35°C. Twenty-four plugs from each core were then used for Amott wettability tests and mercury porosimetry. Wettability indices ranged from +0.45 to +1.00, indicating heterogeneous, hydrophilic-dominated wetting. Regression showed wettability rising with irreducible water saturation and falling with residual oil saturation, and both recoveries rose with wettability and surface area. Median pore-throat size was about 15 µm, and tortuosity (retention time) was inversely related to median pore-throat size. Mercury hysteresis and entrapment were attributed to ink-bottle pores and related to differences in Sor.
+
+## Visualization of Rock Samples in Their Natural State Using Environmental Scanning Electron Microscope
+
+- ID: SCA1993-04, year: 1993
+- Authors: Renaud Gauchet, Pascal Chenevière, Jean-Paul Tricart
+- Method: digital rock or imaging
+- Keywords: environmental scanning electron microscope, wettability, microscale fluid distribution, condensation imbibition, residual oil saturation, illite kaolinite
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-04)
+
+ESEM imaging of unprepared core samples shows condensation-imbibition in clays and wettability-dependent oil/brine distribution at Swi and Sor in water-wet, intermediate and oil-wet rocks.
+
+The study uses an Environmental Scanning Electron Microscope to image reservoir rocks with fluids in their natural state, without coating or freezing. Condensation-imbibition tests on a shaly sample containing illite and kaolinite in air/brine showed wetting controlled mainly by shape factors, with no clear intrinsic water affinity of either clay. Three sandstone core disks (water-wet WI=0.8, intermediate, oil-wet WI=-0.7) were brought to Swi and Sor by centrifuge with brine (20 g/l NaCl) and Marcol 52 oil, and phases were identified by contrast and C/Cl X-ray ratio. At Swi, the water-wet rock had a 2-3 µm water film, the oil-wet rock had ~5 µm water droplets, and the intermediate rock showed both. At Sor, the water-wet rock had oil droplets of 5-10 µm in water, and the oil-wet rock had a 5-10 µm oil film on pore surfaces, so identical core-scale saturations hide very different microscale distributions.
+
+## Early Water Breakthrough in Carbonate Core Samples Visualized with X-Ray CT
+
+- ID: SCA2000-08, year: 2000
+- Authors: Toshiya Oshita, Hiroshi Okabe
+- Method: laboratory experiment
+- Keywords: X-ray CT saturation monitoring, mixed-wet waterflood, early water breakthrough, heterogeneous wettability, Amott index, carbonate core
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-08)
+
+X-ray CT coreflood imaging and simulation of Berea and Middle East carbonate plugs show heterogeneous wettability, not super-k streaks, can cause early water breakthrough through porous laminae.
+
+Early water breakthrough in Middle East carbonate reservoirs is commonly attributed to super-permeability streaks, which cores and logs cannot confirm. The authors waterflooded a Berea plug (BD24) at 0.05 ml/min under water-wet and, after aging in crude, mixed-wet conditions, and an oil-wet carbonate plug (Io 0.86, Iw 0.04), using X-ray CT saturation monitoring. Water-wet Berea showed a piston-like Buckley-Leverett front with breakthrough at 0.32 PV. Mixed-wet Berea broke through at 0.2 PV and the oil-wet carbonate at 0.15 PV, with brine fingering through the most porous laminae. Simulations reproduced the fingering only by assigning different capillary pressure and relative permeability curves to laminae (low-porosity more oil-wet, high-porosity less oil-wet), not with uniform wettability and realistic permeability contrast.
+
+## Wettability Alteration Due to Retention of CO2-Foaming Agents Onto Chalk Rock
+
+- ID: SCA2008-50, year: 2008
+- Authors: John Zuta, Ingebret Fjelde
+- Method: laboratory experiment
+- Keywords: CO2 foam, surfactant retention, sulphate wettability test, ethoxylated sulphonate, Liege chalk, wettability index
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-50)
+
+Sulphate wettability tests on Liege chalk show ethoxylated sulphonate CO2-foaming agents alter wettability and are retained differently depending on ethoxylation degree and residual oil presence.
+
+CO2-foaming agents retained on reservoir rock can change its wettability. Liege outcrop chalk plugs were flooded at 55°C with two branched ethoxylated sulphonates, S1 (EO=7) and S2 (EO=12), with plugs either 100% formation-water saturated or at residual oil after waterflooding. Retention was derived from effluent surfactant/tracer profiles, and wettability from the chromatographic sulphate test. With water-saturated cores, retention was 2.7 mg/g for S1 and 1.6 mg/g for S2, and wettability index rose from about 0.6 (S1) to 1.0 (S2). With residual oil, retention of S1 fell to 2.2 mg/g while S2 rose to 3.2 mg/g, and the wettability index went from 0.5 (unexposed) to 0.8 for S1 and 0.6 for S2, i.e. less water-wet with higher ethoxylation.
+
+## Core Surface Analysis for Wettability Assessment
+
+- ID: SCA1991-07EURO, year: 1991
+- Authors: Christian Quet, Gérard Glotin, Pascal Cheneviere, Maurice Bourrel
+- Method: laboratory experiment
+- Keywords: X-ray photoelectron spectroscopy, wettability restoration, organic carbon surface content, Amott wettability index, crude oil ageing, core cleaning
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-07EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-07EURO)
+
+XPS surface organic carbon is compared with core flooding and Amott wettability on Berea, sandstone and carbonate cores; carbon tracks oil wetness, but cleaning and masking limit quantification.
+
+The study tests whether surface chemical composition measured by X-ray photoelectron spectroscopy (XPS), mainly organic carbon, can indicate core wettability. Berea plugs aged with crude oil (80°C, three weeks) shifted from an Amott index of +0.85 to 0, and organic carbon rose from 19.4 to 28.7 at% after standard cleaning, showing that cleaning only partly restores the original surface. For reservoir 2 sandstone, oil-wet cores consistently had the highest carbon contents. For reservoir 1 carbonate, Amott indices were all near 0.1 despite carbon of 25–49 at%, so intermediate wettability corresponded to roughly 30–45 at% carbon. Air-borne carbon (10–20 at%) and masking of the mineral signal limit quantitative use, and milder cleaning is recommended.
+
+## Wettability Changes Due to the Deposition and Presence of Asphaltenes in Crude Oil
+
+- ID: SCA1993-27, year: 1993
+- Authors: M. de Pedroza, A. Rico, G. Calderon
+- Method: laboratory experiment
+- Keywords: Amott wettability index, asphaltene adsorption, core cleaning, wettability alteration, aging in crude oil, Berea sandstone
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-27)
+
+Amott tests on Venezuelan reservoir cores and Berea show asphaltene-rich crude and pentane-induced precipitation shift wettability toward oil-wet; a flow-through cleaning method restores water-wetness.
+
+The study examines how asphaltene content and precipitation change core wettability, using Venezuelan reservoir cores and Berea plugs with four crudes (asphaltenes 1.1 to 17 wt%) and a desasphalted oil. Wettability was measured with a modified Amott test on 42 samples (103 tests), reproducible within ±0.05. Soxhlet cleaning with toluene-methanol or dichloroethane-methanol failed to make reservoir cores water-wet, while a flow-through sequence of dichloroethane, methanol and formation brine at 65°C gave strongly water-wet cores with no spontaneous oil imbibition. Aging in crude for 6 to 38 days and pentane-induced deposition both shifted cores toward oil-wet; Berea indices fell from about +0.95 to as low as -0.75 with high-asphaltene oils, but only to intermediate-wet with the low-asphaltene oil M or desasphalted oil. The degree of alteration depended on cleaning, rock type, asphaltene amount and asphaltene properties, and adsorption alone could alter wettability without visible precipitate.
+
+## Variation of Special Core Analysis Properties for Intermediate Wet Sandstone Material
+
+- ID: SCA2003-05, year: 2003
+- Authors: Arne Skauge, Bartek Vik, Bård Ottesen
+- Method: data analysis or correlation
+- Keywords: intermediate wettability, mixed-wet large, mixed-wet small, USBM index, Amott-Harvey index, residual oil saturation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-05)
+
+North Sea sandstone reservoirs are classed as fractional-wet, mixed-wet-large or mixed-wet-small from USBM versus Amott-Harvey indices, explaining differences in cleaning response, Sorw, relative permeability and capillary pressure.
+
+Intermediate-wet sandstone shows large scatter in SCAL properties, which this study tries to resolve by splitting it into fractionally wet (FW), mixed-wet large (MWL) and mixed-wet small (MWS) classes. Classification uses the sign of I_USBM at I_AH = 0, following network-model work by Dixit et al. Of 13 North Sea reservoirs with enough data, five were MWL, four FW and four MWS, and one typical reservoir per class was analysed in detail. FW and MWS cores kept their non-water-wet state after toluene/methanol cleaning at 70 °C, while MWL cores became clearly more water-wet. MWL cores had the lowest average Sorw, falling with permeability, and higher scaled endpoint water relative permeability. MWS cores had the highest Sorw and higher Corey exponents. An MWL and an MWS core of 100 mD and porosity 0.25 showed a larger area under the forced imbibition Pc curve for MWL.
+
+## Removal of Mud Components from Reservoir Sandstone Rocks
+
+- ID: SCA2015-016, year: 2015
+- Authors: Ingebret Fjelde, Aruoture Voke Omekeh, Mona Wetrhus Minde
+- Method: laboratory experiment
+- Keywords: mud contamination, core cleaning, SEM/EDS, wettability, capillary desaturation curve, effluent ICP analysis
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-016)
+
+Effluent chemistry, SEM, GC and wettability tests show solvent cleaning of sandstone cores leaves water- and oil-based mud components that alter wettability and capillary desaturation curves.
+
+Mud contamination can change wettability and permeability of reservoir core plugs, so cleaning procedures need evaluation. High-permeability sandstone plugs with possible water-based KCl mud were flushed with synthetic formation water, cleaned with methanol/toluene cycles at 60°C, and examined by ICP effluent analysis, SEM/EDS, GC of extracts, and spontaneous/forced imbibition. Effluent K and S stayed above injected levels, and Ca, Mg and Na below, for many pore volumes, and SEM still found barite, clay and polymers after cleaning and after water flooding. Cleaned plugs were water-wet, yet retained high-molecular-weight oil components (extract rising from 62 to 604 mg/kg rock from inlet to outlet). For oil-based mud, emulsifiers were released slowly during STO injection and exposed plugs imbibed more slowly than the reference. A composite core gave an atypical CDC after methanol cleaning but a typical water-wet CDC after strong cleaning with methanol/toluene, acetic acid and ethanol, which probably altered the mineralogy.
+
+## Rock Surface Characterization by Immersion Calorimetry: Wettability and Specific Surface Area
+
+- ID: SCA2015-059, year: 2015
+- Authors: E. Dyshlyuk, D. Korobkov, V. Pletneva
+- Method: measurement technique or apparatus
+- Keywords: immersion calorimetry, specific surface area, BET gas adsorption, wettability, differential scanning calorimetry, swelling clays
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-059.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-059)
+
+Immersion calorimetry with a special cell is validated for specific surface area against BET on powders and carbonate cores, working well for hydrophilic samples but not hydrophobic or carbonate ones.
+
+Immersion calorimetry can yield both specific surface area and wettability from two identical experiments with different initial sample conditions: immersion from vacuum for wettability, and immersion after pre-adsorbing a water film for surface area. A special calorimetric cell with coaxial tubes was built to allow sample evacuation, vapor adsorption and immersion in the same cell, with later use at reservoir conditions in mind. Surface areas were measured with distilled water and a film adsorbed at 45% humidity on reference powders (CPG glass, corundum, quartz, kaolinite, montmorillonite, bentonite, CaCO3, carbon) and carbonate core plugs, and compared with BET. Agreement was good for most hydrophilic samples (e.g., CPG 3000C 9.3 vs 9.5 m2/g; kaolinite 10.3 vs 10 m2/g). Bentonite differed strongly (250 vs 15.6 m2/g), attributed to swelling, since calorimetry also sees internal clay surface. Hydrophobic carbon and carbonates, with very low surface areas and poor early vapor adsorption, gave same-order values and the same trend of increased area after extraction.
+
+## Wettability Evaluation of a Carbonate Reservoir Rock
+
+- ID: SCA1992-17EURO, year: 1992
+- Authors: Pierre M. Lichaa, Hayrl Alpustun, Jasper H. Abdul, Wasef A. Nofal, Alhasan B. Fuseni
+- Method: laboratory experiment
+- Keywords: USBM wettability index, Arab-D carbonate, steam core cleaning, wettability restoration, zeta potential, mixed wettability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-17EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-17EURO)
+
+USBM wettability of Arab-D carbonate cores in as-received, cleaned and restored states is intermediate to slightly oil-wet; steam cleaning works, strong water-wetness is unattainable, and mixed wettability is likely.
+
+The study evaluates wettability of Arab-D carbonate cores from two Uthmaniyah wells (UTMN-A, UTMN-B) in as-received, cleaned and restored states, mainly by USBM, with Amott (dropped as insensitive) and contact angles on calcite and marble. As-received cores were neutral to slightly oil-wet (USBM WI about +0.46 to -0.46). Cleaning with solvents or toluene followed by steam moved most plugs to neutral or slightly water-wet, but none reached strong water-wetness, and steam performed as well as the chlorinated solvents. Restored cores returned mostly to slightly oil-wet at 25°C, with a tendency toward neutral at 75°C. Crude oil chemistry (acidic, carboxylic acids, vanadium 34.8 µg/g), zeta potential and brine multivalent ions support intermediate to oil-wet behavior. Tests with polar and non-polar crude fractions, plus asphaltene size (~0.6 µm) exceeding some pore sizes, point to a possible mixed-wettability system.
+
+## Wettability and Relative Permeability of Lower Cretaceous Carbonate Rock Reservoir, Saudi Arabia
+
+- ID: SCA2001-03, year: 2001
+- Authors: Taha M. Okasha, James J. Funk, Yaslam S. Balobaid
+- Method: laboratory experiment
+- Keywords: Amott wettability index, USBM wettability, unsteady-state relative permeability, composite cores, mixed-wet carbonate, Shu'aiba
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-03)
+
+Amott and USBM wettability and unsteady-state relative permeability on preserved Shu'aiba carbonate cores show wettability shifting from water-wet near the OWC to oil-wet/mixed up-structure, with consistent relative permeability trends.
+
+The study characterizes wettability and waterflood behavior of the heterogeneous Lower Cretaceous Shu'aiba carbonate (Shaybah field, Saudi Arabia) using preserved cores. Wettability was measured by modified Amott and USBM methods, and seven unsteady-state relative permeability tests were run on composite cores at 190 °F, 2500 psig pore pressure with live oil. Wettability indices ranged from -0.71 to 0.82, with oil-wet to intermediate behavior up-structure and water-wet near the oil-water contact. Water wetness increased with lower permeability and higher initial water saturation, consistent with Jadhunadan and Morrow. Waterflood recovery at breakthrough was 26-67% PV and ultimate recovery 46-76% PV, with Sor 6.6-31% PV. Relative permeability curves indicated oil-wet, mixed-wet and water-wet behavior for up-, mid- and down-structure composites respectively.
+
+## Applicatinon of an Optimization Method for Restoration of Core Samples for SCAL Experiments
+
+- ID: SCA2016-002, year: 2016
+- Authors: Edison Sripal, L.A. James
+- Method: laboratory experiment
+- Keywords: wettability restoration, Box-Behnken design, response surface methodology, contact angle, aging time, Berea sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-002.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-002)
+
+A Box-Behnken response surface design optimizes aging time, temperature and brine salinity for wettability restoration of Berea sandstone and Silurian dolomite, using contact angle; aging time dominates.
+
+Restoring core wettability for SCAL lacks a consistent aging protocol. The authors applied a three-factor Box-Behnken design (15 trials) varying brine salinity (80,000-120,000 ppm), aging temperature (60-90 °C) and aging time on Berea sandstone and Silurian dolomite aged with Hibernia crude in overburden coreholders, measuring wettability by sessile-drop contact angle. Linear regression models were significant (p = 0.0087 for Berea, 0.0073 for dolomite). Aging time was the significant factor for Berea, while age and temperature mattered for dolomite; salinity was insignificant over the narrow range tested. Desirability optimization gave 99,165 ppm, 80 °C and 5.7 weeks for Berea, and 103,000 ppm, 88 °C and 5.8 days for dolomite (intermediate oil-wet).
+
+## Carbonate Rock Wettability Interpreted from Capillary Pressure and Imbibition Resistivity Index Analyses
+
+- ID: SCA2003-03, year: 2003
+- Authors: Dan Potocki, Minghua Ding, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: USBM wettability index, Amott index, imbibition resistivity index, Archie saturation exponent, carbonate reservoirs, capillary pressure hysteresis
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-03)
+
+USBM/Amott and imbibition resistivity index tests on aged carbonate plugs from five Western Canadian reservoirs show wettability from weakly water wet to mildly oil wet, with n of 1.2–3.1.
+
+Carbonate reservoirs in Western Canada are often treated as water wet with a standard Archie n of 2, but wettability is rarely measured. The authors aged core plugs for 40 days in reservoir oil and ran combined USBM/Amott centrifuge tests on 17 samples from five pools. They compared primary and secondary drainage capillary pressure curves, did one live-oil contact angle measurement, and ran imbibition resistivity index tests on 9 sister plugs. Nisku samples were weakly water wet, while Keg River and Sulphur Point samples were mildly oil wet and Leduc and Midale were mixed or neutral. Initial restored n at Swirr ranged from about 1.15 to 3.1 and showed no reliable correlation with wettability indices, so n cannot indicate wettability alone. Water wet Nisku samples kept high RI and suppressed water relative permeability as Sw first increased, whereas oil wet Keg River samples showed an immediate RI drop and rapid hydraulic continuity.
+
+## Methodology for Determining the Distribution of Wettability from Laboratory and Well Log Measurements for a Microcrystalline/~~Crofossiliferous Carbonate Field
+
+- ID: SCA1996-18, year: 1996
+- Authors: E. A. Spinler
+- Method: data analysis or correlation
+- Keywords: spontaneous imbibition index, apparent wettability, Amott water index, well log water saturation, waterflood, carbonate reservoir
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-18)
+
+Apparent wettability of waterflooded carbonate zones is computed from log saturations using a spontaneous imbibition index calibrated on core plugs, showing moderate to strongly water-wet, capillary-dominated displacement.
+
+Wettability is hard to obtain from logs, so this study estimates apparent wettability in extensively waterflooded zones of microcrystalline/microfossiliferous carbonate reservoirs. A Spontaneous Imbibition Index (SII), the ratio of measured to highly water-wet imbibition, was calibrated on 37 extracted core plugs (correlation exponents 0.17 and 2.25) and applied to log-derived flooded water saturations. Initial water saturations came from neural-net capillary pressure correlations trained to 4-7% average error. In formations A and B across two wells, SII was below one, and water saturation and wettability trended downward with porosity, consistent with spontaneous imbibition end-points rather than viscous displacement. The formations were moderately to strongly water-wet, with water wetness decreasing as porosity increased. This agrees with low water production in the field and suggests EOR could target viscous-bypassed oil.
+
+## Wettability Restoration in Cores Contaminated by Fatty Acid Emulsifiers
+
+- ID: SCA2007_03, year: 2007
+- Authors: Hollie A. Kelleher, Edward M. Braun, Bradley E. Milligan, Rodney C. Glotzbach, Einar Haugen
+- Method: laboratory experiment
+- Keywords: core cleaning, oil-based mud contamination, fatty acid emulsifiers, spontaneous imbibition, wettability restoration, KOH alkaline flushing
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_03)
+
+An 11-step solvent and KOH flow-through cleaning restores water-wetness in Terra Nova cores contaminated by fatty acid oil-based mud, yielding relative permeability matching uncontaminated core.
+
+Terra Nova sandstone cores cut with oil-based mud containing oleic and linoleic acid emulsifiers could not be cleaned to a water-wet state by the standard strong-solvent sequence. About 40 spontaneous imbibition tests (brine displacing tetradecane) were used to screen cleaning treatments, with water-wet Berea, Dean-Stark-only core and water-based-mud aquifer core as references. Acidified brine, peroxide, and extra solvents failed, whereas alkaline flushing worked; KOH damaged permeability less than NaOH, and two cycles and 1 M concentration were more effective. The resulting 11-step method alternates solvents, 1 M KOH, and Ca/Mg-free brine flushed to pH 7. After aging at 205°F for at least 6 weeks, steady-state water-oil relative permeability on a cleaned oil-based-mud composite agreed closely with that on uncontaminated aquifer core, with mixed-wet behavior and endpoint water relative permeability near 0.5.
+
+## Core cleaning and wettability restoration – selecting appropriate method
+
+- ID: SCA2021-016, year: 2021
+- Authors: Raheleh Farokhpoor, Xiangmin Zhang, Lucian Pirlea
+- Method: laboratory experiment
+- Keywords: core cleaning, wettability restoration, Amott-USBM wettability, effluent gas chromatography, imbibition capillary pressure, aging
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-016)
+
+Compares a standard and an aggressive solvent flush cleaning on North Sea sandstone; GC shows standard cleaning leaves heavy oil, and aging restores intermediate water-wet behavior.
+
+Standard core cleaning is judged by visual effluent clarity, which may leave residual oil and compromise wettability restoration. Plugs from two preserved North Sea sandstone sections (oil and water zone, ~31-34% porosity, 1000-2900 mD) were cleaned by a standard toluene/chloroform/methanol flush (Program-1, ~16 PV) or an 8-cycle toluene-THF-chloroform flush (Program-2, ~42 PV). GC of Program-2 effluents showed that oil became heavier each cycle, reaching ~550 g/mol with fractions above C42 even after 40 PV. Combined Amott-USBM tests showed all cleaned plugs water-wet; Amott-Harvey indices were similar (0.47-0.57) but USBM indices were higher after Program-2 (0.52-0.75 vs 0.18-0.29). After Program-2 cleaning and 4 weeks aging at 80 °C and 190 bar, plugs showed almost no spontaneous water imbibition, lower Sor (0.11-0.21) and higher Krw at Sor, indicating intermediate water-wet behavior. Program-2 is impractical for routine use, and effluent GC is suggested to verify cleaning.
+
+## Digital rock workflow to calculate wettability distribution in a reservoir rock
+
+- ID: SCA2022-21, year: 2022
+- Authors: Ashraful Islam, Rafael Tio Salazar, Bernd Crouse, Dassault Systèmes Simulia
+- Method: numerical simulation
+- Keywords: wettability alteration, Lattice Boltzmann, disjoining pressure, digital rock, primary drainage, Berea sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-21)
+
+A Lattice Boltzmann digital rock workflow alters local wettability during drainage in Berea sandstone using curvature and disjoining pressure, yielding lower connate water and higher oil recovery.
+
+Reservoir rocks have spatially varying wettability, but digital rock multiphase simulations usually keep wettability constant. The authors simulate primary drainage in a micro-CT-based Berea sandstone model (2 µm voxels, 800³ subdomain) using a multiphase Lattice Boltzmann method with surfel-defined pore-grain surfaces. Wettability is altered iteratively where capillary pressure exceeds local curvature pressure plus an assumed 5000 Pa maximum disjoining pressure, with the simulation re-equilibrated after each alteration. About 70% of the pore-grain surface became oil-wet by the end of drainage, giving lower entry pressure and lower connate water saturation than the unaltered case. A subsequent waterflood showed higher water relative permeability and more oil recovery for the altered mixed-wet case, owing to oil films and persistent oil connectivity.
+
+## Rock Wettabilty Evaluation by Immersion Calorimetry
+
+- ID: SCA2016-021, year: 2016
+- Authors: D. Korobkov, V. Pletneva, E. Dyshlyuk
+- Method: measurement technique or apparatus
+- Keywords: immersion calorimetry, wettability, contact angle, Young's equation, specific surface area, BET
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-021)
+
+Immersion calorimetry in water and cyclohexane gives contact angles via Young's equation; tests on glass, carbon and calcite powders show qualitatively reasonable wettability and surface area.
+
+Standard wettability tests (Amott, USBM) give a single qualitative index and need consolidated plugs, with permeability limits. The authors propose measuring immersion enthalpy of a sample in two liquids (water and cyclohexane) with a micro calorimeter, then computing contact angle from Young's equation with specific surface area. Tests used dried powders: controlled pore glass (50–300 nm pores), carbon and calcium carbonate. Calorimetric surface areas by cyclohexane agreed reasonably with BET nitrogen values. Glass gave cosθ above 1 (1.68–1.80), indicating complete water wetting, while calcium carbonate (62°) and carbon (71°) gave intermediate angles, though oil-wet values near 95° were expected for carbon; roughness or precursor films are suggested. The method works on any sample shape, including cuttings and tight rock, but still needs testing on natural core plugs.
+
+## Extensive Experimental Wettability Study in Sandstone and Carbonate-Oil-Brine Systems: Part 1 – Screening Tool Development
+
+- ID: SCA2013-084, year: 2013
+- Authors: Paulina Mwangi, Geoffrey Thyne, Dandina Rao
+- Method: measurement technique or apparatus
+- Keywords: flotation test, wettability screening, carbonate wettability, brine salinity, surface active compounds, Austin chalk
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-084.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-084)
+
+A modified flotation test is developed as a fast, repeatable wettability screening tool for sandstone and carbonate-oil-brine systems, based on the Dubey and Doe procedure without drying.
+
+Studying how rock mineralogy, brine salinity, oil chemistry and temperature affect wettability would need over 2000 experiments, which contact angle and core flood methods cannot handle. Two published flotation procedures (Wu et al. 2008 and Dubey and Doe 1993) were compared on Berea sandstone, Austin chalk, Indiana limestone and Silurian dolomite. Wu's method, which dries the rock after oil aging, made all rocks water-wet, while the Dubey and Doe method gave water-wet sandstone and oil-wet carbonates. Adding a drying step to Dubey and Doe made the carbonates water-wet, so drying was identified as the cause, and a modified flotation test without drying was adopted. 567 experiments were run at 25, 70 and 110°C with four brine salinities and 12 oils. Decane did not affect Berea, but made chalk oil-wet in low-salinity brine, and acetic and naphthenic acids shifted chalk wettability in opposite directions.
+
+## Causal protocols to assess the viability of native state or restored state preparation
+
+- ID: SCA2022-28, year: 2022
+- Authors: Jules Reed, Stefano Pruno, Izaskun Zubizarreta, Rolf Johansen
+- Method: review or workflow
+- Keywords: native state, restored state, mud filtrate invasion, tracer analysis, Amott wettability index, low invasion coring
+- Cited by 1 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-28)
+
+Proposes tracer-based and saturation quality-control protocols and a decision tree to judge native versus restored state viability; North African data show native and restored plugs similar, invaded plugs oil-wet.
+
+Wettability representativeness depends on whether native-state (as-received) or restored-state core is used, and mud invasion, fluid changes and saturation hysteresis can compromise native state. The paper describes low-invasion coring, mud tracers, wellsite handling, Dean-Stark and end-trim analysis, and a native-state preparation protocol using nitrogen centrifugation and fluid exchange with weight/volume checks (±6 saturation units). A case showed as-received Amott index of -0.121 corrected to +0.253 after re-establishing Swi, since 32.3 s.u. of water filtrate had imbibed before testing. In a North African field, about 10% of plugs were disqualified for high tracer invasion (e.g. 8.1% filtrate). Native and restored plugs were mixed-wet (Amott -0.16 to -0.50), whereas invaded plugs were strongly oil-wet (-0.72 to -0.83). A decision tree is proposed to guide choice between native and restored state.
+
+## Sca 8801
+
+- ID: SCA1988-01, year: 1988
+- Authors: Mark A. Andersen, David C. Thomas
+- Method: measurement technique or apparatus
+- Keywords: dynamic Wilhelmy plate, adhesion tension, hybrid wettability, contact angle hysteresis, anaerobic aging, crude oil/brine/solid
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1988/SCA1988-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1988-01)
+
+A computer-controlled dynamic Wilhelmy plate device with an anaerobic vessel measures advancing and receding adhesion tension of crude oil/brine/solid systems, revealing water-wet, oil-wet and hybrid-wet behavior.
+
+Sessile drop contact angle tests for wettability are slow, operator-dependent and give only quasi-static data. The authors built a computer-controlled dynamic Wilhelmy plate apparatus, with a Cahn microbalance and stepper motor, and an argon-purged anaerobic vessel for aging oxygen-sensitive crude oils on glass, marble and dolomite plates. The interface moved at 0.127 mm/s (36 ft/day), giving an equivalent capillary number of about 8.2E-4. Tests classified systems as water-wet, oil-wet or hybrid-wet, where adhesion tension changes sign between advancing and receding. A West Texas crude gave erratic behavior in air but reproducible oil-wet behavior under argon, with water-advancing adhesion tension around -30 dyne/cm (IFT 36.4) reaching equilibrium within about one day, versus up to 48 days for sessile drop. Marble and dolomite showed similar surface-energy fingerprints that differed from glass and PTFE, and hybrid wetting is suggested to link to relative permeability hysteresis in both phases.
+
+## Handling Unconsolidated Sandstone Cores to Preserve Wettability and Pore Structure
+
+- ID: SCA1988-03, year: 1988
+- Authors: Servet Unalmiser
+- Method: laboratory experiment
+- Keywords: wettability preservation, unconsolidated sandstone, liquid nitrogen plugging, water-oil relative permeability, centrifuge imbibition capillary pressure, core handling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1988/SCA1988-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1988-03)
+
+A coring and handling procedure (bland mud, PVC sleeves, nitrogen preservation, frozen plugging) preserved wettability and pore structure of unconsolidated Saudi sandstone, confirmed by consistent wellsite and lab wettability trends.
+
+Unconsolidated sandstone reservoirs in Saudi Arabia require special core handling so that relative permeability and capillary pressure data represent reservoir wettability and pore structure. Cores were cut in PVC sleeves with bland mud free of surfactants, sectioned into 15-ft lengths, tested at the rig site for qualitative wettability (aggregation in kerosene vs water), and nitrogen-flushed and sealed. Plugs were cut after freezing with liquid nitrogen, jacketed, and brought to connate water saturation with dead oil near 0°C. Unsteady-state gas-oil and water-oil relative permeability and centrifuge imbibition capillary pressure were measured under 2500 psi net overburden at reservoir conditions. Log-to-plug porosity consistency, permeability improvement toward the oil-water contact, and agreement between the rig-site wettability trend and lab data indicated wettability and pore structure were preserved.
+
+## SCA1988-04
+
+- ID: SCA1988-04, year: 1988
+- Method: laboratory experiment
+- Keywords: relative permeability, residual oil saturation, restored-state core, wettability restoration, unsteady-state vs steady-state, Abrams capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1988/SCA1988-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1988-04)
+
+Compares waterflood relative permeability on restored-state Middle Eastern limestone by three methods; curve shapes agree but residual oil differs with test conditions; proposes new normalization.
+
+Relative permeabilities were needed for simulation of a Middle Eastern granular limestone reservoir (20-26% porosity, 9-26 md), but only old unpreserved core was available. Plugs were cleaned, saturated with brine, flushed with crude and aged 1000 hours at 230°F to restore native wettability. First-cycle waterfloods were run by ambient unsteady-state, ambient steady-state (X-ray saturations) and reservoir-condition unsteady-state methods, each on separate plugs. All curves showed oil-wet character with similar shapes, but average Sor was 6.9%, 18.4% and 24.8% respectively, with Krw at Sor falling from 0.98 to 0.46-0.48. The Sor differences were attributed to flow rate, viscosity ratio, Abrams' capillary number and pore volumes injected (120, 40 and 18 PV), so reservoir-condition tests were judged most representative. A new normalization equation that extends curves to (1 - Sor) reduced scatter compared with the standard method.
+
+## Determination of Fluid Flow Mechanisms in Berea Using Mercury Porosimetry and A Stochastic Model to Relate These Mechanisms to Oil Recovery SCA Number 9123 by
+
+- ID: SCA1991-23, year: 1991
+- Authors: Robert W. Watson, The Pennsylvania, Fathi H. Boukadi
+- Method: data analysis or correlation
+- Keywords: mercury porosimetry, Berea sandstone, waterflood oil recovery, stochastic regression model, Amott-Harvey wettability, tortuosity
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-23)
+
+Builds a regression model predicting waterflood oil recovery in Berea sandstone from surface area, pore-entry diameter, tortuosity, wettability and saturations, outperforming literature models.
+
+The study relates rock skeletal properties from mercury porosimetry, Amott-Harvey wettability and tortuosity to waterflood oil recovery in strongly water-wet Berea cores flooded at 1 ft/day, where capillary forces dominate (viscous/capillary ratio 1.3e-7). A first-order regression of ultimate oil recovery on nine variables gave R2 = 94.4% and s = 0.0096. All-possible-regressions screening using R2p, Cp and MSE identified a six-variable subset (surface area, pore-entry diameter, tortuosity, wettability index, Sor, Soi) with R2 = 92.8%, s = 0.0754 and Cp near p. Reducing it further to five variables raised bias (Cp = 22.2) and lowered R2 to 83%. Literature models from Donaldson et al. and Arnold and Crawford fit these data less well (R2 of 72.8% and 77.1%), so adding surface area, pore-entry diameter and tortuosity improved prediction.
+
+## Two-Phase Flow in Porous Media: Influence of pH on Wettability
+
+- ID: SCA1992-19EURO, year: 1992
+- Authors: M. VALAT, H. BERTIN, M. ROBIN
+- Method: laboratory experiment
+- Keywords: wettability, brine pH, oil adhesion, disjoining pressure, glass bead pack, waterflood recovery
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-19EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-19EURO)
+
+Crude oil adhesion on glass occurs only below pH 5.8, and waterflood recovery curves in glass-bead packs shift from water-wet to oil-wet behaviour as brine pH falls.
+
+The study links surface-scale oil adhesion to pore- and core-scale waterflood behaviour in oil-brine-glass systems, with brine pH controlling wettability. Adhesion tests of a French crude oil on cleaned glass showed adhesion only below pH 5.8, consistent with DLVO disjoining pressure theory. Pore-scale experiments in a single column of glass spheres (6, 10, 20 mm) in square tubes located trapping at sphere-sphere and sphere-plane contacts and showed end-point saturations rising with capillary number. With crude oil in this coarse medium, recovery was piston-like regardless of pH because capillary numbers were very low (about 3e-6 to 3e-5). In packs of 0.40-0.45 mm glass beads, low pH gave early breakthrough and slow oil production (oil-wet behaviour), whereas basic pH gave piston-like displacement typical of water-wet systems.
+
+## SCA 9210 Description of Wettability and Fluid Contacts by Using Core and Log Data
+
+- ID: SCA1992-10, year: 1992
+- Authors: Leif Magne Meling
+- Method: data analysis or correlation
+- Keywords: Brooks-Corey capillary pressure, in situ wettability, free water level, North Sea chalk, log-derived saturation, fractured reservoir
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-10)
+
+Log-derived saturations are converted to capillary pressure using Brooks-Corey rock typing from core, giving in situ wettability and free water levels for three North Sea chalk fields.
+
+The paper addresses how to estimate in situ wettability and fluid contacts from the saturation-depth gradient, using conventional core and log data. Fifty mercury capillary pressure curves from two North Sea chalk fields (Ekofisk and Tor formations) were fitted with the Brooks-Corey function, giving an average lambda of 2.35 and Swi of about 10% (Ekofisk) and 6% (Tor). Entry pressure correlated with porosity as Pe = a + b/φ. Log porosity and Sw were converted to Pc, which plots linearly with depth; the intercept gives the free water level and the slope gives wettability. The two condensate fields gave σcosθ of about 40 mN/m (strongly water wet), whereas the oil field gave about 0.02 mN/m (intermediate wetting). Free water levels in field A differed by up to 200 m between wells, which the author attributes to a percolating fracture network and a fault-valve migration mechanism.
+
+## Water-Oil Relative Permeabilities in the Case of a Mixed-Wet Carbonate Reservoir: Influence of Experimental Conditions
+
+- ID: SCA1993-24, year: 1993
+- Authors: D.G. Longeron, L. Cuiec, F.A. Yahya, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: unsteady-state relative permeability, mixed wettability, imbibition capillary pressure, history matching, reservoir condition coreflood, Amott index
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-24)
+
+Waterflood relative permeabilities for mixed-wet Asab carbonate cores at room versus reservoir conditions, with history matching including imbibition Pc; reservoir conditions give 10% lower Sorw and better curves.
+
+Water-oil relative permeabilities were determined for the mixed-wet M2 facies of the Asab carbonate field. Unsteady-state floods were run on five cleaned plugs at room conditions and on a restored five-plug composite core at 121°C and 2900 psi, at high (150 cm3/hr) and low (3 cm3/hr) rates. Amott indices showed restored-state wettability (WI -0.26) matched the preserved state (-0.21). Residual oil saturation was 28% at reservoir conditions versus 38% at room conditions. History matching with a 1D simulator showed capillary forces matter even at high rate; including the porous-plate imbibition Pc required a significantly modified kro, and a single kr/Pc set matched both high and low rate tests. Ignoring Pc makes JBN-derived relative permeabilities too pessimistic.
+
+## An Experimental Study of the Relationship Between Rock Surface Properties, Wettability and Oil Production Characteristics
+
+- ID: SCA1997-39, year: 1997
+- Authors: Ole Torsæter, Trondheim Reidar Bøe
+- Method: laboratory experiment
+- Keywords: Amott wettability index, USBM wettability, Berea sandstone, oil/water interface charge, residual oil saturation, surface mineralogy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-39)
+
+Adding a base to n-decane shifts Berea sandstone from water-wet to neutral wettability, lowering waterflood residual oil saturation from 35.3 to 21.4 %PV.
+
+The study begins a database linking rock surface mineralogy, wettability and waterflood oil recovery. Berea sandstone was characterised by SEM and image analysis (quartz dominant, kaolinite significant on pore walls). Combined Amott/USBM tests on six plugs used NaCl brine with n-decane, n-decane plus dodecanoic acid, or n-decane plus dodecylamine. Berea was water wet (Amott index about 0.90-0.97) with pure decane and the acid, but neutral (about 0.04-0.06) with the base, consistent with contact angles on quartz. Waterfloods in water-wet and neutral systems gave residual oil saturations of 35.3 and 21.4 %PV, a 14 %PV reduction, with negligible oil production after breakthrough in both.
+
+## Wettability Change to Gas-Wetness in Porous Media
+
+- ID: SCA1998-04, year: 1998
+- Authors: Abbas Firoozabadi
+- Method: laboratory experiment
+- Keywords: gas-wetness, wettability alteration, gas condensate deliverability, spontaneous imbibition, contact angle, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-04)
+
+Treating glass capillary tubes and Berea sandstone with two chemicals alters wettability from liquid-wet to gas-wet, shown by capillary rise contact angles and suppressed spontaneous imbibition.
+
+Gas condensate wells lose deliverability below dewpoint, motivating permanent alteration of near-wellbore wettability to gas-wetness. Glass capillary tubes (0.23 mm ID) and a ~500 md, 21.8% porosity Berea core were aged in a cationic surfactant (Chemical A) or a fluorocarbon-soluble polymer (Chemical B), then dried. Wettability was evaluated by capillary rise (contact angle from liquid height) and spontaneous imbibition of water/brine and n-decane in air-saturated samples at 20°C. Chemical A raised the water-air contact angle from about 50° to about 90° and decane-air to about 60°. Chemical B raised the water-air angle to about 118° (water level fell below the reservoir level) and decane-air to about 60°. In Berea, Chemical A greatly reduced imbibition, while Chemical B eliminated imbibition of both water and decane, indicating gas-wetness.
+
+## Use of Well Logs to Support and Validate Laboratory Results in Chalk by
+
+- ID: SCA1998-37, year: 1998
+- Authors: E. A. Spinler, J. H. Hedges
+- Method: data analysis or correlation
+- Keywords: Soxhlet extraction, spontaneous imbibition index, Archie saturation exponent, carbon/oxygen log, chalk wettability, saturation-porosity crossplot
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-37)
+
+Laboratory water saturation versus porosity trends on chalk plugs are compared with well logs from waterflooded zones to validate core preparation, wettability and Archie parameters.
+
+Laboratory and well-log data are interdependent, so matching them can require iteration. Highly paraffinic stock tank crude with a cloud point near 70°F caused artifacts (pore plugging, permeability loss, variable wettability), so plugs were Soxhlet-extracted with toluene and methanol and tested with n-decane, which preserves a mobility ratio near 1.0. Spontaneous Imbibition Index, stress-corrected saturations (1580 psig) and Archie parameters, including a larger imbibition n, were measured on plugs. A carbon/oxygen log confirmed Archie saturations in a waterflooded zone, and near-wellbore saturation/porosity trends matched lab forced and highly water-wet imbibition data. Deep-resistivity trends away from the wellbore differed from the lab data, showing that multiple core preparation procedures may be needed to match field behavior.
+
+## SCA1998-43
+
+- ID: SCA1998-43, year: 1998
+- Authors: V. G. Mamyashev, I. M. Zadorina
+- Method: laboratory experiment
+- Keywords: wettability, Amott index, Archie saturation exponent, diffusive-adsorptive activity, SP log, West Siberia
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-43)
+
+Shows that shifting West Siberian terrigenous rocks toward oil-wetness lowers porosity, permeability and adsorptive activity, raises the Archie saturation exponent n, and reduces SP log amplitudes.
+
+The study examines how wettability affects electrical resistivity, membrane potential, adsorptive activity and reservoir properties of terrigenous silty-sandstones and claystones from West Siberian oil and gas deposits. Wettability was altered by selectively dissolving minerals and by natural and artificial processes. It was characterized by contact angles on minerals and by Amott indices. As rocks become more oil-wet, hygroscopic adsorptive capacity falls. Thin oil-wetting films reduce porosity by 0.5-1.0% and permeability by 15-45%. Water-saturation porosity of oil-wet rock is 0.5-3.0% lower than kerosene-saturation porosity, and the gap narrows after 3-6 h saturation at 60 atm. The saturation exponent n rises from 1.7-1.9 to 2.3-2.35 after conversion to oil-wet. SP log amplitudes in hydrophobic layers reach 40-60% of those in hydrophilic layers. An electrical conductivity model for hydrophobic rocks and interpretation techniques are proposed.
+
+## Wettability and Water-Oil Displacement Investigations for Some High Permeability Turbidite Reservoirs
+
+- ID: SCA2002-32, year: 2002
+- Authors: Frank McCaffery, Rossini Silveira, David Goggin, Andrew McCarty
+- Method: laboratory experiment
+- Keywords: core cleaning, wettability restoration, synthetic oil-based mud contamination, contact angle on mica, Amott/USBM, unconsolidated sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-32)
+
+Contact angle and core tests on mud-contaminated deepwater sands show reservoirs are likely water-wet; Soxhlet extraction with methylene chloride and methanol restores weakly water-wet displacement behavior.
+
+Cores from three high-permeability (1-4 darcy) deepwater turbidite sands were contaminated by synthetic oil-based mud, so as-received cores were oil-wet and gave poor waterflood efficiency. Contact angles on mica aged in the crude oils fell at the low end of wettability alteration, indicating the reservoirs are likely preferentially water-wet. Flow-through cleaning with toluene/methanol and additional solvents did not give water-wet behavior, but Soxhlet extraction with methylene chloride and methanol did, yielding residual oil of 25-30% PV and endpoint water relative permeability of about 0.3. USBM/Amott tests on screened plugs were inconclusive because of sleeves and screens, while unscreened samples were moderately oil-wet as received and weakly water-wet after cleaning. Crude-oil restored samples became intermediate-wet with residual oil of 29-31% PV and endpoint Krw near 0.35.
+
+## SCA2002-33
+
+- ID: SCA2002-33, year: 2002
+- Method: data analysis or correlation
+- Keywords: X-ray photoelectron spectroscopy, Amott-Harvey wettability index, organic carbon surface content, sandstone wettability, statistical confidence limits
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-33)
+
+Statistical comparison of XPS-derived wettability with Amott-Harvey tests on 132 Venezuelan sandstones shows XPS surface organic carbon predicts wetting condition with over 91% agreement.
+
+Conventional wettability tests such as Amott-Harvey are slow, so X-ray photoelectron spectroscopy (XPS) is evaluated as a faster alternative. XPS spectra of freshly fractured surfaces from 132 Venezuelan sandstone samples were analyzed, and wettability classes were defined from the surface organic carbon (C-H) content (for example, 50% or more is oil wet and 18% or less is strongly water wet). Predictions were compared with Amott-Harvey indices measured on the same samples. For the 66 samples with Si/O > 0.5, 7 disagreed with Amott-Harvey, giving 95.5% agreement. For the 66 samples with Si/O < 0.5, 10 disagreed, mostly because XPS cannot separate intermediate-wet or weakly water-wet from neutral; excluding those cases, agreement is 91%. The Si-CH and Si-O signals were found not to determine wettability.
+
+## Efficiency of Cleaning Techniques for Oil and Ester Based Muds on Unconsolidated and Tight Sands
+
+- ID: SCA2003-04, year: 2003
+- Authors: J. Barro, Ph. Blanc
+- Method: laboratory experiment
+- Keywords: Amott wettability, mud filtrate contamination, core cleaning, gas chromatography, ester-based mud, unconsolidated sand
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-04)
+
+Solvent cleaning (toluene, toluene-isopropanol, isopropanol) of unconsolidated and tight sands cored with oil/ester muds is verified by GC/MS and Amott tests; fresh-state cores give misleading wettability.
+
+Cores from unconsolidated and tight sands drilled with oil- and ester-based muds were cleaned by sequential flooding with toluene, toluene-isopropanol and isopropanol. Gas chromatography and mass spectrometry fingerprinting of effluents, cleaned rock and restoration crude oil were used to detect residual mud filtrate. Complete Amott wettability tests were run on fresh-state, cleaned and wettability-restored samples. Mud filtrate was found in the first effluent, showing deep invasion, but none in the last effluent or cleaned core, and the restoration crude was uncontaminated. Samples were oil-wet or slightly oil-wet as received, water-wet or neutral after cleaning, and neutral to slightly oil-wet after restoration, so fresh-state samples give erroneous wettability.
+
+## Correlation of Dynamic Immiscible Displacement Patterns with the Fractional Wettability of Porous Media
+
+- ID: SCA2003-07, year: 2003
+- Authors: V. Sygouni, C. D. Tsakiroglou, A. C. Payatakes
+- Method: laboratory experiment
+- Keywords: fractional wettability, capillary fingering, pressure drop fluctuations, isons and rheons, glass/PTFE micromodel, critical curvature distribution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-07)
+
+Visualization of low-Ca water displacing oil in a two-layer glass/PTFE bead pack shows displacement patterns and pressure-drop fluctuations reflect the spatial heterogeneity of fractional wettability.
+
+The paper links immiscible displacement patterns and pressure-drop signals to fractional wettability, which macroscopic indices such as Amott and USBM cannot resolve spatially. A two-layer model porous medium was packed from 1.5 mm neutral-wet glass and oil-wet PTFE spheres at oil-wet number fractions from 0 to 1. Silicon oil was displaced by dyed water at Ca = 1.26e-8 while images and differential pressure were recorded. Compact displacement occurred in areas of uniform wettability, while capillary fingering dominated where wettability varied strongly, leaving bypassed oil at intermediate fractions. Pressure-drop fluctuation amplitude and frequency, interpreted as successive isons and rheons, increased with heterogeneity and damped at high oil-wet fractions. FFT-smoothed pressure signals matched the critical curvature distributions of throats calculated from force-balance estimates.
+
+## Evaluation of Recovery Efficiency and Residual Oil Saturation of Two Distinct Arabian Carbonate Reservoirs
+
+- ID: SCA2003-37, year: 2003
+- Authors: Taha M. Okasha, James J. Funk, Abdul-Jalil Al-Shiwaish
+- Method: laboratory experiment
+- Keywords: waterflood residual oil saturation, unsteady-state relative permeability, composite cores, mercury injection pore size distribution, carbonate diagenesis, irreducible water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-37)
+
+Reservoir-condition waterflood tests on composite cores from Arab-D and Shu'aiba carbonates show slightly higher recovery and Sor in Arab-D, linked to pore size and fabric differences.
+
+The study compares waterflood recovery and residual oil saturation in two Saudi carbonate reservoirs, Late Jurassic Arab-D (Abu Safah) and Lower Cretaceous Shu'aiba (Shaybah). Unsteady-state relative permeability tests used seven composite cores per reservoir, preserved plugs, recombined live oil and reservoir conditions, with JBN analysis, supplemented by mercury injection and thin sections. Average recovery was 65.6% PV for Arab-D versus 63.3% for Shu'aiba, and average Sor was 22.3% versus 18.2%. Average Swir was lower in Arab-D (12.1%) than Shu'aiba (18.4%). Median pore radii were 0.5–5.5 µm for Arab-D grainstones (bimodal/trimodal) and 0.27–1.5 µm for Shu'aiba wackestones (mostly unimodal). Sor increased with permeability in Arab-D but decreased in Shu'aiba, reflecting diagenesis and fabric effects not captured by permeability alone.
+
+## A Model for Wettability Change in Reservoir Rock
+
+- ID: SCA2004-02, year: 2004
+- Authors: A. Hiorth, G. Virnovsky
+- Method: theory or analytical model
+- Keywords: wettability alteration, ageing time, disjoining pressure, Amott-Harvey index, bundle of tubes model, primary drainage
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-02)
+
+A bundle-of-tubes ageing model with drainage pressure, ageing time and a film-collapse characteristic pressure reproduces imbibition curves and Amott-Harvey indices of North Sea cores qualitatively.
+
+The paper presents a model of wettability change after primary drainage, based on collapse of the water film between oil and rock, tied to disjoining pressure. The fraction of water-wet pores decays exponentially with ageing time and with the excess of drainage pressure over the pore entry pressure and a characteristic pressure. The model is implemented in a bundle-of-tubes medium with pore size distributions fitted as a mixture of two Weibull functions to drainage curves of five North Sea cores (three sandstones, two carbonates). Amott-Harvey indices computed for different ageing times are comparable to experimental values, and the same index can be obtained with shorter ageing at higher drainage pressure. Comparison with a network simulator shows a good match, though the bundle of tubes overpredicts the imbibition curve in the water-wet region. Lab and reservoir conditions differ in that lab drainage invades all pores while the reservoir invades only the largest.
+
+## Fifty Years of Wettability Measurements in the Arab-D Carbonate
+
+- ID: SCA2004-03, year: 2004
+- Authors: T.M. Okasha, J.J. Funk, S.M. Al-Enezi, H.N. Al-Rashidi
+- Method: data analysis or correlation
+- Keywords: Amott wettability index, USBM wettability, Arab-D carbonate, contact angle, relative permeability, tar mat
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-03)
+
+Fifty years of Amott, USBM, relative permeability, contact angle and SEM data on Arab-D carbonate show consistently neutral to slightly oil-wet or intermediate wettability, little affected by coring fluids.
+
+The paper compiles wettability measurements made over fifty years on preserved and restored Arab-D limestone cores from the Uthmaniyah, Hawiyah and Haradh areas of Ghawar field. Methods include the 1956 Carter static imbibition test, Amott, USBM, unsteady-state relative permeability at 190 °F and 2500 psig, calcite contact angles and ESEM/Cryo-SEM. Wettability indices were generally neutral to slightly water-wet or slightly oil-wet, with 1956 indices between about -0.1 and 0.1 and Amott indices up to 0.87 in Hawiyah. Different drilling fluids and preservation methods had little effect on indices. Water-wetness increased with depth and below the oil-water contact, while oil-wet tendencies appeared near tar mats and high on structure. Relative permeability end points (Sor 39-45%, crossover below 50% Sw) suggested slightly oil-wetting behavior by Craig's rules, and USBM indices tended to be more oil-wet than Amott.
+
+## Effect of Wettability Alteration on Relative Permeability Curves for Low Permeability Oil-Wet Reservoir Rocks
+
+- ID: SCA2004-39, year: 2004
+- Authors: L. Qingjie, L. Li, L. Manli
+- Method: laboratory experiment
+- Keywords: wettability alteration, relative permeability, thin film spreading agent, Amott index, low permeability sandstone, JBN unsteady state
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-39)
+
+Unsteady-state floods of oil-wet low-permeability sandstone cores with and without DBA thin film spreading agent show wettability shifts to intermediate wet, lower water relative permeability and higher oil recovery.
+
+Low-permeability oil-wet reservoirs suffer high injection pressure and low recovery, and little work addresses relative permeability before and after wettability alteration. Changqing Oilfield sandstone plugs (0.1-1.2 mD, 1 in. diameter) were aged at 65 °C and flooded at constant 15 MPa with brine, or brine containing 100-300 mg/L DBA thin film spreading agent. Relative permeabilities were calculated by JBN. DBA reduced oil-brine interfacial tension from 34 to 1.14 mN/m at 400 mg/L, far short of the orders-of-magnitude drop needed for capillary number effects. Amott index shifted from oil-wet (-0.71, -0.52) to intermediate (-0.38, -0.16). Water relative permeability dropped more than oil's, water-free recovery rose (e.g. 10.9% to 15.2%), residual oil fell by 1-9%, and the two-phase flow range widened by 4.4-14%.
+
+## Wettability Study of Iranian Carbonate Rocks
+
+- ID: SCA2004-40, year: 2004
+- Authors: E. Kazemzadeh, M.R. Esfahani, S.M. Hashemi, M. Rezaie, J. Roudsaz, M.A. Emadi, O. Torsæter
+- Method: laboratory experiment
+- Keywords: Amott-Harvey index, wettability, carbonate, relative permeability crossover, restored state aging, Asmari formation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-40)
+
+Amott tests and unsteady-state relative permeability on five aged Asmari carbonate plugs show oil-wet behavior, but relative permeability end points alone do not reliably indicate wettability.
+
+Wettability of Iranian Asmari carbonate reservoir rock was assessed on five restored-state plugs (three limestones, two dolomites; porosity about 8-25%, permeability 1.5-130 md). Samples were saturated with brine, centrifuged to Swi and aged in crude oil for 40 days at 83 °C. Amott-Harvey indices ranged from -0.48 to -0.66, indicating oil-wet behavior for all samples. Unsteady-state relative permeability curves gave crossover water saturations of 31-40%, below 0.5 and consistent with oil-wet. However, Krw at Sor was lower than Kro at Swi in every sample, which conflicts with the end-point rule, so relative permeability alone cannot be used to judge wettability in these carbonates.
+
+## Influence of Wettability on Resistivity of Sedimentary Rocks
+
+- ID: SCA2005-18, year: 2005
+- Authors: Mikhail Gladkikh
+- Method: numerical simulation
+- Keywords: resistivity index, electrical efficiency, wettability, Finney pack, drainage and imbibition hysteresis, Melrose criterion
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-18)
+
+Grain-scale mechanistic simulation in a Finney sphere pack predicts resistivity index and electrical efficiency hysteresis for drainage and imbibition at different wettabilities, consistent with most experimental data.
+
+Resistivity interpretation in logging is largely empirical and uncertain when wettability is unknown or filtrate invasion has changed saturations. The authors model quasi-static drainage (Haines insphere, invasion percolation) and imbibition (Melrose criterion) in a Finney random sphere pack, optionally with isopachous cement, and compute DC conductivity on the Delaunay network at each saturation. Results are expressed as resistivity index and electrical efficiency, and predictions for a 21.9% porosity cemented pack agree with Cretaceous sandstone drainage data and with efficiency trends. Imbibition is more electrically efficient than drainage at any water content. Contact angle (0 vs 30 degrees) has little effect during drainage in water-wet systems but a large effect during imbibition, owing to compact versus dendritic wetting-phase topology. Oil-wet systems show hysteresis from trapping of the conductive brine, and the authors suggest that thin conductive films may explain reports of no hysteresis in water-wet samples.
+
+## Effects of Fractional Wettability and Its Spatial Heterogeneity on the Capillary Pressure and Relative Permeability Functions
+
+- ID: SCA2005-52, year: 2005
+- Authors: Varvara Sygouni, Christos D. Tsakiroglou, Alkiviades C. Payatakes
+- Method: laboratory experiment
+- Keywords: fractional wettability, wavelet analysis, capillary pressure fluctuations, model porous medium, pore-scale displacement, wettability heterogeneity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-52)
+
+Wavelet analysis of pressure-drop fluctuations in visualized capillary-dominated displacements in glass/PTFE sphere packings links capillary pressure drops to flow events and fractional wettability.
+
+The study addresses how to extract information on fractional wettability distribution from unsteady displacement experiments. A two-layer transparent model porous medium of glass and PTFE spheres (0.15 cm diameter, k = 1500 D) with controlled oil-wet fraction was flooded with water displacing silicon oil at Ca = 1.26e-8, while pressure drop and images were recorded. Wavelet decomposition of the pressure signal gave a capillary pressure spectrum whose peaks were matched to flow events (capillary fingering, interface coalescence, cluster penetration) identified by their amplitude and duration. For events of the same class, the capillary pressure drop correlates with a local wettability factor F, and mean pre-breakthrough capillary pressure rises linearly with oil-wet fraction (87 Pa at fp=0, breakthrough at 48000 s). In a three-layer non-random medium, maximum capillary pressures rose from 120 to 150 Pa across regions, and post-breakthrough pressure fluctuations coincided with discontinuous oil production caused by fluid redistribution between wettability zones.
+
+## Effect of Wettability on Oil Recovery from Carbonate Material Representing Different Pore Classes
+
+- ID: SCA2006-01, year: 2006
+- Authors: Arne Skauge, Anne Sørvik, Bartek Vik, Kristine Spildo
+- Method: laboratory experiment
+- Keywords: waterflood oil recovery, Amott-USBM wettability, carbonate pore classes, mixed-wet small, aging in crude oil, low-permeability carbonate
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-01)
+
+Waterflooding six carbonate plugs of different pore classes before and after aging shows recovery rises strongly with aging, except in cores with no spontaneous water imbibition.
+
+The study examines how wettability change affects waterflood oil recovery in carbonate cores representing different pore classes (Lønøy classification). Six homogeneous plugs (five intercrystalline, one mouldic; permeability 0.18–33 mD) were waterflooded with decane and synthetic seawater at cleaned (water-wet) state and again after aging in crude oil at 60°C for at least 4 weeks, with similar Swi. Combined Amott/USBM tests showed mixed-wet small behaviour for most cores, with USBM indices mostly negative and zero spontaneous water imbibition for F-48 and F-108. Recovery after aging rose strongly for four cores (e.g. O-10 from 0.20 to 0.57 OOIP, O-3 from 0.30 to 0.60, O-30 from 0.54 to 0.73). The two cores with no spontaneous imbibition lost recovery (F-48 0.65 to 0.46, F-108 0.45 to 0.38), and low-permeability carbonate still gave high recovery.
+
+## Wettability Measurements in Model and Reservoir Shale Systems
+
+- ID: SCA2006-03, year: 2006
+- Authors: Artem Borysenko, Ben Clennellb, Rossen Sedeva, John Ralstona, Mark Ravenc, David Dewhurstb
+- Method: laboratory experiment
+- Keywords: equilibrium capillary pressure technique, contact angle, NMR T2 relaxation, shale caprock wettability, swelling pressure, ESEM
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-03)
+
+Combines equilibrium capillary pressure and NMR T2 measurements with sessile drop, Wilhelmy and ESEM to determine water/oil contact angles in methylated quartz, quartz-smectite and shale caprocks.
+
+Caprock sealing assumes water-wet shales, but this is rarely measured. The authors measured water/hexadecane contact angles on clean and methylated quartz using sessile drop, Wilhelmy plate, capillary tube and ECPT in packed beds. Methylated quartz gave advancing/receding angles of 123–127°/109–116° (sessile drop) and 108–118°/91–101° (ECPT powder), with differences attributed to retained liquid. ECPT combined with NMR T2 showed distinct oil and water peaks that depended on wettability and, in quartz/smectite (95:5), revealed clay hydration and oil coating. Shales had contact angles of 52–84°; higher angles gave lower water adsorption rates but higher swelling pressure. ESEM showed surface changes on dehydration and that oil-impregnated shale resisted water penetration.
+
+## Wettability Evaluation of the Unayzah Reservoir in Central Saudi Arabia
+
+- ID: SCA2006-40, year: 2006
+- Authors: T.M. Okasha, S.H. Al-Saleh, W.S. Al-khudair
+- Method: laboratory experiment
+- Keywords: Amott-Harvey wettability index, USBM wettability, contact angle, relative permeability, Unayzah sandstone, Craig's rules
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-40)
+
+Amott, USBM, contact angle and waterflood relative permeability tests on Unayzah sandstone cores consistently indicate neutral to strongly water-wet behavior, increasing with depth.
+
+Wettability of the Unayzah sandstone reservoir in Central Saudi Arabia was evaluated to support reservoir management and simulation. Preserved native core plugs were tested by Amott (14 plugs) and USBM (4 plugs), contact angle was measured on rock and quartz substrates at temperatures up to 90 °C and 2,500 psig, and unsteady-state waterfloods were run on three composite cores at reservoir conditions with live oil. Amott-Harvey indices were mostly 0.19-0.73 and USBM indices 0.12-0.37, indicating neutral to strongly water-wet behavior with increasing water-wetness with depth. Contact angles rose slightly with temperature (75-82°), at the neutral/water-wet boundary. Waterflood results (Swi 35-41%, Sor 6-19% PV, water-oil relative permeability crossover above 50% Sw) indicated water-wet behavior by Craig's rules, in agreement with the direct wettability tests.
+
+## Impact of a Novel Scale Inhibitor System on the Wettability of Paleozoic Unayzah Sandstone Reservoir, Saudi Arabia
+
+- ID: SCA2006-57, year: 2006
+- Authors: T.M. Okasha, H.A. Nasr-El-Din, H.A. Saiari, A.A. Al-Shiwaish, F.S. Al-Zubaidi
+- Method: laboratory experiment
+- Keywords: scale inhibitor, Amott-Harvey wettability index, contact angle, interfacial tension, phosphonate DTPMP, Unayzah sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-57)
+
+Amott, contact angle and IFT tests show a phosphonate scale inhibitor leaves Unayzah sandstone wettability essentially unchanged or slightly more water-wet, and lowers IFT by about 20%.
+
+Scale formation reduced production in Saudi Arabia's Unayzah sandstone reservoir, and an emulsified DTPMP phosphonate inhibitor was applied in over 35 wells. This study tested its effect on wettability using modified Amott tests on preserved core plugs, plus pendant-drop contact angle and IFT measurements at 90 °C and 2,500 psi. Amott-Harvey indices were 0.19–0.5 with brine and 0.12–0.49 with inhibitor, so wettability was slightly to water-wet and not significantly changed. Contact angles on rock and quartz plates fell from 79–82° (neutral) to 64–70° (water-wet) with inhibitor. IFT dropped about 20%, for example from 20.5 to 16.4 dyne/cm at 75 °C, which the authors link to improved oil relative permeability and recovery.
+
+## Wettability Characterization and Non-Invasive Monitoring of the Effect of Crude Oil Treatment on Cap-Rock Shale Minerals
+
+- ID: SCA2007_04, year: 2007
+- Authors: Ben Clennell, Artem Borysenko, David Dewhurst, Rossen Sedev, John Ralston, Keyu Liu
+- Method: laboratory experiment
+- Keywords: shale wettability, cap-rock seal, contact angle, pigment extraction, NMR T2 relaxation, kaolinite
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_04)
+
+Combined contact angle, microscopy, pigment extraction, imbibition and NMR tests show cap-rock shales range from hydrophilic (illitic) to hydrophobic (kaolinitic) and respond differently to crude oil aging.
+
+Cap-rock wettability controls top-seal risk, so the authors compared a hydrophilic illitic shale (L1_390), a hydrophobic kaolinitic shale (O1A), pure clays and quartz, before and after aging in Barrow Island crude (70 °C, 24 h). Sessile-drop contact angles were 140–160° on aged O1A, matching naturally oil-wet reservoir rock (140°), while L1_390 stayed below 60°. Fluorescence, SEM and solvent-wash tests showed a persistent oil film on the hydrophobic shale that water did not displace, whereas water removed the film from the hydrophilic shale. Pigment extraction showed smectite and L1_390 reverting to water-wet while kaolin stayed oil-affine. Packed-bed forced imbibition gave threshold pressures of 6–8 kPa, and final permeability of 2.5 mD for L1_390 versus 234 mD for O1A owing to swelling; NMR T2 spectra tracked oil-water redistribution, though methylated quartz gave an unexplained shorter T2.
+
+## Wettability Impact on CO2 Storage in Aquifers: Visualisation and Quantification Using Micromodel Tests, Pore Network Model and Reservoir Simulations
+
+- ID: SCA2007_09, year: 2007
+- Authors: C. Chalbaud, M. Robin, S. Bekri, P. Egermann
+- Method: numerical simulation
+- Keywords: CO2 wettability, glass micromodel, pore network model, capillary pressure, CO2 injectivity, aquifer storage
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_09)
+
+Glass micromodel CO2 flooding, pore network modelling and reservoir simulation show CO2 can wet intermediate- or oil-wet surfaces at high pressure, altering core-scale and aquifer injectivity and plume extent.
+
+The study addresses how CO2/brine wettability affects CO2 storage in aquifers. CO2 was injected into water-saturated glass micromodels (water-wet, intermediate-wet, oil-wet) at gaseous, liquid and supercritical conditions up to 100 bar and 60 °C. Water-wet models stayed water-wet at all pressures, while intermediate- and oil-wet models showed CO2 acting as the wetting phase at high pressure, more strongly at low temperature. A pore network model, matched to a carbonate core's mercury Pc and gas/water kr, gave Pc curves for contact angles of 0°, 50° and 80°, showing more water trapping at higher angles. In simulations, higher contact angle increased brine production, delayed CO2 breakthrough and lowered stabilized pressure drop at core scale. In a radial aquifer, plume extent rose from 1400 m (0°) to 1600 m (80°) and injectivity improved about 7% for the 0.2 D case, with little effect at 1 D.
+
+## Establishing Mixed Wet Conditions in Chalk - Emphasis on Wettability Alteration and Oil Recovery
+
+- ID: SCA2007_40, year: 2007
+- Authors: E.B. Johannesen, A. Graue, B.A. Baldwin, D.P Tobola
+- Method: laboratory experiment
+- Keywords: Amott index, mixed wettability, Portland chalk, spontaneous imbibition, crude oil aging, initial water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_40)
+
+Wettability of 75 Portland chalk plugs was altered by crude oil aging and quantified with Amott tests; spontaneous imbibition recovery peaked near Iw 0.85 and waterflood recovery near Iw 0.4.
+
+The study prepared mixed-wet oil/brine/chalk systems to examine wettability alteration and its effect on oil recovery. Seventy-five Rørdal chalk plugs (porosity 43-49%, permeability 2.8-6.1 mD) were aged at 80°C with eight crude oils at initial water saturations of 19-34%, then wettability was measured by Amott tests. Wettability ranged from neutral to strongly water-wet, and no plug became oil-wet; longer aging gave less water-wet conditions. Spontaneous imbibition recovery peaked at Iw of about 0.85 (Rf about 0.60) and fell to about 0.50 at strongly water-wet conditions. Waterflood recovery was dome-shaped with a maximum near Iw of 0.4. Endpoint water saturation after spontaneous imbibition increased with Swi, and repeated Amott tests reproduced results, indicating stable wettability.
+
+## Utilizing Special and Conventional Core Analyses in Reservoir Development and Characterization of High Contrast Clastic Sandstone (Unayzah Reservoir, Saudi Arabia)
+
+- ID: SCA2007_56, year: 2007
+- Authors: Taha M. Okasha
+- Method: data analysis or correlation
+- Keywords: Unayzah sandstone, reservoir quality index, relative permeability, Amott USBM wettability, mercury injection capillary pressure, flow zones
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_56.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_56)
+
+Conventional and special core analyses of the heterogeneous Unayzah sandstone show wide permeability contrast, intermediate to water-wet behavior, 38-85% oil recovery, and trimodal pore systems.
+
+The Unayzah clastic reservoir in Saudi Arabia is highly heterogeneous, and the paper applies conventional and special core analysis to characterize it. Permeability varies from 0.3 to 9,800 mD within the same interval across wells, and a modified cumulative RQI-versus-depth plot was used to separate flow zones and group SCAL samples. Unsteady-state relative permeability tests on composite cores at reservoir conditions gave oil recoveries of 38-85% OOIP and residual oil saturations of 16-27% PV. Modified Amott and USBM wettability indices (-0.09 to 0.35) and Craig's rules indicate intermediate to water-wet rock, becoming more water-wet with depth. Mercury injection shows trimodal pore systems with median pore radii of 0.1 to 4 microns, and the results fed reservoir simulation models.
+
+## Effect of Temperature and Pressure on Contact Angle of Quartz-Water-Bitumen System
+
+- ID: SCA2008-52, year: 2008
+- Authors: Maryam Rajayi, Apostolos Kantzas
+- Method: measurement technique or apparatus
+- Keywords: contact angle, bitumen-water interface, micro-CT imaging, quartz wettability, thermal recovery, oil sands
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-52)
+
+Contact angles of water-bitumen on quartz are measured by micro-CT in an aluminum cell at elevated temperature and pressure; the system becomes more water-wet with heating and pressure.
+
+Thermal bitumen recovery depends on water-bitumen interface behavior, yet contact angle data at elevated temperature are scarce. The authors built an X-ray transparent aluminum cell (up to 120 °C) holding a quartz plate and imaged sessile drops with a SkyScan 1072 micro-CT, using 20 wt% CaCl2 brine and bitumen doped with 4 vol% 1-iododecane. Four cases were run, varying which fluid is the drop and which phase contacts the quartz first. In case 1, contact angles fell from about 130–140° at ambient pressure to about 100–110° at 1000 psi, and decreased with temperature. Overall, higher temperature and pressure gave more water-wet behavior, exposure order controlled wettability (water first gave water-wet quartz), and smaller water drops (1 mm vs 2.5 mm) gave smaller angles.
+
+## The Influence of Wettability on Petrophysical Properties
+
+- ID: SCA2009-42, year: 2009
+- Authors: Saif Alsayari, Moustafa Dernaika, Martin J Blunt
+- Method: laboratory experiment
+- Keywords: wettability alteration, porous plate capillary pressure, resistivity index, steady-state relative permeability, NMR T2 versus mercury injection, carbonate
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-42)
+
+Capillary pressure, relative permeability, resistivity and NMR were measured on cleaned and crude-oil-aged Middle East carbonates; wettability changed capillary pressure and relative permeability but not resistivity index.
+
+The study examines how wettability affects petrophysical properties of Middle East skeletal peloid packstone carbonates (porosity 22-32%). Cleaned samples and samples aged in crude oil at 110 °C for forty days were tested with porous-plate capillary pressure and resistivity index, steady-state relative permeability, mercury injection and NMR. NMR T2 distributions matched mercury pore-throat distributions after scaling, with most throats near 1 µm. Cleaned samples were weakly water-wet (about half of the water displacement spontaneous, residual oil about 23-25%). Aged samples showed little spontaneous imbibition (about 5%) and most displacement near zero capillary pressure, indicating neutral wettability, with residual oil about 20%. Aging lowered oil relative permeability and raised water relative permeability, while resistivity indices stayed similar, so resistivity alone is a poor wettability indicator.
+
+## Determining Wettability from in Situ Pressure and Saturation Measurements
+
+- ID: SCA2010-44, year: 2010
+- Authors: A. Brautaset, G. Ersland, A. Graue
+- Method: laboratory experiment
+- Keywords: in situ Amott index, MRI saturation, dynamic capillary pressure, Portland chalk, wettability, embedded pressure ports
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-44)
+
+MRI saturation maps and embedded pressure ports during waterfloods of four Portland chalk cores gave in situ Amott indices that agreed with conventional Amott measurements.
+
+Wettability is usually measured as an average over a core, so this study aims to obtain it locally from in situ data. Four 8 cm Portland chalk cores (porosity 46-49%, permeability about 3-3.6 mD) were prepared at Amott indices of 0.17 to 1.00. Constant-pressure waterfloods were run while spin-echo MRI recorded saturations and pressure ports 1.5 cm from each core face recorded local pressures. The pressure rise marking zero capillary pressure separated spontaneous from viscous oil recovery, which allowed in situ Amott indices to be calculated at each port. Averaged in situ indices were 0.51, 0.48, 0.21 and 0.98 versus conventional values of 0.39, 0.45, 0.17 and 1.00, with the largest difference (0.12) in the noisiest core, M3. A core flood simulator reproduced the key features of the M8 waterflood, though local pressures did not match perfectly.
+
+## A Multi-Physics Approach for Monitoring a Wettability Alteration on Carbonates During Aging
+
+- ID: SCA2011-33, year: 2011
+- Authors: F. Pairoys, B. Zoukani, A. Nicot, F. Valori, T. Ali, P. Zhang, M. Ligneul
+- Method: laboratory experiment
+- Keywords: wettability alteration, aging, NMR T2 relaxation, resistivity saturation exponent, USBM Amott-Harvey, carbonate cleaning
+- Cited by 0 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-33)
+
+Resistivity and NMR T2 were tracked during static aging of dolomite and limestone plugs in crude oil, showing wettability shifts, with dolomite aging toward neutral-wet.
+
+The study monitors wettability alteration during aging of two dolomite and two limestone outcrop plugs using resistivity (Archie saturation exponent n) and NMR T2. Plugs were cleaned conventionally or by forced toluene/methanol flushing, desaturated with crude oil by centrifuge, and aged statically at 62°C, either immersed in a beaker or in an HPHT resistivity holder at 800 psi. Forced cleaning improved the Amott-Harvey index of the dolomite from 0.05 to 0.45. In the HPHT holder n rose about 9% for dolomite and 5% for limestone, and the limestone stabilized after 41 days while the dolomite was still changing. T2 log mean fell from 48.2 to 26.9 ms (dolomite) and 50.1 to 37.5 ms (limestone). After aging, the dolomite reached neutral wetting (A-H -0.02) and the limestone became slightly water-wet (0.34). Beaker aging with ambient resistivity measurements was judged inadequate because of contact limitations.
+
+## Using Calorimetry Techniques for Mesoporosity Characterization
+
+- ID: SCA2011-44, year: 2011
+- Authors: Korobkov D.A, Nadeev A.N
+- Method: measurement technique or apparatus
+- Keywords: differential scanning calorimetry, Gibbs-Thomson equation, controlled pore glass, contact angle, immersion energy, Amott-Harvey wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-44)
+
+DSC is used to estimate pore size from freezing-point shift in controlled pore glass and contact angle from brine intrusion heat flow in sandstone, agreeing with references.
+
+The paper explores differential scanning calorimetry for mesopore size and wettability characterization. Pore sizes of controlled pore glass (CPG 100 and 300) were derived from melting temperature shifts via the Gibbs-Thomson equation, giving effective radii of 120 Å and 380 Å versus manufacturer values of 103 Å and 310 Å. Brine (KCl) was forced into a Parker sandstone plug (porosity 18.15%, permeability 16.6 mD) in a Tian-Calvet calorimeter with pressure steps up to 15 MPa, using blank runs for comparison. An additional wide heat flow peak appeared at 0.8 to 1 MPa and not at higher pressures; its area gave immersion energy and a contact angle of 43°, consistent with the Amott-Harvey test. The authors conclude the approach may be applicable to natural cores, though spontaneous imbibition could not be studied with the setup.
+
+## Rock Properties Influencing Impedance Spectra Studied by Lab Measurements on Porous Model Systems
+
+- ID: SCA2013-040, year: 2013
+- Authors: J. Volkmann, N. Klitzsch, O. Mohnke, N. Schleifer
+- Method: laboratory experiment
+- Keywords: impedance spectroscopy, spectral induced polarization, wettability, Cole-Cole relaxation time, sintered borosilicate, contact angle
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-040)
+
+Impedance spectra of sintered borosilicate samples with varied pore size, salinity and wettability show relaxation time scaling with pore size and lower phase for hydrophobic samples.
+
+The study seeks to use impedance spectroscopy (spectral induced polarization) to assess wettability, which requires separating wettability effects from pore size and fluid salinity. Eight sintered borosilicate glass filter samples (pore sizes 0.9–160 µm) were measured fully water saturated from 1 mHz to 1 kHz with NaCl solutions of 2e-4 to 5e-2 S/m. Four sample types were made hydrophobic, with contact angles of about 115–127°. Phase maxima decreased with increasing salinity, pore size and contact angle, and hydrophobic samples showed no distinct low-frequency phase peak. Cole-Cole relaxation time scaled as τ ~ d^(1.3±0.2) for hydrophilic samples. Water-wet and oil-wet states could only be distinguished at low pore size and low salinity, not for typical reservoir brines.
+
+## Preserving Initial Core Wettability During Core Restoration of Carbonate Cores
+
+- ID: SCA2015-017, year: 2015
+- Authors: Paul Hopkins, Tina Puntervold, Skule Strand
+- Method: laboratory experiment
+- Keywords: core restoration, acid number adsorption, chromatographic wettability test, mild core cleaning, chalk wettability, kerosene heptane cleaning
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-017)
+
+Mild kerosene/heptane cleaning of an oil-flooded outcrop chalk core preserved about 75% of adsorbed acidic polar components, shown by acid number adsorption and chromatographic wettability tests.
+
+Restoring carbonate cores without altering their initial wettability is important for capillary pressure, relative permeability and recovery tests. A water-wet Stevns Klint chalk core at Swi=0.1 was flooded with 15 PV of oil (AN 0.35 mg KOH/g) at 50°C, and effluent AN was tracked until it reached the injected value after about 13 PV. The chromatographic wettability index fell from 1 (Aww=0.254) to 0.22 (Awet=0.055). The core was then mildly cleaned with kerosene, heptane and DI water, dried, and re-flooded; effluent AN started at 0.13 mg KOH/g and equilibrated within about 6 PV. Total acid adsorption dropped from 1.47 to 0.37, implying about 75% of adsorbed material was retained. After the second 15 PV flood the water-wet index fell further to 0.03, so the wettability did not reproduce the first state and flooding volume appeared too large.
+
+## Study of the effect of heavy oil composition and temperature on wettability of reservoir rocks
+
+- ID: SCA2016-064, year: 2016
+- Authors: Shoulong Wang, Aifen Li, Ruigang Peng, Miao Yu, Shuaishi Fu
+- Method: laboratory experiment
+- Keywords: Amott wettability index, heavy oil, kerosene dilution, temperature effect, polar components adsorption, water-wet index
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-064.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-064)
+
+Amott tests on sintered cores with Shengli heavy oil and kerosene blends at 40–80℃ show water-wetness rises with more kerosene and higher temperature.
+
+The paper examines how heavy oil composition and temperature affect rock wettability. Standard sintered cores (about 1000 mD, 24% porosity, ~10 ml pore volume) were saturated with Shengli heavy oil diluted with 0–45 wt% kerosene, and Amott imbibition/forced displacement tests were run at 40, 55, 70 and 80℃. The water-wet index, Vo1/(Vo1+Vo2), ranged from 0.51 (pure heavy oil, 40℃) to 0.70 (45% kerosene, 80℃), spanning intermediate to strongly water-wet. Wettability shifted toward water-wet with increasing kerosene fraction and temperature, attributed to fewer adsorbed polar components and enhanced Brownian motion. Variation with kerosene content was larger at 40℃ (std 0.056) than at 70–80℃ (0.031), suggesting a temperature at which adsorption and desorption balance.
+
+## Affecting Wettability on Relative Permeability Parameters for Quartz Sandstones
+
+- ID: SCA2016-083, year: 2016
+- Authors: Such P. Leśniak G
+- Method: data analysis or correlation
+- Keywords: Amott wettability index, relative permeability, Cambrian sandstone, wettability alteration, steady-state, MICP
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-083.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-083)
+
+Steady-state relative permeability and Amott wettability on Cambrian quartz sandstones show water relative permeability rises with AWI, but single-sample scatter is large and no pore-space correlations exist.
+
+The study examines how wettability alteration by oil contact affects oil-water relative permeability in Cambrian quartz arenites from the Baltic Syneclise. Full lithological profiles were measured for porosity (5-21%), gas permeability (0.52-465 mD), MICP, Amott Wettability Index and steady-state relative permeability using reservoir fluids under simulated reservoir conditions. Statistically, relative permeability to water increases and relative permeability to oil decreases as AWI grows, with water being the more sensitive. Both curves become comparable for AWI of 0.34 or greater, and the highest AWI occurs at 100-200 mD. Samples with the same AWI (0.19) showed krw of 0.28-0.56 and kro of 0.48-0.82, and no correlation with porosity, permeability, threshold diameter, fractal dimension or specific surface was found. Residual water saturation was unaffected by wettability alteration.
+
+## Application of an Optimisation Method for the Restoration of Core Samples for SCAL Experiments –
+
+- ID: SCA2017-029, year: 2017
+- Authors: Part II, Edison Sripal, L.A. James
+- Method: laboratory experiment
+- Keywords: wettability restoration, Box-Behnken response surface, USBM wettability index, contact angle, SEM-MLA, Berea sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-029)
+
+Box-Behnken response surface design on 15 aged Berea samples optimises brine salinity, temperature and aging time for wettability restoration, using contact angle, USBM index and SEM-MLA.
+
+Wettability restoration for SCAL lacks a consistent method, so the authors extend earlier work using a three-factor Box-Behnken design over salinity (10,000-200,000 ppm), temperature (60-120°C) and aging time (2-8 weeks). Fifteen Berea sandstone samples were aged with Hibernia crude, and wettability was measured by sessile-drop contact angle, centrifuge USBM index, and SEM-MLA organic content at low vacuum. Quadratic models for contact angle and SEM-MLA (p = 0.0464 and 0.0095) and a linear model for USBM index (p < 0.0001) were fitted; aging time was the dominant factor. Longer aging and higher temperature made samples more oil-wet, while higher salinity reduced contact angle. Optimum conditions for contact angle were 104,257 ppm, 95°C and 5.5 weeks; for USBM they were 115,000 ppm, 99°C and 6.2 weeks. SEM-MLA optimisation was not yet completed.
+
+## Integration of Multi-Scale Techniques to Evaluate Reservoir Wettability for Carbonate Reservoirs in Middle East
+
+- ID: SCA2017-031, year: 2017
+- Authors: Peila Chen, Areej Hussain Al Katheeri, Mohammed Zubair Kalam, Edmond Shtepani
+- Method: laboratory experiment
+- Keywords: NMR wettability index, Amott-Harvey index, USBM index, contact angle, trapping number, carbonate wettability restoration
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-031)
+
+Contact angle, Amott-Harvey, USBM and NMR wettability indices are compared on Middle East carbonate cores, showing neutral to slightly oil-wet restored state and ROS dependence on wettability.
+
+The study evaluates wettability of Middle East carbonate reservoir cores (13-24% porosity, 0.2-350 md) by combining contact angle, Amott-Harvey, USBM and NMR T2-based indices (Fleury and Chen-Hirasaki models). Aged calcite plates gave contact angles of 144.7° at ambient and 111.4° at reservoir conditions (250°F, 3800 psig), showing live crude renders calcite oil-wet. As-received cores were water-wet, probably from drilling fluid contamination, while cleaned and restored cores were neutral to slightly oil-wet. AH and USBM agreed well, and both NMR indices correlated with them (R² > 0.90 between the two NMR models), reasonably in the range -0.3 to 1. Residual oil saturation after centrifuge imbibition fell with increasing Bond number without a critical value (about 0.15 PV near 1e-5), and was lowest near neutral wettability.
+
+## The Role of Ferrous Clays in the Interpretation of Wettability – a Case Study
+
+- ID: SCA2018-019, year: 2018
+- Authors: Velazco M.A, Bruce A, Ferris M, Reed J, Kandasamy R
+- Method: laboratory experiment
+- Keywords: Amott-USBM wettability, chamosite, glauconite, clean state wettability, iron-rich chlorite, sandstone petrography
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-019)
+
+Combined Amott-USBM tests on fresh, clean and restored sandstones from three fields show chamosite and glauconite iron-rich minerals drive mixed to oil-wet behaviour, even after cleaning.
+
+Clean sandstones are expected to be water wet after cleaning, yet cores from three fields gave mixed or oil-wet indices even in clean state. Combined Amott-USBM tests were run on fresh, clean and restored plugs, with XRD, SEM/EDS and thin-section petrography on end trims. Cleaning inefficiency was ruled out (no fluorescence, no halite, barite or organic matter), and deuterium tracer in Field B showed no mud filtrate invasion. Field A (glauconite) was water wet when clean (USBM +0.5 to +0.8) but mixed wet when fresh or restored. Field B (chamosite) was oil wet in all states (USBM -0.5 to -0.6), and Field C (chamosite) was mixed wet (+0.08 to +0.16). The authors attribute the oil-wet tendency to iron-rich clay coatings that bridge to organic compounds, and recommend combining wettability tests with XRD, SEM and thin section analysis.
+
+## A Laboratory Scale Approach to Wettability Restoration in Chalk Core Samples
+
+- ID: SCA2018-020, year: 2018
+- Authors: Jaspreet S. Sachdeva, Edison A. Sripal, Anders Nermoen, Reidar I. Korsnes, Merete V. Madland, Lesley A. James
+- Method: laboratory experiment
+- Keywords: wettability restoration, USBM wettability index, contact angle, SEM-MLA, Kansas chalk, aging time
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-020)
+
+Kansas chalk cores aged 6-30 days at 90°C were assessed by USBM, contact angle and SEM-MLA; about 21 days of aging restored oil-wet conditions.
+
+The study asks how well wettability of outcrop Kansas chalk can be controlled in the laboratory by varying aging time. Seven cores (porosity about 37-38.6%, permeability about 1.9-2.1 mD) were drained to Swi by centrifuge, then aged at 90°C for 6-30 days with 1.1 M NaCl brine and a 60/40 Heidrun/heptane oil (TAN 2.12 mg KOH/g). Wettability was measured by USBM index on the cores, sessile-drop contact angle on top end pieces, and SEM-MLA oil fraction on bottom end pieces. Contact angle rose from an unstable ~65° (6 and 9 days) to 102-110° at 18-30 days, SEM-MLA oil fraction rose from 10% to 46%, and the USBM index fell from 0.37-0.51 to -0.165 at 30 days, with an outlier at 18 days. USBM tests were difficult because many cores disintegrated, and the authors conclude that about 21 days of aging is sufficient to make the chalk oil wet.
+
+## Added Insight from Image-Based Wettability Characterization
+
+- ID: SCA2018-033, year: 2018
+- Authors: Rudolf Held, Norbert Schleifer, Luis Genolet, Andrew Fogden
+- Method: digital rock or imaging
+- Keywords: micro-CT wettability, Amott-Harvey index, centrifuge imbibition drainage, iodide-doped brine, pore network simulation, unconsolidated sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-033)
+
+Micro-CT imaging of a 12 mm sandstone sub-plug through centrifuge Amott cycles with stock-tank crude gives saturations and Pc curves, confirming mixed-wet to slightly oil-wet reservoir behavior.
+
+Conventional Amott tests on a weakly consolidated North German sandstone suggested mixed-wet to slightly oil-wet behavior, contradicting the historical water-wet assumption. A 12 mm sub-plug was scanned by micro-CT at 5 µm voxel size through eight states: brine saturation, primary drainage, aging, spontaneous and forced imbibition, and spontaneous and forced secondary drainage, using stock-tank crude and NaI-doped brine. Difference imaging gave a calibrated porosity map (24.6% total, 20.7% resolved) and saturations, with Sw of 0.123 after primary drainage, 0.154 after spontaneous imbibition, 0.772 at low-speed forced imbibition and Sor of 0.030 at high speed. Image-derived Pc curves resemble those from a neighboring plug, with Amott-Harvey indices of -0.35 (imaged) and -0.27 (plug), though the imaged water and oil indices (0.04, 0.39) are lower than the plug values (0.60, 0.87). Pore-network simulations in e-Core matched both data sets with oil contact angles of 110-160° (sub-plug) and 110-138° (plug).
+
+## Characterization of Fluid-Rock Interaction by Adsorption Calorimetry
+
+- ID: SCA2018-053, year: 2018
+- Authors: D. Korobkov, V. Pletneva, E. Dyshlyuk
+- Method: laboratory experiment
+- Keywords: adsorption calorimetry, wettability, enthalpy of adsorption, controlled porous glass, contact angle, vapour sorption isotherm
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-053.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-053)
+
+Adsorption calorimetry combined with gas sorption measures water and hexane adsorption heats on porous glass, carbon black and calcite to assess wettability; results are currently qualitative only.
+
+The paper proposes estimating wettability and contact angle from the adsorption enthalpy of two vapours, using DSC with a vapour dosing system and static volumetric sorption. Tests used controlled porous glass (CPG) powders, silane-modified glass, carbon black and calcite with water and hexane, with heat effect repeatability of ±5%. Burn-out of CPG at 600 °C made the surface hydrophobic, while solvents and H2O2 cleaning left it unchanged. Heat of water adsorption on carbon black was 3.8 times that of hexane, close to the surface tension ratio (72/19 mN/m), indicating near-equal wetting. Heat isotherms for water on CPG did not depend on pore size (50-300 nm). Separate calorimetry and sorption runs gave cosine of contact angle above 1, so simultaneous measurement of adsorbed amount and heat is needed and only qualitative wettability evaluation is currently possible.
+
+## Uncertainty span for relative permeability and capillary pressure by varying wettability and spatiality flow directions utilizing pore scale modelling
+
+- ID: SCA2019-003, year: 2019
+- Authors: Thomas Ramstad, Anders Kristoffersen, Einar Ebeltoft
+- Method: digital rock or imaging
+- Keywords: lattice-Boltzmann, wettability map, relative permeability uncertainty, micro-CT digital rock, forced imbibition capillary pressure, LET correlation
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-003)
+
+Lattice-Boltzmann simulations on micro-CT images of NCS end-trims with varied wettability maps and flow directions give relative permeability curves within the field SCAL model's uncertainty span.
+
+The study aims to estimate SCAL uncertainty from pore scale modelling, using micro-CT images (4.2 µm, downsampled to 15 µm) of 5 mm micro-plugs from end-trims of Norwegian Continental Shelf sandstone. Multiphase lattice-Boltzmann simulations (LBSIM) were run with primary drainage, forced imbibition for capillary pressure and end-points, and steady-state relative permeability at Ca = 1e-5, with LET curve fitting. Wettability was set uniformly or via a binary map (WW = 1.0, OW from 0.5 to -0.5) based on the initial oil distribution, in three flow directions, giving 54 relative permeability and 9 capillary pressure curves for three samples. Non-uniform wettability lowered water relative permeability versus uniform cases, which gave more symmetric curves and were more pessimistic than the SCAL model. All non-uniform results fell within the field SCAL uncertainty span and reasonably matched a steady-state experiment, although krw and kro were somewhat over-estimated near residual saturations due to resolution limits.
+
+## Workflow for upscaling wettability from the nano- to core-scales
+
+- ID: SCA2019-007, year: 2019
+- Authors: Maja Rücker, Willem-Bart Bartels, Tom Bultreys, Marijn Boone, Kamaljit Singh, Gaetano Garfi, Alessio Scanziani, Catherine Spurin, Sherifat Yesufu, Samuel. Krevor, Martin. J. Blunt, Ove Wilson, Hassan Mahani, Veerle Cnudde, Paul F. Luckham, Apostolos Georgiadis, Steffen Berg
+- Method: review or workflow
+- Keywords: wettability upscaling, atomic force microscopy, Ketton carbonate, contact angle distribution, micro-CT, surface roughness
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-007)
+
+Combines core-scale SCAL, micro-CT contact angles and AFM on Ketton carbonate to show surface roughness and drainage capillary pressure control wettability across scales.
+
+The paper builds a multi-scale wettability workflow for Ketton carbonate aged with crude oil, linking core-, pore- and sub-pore-scale measurements. At core scale, steady-state relative permeability and Amott tests show a mixed-wet, water-wet-leaning response for flood-initialized samples (krw max 0.2, Sor 0.06) and oil-wet behavior for centrifuged samples (about 1% spontaneous production). Micro-CT waterfloods show discontinuous oil films and a water-wet contact angle distribution (shifted about 30° toward oil-wet) for flooding, versus continuous oil films and a median contact angle of 115° for centrifugation. AFM in decane on a 10×10 µm area showed 60% of the surface covered by water films with a peak thickness of 125 nm. Morphological drainage simulation on the AFM surface showed brine coverage falling to 1.5% for sphere diameters below 1.5 µm, explaining how higher capillary pressure gives more oil-rock contact and a more oil-wet response.
+
+## Is contact angle a cause or an effect? – A cautionary tale
+
+- ID: SCA2019-008, year: 2019
+- Authors: Douglas Ruth
+- Method: theory or analytical model
+- Keywords: contact angle, wettability, Young's equation, in-situ micro-imaging, apparent contact angle, capillary tube meniscus
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-008)
+
+Using force-balance thought experiments and geometric analysis of a capillary-tube meniscus, the paper shows contact angle is a dependent variable and that 2D-image contact angles can range from 0 to 90° depending on plane position.
+
+The paper questions the assumption that a measured contact angle directly defines wettability. Simple force-balance arguments (tilted drop, vertical capillary tube with a second interface, a tube spun in a centrifuge, and moving contact lines per Cox) show contact angles change with body forces, velocity and history while the interfacial tensions do not. A geometric model of a spherical meniscus (true θ = 30°) in a vertical tube is cut by planes at various orientations and offsets to mimic 2D micro-CT slices. Apparent angles range from 0° to 24.5° (γ = 45°), 30° (vertical central plane), 33.7° (offset halfway) and 61.6° (offset 95%), approaching 90°, consistent with Andrew et al., who measured 10° to 110° by reorienting a resampling plane. The author concludes that contact angle is an effect rather than a cause, that it defines wettability only in static cases, and that accurate in-situ measurement requires 3D interface reconstruction.
+
+## The link between microscale contact angle measurements and corescale wettability
+
+- ID: SCA2019-009, year: 2019
+- Authors: Chenhao Sun, James McClure, Peyman Mostaghimi, Steffen Berg, Ryan T. Armstrong
+- Method: numerical simulation
+- Keywords: Gauss-Bonnet theorem, contact angle distribution, USBM wettability index, lattice Boltzmann simulation, capillary pressure, Euler characteristic
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-009)
+
+Uses the Gauss-Bonnet theorem to predict pore-scale contact angle distributions from Pc(Sw) data and cluster sizes, matching lattice Boltzmann simulations within 4-8%.
+
+The paper links core-scale wettability indices (USBM) to microscale contact angles using the Gauss-Bonnet theorem, which constrains contact angle through fluid cluster topology and interfacial curvature. Lattice Boltzmann drainage and imbibition simulations were run on a multi-mineral sandstone model (micro-CT registered with QEMSCAN) for two overall wettabilities (W=0.1 and 0.7) and four wetting configurations, including homogeneous, corner-wet and mineral-heterogeneous cases. USBM indices ranged 0.10-1.00, with mean contact angles of about 67-87°; indices near 1 gave angles below 70° and indices near 0.5 or lower gave angles above 70°. Case 4 showed only a 16.5° difference in mean angle despite USBM indices of 0.10 and 0.88. Contact angle distributions predicted from Pc(Sw) and cluster size distributions agreed with measured ones within 4% for the mean and about 8% for smaller angles.
+
+## Causal Protocols to Assess the Viability of Native State or Restored State Preparation
+
+- ID: SCA2019-045, year: 2019
+- Authors: Jules Reed, Stefano Pruno, Izaskun Zubizarreta, Rolf Solheimdal Johansen
+- Method: review or workflow
+- Keywords: native state, restored state, wettability, decision tree, mud additive invasion, special core analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-045)
+
+Proposes a decision-tree process with special core analysis protocols to decide whether native state or restored state core preparation is viable for different coring and handling scenarios.
+
+Wettability must be representative of the reservoir in special core analysis, yet the industry debates whether native (as received) or restored state preparation is better. Modern mud systems contain additives such as asphaltic bridging agents, emulsifiers and surfactants that can alter wettability, and coring, wellsite handling and laboratory processes can change wettability and saturation. The paper proposes a decision tree that uses different SCA protocols for different coring and core handling scenarios. It considers core damage, mud additive invasion, saturation hysteresis, reservoir fluid compositional change, and experimental conditions. The tree determines whether native state analysis is viable and, if not, whether restored state analysis can be applied. Only the abstract is available, so no quantitative results are given.
+
+## Wettability - Combine the macroscopic approach to pore-scale analysis
+
+- ID: SCA2019-050, year: 2019
+- Authors: Prisca Andriamananjaona, Peter Moonen, Manuel Chamerois, Richard Rivenq
+- Method: digital rock or imaging
+- Keywords: Amott wettability index, X-ray micro-CT, μ-plug, mixed wettability, pore-scale fluid distribution, digital rock physics
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-050)
+
+Proposes running Amott tests on twin centimeter plugs and millimeter μ-plugs imaged by µ-CT at each endpoint, to link Amott indices to pore-scale fluid distribution.
+
+Amott and USBM wettability indices are global measures that do not capture mixed wettability or its pore-scale manifestation. The authors propose Amott tests on twin samples: a centimeter-sized classical plug and a millimeter-sized μ-plug. The μ-plug is imaged by X-ray µ-CT at 2-3 µm per pixel at each endpoint (primary drainage, spontaneous and forced imbibition, spontaneous and forced drainage). Saturations from image processing give Amott indices to compare with the classical plug. The work aims to relate the indices to fluid distribution and interfacial properties, and to support wettability inclusion in digital rock simulation. The text presents the approach and objectives; no results are given.
+
+## Adsorption isotherm for wettability evaluation
+
+- ID: SCA2019-072, year: 2019
+- Authors: Dmitry Korobkov, Vera Pletneva
+- Method: measurement technique or apparatus
+- Keywords: adsorption isotherm, adsorption calorimetry, wettability, surface free energy, tight rock, static volumetric adsorption
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-072.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-072)
+
+Proposes combining static volumetric adsorption and adsorption calorimetry to evaluate wettability of tight rock via surface free energy, with test experiments on model porous media.
+
+Wettability of tight rock (permeability below 1 mD) cannot be measured by Amott-based methods, yet it is a key input for digital rock simulations of relative permeability and EOR. The authors propose adsorption-based methods to evaluate wettability through the free surface energy of the rock surface. They combined a differential scanning calorimetry setup with a gas sorption setup, extending earlier work. Test experiments examined interaction of pure liquids (water, hexane) with porous glasses, calcite and carbon of predefined surface properties. The text describes the setup and test experiments but gives no quantitative results.
+
+## Initial Wettability in Carbonates by Advanced Core Analyses: «A Step Closer to Representative Reservoir Wettability»
+
+- ID: SCA2021-017, year: 2021
+- Authors: Iván D. Piñerez Torrijos, Tina Puntervold, Skule Strand, Paul Hopkins, Panagiotis Aslanidis
+- Method: laboratory experiment
+- Keywords: core restoration, mild solvent cleaning, spontaneous imbibition, chromatographic wettability test, polar organic components, Stevns Klint chalk
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-017)
+
+Mild kerosene/heptane cleaning with limited solvent and (1-Swi) PV oil exposure reproduced chalk core wettability between restorations, while toluene/methanol cleaning stripped more adsorbed polar components.
+
+Standard core cleaning with strong solvents can destroy the adsorbed polar organic components that set reservoir wettability, and excess crude oil exposure during restoration shifts cores less water-wet. Stevns Klint outcrop chalk cores were restored, cleaned with either mild kerosene/heptane or harsh toluene/methanol, and tested by spontaneous imbibition at 50 °C and chromatographic wettability (CW) tests. Harsh cleaning gave higher imbibition recovery (62 vs 27 %OOIP in heptane/water tests) and larger ICW gains (0.66 vs 0.60), showing greater POC removal. With mild cleaning (10 PV kerosene, 5 PV heptane) and oil exposure limited to (1-Swi) PV, second-restoration recoveries differed from the first by only +1.5 to +3.6 %OOIP in four cores. Re-exposing a mildly cleaned core to 5 PV oil dropped recovery from 41.5 to 21.0 %OOIP (IW-SI 0.59 to 0.30).
+
+## Core restoration and its effect on initial wetting of NCS sandstone reservoir cores
+
+- ID: SCA2021-032, year: 2021
+- Authors: Panagiotis Aslanidis, Iván D. Piñerez Torrijos, Skule Strand, Tina Puntervold
+- Method: laboratory experiment
+- Keywords: core restoration, wettability, spontaneous imbibition, core cleaning solvents, kerosene/heptane cleaning, sandstone reservoir cores
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-032)
+
+Repeated restorations of Varg sandstone cores show kerosene/heptane cleaning drives cores less water-wet, while toluene/methanol cleaning reproduces wettability, based on spontaneous imbibition recoveries.
+
+Initial wettability of reservoir cores is hard to restore reliably, and the cleaning solvent and crude oil exposure volume both influence it. Four preserved Varg field (NCS) sandstone cores were cleaned with kerosene/heptane or toluene/methanol, brought to 20% Swi, flooded with 5 PV crude oil and aged 14 days at 60 °C. Wettability was assessed by spontaneous imbibition of formation water, repeated over 3-4 restorations. Kerosene/heptane cleaned cores became progressively less water-wet, with recovery falling from 34% to 14% OOIP (P1) and 43% to 17% (P9). Toluene/methanol cleaned cores stayed stable or slightly more water-wet (27 to 34% and 40 to 45% OOIP). First-restoration recoveries were similar for both methods, suggesting 5 PV of crude oil exposure gives reasonable wettability.
+
+## The effect of nanoconfinement on the phase behavior of ethane/n-propane binary mixture: An experimental study at varying pore sizes and compositions
+
+- ID: SCA2022-14, year: 2022
+- Authors: Keerti Vardhan Sharmaa, Rami M. Allousha, Karem Al-Garadia
+- Method: laboratory experiment
+- Keywords: nanoconfinement, capillary condensation pressure, MCM-41, gravimetric adsorption isotherm, ethane/propane mixture, selective adsorption
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-14)
+
+Gravimetric adsorption isotherms of two ethane/propane mixtures in MCM-41 show capillary condensation pressure rises with pore size and ethane fraction, with selective ethane adsorption lowering saturation pressure.
+
+Experimental data on confined phase behavior of hydrocarbon mixtures are scarce, limiting phase behavior models for shale nanopores. Adsorption isotherms of two ethane/propane mixtures (M1: 46.6% ethane; M2: 37.3% ethane) were measured at -18 °C in MCM-41 with NLDFT pore diameters of 7, 10.2 and 12.3 nm, using a patented gravimetric nanocondensation apparatus. Capillary condensation pressures were taken from Lorentzian fits of dm/dP. For M1 they were 54.75, 73.82 and 79.58 psia, and for M2 47.67, 62.55 and 65.11 psia, increasing with pore size and lower for the mixture with less ethane. Experimental bulk bubble pressures (94 psi for M1, 75 psi for M2) fell below calculated values (112 and 97 psi), indicating selective ethane adsorption. Condensation pressures were linear with reciprocal pore diameter and extrapolated to the calculated bulk pressure, consistent with Young-Laplace behavior.
+
+## Fast wettability assessment on small rock samples using a 3D, high-resolution, image-based Amott-like test
+
+- ID: SCA2022-22, year: 2022
+- Authors: Maria Repina, Regis Brugidou, Alexandre Dufour, Richard Rivenq
+- Method: digital rock or imaging
+- Keywords: Amott-Harvey index, micro-CT, differential imaging, sub-resolution porosity, carbonate wettability, mini-plug
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-22)
+
+A micro-CT-imaged Amott-like cycle on 4 mm carbonate mini-plugs gives a pseudo-wettability index and fluid distributions, indicating oil-wet behaviour in both samples within days.
+
+Standard Amott and USBM wettability tests take months, and image-based contact-angle methods suffer from limited resolution. The authors ran a full Amott-like cycle (aging, spontaneous and forced imbibition, spontaneous and forced drainage) on two 4 mm by 15 mm carbonate samples, scanning the whole length at 2.07 µm voxel size after each step. Differential imaging with KI-doped brine separated resolved and sub-resolution porosity (total porosity 0.10 and 0.14, with about 0.06 sub-resolution). A pseudo-wettability index Iw−Io of −0.41 and −0.47 indicates oil-wet behaviour. This is supported by high initial water saturation, spontaneous imbibition limited to the sample inlet, spontaneous drainage along the entire length, and negatively curved brine-oil interfaces. Comparison with conventional Amott tests on neighbouring centimetre-scale plugs is still in progress.
+
+## Capturing the wetting state of an aged-carbonate core through pore-scale multiphase flow simulations
+
+- ID: SCA2022-34, year: 2022
+- Authors: Tingting Wang, Ying Da Wang, Chenhao Sun, James E. McClure, Peyman Mostaghimi, Ryan T. Armstrong
+- Method: numerical simulation
+- Keywords: lattice Boltzmann, Cassie-Baxter model, Minkowski functionals, micro-CT wettability, aged carbonate, microporosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-34)
+
+Two-phase lattice Boltzmann simulations with uniform and Cassie-Baxter wetting models are compared to micro-CT data of an aged carbonate; a uniform 130° oil-wet angle matches best.
+
+The paper addresses how to assign realistic wettability to digital rock multiphase flow simulations of aged carbonates. Two-phase lattice Boltzmann simulations were run on a Ketton micro-CT image (5 µm) and a synchrotron image (3.5 µm) of a mixed-wet carbonate during imbibition. Surfaces contacted by oil after primary drainage were made oil-wet, using either a uniform contact angle (130° oil-treated, 40° untreated) or a Cassie-Baxter model based on micro-CT microporosity. Oil morphology was compared to experiment using Minkowski functionals (oil-grain surface area, Euler characteristic) and curvature distributions. The uniform model with 130° (Uni_0.99_2) best matched experiment, with 20.54% of simulated mean curvature falling outside the experimental distribution, while Cassie-Baxter cases were too water-wet because partial volume effects inflate surface microporosity (mean 0.1268 away from the surface). Back-calculating with Cassie-Baxter implies an intrinsic angle of about 160°.
+
+## Investigation Pore Geometry Wettability Preference in Oolitic Oil Reservoir: Pore Scale Imaging and Modelling Study
+
+- ID: SCA2022-42, year: 2022
+- Authors: Hussien Al-Ajaj, Ralph Flori, Saleh Alsayegh, Haidar AlMubarak, Waleed Al-Bazzaz
+- Method: digital rock or imaging
+- Keywords: SEM-BSE imaging, static contact angle, wettability classification, K-means clustering, oolitic carbonate, pore/grain boundary
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-42)
+
+SEM-BSE images of a Kuwaiti oolitic limestone at three magnifications are used to measure pore-wall contact angles, classify them over 0-360°, and cluster them with K-means; most are water-wet.
+
+The study estimates wettability of a fresh Kuwaiti oolitic calcite sample from static contact angles measured on 2D SEM-BSE images at 40X, 400X and 4000X. Angles are measured around pore/grain-wall boundaries using a unit-circle scheme spanning 0-360°, giving an 18-class wettability classification. Mean angles were 52.4° (3,283 pores at 40X), 56.0° (2,223 pores at 400X) and 33.2° (1,340 pores at 4000X), all water-wet. K-means clustering into 10 clusters found nano-pore boundaries with 0° angles (water film) dominant, plus smaller mixed-wet and strongly oil-wet clusters. The authors conclude about 84.3% of boundaries are water-wet and 15.7% mixed- to oil-wet, making the reservoir a good waterflood candidate. Only one sample was examined, and the organic-matter contamination task was not completed.
+
+## Novel Evaluation of Oil Recovery in Rock-Like Mixed-Wet Microfluidic Systems
+
+- ID: SCA2022-65, year: 2022
+- Authors: Abdullah AlOmier, Antonia Sugar, Dongkyu Cha, Subhash Ayirala, Mohammed AlOtaibi, Ali Yousef, Hussein Hoteit
+- Method: laboratory experiment
+- Keywords: microfluidics, mixed-wet wettability, silicon micromodel, pore-scale waterflooding, selective wettability alteration, oil recovery
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-65.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-65)
+
+Silicon microfluidic devices with rock-like pore networks and selectively altered wettability show lower waterflood oil recovery in mixed-wet than in water-wet systems.
+
+Wettability controls fluid distribution and recovery in mixed-wet reservoirs such as carbonates and shales, but microfluidic models rarely represent mixed-wet conditions. The authors built silicon microdevices whose pore network was derived from thin-section photographs of a core. One device was left hydrophilic (water-wet), and another was selectively treated to have hydrophilic and hydrophobic regions (mixed-wet). Water was injected into oil-saturated devices under identical conditions. The mixed-wet device gave lower oil recovery and higher remaining oil saturation than the water-wet one, with distinct phase distributions. The authors conclude that single-wettability microdevices may under- or over-estimate recovery.
+
+## Prediction of wetting condition in a reservoir rock using coupled digital rock and molecular dynamics simulation
+
+- ID: SCA2023-025, year: 2023
+- Authors: Ashraful Islam, Joshua D. Moore, Rafael Salazar-Tio, Guangyuan Sun, Andrew Fager, Bernd Crouse, Sabine Schweizer, Kwan Skinner, Lalitha Subramanian, Dassault Systémes
+- Method: numerical simulation
+- Keywords: wettability alteration, molecular dynamics, lattice Boltzmann, disjoining pressure, contact angle, Berea sandstone
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-025.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-025)
+
+Molecular dynamics contact angles on hydroxylated and alkylated quartz feed an iterative LBM drainage simulation in Berea sandstone that predicts spatially varying wettability, exceeding virtual MIP oil-wet fractions.
+
+Wettability is a required input for digital rock multiphase simulations but is usually assumed. The authors couple all-atom molecular dynamics (COMPASS III, n-octane/brine/α-quartz at 6800 psi and 240 °F) with a Shan-Chen lattice Boltzmann drainage simulation on a 500-voxel subvolume of a 2 µm microCT Berea image. MD gave oil contact angles of 53±2° on hydroxylated quartz and 150±4° on alkylated quartz. During drainage, surface patches switch from water-wet to oil-wet when capillary pressure exceeds curvature-based pressure plus a maximum disjoining pressure (assumed 5×10^4 Pa), iterating to convergence at each pressure step. About 23% of water remained trapped, and entry pressures matched a geometric MIP-like analysis. At a given saturation (40–80% Sw) the simulated oil-wet surface fraction was considerably higher than the MIP-predicted contacted fraction, since wettability alteration lets oil enter smaller pores; convex pores are more likely to alter, consistent with mixed-wet small reservoirs.
+
+## The effect of wettability on the amount of adsorbed fluid and capillary condensation pressure in nanoporous materials
+
+- ID: SCA2024_1027, year: 2024
+- Authors: An T. T. Nguyen, Keerti V. Sharma, Mohammad Piri
+- Method: laboratory experiment
+- Keywords: capillary condensation, ethane adsorption isotherm, MCM-41, wettability alteration HMDS, gravimetric measurement, nanopore confinement
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1027)
+
+Gravimetric ethane adsorption in hydrophilic and HMDS-hydrophobized MCM-41 shows more adsorption and slightly lower capillary condensation pressure in hydrophilic pores, with effects growing with temperature.
+
+Wettability effects on confined phase behavior of fluids in nanopores are poorly understood. Water-wet MCM-41 samples (80 and 100 Å pores) were made hydrophobic with HMDS, confirmed by contact angles and BJH pore sizes. Ethane adsorption isotherms were measured with a gravimetric nano-condensation apparatus at -20, -10 and 0 °C. Hydrophilic samples adsorbed more ethane before condensation, with the difference larger in the 80 Å pores (about 0.4 g versus 0.2 g at 0 °C). Capillary condensation pressures were slightly higher in hydrophobic samples (differences 0.09-0.27 bar), increasing with temperature, but the wettability effect was smaller than that of pore size.
+
+## The effects of confinement and wettability on the phase behavior of pure and multicomponent fluids in nanoporous media
+
+- ID: SCA_2025_1035, year: 2025
+- Method: laboratory experiment
+- Keywords: MCM-41, capillary condensation, adsorption-desorption hysteresis, confined phase behavior, wettability, selective adsorption
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1035.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1035)
+
+Adsorption/desorption isotherms of CO2 and a butane/hexane mixture in hydrophilic and hydrophobic 8 nm MCM-41 show mixtures desorb irreversibly, with composition rather than wettability driving selectivity.
+
+Phase behavior of mixtures in nanopores is poorly understood compared with pure fluids. Adsorption and desorption isotherms were measured with a nano-condensation apparatus for CO2 at 10 °C and a 90 mol% n-butane/n-hexane mixture at 10, 20 and 30 °C in hydrophilic and HMDS-treated hydrophobic MCM-41 (8 nm pores). CO2 showed reversible, hysteresis-free transitions near 40 bar, below the 45 bar bulk saturation pressure. The mixture's condensation pressures were also below bulk bubble points (e.g., 1.002 vs 1.347 bar at 10 °C) and nearly independent of wettability, but hydrophilic samples adsorbed more. Mixture desorption was gradual with no identifiable capillary evaporation and strong hysteresis, attributed to retention of n-hexane; selectivity appeared composition-driven.
+
+## Evaluation of relative permeability using the multi-flow method in carbonate rocks with highly heterogeneity considering the preservation of wettability through a mild cleaning process
+
+- ID: SCA_2025_1048, year: 2025
+- Authors: Eddy Ruidiaz, Mariana De Oliveira, Leonardo Cussat, Adriano dos Santos, Felipe Leite Silva, André Luiz Martins Compan, Flavia Barros de Andrade, Paulo Couto
+- Method: laboratory experiment
+- Keywords: mild cleaning, wettability preservation, multistep relative permeability, Brazilian pre-salt carbonates, LET correlation, aging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1048.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1048)
+
+A mild cleaning method using diluted formation water and n-hexane is shown to preserve wettability in Brazilian pre-salt carbonates, verified by stable oil relative permeability.
+
+Conventional solvent cleaning (toluene/methanol) can alter wettability in heterogeneous pre-salt carbonates. The authors developed a mild cleaning using formation water diluted 1:1500 for salts and n-hexane for oil, first validated on Indiana Limestone, where effluent ion chromatography, porosity and permeability showed no significant reactivity or change over two cleaning cycles. It was then applied to two stromatolite and two grainstone samples (K 52–109 mD, porosity 13–19%) aged statically and dynamically at 60°C. Reservoir samples needed about five times more cleaning fluid than outcrop. Kro at Swi measured with mineral oil, model oil and hexane remained similar after cleaning, indicating wettability preservation, with a slight decrease for one grainstone under dynamic aging. Multistep relative permeability curves fitted with the LET method showed a slight oil-wet tendency, with stromatolites more consistent between aging methods than grainstones.
+
+## Evaluation of the dynamic's adsorption of polar components during the wettability restoration of carbonate rocks from Brazilian pre-salt reservoirs and their preservation for relative permeability tests
+
+- ID: SCA_2025_1049, year: 2025
+- Authors: Eddy Ruidiaz, Yasmin Rodrigues, Leonardo Cussat, Adriano dos Santos, Felipe Leite Silva, André Luiz Martins Compan, Flavia Barros de Andrade, Paulo Couto
+- Method: laboratory experiment
+- Keywords: wettability restoration, dynamic aging, total acid number, total base number, pre-salt carbonates, multistep relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1049.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1049)
+
+Dynamic and static aging of Pre-salt stromatolite and grainstone cores were compared using effluent TAN/TBN and pressure drop to gauge wettability restoration time and its effect on relative permeability.
+
+Wettability restoration of Brazilian Pre-salt carbonates depends on polar component adsorption, which may differ between facies. Two stromatolite and two grainstone plugs (K 52-109 mD, porosity 13-19%) were aged at 60°C by dynamic oil injection (2 PV per injection, 0.1 mL/min, 30 days) and by static immersion for at least 30 days. Effluent TAN and TBN were measured, and TAN/TBN dropped sharply in the first injected pore volumes. Differential pressure suggested restoration after about 18 days (sixth injection) for stromatolite, and at least 20 PV or about 30 days for grainstone. Multistep seawater-injection tests with LET fitting gave oil-wet-leaning relative permeability curves. The stromatolite curves differed little between aging methods, while grainstone showed larger differences in recovered volume.
+
+## Towards faster Amott index measurement: Amott Express Technique
+
+- ID: SCA_2025_1074, year: 2025
+- Authors: Laurent Rochereau, Quentin Danielczick, Régis Brugidou, Franck Nono, Victor Fernandes, Benjamin Nicot
+- Method: measurement technique or apparatus
+- Keywords: Amott-Harvey index, USBM index, NMR saturation profiles, D2O brine, spontaneous imbibition, wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1074.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1074)
+
+A single NMR-compatible cell with D2O brine runs the full Amott cycle, giving Amott-Harvey (-0.34) and USBM (-0.27) indices on one reservoir sample with less handling and time.
+
+Conventional Amott and USBM tests need repeated cell changes and take months. The authors propose the Amott Express technique: one PEEK cell inside a 12 MHz NMR spectrometer, D2O brine to make water invisible, and viscous sweeping at the inlet face for all steps from spontaneous imbibition to forced secondary drainage. On a 1.9 mD bimodal reservoir sample aged at 80°C, spontaneous imbibition produced only 3 s.u. (Iw = 0.08), forced imbibition reached Sw = 83 s.u., and spontaneous drainage gave Io = 0.42, so the Amott-Harvey index was -0.34 (slightly oil-wet). Inlet-face saturations from NMR profiles and ΔP, taken as Pc, gave Pc curves and a USBM index of -0.27, consistent with Amott. Handling is divided by 4 and about two months saved, with two more possible if the outlet face Pc=0 condition is achieved; this is a proof of concept on one sample.
+
+## The Development of a Powder-Flotation Protocol for Rapid Screening of Aging- and Cleaning-Induced Wettability Alterations in Sandstone
+
+- ID: SCA2026-030, year: 2026
+- Authors: Anisa Nugrahaningtyas, Mohammad Masoudi, Bård Johan Arnt Bjørkvik, Carl Fredrik Berg, Antje van der Net
+- Method: laboratory experiment
+- Keywords: powder flotation, Flotation Index, wettability alteration, solvent cleaning, Bleurswiller sandstone, crude oil aging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-030)
+
+A powder-flotation protocol on crude-oil-aged Bleurswiller sandstone powder shows toluene–methanol cleaning restores near water-wet conditions (FI below ~1.4%), while hexane and Isopar-L do not.
+
+Powder flotation lacks a standard protocol for wettability screening, so the authors developed one using 50–74 µm Bleurswiller sandstone powder aged at 80 °C for 5 days with three North Sea crude oils. Powders were cleaned with Isopar-L, hexane or toluene–methanol, by filtration alone or with 12 h shaking, then floated in Isopar-L/water for one week and quantified by a gravimetric Flotation Index (FI). Isopar-L and hexane left FI mostly above 5% (up to ~17%) with persistent oil-wet visual indicators, whereas toluene–methanol gave FI of 0.32–1.40% (filtration) and 0.23–0.82% (with shaking). Repeat runs reproduced the classification, but inter-run variability was large for non-water-wet cases (e.g., Oil B, 11–28% upper bounds). Halving powder mass from 2 g to 1 g changed FI notably under oil-wet conditions but little under water-wet conditions, and fluid addition order had no significant effect. FI separates non-water-wet from near-water-wet states but is not yet quantitatively calibrated to contact angle, Amott or USBM.
+
+## Investigating the Wettability and Grain Surface Roughness of an Unconventional Oolitic Carbonate Reservoir
+
+- ID: SCA2026-059, year: 2026
+- Authors: Taiba Al-Wuhaib, Salah Almudhhi, Waleed Al-Bazzaz, Sohaib Kholosy, Saleh Al-Sayegh, Ralph Flori, Hasan Al-Saedi
+- Method: digital rock or imaging
+- Keywords: contact angle wettability, surface roughness, oolitic carbonate, SEM-BSE imaging, scanning probe microscopy, K-means clustering
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-059.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-059)
+
+Uses 2D SEM-BSE imaging with clustering and SPM analysis to link grain/pore surface roughness with contact-angle wettability of a Kuwaiti oolitic carbonate, finding smoothing biases angles.
+
+Conventional contact-angle measurements use smoothed surfaces, which may misrepresent the native roughness of oolitic carbonate grains. The authors imaged a fresh Kuwaiti Minagish oolite fragment (porosity 19.1%, air permeability 966 mD) by SEM-BSE at 40X, 400X and 4000X. Contact angles were derived by AI clustering of 2,229 pore/grain measurements at 400X (mean about 56°), and roughness (Ra) was computed with SPM software on masked grain zones A-D and pore zones E-G. Ra ranged 0.059-0.111 µm for grains and 0.057-0.131 µm for pores. Roughness and contact angle varied with magnification, and the authors report that at 400X the grain angle drops from 56° to about 40°, a 28% reduction, implying smoothing overestimates contact angle. A 12-class angle model is used to predict recovery types, though the analysis is largely single-image and the reported trends are weakly supported.
+
+## Quantifying Wettability Effects on Multiphase Flow in Carbonate and Sandstone Reservoirs
+
+- ID: SCA2026-070, year: 2026
+- Authors: Moustafa Dernaika, Shehadeh Masalmeh, Reservoir Performance Evaluation, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: Amott-Harvey wettability index, USBM index, advancing contact angle, residual oil saturation, endpoint relative permeability, spontaneous drainage
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-070)
+
+Amott-USBM wettability indices agree with advancing contact angles derived from Pc curves in carbonates and sandstones; higher contact angles lower Sor, raise Krw(Sor) and increase water trapping.
+
+The paper quantifies how wettability affects fluid trapping and endpoint relative permeability in Middle East dolomite, limestone and sandstone plugs. Amott-Harvey and USBM indices (+0.40 to −0.96) were measured on carbonates, and advancing contact angles (97° to 180°) were derived from drainage-imbibition Pc curves using the Masalmeh and Jing method; a second set of limestone and sandstone samples had only drainage-imbibition Pc. Wettability index and contact angle correlate well for negative WI, with deviation at positive WI where spontaneous imbibition is significant. Dolomites were strongly oil-wet (150°–180°), whereas limestones and sandstones were neutral to slightly oil-wet (100°–120°). Over 97°–120°, limestone Krw(Sor) rose from about 0.5 to 0.8 as Sor fell from 0.20 to 0.09, while sandstone Krw(Sor) rose from 0.2 to 0.7 as Sor fell from 0.40 to 0.15. Higher contact angles increased spontaneous drainage (0 to 0.55), water trapping and Swr, while Swi and Kro(Swi) were independent of wettability.

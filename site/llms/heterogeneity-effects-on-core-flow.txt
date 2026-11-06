@@ -1,0 +1,447 @@
+# Heterogeneity effects on core flow
+
+> 34 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: heterogeneity, flow, heterogeneous, capillary, permeability, relative, simulation, scale, heterogeneities, numerical.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Relative Permeability and Capillary Pressure: Effects of Rock Heterogeneity
+
+- ID: SCA1998-08, year: 1998
+- Authors: A. Sylte, T. Mannseth, J. Mykkeltveit, J.E. Nordtvedt
+- Method: numerical simulation
+- Keywords: core heterogeneity, relative permeability, capillary pressure, Leverett j-function, inverse modeling, composite core
+- Cited by 6 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-08)
+
+Synthetic and experimental 1D/2D cases show that treating heterogeneous cores as homogeneous or 1D causes large errors in estimated relative permeability and capillary pressure, even at 1:2 contrast.
+
+Relative permeability and capillary pressure are normally inferred from flooding data assuming a homogeneous core, which can bias the results. The authors extended an implicit history-matching method (B-spline functions, CENDRA simulator, Leverett j-function option) to 1D and 2D permeability distributions. Synthetic oil floods (drainage with a rate bump) were generated for two-piece cores with contrasts of 2:1, 1:2 and 1:10 and different dividing angles, then inverted with simplified homogeneous or 1D permeability models. A permeability difference of only 3-4 mD (about 7%) between two 50 mD halves was enough for the initial SSR to exceed the expected variance-error level. A four-plug composite core waterflood (permeabilities 401-819 mD) gave a spurious plateau in oil relative permeability under a homogeneous assumption, which disappeared with a 1D heterogeneous model. Strong 1:10 heterogeneity gave useless results if not modeled, and a homogeneous model compensated more than a 1D model.
+
+## Influence of Heterogeneity, Wettability and Coreflood Design on Relative Permeability Curves
+
+- ID: SCA2000-23, year: 2000
+- Authors: G. HAMON, C. ROY
+- Method: numerical simulation
+- Keywords: relative permeability, small-scale heterogeneity, coreflood inversion, unsteady-state vs steady-state, saturation profiles, capillary pressure
+- Cited by 5 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-23)
+
+Numerical waterflood experiments show that along-bedding heterogeneity biases relative permeability from coreflood inversion, while across-bedding flow gives reliable curves if local permeability and saturation profiles are included.
+
+Most coreflood interpretations assume homogeneous samples, yet small-scale heterogeneity can bias relative permeability. The authors review experimental methods for detecting heterogeneity, then simulate unsteady- and steady-state waterfloods on finely gridded 2D models, along and across bedding, and invert the synthetic production and pressure data for Kr. Along-bedding flow is the riskiest: unsteady-state inversion is badly biased, and steady-state is more robust but still pessimistic. Across-bedding flow gives near-true Kr curves when capillary forces are negligible. With significant capillary forces, multi-rate unsteady-state floods in weakly water-wet or oil-wet samples recover true Kr if local permeability and in-situ saturation profiles are used, as in the oil-wet case where Sorw was 0.31 versus a true 0.25 unless local Sorw was used.
+
+## Identification of Parallel Heterogeneities with Miscible Displacement
+
+- ID: SCA1999-33, year: 1999
+- Authors: C. Dauba, G. Hamon, M. Quintard, F. Cherblanc
+- Method: laboratory experiment
+- Keywords: miscible displacement, longitudinal heterogeneity, tracer effluent curve, Peclet number, 2D simulation type curves, unsteady-state relative permeability
+- Cited by 6 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-33)
+
+Miscible tracer displacements, interpreted with 2D two-region simulations, identify lengthwise heterogeneity in cores and screen out samples that would give anomalous relative permeability curves.
+
+Lengthwise heterogeneity (preferential paths, vugs, layers) distorts unsteady-state water/oil relative permeability, so the authors use brine miscible displacement (30 to 120 g/l) as a cheap screening test before waterflooding. Finely gridded 2D simulations (Transp/Modflow) of two-region cores produced type curves: early breakthrough with a long tail marks high permeability contrast, two steps mark moderate contrast, and high velocity accentuates differences, while cross-section heterogeneity is barely detectable. Experiments on unconsolidated sandstones, a shaly sandstone and vuggy dolomites were history-matched to give permeability contrast and high-permeability volume fraction, e.g. contrast 10 and 45% for D2, 10 and 60% for D3, 10 and 22% for N1, 1000 and 3% for vuggy A2, and 100 and 16% for A6. Matches agreed with CT and probe permeameter data, and samples with heterogeneous tracer curves gave anomalous relative permeability curves. CT failed to distinguish vuggy samples A2 and A6, whereas miscible tests did.
+
+## Two Dimensional Imaging of Viscous and Capillary Effects in a Dipping Stratified Heterogeneous Media
+
+- ID: SCA1994-13, year: 1994
+- Authors: Henri BERTIN, Arne GRAUE, Terje EILERTSEN
+- Method: laboratory experiment
+- Keywords: gamma-ray attenuation, 2D saturation imaging, capillary equilibrium, heterogeneous layered media, waterflood, capillary end effect
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-13)
+
+Gamma-ray 2D saturation imaging of drainage and waterflood in a 45-degree dipping three-block Aerolith/sandstone medium reveals capillary redistribution and viscous-capillary competition controlling recovery.
+
+The study addresses two-phase flow in layered heterogeneous media where average flow direction differs from the layering. A composite 5 cm block medium was built from two Vosges sandstone blocks (about 550 mD, 26% porosity) and a central high-permeability Aerolith-10 block, joined at 45 degrees with filter paper for capillary contact. Primary drainage at 5 ml/min, a 65-hour no-flow period, a 6 ml/h waterflood and a 2 ml/h second drainage were imaged with gamma-ray attenuation using NaI brine. During the no-flow period water saturation fell in the Aerolith block and rose slightly in the sandstone through capillary equilibrium. In the waterflood, water broke through at 0.38 PV and recovery was better in the low-capillary block, but the upper part of the Aerolith block was poorly swept, attributed to gravity versus capillary competition, possible loss of contact, and short injection time. Capillary end effects and dip angle strongly influenced recovery, and 2D saturation maps improved interpretation.
+
+## The effect of heterogeneity on unsteady-state displacements
+
+- ID: SCA2000-30, year: 2000
+- Authors: Darryl Fenwick, Nicole Doerler, Roland Lenormand
+- Method: numerical simulation
+- Keywords: JBN relative permeability, core-scale heterogeneity, unsteady-state displacement, pseudo capillary pressure, tracer test, streamline simulation
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-30)
+
+Streamline simulations on heterogeneous permeability fields show JBN relative permeability is biased and saturation profiles need a pseudo-Pc; tracer tests can help separate heterogeneity from local Kr.
+
+Unsteady-state relative permeability interpretation by JBN assumes a homogeneous core, but cores are often heterogeneous. The authors ran streamline (3DSL) simulations on 250x100 2D Gaussian permeability fields with correlation lengths of 0.01 and 1.0 and variances of ln K of 0.1 and 1, using Corey Kr (exponent 1 for tracer, 2), Pc=0 and viscosity ratios of 1 and 5. JBN effective Kr differed from local Kr even for small correlation length and variance, and a 1D Buckley-Leverett model with the effective Kr reproduced outlet flux but not the more spread saturation profiles at early times. Matching profiles required a pseudo-Pc, whose shape resembles a real capillary pressure curve. Effective Kr moved closer to local Kr at M=5, and an empirical model combining tracer and local Kr is proposed to back-calculate local Kr.
+
+## The Impact of Using Composite Cores on Core Analysis Results
+
+- ID: SCA1996-02, year: 1996
+- Authors: K. Langaas, S. Ekrann, E. Ebeltoft
+- Method: numerical simulation
+- Keywords: composite core, Leverett J-function, capillary end effect, core ordering, steady-state relative permeability, JBN method
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-02)
+
+Theoretical study showing composite cores should be ordered by decreasing permeability along flow, lowest-permeability core at the outlet, to give the best residual oil saturation estimate under capillary end effects.
+
+The paper examines how the ordering of individual cores in a composite core affects relative permeabilities from waterfloods when capillary end effects are present. Individual cores are assumed to share porosity and relative permeability, with capillary pressures scaled by a Leverett-J relation, using North Sea sandstone data (400, 600, 800, 1000 mD). Steady-state saturation profiles with capillary continuity are computed, and unsteady-state floods are simulated and interpreted with JBN. Ordering by decreasing permeability (lowest at the outlet) gives the best residual oil saturation estimate: 11.9% error versus 15.3% for increasing order, with Huppler's ordering in between. This is proved mathematically, independent of core lengths and mobility ratio. Huppler's criterion holds only for USS with zero capillarity, and steady state gives better relative permeabilities than USS.
+
+## Two-Phase Flow in Heterogeneous Nodular Porous Media
+
+- ID: SCA1992-23EURO, year: 1992
+- Authors: Henri Bertin, Waddah Alhanai, Azita Ahmadi, Michel Quintard
+- Method: laboratory experiment
+- Keywords: nodular heterogeneity, gamma-ray attenuation, drainage and imbibition, quasi-static capillary equilibrium, oil-wet nodules, large-scale averaging
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-23EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-23EURO)
+
+Drainage and waterflood experiments with gamma-ray saturation mapping in three nodular sand/sandstone media show quasi-static behaviour only when low-permeability nodules sit in sand; sand nodules recover slowly, oil-wet nodules not at all.
+
+Two-phase flow in heterogeneous nodular porous media matters for reservoir prediction and upscaling. Three 2D-reduced models were built from sandstone (15 mD) and fine sand (7.4 D): sandstone nodules in sand (Type I), sand nodules in sandstone (Type II), and silanized oil-wet sand nodules in water-wet sandstone (Type III). Local properties were measured on isolated samples, and 2D saturation fields during oil drainage and waterflood were recorded by gamma-ray attenuation. Type I drainage saturations matched quasi-static capillary-equilibrium predictions, whereas Type II nodule saturations fell below isolated-sample irreducible values, requiring extrapolation of the capillary pressure curves. In Type II waterflood, the sandstone was fully swept after about 0.3 PV while sand nodules recovered oil slowly for over 30 PV, a non-quasi-static response linked to capillary pressure gradients at the interfaces and qualitatively reproduced by simulation. In Type III, water did not enter the oil-wet nodules and their oil could not be displaced.
+
+## Upscaling Method of Relative Permeability from Plug Core to Whole Core
+
+- ID: SCA2004-16, year: 2004
+- Authors: S. Takahashi, N. Tokuda, T. Nakashima
+- Method: numerical simulation
+- Keywords: relative permeability upscaling, genetic algorithm history matching, unsteady-state coreflood, X-ray CT saturation, heterogeneous carbonate, stochastic modeling
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-16)
+
+Water displacement tests on a heterogeneous carbonate whole core and its plugs, matched with a genetic-algorithm simulator, show reservoir-style upscaling can predict whole-core kro/krw from plug data.
+
+The paper addresses how to estimate whole-core relative permeability from smaller plug data. A water displacement test under X-ray CT was run on a heterogeneous Cretaceous carbonate whole core (3.5 in diameter, 32.2% porosity, 30.7 mD), followed by tests on six 1-inch plugs. Three plug tests were history-matched with 3D coreflood models using the genetic-algorithm program GEMAP to derive kro/krw and Pc curves for three pore-types. Plug kro/krw were upscaled with CAVLUP, and capillary-limit upscaling reproduced steady-state simulation at the experimental rate (0.05 cc/min), while viscous-limit matched a hypothetical 5 cc/min case. In 100 stochastic models the upscaled curves nearly converged, depending on pore-type fractions rather than permeability distribution, and the average matched the deterministic optimized model. A six-step workflow is proposed.
+
+## Simultaneous Determination of the Two-Phase Flow and Hydrodynamic Dispersion Coefficients of Soils from Transient Immiscible and Miscible Displacement Experiments
+
+- ID: SCA2005-58, year: 2005
+- Authors: Christos Aggelopoulos, Christos D. Tsakiroglou
+- Method: measurement technique or apparatus
+- Keywords: transient displacement inverse modeling, electrical resistivity index, capillary pressure, relative permeability, hydrodynamic dispersion, sand column
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-58.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-58)
+
+Multi-point electrical resistance during transient oil-water and salt-tracer displacements in sand columns is inverted to estimate Pc, relative permeabilities and longitudinal dispersion; dispersion came out overestimated.
+
+The paper presents a method to obtain capillary pressure, relative permeability and longitudinal dispersion of disturbed soils from transient displacement experiments with multi-point electrical resistance monitoring. Sieved sand (125-250 µm, porosity 0.4, permeability 35.8 D) was packed in PTFE columns with ring and rod electrodes. In n-dodecane drainage at Ca of 6.2e-8 and 3.1e-7, resistivity index fitted with a two-exponent relation gave segment-wise water saturation, and pressure drop plus saturation histories were history-matched by inverse modeling. The Pc curve was narrow, consistent with the narrow pore size distribution, and krw was non-linear while kro was quasi-linear. Miscible NaCl displacements at Pe 0.5-25 were fitted with the 1-D advection-dispersion solution; pore velocities were consistent across three positions but DL was overestimated, possibly due to non-uniform concentration at the inlet, suggesting a 1-D advection/2-D dispersion model.
+
+## Combining core floods and numerical simulation to measure flow properties in heterogeneous rocks
+
+- ID: SCA2017-022, year: 2017
+- Authors: Samuel Krevor, Simeon Agada, Sam Jackson, Catriona Reynolds, Ben Niu, United Kingdom
+- Method: numerical simulation
+- Keywords: equivalent relative permeability, capillary pressure heterogeneity, X-ray CT saturation maps, steady-state coreflood, digital core model, CO2 storage
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-022)
+
+Steady-state corefloods with 3D X-ray saturation maps parameterise capillary-heterogeneity models, whose simulations show equivalent relative permeability at low flow rates is about 5 times below the viscous-limit values.
+
+Conventional relative permeability measurements require homogeneous cores and high flow rates, which are not representative of reservoir flow in heterogeneous rock. The authors propose a workflow in which steady-state corefloods with 3D X-ray CT saturation imaging are used to build a digital core model with spatially varying capillary pressure scaling, based on mercury porosimetry curves. Cores were Bentheimer (N2-water drainage), Bunter sandstone (CO2-brine drainage) and Berea (N2-water imbibition), with layering from about 5 mm to multi-cm. ECLIPSE 100 simulations on a 16×16×40 grid, with the variance of the scaling factors increased by 1.2 for Bentheimer, matched observed saturation maps better than the initial guess, though inlet gravity effects and end effects were not captured. Simulated equivalent relative permeability at low rates (7 ml/min for Bentheimer, 0.2 ml/min for Bunter) was about a factor of 5 lower than the viscous-limit curves. Berea simulations were not completed.
+
+## Determination of Relative Permeabilities on Heterogeneous Samples
+
+- ID: SCA2024_1077, year: 2024
+- Authors: Fabrice Pairoys, Guillaume Lenormand, Roland Lenormand
+- Method: numerical simulation
+- Keywords: relative permeability, Egermann method, Leverett J-function, saturation profiles, history matching, steady state
+- Cited by 1 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1077.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1077)
+
+Heterogeneous simulation methods (Leverett J-function, Egermann local Pc) are tested on carbonate waterfloods; only Egermann reproduces saturation fluctuations, while Kr stays close to the homogeneous result.
+
+Saturation profiles in relative permeability coreflood experiments show fluctuations even on carefully selected samples, which homogeneous simulations cannot reproduce. Two datasets on tight carbonate composite stacks (semi-dynamic and steady-state imbibition at 100°C, 3000 psi pore pressure) with 1D X-ray saturation and porosity profiles were re-interpreted by history matching with CYDAR. Permeability profiles from Kozeny-Carman and Timur, with local Pc from the Leverett J-function, failed to reproduce the amplitude of the saturation fluctuations. The Egermann method, deriving local Pc curves from the saturation profiles, with an extra iteration, gave a good saturation profile match for the steady-state test but not for the semi-dynamic one, which lacks information on the positive Pc branch. The resulting steady-state Kr curves were nearly identical to the homogeneous ones (Sor 0.30 vs 0.35), but the heterogeneous interpretation improves quality control and gives a Pc envelope for uncertainty.
+
+## Improvement of Fluid Distribution Description During Floods by Combined Use of X-Ray CT Scan and Continuous Local Resistivity Measurements
+
+- ID: SCA2003-29, year: 2003
+- Authors: Claudine Durand
+- Method: laboratory experiment
+- Keywords: X-ray CT scan, local resistivity, resistivity index, Archie saturation exponent, steady-state drainage-imbibition, Fontainebleau sandstone
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-29)
+
+Combining CT scanning with continuous local resistivity along Fontainebleau sandstone plugs during steady-state floods identifies end-affected zones; discarding them gives saturation exponents n close to 2.
+
+Resistivity measurements on cores are often corrupted by non-uniform saturation, so the actual fluid distribution needs to be checked. Steady-state oil-brine drainage and imbibition were run on three Fontainebleau sandstones (porosity 12.8-24.8%, permeability 280-2200 mD) in a cell inside a medical CT scanner. Six potential electrodes gave local resistances on 1.25 cm slices, and CT scans at plateaux gave local saturation. Local formation factors gave Archie m of 1.5-1.8, and end slices showed higher values. Oil accumulation at the inlet and capillary end effects at the outlet distorted RI-Sw data. Discarding the end slices lowered n by up to 0.4 in permeable samples, giving values close to 2. A bump to higher flow rate produced non-homogeneous fluid distributions unsuitable for RI calculation.
+
+## A Nondestructive Method for Characterization of One Dimensional Permeability Distribution at the Core Scale
+
+- ID: SCA2007_06, year: 2007
+- Authors: A. Soltani, M. Le Ravalec-Dupin, M. Fourar, P. Egermann
+- Method: measurement technique or apparatus
+- Keywords: permeability profile, miscible displacement, pressure drop, core heterogeneity, CT scanning, viscous displacement
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_06)
+
+A 1D core-scale permeability profile is derived from pressure drop during piston-like viscous miscible displacement, validated by simulations and CT-monitored core experiments.
+
+Core analysis usually assumes homogeneous samples, so the authors propose estimating the permeability profile along the flow axis from the pressure drop history while a high-viscosity miscible fluid (viscosity ratio about 60) displaces a low-viscosity fluid in a piston-like way. The core is treated as a stack of thin cross-sections, and the local permeability follows from the time derivative of the pressure drop. Streamline simulations of four-plug composite models reproduced the plug permeabilities almost perfectly for immiscible displacement, and with smoothing for miscible displacement. Laboratory tests used two composites of butted plugs (60 cp glycerin-brine at 15 cc/hr) and three heterogeneous cores, with CT imaging of the front. Agreement with plug and minipermeameter measurements was good, though noisier for high permeability samples and poor at the core ends. Bidirectional injection improved results, and the method is limited to one-dimensional heterogeneity.
+
+## Pore-Scale Modeling of Three-Phase Flow: Comparative Study with Experimental Reservoir Data
+
+- ID: SCA2009-30, year: 2009
+- Authors: C. Nardi, O. Lopez, P.E. Øren, R. Held, E. B. Petersen
+- Method: numerical simulation
+- Keywords: three-phase relative permeability, pore network model, spreading coefficient, wettability contact angle, Statfjord, steady-state measurements
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-30)
+
+A three-phase pore network model on a reconstructed Statfjord rock, anchored to two-phase data, predicts CDI and CID relative permeabilities fairly well but fails on DDI saturation paths.
+
+The paper presents a three-phase capillary-dominated network model on pore networks from digitized rock images. It includes wettability alteration, hysteresis, spreading layers and true three-phase entry pressures. The model was verified against Oak's Berea data, then anchored to two-phase waterflood data for a reconstructed non-water-wet Statfjord sample (Amott index 0.2). Predicted CDI relative permeabilities agree fairly well with steady-state measurements (Sorg 0.187 vs 0.186), though gas kr is underestimated at intermediate saturations. For CID, the computed Sgro of 0.27 greatly exceeds the measured 0.115, likely due to viscous remobilization of trapped gas at a capillary number near 1e-4 and buoyancy effects. DDI saturation paths were not reproduced, since experiments injected multiple fluids simultaneously, and a path-tracking algorithm is needed.
+
+## Effects of Core Sample Dimensions and Orientation on Two-Phase Flow Properties Determination
+
+- ID: SCA1994-12, year: 1994
+- Authors: Renaud Gauchet
+- Method: laboratory experiment
+- Keywords: relative permeability, unsteady-state waterflood, core size effect, end effects, laminated reservoir, history matching
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-12)
+
+Waterfloods on a full-size North Sea core and vertical and horizontal plugs from it show that plugs, especially horizontal ones in laminated rock, give unrepresentative relative permeabilities.
+
+The study asks how sample size and orientation affect relative permeability from unsteady-state waterfloods in a laminated North Sea reservoir. A full-size core (10 cm diameter, 20.4 cm long) was flooded, then one horizontal and one vertical big plug (5 cm x 8.5 cm) were drilled from it and flooded under the same frontal velocity with gamma-ray saturation monitoring. Each experiment was history matched independently with a 1D simulator. Remaining oil saturation varied from 36.6% to 20.8% in the full size versus 23.3% to 21.4% in the vertical plug, and end effects covered about 30% of plug length. The horizontal plug showed early breakthrough (0.02 PV) from layers at about 30° to the axis not detected by CT, so 1D matching was invalid. Simulating the full-size flood with horizontal-plug curves gave 46.5% recovery versus 51.9% with the correct curves. Full-size samples with heterogeneities perpendicular to flow are recommended.
+
+## Numerical simulations and 2D-imaging experiments of flow in tilted crossbeds
+
+- ID: SCA1996-29, year: 1996
+- Authors: Knut Arne Bsrresen, Arne Graue
+- Method: laboratory experiment
+- Keywords: crossbedding, 2D saturation imaging, spontaneous imbibition, numerical diffusion, waterflood, oil trapping
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-29)
+
+Nuclear tracer imaging of waterfloods in a sandpack with a tilted low-permeability crossbed shows capillary-dominated imbibition and only temporary oil trapping; ECLIPSE simulations matched only qualitatively.
+
+The study examines how a tilted, low-permeability crossbed affects multiphase flow in a 30 x 10 x 3 cm sandpack, with coarse sand (125-250 µm) at the ends and fine sand (60-125 µm) in the center at 30° dip. Waterfloods and oilfloods at low rate (3 ml/h) were imaged in 2D using a 22Na-labeled brine and a germanium detector, and flow was reversed to test 30° versus 150° dip. The low-permeability crossbed imbibed brine early through spontaneous imbibition, temporarily trapping oil in the inlet and outlet sands, but final residual oil saturations were uniform, so no permanent trapping occurred. Oilfloods left higher residual brine in the crossbed, even at high capillary number. ECLIPSE simulations reproduced general trends and breakthrough but underestimated heterogeneity effects owing to numerical diffusion, while grid and relative permeability sensitivity were minor.
+
+## The Effects of Wettability on Three-Phase Flow in Porous Media: Basic Theory and Network Modelling Results
+
+- ID: SCA2001-36, year: 2001
+- Authors: M.I.J. van Dijke, K.S. Sorbie
+- Method: numerical simulation
+- Keywords: three-phase flow, pore network modelling, WAG injection, mixed wettability, multiple displacements, wetting films
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-36)
+
+A 3D three-phase pore network model with mixed wettability, multiple displacements and variable outlet pressures simulates WAG; wetting films and multiple displacements strongly affect residual oil.
+
+Existing three-phase network models mostly treat strongly water-wet or oil-wet media, so the authors develop a capillary-dominated 3D network simulator with pore-to-pore wettability variation. It includes double and multiple displacements of disconnected clusters, found by a shortest-path search, and outlet pressure conditions that update when clusters reconnect. A WAG cycle was simulated in a 15x10x10 mixed-wet network (z=4, radii 5-25 µm, water-wet below 15 µm). Without wetting films the final oil saturation was 0.299, while with wetting films residual oil was virtually zero. Limiting chains to double displacements raised final So to 0.318, and constant outlet conditions changed the second water flood end point (So 0.330 vs 0.324) but gave a similar final So of 0.305.
+
+## THE POTENTIAL EFFECT OF SOLUTION SEAMS ON RESERVOIR PERFORMANCE IN A SANDSTONE RESERVOIR A case study from an Ashgillan (Late Ordovician) reservoir in North Africa
+
+- ID: SCA2001-56, year: 2001
+- Authors: Khalifa Mohammed, Patrick Corbett, Dave Bowen, Andy Gardiner, Jim Buckman
+- Method: field or reservoir case study
+- Keywords: solution seams, stylolites, probe permeametry, hydraulic flow units, vertical transmissibility, waterflood simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-56.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-56)
+
+Low-amplitude solution seams in a North African Ordovician sandstone have permeability of 1-6 mD and cut vertical permeability tenfold; simulations show seams parallel to bedding delay water breakthrough, crossing seams hurt recovery.
+
+Low-amplitude stylolitic solution seams (1-2 per foot) occur in an Ashgillan sandstone reservoir in North Africa and may act as vertical flow barriers. Seams were characterised by ESEM, thin section, probe permeametry and core plug data (harmonic and arithmetic averaging methods), plus hydraulic unit classification, where rare HU7 plugs represent the seams. Seam permeability is 1-6 mD compared with 100-1000 mD in the matrix, with probe and plug estimates agreeing (e.g. 5 vs 5.2 mD, 2.17 vs 1.2 mD). Upscaling showed effective kh was little affected while kv dropped by an order of magnitude. In 2D simulations, seams parallel to bedding reduced gravity slumping, gave more piston-like sweep and later water breakthrough, whereas seams crossing the bedding gave earlier breakthrough, trapped oil and lower recovery.
+
+## Visualization of Three Phases in Porous Media Using Micro Computed Tomography
+
+- ID: SCA2003-21, year: 2003
+- Authors: Freddy E. Alvarado, Abraham S. Grader, Ozgen Karacan, Phillip M. Halleck.
+- Method: digital rock or imaging
+- Keywords: micro computed tomography, three-phase flow, intermediate phase, spreading coefficient, pore-scale saturation, image partitioning
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-21)
+
+Micro-CT at 9 micron resolution maps water, benzyl alcohol and decane in sand, confirming benzyl alcohol as the intermediate phase predicted by the spreading coefficient.
+
+The paper addresses the lack of three-dimensional pore-scale data on three-phase fluid distribution. A glass tube (7 mm ID) of loose quartz sand (about 1 mm grains) was scanned with a micro-focus x-ray CT at 145 kV, with 9x9x21 micron voxels. Water was doped with NaI and decane with iodo-dodecane, while benzyl alcohol was left untagged, so that all phases could be separated at a single energy. Dry-scan partitioning gave an average porosity of 0.48, and images were processed in stages to give two-phase and three-phase saturation maps at static conditions. Water occupied small pores and grain contacts, decane formed ganglia in large pores, and benzyl alcohol was the intermediate phase, as predicted by the spreading coefficient. No relationship between residual water saturation and porosity was found, because the grains were large relative to the sample and no representative elementary volume could be selected.
+
+## Bridging Pore to Core-Scale Flow Properties Using Pore-Scale Modeling and Coreflood Simulation Hiroshi Okabe 1,2
+
+- ID: SCA2005-33, year: 2005
+- Authors: Hiroshi Okabe
+- Method: numerical simulation
+- Keywords: genetic algorithm history matching, pore-network modeling, carbonate pore-types, mercury injection capillary pressure, X-ray CT saturation monitoring, relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-33)
+
+Genetic-algorithm history matching of CT-monitored waterfloods on heterogeneous carbonate cores gives pore-type relative permeability and capillary pressure, which pore-network modeling on MICP-conditioned networks reproduces reasonably.
+
+Flow properties of heterogeneous carbonate cores are hard to derive uniquely at core scale, and the numerical results lack physical explanation. A Middle East Cretaceous carbonate whole core (porosity 0.322, air permeability 30.7 mD) was waterflooded with X-ray CT saturation monitoring, and 1-inch plugs were then flooded. Three key pore-types (A, B, C) were identified petrographically, and the automated GEMAP program used a genetic algorithm to history-match 3D coreflood models with Corey-type curves for each pore-type. Pore-scale network models were built by modifying a Berea reference network to match mercury injection capillary pressure of single-pore-type 10 mm plugs. With wettability tuned to weaker oil-wetness than measured (contact angles 65-120°), predicted relative permeability and capillary pressure fell within the coreflood-derived ranges. Deviations remained at high water saturation for capillary pressure and at low water saturation for water relative permeability.
+
+## Application of Oil-Water KR/PC Upscaling Methodology Based on Pore-Type Ratios
+
+- ID: SCA2007_28, year: 2007
+- Authors: Kazuhito Oseto, Osamu Himeno, Makoto Watanabe, Toshinori Nakashima
+- Method: numerical simulation
+- Keywords: upscaling, pore-type ratio, capillary limit method, relative permeability, carbonate reservoir, coreflood history matching
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_28)
+
+Kr/Pc curves from three carbonate pore types are upscaled with CAVLUP using core-slab pore-type ratios, reproducing field water cut without history-matching adjustments.
+
+Matching production history in heterogeneous, oil-wet Middle East carbonates is difficult because plug-scale Kr/Pc data do not represent simulation grid blocks. The authors classified the rock into three pore types (coarse packstone/grainstone, fine packstone/wackestone, algal fragment) and derived Kr/Pc curves for each by history-matching water displacement tests on plugs with X-ray CT saturation data. Pore-type area ratios were measured from core slabs over the whole reservoir interval, averaged by thickness weighting into coarse layers, and used to upscale the curves with the CAVLUP capillary-limit code. Core-scale tests showed upscaled kro/krw curves of hundreds of random sister models converged to one curve, so only the pore-type ratios matter. Inserted in a sector model (215×215×73 fine to 54×54×36 coarse cells), the upscaled curves matched water cut and pulsed-neutron Sw profiles better than the existing model, without other parameter changes.
+
+## From a Multi-Region Model to a Multi-Flow Path Model: Interpretation of Flow Tests on Heterogeneous Cores
+
+- ID: SCA2007_43, year: 2007
+- Authors: Christos A.Aggelopoulos, Christos D. Tsakiroglou
+- Method: numerical simulation
+- Keywords: multi-region model, multi-flow path model, miscible displacement, dispersivity, undisturbed soil columns, inverse modeling
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_43)
+
+Miscible and immiscible displacement tests on two undisturbed soil columns are inverted with multi-region and multi-flow path models to quantify micro- and macro-heterogeneity and estimate capillary pressure and relative permeability.
+
+The paper aims to quantify soil heterogeneity at several scales from flow tests on long undisturbed soil columns (32.7 cm long, 4.75 cm diameter; S3: 50 mD, S4: 142 mD, porosity 0.25). Solute breakthrough curves at three cross-sections were inverted with a two-parameter multi-region model to obtain longitudinal dispersivity and the standard deviation of micro-scale permeability. Dispersivity ranged roughly 1.2-9.7 cm, and the micro-scale standard deviation ranged about 0.9-2.4. Rate-controlled oil/water displacement (pressure drop and saturation in five segments) was inverted with a multi-flow path model, which gave much weaker macro-heterogeneity (standard deviation 0.16 for S3 and 0.07 for S4), tortuosity of 0.88 and 1.0, and irreducible water saturation of about 0.56-0.57. Capillary pressure and relative permeability curves were derived. Small oil saturations in the lower segments caused some mismatch between experiment and model.
+
+## A Multi-Scale Dynamic Network Simulator Used as a Means to Quantify Heterogeneities of Permeability and Wettability in Porous Media
+
+- ID: SCA2008-14, year: 2008
+- Authors: Christos D. Tsakiroglou, Christos Aggelopoulos, Varvara Sygouni
+- Method: numerical simulation
+- Keywords: dynamic network simulator, up-scaled relative permeability, permeability heterogeneity, wettability heterogeneity, Leverett J-function, wavelet analysis of pressure drop
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-14)
+
+A two-scale dynamic network simulator of rate-controlled immiscible displacement shows how permeability and wettability heterogeneity and capillary number affect pressure drop, saturation profiles and up-scaled relative permeability.
+
+The paper develops a hierarchical dynamic network simulator in which each node of a cubic network has a random permeability from a log-normal distribution and optionally a random contact angle. Node capillary pressure follows a generalized Leverett J-function combined with a Corey-type model, with inputs from pore-network drainage simulations or inverse modeling of soil column tests. A 10x5x5 node network (50 mD mean, 1 cm nodes) was used to test sensitivity of axial saturation profiles and pressure drop to permeability variance, capillary number (1e-7 to 5e-7) and contact angle distribution. Wider permeability distributions strongly changed saturation and pressure responses and shifted up-scaled relative permeability curves to higher water saturation, raising residual water. Higher Ca stabilized the front and raised pressure drop, while the oil relative permeability was more sensitive to Ca than water. Contact angle width at constant mean had little effect on the responses, and wavelet energy of the pressure drop showed no clear trend with it.
+
+## Characterizing Meso-Scale Heterogeneities in Reservoir Rocks
+
+- ID: SCA2013-051, year: 2013
+- Authors: Ronny Pini, Sally M. Benson
+- Method: laboratory experiment
+- Keywords: capillary pressure scaling, X-ray CT saturation imaging, Leverett J-function, Berea Sandstone, scCO2/brine drainage, sub-core heterogeneity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-051.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-051)
+
+Drainage capillary pressure curves measured with X-ray CT in a Berea core show mm-scale heterogeneity, captured by a single Leverett-type scaling factor that converts to a permeability map.
+
+The paper characterizes sub-core capillary heterogeneity in a Berea Sandstone core (8.5 cm long, 5 cm diameter, 325 mD, 18.8% porosity) using a steady-state core-flood technique combined with X-ray CT. Drainage Pc(S) curves were measured for N2/water and scCO2/brine, at voxel scale (~4 mm³) and for the whole inlet slice. The slice-average curve agreed well with mercury intrusion data converted with a contact angle of about 39°, indicating strongly water-wet conditions. Voxel curves from 413 locations kept a similar shape but were shifted, and scaling with one factor per voxel cut the sum of squares to about 25% of the unscaled value. Scaling factors deviated from unity by ±15%, and via the J-Leverett function these gave permeability maps with ±30% deviations. The maps from the two independent fluid systems were very similar, supporting robustness of the method.
+
+## Numerical Simulation of Capillary-Controlled Three-Phase Displacements on 3D Rock Images
+
+- ID: SCA2014-030, year: 2014
+- Authors: Johan Olav Helland, Espen Jettestuen
+- Method: numerical simulation
+- Keywords: variational level set, three-phase capillary pressure, SWAG invasion, water snap-off, digital rock physics, Castlegate sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-030)
+
+A variational level set method with a solid phase and contact angles simulates three-phase capillary-controlled displacement on 3D rock images; three-phase curves resemble two-phase but show cusp-driven snap-off differences.
+
+Three-phase capillary pressure is hard to measure, so the authors extend the multiphase variational level set method to include a static solid phase and arbitrary uniform contact angles. They validate it against analytical Mayer–Stowe–Princen solutions in a star-shaped tube (relative error under 5.9%) and sphere-pack throats (errors about 3–11%). Oil-layer displacement in corners needs higher resolution to be captured accurately. They then simulate gas invasion and simultaneous water-and-gas (SWAG) invasion on a 60x60x70 voxel Castlegate sandstone subset (5.6 µm voxels) from two initial water saturations (0.06 and 0.13). Three-phase gas/oil and oil/water curves are similar to the two-phase ones in water-wet conditions, with deviations from water layers, water-blocked narrow throats, and frequent water snap-off from cusp growth at gas/oil/solid contact lines. Such snap-off occurs at higher oil/water capillary pressure than two-phase snap-off.
+
+## Evaluation of Core Heterogeneity Effect on Pulse-decay Experiment
+
+- ID: SCA2017-033, year: 2017
+- Authors: Bao Jia, Jyun-Syung Tsau, Reza Barati
+- Method: numerical simulation
+- Keywords: pulse-decay permeability, preferential flow path, tight carbonate heterogeneity, microcrack, Klinkenberg slip factor, dual permeability simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-033)
+
+Simulations and forward/reverse helium pulse-decay tests on a tight carbonate show a preferential flow path even without microcracks; ignoring early pressure response underestimates porosity and permeability.
+
+Microcracks and heterogeneity complicate interpretation of pulse-decay measurements on tight cores. A 3D dual-permeability model (IMEX, 16x8x8 grid, 0.1 mD matrix, 2% porosity) was used to test fracture permeability, fracture location and geostatistical correlation length. A high-permeability fracture (2,000 mD) produces a pressure 'hump' from flow-back, and longer correlation lengths speed equilibration. Helium pulse-decay tests on a tight carbonate (NMR porosity 0.037, pores 0.6-6 nm) were run forward and reverse at 100-300 psi with 2,000 psi effective stress. Total porosity was about 0.035, while secondary accessible porosity was about 0.012 (forward) and 0.025 (reverse). Matched apparent permeability fell from about 600 to 400 nD over 100-300 psi, and ignoring the first-second response underestimates porosity and permeability.
+
+## Characterization of Hysteretic Multiphase Flow from the MM to M Scale in Heterogeneous Rocks
+
+- ID: SCA2018-008, year: 2018
+- Authors: Samuel J. Jackson, Samuel Krevor
+- Method: numerical simulation
+- Keywords: capillary pressure heterogeneity, imbibition relative permeability, Land trapping model, CO2 residual trapping, CT scanning core flood, Bunter sandstone
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-008)
+
+Extends CT-based characterization of a heterogeneous Bunter sandstone to imbibition and trapping, showing imbibition capillary pressure at residual saturation controls local heterogeneity trapping and equivalent relative permeability.
+
+The paper extends earlier drainage-based characterization of capillary pressure heterogeneity to imbibition and trapping in a Bunter sandstone core (2.2 D, porosity 0.24, 15 cm long) using CO2-brine steady-state floods with medical CT at reservoir conditions. A 3D CMG IMEX model with voxel-scale Pc scaling factors was built from two drainage floods, with imbibition kr and Pc predicted from the Land trapping model (c = 1.3) and Brooks-Corey curves, and Killough scanning curves. Imbibition saturations were predicted with voxel R2 above 0.5 for all three hysteresis models, and equivalent imbibition relative permeabilities emerged at low capillary number. Ignoring Pc hysteresis gave about 40% RMS error in pressure drop versus about 21% with Pc hysteresis. Trapping simulations showed that if imbibition Pc falls to zero at residual saturation, local heterogeneity trapping disappears, whereas a finite residual Pc preserves it.
+
+## Topological Persistence of Heterogeneous Sandstone
+
+- ID: SCA2018-059, year: 2018
+- Authors: Anna L Herring, Vanessa Robins, Mohammad Saadatfar, Mark Knackstedt, Adrian Sheppard
+- Method: digital rock or imaging
+- Keywords: persistent homology, Euler characteristic, capillary trapping, micro-CT, heterogeneous sandstone, drainage-imbibition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-059.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-059)
+
+Persistent homology of micro-CT images of a layered, fractured sandstone correlates with octane occupancy after drainage and trapping efficiency after imbibition across core subvolumes.
+
+Topological analysis has worked mainly for homogeneous rocks because it ignores feature size; persistent homology adds size and persistence information. A 12 mm by 38 mm Otway basin sandstone (DC10t) with a dense cement layer and a fracture underwent steady-state octane drainage and brine imbibition in a flow cell, with helical X-ray CT scans of dry, post-drainage and residual states. Images were segmented, split into six subvolumes plus the whole volume, and analysed with Diamorse to get PHβ1, PHβ0 and the aspect ratio PHβ1/β0. PHβ1 of the dry pore space correlated with initial octane volume after drainage. PHβ1/β0 of the initial octane phase showed a negative semi-log relationship with trapping efficiency, with a different slope than earlier homogeneous sandstones (Bentheimer, Berea, Leopard), attributed to fluid and flow-rate differences.
+
+## Composite Core – An Experimental Approach in Evaluating Ordering Criteria for Individual Cores in Composite
+
+- ID: SCA2019-047, year: 2019
+- Authors: Edison Sripal, Lesley James
+- Method: laboratory experiment
+- Keywords: composite core, plug ordering, relative permeability, harmonic averaging, coreflooding, sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-047.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-047)
+
+Tests Huppler and Langaas ordering criteria for composite sandstone cores experimentally, and develops a new theoretical model validated against relative permeability results and a data-driven approach.
+
+Composite cores built from plugs of different permeability are used in relative permeability and coreflooding tests, but the ordering of plugs affects the results. The authors experimentally test the Huppler (harmonic averaging) and Langaas (high-to-low permeability from injection to production) ordering methods. Sandstone plugs with permeability from 50 mD to 2 Darcy were arranged in three orientations and measured for permeability and relative permeability at a water-to-oil ratio of 1:6. Results were compared with the Langaas and Huppler models. A new theoretical model was developed, validated against the relative permeability experiments, and compared with a data-driven approach.
+
+## Advanced core characterisation to improve multiphase flow prediction in heterogeneous sandstone and carbonate rocks
+
+- ID: SCA2021-005, year: 2021
+- Authors: Nele Wenck, Samuel Jackson, Ann Muggeridge, Samuel Krevor
+- Method: numerical simulation
+- Keywords: capillary heterogeneity, rate-dependent relative permeability, CT saturation mapping, Brooks-Corey capillary pressure, digital core model, capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-005)
+
+Core-flood CT saturation data are inverted into 3D capillary-heterogeneity models of two sandstones and a dolomite, then used to predict rate-dependent relative permeability.
+
+Small-scale capillary heterogeneity is rarely represented in field-scale simulation, affecting predictions such as CO2 plume migration. The authors applied an iterative optimisation workflow to drainage core floods on Bentheimer, Bunter sandstone and Edwards Brown dolomite, using CT voxel saturations, pressure drops and MIP-derived Brooks-Corey curves at two flow rates. The calibrated 3D models matched experimental saturations and pressure drops, with core-average saturation errors mostly under about 12%, and revealed entry pressure distributions up to ~26 kPa in the Edwards Brown. Simulations across flow rates showed parallel layering in Bentheimer raised gas relative permeability through capillary cross-flow. Perpendicular layering in Bunter reduced both phase permeabilities at low rate, while the isotropic heterogeneity of Edwards Brown gave non-monotonic rate dependence through connected low-entry-pressure gas pathways.
+
+## In-situ characterization of capillary pressure during three-phase flow in porous media
+
+- ID: SCA2021-010, year: 2021
+- Authors: Ahmed Zankoor, Mahdi Khishvand, Bradley McCaskill, Mohammad Piri
+- Method: digital rock or imaging
+- Keywords: three-phase flow, micro-CT imaging, interfacial curvature, in-situ capillary pressure, gas trapping, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-010)
+
+Micro-CT analysis of secondary gas injection in water-wet Berea shows size-ordered pore occupancy, about 40% disconnected gas, and higher oil-water than gas-oil local capillary pressures.
+
+The study analyzes micro-CT images (1.5 µm resolution) from a three-phase brine/decalin/nitrogen core flood in a miniature water-wet Berea sample (porosity 0.186, 584 mD) at 5.52 MPa. Pore-by-pore occupancy was computed using watershed-separated pores, and oil and gas clusters were analyzed for size, Euler number and area-volume scaling. Gas, oil and water mostly occupied large, intermediate and small pores respectively, with final saturations of 0.40 gas, 0.26 oil and 0.32 water. Disconnected gas ganglia made up about 40% of gas saturation, versus 5% for oil, and the gas area-volume exponent was 0.79. Interfacial curvature analysis gave average local capillary pressures of 3510 Pa for oil-water and 2405 Pa for gas-oil, explained by displacement in narrower pores and higher IFT for oil-water.
+
+## Stochastic Interpretation of CO2-Brine Primary Displacement in Heterogeneous Carbonate Rocks
+
+- ID: SCA2023-004, year: 2023
+- Authors: Boris Jammernegg, Siroos Azizmohammadi, Holger Ott
+- Method: numerical simulation
+- Keywords: capillary heterogeneity, unsteady-state coreflood, CO2-brine relative permeability, Estaillades limestone, MCMC history matching, CT saturation imaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-004.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-004)
+
+Unsteady-state decane-brine and CO2-brine floods on Estaillades limestone are history matched in 1D homogeneous, 1D heterogeneous and 3D domains, showing SCAL relative permeability applies only when heterogeneity is explicitly modeled.
+
+SCAL relative permeability and capillary pressure from small homogeneous plugs may not represent larger heterogeneous carbonate volumes relevant to CO2 storage. Unsteady-state decane-brine and CO2-brine drainage floods on 15 cm by 7.5 cm Estaillades limestone (φ=0.297, K=260 mD; 100 bar, 50°C) with CT saturation monitoring were interpreted using MRST history matching with Corey and LET parametrizations and MCMC (DRAM) uncertainty analysis. Forward simulation with SCAL functions strongly underestimated pressure drop and brine production. 1D homogeneous history matching reproduced pressure drop and production but gave an upscaled k_r lying well outside the SCAL confidence intervals and failed on saturation profiles. Including CT porosity, permeability and capillary-pressure scaling brought k_r close to the SCAL uncertainty range, except for a much lower CO2 k_r, possibly due to wettability differences. A 3D forward simulation with 4 mm cells matched CT saturations with correlation coefficients above 0.99 (decane) and 0.98 (CO2), though deviations remained near breakthrough.
+
+## Impact of Dual Matrix Porosity in Sandstone on Fluid Distribution and Flow Properties
+
+- ID: SCA2023-019, year: 2023
+- Authors: Yingxue Wang, Serge V. Galley
+- Method: numerical simulation
+- Keywords: dual matrix porosity, NMR T2 deconvolution, Brooks-Corey capillary pressure, imbibition capillary pressure, assisted history matching, wettability contact angle
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-019)
+
+A dual matrix porosity workflow using NMR, MICP and simulation characterizes macro and meso pore systems in laminated sandstone, showing the meso-porosity affects saturation but contributes little flow.
+
+Laminated aeolian sandstone in a Gulf of Mexico reservoir has bimodal grain size and chlorite coating, so single-porosity saturation functions misrepresent initial fluid distribution and flow. The authors split porosity into macro and meso systems using Gaussian deconvolution of NMR T2 (meso fraction ~0 to 40% of total), and fit MICP primary drainage curves with a bulk-volume-modified Brooks-Corey function for each system. Imbibition Pc fitted to centrifuge data gave contact angles of 100-130° for macro-porosity and <100° for meso-porosity, with Land coefficients of 2.8-3.8. A 3D core-scale simulation of sample SS4 (149 mD, 0.217 porosity) with assisted history matching of steady-state flood pressure gave macro permeability near 200 mD and meso permeability of 0.04-0.4 mD. The macro system dominated the flow, and 1D homogeneous interpretation gave relative permeability between the two systems. For reservoir simulation, relative permeability can be simplified by letting the meso-porosity contribute only to saturation, which reproduced the delta pressure on homogenized models.
+
+## Presence of Heterogeneities in Rocks during Laboratory Waterfloods: A Case Study Highlighting Differences in Relative Permeabilities between Homogeneous and Heterogeneous 1D Approaches
+
+- ID: SCA_2025_1011, year: 2025
+- Authors: Fabrice Pairoys, Vitaliy Afanasiev, Roland Lenormand, Guillaume Lenormand, Cyril Caubit
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, Egermann method, sample heterogeneity, x-ray saturation profiles, local capillary pressure, Kozeny-Carman permeability
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1011)
+
+A steady-state waterflood on a heterogeneous carbonate shows that Egermann-based heterogeneous interpretation matches saturation profiles and yields less optimistic Kr than the homogeneous approach.
+
+Earlier work found no Kr difference between homogeneous and heterogeneous (Egermann) interpretations of waterfloods; this paper tests that on a more strongly heterogeneous carbonate. A 12.81 cm core (25% porosity, 2.78 mD) was characterized by CT, tracer test, MICP and x-ray porosity (9–48%), then subjected to a live-fluid steady-state imbibition test at 95°C with 6 rate ratios plus a bump, monitoring 30-point x-ray saturation profiles. Homogeneous interpretation matched production and dP but not the noisy saturation profiles. The Egermann method with 30 local Pc curves and Kozeny-Carman permeability reproduced the saturation profiles and gave different Corey parameters (Nw 3.01 vs 3.40, No 5.65 vs 3.94, KrwMax 0.99 vs 0.66, Sor 0.124 vs 0.195). Buckley-Leverett analysis showed lower recovery for the heterogeneous case (RF at 1 PV 0.51 vs 0.56), indicating the homogeneous approach is overly optimistic.

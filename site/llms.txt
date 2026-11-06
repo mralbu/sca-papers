@@ -1,0 +1,51 @@
+# SCA Papers Explorer
+
+> An explorer for the 2,064 papers of the Society of Core Analysts (SCA) symposium, 1987–2026: core analysis and petrophysics (SCAL, wettability, capillary pressure, relative permeability, NMR, digital rock and more), grouped by topic, with in-corpus citations and AI-written summaries. The PDFs are hosted by jgmaas.com and linked from each entry.
+
+- TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail.
+- Citation counts only cover citations between papers in this corpus.
+- Each paper has a page at `https://mralbu.github.io/sca-papers/#<ID>` (e.g. `#SCA2014-051`) and a PDF link.
+- Topics come from clustering text embeddings; method labels are a fixed list of 8.
+
+## Topics
+
+- [Digital rock and pore network modelling](https://mralbu.github.io/sca-papers/llms/digital-rock-and-pore-network-modelling.txt): 229 papers. Keywords: pore, permeability, digital, network, images, porosity
+- [NMR relaxation and pore size](https://mralbu.github.io/sca-papers/llms/nmr-relaxation-and-pore-size.txt): 214 papers. Keywords: nmr, relaxation, t2, magnetic resonance, pore, fluid
+- [Electrical resistivity and Archie parameters](https://mralbu.github.io/sca-papers/llms/electrical-resistivity-and-archie-parameters.txt): 134 papers. Keywords: resistivity index, electrical, conductivity, water saturation, archie, saturation exponent
+- [Core wettability evaluation and restoration](https://mralbu.github.io/sca-papers/llms/core-wettability-evaluation-and-restoration.txt): 105 papers. Keywords: wettability, oil, cleaning, state, contact, amott
+- [CO2 storage, hydrates and rock-fluid reactions](https://mralbu.github.io/sca-papers/llms/co2-storage-hydrates-and-rock-fluid-reactions.txt): 104 papers. Keywords: co2 storage, brine, gas, hydrate, permeability, dissolution
+- [Coring, core preservation and damage](https://mralbu.github.io/sca-papers/llms/coring-core-preservation-and-damage.txt): 104 papers. Keywords: coring, drilling, mud, damage, invasion, formation
+- [Coreflood interpretation and simulation](https://mralbu.github.io/sca-papers/llms/coreflood-interpretation-and-simulation.txt): 79 papers. Keywords: relative permeability, capillary pressure, saturation, unsteady-state, flow, steady-state
+- [Core-log petrophysical integration](https://mralbu.github.io/sca-papers/llms/core-log-petrophysical-integration.txt): 78 papers. Keywords: petrophysical, log, porosity, logs, parameters, wells
+- [Porous plate and mercury capillary pressure](https://mralbu.github.io/sca-papers/llms/porous-plate-and-mercury-capillary-pressure.txt): 77 papers. Keywords: capillary pressure, saturation, pc, porous plate, mercury, drainage
+- [Centrifuge capillary pressure methods](https://mralbu.github.io/sca-papers/llms/centrifuge-capillary-pressure-methods.txt): 73 papers. Keywords: centrifuge, capillary pressure, pressure curves, saturation, pressure curve, drainage
+- [Stress, compressibility and acoustic velocity](https://mralbu.github.io/sca-papers/llms/stress-compressibility-and-acoustic-velocity.txt): 70 papers. Keywords: stress, pore pressure, velocity, permeability, porosity, compressibility
+- [Nanoparticle, microbial and polymer EOR](https://mralbu.github.io/sca-papers/llms/nanoparticle-microbial-and-polymer-eor.txt): 70 papers. Keywords: nanoparticles, oil recovery, polymer, surfactant, eor, flooding
+- [Fractured rock flow and matrix](https://mralbu.github.io/sca-papers/llms/fractured-rock-flow-and-matrix.txt): 61 papers. Keywords: fracture, fractures, fractured, matrix, flow, permeability
+- [Low salinity waterflooding mechanisms](https://mralbu.github.io/sca-papers/llms/low-salinity-waterflooding-mechanisms.txt): 61 papers. Keywords: salinity water, oil recovery, brine, waterflooding, injection, wettability alteration
+- [Gas permeability and tight rock measurement](https://mralbu.github.io/sca-papers/llms/gas-permeability-and-tight-rock-measurement.txt): 56 papers. Keywords: permeability, klinkenberg, gas, decay, pressure, tight
+- [X-ray CT and microtomography imaging](https://mralbu.github.io/sca-papers/llms/x-ray-ct-and-microtomography-imaging.txt): 54 papers. Keywords: x-ray, imaging, ct, tomography, resolution, image
+- [Gas condensate and trapped gas](https://mralbu.github.io/sca-papers/llms/gas-condensate-and-trapped-gas.txt): 53 papers. Keywords: gas saturation, gas condensate, relative permeability, depletion, depressurisation, critical gas
+- [Residual oil and transition zones](https://mralbu.github.io/sca-papers/llms/residual-oil-and-transition-zones.txt): 44 papers. Keywords: residual oil, oil saturation, capillary, transition, cdc, pore
+- [CO2, carbonated water and WAG injection](https://mralbu.github.io/sca-papers/llms/co2-carbonated-water-and-wag-injection.txt): 40 papers. Keywords: co2 injection, oil recovery, water injection, carbonated water, cwi, flooding
+- [In-situ saturation monitoring in coreflooding](https://mralbu.github.io/sca-papers/llms/in-situ-saturation-monitoring-in-coreflooding.txt): 39 papers. Keywords: flooding, ct, fluid, x-ray, flow, oil
+- [SCAL programs and relative permeability](https://mralbu.github.io/sca-papers/llms/scal-programs-and-relative-permeability.txt): 38 papers. Keywords: scal, relative permeability, saturation, wettability, oil, flow
+- [Crude oil-brine-rock wettability chemistry](https://mralbu.github.io/sca-papers/llms/crude-oil-brine-rock-wettability-chemistry.txt): 37 papers. Keywords: crude oil, wettability, contact angle, surface, asphaltene, wetting
+- [Spontaneous imbibition oil recovery](https://mralbu.github.io/sca-papers/llms/spontaneous-imbibition-oil-recovery.txt): 35 papers. Keywords: spontaneous imbibition, oil recovery, initial water, counter-current, face, open
+- [Gravity drainage and gas injection](https://mralbu.github.io/sca-papers/llms/gravity-drainage-and-gas-injection.txt): 35 papers. Keywords: oil recovery, gravity drainage, gas injection, viscous, gagd, displacement
+- [Magnetic susceptibility rock characterisation](https://mralbu.github.io/sca-papers/llms/magnetic-susceptibility-rock-characterisation.txt): 34 papers. Keywords: magnetic susceptibility, anisotropy, paramagnetic, content, illite, cuttings
+- [Heterogeneity effects on core flow](https://mralbu.github.io/sca-papers/llms/heterogeneity-effects-on-core-flow.txt): 34 papers. Keywords: heterogeneity, flow, heterogeneous, capillary, permeability, relative
+- [Vuggy carbonates and tracer dispersion](https://mralbu.github.io/sca-papers/llms/vuggy-carbonates-and-tracer-dispersion.txt): 27 papers. Keywords: vuggy, dispersion coefficient, vugs, tracer, matrix, porous
+- [Three-phase relative permeability](https://mralbu.github.io/sca-papers/llms/three-phase-relative-permeability.txt): 27 papers. Keywords: three-phase relative, gas, oil, relative permeability, saturation, three-phase flow
+- [Steady-state two-phase flow physics](https://mralbu.github.io/sca-papers/llms/steady-state-two-phase-flow-physics.txt): 27 papers. Keywords: flow porous, relative permeability, porous media, phase, steady-state two-phase, darcy
+- [NMR wettability characterization](https://mralbu.github.io/sca-papers/llms/nmr-wettability-characterization.txt): 25 papers. Keywords: wettability, nmr, relaxation time, t2, oil, water
+
+## Data
+
+- [All papers, one line each](https://mralbu.github.io/sca-papers/llms-full.txt): ID, year, title, all authors, method, keywords and TL;DR, grouped by topic
+- [papers.json](https://mralbu.github.io/sca-papers/data/papers.json): the site's full data as JSON (abstracts, map coordinates, PageRank, citation and similar-paper links)
+- [topics.json](https://mralbu.github.io/sca-papers/data/topics.json): topic names, keywords and sizes
+
+## Optional
+
+- [SCA papers on jgmaas.com](https://www.jgmaas.com/SCA/): the original PDF archive

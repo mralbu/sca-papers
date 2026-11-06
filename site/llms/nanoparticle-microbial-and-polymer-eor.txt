@@ -1,0 +1,915 @@
+# Nanoparticle, microbial and polymer EOR
+
+> 70 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: nanoparticles, oil recovery, polymer, surfactant, eor, flooding, enhanced, water, chalk, nanoparticle.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Interfacial Tension Measurements in an Oil/Water/Bacteria System by Laser-Light Scattering
+
+- ID: SCA2004-10, year: 2004
+- Authors: E. Kowalewski, J.Å. Stensen, E. Gilje, G. Bødtker, B. Bjørkvik, K.A. Strand
+- Method: measurement technique or apparatus
+- Keywords: interfacial tension, laser-light scattering, microbial enhanced oil recovery, capillary waves, biosurfactant, Dietzia
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-10)
+
+Interface laser-light scattering monitored dodecane/nutrient-water IFT with Dietzia strain A14101, showing a drop from 35 to 0.17 mN/m over about two weeks.
+
+Microbial improved oil recovery may rely on bacterial IFT reduction, but conventional tensiometers such as pendant drop cannot follow IFT over weeks of bacterial growth. The authors applied interface laser-light scattering, which analyzes thermally excited capillary waves without disturbing the interface, to an n-dodecane/nutrient water system at 20 °C. The reference IFT was 35.4 mN/m before bacteria injection. After adding strain A14101 (genus Dietzia), IFT fell by about a factor of 200 to a minimum of 0.17 mN/m within about 18 days, then stayed roughly constant with a slight rise. The final bacteria density was 8.8e6 cells/ml, and the plateau may reflect oxygen or nutrient depletion, so a larger reduction may be possible. The method gave about 2-3% IFT accuracy with no sign of local IFT variation, whereas an earlier pendant drop study reached only 10 mN/m.
+
+## Analyzing Microbial Improved Oil Recovery Processes from Core Floods
+
+- ID: SCA2005-49, year: 2005
+- Authors: E. Kowalewski, Sunde E, G. Bødtker, T. Torsvik
+- Method: laboratory experiment
+- Keywords: microbial enhanced oil recovery, cryo-ESEM, wettability alteration, interfacial tension, image-analysis saturation, Bentheimer sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-49.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-49)
+
+Cryo-ESEM imaging of a Bentheimer core after aerobic MIOR flooding shows it remained mainly water-wet, and image-derived oil saturation (36%) matched flood-derived saturation (35%).
+
+MIOR mechanisms (IFT reduction, wettability change, selective blocking) are reviewed, noting that traditional SCAL methods are poorly suited to growing bacterial systems. A Bentheimer sandstone core (30 cm, 2400 mD, porosity 0.23) was waterflooded to residual oil, then aerobically flooded with bacteria, reducing Sor from 0.44 to 0.34. Slices from inlet, centre and outlet were frozen in liquid nitrogen, fractured under vacuum and imaged by cryo-ESEM with EDS elemental mapping to distinguish oil, brine and minerals without dopants. Most grains remained water-wet, with only a few partially oil-wet quartz grains, suggesting little wettability change. BSE image analysis gave oil saturations of 29-40% by region and an average of 36% versus 35% from the flood, though too few images were analyzed for a reliable saturation profile.
+
+## An Experimental Study of Microbial Improved Oil Recovery by Using Rhodococcus SP. 094
+
+- ID: SCA2005-45, year: 2005
+- Authors: C. Crescente, K. Rasmussen, O. Torsæter, E. Kowalewski
+- Method: laboratory experiment
+- Keywords: microbial enhanced oil recovery, Rhodococcus sp. 094, biosurfactant, selective plugging, interfacial tension, Berea sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-45)
+
+Berea core floods with biosurfactant-producing and non-producing Rhodococcus sp. 094 show MIOR recovers more dodecane than waterflooding, via IFT reduction, selective plugging and wettability change.
+
+The study examines how Rhodococcus sp. 094 enhances oil recovery in Berea sandstone cores saturated with dodecane. Bacteria were grown on dodecane (biosurfactant-producing, SP) or acetate (non-producing, NSP) and injected either after waterflooding (MIORWF) or directly from initial oil saturation (MIOR0), at 0.1 ml/min and 30°C. Bacterial flooding recovered more oil than waterflooding in most tests, with MIOR0 generally better than MIORWF; SP gave lower IFT (22.6 vs 41.7 mN/m) and quartz wettability shifted from water-wet to intermediate. NSP bacteria recovered faster early, but SP often gave higher ultimate recovery; residual oil saturations fell to 1-6% in long floods (over 120 PV). Pressure rose continuously, indicating selective plugging, bacterial cakes formed at the inlet, no relation between cell concentration (1e7-1e9 cells/ml) and recovery was found, and some results were anomalous and need repeating.
+
+## To What Degree Thermal Cycles Affect Chalk Strength
+
+- ID: SCA2016-087, year: 2016
+- Authors: Tijana Livada, Anders Nermoen, Reidar Inger Korsnes, Ida Lykke Fabricius
+- Method: laboratory experiment
+- Keywords: thermal cycling, Kansas chalk, Brazilian tensile strength, hydrostatic compaction, irreversible strain, bulk modulus
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-087.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-087)
+
+Thermal cycling of Kansas chalk leaves dry tensile strength unchanged but increases irreversible strain and bulk modulus in water-saturated hydrostatic tests, indicating a pore fluid role.
+
+Repeated cold water injection into hot chalk reservoirs may destabilize them, so the study tests how thermal cycling affects Kansas chalk (about 34% porosity, 0.3-0.9 mD). Sixty dry disks were cycled 0-50 times between 135°C and ambient and tested in Brazilian tension; mean tensile strength stayed about 3.1-3.3 MPa, but standard deviation doubled from 0.40 to 0.82 MPa after 50 cycles. Two water-saturated cores were cycled hydrostatically (1.2-5.2 MPa), one at constant 30°C and one with daily 30-130°C cycles over 10 days. The temperature-cycled core accumulated 0.40% volumetric strain versus 0.25% for the constant-temperature core, with irreversible strain fraction of about 18% versus 4% at cycle 10, and a higher bulk modulus. An 11th cycle without temperature change dropped the irreversible fraction to 2.5%, confirming the effect was thermal. The contrasting dry and saturated results suggest the pore fluid matters.
+
+## Mark A. Andersen
+
+- ID: SCA1992-21EURO, year: 1992
+- Authors: Mark A. Andersen
+- Method: laboratory experiment
+- Keywords: chalk compaction, waterflood, rate-type compaction model, creep, uniaxial strain, Valhall
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-21EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-21EURO)
+
+Uniaxial-strain waterflood tests on native-state Valhall chalk show localized compaction of about 1% at the water front, explained by interfacial forces and friction-based rate-type behavior.
+
+High-porosity, weakly cemented North Sea chalk compacts under stress, and brine injection has been reported to trigger additional compaction. Andersen tested Valhall Tor chalk with preserved native saturation (about 5% water) in uniaxial strain, loading at 0.1% strain/hour with creep periods, then waterflooding with simulated seawater after creep at 20.6 or 27.5 MPa. Water arrival caused rapid, localized compaction following the flood front, about 1% bulk strain over six days, seen above yield but negligible in pre-yield material. An estimate of the capillary shear force on particle structures (about 0.2 dyne against 3.2 dyne normal force per particle) supports a meniscus-triggered cascade of frictional failure. After further loading the waterflooded sample returned to the virgin compaction curve, so the long-term compaction matches the unflooded case. Calcium dissolution and thermal cooling (about 0.2%) cannot explain the volume loss.
+
+## The Effects of Temperature on the Water Weakening of Chalk by Seawater
+
+- ID: SCA2006-37, year: 2006
+- Authors: Reidar I. Korsnes, Merete V. Madland, Tor Austad, Stig Haver, Geir Røsland
+- Method: laboratory experiment
+- Keywords: chalk water weakening, seawater flooding, hydrostatic yield point, creep compaction, Mg2+/Ca2+ substitution, sulfate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-37)
+
+Static and flooding creep tests on Stevns Klint chalk at 70-130 °C show seawater sulfate and magnesium cause temperature-dependent enhanced weakening and compaction versus sulfate-free brine or distilled water.
+
+Seawater injection in North Sea chalk causes extra compaction, and this study examines how temperature affects the weakening mechanism. Stevns Klint outcrop chalk was tested hydrostatically, either after static aging in distilled water or seawater at 80-130 °C, or during flooding and creep at 70, 90 and 130 °C with seawater (SSW) and sulfate-free seawater (SSW-U). Aged in distilled water, chalk was stronger at 130 °C (10.3 MPa yield) than at 80 °C (6.1 MPa), whereas seawater-aged cores gave about 6.9 MPa at both temperatures. In flooding tests at 90 °C, yield was 4.8 MPa with SSW versus 7.3 MPa with SSW-U, and creep strain differed by a factor of about 2.7 after 8-9 PV. At 70 °C the yield points were similar (7.7 vs 7.3 MPa), but SSW still compacted about twice as much in creep. Effluent Ca2+ rose about 10% at 90 °C, supporting Mg2+–Ca2+ substitution at grain contacts that requires sulfate and weakens with falling temperature.
+
+## Investigation into the Mechanisms of Heavy Oil Recovery by Waterflooding and Alkali-Surfactant Flooding
+
+- ID: SCA2007_24, year: 2007
+- Authors: J. Bryan, A. Kantzas
+- Method: laboratory experiment
+- Keywords: heavy oil waterflooding, alkali-surfactant flooding, NMR T2 spectra, water imbibition, emulsification, unconsolidated sand
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_24)
+
+Low-field NMR of heavy oil sand-pack waterfloods and alkali-surfactant floods shows water imbibition aids recovery at low rates and AS flooding generates emulsions that add 11% oil.
+
+Heavy oil (11,500 mPa·s) recovery by waterflooding and alkali-surfactant (AS) flooding was studied in unconsolidated Lane Mountain sand packs using low-field NMR. Static vial tests showed brine imbibing into small pores of the oil-coated sand, with water T2gm decreasing over 1702 hrs, and a Bond number of about 4.7e-6 ruled out gravity. In waterfloods at 0.45 and 8.89 cm3/hr, NMR spectra and recovery data indicated water films from imbibition at the low rate, which gave better recovery. In a 53 cm, 0.79 D pack, DI-water AS flooding raised average Sw from 0.291 to 0.345 (5.5% additional oil) and a following brine AS flood reached 0.403 (11% total additional oil), uniformly along the core. Produced black low-viscosity fluid indicated in-situ O/W emulsion flow, while a slow-relaxing bulk water peak in NMR indicated W/O emulsions that plug water channels and improve sweep, especially with NaCl.
+
+## Microbial Enhanced Oil Recovery - Mechanism
+
+- ID: SCA2007_25, year: 2007
+- Authors: Aksel Hiorth, Krista Kaster, Arild Lohne, Ola K. Siqveland, Harald Berland, Nils H. Giske, Arne Stavland
+- Method: laboratory experiment
+- Keywords: microbial enhanced oil recovery, biofilm, Lattice Boltzmann, wettability alteration, capillary tube meniscus, contact angle
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_25)
+
+Argues microbial concentrations are too low for surfactant or gas mechanisms, so biofilm-driven wettability change dominates; supported by Lattice Boltzmann modelling, capillary tube and contact angle experiments.
+
+Core-scale MEOR results are hard to interpret, so the authors assess which microbial mechanisms are physically plausible. Simple mass estimates with about 10^6 cells/ml give polymer, surfactant or acid concentrations around 10^-5 kg/kg water, at least two orders of magnitude too low, and gas saturations of only about 10^-4. They model microbes as immiscible drops in a 2D Lattice Boltzmann simulation; drops adhering to a capillary wall reduce meniscus height by about 50%, against 10% for non-adhering drops, which indicates a wettability change rather than an interfacial tension change. Capillary tube experiments with Bacillus licheniformis showed a roughly 50% height decrease over 14 days, while North Sea anaerobic microbes changed the polystyrene tube height only with stirring. Static sessile drop tests on glass, carbonate and steel showed no contact angle change, so the wettability evidence remains tentative and needs more tests.
+
+## Displacement of Viscous Oil by Polimeric Solution - Experimental Evaluation
+
+- ID: SCA2007_46, year: 2007
+- Authors: R.B.Z.L. Moreno, E.J. Bonet, A.T.A. Waldmann, A.L. Martins
+- Method: laboratory experiment
+- Keywords: polymer invasion, xanthan, PHPA, viscous oil displacement, X-ray saturation profile, polymer adsorption
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_46)
+
+Twenty-five linear displacement tests in Botucatu sandstone show how polymer type, oil viscosity, pressure and rock surface treatment control xanthan and PHPA invasion into viscous-oil-saturated cores.
+
+The study examines mechanisms of viscous oil displacement and polymer invasion, relevant to polymer flooding and drill-in fluid damage. Twenty-five linear displacement tests were run on Botucatu sandstone saturated with nujol (~100 cp) or Lubrax (~300 cp), injecting xanthan or PHPA at ~100 or ~200 psi, in natural, polymer-adsorbed or hydrophobic-treated cores. About 30% PV was injected, with mass, pressure and volumes recorded and final saturation profiles obtained by X-ray and tomography. Lubrax displacement was much slower (e.g. 245 min at 100 psi for xanthan) and often showed water breakthrough or solution bypass. Invasion depended on fluid mobility, pressure and polymer type; adsorption was an important retention mechanism, wettability change had no significant influence, and PHPA elongational effects can increase oil sweep depending on velocity.
+
+## Micromodel Study of the Displacement Mechanisms of Enhanced Heavy Oil Recovery by Alkaline Flooding
+
+- ID: SCA2007_47, year: 2007
+- Authors: Mingzhe Dong, Qiang Liu, Aifen Li
+- Method: laboratory experiment
+- Keywords: alkaline flooding, heavy oil, micromodel, W/O emulsion, wettability alteration, alkaline/surfactant
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_47)
+
+Glass micromodel floods show alkaline flooding of heavy oil works by in situ W/O emulsion with partial wettability alteration, or by O/W emulsification when surfactant is added.
+
+Alkaline flooding can improve heavy oil recovery, but its displacement mechanisms were unclear. Glass micromodel tests were run with Western Canadian heavy oil: water saturation, oil injection at 60°C, 2 PV waterflood, then alkaline or alkaline/surfactant flooding at ambient temperature. Injecting NaOH + Na2CO3 formed viscous in situ W/O emulsion and partly oil-wet pore walls, which blocked water channels, diverted flow to unswept regions and raised pressure drop up to 12.4 kPa. With added surfactant (450 mg/L, IFT about 10^-3 dyne/cm), heavy oil was emulsified as O/W and entrained in water, with a much smaller pressure drop increase. After about 1 PV of A/S injection new water channels formed and sweep efficiency declined.
+
+## Enhanced Chemical Weakening of Chalk Due to Injection of CO2 Enriched Water
+
+- ID: SCA2008-24, year: 2008
+- Authors: R.I. Korsnes, M.V. Madland, K.A.N. Vorland, T. Hildebrand-Habel, T.G. Kristiansen, A. Hiorth
+- Method: laboratory experiment
+- Keywords: chalk creep, CO2 flooding, water weakening, triaxial test, carbonated brine, CaSO4 precipitation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-24)
+
+Triaxial creep tests on Roerdal chalk flooded with CO2-enriched brines show higher creep strain rates, about 19% more with seawater than distilled water, indicating chemical weakening.
+
+CO2 injection into chalk reservoirs acidifies pore water and may enhance chemical compaction (water weakening). Roerdal outcrop chalk cores (43-48% porosity) were hydrostatically loaded beyond yield and crept at 12-14 MPa at ambient temperature, with alternating flooding of non-carbonated and CO2-enriched (8 bar) distilled water, synthetic seawater and sulphate-enriched seawater (SSW4) at 2 PV/day with 10 bar backpressure. Creep strain rates were 1.5 to 3.3 times higher with CO2-enriched fluids, averaging a factor of 2.5. Carbonated seawater brines gave on average 19% higher strain per PV than carbonated distilled water, attributed to higher CaCO3 solubility and possible gypsum precipitation. Tests with backpressure gave strain rates 1.6 times higher than earlier tests without backpressure. Conclusions are limited by few samples and ambient temperature.
+
+## Impact of Petropyhysical Properties on Water Flood Efficiency in Cretaceous and Tertiary Chalk
+
+- ID: SCA2008-27, year: 2008
+- Authors: Shahram Pourmohammadi, Sverre Hetland, Kristine Spildo, Arne Skauge
+- Method: laboratory experiment
+- Keywords: waterflood recovery, chalk, spontaneous imbibition, single-phase dispersion, Amott-Harvey and USBM wettability, NMR pore size distribution
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-27)
+
+Waterflood tests on Tertiary and Cretaceous chalk show high recovery regardless of wettability or spontaneous imbibition, while higher single-phase dispersivity correlates with lower recovery.
+
+The study examines which parameters control waterflood oil recovery in Tertiary (Ekofisk) and Cretaceous (Tor, Oseberg) chalk cores. Cores were characterized by mercury injection J-function, NMR pore size distribution and single-phase dispersion, then waterflooded in cleaned (water-wet) and crude-oil-aged states (90°C, one month) with Amott-Harvey and USBM wettability measurements. Aging shifted cores to mixed-wet (mostly small-pore oil-wet) states and strongly reduced spontaneous imbibition, yet waterflood recovery remained high. Tertiary chalk showed higher flowing fraction and less dead-end porosity, correlating with higher recovery, and cores with higher dispersivity gave lower recovery. The authors conclude that petrophysical properties matter more than spontaneous imbibition for chalk waterflood efficiency, provided some imbibition occurs.
+
+## The Effect of Temperature and Brine Composition on the Mechanical Strength of Kansas Chalk
+
+- ID: SCA2008-55, year: 2008
+- Authors: M.V. Madland, K. Midtgarden, R. Manafov, R.I. Korsnes
+- Method: laboratory experiment
+- Keywords: water weakening, Kansas chalk, seawater composition, magnesium, anhydrite precipitation, creep
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-55)
+
+Hydrostatic and creep tests on Kansas chalk flooded with modified seawaters show that removing Mg2+ markedly weakens chalk, likely through anhydrite precipitation and calcite dissolution.
+
+Seawater injection in North Sea chalk causes extra compaction (water weakening), and the role of specific ions at reservoir temperature is debated. Eight Kansas outcrop chalk cores (about 38% porosity) were tested in a triaxial cell with hydrostatic loading followed by 5-day creep at 19 MPa. Continuous flooding used synthetic seawater (SSW), seawater without sulphate (SSW-U) or without magnesium (SSW-U3) at 70, 90 and 130 °C. SSW-U3 cores were weakest, with average yield about 10.7 MPa, roughly 30% below SSW-U cores (15.3-15.6 MPa), and they showed the most creep. SSW cores had intermediate yield of 13-14 MPa. Switching a core from SSW to SSW-U3 during creep gave about 30% additional strain. Temperature effects were not systematic. The authors attribute the weakening to Mg2+ removal facilitating anhydrite precipitation and enhanced calcite dissolution.
+
+## Surfactant Enhanced Gravity Drainage: Laboratory Experiments and Numerical Simulation Model
+
+- ID: SCA2009-06, year: 2009
+- Authors: S.K. Masalmeh, S. Oedai
+- Method: laboratory experiment
+- Keywords: surfactant enhanced gravity drainage, centrifuge capillary pressure, interfacial tension reduction, connate water banking, effective diffusion coefficient, fractured carbonate
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-06)
+
+Multi-speed centrifuge experiments and simulation on aged limestone show surfactant gravity drainage scales with IFT reduction, is unaffected by connate water, and is faster than molecular diffusion predicts.
+
+Surfactant enhanced gravity drainage in fractured oil-wet carbonates may be limited by connate water banking and diffusion. Multi-speed centrifuge experiments were run on 10 aged limestone plugs (2.5-13.6 mD), eight with connate water and two without, using C12TAB surfactant at 0.1-1 wt%. Surfactant-oil IFT was about 15 times lower than water-oil, and the imbibition Pc curves scaled with this reduction, with oil produced at 500 rpm (0.43 psi) where water alone gave none. History matching with 1D/2D MoReS models needed a diffusion coefficient of 1e-10 m2/s, versus an expected ~1e-11 m2/s for molecular diffusion, and the absence of connate water did not change the Pc curves. The results indicate that connate water does not form a buffer and that diffusion is not limiting at core scale, while upscaling requires care regarding adsorption and dilution.
+
+## Effects of Wettability and Salinity on Microbial Enhanced Oil Recovery with Rhodococcus SP. 094
+
+- ID: SCA2009-29, year: 2009
+- Authors: L. Hultmann, A. Strøm
+- Method: laboratory experiment
+- Keywords: microbial enhanced oil recovery, Rhodococcus sp. 094, mixed-wet Berea, low salinity, selective pore plugging, coreflooding
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-29)
+
+Coreflooding of Berea cores shows Rhodococcus sp. 094 MEOR is more effective in mixed-wet than water-wet cores, and lowering salinity can further boost recovery.
+
+The study tests how wettability and salinity affect microbial enhanced oil recovery with Rhodococcus sp. 094 using n-dodecane in Berea cores. Wettability runs used paired water-wet and Surfasil-treated mixed-wet cores (14 and 15 successful runs) flooded with the non-surfactant-producing variant after waterflooding. Mixed-wet cores had higher waterflood recovery (72.9% vs 57.1% OOIP) and lower residual oil (18.7% vs 29.3%). Bacterial flooding gave equal recovery on an OOIP basis (about 3%), but 11.1% vs 7.3% of residual oil for mixed-wet vs water-wet cores, indicating continuous oil films favor MEOR. Seven salinity runs (3%, 0.3%, 0.03%) with the surfactant-producing variant showed that lower salinity increases recovery in secondary mode, whereas primary bacterial flooding was insensitive to salinity, likely due to faster near-inlet pore plugging. The proposed MEOR mechanism was updated accordingly.
+
+## Monitoring the Surfactant-Enhanced Oil Dissolution and Mobilization in Porous Media
+
+- ID: SCA2009-36, year: 2009
+- Authors: C. Aggelopoulos, V. Sygouni, D. Tzovolou, M. Theodoropoulou, D.G. Avraam, C.D. Tsakiroglou
+- Method: laboratory experiment
+- Keywords: surfactant flushing, SDS micelles, n-decane dissolution, resistivity index, non-Archie equation, effective dissolution rate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-36)
+
+Multipoint electrical resistivity monitors n-decane mobilization and dissolution during SDS flushing of a soil column, yielding segment-wise effective dissolution rates: mobilization dominates early, dissolution late.
+
+The study separates oil mobilization from dissolution during surfactant flushing of residual n-decane in a 29 cm soil column (porosity 0.40, permeability 25.2 D). After drainage and imbibition, a brine solution with 4.9 g/L SDS was injected at 0.5 ml/min for about 63 pore volumes. Water saturation in five column segments was tracked from electrical resistance using a non-Archie resistivity index equation and wavelet denoising, and effluent n-C10 was measured by SPME with GC-FID. Only about 0.6% of the initial residual n-C10 was found dissolved in the aqueous phase by SPME, while saturation changed by about 9.6%, so most oil left as micellar solubilized or mobilized oil. A 1-D dissolution-mobilization model was formulated, and volume averaging gave an effective dissolution rate per segment. Mobilization dominated early (t<100 min), especially in upper segments, while dissolution dominated late (t>200 min).
+
+## Improved Measurement Technique for Studying the Effect of Bacterial Solution on Ift and Contact Angles
+
+- ID: SCA2009-37, year: 2009
+- Authors: Shabani Afrapoli M, Alipour S, Torsæter O
+- Method: measurement technique or apparatus
+- Keywords: microbial enhanced oil recovery, pendant drop goniometer, interfacial tension, contact angle, Rhodococcus biosurfactant, dynamic flow cell
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-37)
+
+A pendant-drop goniometer with continuous bacterial flow shows greater IFT reduction and lower contact angles than static measurements for Rhodococcus bacteria with dodecane.
+
+Static pendant-drop goniometer measurements can underestimate bacterial effects in microbial improved oil recovery because nutrients and oxygen deplete in the small cuvette. The authors added a circulation system (3 ml/hr) so fresh Rhodococcus sp. 094 suspension (10^7 CFU/ml, SPB and NSPB variants) continuously contacts n-dodecane drops at 30°C. Static IFT fell from 18.3 mN/m (brine) to 13.6 (NSPB) and 10.4 (SPB), while dynamic runs of 36-38 h reached 5.2 and 4.8 mN/m. Contact angles on initially water-wet and oil-wet quartz plates changed little in static tests but decreased more under flow (e.g., water-wet NSPB 35.5° static vs 28.8° dynamic). The dynamic method is argued to be more relevant for studying IFT and wettability mechanisms in MIOR.
+
+## Effects of Salinity on the Morphology of Dissolution Pits in Calcite -Implication for
+
+- ID: SCA2009-39, year: 2009
+- Authors: Christine Putnis, Christopher. J. Spiers
+- Method: laboratory experiment
+- Keywords: calcite dissolution, atomic force microscopy, pressure solution, salinity, etch pits, compaction creep
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-39)
+
+AFM dissolution of cleaved calcite and uniaxial compaction of calcite aggregates both show a critical NaCl salinity near 0.8 M, linking etch-pit morphology to pressure-solution creep.
+
+The study asks how pore fluid salinity affects calcite dissolution morphology and pressure-solution compaction. Fluid-cell AFM was run on cleaved {1014} Iceland Spar with NaCl solutions from 0.1 M to saturation, and dead-weight uniaxial compaction tests were run at 4 MPa on pure 15 µm granular calcite, after 8 MPa dry precompaction, with pre-saturated CaCO3 solutions. Samples with decane or dry showed no creep, while those with saline solutions compacted 0.5-1.0% in 7 days, with the largest strains at 0.1 and 0.5 M. AFM showed deeper, denser pits up to about 0.8 M, then fewer, large, flat-bottomed rhombohedral pits dominated by lateral step retreat above 0.8-1 M. The same critical salinity in both datasets suggests that flattening of grain boundaries thins the water film and limits diffusion, with implications for nano porosity and CO2 sequestration.
+
+## Mechanistic Study of Improved Heavy Oil Recovery by Alkaline Flood and Effect of Wetability
+
+- ID: SCA2010-13, year: 2010
+- Authors: Alireza Emadi, Mehran Sohrabi, Gerald Hamon, Mahmoud Jamiolahmady
+- Method: laboratory experiment
+- Keywords: alkaline-surfactant flooding, heavy oil, micromodel visualisation, capillary cross-flow, emulsification, wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-13)
+
+Micromodel visualisation of alkaline/surfactant flooding of extra-heavy oil shows emulsification and capillary cross-flow drive recovery in water-wet media, while oil-wet conditions nearly stop it.
+
+The study examines alkaline/surfactant (NaOH plus AOS, pH 12) flooding of an extra-heavy crude (11.5 API, 8670 cP at 50 °C) in high-pressure glass micromodels at 600 psig and 50 °C, injected at 0.01 cm3/hr (capillary number about 2.5E-7). After waterflood, AS injection recovered oil mostly within the first 10 hours, mainly through emulsification following IFT reduction and wettability change toward water-wet. In the heterogeneous model, a capillary cross-flow mechanism moved oil from poorly connected, uncontacted regions toward the AS flow path, where it was emulsified. In oil-wet models, incremental recovery fell drastically (about 2% of residual oil in the strongly oil-wet case) because emulsification weakens and cross-flow does not occur. The AS at critical alkali concentration could not shift the oil-wet system to water-wet, attributed to high oil viscosity and a short (about 10 h) reaction period; lower alkali concentrations are suggested.
+
+## A Simplified Approach to Translate Chemical Alteration in Core Experiments to Field Conditions
+
+- ID: SCA2011-09, year: 2011
+- Authors: Aksel Hiorth, Øystein Bache, Espen Jettestuen, Lawrence M. Cathles, Robert W. Moe, Edvard Omdal, R. I. Korsnes, Merete V. Madland
+- Method: numerical simulation
+- Keywords: chalk seawater injection, reactive transport flow line model, activation energy, dolomite precipitation, anhydrite, Ekofisk produced water
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-09)
+
+A 1D flow line reactive transport model, calibrated on 130°C chalk core floods, predicts chemical alteration around a seawater injector at Ekofisk and matches produced water ion trends.
+
+The paper proposes a simple advective flow line model, with linear Arrhenius-type rate equations and a thermal equilibration step, to upscale chalk chemical alteration from core floods to field scale. Rate constants were fitted to 130°C chalk core floods with MgCl2 (decay time 4.45 days at 1 PV/day) and a dolomite-dependent inhibition term, then used to predict seawater-like floods and a rate change from 3 to 1 PV/day. The model was applied in radial geometry to Ekofisk-like injection (30,000 bbl/day, 25°C seawater into 130°C, 30% porosity chalk). With 65 kJ/mol activation energy, alteration extends ~400 m with ~1.5 wt% calcite dissolved and dolomite precipitated, while 20 kJ/mol gives alteration to only 100 m but ~35 wt% conversion near the well. Anhydrite precipitates in the hot reservoir and redissolves on cooling, and produced water from an Ekofisk well shows Mg and sulphate loss and calcium gain consistent with the stoichiometry, with a ~3 year delay of the temperature front.
+
+## Reservoir Condition Experimental Study to Investigate Microbial Enhanced Oil Recovery (Meor) in the Deep Reservoir Environment
+
+- ID: SCA2011-17, year: 2011
+- Authors: Andrew Davies, Dave Thrasher, Dave Puckett
+- Method: laboratory experiment
+- Keywords: microbial enhanced oil recovery, dual core flood, gamma attenuation saturation monitoring, NMR wettability change, unconsolidated core cleaning, reservoir condition coreflood
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-17)
+
+A reservoir-condition dual-core flood, with an inoculated near-wellbore core feeding an uninoculated deep-reservoir core, shows MEOR effects propagate, giving extra oil and a shift toward water-wet.
+
+Earlier single-core MEOR floods may only represent the near-wellbore region, so BP developed a dual-core series flood at reservoir conditions (124 barg pore pressure, 172 barg overburden, 33°C, 49 cP crude). A Clashach sandstone plug (231 mm, 148 mD) was inoculated and fed nutrient brine to establish an equilibrium growth zone. Its effluent was flowed into a composite of unconsolidated reservoir plugs (164 mm, 30% porosity, 111 mD) that had been cleaned with a non-damaging method and cycled to repeatable saturation histories. Gamma attenuation saturation monitoring with iodide-doped brine tracked saturation against a prior control waterflood. Incremental oil production began at about 5 PV and flattened at 10 PV, while the control kept draining. NMR indicated a shift to more water-wet conditions, and the data were used in STARS/REVEAL simulation to upscale the results to field scale.
+
+## Tertiary Polymer Flooding in Extra-Heavy Oil: An Investigation Using 1D and 2D Experiments, Core Scale Simulation and Pore-Scale Network Models
+
+- ID: SCA2011-18, year: 2011
+- Authors: Bondino I, Nguyen R, Hamon G, Ormehaug P. A, Skauge A
+- Method: laboratory experiment
+- Keywords: extra-heavy oil, tertiary polymer flooding, viscous fingering, X-ray saturation imaging, pore network modelling, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-18)
+
+Tertiary polymer flooding of 7000 cP oil in Bentheimer 1D cores and 2D slabs raised recovery from ~30% to over 60%; simulators could not reproduce fingering.
+
+Water and polymer flooding of extra-heavy oil (7000 cP at 23°C) is hard to optimise because of unstable, viscous-fingering displacements. A 30x30 cm 2D Bentheimer slab and a 30 cm 1D core were aged with oil and flooded with brine and then 1650 ppm Flopaam 3630S polymer, with X-ray saturation mapping. Waterflood recovered 26.4% (2D) and 30.7% (1D) after ~5 PV, with early breakthrough and long high-watercut production. Polymer added 36.7% and 29.8%, giving final recoveries of 63.1% and 60.5%, with a piston-like oil bank and reduced geometry sensitivity. Pore-network relative permeabilities (water-wet) with measured polymer rheology gave a 2D history match, but the fingering was not reproduced. Applying the same Kr/Pc to the 1D core reproduced final recovery but misestimated waterflood and polymer-flood recoveries by about 15%.
+
+## Transport of Surfactants in Fractured Chalk Rock – Laboratory Experiments and Numerical Simulations
+
+- ID: SCA2012-16, year: 2012
+- Authors: Ingebret Fjelde, John Fabricius Zuta, Ann Helen Kvæstad
+- Method: laboratory experiment
+- Keywords: surfactant retention, fractured chalk, diffusion, Langmuir adsorption, STARS simulation, static experiments
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-16)
+
+Static fractured-chalk experiments with partly blocked plug surfaces, history-matched in STARS, show diffusion-limited surfactant transport; large matrix blocks stay unsaturated over thousands of days.
+
+The paper studies how an anionic surfactant (BES, 0.86 wt%) moves from a fracture into the matrix of Liege chalk. Plugs (3.8 x 7 cm, porosity about 40-43%, permeability 0.6-1.9 mD) at Sw=100% or Sorw sat in annular cells filled with surfactant solution at 55°C. Different surfaces were blocked, and fracture concentration was tracked for about 60 days. Concentration fell fastest with all surfaces open, plateauing near 0.45 wt%, and slower with shorter exposed area or longer transport length. Residual oil had little effect on total retention. STARS simulations with Langmuir adsorption history-matched the base case (Deff 3e-5 cm²/min) and predicted other designs within about 6-14%. Simulations of 30-70 cm blocks did not reach equilibrium in 5000 days, so diffusion-dominated retention is much lower than flow-through estimates.
+
+## Displacement of Oil by Surfactant Flooding in Mixed-Wet Condition
+
+- ID: SCA2012-23, year: 2012
+- Authors: Kumuduni Prasangika Abeysinghe, Ingebret Fjelde, Arild Lohne
+- Method: laboratory experiment
+- Keywords: surfactant flooding, mixed-wet Berea, capillary end effects, history matching relative permeability, capillary desaturation curve, tail oil production
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-23)
+
+Water and surfactant floods in mixed-wet Berea and reservoir cores, history matched with end-effect correction, show surfactant accelerates oil production via higher kro, not lower residual oil.
+
+Surfactant flooding mechanisms in mixed-wet sandstone are poorly understood compared with water-wet systems. Unsteady-state water and surfactant floods were run on mixed-wet Berea (n-decane or stock tank oil) and on a reservoir core, plus a steady-state relative permeability test. Relative permeability and capillary pressure were estimated by history matching with Sendra, and steady-state data were corrected for capillary end effects with Coreflow. Water floods showed long tail production and rate-dependent remaining oil saturation caused by capillary end effects. Surfactant (IFT 0.01 mN/m) gave faster, additional production but no evidence of reduced Sor; this was attributed to increased kro at high Nc. The reservoir core's remaining oil saturation declined slowly with Nc with no plateau and no critical Nc, so the measured curve does not represent a true capillary desaturation curve.
+
+## Mechanistic Study of Heavy Oil Recovery by Waterflood: Effect of Oil Viscosity and Wettability
+
+- ID: SCA2012-24, year: 2012
+- Authors: Alireza Emadi, Mehran Sohrabi
+- Method: laboratory experiment
+- Keywords: heavy oil waterflood, micromodel, wettability, capillary imbibition, viscous fingering, oil trapping mechanisms
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-24)
+
+Micromodel waterfloods of extra-heavy oil at four wettabilities show breakthrough recovery is wettability-independent, but post-breakthrough recovery is highest in strongly water-wet systems due to capillary imbibition.
+
+Waterflooding of heavy oil is poorly understood, and light-oil theories do not explain its behaviour. The authors ran 20 high-pressure glass micromodel waterfloods (four reported) with an extra-heavy oil (10 API, 8670 cP at 50 °C) at 44 °C and 600 psig, injecting water at 0.01 cm³/hr (capillary number ~2.5E-7) for 50+ PV across strongly water-wet, slightly water-wet, slightly oil-wet and strongly oil-wet conditions. Breakthrough recovery was 10-15% OOIP regardless of wettability (12.5, 11.2, 13.9, 13.5%), showing viscous control. After breakthrough, recovery rose from 12.5 to 33% OOIP in the strongly water-wet case, but only by 5.25%, 1.3% and 0% in the slightly water-wet, slightly oil-wet and strongly oil-wet cases. The results indicate that capillary imbibition matters for heavy oil, the optimum wettability shifts toward water-wet as viscosity increases, and trapping is mainly viscous with continuous residual oil.
+
+## Effect of Silica Nanoparticles Adsorption on the Wettability Index of Berea Sandstone
+
+- ID: SCA2013-059, year: 2013
+- Authors: Shidong Li, Anne Tinnen Kaasa, Luky Hendraningrat, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: silica nanoparticles, Amott wettability index, wettability alteration, spontaneous imbibition, Berea sandstone, nanofluid EOR
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-059.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-059)
+
+Amott wettability index measurements on Berea cores treated with hydrophilic or hydrophobic silica nanoparticles show wettability shifts depending on particle type, concentration and initial wettability.
+
+The study examines how adsorption of 7 nm silica nanoparticles changes the wettability of Berea sandstone (average 17% porosity, 354 mD). Water-wet and crude-oil-aged neutral-wet plugs were treated with hydrophilic (brine-based) or hydrophobic nanofluids at 0.01, 0.1 and 0.5 wt%, and wettability index was measured by the Amott method. Hydrophilic particles raised the WI of water-wet cores by about 10% independent of concentration, and shifted neutral-wet cores (WI 0.05) to water-wet, with WI reaching 0.7 and 0.84 at 0.1 and 0.5 wt%. Hydrophobic particles delayed imbibition by 1-2 hours in water-wet cores without significantly changing final WI, and made high-concentration neutral-wet cores oil-wet. Adsorption also reduced permeability, by about 50 mD on average and up to 220 mD in one core.
+
+## Laboratory Investigation of Porosity and Permeability Impairments in Berea Sandstones Due to Hydrophilic Nanoparticle Retention
+
+- ID: SCA2013-062, year: 2013
+- Authors: Luky Hendraningrat, Bjørnar Engeset, Suwarno Suwarno, Shidong Li, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: nanofluid, silica nanoparticles, nanoparticle retention, permeability impairment, Berea sandstone, NanoSight
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-062)
+
+Coreflood tests of 7 nm hydrophilic silica nanofluid in Berea sandstone show retention causes 5–88% permeability and 1–11% porosity impairment, worse at high concentration and rate.
+
+Nanofluid EOR requires understanding nanoparticle transport and formation damage, and earlier literature gave contradictory results. Nine Berea sandstone cores (porosity 18–21%, permeability 125–420 mD) were flooded with 7 nm hydrophilic silica nanofluid in 3 wt.% NaCl brine, varying concentration (0.01–0.5 wt.%), rate (0.1–4 cm3/min), injected PV (0.2–3.5) and 25 nm prefiltering. Retention was assessed from differential pressure, SEM/EDX imaging and NanoSight influent/effluent particle counts. Permeability impairment ranged from about 5 to 88% and porosity impairment from 1 to 11%. Concentrations of 0.1–0.5 wt.% caused plugging with pressure rising to 200–500 mbar, and about 8.2% of particles were retained in core #1. Concentrations of 0.01–0.05 wt.%, low rates (<0.5 cm3/min) and small PV minimized damage, while 25 nm filtering gave no significant improvement.
+
+## An Experimental Study of Surfactant Slug Enhanced Waterflooding: Is It Possible to Use Less Surfactant and Achieve High Oil Recovery?
+
+- ID: SCA2013-089, year: 2013
+- Authors: Paulina Mwangi, Dandina N. Rao Craft, Louisiana State, Baton Rouge
+- Method: laboratory experiment
+- Keywords: surfactant slug, enhanced waterflood, wettability alteration, Berea sandstone, mixed-wet, coreflood
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-089.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-089)
+
+Soaking a 0.2 PV surfactant slug near the injector or producer before waterflooding in Berea cores raised recovery from 47% to 55% or 67%.
+
+The study tests a surfactant-slug enhanced waterflood (SSEW) that uses little surfactant by soaking the zone around the production or injection well before waterflooding. Corefloods used Berea sandstone, Yates oil and synthetic brine at 700 psi and 82°F, with a nonionic surfactant (NEODOL 91-8). Optimal concentration was 3000 ppm (94% recovery for 2 PV flood versus 47% waterflood), with a 12-hour soak as best. Slug sizes of 0.2 and 0.3 PV added 8% and 15% recovery, while 0.1 PV gave no gain. A 0.2 PV slug at the producer or injector raised recovery from 47% to 55% and 67%, so injector treatment worked better, though less than a full surfactant flood.
+
+## Comparison of Oil Recovery for Six Nanofluids in Berea Sandstone Cores
+
+- ID: SCA2014-017, year: 2014
+- Authors: Katherine R. Aurand, Gunnar Sie Dahle, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: nanofluid EOR, fumed silica nanoparticles, colloidal silica, log-jamming, Berea sandstone core flooding, interfacial tension
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-017)
+
+Six silica nanofluids (fumed and colloidal) were flooded tertiary in Berea cores; fumed and larger particles gave more oil, pointing to mechanical log-jamming rather than IFT or wettability.
+
+The study seeks the best silica nanoparticle morphology and size for tertiary nano-EOR. Six water-wet Berea cores (about 13 cm long, 18.6% porosity, 362 mD) were drained with crude oil, waterflooded with synthetic North Sea brine, then flooded with 0.05 wt% fumed or colloidal silica nanofluids at 0.4 mL/min under ambient conditions. Additional recovery ranged from 2.4% OOIP (colloidal-S) to 11.8% OOIP (fumed-L), with fumed silica outperforming colloidal and recovery rising with particle size. Differential pressure rose during nanoflooding and effluent silica analysis indicated particle retention. IFT dropped modestly (16.4 to about 12-15 mN/m) and contact angles showed no trend matching recovery, so mechanical log-jamming is proposed as the dominant mechanism; repeatability was not tested.
+
+## An Experimental Investigation of EOR Mechanisms for Nanoparticles Fluid in Glass Micromodel
+
+- ID: SCA2014-035, year: 2014
+- Authors: Shidong Li, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: silica nanoparticles, glass micromodel, interfacial tension, contact angle, emulsification, pore plugging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-035.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-035)
+
+Glass micromodel flooding with silica nanofluids shows IFT and contact angle reduction, emulsification, pore plugging and sweep changes as EOR mechanisms, increasing with nanoparticle concentration.
+
+The study examines EOR mechanisms of hydrophilic silica nano-structured particles (NSP) and colloidal nanoparticles (CNP) dispersed in 3 wt% brine at 0.05, 0.1 and 0.5 wt%. IFT (spinning drop) and contact angle on quartz were measured against North Sea crude oil, and tertiary nanofluid floods were run in a 0.13 ml glass micromodel at 0.02 and 0.04 ml/min after brine flooding. Both particle types lowered IFT and contact angle with increasing concentration, making the surface more water wet. Higher concentrations recovered more oil through IFT reduction and emulsification, with o/w emulsions seen for NSP and w/o for CNP. NSP adsorbed strongly, causing continuously rising pressure drop and permeability reduction, while CNP shifted the first breakthrough channel and improved sweep. Recovery was assessed qualitatively from images because of the small pore volume.
+
+## Mobility of Nanofluids in Porous Media
+
+- ID: SCA2014-044, year: 2014
+- Authors: Christos D. Tsakiroglou, Sofia Antimisiaris, Dimitra Tzavara, Katerina Terzi, Christos Aggelopoulos
+- Method: laboratory experiment
+- Keywords: nanoliposomes, nZVI, glass-etched pore network, calcein fluorescence, NAPL remediation, nanofluid transport
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-044)
+
+Calcein-loaded nanoliposomes were injected through a glass-etched pore network at residual n-C12; most effluent liposomes stayed intact, so lower flow rates, concentrations and softer membranes are needed.
+
+The work explores nanoliposomes as carriers to deliver nanoparticles such as nZVI to hydrophobic NAPL ganglia in porous media for in situ remediation. DSPC:cholesterol (2:1) liposomes of 150 nm encapsulating calcein were prepared at 1 mg/ml in PBS (latency 96.4%). They were injected at 0.025 mL/min into a 2-D glass-etched pore network (porosity 0.65, permeability 19.6 Da) at residual n-C12 saturation. Calcein release was tracked by effluent fluorescence latency measured before and after Triton X-100 addition. Latency dropped to about 27-50% in the first 10 minutes, then returned to 90-96% at late times, indicating only a small fraction of liposomes released their content. The authors conclude that lower flow rates, smaller liposome concentrations and softer membranes are needed to promote membrane disruption.
+
+## Experimental Investigations of Wettability Alteration Due to Various Nanoparticles: An EOR Implication with Nanofluids
+
+- ID: SCA2014-082, year: 2014
+- Authors: Luky Hendraningrat, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: nanofluid EOR, wettability alteration, contact angle, hydrophilic nanoparticles, Berea sandstone, salinity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-082.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-082)
+
+Contact angle measurements on quartz plates and Berea sandstone show hydrophilic SiO2, Al2O3 and TiO2 nanofluids shift wettability toward water-wet, depending on salinity, concentration and soaking time.
+
+The study examines whether hydrophilic nanoparticles in synthetic seawater can alter wettability as an EOR mechanism. Contact angles were measured at ambient conditions for 3-6 hours on quartz plates (water-wet and oil-wet, the latter treated with Surfasil/pentane) and Berea sandstone, using crude oil and SiO2, Al2O3 and TiO2 nanofluids at 0.05-0.10 wt.%. Parameters varied were salinity (3,000-100,000 ppm), ionic composition, nanoparticle type, concentration, substrate, soaking time and PVP stabilizer. Nanoparticles made all systems more water-wet; higher salinity, divalent cations, higher concentration and longer soaking enhanced the effect. TiO2 gave the greatest contact angle reduction on water-wet quartz, while silica outperformed alumina in the oil-wet system. PVP stabilizer did not influence wettability according to the authors' conclusion.
+
+## An Experimental Study on Optimization of SAG Process Utilizing Nonionic Surfactants and Sodium Lignosulfonate
+
+- ID: SCA2014-087, year: 2014
+- Authors: Mahsa Moayedi, L.A. James, Maziyar Mahmoodi
+- Method: laboratory experiment
+- Keywords: surfactant alternating gas, foam stability, nonionic surfactant, sodium lignosulfonate, interfacial tension, low salinity brine
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-087.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-087)
+
+Nine Berea coreflood SAG tests compare Ivey-Sol 108 and TX-100; gas-surfactant-gas with TX-100 above CMC in low salinity brine plus sacrificial SLS gave the best recovery, 84.5%.
+
+Foam from surfactant alternating gas (SAG) injection can improve mobility control and recovery, but surfactant adsorption and foam stability limit it. The authors compared two nonionic surfactants, Ivey-Sol 108 and TX-100, using IFT measurements, ASTM D3601 foam bottle tests, and nine coreflood experiments in a 12 in Berea core (100 mD, 20% porosity) with Hibernia crude. TX-100 gave much lower IFT (about eight times lower than Ivey-Sol 108 at 0.3 wt% above CMC) and more stable foam. Residual oil recovery rose with surfactant concentration and with lower salinity, and SAG gave about 9% more residual oil recovery than WAG. Adding 0.5 wt% sodium lignosulfonate to the secondary waterflood as a sacrificial agent, followed by gas, TX-100 at 0.3 wt% above CMC in low salinity brine, then gas, gave the best total recovery of about 85% OOIP.
+
+## Nanofluid Enhanced Oil Recovery – Mobility Ratio, Surface Chemistry, or Both?
+
+- ID: SCA2015-028, year: 2015
+- Authors: A. Khezrnejad, L.A. James, T.E. Johansen
+- Method: laboratory experiment
+- Keywords: nanofluid EOR, response surface methodology, nanofluid viscosity, interfacial tension, micromodel waterflood, polymer flooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-028)
+
+Micromodel floods, viscosity design-of-experiments and IFT measurements show silica and alumina nanofluids recover more oil than viscosity-matched polymer, indicating surface chemistry matters beyond mobility ratio.
+
+The study asks whether nanofluid EOR gains come from improved mobility ratio or from surface chemistry. Viscosity of silica and alumina nanofluids was measured in a 24-run response surface design (0–5 wt%, 20–8000 psia, 20–80°C); ANOVA showed all factors significant, alumina raised viscosity to about 2 cP while silica barely changed it. Micromodel waterfloods compared DI water, Flopaam polymer (10 and 20 ppm) and 5 wt% nanofluids. Alumina (1.75 cP) and silica (1.06 cP) nanofluids gave 8% and 11% higher recovery than DI water, and 5% and 8% higher than 10 ppm polymer of equal viscosity (polymer gave about 3% over water). Pendant drop IFT fell from 29 mN/m for water to 6.56 (silica) and 12.71 (alumina), versus 21.47 for polymer, supporting an interfacial tension role.
+
+## An Experimental Investigation of Nanoparticles Adsorption Behavior During Transport in Berea Sandstone
+
+- ID: SCA2015-029, year: 2015
+- Authors: Shidong Li, Miaolun Jiang, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: nanoparticle adsorption, silica nanofluid, Berea sandstone, wettability, permeability impairment, effluent concentration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-029)
+
+Core floods in oil-, neutral- and water-wet Berea show aggregating silica nanoparticles adsorb heavily and impair permeability, while stable colloidal silica adsorbs little and often raises permeability.
+
+The study examines adsorption of hydrophilic silica nanoparticles during transport in Berea sandstone, relevant to nanofluid EOR. Eighteen plugs (19.5% porosity, ~352 mD, 8 cm long) at water-wet, neutral-wet (index -0.09) and oil-wet (index -0.39) states were flooded with 0.05, 0.2 and 0.5 wt% nano-structure particle (NSP, 7 nm primary, aggregating) or colloidal nanoparticle (CNP, 18 nm, stable) dispersions in 3 wt% brine, followed by brine post-flush at 2 ml/min. Pressure drop and UV-measured effluent concentration were used to assess adsorption. NSP showed multilayer adsorption with rapid pressure rise and severe permeability loss (often below 1% of initial in neutral- and water-wet cores). Oil-wet cores passed 80-90% of NSP, neutral-wet cores at most ~40%, and desorption occurred in oil- and neutral-wet but not water-wet cores. CNP behaved as monolayer adsorption, was independent of wettability and concentration, and sometimes increased permeability (up to ~204%).
+
+## Measurements of Mobile Water Saturation in Oil Sands
+
+- ID: SCA2015-043, year: 2015
+- Authors: J. Butron, J. Bryan, Y. Duan, A. Kantzas
+- Method: field or reservoir case study
+- Keywords: mobile water, CHOPS, effective water permeability, NMR T2, Dean-Stark, heavy oil sands
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-043)
+
+NMR and water effective permeability on oil sand cores from two CHOPS wells show high water production stems from thin high-Sw streaks missed by logs, not pore-scale differences.
+
+The study asks why one CHOPS well produced high water cuts while another produced mostly oil, despite similar porosity and higher resistivity in the watery well. One-inch plugs from both wells were vacuum saturated with brine, flooded at low pressure to measure effective water permeability, and measured by NMR and Dean-Stark. NMR showed two flow types: in lean samples water occupies the true pore-size T2 range as a wetting phase, while in oil-rich samples water fingers through oil and appears at longer T2. Both wells followed the same effective water permeability versus water saturation trend, so pore-scale wettability or water location does not explain the difference. Using this trend, effective water permeability is about 10 mD or less in oil-rich zones, but reaches 100 mD or more in thin lean streaks in the high-water well that the resistivity logs smoothed out.
+
+## Polymer Flooding in Sandpacks with a Dual-Porosity
+
+- ID: SCA2016-022, year: 2016
+- Authors: I. Ringen, H. Stiegler, O. Nødland, A. Hiorth, A. Stavland
+- Method: laboratory experiment
+- Keywords: polymer flooding, dual porosity sandpack, low salinity, electrical resistance, shear thickening, capillary tube rheometer
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-022)
+
+Low-salinity HPAM-type polymer injected into dual-porosity silica sandpacks travels faster than the salinity front, mixing with high-salinity brine and lowering effluent viscosity; in-situ shear thickening was observed.
+
+Combining polymer and low salinity flooding assumes polymer and ions move together, but polymers are excluded from small pores. The authors packed 80 cm columns with porous silica gel (63-200 µm grains; macro porosity 44%, micro porosity 38%, permeability about 6.8 D) and measured resistance along six sections plus effluent viscosity with a capillary tube rheometer. Flopaam 5115SH at 1000 ppm in 10 g/L brine (P10) displaced 35 g/L brine at 0.3 ml/min. Polymer broke through at 0.58 PV with effluent viscosity about 4.5 cp (close to the P35 bulk value of 5.5 cp), while the salinity front arrived near 1 PV and viscosity rose to about 6.2 cp (P10 bulk 7.0 cp). The polymer-to-ion velocity ratio was about 1.72. In-situ apparent viscosity showed shear thickening above about 100 1/s, matched by a Carreau-based model with an elongation term, and no retention was observed.
+
+## Fluid-Flow During EOR Experiments in Chalk: Insights Using SEM-Mla, Empa and Nanosims Applications
+
+- ID: SCA2016-038, year: 2016
+- Authors: Udo Zimmermann, Merete V. Madland, Reidar Inge Korsnes, Bernhard Schulz, Jean-Nicolas Audinot
+- Method: laboratory experiment
+- Keywords: chalk flooding, synthetic seawater, SEM-MLA, EMPA, NanoSIMS, Mg-rich carbonate precipitation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-038.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-038)
+
+Fractured Liège chalk flooded with synthetic seawater at 130°C was mapped with SEM-MLA, EMPA and NanoSIMS, showing texture and shell fragments control Mg, Si and Al alteration.
+
+Water-induced chemical and mineralogical alteration of chalk during seawater flooding is complex, and its dependence on rock texture is poorly resolved at small scale. A fractured Liège (Gulpen Formation) chalk core (porosity 40.1%, permeability 5 mD) was flooded in a triaxial cell at 130°C with NaCl and then synthetic seawater for 34 days, followed by bypass flooding. Post-test samples were analysed by SEM-MLA, EMPA and NanoSIMS. Fractures showed enrichment in Mg, Si and Al, consistent with precipitated Mg-rich carbonates and clays. A macrofossil shell lying perpendicular to the flow in a fracture produced higher MgO, SiO2 and Al2O3 on its concave side, and shells remained largely unaltered with depleted Mg and Si. The authors conclude that fossils and fracture texture cause heterogeneous alteration that should be considered in core-scale modelling.
+
+## A Case Study for Effective Laboratory Evaluation of Meor Technology in Sulfide Contaminated Mature Oil Fields
+
+- ID: SCA2016-046, year: 2016
+- Authors: Falkowicz S, Launt P
+- Method: laboratory experiment
+- Keywords: MEOR, sulfate reducing bacteria, core flooding, interfacial tension, oil viscosity indexes, cryo-SEM
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-046.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-046)
+
+Core flood, sand pack and fluid tests show a microbial system grows in sulfide-contaminated Grobla fluids and adds 2% to over 10% oil recovery beyond waterflooding.
+
+Hydrogen sulfide limits standard MEOR use in mature fields such as Grobla (Poland), so the authors tested whether a selected microbial system still works there. Tests used reservoir fluids at 35°C under anaerobic conditions: syringe incubations of oil and brine with inoculum, with and without nitrate and molybdate, plus core plug and sand pack floods and cryo-SEM/EDX imaging. Microbial treatment after waterflood gave incremental recovery of 2.5–10.6% in cores (average 5.2%) and 2.3–5.8% in sand packs. Treatment lowered IFT (up to 55.8%), raised brine viscosity and reduced the mobility ratio (lowest M of 1.41 with molybdate). Oil viscosity indexes met the bio-treatability thresholds (EOR 1.18–1.21, DV 0.15–0.17), and cryo-SEM showed bacterial growth and biofilm pore clogging.
+
+## Injectivity and Retention of Nanocellulose Dispersions in Berea Sandstone
+
+- ID: SCA2016-049, year: 2016
+- Authors: Reidun Cecilie Aadland, Katherine R. Aurand, Ole Torsæter, Ellinor Bævre Heggset, Kristin Syverud
+- Method: laboratory experiment
+- Keywords: cellulose nanocrystals, particle mobility coreflooding, polymer retention, permeability impairment, Berea sandstone, low salinity water
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-049.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-049)
+
+Cellulose nanocrystal dispersions were flooded through Berea cores; in low salinity water they propagated with 17-25% permeability loss, but in North Sea water they aggregated and plugged the inlet.
+
+Nanocellulose is proposed as a renewable additive for chemical EOR, but its retention in porous media must be understood. Seven vertical particle mobility coreflooding tests were run on dry Berea sandstone plugs (average about 344 mD, 17.2% porosity) with 0.5 and 1.0 wt.% cellulose nanocrystals (CNC) in low salinity water (0.1 wt.% NaCl) or synthetic North Sea water (3.53% salinity), at 0.3 and 3.0 ml/min. Differential pressure, visual effluent opacity and pre/post-flood permeability were used to judge retention. In low salinity water, CNC was transported through the cores, pressure rose with concentration and with rate, and permeability fell 17-25%. In North Sea water, CNC aggregated and formed a film at the core inlet, pressure reached 3.5 bar (over 20 times the low-rate runs), and permeability fell 61%. Effluent concentrations were only assessed visually, so the rate effect needs confirmation with quantitative measurements.
+
+## Fracture-Matrix Interaction during Polymer Flood
+
+- ID: SCA2016-067, year: 2016
+- Authors: Abdullah F. Alajmi, Meshal K. Algharaib
+- Method: numerical simulation
+- Keywords: polymer flooding, fracture tip, fracture-matrix interaction, mobility ratio, numerical simulation, sweep efficiency
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-067.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-067)
+
+Numerical simulation compares water and polymer floods in a single-fracture system with and without a fracture tip, showing the tip lets polymer retain its sweep advantage downstream.
+
+The paper examines how fracture-matrix interaction affects polymer flood performance in a single fractured porous medium. Numerical simulations compared a full fracture (case A) with a fracture ending in a tip (case B), using a 20:1 fracture-to-matrix permeability contrast (10 D vs 0.5 D). A 3000 ppm polymer solution (10 cp) displaced 60 cp oil, with a 1 cp water flood as the baseline. With a full fracture, both floods broke through early and left large volumes of oil undisplaced, though polymer did somewhat better. With a fracture tip, more oil was displaced; polymer spread across the system downstream of the fracture, while water channeled through the middle. The fracture tip therefore let polymer retain its superiority and produce more oil downstream.
+
+## How Wetting Conditions Dictate Chalk Mechanics at Uni-Axial Strain Conditions – Insights from Experiments Performed at in-Situ Stress, Temperature and Pore Pressure
+
+- ID: SCA2016-068, year: 2016
+- Authors: Jaspreet S. Sachdeva, Anders Nermoen, Merete V. Madland, Reidar I. Korsnes
+- Method: laboratory experiment
+- Keywords: chalk compaction, uni-axial strain, seawater injection, wettability, pore pressure depletion, creep rate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-068.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-068)
+
+Uni-axial strain tests on Kansas chalk saturated with brine, brine-oil mix or oil show oil-saturated chalk is strongest, and seawater injection equalizes creep rates after 2.5 PV.
+
+The study examines how pore fluid composition and wettability control chalk mechanics under reservoir-like uni-axial strain conditions. Three Kansas chalk cores (~39% porosity) were saturated with 100% NaCl brine, 10% brine plus 90% oil, or 100% oil, with the oil-containing cores aged for 3 weeks at 90°C. Tests were run at 130°C with pore pressure depleted from 38 to 15 MPa at constant overburden, followed by creep and seawater injection. The oil-saturated core had twice the yield stress (18.45 vs 8.85 MPa) and 1.4 times the Young's modulus (4.05 vs 2.81 GPa) of the brine core, and the brine core had four times the depletion strain. Seawater injection raised strain rates, most in the oil core (0 to 0.77%/day), and after 2.5 PV all cores converged to about 0.17%/day, with extra side stress needed to keep radial strain zero (6.3 MPa for the oil core).
+
+## Transportation of Nanocellulose Dispersions Through Porous Media
+
+- ID: SCA2017-040, year: 2017
+- Authors: Reidun Cecilie Aadland, Carter Jordan Dziuba, Ellinor Bævre Heggset, Kristin Syverud, Ole Torsæter, Ian D. Gates, Steven Bryant
+- Method: laboratory experiment
+- Keywords: nanocellulose, cellulose nanocrystals, sandpack flooding, retention mechanisms, log-jamming, permeability impairment
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-040)
+
+Sandpack floods with cellulose nanocrystals show salinity-driven aggregation controls retention and permeability loss; small particles adsorb while large aggregates log-jam pore throats.
+
+Nanocellulose is a rod-shaped, renewable nanoparticle proposed as an EOR additive, but its retention mechanisms in porous media were unclear. Single-phase tracer and nanoflood experiments were run in 1-ft unconsolidated silica sandpacks (3 to 284 D) with 0.5 wt% CNC (USDA and AITF), using inline UV-Vis for mass balance and pressure drop for permeability change. Salinity, grain size, particle type and velocity were varied. Higher salinity enlarged aggregates (USDA CNC from 67 nm in DIW-range to 913 nm at 1 wt% NaCl), raising retention from 6.2% (0.1 wt%) to 9.9% (0.3 wt%) and 100% with a filter cake at 1 wt%, with 97.5% permeability reduction. Lower velocity (0.05 cm/min) raised AITF retention to 24% and permeability reduction to 90%, and finer sand increased retention; smaller particles were dominated by adsorption and larger by log-jamming. Heating the sand to char retained cellulose confirmed inlet-concentrated retention at high salinity.
+
+## The Formation of Microemulsion at Flow Conditions in Rock
+
+- ID: SCA2017-041, year: 2017
+- Authors: M. Ruecker, W.-B. Bartels, E. Unsal, S. Berg, N. Brussee, A. Coorn, A. Bonnin
+- Method: digital rock or imaging
+- Keywords: microemulsion, surfactant flooding, synchrotron micro-CT, internal olefin sulfonate, in-situ emulsification, phase behaviour
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-041.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-041)
+
+Fast synchrotron micro-CT of a surfactant flood in Gildehauser sandstone shows in-situ microemulsion formation and oil solubilization within seconds, much faster than in static phase-behaviour tests.
+
+Surfactant flooding relies on microemulsion formation for ultra-low IFT, but microemulsion formation is usually assessed in static tube tests that take about 1 h. The authors waterflooded and then surfactant-flooded a 20 mm by 4 mm Gildehauser sandstone (1 Darcy, porosity 0.2) saturated with n-decane doped with iodo-decane, using a 1% IOS C20-24 formulation at optimum salinity (1.25% NaCl). Fast synchrotron micro-CT at TOMCAT (3 µm voxels, 7 s per scan) tracked grey values as a measure of emulsification. Oil saturation dropped sharply from 40% to 18% in the first scan after surfactant injection began, then slowly to 16% as emulsified oil remained in the core. Equilibrium tube scans gave a middle-phase composition of 53% oil and 47% water. The results indicate emulsification during flow occurs in seconds, consistent with earlier micromodel observations.
+
+## Pore-Scale Observations of the Effect of Surface Treated Nanoparticles on Drainage Processes
+
+- ID: SCA2017-047, year: 2017
+- Authors: Roy Wung, David A. DiCarlo, Steven L. Bryant, Pradeep Bhattad
+- Method: digital rock or imaging
+- Keywords: nanoparticles, micro-CT imaging, drainage displacement, sweep efficiency, residual brine saturation, Boise sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-047.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-047)
+
+Micro-CT imaging of n-octane drainage in Boise sandstone shows silica nanoparticles in the resident brine suppress preferential flow, delay breakthrough and lower residual brine saturation.
+
+Poor sweep from viscous fingering and heterogeneity in non-wetting drainage (gas EOR, CO2 storage) may be mitigated by surface-treated nanoparticles, but the pore-scale mechanism is unclear. n-Octane drained NaI-doped brine, with and without 5 wt% silica nanoparticles, in a 3.8 D Boise sandstone core, with 15.7 µm micro-CT of the middle section in dry, saturated and drained states. With nanoparticles, pressure drop was up to 2.5 times higher, breakthrough was delayed from 0.48 to 0.56 PV, and core-average residual brine saturation fell from 41% to 31%. In the imaged section residual saturation fell from 33% to 19%, and the control profile rose from 25% at the inlet to 41% at the outlet while the nanoparticle profile was low and flat. Grain analysis showed bypassed regions in the control case had finer grains and lower permeability, so nanoparticles diverted flow into them, attributed to armored octane droplets from snap-off blocking pores. Whether an emulsion forms could not be resolved at this resolution.
+
+## EOR by Alkali Flooding in the Vienna Basin: First Experimental Results of Alkali/Mineral Reactions in Reservoir Rocks
+
+- ID: SCA2017-053, year: 2017
+- Authors: Wolfgang Hujer, Verena Leitenmüller, Kenny Walrond
+- Method: laboratory experiment
+- Keywords: alkali-polymer flooding, dedolomitization, brucite precipitation, calcium-silicate cement, SEM-EDX, static autoclave tests
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-053.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-053)
+
+Static autoclave and bottle tests at 60°C show NaOH and KOH strongly dissolve dolomite and Vienna Basin reservoir sandstone, precipitating brucite and calcium-silicates, while carbonates react weakly.
+
+Alkali-polymer flooding is being considered for Vienna Basin reservoirs, but alkali-mineral reactions may dissolve and precipitate minerals and impair injectivity. Nordhorn sandstone, Hauptdolomit and a dolomite-rich reservoir litharenite were exposed to 15 g/L NaOH, KOH, Na2CO3 and K2CO3 in synthetic brine at 60°C (pH 11.3–13.8), in steel autoclaves (26 days, ~10 bar) and plastic bottles (54 days). SEM-EDX showed only weak silica crusts and kaolinite edge dissolution in Nordhorn sandstone, less in bottles than autoclaves. Dolomite reacted strongly with NaOH and KOH, dedolomitizing to brucite and calcite with abundant dissolution pores. Reservoir sandstone with NaOH and KOH showed grain dissolution and calcium-silicate cement bridging pores, while Na2CO3 and K2CO3 caused only minor changes, favouring carbonate alkalis.
+
+## Toward a Mechanistic Understanding of Wettability Alteration in Reservoir Rocks Using Silica Nanoparticles
+
+- ID: SCA2018-021, year: 2018
+- Authors: Saeed Jafari Daghlian Sofla, Lesley Anne James, Yahui Zhang
+- Method: laboratory experiment
+- Keywords: silica nanoparticles, displacement contact angle, wettability alteration, structural disjoining pressure, zeta potential, nanofluid EOR
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-021)
+
+A displacement contact angle method shows silica nanoparticles lower contact angle only on water-wet rocks, and conventional methods overestimate alteration due to pre-adsorbed nanoparticles.
+
+Conventional contact angle tests expose rock to nanoparticle fluid before the oil drop is placed, so nanoparticles are already at the oil-rock interface. The authors introduced a displacement method in which an oil drop equilibrates in nanoparticle-free brine and then 0.15 wt% silica nanofluid (19 nm) displaces the brine. Tests used simple systems (decane, NaCl, calcite/dolomite/quartz) and complex systems (35°API crude, seawater with H+ protected nanoparticles, chalk, carbonate, Berea), in water-wet and oil-wet states. In water-wet cases the displacement method gave smaller reductions than the conventional method (e.g. dolomite 70.8° to 56.3° versus 47.5°). Oil-wet cases showed no significant change with displacement, whereas the conventional method gave 25-42° reductions. Alteration in water-wet conditions is attributed to structural disjoining pressure plus capillary pressure reduction, and it decreased with increasing NaCl salinity on calcite. SEM could not confirm nanoparticle diffusion through oil to the rock surface.
+
+## Rheology-Based Method for Calculating Polymer Inaccessible Pore Volume in Core Flooding Experiments
+
+- ID: SCA2018-026, year: 2018
+- Authors: V. H. S. Ferreira, R. B. Z. L. Moreno
+- Method: laboratory experiment
+- Keywords: inaccessible pore volume, polymer flooding, resistance factor, in-situ viscosity, tracer method, Botucatu sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-026)
+
+A method estimates polymer inaccessible pore volume from in-situ viscosity (RF, RRF) without tracers; it agreed within 11.5% of tracer results in sandstone floods.
+
+Polymer inaccessible pore volume (IAPV) is normally measured with tracer breakthrough, which is difficult with oil present. The authors derive IAPV from in-situ polymer viscosity (RF/RRF), Cannella's shear-rate model and Stavland's viscosity correlation. They ran 16 floods with Flopaam 5115SH in Botucatu sandstone: 8 single-phase with tracer comparison and 8 two-phase at residual oil. Single-phase IAPV averaged 23.5% (tracer) versus 26.2% (rheology), an 11.5% relative difference, with the rheology method noisier. Two-phase IAPV averaged 30.9%, 18% above single-phase, possibly due to higher shear rates and residual oil reduction; temperature, length, back pressure and iron showed no confirmed effect. The method depends on pressure accuracy and is valid only at low-mid shear rates for flexible polymers.
+
+## Numerical Simulation of Nanofluid Injection in Oil Saturated Porous Media with Environmental Applications
+
+- ID: SCA2018-045, year: 2018
+- Authors: Alexandra Sikinioti-Lock, Katerina Terzi, Maria Theodoropoulou, Christos Tsakiroglou
+- Method: numerical simulation
+- Keywords: nZVI, nanoparticle transport, PCE source zone remediation, shrinking-core model, NAPL dissolution, inverse modeling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-045)
+
+A 1-D continuum model of nZVI transport, deposition and reaction with residual PCE in sand is compared with column data, underpredicting remediation efficiency (21% vs 32%).
+
+The paper develops a macroscopic 1-D model for injecting zero-valent iron nanoparticle (nZVI) suspensions into sand containing residual PCE. Attachment/detachment kinetics (ripening/blocking and straining) were estimated by inverse modeling of iron breakthrough curves from a 31 cm sand column (d50 375 µm, porosity 0.44, 86 D). The model adds PCE ganglia dissolution, shrinking-core-derived reaction kinetics and direct nZVI–NAPL reaction, and was tested without further fitting against a PCE source-zone remediation column test. Predicted remediation efficiency was about 21% (Sw final 0.819) versus about 32% measured (0.845), possibly because deposited nZVI reactivity was neglected. Sensitivity analysis showed dissolved-PCE reaction dominates over direct ganglia reaction, and flow velocity, particle size distribution and NAPL solubility matter; remediation is limited to the length where nZVI persists.
+
+## Experimental Investigation of Stability of Silica Nanoparticles at Reservoir Conditions for Enhanced Oil Recovery Applications
+
+- ID: SCA2018-061, year: 2018
+- Authors: Shidong Li, Nanji J. Hadia, Ng Yeap Hung, Hon Chung Lau, Ole Torsæter, Ludger P. Stubbs
+- Method: laboratory experiment
+- Keywords: silica nanoparticles, nanoparticle stability, Turbiscan stability index, enhanced oil recovery, surface modification, high salinity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-061.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-061)
+
+Test-tube screening shows HCl or zwitterionic polymer modification stabilizes silica nanoparticles in 3.8 wt% brine at 70°C; carbonate rocks destabilize unmodified particles, crude oils matter little.
+
+Nanoparticle EOR agents must stay dispersed at reservoir salinity and temperature, but the effects of rock and crude oil on stability were unknown. Fumed silica (FNP), FNP with HCl (pH 2), polymer-modified FNP (FNP-MD) and amide-functionalized colloidal silica (ANP) were tested at 0.1-0.5 wt% in synthetic seawater at 70°C, using visual observation, Turbiscan TSI, DLS size and pH. Unmodified FNP aggregated within two days, while FNP-MD stayed stable beyond 30 days and FNP-HCl delayed aggregation up to 25 days. Carbonate-bearing rocks (limestone, chalk, shale) and dolomite in Berea raised pH toward 7 and destabilized FNP and ANP; FNP-MD was unaffected except by limestone. Seven crude oils and decane had limited, trendless effects, though some crude components migrated into the ANP suspension.
+
+## Screening of EOR potential on the pore scale by statistical and topological means
+
+- ID: SCA2019-011, year: 2019
+- Authors: Holger Ott, Ahmad Kharrat, Mostafa Borji, Thorsten Clemens, Pit Arnold
+- Method: laboratory experiment
+- Keywords: microfluidics, alkaline flooding, Euler characteristic, Lorenz diagram, cluster size distribution, emulsification
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-011)
+
+Glass microfluidic alkaline floods of a high-TAN crude are analyzed with Lorenz diagrams and Euler characteristic, identifying an optimum near 3000 ppm Na2CO3 with emulsification outside it.
+
+Pore-scale screening of alkaline EOR is proposed using statistical and topological descriptors of the residual oil phase. Water floods followed by Na2CO3 floods (200–12000 ppm) of a high-TAN Vienna Basin crude (crude 8) were run in a 2D etched glass micromodel (porosity 0.57, 2.5 D) and imaged optically. Tertiary recovery peaked between 1000 and 3000 ppm and declined at higher and lower concentrations; water-flood recovery averaged 0.43 ± 0.1 and scattered because of the small domain. A cluster-volume-weighted Euler characteristic shifted toward water-wet after alkaline flooding in the optimum range. The Lorenz factor difference ΔL reached 0.12 at optimum, was 0 at 200 ppm, and defined the optimum most sharply. Under flow, emulsification occurred only at low and high alkali concentrations and pinned oil, contrary to test-tube phase behavior, where emulsification increased monotonically.
+
+## An experimental investigation of surface-modified silica nanoparticles in the injection water for enhanced oil recovery
+
+- ID: SCA2019-012, year: 2019
+- Authors: Alberto Bila, Jan Åge Stensen, Ole Torsæter
+- Method: laboratory experiment
+- Keywords: silica nanoparticles, nanofluid flooding, tertiary oil recovery, Berea sandstone, interfacial tension, log-jamming
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-012)
+
+Four polymer-coated silica nanofluids (0.1 wt.% in seawater) injected tertiary in water-wet Berea at 60 °C gave 7–14% OOIP extra oil, via emulsions or log-jamming.
+
+The study tests four polymer-coated silica nanoparticle dispersions (0.1 wt.% in synthetic seawater) as tertiary EOR agents in eight water-wet Berea cores at 60 °C with North Sea crude oil. Waterflood recovered 47–56% OOIP, and nanofluid injection added 7.0–14.1% OOIP, with the smallest particles (NF02-4, 32 nm) performing best. IFT fell only from about 10–11 to 2.9–6.8 mN/m, and Amott water indices of 0.5–0.89 showed only a moderate wettability effect. The small, stable NF02-3 and NF02-4 produced oil-in-water emulsions with little pressure rise and 3–16% permeability loss. The aggregating NF02-6 and NF02-8 formed an inlet filter cake, raised pressure and cut permeability by 20–37%, consistent with log-jamming and flow diversion. Stability tests showed even the best nanofluids settled after about 4 days at 60 °C.
+
+## New laboratory core flooding experimental system for EOR surfactant screening, especially for foam
+
+- ID: SCA2019-031, year: 2019
+- Authors: Xuesong Li, Matthias Appel
+- Method: measurement technique or apparatus
+- Keywords: core flooding automation, foam mobility reduction factor, ASP flooding, surfactant screening, mini core, feedback gas flow control
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-031)
+
+An automated mini-core (1 cm diameter) flooding unit with feedback gas-flow control cuts EOR surfactant screening time by over 90% and reproduces conventional ASP flood results.
+
+Surfactant screening for EOR and foam is limited by the weeks needed for conventional core floods. The authors built the 'Lilliput' unit using 1 cm diameter, 5-17 cm long cores, a plug-and-play rubber-sleeve core holder, a sliding oven, and computer feedback control with inline flow meters that regulates in-situ gas rate. Core mounting takes 5 minutes versus hours to days, and total time per experiment drops from 3-5 days to under 0.5 days. A foam resistance factor test ran four gas/liquid ratio steps unattended, about 16 minutes each, with total in-situ rate within 0.5%. Two ASP floods in Berea sandstone previously run on 30 cm cores were reproduced: additional recovery was 47±5% versus 34±6% PV in experiment A, and 10±5% versus 6.6±6% in B. Apparent ASP viscosities were comparable in A (13-18 vs 16 cp) but higher in the mini core in B (130 vs 80 cp). The results are slightly higher, likely from 2-3 PV of ASP injected instead of 0.4 PV plus polymer, but the system still distinguishes good from poor ASP formulations.
+
+## Pore Structure Impact on Polymer Retention in Carbonate Cores
+
+- ID: SCA2019-059, year: 2019
+- Authors: Abdulkareem M. AlSofi, Jinxun Wang, Abdullah M. Boqmi
+- Method: laboratory experiment
+- Keywords: polymer retention, polyacrylamide, BET surface area, inaccessible pore volume, NMR pore size distribution, carbonate coreflooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-059.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-059)
+
+Coreflood tests on carbonate cores show polyacrylamide retention scales with BET surface area, indicating surface adsorption dominates, while tighter cores have larger inaccessible pore volume.
+
+Polymer retention is a key feasibility concern for polymer flooding, and its controls in carbonates are poorly understood. Reservoir carbonate cores were characterized by XRD, NMR and BET surface area, and polyacrylamide retention was measured by coreflooding at reservoir conditions with effluent concentrations analyzed by TOC. Cores were mainly calcite with minor dolomite, anhydrite and quartz, no clay, and all showed similar bimodal NMR pore size distributions. Dynamic retention ranged from 0.155 to 0.530 mg/g-rock and inaccessible pore volume from 15.2 to 20.9% PV. Retention correlated closely with BET surface area, and tighter cores had greater inaccessible pore volume, indicating physical adsorption as the main mechanism.
+
+## Microscale interactions of EOR chemicals at the crude oil-water interface and their implications for oil recovery
+
+- ID: SCA2019-063, year: 2019
+- Authors: Zuoli Li, Zhenghe Xu, Subhash Ayirala, Abdulkareem AlSofi
+- Method: laboratory experiment
+- Keywords: interfacial shear rheometry, Langmuir trough, droplet coalescence time, amphoteric surfactant, sulfonated polyacrylamide, high salinity brine
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-063.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-063)
+
+Langmuir trough, interfacial rheology and coalescence tests show an amphoteric surfactant softens the crude oil-water interface and speeds coalescence, while a sulfonated polyacrylamide polymer barely interacts.
+
+Conventional EOR chemical evaluation relies on bulk viscosity and interfacial tension, leaving microscale interfacial interactions poorly understood. The authors used a Langmuir trough, an interfacial shear rheometer and a coalescence time apparatus with reservoir crude oil and 57,000 ppm TDS brine. They tested an amphoteric surfactant (2000 ppm) and a sulfonated polyacrylamide polymer (500 ppm). Surfactant sharply reduced interfacial pressure and cut compression energy by about two orders of magnitude, even when polymer was present, whereas polymer had only a slight effect. Interfacial viscous and elastic moduli changed little with either chemical and showed no G'/G" crossover, which is attributed to the low asphaltene content of the crude. Coalescence time rose slightly with polymer and fell substantially with surfactant, indicating the surfactant softens the interfacial film and promotes droplet coalescence for incremental oil.
+
+## Impact of Micro-Emulsion Phase Behavior on Near Wellbore Associated Emulsification Properties during Chemical Enhanced Oil Recovery
+
+- ID: SCA2019-076, year: 2019
+- Authors: Marwah M. Alsinan, Debora Salomon Marques, Hyung T. Kwak, Alhasan B. Fuseni
+- Method: laboratory experiment
+- Keywords: micro-emulsion, Windsor phase behavior, PFG NMR diffusivity, NMR T2, shear thinning viscosity, alpha olefin sulfonate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-076.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-076)
+
+PFG and low-field NMR plus viscosity measurements characterize Windsor Type I, III and II micro-emulsions before and after shearing, showing bi-continuous structure at type III and shear thinning.
+
+Micro-emulsions formed in chemical EOR may be sheared near the wellbore, changing their apparent rheology and displacement efficiency. The authors prepared AOS surfactant micro-emulsions with crude oil and with a dodecane/tetradecane mixture at 95 C, varying NaCl concentration to span Windsor Types I, III and II. They used visual inspection, viscosity, low-field NMR T2 (average and spatial) and pulsed field gradient NMR diffusivity, with shearing by a rotor-stator homogenizer and a micro fluidizer. Before shearing, viscosity showed two peaks at types III and II and thinned with shear near those maxima. Relative diffusivities of oil and water crossed at medium salinity (type III), indicating bi-continuous structure, while divergence at low and high salinity indicated discrete droplets. Shearing reduced droplet size, consistent with shear-thinning behavior.
+
+## Emulsification under different mixing conditions
+
+- ID: SCA2019-088, year: 2019
+- Authors: Pit Arnold, Ahmad Kharrat, Barbara Schnöpf, Holger Ott
+- Method: laboratory experiment
+- Keywords: emulsification, alkaline flooding, surfactant flooding, microfluidics, spinning drop, phase behavior
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-088.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-088)
+
+Compares test-tube, spinning-drop and microfluidic experiments to assess how well each represents emulsification during alkaline and surfactant flooding under different mixing regimes.
+
+Chemical EOR floods such as alkaline or surfactant injection can form emulsion phases in the pore space, which may help or hurt displacement efficiency. Injection-water formulations are usually optimized by phase-behavior tests and core floods, but these involve very different mixing regimes: turbulent macroscopic mixing in test tubes versus laminar mixing at the pore scale. The poster compares classical test-tube experiments, spinning-drop measurements and microfluidic experiments to judge how representative each is of the actual displacement process. Alkaline and surfactant systems are discussed as ideal and non-ideal cases. The abstract gives no quantitative results.
+
+## Material balance and mixing behavior during emulsification of crude oil by using micro-X-ray tomography
+
+- ID: SCA2021-022, year: 2021
+- Authors: Mostafa Borji, Ahmad Kharrat, Holger Ott
+- Method: laboratory experiment
+- Keywords: alkaline flooding, emulsification, micro-CT X-ray attenuation, phase behavior, saponification, mini-core flooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-022)
+
+Micro-CT X-ray attenuation quantifies emulsification of high-TAN crude with sodium carbonate in test tubes and mini-core floods, showing 7500 ppm is optimal and tube tests are representative.
+
+Visual phase behavior tests of crude oil with alkaline solutions can be misleading and do not explain the optimum alkali concentration found in core floods. The authors used micro-CT attenuation to quantify oil and water content and mixing zones in test tubes with a high-TAN Vienna Basin crude (TAN 1.5–1.78) at Na2CO3 concentrations from 0 to 24000 ppm. They also ran CT-monitored tertiary alkaline floods in 5 mm Robuglass sintered glass mini-plugs (porosity 0.35, permeability ~22 D). Incremental tertiary recovery rose monotonically from 0.51 at 200 ppm to 0.89 at 7500 ppm, the same optimum as in the test tubes, where emulsion was minimal, balanced and confined to the original oil-water contact. At 24000 ppm a stable Winsor IV-type emulsion formed in both tubes and pores and stayed stationary even after 25 PV of injection.
+
+## SmartWater synergy with surfactant and polymer: A microscale investigation at crude oil-water interface
+
+- ID: SCA2021-023, year: 2021
+- Authors: Subhash Ayirala, Abdulkareem AlSofi, Zuoli Li, Rubia Mariath, Zhenghe Xu, Ali Yousef
+- Method: laboratory experiment
+- Keywords: SmartWater, interfacial shear rheology, Langmuir trough, interfacial film rigidity, surfactant-polymer flooding, compression energy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-023)
+
+Interfacial shear rheology and Langmuir trough tests show SmartWater, with surfactant and polymer, yields softer, less rigid crude oil-water films than high salinity water, favoring coalescence.
+
+Prior SmartWater-chemical EOR studies were macroscopic, so this work probes microscale synergy at the crude oil/water interface. A reservoir crude oil (TAN 0.47, 1.65 wt% asphaltenes) was tested against high salinity water (57,670 ppm TDS) and SmartWater (5,761 ppm) with 1,000 ppm amphoteric surfactant and/or 500 ppm sulfonated polyacrylamide. Double-wall-ring shear rheology at 70°C showed lower elastic modulus with SmartWater than HSW for brine, polymer and surfactant-polymer, while viscous modulus changed little. Langmuir trough isotherms at 23°C showed lower interfacial pressures with SmartWater in all cases, and surfactant cut interfacial pressure and compression energy by about two orders of magnitude. The consistent trends indicate less rigid films that coalesce more readily, which could improve oil connectivity and mobilization in chemical EOR.
+
+## Developed emulsification in porous media flow
+
+- ID: SCA2021-036, year: 2021
+- Authors: Ahmad Kharrat, Bianca Brandstätter, Mostafa Borji, Gerhard Fritz-Popovski, Oskar Paris, Holger Ott
+- Method: laboratory experiment
+- Keywords: surfactant flooding, microfluidics, emulsification, foam-like emulsion, fluorescence microscopy, SAXS
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-036)
+
+Microfluidic surfactant flooding of decane across 1–5 wt.% NaCl shows oil displaced via a foam-like emulsion with solubilized oil, most strongly solubilized near the 2 wt.% optimum.
+
+The study examines how emulsion phases develop during surfactant flooding in laminar porous-media flow, including conditions away from optimum salinity. Decane was displaced in a 2D glass microfluidic chip (porosity 0.57, 2.5 D, 20 µm depth) by a J13131/2-butanol solution with 1–5 wt.% NaCl, injected at about 1 ft/day for roughly 50 PV. Test-tube phase behavior placed the optimum between 2 and 2.5 wt.% NaCl, and SAXS showed milky phases to be microemulsions with particles above ~10–15 nm. Combined optical and fluorescence microscopy showed drop-traffic flow at the front evolving into a foam-like phase with oil-based lamellae and aqueous compartments. Calibrated fluorescence showed compartment water fractions from below 20% to pure water. Oil is mobilized by film thinning and drainage and by production from dead-end pores via oil films, and near optimum the lamellae are progressively solubilized into a single phase. Remaining oil saturation was lowest at 2 wt.% NaCl.
+
+## Nano-colloid based suspensions and emulsions used as means for enhanced oil recovery
+
+- ID: SCA2022-31, year: 2022
+- Authors: Anastasia Strekla, Christina Ntente, Maria Theodoropoulou, Christos Tsakiroglou
+- Method: laboratory experiment
+- Keywords: Pickering emulsion, iron oxide nanoparticles, polyphenol green synthesis, glass micromodel, secondary imbibition, capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-31)
+
+Polyphenol-coated iron oxide nanoparticle suspensions and Pickering emulsions are tested for EOR in a glass micromodel; the emulsion recovers far more residual oil than the suspensions.
+
+The study tests green-synthesized iron oxide nanoparticles, coated with parsley-leaf polyphenols, as EOR agents. Suspensions at 0.25, 0.5 and 0.75 g/L Fe, and a Pickering n-decane-in-water emulsion, were characterized by DLS, zeta potential, surface and interfacial tension and contact angle. Secondary imbibition at constant rate (0.2 mL/min) followed drainage and primary imbibition for paraffin oil/0.25 M NaCl in a glass-etched pore network, with saturation from image analysis and pressure drop recorded. Suspensions gave capillary-fingering displacement and modest recovery of 6–21% of residual oil, which was better without NaCl in the suspension. The Pickering emulsion produced a frontal displacement with a recovery efficiency of about 81% (final oil saturation 0.085), but with a higher and strongly fluctuating pressure drop, attributed to shear-thinning behavior.
+
+## Study on Adsorption Behavior of a New Type Gemini Surfactant onto Quartz Surface by Molecular Dynamics Method
+
+- ID: SCA2022-64, year: 2022
+- Authors: Weifeng Lyu
+- Method: numerical simulation
+- Keywords: Gemini surfactant, molecular dynamics, quartz surface adsorption, mean square displacement, micelle self-assembly, wettability alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-64.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-64)
+
+Molecular dynamics simulations show a branched quaternary ammonium Gemini surfactant adsorbs on neutral quartz in two layers, with head groups toward the surface and micelles forming in water.
+
+Gemini surfactants have lower CMC and higher surface activity than single-chain surfactants, but their adsorption on rock surfaces is poorly understood. The study uses molecular dynamics to simulate a branched quaternary ammonium Gemini surfactant (Gemini C3) at water-surfactant-quartz interfaces. Snapshots show first-layer molecules adsorbed with head groups facing the neutral quartz surface, while second-layer molecules move into the water and self-assemble into micelles. Relative concentration is higher in the first layer. The surfactant MSD rises between 150 and 500 ps and exceeds that of water after 250 ps, reflecting surfactant movement and layer separation. More water surrounds the head groups, indicating aggregate formation. The results offer guidance for wettability control and rock surface modification in EOR.
+
+## Foam-Assisted Enhanced Oil Recovery: Bridging the Gap between Theory and Practice
+
+- ID: SCA2023-023, year: 2023
+- Authors: Jinesh Machale, Dorcas Annung Akrong, Omid Mohammadzadeh, Ali Telmadarreie, Anand Yethiraj, Lesley Anne James
+- Method: review or workflow
+- Keywords: foam EOR, local equilibrium foam model, surfactant adsorption, foam quality, foam rheology, nanoparticle foam
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-023)
+
+Proposes a workflow for foam-assisted EOR: characterize foam, adsorption, interfacial and rheological properties before coreflooding, and critically examine the local-equilibrium foam model parameters in simulators.
+
+Foam-assisted EOR is hampered by foam coalescence and dry-out under reservoir conditions, which makes its relative permeability behavior resemble waterflooding. The paper reviews foam structure, stability, coarsening, foam quality and the semi-empirical local equilibrium model in CMG-STARS, and proposes a characterization-then-coreflood workflow. Example data for a nanoparticle-based foam (ArmorFoam) show Langmuir-type adsorption on crushed Berea sandstone (about 5% adsorption rate, R² 0.998) and shear-thinning, solid-like viscoelastic behavior (G' > G'') from 25–60°C. Earlier coreflooding with this foam recovered 13.2–24% additional oil over waterflooding, with pressure-drop abnormalities attributed to coalescence and dry-out. The authors argue that the simulator F-parameters should be tied to physical measurements rather than tuned mathematically.
+
+## Correlating the rheological properties of Pickering emulsions with the enhanced oil recovery in porous media
+
+- ID: SCA2023-051, year: 2023
+- Authors: Anastasia Strekal, Christina Ntente, Maria Theodoropoulou, Christos Tsakiroglou
+- Method: laboratory experiment
+- Keywords: Pickering emulsions, iron oxide nanoparticles, emulsion rheology, non-Newtonian flow in porous media, enhanced oil recovery, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-051.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-051)
+
+Iron oxide nanoparticle-stabilized Pickering emulsions are characterized rheologically and tested for residual oil displacement in a glass pore network, sandpack and Bentheimer core, correlating EOR efficiency with rheology.
+
+The study addresses using Pickering emulsions as enhanced oil recovery agents and how their rheology relates to oil displacement in porous media. Iron oxide nanoparticles were synthesized using plant-leaf polyphenol extracts with ferric chloride, and emulsions were made with n-alkanes at a 2:1 ratio using an ultrasound probe. Shear viscosity, loss and storage moduli were measured on a stress rheometer, and stability was checked by phase separation and dynamic light scattering drop size. Secondary imbibition displacement tests at constant flow rate were run in a glass-etched pore network, a sandpack and a Bentheimer sandstone plug after primary drainage and imbibition. Saturation and pressure drop transients were recorded, and EOR efficiency and pressure drop were correlated with pore-space morphology, viscosity parameters and visco-elastic properties.
+
+## Foam Assisted Cyclic Solvent Injection in Heterogeneous Reservoirs
+
+- ID: SCA2024_1012, year: 2024
+- Authors: Sahand Etemad, Jihua Dong, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: cyclic solvent injection, CNC foam, post-CHOPS, wormholes, heavy oil recovery, CO2 storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1012)
+
+Sandpack experiments show CNC-stabilized foam slugs added to CO2/propane cyclic solvent injection plug wormholes and add 8-14 %OOIP recovery in post-CHOPS heavy oil models.
+
+Post-CHOPS heavy oil reservoirs leave 85-95% of OOIP behind and contain high-permeability wormholes that channel injected fluids. Eight dry-packed sandpacks (about 37% porosity, 500 cc pore volume) with centered 0.5" or 1" wormholes were saturated with 16,000 mPa·s oil and subjected to primary depletion, three CSI cycles with 70/30 CO2/propane, and three foam-assisted CSI cycles using N2 foam (90% quality, 1 wt% CNC + 0.1 wt% DTAB). Primary depletion gave under 6% OOIP and the first CSI 5-14%, while the third CSI gave only 1-5%. FA-CSI cycles added 8-14 %OOIP, reaching cumulative recoveries of 35-40 %OOIP, with larger wormholes giving higher pressure build-ups and recoveries. Solvent followed by foam outperformed foam followed by solvent. Dean-Stark profiles showed residual oil of 10.9-14.5% in the matrix against 8.2% in the wormhole, and stored gas depended on pore volume rather than wormhole size.
+
+## Assessment of magnetic nanodroplets propagation in porous media via effluent analysis
+
+- ID: SCA2024_1042, year: 2024
+- Authors: Seyedeh Hannaneh Ahmadi, Boxin Ding, Seyed Emad Siadatifar, Steven Bryant, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: Pickering nanoemulsion, iron oxide nanoparticles, sandpack flooding, effluent analysis, magnetic susceptibility, X-ray CT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1042.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1042)
+
+Sandpack floods of Pickering nanoemulsions stabilized by polymer-coated Fe3O4 nanoparticles show that a 4:1 polymer-to-nanoparticle ratio gives the most stable transport with minimal retention.
+
+Magnetic Pickering nanoemulsions are proposed for fracture characterization, but their stability and transport in porous media must be confirmed. Iron oxide nanoparticles were coated with PSS-co-MA at polymer-to-particle ratios of 4:1, 2:1 and 0.5:1 and used to stabilize 10 v/v% n-dodecane nanoemulsions. Each was injected (2 PV, then 5 PV chase water, 0.5 mL/min) into a 15 cm silica sandpack of about 3800–5900 mD. Effluents were analyzed by DLS, ICP and magnetic susceptibility, and pressure drop and CT density profiles were recorded. The 4:1 ratio showed a lower and steadier pressure drop during the water chase, effluent concentration matching the injected baseline, and CT density returning nearly to water density. The 0.5:1 and 2:1 ratios showed about double the stabilized pressure drop, smaller effluent droplets and trapped droplets, consistent with coating detachment and retention.
+
+## Investigating the Effect of Chemical Gradient in Polymer Flooding
+
+- ID: SCA2024_1044, year: 2024
+- Authors: Rawan Alkandari, Mahmoud Ali, Meshal Algharaib, Abdullah Alajmi
+- Method: laboratory experiment
+- Keywords: polymer retention, HPAM polymer flooding, chemical potential gradient, shut-in period, Berea sandstone core flood, polymer desorption
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1044)
+
+Berea core floods with HPAM polymer, followed by brine injection after shut-ins, show chemical-gradient-driven polymer release that depends on shut-in time, concentration and temperature; initial washout releases over 50%.
+
+Polymer retention in porous media may be partly reversible through a chemical potential gradient between retained polymer and polymer-free injected water. Three Berea sandstone core floods (45-62 md, ~17% porosity) used Flopaam 3630S at 3000 ppm (ambient), 3000 ppm (70°C) and 1500 ppm (ambient), followed by 5000 ppm NaCl washout. Cores were then shut in for 1, 7, 14 and 21 days with water injected at 1 and 4 cc/min after each, and effluent polymer was measured by UV spectrometry with retention from mass balance. At ambient temperature with 3000 ppm, retention fell from 107.46 to 92 mg/100 g, with the initial washout giving about 64% of total release. Heating to 70°C cut retention after the polymer flood to 47.84 mg/100 g and kept release going through 21 days (about 31.2 mg/100 g released versus 15.46 at ambient). The 1500 ppm case released 8.14 mg/100 g and was less sensitive to shut-in time; injection rate effects were inconclusive.
+
+## A Comprehensive Study on Nanoparticle–Surfactant Solutions for Foam-assisted Enhanced Oil Recovery: In-Depth Understanding via High Pressure Micromodel Visualization Experiments
+
+- ID: SCA2024_1063, year: 2024
+- Authors: Jinesh Machale, Farzan Sahari Moghaddam, Maziyar Mahmoodi, Ali Telmadarreie, Lesley Anne James
+- Method: laboratory experiment
+- Keywords: foam-assisted EOR, nanoparticle–surfactant foam, micromodel visualization, high-pressure visualization cell, dual-permeability heterogeneity, foam stability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1063.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1063)
+
+High-pressure micromodel flooding compares a nanoparticle–surfactant foam with alpha-olefin sulfonate foam; the nanoparticle foam is more stable and diverts flow to low-permeability zones, though recovers less oil.
+
+Foam stability and pore-scale behavior are hard to observe in core floods, so the authors used a high-pressure visualization cell with single- and dual-permeability micromodels (30°C, 17,237 kPa, Hibernia crude, 35,000 mg/L brine). Sequential nitrogen flooding, ex-situ foam injection and second gas flooding were run with a customized nanoparticle–surfactant solution and a commercial alpha-olefin sulfonate, with image analysis in LabVIEW. In the single-permeability model foam recovered an additional 49.2% (alpha-olefin sulfonate) and 37.7% (nanoparticle–surfactant) of oil after gas recovered about 20–29%. The alpha-olefin sulfonate foam showed irregular ΔP, oil-induced destabilization and gas breakthrough, whereas the nanoparticle foam kept ΔP near 200 kPa. In the dual-permeability model the nanoparticle foam blocked the high-permeability zone and improved sweep of the low-permeability zone, even though total recovery was lower than for alpha-olefin sulfonate.
+
+## The Role of Interfacial Tension in Nanobubble-Enhanced Oil Recovery
+
+- ID: SCA_2025_1083, year: 2025
+- Authors: Ahmed Taman, Jan Kubelka, Mohammad Piri
+- Method: laboratory experiment
+- Keywords: nanobubbles, interfacial tension, micromodel flooding, capillary number, oil-wet porous media, Euler number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1083.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1083)
+
+Elevated-pressure micromodel floods show nitrogen nanobubble solutions beat distilled water in oil-wet media, with gains tied to IFT reduction, largest for higher-IFT oils.
+
+The study examines whether interfacial tension reduction explains enhanced oil displacement by nitrogen nanobubble solutions. Glass micromodel floods at 200 psi in a silanized, strongly oil-wet network (contact angle ~151°) used soltrol-170, crude oil and decane, with distilled water as control (12 tests). Nanobubbles (median 86 nm, 1.8×10^8 bubbles/mL) raised recovery from 41.3% to 65% for soltrol-170, 79% to 85% for crude, and 71.6% to 82% for decane, and delayed breakthrough. Captive-drop IFT dropped about 12%, 6% and 18% respectively, and nanobubbles raised capillary number and lowered residual oil saturation. Residual oil ganglia were smaller and oil connectivity (Euler number) higher with nanobubbles.
+
+## A Molecular Simulation–Machine Learning Framework for Designing Chemical Flooding Agents with Ultralow Oil–Water Interfacial Tension
+
+- ID: SCA2026-034, year: 2026
+- Authors: Weifeng LV, Songjun LIU, Qun ZHANG, Minghui ZHOU, Jia HUANG
+- Method: numerical simulation
+- Keywords: interfacial tension, surfactant flooding, Deep Potential molecular dynamics, D-MPNN XGBoost, active learning uncertainty, chemical EOR
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-034.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-034)
+
+Couples Deep Potential molecular dynamics with a D-MPNN+XGBoost model to screen surfactants for ultralow IFT; a predicted candidate was measured within 3.3% of prediction.
+
+The paper addresses the slow, trial-and-error design of surfactants for chemical EOR by linking molecular simulation with machine learning. A database of 122 surfactants and 1,268 curated literature IFT records trained a D-MPNN+XGBoost model, while Deep Potential MD (DFT-trained, force RMSE ~18.7 meV/Å) described interfacial adsorption. Ten-fold cross-validation gave RMSE 0.08 mN/m and R² 0.94, better than D-MPNN alone (0.15 mN/m, 0.81), RF or SVR variants. For a sandstone case (343 K, 2.4×10⁴ mg/L), a long-chain alcohol ether carboxylate was predicted at 5.8×10⁻³ mN/m and measured at 6.0×10⁻³ mN/m (3.3% error). Monte Carlo dropout uncertainty and active learning reduced extrapolation-region error by 35% after three rounds; core-flood validation is proposed as future work.

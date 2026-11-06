@@ -1,0 +1,694 @@
+# Gas condensate and trapped gas
+
+> 53 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: gas saturation, gas condensate, relative permeability, depletion, depressurisation, critical gas, sgr, trapped, flow, residual gas.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Capillary End Effects and Gas Production from Low Permeability Formations
+
+- ID: SCA2005-26, year: 2005
+- Authors: Richard Christiansen, Carolina Mayoral, Carlos Pereira
+- Method: numerical simulation
+- Keywords: water block, capillary end effect, low permeability gas, hydraulic fracturing leakoff, Brooks-Corey relative permeability, liquid loading
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-26)
+
+Simulations with 1D in-house and commercial reservoir models show water blocks from fracturing leakoff and imbibition cut gas production in low permeability formations by up to about 30%.
+
+Water that leaks off during hydraulic fracturing or imbibes from liquid-loaded wells can form water blocks that impair gas productivity in low permeability formations. The authors used an in-house 1D incompressible simulator with capillary end effects (Bentsen-Anli capillary pressure, Brooks-Corey relative permeability) and the Eclipse 100 commercial simulator with radial and Cartesian fractured models, including a water vaporization workaround. In the 1D base case the flow-rate ratio peaks near 0.7 after five days and then declines slowly. It falls with lower drawdown, higher gas exponent (ng=4 gives a maximum ratio of 0.5), higher Pcs and deeper invasion. In radial-model results, 15-year cumulative gas loss was 32%, 20% and 5% for 0.1, 1 and 10 md. Loss rose with Brooks-Corey exponents (5–27%), and vaporization reduced loss from 24% to 20%. Capillary-driven flow is estimated to equal or exceed the mobility term in low permeability rock.
+
+## Laboratory Measurement of the Residual Gas Saturation
+
+- ID: SCA1991-23EURO, year: 1991
+- Authors: Jean DELCLAUD
+- Method: laboratory experiment
+- Keywords: residual gas saturation, gas trapping, trapped gas diffusion, spontaneous imbibition, waterflooding, Land correlation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-23EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-23EURO)
+
+Compares waterflood and capillary-rise methods for residual gas saturation in poorly consolidated sandstones, showing trapped-gas diffusion matters at ambient but not reservoir conditions, and proposes simplified procedures.
+
+Residual gas saturation (Sgr) behind a water front was measured for a North Sea gas field using unconsolidated to poorly consolidated sandstones and Berea samples. Waterflood experiments at ambient and reservoir conditions (156 bar, 60°C) and spontaneous capillary-rise imbibition tests were cross-checked. Sgr was independent of core length (27-56 cm), injection rate and surface tension, but strongly dependent on connate water saturation, consistent with Land's relation. Waterflood and imbibition Sgr agreed (27.0% vs 26.8% PV), and laboratory values matched openhole resistivity log data. Trapped gas diffusion during imbibition at ambient conditions reduced gas saturation from 33% to 2.6% in 90 days, scaled as 1/sqrt(P), was disturbed by liquid flow, and was negligible at reservoir conditions. The author recommends waterflooding after 1-2 pore volumes or imbibition before the diffusion period.
+
+## Distribution of Trapped Gas Saturation in Heterogeneous Sandstone Reservoirs
+
+- ID: SCA2001-14, year: 2001
+- Authors: SUZANNE Karine, HAMON Gérald, BILLIOTTE Joël, TROCME Vincent
+- Method: laboratory experiment
+- Keywords: maximum residual gas saturation, spontaneous imbibition, Fontainebleau sandstone, clay content, gas trapping, porosity trends
+- Cited by 6 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-14)
+
+About 360 spontaneous imbibition measurements on reservoir and Fontainebleau sandstones show maximum trapped gas saturation is controlled by porosity and clay content, with clay lowering Sgrm.
+
+Maximum residual gas saturation (Sgrm) is key for estimating gas recovery under aquifer invasion, but it varies strongly in heterogeneous reservoirs. About 360 plugs from three gas reservoirs (two Far East, one West Africa) and Fontainebleau outcrops were measured by spontaneous imbibition of Isopar L into dry samples, with porosity, permeability, formation factor, XRD and thin sections. Sgrm ranged from 5 to 85% over porosities of 6 to 24%. Below about 14% porosity, Sgrm increases with decreasing porosity for clay-free Fontainebleau but decreases for shaly reservoir sandstones, and the trends merge near 25% at higher porosity. Regressions showed that porosity and clay content control Sgrm (R² about 0.70), with more clay giving lower Sgrm. No relation was found with clay type, grain density, formation factor or cementation factor.
+
+## Depressurization Under Tertiary Conditions in the Near-Wellbore Region: Experiments, Visualization and Radial Flow Simulations
+
+- ID: SCA2003-15, year: 2003
+- Authors: P. Egermann, S. Banini, O. Vizika
+- Method: laboratory experiment
+- Keywords: depressurization, critical gas saturation, gas relative permeability, tertiary conditions, micromodel visualization, radial flow simulation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-15)
+
+Core, micromodel and radial simulations show tertiary depressurization gives lower gas relative permeability than secondary, and Sgc varies with distance from the wellbore.
+
+The paper studies solution-gas depressurization of waterflood residual oil in the near-wellbore region. Two coreflood experiments on Vosges sandstone (58 mD, C1C7 oil, brine injected at 30 cc/h while outlet pressure dropped below the 21 bar bubble point) were monitored by CT saturation profiles and history-matched with a depletion code to obtain Sgc and krg. Incremental oil of 35-42% OOIP was produced, and krg under tertiary conditions was around 1e-4, lower than under secondary conditions and consistent with literature. Micromodel visualization showed a double connection process (oil ganglia reconnection and gas connection) explaining the low krg. A radial numerical experiment gave Sgc of 26% near the outlet falling to 20% at the gas front, versus a uniform 24% in linear flow.
+
+## Gas Phase Relative Permeability Characterization on Tight Gas Samples
+
+- ID: SCA2011-13, year: 2011
+- Authors: Y. Wang, Z. Chen, V. Morah, R. J. Knabe, M. Appel
+- Method: laboratory experiment
+- Keywords: gas relative permeability, pressure falloff, tight gas, Corey exponent, evaporation method, Klinkenberg slip factor
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-13)
+
+A toluene evaporation plus nitrogen pressure-falloff method measures gas relative permeability on tight cores quickly; about 30 cores fit Corey exponents of ~2 (drainage) and ~3 (imbibition).
+
+Gas relative permeability in tight gas cores is hard to measure with steady-state methods because they are slow and uncertain. The authors vary toluene saturation (mimicking water) by evaporation, determine it by mass balance, and measure nitrogen effective permeability with an unsteady-state pressure falloff technique. About 30 plugs from Wyoming and the North Sea (kabs 0.0006–0.3 mD, porosity 3–12%) were tested for drainage and imbibition, and the curves follow Corey models with exponents of ~2 for drainage and ~3 for imbibition. Critical gas saturation is uncertain (±0.05 at ~0.01 mD, ±0.10 at ~0.001 mD). Numerical history matching shows single-phase interpretation holds for Sw ≤ 0.5, while at Sw ≥ 0.6 mobile liquid and capillary end effects raise uncertainty. The slip factor b was lower at Sw = 0.2 (102 psi) than for the dry core (141 psi), which affects the fitted Sgc.
+
+## Residual Gas Saturation of Sample Originally at Residual Water Saturation in Heterogeneous Sandstone Reservoirs
+
+- ID: SCA2003-14, year: 2003
+- Authors: SUZANNE Karine, HAMON Gérald, BILLIOTTE Joël, TROCME Vincent
+- Method: laboratory experiment
+- Keywords: residual gas saturation, Land's law, spontaneous imbibition, controlled evaporation, irreducible water saturation, NMR clay bound water
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-14)
+
+Sixty sandstone samples show residual gas saturation at irreducible water equals maximum trapped gas saturation, controlled by rock quality rather than Swir, so Land's law extrapolation is invalid.
+
+Residual gas saturation at irreducible water saturation (Sgr@Swir) was studied on sixty sandstone samples from two Far East gas reservoirs and Fontainebleau outcrops (porosity 0.06-0.25, permeability 0.1-3000 mD). Initial gas saturation was set by controlled evaporation of Isopar L, followed by spontaneous imbibition. NMR and CT scans showed homogeneous fluid distribution after evaporation, and Sgr-Sgi curves matched capillary desorption results on eight samples. Sgr@Swir ranged 0.05-0.75, was close to SgrM regardless of Swir, and showed the same opposite porosity trends, linked to clay-bound water, microporosity and pore size. Land's law applied to estimate Sgr@Swir gave a mean error near 0.04 and maximum near 0.08, so taking SgrM as Sgr@Swir is the better estimate.
+
+## Mobilisation of Trapped Gas from Below the Gas-Water Contact
+
+- ID: SCA2004-29, year: 2004
+- Authors: A. Cable, D. Mogford, M. Wannell
+- Method: laboratory experiment
+- Keywords: trapped gas saturation, depressurisation, critical gas saturation, in-situ saturation monitoring, gas-brine relative permeability, filamentous illite
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-29)
+
+Depressurisation of a 3 mD reservoir core composite with trapped gas at 117 barg showed gas mobilised after only 6-7% expansion, with extremely low relative permeabilities.
+
+Gas fields in the East Irish Sea have a residual gas leg below the contact, and no gas flowed in field tests. A 32 cm four-plug composite (about 3.2 mD, 20.4% porosity) was taken to Swi of 0.29 PV and waterflooded at about 0.5 ft/day to trapped gas saturations of 0.47 and 0.41 PV at 117 barg. Two depressurisation experiments were monitored with in-situ saturation monitoring (ISSM). Critical gas saturation was only 0.03 PV above Sgt (6-7% expansion), and the first experiment recovered 70% of trapped gas when depressurised from 117 to 34 barg. Steady-state tests gave gas and brine relative permeabilities of about 0.01 where krg/krw=1, and the curves were history-matched by core flood simulation. Clay sensitivity (filamentous illite) and an effective gas permeability at Swi (6.64 mD) about twice the brine permeability were noted.
+
+## Measurement of Relevant Gas Condensate Relative Permeability Data for Well Deliverability Predictions for a Deep Marine Sandstone Reservoir
+
+- ID: SCA2003-33, year: 2003
+- Authors: P. Ayyalasomayajula, N. Silpngarmlers, J. Berroteran, J. Sheffield, J. Kamath
+- Method: laboratory experiment
+- Keywords: gas condensate relative permeability, capillary number, krg/kro, well deliverability, steady-state coreflood, condensate blockage
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-33)
+
+Steady-state gas condensate corefloods on four deep marine sandstones give krg as a function of krg/kro and capillary number, and the data significantly reduce simulated well productivity.
+
+Well deliverability in gas condensate reservoirs depends on krg = f(krg/kro, Nc), for which little published data exist. Steady-state corefloods were run at 120°F on four Miocene sandstone samples (3 to 51 mD) using a three-component synthetic gas condensate designed to match the reservoir fluid's relative oil volume and viscosity ratio, covering krg/kro from 1 to 50 at several capillary numbers. Krg was found to be independent of absolute permeability at a given krg/kro, attributed to similar pore throat size distributions, and was lower than published North Sea data for a 20 mD rock. Coreflood simulations with mercury-injection capillary pressure showed negligible capillary end effects. Single-well compositional simulations with the measured data showed a significant productivity index decline from condensate blockage, with a sharp initial drop followed by gradual decline.
+
+## Effect of Capillary, Viscous and Gravity Forces on Gas Condensate Mobility
+
+- ID: SCA2002-24, year: 2002
+- Authors: F. Kalaydjian
+- Method: theory or analytical model
+- Keywords: gas condensate relative permeability, capillary number, Bond number, fractal pore structure, critical condensate saturation, spreading coefficient
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-24)
+
+A fractal capillary-bundle model predicts gas-condensate relative permeability and critical condensate saturation from capillary and Bond numbers, matching literature data without adjustable parameters.
+
+Gas-condensate relative permeability and critical condensate saturation depend on interfacial tension, flow rate, gravity, wetting and pore structure, which simulators capture poorly. The authors model the pore space as a bundle of capillary tubes with fractal cross-section (fractal dimension DL) and use a Dullien-type capillary number CA that includes pore size. A threshold condensate saturation Stc, below which flow is capillary dominated, is derived as a function of CA and DL. Kr curves straighten as CA increases, and the model reproduces published near-critical data (Schechter and Haynes, Clashach sandstone, CA 12-400, DL=1.65; Bardon and Longeron, Fontainebleau sandstone, CA 2.5-168, DL=1.3). A Bond number-based expression gives the critical condensate saturation for spreading and non-spreading condensate. Trapping increases with fractal dimension and with decreasing spreading coefficient.
+
+## A New Method to Determine Critical Gas Saturation and Relative Permeability During Depressurization in the Near-Wellbore Region
+
+- ID: SCA2000-36, year: 2000
+- Authors: P. Egermann, O. Vizika
+- Method: laboratory experiment
+- Keywords: critical gas saturation, solution gas drive, depressurization, CT scanner saturation, gas relative permeability, history matching
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-36)
+
+Dynamic drawdown corefloods with CT gas saturation monitoring and history matching give near-wellbore Sgc and Kr; solution-gas Krg is orders of magnitude below gas-injection values.
+
+Near-wellbore depressurization is studied by injecting undersaturated C1/C7 oil at 70 cc/h through a 38 cm Palatinat sandstone core (3.2 mD) while lowering outlet pressure below the bubble point, with CT-scanner gas saturation profiles and pressure records. Four experiments were run, two fully oil saturated and two at irreducible water (Swi 48-50%), with different drawdowns. History matching with a standard simulator (Exp 1) and an in-house nucleation-diffusion code with bubble mobilization criteria gave Kr and Sgc. Exp 1 showed bubble connection with a saturation jump of 24% equal to Sgc. Lower drawdown or higher gradient (Exps 2-4) showed dispersed bubble mobilization with a threshold pressure of 0.17 bar. Solution-gas Kro is higher and Krg several orders of magnitude lower than gas-injection curves. Sgc from an equivalent depletion rate of 6.6 bar/h extrapolates to 22%, close to the measured 24%.
+
+## Experimental Techniques for the Measurement of Relative Permeability and in-Situ Saturation in Gas Condensate Near Well Bore and Drainage Studies
+
+- ID: SCA1999-28, year: 1999
+- Authors: Andrew Cable, Robert Mott, Mike Spearing
+- Method: measurement technique or apparatus
+- Keywords: gas condensate relative permeability, capillary number, pseudo steady-state method, x-ray saturation monitoring, non-Darcy flow, condensate drainage
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-28)
+
+Describes a pseudo steady-state high-rate gas condensate relative permeability method and x-ray in-situ saturation technique, showing mobility rises with capillary number and condensate drainage occurs in a long core.
+
+Condensate banking reduces gas well deliverability, but high capillary number near the well may improve mobility. The authors applied a pseudo steady-state method (Fevang and Whitson) to a North Sea sandstone core (102 md brine permeability) with a 5-component synthetic fluid at reservoir pressure and temperature, measuring krg versus krg/kro at rates above 10 L/h. Single-phase tests showed non-Darcy flow (b = 4.8e8 1/m, 69 md), while two-phase tests at 170-224 bara showed differential pressure falling disproportionately with rate, i.e. mobility increasing with capillary number. Steady state was reached in under 0.5 hour, though large fluid volumes (5-10 L) are needed. An x-ray scanner was commissioned in a long vertical Clashach core condensate drainage test with iodo-decane dopant, revealing drainage and an outlet condensate bank over 16 days that PVT-cell volumes missed. Predicted undoped 2-phase saturation accuracy is about 2% PV.
+
+## Relative Permeabilities for the Production of Solution Gas from Waterflood Residual Oil
+
+- ID: SCA1998-17, year: 1998
+- Authors: C.A. Grattoni, R.I. Hawes, R.A. Dawe
+- Method: laboratory experiment
+- Keywords: solution gas drive, gas relative permeability, critical gas saturation, waterflood residual oil, glass micromodel, depressurisation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-17)
+
+Heating-driven solution gas release in a beadpack gave gas and water relative permeabilities far below Corey predictions; micromodels show unstable, intermittent gas filaments as the cause.
+
+Gas relative permeability after critical gas saturation is poorly known for depressurisation of waterflooded reservoirs. Gas was released by heating pentane dissolved in heavy paraffin in a water-wet glass beadpack (6 D, 38.4 cm3 pore volume) at residual oil, with a 2 °C/hr heating rate. Gas became mobile at about 10% saturation and rose to 23%. Water relative permeabilities were of order 10^-2 and gas values 10^-5 to 10^-3, up to an order of magnitude below a renormalised Corey curve, consistent with Fishlock et al.'s core depressurisation data. Micromodel videos showed gas filaments repeatedly rupturing, being invaded by water and reforming, reducing effective flow area; network models would need algorithms for this cycle.
+
+## Water-Gas Imbibition Relative Permeability: Literature Review, Direct versus Indirect Methods and Experimental Recommendations
+
+- ID: SCA2022-24, year: 2022
+- Authors: Fabrice Pairoys, Cyril Caubit
+- Method: laboratory experiment
+- Keywords: residual gas saturation, Brooks-Corey, Land hysteresis model, water-gas imbibition relative permeability, steady-state simulation, porous plate capillary pressure
+- Cited by 1 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-24)
+
+Reviews residual gas saturation and shows a Brooks-Corey plus Land approach matches measured water-gas imbibition endpoints in sandstone, while simulations show steady-state imbibition Kr is impractical in water-wet rock.
+
+Gas displacement by water in aquifer-driven gas reservoirs is controlled mainly by residual gas saturation Sgr and the water endpoint Krw at Sgr rather than curve shape. The paper reviews Sgr measurement methods and the effects of Sgi, porosity, clay, rate, and wettability on Sgr. Seven clean sandstone RT1 plugs (porosity ~23%, 143-602 mD) underwent N2/brine porous-plate drainage and low-rate waterfloods at 3145 psi confining pressure. Brooks-Corey (λ=0.476) with Land's C=3.2 gave Krw Max of 0.142 versus 0.145 measured on average, and Sgr by material balance agreed with Dean-Stark within ±1 s.u. CYDAR 1D simulations of steady-state tests showed more than 50% of the gas is produced at the first fractional flow, dP is very low, and Kr points are only definable for 0.585<Sw<0.798, so full steady-state curves are impractical in strongly water-wet rock.
+
+## A joint methodical case study for understanding severe formation clogginging processes within a highly utilized geothermal reservoir in the Pannonian Basin of Hungary
+
+- ID: SCA2024_1014, year: 2024
+- Authors: Rita Mwendia Njeru, Matthias Halisch, Arne Jacob, Andreas Weber, Péter Koroncz, Ferenc Fedor, János Szanyi
+- Method: digital rock or imaging
+- Keywords: formation clogging, geothermal reinjection, micro-CT, digital rock clogging simulation, core flooding, pore throat size
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1014)
+
+Core-flooding clogging tests, micro-CT and GeoDict pore-scale simulations on natural and artificial Dunántúl sandstone show natural samples clog irreversibly and shallowly, while artificial ones recover.
+
+Reinjection wells in the Dunántúl Group geothermal sandstone of the Pannonian Basin clog quickly, and little is known of the pore-scale causes. Natural cores (27-31% porosity, 60-400 mD) and artificial cemented-sand proxies (30% porosity, ~320-370 mD) were flooded with a 0.2% calcium metasilicate suspension (10-17 µm) in 2% KCl at 4 ml/min. Pressure-drop impedance J(tD) showed stepwise, unrecovered permeability loss in natural samples, whereas artificial samples clogged initially and then regained permeability, suggesting grain rearrangement or cement dissolution. Post-test micro-CT porosity profiles showed deep infiltration (about two-thirds of length) in artificial samples but shallow infiltration (about 4-10 mm) in natural ones. GeoDict simulations reproduced this: artificial samples clogged a few dominant flow paths 1-1.5 mm deep with a flow velocity drop of a factor of 7, while natural samples clogged homogeneously within about 0.5 mm of the inlet.
+
+## Development of in-Situ Measurements to Determine Reservoir Condition Critical Gas Saturations During Depressurisation
+
+- ID: SCA2000-37, year: 2000
+- Authors: Peter Naylor, David Mogford, Robert Smith
+- Method: measurement technique or apparatus
+- Keywords: critical gas saturation, depressurisation, gamma-ray tracer saturation, volatile oil, reservoir condition coreflood, tracer adsorption
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-37)
+
+Describes reservoir-condition depressurisation coreflood methods using gamma tracers, a PTFE/aluminium sleeve and liquid-piston cell to measure in-situ three-phase saturations and critical gas saturations (0.03–0.21).
+
+Depressurisation of volatile, CO2-rich oils (up to 22 mole%) was studied in four reservoir-condition coreflood experiments (Miller sandstone, South Brae conglomerate) at up to 415 bara and 123°C, with depressurisation durations from 5 to 141 days. Three-phase in-situ saturations were measured using gamma-emitting tracers: Fe-59 ferrocene in the oil, and Cs-137 CsCl in the brine after Co-58 cobalticyanide failed through corrosion and precipitation. Cs-137 adsorption (equivalent to brine saturation 0.11 to 1.83) required a revised flooding protocol and gamma-attenuation porosity measurements for calibration. Leak rates as low as 0.008 mL/day were achieved with a PTFE/aluminium core sleeve, and a fluorinated liquid (Flutec PP9) acted as a liquid piston in the visual cell. Critical gas saturations were 0.03 to 0.21 (about 0.025 in Experiment 4), and distributed saturation data reduced uncertainty in fitted relative permeabilities.
+
+## Trapped Versus Initial Gas Saturation Trends from a Single Core Test
+
+- ID: SCA2003-22, year: 2003
+- Authors: Dan Maloney, David Zornes
+- Method: laboratory experiment
+- Keywords: trapped gas saturation, Land correlation, x-ray saturation profiling, live fluid depressurization, chalk, gas evolution
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-22)
+
+In situ x-ray saturation profiles in a single chalk core test give trapped versus initial gas saturation trends matching the Land Correlation.
+
+Defining trapped versus initial gas saturation normally needs many tests with different initial gas saturations. Five tests on water-wet chalk cores (34-38% porosity, 1-7 mD) were run: four with live-fluid depressurization at 121-130 °C to evolve gas, and a fifth gas-then-brine flood at 79 °C. X-ray linear scans gave in situ saturation profiles in the last two tests. Non-uniform gas profiles supplied a range of initial saturations, and pairing initial and final saturations by position gave a trend well fit by the Land Correlation (Swr about 0.25). Depressurization and gas-injection data fell on the same trend, bulk results agreed with it, and gas appeared only more than 2 MPa below the PVT bubble point.
+
+## Comparison of Gas-Condensate Relative Permeability Using Live Fluid vs. Model Fluids
+
+- ID: SCA2004-09, year: 2004
+- Authors: N. R. Nagarajan, M. M. Honarpour, K. Sampath
+- Method: laboratory experiment
+- Keywords: gas-condensate relative permeability, live reservoir fluid, steady-state method, critical condensate saturation, model fluids, initial water saturation
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-09)
+
+Steady-state gas-condensate relative permeability tests in sandstone and carbonate composites show live reservoir fluids give lower gas and condensate krel than model fluids; initial water raises condensate krel.
+
+Well deliverability predictions for gas-condensate reservoirs depend on relative permeability, usually measured with model fluids at low pressure and temperature. The authors built an apparatus for steady-state co-injection tests with live fluids at up to 10,000 psi pore pressure and 250 °F, with saturation from chromatography and meniscus imaging. Tests used sandstone and carbonate composites (including Cordova Cream limestone), three model fluids and lean and rich reservoir condensates at 235 °F, with and without initial water. Live-fluid tests gave lower gas and condensate relative permeability than model fluids at the same liquid saturation, and lower krc at a given krg, implying more condensate buildup. Trapped gas saturation was about 10% for lean and 25% for rich condensate in sandstone. Initial water did not change krg as a function of total liquid saturation but improved condensate relative permeability.
+
+## Determination of Critical Gas Saturation and Relative Permeabilities Relevant to the Depressurisation of the Statfjord Field
+
+- ID: SCA2004-33, year: 2004
+- Authors: E.B. Petersen Jr, G.S. Agaev, B. Palatnik, J.K. Ringen, P.E. Øren, K.O. Vatne
+- Method: laboratory experiment
+- Keywords: critical gas saturation, depressurisation, gas relative permeability, history matching, mixed wettability, Statfjord
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-33)
+
+Eighteen reservoir-condition depletion experiments on Statfjord Brent cores give critical gas saturation and gas relative permeability, history matched and tested in full-field simulation of depressurisation.
+
+Depressurisation of the Statfjord Field requires critical gas saturation and gas relative permeability under virgin and waterflooded conditions. Eighteen depletion experiments were run on two composite Brent Group cores with recombined reservoir fluid at 91.1 °C and 271.5 bar bubble point. Depletion rates were 0.33, 0.86 and 2.1 bar/h, at Swi, after limited waterflood and at Sor. Measured critical gas saturation ranged from 5.3 to 13.4%; extrapolated to 40 bar/year it is about 5% for virgin cases and 2-4% for waterflooded cases, lower than literature water-wet data because the samples were mixed-wet (Amott-Harvey near zero). One-dimensional black-oil history matching gave gas Corey exponents of 3.3-3.5 for virgin and 3.5 for waterflooded conditions. Full-field simulations showed gas production depends strongly on critical gas saturation and krg, and that rock curves require upscaling.
+
+## Measurements of Residual Gas Saturation Under Ambient Conditions
+
+- ID: SCA2001-33, year: 2001
+- Authors: Minghua Ding, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: residual gas saturation, spontaneous imbibition, Land model, Amott index, forced imbibition, gas-water wettability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-33)
+
+Automated spontaneous and forced imbibition tests on 27 plugs from four reservoirs show high residual gas saturation, dependent on initial water saturation and wettability, and only partly following Land's model.
+
+Residual gas saturation to water influx is poorly documented yet critical for gas reserves above aquifers and for storage reservoirs. Twenty-seven plugs from four reservoirs (two North Africa sandstones, a West Canada sandstone and a carbonate) underwent primary and secondary spontaneous imbibition, followed by forced brine flooding at 2 cm3/hr, using an automated weight-recording imbibition apparatus. Residual gas saturation decreased with initial imbibition rate and with increasing initial water saturation. Gas recovery by spontaneous imbibition increased with water-wetness (Amott index), while forced imbibition compensated in weakly water-wet plugs, so total recovery was nearly independent of wettability. Crowell's data fit Land's model well, but the four reservoirs fit only after a linear transform with different slopes, and Agarwal's model fit poorly. Capillary numbers near 1e-9 indicate capillary-controlled flow, so in weakly water-wet reservoirs true residual gas is lower than bypassed gas.
+
+## Network Modelling of Internal and External Gas Drive
+
+- ID: SCA2001-17, year: 2001
+- Authors: Susanne Poulsen, Steven R. McDougall, Kenneth S. Sorbie, Arne Skauge
+- Method: numerical simulation
+- Keywords: pore network modelling, internal gas drive, depressurisation, gas relative permeability, bubble nucleation density, critical gas saturation
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-17)
+
+Pore network simulations compare internal (depressurisation) and external (injection) gas drive; krg differs strongly with bubble density, pore size distribution and coordination number, while kro barely differs.
+
+Relative permeability from depressurisation (internal gas drive) is needed for production below bubble point, and experiments suggest krg is far lower than for gas injection. Two 3D cubic throat-only network models (15x15x15, coordination number 3-6, four pore size distributions, 10 or ~600-1000 nucleated bubbles) simulated internal and external drive. Gas relative permeability from external drive was higher than or equal to internal drive. The gap grew with higher bubble density, lower coordination number and more small bonds (log-uniform largest, cubic smallest); with 10 bubbles the krg curves overlapped. Oil relative permeability was practically identical for both processes and controlled mainly by coordination number. Internal drive Sgc exceeded external Sgc at high bubble density. The authors recommend measuring internal drive krg directly rather than extending external drive curves.
+
+## Pore scale insights into estimations of residual gas saturation
+
+- ID: SCA2013-074, year: 2013
+- Authors: Pradeep Bhattad, Alan A. Curtis, Alex Mock, Michael Turner, Benjamin Young, Anna Carnerup, Mark Knackstedt
+- Method: digital rock or imaging
+- Keywords: residual gas saturation, micro-CT imaging, spontaneous imbibition, tight gas sandstone, microporosity, snap-off
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-074.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-074)
+
+Micro-CT imaging of spontaneous imbibition in four sandstone petrofacies shows residual gas saturation falls with rock quality, with trapping mainly in large pores and enhanced by films.
+
+The paper investigates why residual gas saturation (Sgr) is lower in poorer quality rocks, using 3D micro-CT of spontaneous imbibition in small sub-plugs (3-5 mm) of good, medium, poor and laminated sandstones. Samples were imaged dry and after imbibition with CsI brine under butane, with MICP, formation factor and permeability simulations used to characterize rock quality. Good and medium sands showed Sgr of about 30-50%, while the tight lamina of sample 47L showed only 17%. Little gas was trapped in microporous clay regions, with most trapped in large pores as disconnected ganglia. After drainage to Swi, secondary imbibition raised Sgr by about 4% (0.17 to 0.21), attributed to films promoting snap-off, especially in clay-rich high-porosity regions.
+
+## The Quest for the True Residual Gas Saturation – an Experimental Approach
+
+- ID: SCA2011-03, year: 2011
+- Authors: Øyvind Bull, Fred Bratteli, Jon Knut Ringen, Karen Melhuus, Ann Lisbeth Bye, Jan Erik Iversen
+- Method: laboratory experiment
+- Keywords: residual gas saturation, porous plate imbibition, unsteady-state waterflood, CT saturation monitoring, spontaneous imbibition, pore-network modelling
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-03)
+
+Residual gas saturation in water-wet North Sea sandstones depends on imbibition rate: slow porous plate imbibition gives about 14% lower Sgrw than unsteady-state flooding, explained by CT-observed front shape.
+
+Laboratory residual gas saturation (Sgrw) after water influx is a major uncertainty in recoverable reserves for lean gas fields with strong aquifer support. Porous plate imbibition, unsteady-state (USS) waterflooding, immersed spontaneous imbibition, CT-monitored versions of the first two, and pore-network modelling were compared on sandstone plugs from two Norwegian fields (10 mD to 3 D, porosity 0.17-0.34). Porous plate imbibition gave on average 14% lower Sgrw than USS flooding, with immersed imbibition falling in between and network modelling giving 0.27-0.37 but with water end-point relative permeability almost an order of magnitude too high. CT showed a dispersed front in porous plate imbibition and a piston-like front in USS flooding at 4 cc/h, and coreflood simulations confirmed this rate dependency. The authors hypothesize that a dispersed front traps less gas and recommend measuring at elevated or reservoir pore pressure to limit gas compression and diffusion effects.
+
+## An Engineering Approach to Measuring and Modeling Gas Condensate Relative Permeabilities
+
+- ID: SCA1999-30, year: 1999
+- Authors: Aud Sævareid
+- Method: laboratory experiment
+- Keywords: gas condensate relative permeability, condensate blockage, capillary number, steady-state closed-loop apparatus, hysteresis, interfacial tension
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-30)
+
+Steady-state closed-loop measurements of krg versus krg/kro for gas condensates on Berea and North Sea sandstone show little hysteresis and a clear capillary number dependence.
+
+The paper presents an engineering approach to measuring gas condensate relative permeability at near-wellbore conditions, focusing on krg as a function of krg/kro rather than saturation. A high-pressure, high-temperature closed-loop apparatus with in-line Vro and oil viscosity measurement was built to flood large gas volumes to steady state. Tests used two Berea cores and a low-permeability North Sea sandstone with two synthetic and one reservoir gas condensate, at 100 bar base pressure. Velocity, shut-in/drawdown and flowing-pressure hysteresis were small (typically 5-25% in krg, none for the rich mixture), and fluid system had no significant effect. At 200-260 bar (IFT 0.8-1.6 mN/m) krg rose markedly at fixed krg/kro, with capillary numbers of 8e-6 to 4e-4 described well by the Whitson-Fevang correlation. Low-Nc results agreed with Ham and Eilerts except at krg/kro above about 10, where their krg was lower (0.4-0.45 vs 0.6-0.65 at krg/kro=100).
+
+## Predicting Primary Depletion Recovery of a Giant Light Oil Carbonate Reservoir
+
+- ID: SCA2006-17, year: 2006
+- Authors: Padmakar Ayyalasomayajula, Jairam Kamath, Kaveh Dehghani, Dennis Fischer
+- Method: laboratory experiment
+- Keywords: solution gas drive, gas-oil relative permeability, critical gas saturation, depletion experiments, upscaling, carbonate reservoir
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-17)
+
+Steady state plug and whole-core depletion tests on a carbonate reservoir show depletion gas relative permeability an order of magnitude lower; areal upscaling raises critical gas saturation.
+
+The study predicts primary depletion recovery below the bubble point (3650 psia) for a giant light oil carbonate reservoir. Steady state gas-oil relative permeability tests were run on 20 plugs from 10 geologic regions, with centrifuge tests on low-permeability plugs, and showed wide variability within and between regions. Depletion tests at 250 and 150 psi/day were run on two whole cores (3.6 mD and 0.08 mD) and history matched with a black-oil simulator. Depletion-derived gas relative permeabilities were an order of magnitude lower than steady state values, while oil relative permeability could not be determined uniquely. Areal upscaling with radial sector models required higher critical gas saturation (or oil relative permeability lowered by about a factor of 0.1 for depletion curves), whereas vertical upscaling needed no adjustment.
+
+## Depletion of Near-Critical Oils: Comparison Between Pore Network Model Predictions and Experimental Results
+
+- ID: SCA2006-32, year: 2006
+- Authors: N. Piccavet, J. Long, G. Hamon, I. Bondino, S. McDougall, P Heriot
+- Method: laboratory experiment
+- Keywords: critical gas saturation, solution gas drive, pore network modelling, near-critical oil, initial water saturation, capillary to gravity ratio
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-32)
+
+Four near-critical oil depletion experiments show critical gas saturation depends on rock quality and initial water but not core length; pore network and ECLIPSE models reproduce the trends.
+
+Critical gas saturation (Sgc) in solution gas drive of near-critical oils shows wide literature scatter. Four C1/C10 depletion experiments (38°C, 4 bar/day, 380 to 250 bar) were run on Berea and low-permeability P80 sandstone cores with different lengths (10, 44, 100 cm) and with or without initial water, using in-situ saturation monitoring. Sgc was 3.3% and 3.6% for 1 m and 10 cm dry Berea, 12% for the 4.5 mD P80 core, and 7% for Berea with Swi of 26.8%. 3D pore network simulations gave mean Sgc of 5.6% (dry Berea), 11.0% (P80) and 7.7% (Berea with water), matching the trends. The higher Sgc with water was attributed to higher bubble density and smaller bubbles. ECLIPSE history matching showed core length controls saturation profiles (gravity versus capillary dominance) and the derived gas relative permeabilities, but not Sgc.
+
+## Interpretation of a Long-Core Heavy Oil Depletion Experiment Using Pore Network Modelling Techniques
+
+- ID: SCA2003-11, year: 2003
+- Authors: I. Bondino, S. R. McDougall, G. Hamon
+- Method: numerical simulation
+- Keywords: pore network modelling, solution gas drive, bubble nucleation, heavy oil depletion, supersaturation, pore connectivity
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-11)
+
+A pore network depressurisation simulator with progressive nucleation history-matches two heavy oil long-core depletion experiments and shows connectivity affects supersaturation, bubble density and recovery.
+
+Heavy oil solution gas drive depends on depletion rate, nucleation, diffusion and pore connectivity. A pore network simulator with progressive bubble nucleation was anchored to two mercury injection datasets (coordination numbers Z=6 and 4.9) and used to match gas and oil production from a 91 cm long core depleted at 9 and 100 psi/day. Different bubble densities arose naturally at each rate (9 vs 31 bubbles in a 20x20x20 network), giving good matches up to gas breakthrough, with steady-state relative permeabilities calculated afterwards. Applying the same parameters to a poorly connected network (Z=3.6) gave higher bubble density and better recovery, because longer diffusion paths increase supersaturation. Supersaturation rises with depletion rate and with decreasing connectivity, so recovery is not governed by depletion rate alone.
+
+## An Efficient Method for Measuring Trapped Gas Saturation Under Co-Current Conditions
+
+- ID: SCA2014-008, year: 2014
+- Authors: N. Bona, L. Garofoli, F. Radaelli, C. Zanaboni, M. Anelli, A. Bendotti
+- Method: laboratory experiment
+- Keywords: trapped gas saturation, centrifuge NMR saturation profiling, Bond number, spontaneous imbibition, co-current flow, gas solubility correction
+- Cited by 1 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-008)
+
+A centrifuge/1D NMR method gives many initial vs trapped gas saturation points per sample under co-current flow, matching log data for Bond numbers 4e-6 to 5e-5.
+
+Trapped gas saturation is needed for reserves estimation in a large Mozambique gas field with ~1 darcy, 20% porosity sandstones. Six core samples were tested with toluene and water spontaneous imbibition (all faces open and laterally sealed) and with forced water-air imbibition by centrifuge combined with 1D NMR saturation profiling (CNMR). Spontaneous imbibition gave slightly high trapped saturations (countercurrent flow, evaporation), and trapped gas depended on liquid type and initial saturation. For CNMR, valid data require a Bond number between about 4×10-6 (co-current flow) and 5×10-5 (avoiding blob mobilization), giving a Sgr plateau of 20-25% (average ~23%). This agrees with log-derived immobile gas below a shale layer (5-30%, average 20%); air compressibility corrections lowered Sgr by a few saturation units.
+
+## Studies on Anhydrite Cementation in Geothermal Reservoirs
+
+- ID: SCA2001-60, year: 2001
+- Authors: H. Pape, C. Clauser, J. Iffland, J. Bartels, R. Wagner, M. Kühn
+- Method: laboratory experiment
+- Keywords: anhydrite cementation, permeability-porosity relationship, fractal dimension, Rhaetian sandstone, PFG-NMR, geothermal reservoir
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-60.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-60)
+
+Permeability-porosity paths of anhydrite-cemented Rhaetian sandstone from Allermoehe 1 are classified by diagenesis type using fractal dimension, and anhydrite dissolution reverses cementation without hysteresis.
+
+The Rhaetian sandstone aquifer in well Allermoehe 1 (northern Germany, ~3250 m) is cemented by anhydrite, with porosities as low as 2%, making it unsuitable for geothermal use. Eighteen core samples were studied with NMR log comparison, anhydrite content (sulphur analysis and XRD), BET surface, mercury injection, induced polarization and PFG-NMR. Fractal dimension D, from BET versus grain-based specific surface, was 2.05–2.39. Strongly cemented samples (anhydrite 15–25%, porosity 2–3%) had low D and reduced pore-neck radii, while PFG-NMR pore radii were unchanged. In permeability-porosity space the samples lie between the average-sandstone curve and the quartz-cemented Fontainebleau curve. Dissolution of anhydrite during electrical measurements retraced the cementation path in reverse with no hysteresis, as cemented patches that close percolation pathways open preferential flow paths on dissolution.
+
+## The Measurement of Gas Relative Permeability for Low Permeability Cores Using a Pressure Transient Method Sca Paper 9013 by
+
+- ID: SCA1990-13, year: 1990
+- Authors: Xiuxu Ning, Stephen A. Holditch, Fourth Annual SCA Technical Conference
+- Method: measurement technique or apparatus
+- Keywords: pressure transient method, gas relative permeability, tight sandstone, Travis Peak, pulse decay, net confining stress
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-13)
+
+A modified pressure-transient apparatus measures gas relative permeability and water saturation together on tight Travis Peak cores without removing them, in days rather than weeks.
+
+Steady-state gas relative permeability measurements on tight cores take weeks because flow rates are very small. The authors rebuilt a Texas A&M pressure-pulse apparatus (CPD cart) with a flow-through, minimal-volume downstream system. Water can then be produced stepwise from the core while it stays in the holder, and gas porosity and permeability are history-matched from each pulse test. Eight Travis Peak sandstone cores (absolute permeability 4 µd to 0.63 md) were tested at about 2,000 psi net stress and 1,000 psi pore pressure with 50 psi pulses. Helium, pressure-transient and weight porosities agreed within about 5%. A full drainage curve took 1 to 7 days, and the one-phase interpretation was accurate below 50% Sw and acceptable to 70%. Room-temperature fluctuation scattered the data on the lowest-permeability cores. The workable absolute permeability range is about 1 µd to 1 md.
+
+## Gas Relative Permeability and Flow Behaviour in a Retrograde Gas/Condensate Reservoir Under Depletion
+
+- ID: SCA1995-07, year: 1995
+- Authors: O. Hjelmeland, L. Øyno, S. R. Jakobssen, H. Niko, The Hague
+- Method: laboratory experiment
+- Keywords: gas condensate, retrograde condensation, gas relative permeability, critical condensate saturation, trapped gas saturation, compositional simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-07)
+
+Gas relative permeability, critical condensate and trapped gas saturations were measured on a vertical composite sandstone core under depletion, with simulation showing gravity-to-capillary control explains unusual curve shapes.
+
+The study addresses how retrograde condensate dropout below the dew point alters gas relative permeability in a North Sea gas/condensate field. A custom vertical high-pressure rig (69 MPa, 180°C) held a 50 cm composite core of seven sandstone plugs (70-340 mD), tested first with a synthetic condensate (temperature reduction at 16 MPa) and then with recombined live reservoir fluid depleted from 50 MPa at 130°C. The synthetic fluid gave a smooth curve with a critical condensate saturation of 29% PV and krg of 0.30. The real fluid gave a non-monotonic krg, with a local maximum at about 16-20% condensate saturation, a maximum condensate saturation of 19.7% PV, and a trapped gas saturation of 24.9% PV after condensate flooding. FRAGOR compositional simulation with IFT-dependent relative permeability showed gravity-dominated distribution near the dew point shifting to capillary- and viscous-controlled redistribution in the heterogeneous core, explaining the curve shape and its rate dependence.
+
+## Lab-To-Field Scaling of Two-Phase Flow in the Wellbore Region
+
+- ID: SCA1998-06, year: 1998
+- Authors: S.A. Betata, J.-C. Moulu
+- Method: laboratory experiment
+- Keywords: solution gas drive, bubble nucleation rate, supersaturation, oil relative permeability, near-wellbore region, bubble mobilization
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-06)
+
+Depressurization tests on Fontainebleau sandstone with methane-dodecane give solution-gas oil relative permeabilities, nucleation rates and bubble populations, showing oil impairment depends on bubble size distribution and pressure gradient.
+
+Pressure drawdown near a producing well can drop below bubble point, creating dispersed gas that lowers oil relative permeability. The authors developed a depressurization procedure using Fontainebleau sandstone cores (9.6 and 60 cm, k≈339 md, porosity 0.116) saturated with a methane-dodecane mixture, with static and dynamic tests under varied supersaturation and pressure gradient, and CT-scanned saturation profiles. Micromodel experiments confirmed heterogeneous nucleation and the diffusion-controlled bubble growth law. A model linking gas saturation to nucleation rate J (Sg growing with t^5/2) gave J values lower for the long core than the short one and lower than earlier literature values, so J is rock-specific. Oil relative permeability depended on the bubble population, not gas saturation alone: a few large bubbles at low supersaturation impaired flow more than many small ones. Calculated mobilization pressure gradients matched observed bubble mobilization.
+
+## Well Productivity of Gas-Condensate Fields : Influence of Connate Water and Condensate Saturation on Inertial Effects
+
+- ID: SCA1999-29, year: 1999
+- Authors: J-M Lombard, D. Longeron, F. Kalaydjian
+- Method: laboratory experiment
+- Keywords: inertial coefficient, Forchheimer equation, gas-condensate, non-Darcy flow, connate water saturation, condensate saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-29)
+
+High-velocity gas and C1-C3 gas-condensate floods in sandstones and sandpacks show the Forchheimer inertial coefficient b rises with water and condensate saturation, correlating with equivalent pore radius.
+
+Productivity decline of gas-condensate wells depends on non-Darcy flow near the wellbore, but no model accounts for condensate effects on the inertial coefficient b. IFP built the 'Pegase' prototype for gas and gas-condensate displacements up to 200 bar, 120°C and 1.5 cm/s. Nitrogen/air floods on Vosges and Birchover sandstones and glass-bead slim tubes, with and without connate water, gave b values in line with literature but below Geertsma correlation predictions. Log b correlated linearly with an equivalent pore radius r*; for Birchover sandstone, b at Sw=0.43 was about five times the dry value. Analog C1-C3 condensate floods in Birchover at Swi=24.8% showed condensate raises b; at Sc≈58.6% b was 5.6E9 m-1, about 25 times the Sc=0 value, though scatter and near-critical conditions limited accuracy, motivating future C1-C4 work.
+
+## X-Ray in-Situ Saturation in Gas Condensate Relative Permeabilty Studies
+
+- ID: SCA2000-39, year: 2000
+- Authors: Andrew Cable, Robert Mott, Mike Spearing
+- Method: laboratory experiment
+- Keywords: gas condensate, x-ray saturation monitoring, capillary number, inertial flow coefficient, condensate banking, near-well relative permeability
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-39)
+
+X-ray in-situ saturation monitoring during high-rate gas condensate coreflooding shows condensate saturation rises with capillary number, contradicting the 'velocity stripping' notion, with uniform saturation profiles.
+
+Gas condensate well productivity depends on near-well effective gas permeability, so high-rate steady-state coreflood experiments were run on a 12 md Obernkirchner sandstone with a 5-component synthetic condensate at 60°C (dew point 212 bar). Single-phase tests above the dew point gave absolute permeability of 8.4-8.7 md and inertial coefficients of 0.30-0.34e-10 1/m. Five two-phase experiments below the dew point used single-energy x-ray scanning, giving condensate saturations of 20-52% HCPV that generally increased with capillary number at constant krg/kro. Gas and oil relative permeabilities increased with capillary number, while inertial flow reduced gas permeability at high velocity, so krg cannot be correlated with capillary number alone. Profiles were uniform with no banking or end effects, apart from a 3-4 cm entrance effect; at 7.5 L/h with ~35 bar drop, saturation rose from 35% to 45% along the core.
+
+## Field Model Predictions to Demonstrate the Value of Integrated Gas Condensate Near-Well SCAL Data
+
+- ID: SCA2002-46, year: 2002
+- Authors: A S Cable, R E Mott, L M Wickens
+- Method: theory or analytical model
+- Keywords: gas condensate, condensate blockage, near-well relative permeability, decision risk management, value of information, well deliverability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-46)
+
+Decision Risk Management is used to value near-well gas condensate SCAL data; in a two-versus-three-well example, SCAL adds about $1.2 million NPV.
+
+Condensate blockage near the wellbore reduces gas condensate well productivity, and SCAL relative permeability measurements (costing about $100,000) can reduce this uncertainty. The authors apply Decision Risk Management, with influence diagrams, tornado diagrams and decision trees linked to a cash flow spreadsheet and pseudopressure productivity estimates. The example is a rich gas condensate field developed with two or three wells, where the third well costs about $43 million. Condensate blockage has the largest impact on incremental NPV of drilling Well 3. With SCAL data at 80% accuracy, average NPV rises by about $1.2 million after test costs. The value rises to $1.7 million at 100% accuracy and falls to $0.1 million at 50%. The SCAL strategy also gives a higher average incremental NPV (3.5 vs 2.3 million) and lower chance of loss (25% vs 44%).
+
+## Investigation of Light Oil Depressurisation with a Dynamic Network Model: A Study of Relative Permeabilities
+
+- ID: SCA2005-17, year: 2005
+- Authors: I. Bondino, S. R. McDougall, G. Hamon
+- Method: numerical simulation
+- Keywords: pore network model, depressurisation, critical gas saturation, gas relative permeability, oil shrinkage, viscous mobilization
+- Cited by 0 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-17)
+
+A dynamic pore network model with oil shrinkage and viscous bubble mobilization simulates light oil depressurisation, predicting primary and tertiary depletion data, critical gas saturations and gas relative permeabilities.
+
+Core depletion experiments on light, near-critical oils are hard to interpret and cannot be run at field rates, so the authors extended a pore-scale depressurisation network simulator to include oil shrinkage, gravity and viscous mobilization and break-up of gas bubbles. Networks were anchored to a low-permeability (4.99 mD) and a high-permeability (300 mD) sample. Oil shrinkage strongly speeds gas growth and moderates buoyancy, while viscous forces mobilize bubbles only near the saturation pressure, where gas-oil IFT is very low. This gives two Krg: unsteady-state for dispersed gas (Sgc 2.5%) and steady-state for connected gas (Sgc 9.5%). The model predicted primary and tertiary (Swi=70%) production data at 58 psi/day, with Sgc of 18.1% for primary and 14.3% for tertiary depletion. Tertiary Sgc being lower than primary contradicts the common expectation and depends on wettability and scale.
+
+## Experimental Investigation of PVT Properties of Foamy Oil
+
+- ID: SCA2006-51, year: 2006
+- Authors: N. Goodarzi, A. Kantzas
+- Method: laboratory experiment
+- Keywords: foamy oil, PVT, X-ray CT, low-field NMR, supersaturation, oil formation volume factor
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-51.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-51)
+
+CT scanning and low-field NMR measure foamy heavy oil PVT properties in a cell under slow and fast depletion, showing supersaturation delays property changes to lower pressures.
+
+Conventional PVT tests are hard to apply to foamy heavy oil because solution gas separates slowly. The authors depleted live heavy oil in a piston PVT cell, either in daily volume steps (equilibrium) or at a constant rate of about 2.4 kPa/min, while monitoring it with x-ray CT and a 1.2 MHz NMR relaxometer. CT gave oil formation volume factor and solution gas/oil ratio in situ along the whole cell. Fast depletion delayed the OFVF decline to about 2200 kPa and delayed the drop in solution GOR to well below the bubble point, and gas also formed within the oil rather than only at the top. NMR T2gm, calibrated against dead-oil viscosity at four temperatures, indicated that viscosity stays near the live-oil value until about 2552 kPa in the fast test and rises roughly linearly below that. The NMR viscosities were noisy in the slow test and cannot be independently validated.
+
+## An Experimental Study of Near Critical Gas Condensate Relative Permeability of Carbonates
+
+- ID: SCA2006-52, year: 2006
+- Authors: Huseyin Calisgan, Birol Demiral, Serhat AKIN
+- Method: laboratory experiment
+- Keywords: gas condensate relative permeability, near-miscible flow, interfacial tension, capillary number, Bond number, carbonate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-52)
+
+Methanol/n-hexane near-miscible relative permeability tests on one carbonate core show gas-phase relative permeability rises with lower IFT and higher velocity, more strongly with immobile water.
+
+Near-critical gas condensate relative permeability is poorly documented for carbonates. The authors used a methanol/n-hexane binary fluid, with temperature controlling IFT (0.01 to 0.3933 mN/m), in a pseudo-steady-state method on a North Marmara carbonate plug (18.56 md air permeability, 6.82 cm long). Eleven tests were run at rates of 50-100 cc/hr, with and without immobile water (Swi about 0.245, using K2CO3 brine). Non-wetting (gas-like) phase relative permeability increased as IFT fell and as velocity rose, approaching a unit-slope line at very low IFT. The wetting phase was affected only below about 0.059 mN/m IFT. These dependencies were stronger with immobile water, and results resembled those for sandstones and glass bead packs. The authors argue a condensate number combining capillary and Bond numbers is needed.
+
+## The Role of Interstitial Water in Hydrocarbon Flow for Tight Rocks
+
+- ID: SCA2007_14, year: 2007
+- Authors: Carlos A. Grattoni, Suleiman Al-Hinai, Phil Guise, Quentin Fisher
+- Method: laboratory experiment
+- Keywords: water-blocking pressure, tight rocks, gas relative permeability, non-Darcy flow, water snap-off, seal rocks
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_14)
+
+Gas flow experiments on tight sandstones show a saturation-dependent water-blocking pressure from water snap-off, causing non-Darcy flow and complicating relative permeability interpretation.
+
+Seal and tight rocks trap hydrocarbons, but the role of interstitial water in stopping gas flow is poorly understood. Three low-porosity (5.6-8.5%) quartz sandstone plugs with brine permeabilities of 0.0047-0.068 mD were tested at 2000 psi confining pressure with humidified gas. Pressure drawdown tests showed gas flow stops at a positive water-blocking pressure that decreases with decreasing water saturation (minimum Sw of 38%). Steady-state gas flow at stepwise rates was non-Darcian, with a positive pressure intercept at zero flow that matched the drawdown blocking pressure, and increasing/decreasing rate tests showed hysteresis. The authors attribute this to water snap-off after redistribution in pores, and a flow equation including the blocking pressure was used to derive gas relative permeability, which falls sharply with water saturation.
+
+## Investigation of Gravitational Effects in Solution Gas Drive via Pore Network Modelling: Results from Novel Core-Scale Simulations
+
+- ID: SCA2007_32, year: 2007
+- Authors: Bondino I, Hamon G, Long J, McDougall S.R
+- Method: numerical simulation
+- Keywords: pore network modelling, solution gas drive, Bond number, bubble migration, critical gas saturation, gas relative permeability
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_32)
+
+Core-scale (9.4 cm) pore network simulations of solution gas drive capture gravity/capillarity balance, bubble migration and gas saturation profiles, with outlet boundary conditions strongly affecting agreement with Berea experiments.
+
+Pore network models normally cover only microscale systems and cannot capture gravity effects in solution gas drive. The authors ran a network of 650x15x15 nodes (about half a million pore elements, 9.4 cm long) anchored to a Berea core (719 mD, 21% porosity) at 58 psi/day depletion with C1/C10 fluid. The local Bond number evolution depends on bubble density, coalescence, break-up and core height. Critical gas saturation from buoyant flow rises with bubble density (5% to 33%), and the minimum bubble height for buoyancy is about 2 cm. Longer networks became more gas saturated. Outlet boundary conditions were tested: BC2 reproduced the saturation history, while BC1/BC3 better reproduced gas cap formation, but no single condition matched both history and profile.
+
+## Trapping of Fine Particles in Gaps in Porous Media
+
+- ID: SCA2007_50, year: 2007
+- Authors: Elena Rodríguez, Steven L. Bryant
+- Method: numerical simulation
+- Keywords: particle straining, fines retention, Finney sphere packing, Delaunay tessellation, gap flow rate, scaling exponent
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_50)
+
+Straining of fine particles in gaps between sphere pairs in a Finney packing is modeled with Sharma-Yortsos theory; scaling exponents depend on the assumed trapping probability.
+
+Fine particles smaller than pore throats but too large for deep-bed filtration are retained in experiments, which may reflect straining in gaps between neighboring grains. The authors characterized gap widths (0.01R to 0.1R) in a Finney dense random packing of equal spheres using Delaunay tessellation, finding a gap density of 0.15 per R^3 versus about 0.3 per R^3 for small throats. They computed flow through gaps with a slit approximation and the pressure gradient from a throat-network flow calculation, finding gap flow about three orders of magnitude smaller than throat flow. Applying the Sharma and Yortsos theory gave straining-rate scaling exponents of 4.22 (flow-rate weighted), 0.72 (independent of flow), 1.32 (range of capture) and 2.02 (cross-section of capture). The limiting cases bracket the experimental exponent (about 1.4 to 1.5), and the geometric cases come closer, suggesting straining depends on gap flow less than linearly and should be treated together with the associated throat.
+
+## A Modified Hysteresis Relative Permeability Including a Gas Remobilization Threshold for Better Production Forecasts of Gas Storages
+
+- ID: SCA2009-02, year: 2009
+- Authors: P. Egermann, T. Schaaf, B. Bréfort GDF SUEZ E
+- Method: numerical simulation
+- Keywords: gas remobilization threshold, relative permeability hysteresis, underground gas storage, trapped gas saturation, history matching, Land trapping model
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-02)
+
+Adding a gas remobilization threshold (Sgmob) above residual gas saturation to Carlson hysteresis relative permeability fixes systematic pressure overestimation in aquifer gas storage models at end of withdrawal.
+
+Simulated pressures in aquifer underground gas storage models systematically overestimate measured pressures at the end of withdrawal, and history-matching parameter tuning did not fix it. The authors attribute this to the standard Carlson/Land hysteresis, which remobilizes trapped gas immediately once saturation exceeds Sgr during depletion. Literature core experiments (Fishlock et al., Cable et al.) show a remobilization threshold Sgmob of about 0.03–0.15 above Sgr. They modified the secondary drainage krg so that krg=0 until Sg exceeds Sgr+Sgmob, and implemented it in a 1D radial two-phase simulator. Applied to 6 clastic storage sites, it greatly reduced the history-match objective function and improved pressure match, with optimized Sgmob of 0.027–0.048, consistent with reservoir-rock lab data.
+
+## Condensate Displacement Mechanisms in Low Permeability Rocks
+
+- ID: SCA2009-15, year: 2009
+- Authors: Mahmood Al Harrasia, Carlos Grattonib, Quentin Fisher, Suleiman Al-Hinai
+- Method: laboratory experiment
+- Keywords: gas condensate, condensate blockage, glass micromodel, interfacial tension, capillary number, krg/kro
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-15)
+
+Glass micromodel experiments with a ternary liquid system of variable IFT show how pore size, IFT and wettability control condensate blockage and gas flow mechanisms.
+
+Condensate blockage in tight gas-condensate rocks is poorly understood. The authors injected a cyclohexene-isopropanol-water fluid system (IFT 24.2 to 0.03 mN/m) into glass micromodels of different pore sizes at increasing condensate fractional flow, 0.1 ml/min total rate, and imaged the flow. At intermediate IFT the gas phase flows via dripping, upstream pinch-off, elongation and snap-off, and residual gas saturation rises with IFT. The krg/kro versus condensate saturation curves show a crossover indicating a change in flow regime, which shifts to higher condensate saturation in smaller pores. The behaviour change occurs above a critical capillary number of about 10^-4. Coats-model base curves from 0.136 to 1314 mD show the crossover saturation rising as permeability falls.
+
+## Gas-Condensate Core Flooding Experience for Urengoyskoye Gas-Condensate Field
+
+- ID: SCA2012-44, year: 2012
+- Authors: Andrey Kazak, Dmitry Korobkov, Denis Rudenko, Mikhail Moiseev, Nikolay Drichits, Julia Filippova
+- Method: laboratory experiment
+- Keywords: gas-condensate, non-Darcy flow, inertial coefficient, relative permeability, Achimov sandstone, model fluid
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-44)
+
+Gas-condensate core floods on Achimov sandstone used a methane plus stable condensate model fluid at 150 bar and 70°C to measure non-Darcy coefficients and relative permeabilities.
+
+Condensate blockage near wellbores in the low-permeability Achimov formation of the Urengoyskoye field requires phase permeability data at near-wellbore flow regimes. Because the flooding facility could not reach reservoir conditions (500-600 bar, 110°C), a model fluid of methane and debutanized stable condensate was designed to match phase behavior, viscosity, density and IFT of the live fluid at 150 bar and 70°C. Alkane and 1-methylnaphthalene mixtures failed to reproduce the condensate properties. A composite core of three plugs (19.6% porosity, 17.5 mD) was flooded with nitrogen, then with gas and condensate at several rates and condensate fractions. Irreducible water (Swi about 35.5-35.9%) did not change gas permeability but raised the inertial coefficient by 23%, from 2.76e7 to 3.40e7 cm-1. Increasing immobile condensate saturation decreased permeability and increased β, and relative permeability curves were obtained at different flow rates.
+
+## Simulation of Core Lifting Process for Lost Gas Calculation in Shale Reservoirs
+
+- ID: SCA2013-005, year: 2013
+- Authors: Kurt Wilson, A.S. Padmakar, Firoze Mondegarian
+- Method: numerical simulation
+- Keywords: lost gas, canister desorption, USBM direct method, Duvernay Shale, compositional simulation, Langmuir adsorption
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-005)
+
+Compositional simulation of core lifting in Duvernay Shale shows over 90% of gas is lost before canister measurement, far exceeding USBM estimates, and yields permeability estimates.
+
+Canister gas measurements rely on estimating gas lost during core lifting, usually via the USBM square-root-of-time extrapolation, which may not suit high-pressure shales. The authors built a compositional simulator model of a cylindrical core with desorption (Langmuir), multiphase flow and PVT, imposing the reconstructed wellbore pressure history for two Duvernay cores (gas condensate and volatile oil). Calibrating bulk permeability to canister data gave 70 nd (Well 1) and 27.5 nd (Well 2), within or below pressure-decay lab ranges (120-230 nd and 50-330 nd). Simulated lost gas was about 44 L versus 4.3 L from USBM for Well 1 (97% vs 77% of GIP), giving GIP of 324 vs 44 scf/ton. Simulated gas production was not linear in square root of time, and multiphase flow in the volatile oil case increased permeability uncertainty.
+
+## Evaluation of Gas Bubble During Foamy Oil Depletion Experiment Using CT Scanning
+
+- ID: SCA2016-041, year: 2016
+- Authors: Weifeng LV, Zhenpeng LENG, Xingmin LI, Heping CHEN, Jiru YANG, Ninghong JIA
+- Method: laboratory experiment
+- Keywords: foamy oil, CT scanning, solution gas drive, heavy oil, gas bubble identification, pseudo bubble point
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-041.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-041)
+
+CT scanning of a heavy-oil sandpack depletion test identifies three flow stages and quantifies gas bubble number and volume, showing the foamy oil stage gives most recovery.
+
+Foamy oil flow in heavy oil solution gas drive is poorly understood at the pore scale. A 45 x 450 mm quartz sandpack (porosity 36.5%, 5541 mD) was saturated with live oil (6151 mPa·s, bubble point 6.07 MPa, pseudo bubble point 4.44 MPa) and depleted in 0.2 MPa steps at 53.7°C while being CT scanned. Production data defined three stages: compressibility single-phase oil flow, foamy oil flow and channel gas flow, with ultimate recovery of 17.4%. The foamy oil stage gave the major recovery. Pixel saturation thresholds (minimal bubble generation gas saturation 2.3%, critical gas saturation 17.0%) separated discontinuous bubbles (0.00142-0.0141 ml) from continuous gas (0.104-12.36 ml). Bubble count in a slice near the outlet rose exponentially to 3592, then fell to 896 as bubbles coalesced, with large bubbles making up 87.4%. Gas coalesced near the inlet, while bubbles stayed dispersed near the outlet.
+
+## A Fast Method for Trapped Gas Determination
+
+- ID: SCA2018-011, year: 2018
+- Authors: Pierre Faurissoux, Moeata Lutui-Tefuka, Cyril Caubit, Bruno Lalanne, Benjamin Nicot
+- Method: measurement technique or apparatus
+- Keywords: residual gas saturation, NMR saturation profiling, centrifuge capillary pressure, spontaneous imbibition, Land and Aissaoui models, carbonate
+- Cited by 0 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-011)
+
+A centrifuge-plus-NMR-monitored capillary rise method gives the full Sgr-Sgi curve and drainage Pc in days, showing Land's model overestimates recoverable gas in carbonates.
+
+Trapped gas saturation versus initial gas saturation normally needs one experiment per point, taking months, so Land's model is often used instead. The authors create a saturation profile in a centrifuge, measure it by NMR profiling at 1 mm resolution, then run spontaneous capillary rise from a foot bath under NMR monitoring. Sgr is extracted per slice from the intersection of the capillary and diffusion regimes in the square-root-of-time plots. On a Richemont outcrop carbonate (4.5 mD) the results matched porous plate and classical imbibition, with a bilinear trend and threshold near Sgi 0.4. On two heterogeneous reservoir carbonates (0.4 mD) at 4800 rpm, Sg0 was about 0.6 and 0.7; Land's model underestimated Sgr, overestimating recoverable gas by about 10% and 4% for samples A and B.
+
+## Towards Relative Permeability Measurements in Tight Gas Formations
+
+- ID: SCA2019-017, year: 2019
+- Authors: Denis Dzhafarov, Benjamin Nicot
+- Method: laboratory experiment
+- Keywords: Step Decay permeability, tight gas relative permeability, vapor desorption, NMR T2, steady-state gas/water injection, critical water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-017)
+
+Gas relative permeability of nanodarcy pyrophyllite is measured by Step Decay at saturations set by steady-state flooding or vapor desorption; Swc exceeds Swirr by 12-18 su.
+
+Measuring relative permeability in tight gas rocks is hard because of extremely low flow rates. Gas permeability was measured by low-pressure Step Decay on pyrophyllite plugs (K 80-350 nD, porosity 4.6-6.6 pu), with saturation varied either by steady-state gas/water injection (one plug) or vapor desorption at 75-90% relative humidity (four twin plugs). NMR saturation profiles were flat, showing no pronounced capillary end effects, and NMR T2 distributions were bimodal with desaturation first appearing in the low-T2 (small pore) signal. Gas permeability changed only by a factor of 1.2-1.5 between as-received and critical water saturation (~57 su) but dropped about a decade at higher saturation. Irreducible saturation from vapor desorption (40-46 su at RH 75%) was 12-18 su lower than Swc from steady-state flooding, mainly in the large-pore signal.
+
+## Determination of Critical Gas Saturation by Micro-CT
+
+- ID: SCA2019-021, year: 2019
+- Authors: Steffen Berg, Ying Gao, Apostolos Georgiadis, Niels Brussee, Ab Coorn, Hilbert van der Linde, Jesse Dietderich, Faruk Omer Alpak, Daniel Eriksen, Miranda Mooijer-van den Heuvel, Jeff Southwick, Matthias Appel, Ove Bjørn Wilson
+- Method: digital rock or imaging
+- Keywords: critical gas saturation, micro-CT, Euler characteristic, percolation threshold, solution gas drive, lattice Boltzmann relative permeability
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-021)
+
+Micro-CT imaging of gas coming out of solution in a Bentheimer mini-core gives critical gas saturation of 0.2-0.25 via the Euler characteristic, with relative permeabilities from lattice Boltzmann.
+
+Darcy-scale critical gas saturation measurements are hard to interpret because of bubble nucleation kinetics and pressure gradients. The authors imaged gas evolution in a 4 mm Bentheimer sandstone mini-core saturated with a 50:50 propane-decane mixture, using micro-CT at up to 30 bar. Two protocols were used to avoid instantaneous percolation: pressurization after drawdown, and rapid drawdown, re-pressurization to the bubble point and then depletion. The Euler characteristic zero-crossing gave Sgc of about 0.25 (pressurization) and 0.2 (depletion), in line with 3D percolation thresholds. Lattice Boltzmann simulation on the segmented images gave gas and liquid relative permeabilities; gas kr matched a drainage curve after renormalizing with So,crit=0.21. Propane injection at low rate (Pe<<1) gave mobile gas without permanent connectivity, whereas a 30 times higher rate (Pe~1) gave connected gas, suggesting compositional effects on local bubble point.
+
+## Advanced Digital-SCAL measurements of gas trapped in sandstone
+
+- ID: SCA2022-02, year: 2022
+- Authors: Ying Gao, Tibi Sorop, Niels Brussee, Hilbert van der Linde, Ab Coorn, Matthias Appel, Steffen Berg
+- Method: digital rock or imaging
+- Keywords: trapped gas saturation, dynamic micro-CT, gas dissolution, ripening dynamics, Bentheimer sandstone, unsteady-state coreflood
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-02)
+
+Dynamic micro-CT imaging of brine displacing gas in Bentheimer shows trapped gas keeps dissolving even in gas-saturated brine, likely due to capillary-driven ripening dynamics.
+
+Trapped gas saturation measured by low-rate unsteady-state coreflooding is biased by gas dissolution, even when brine is pre-equilibrated with gas. The authors flooded a 4 mm x 20 mm Bentheimer mini-plug (porosity 20.4%) with gas-saturated and unsaturated NaI-doped brine at 0.5 µL/min and 5 bar, imaging continuously with a TESCAN DynaTOM micro-CT at 5 µm voxel size. With saturated brine, gas saturation fell from 1 to ~0.38 in the first PV by displacement, then through two dissolution regimes (0.38 to 0.1 by ~18 PV) until no gas remained after ~60 h. With unsaturated brine, displacement and dissolution occurred together, and all gas vanished within about 3-4 PV; saturation profiles showed frontal dissolution in the saturated case and more homogeneous dissolution in the unsaturated case. The observed dissolution rates exceeded equilibrium estimates, which the authors attribute to capillary pressure in trapped bubbles making the brine locally undersaturated, a ripening-type mechanism; slightly supersaturated brine is proposed as a remedy.
+
+## Measurement of Gas Condensate Relative Permeabilities utilizing NMR and MRI Technologies
+
+- ID: SCA2023-031, year: 2023
+- Authors: Michael Rauschhuber, Jon Burger, Josephina Schembre-McCabe, Elton Yang, Boqin Sun
+- Method: laboratory experiment
+- Keywords: gas condensate relative permeability, capillary number, T1-T2 NMR, SPRITE MRI, pseudo-steady-state coreflood, shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-031)
+
+Gas condensate relative permeabilities were measured by pseudo-steady-state corefloods on limestone, tight sandstone and shale with in-situ NMR/MRI saturation, agreeing with literature at higher capillary numbers.
+
+Gas condensate relative permeability at low capillary numbers is poorly constrained for tight rocks. Pseudo-steady-state corefloods used a methane/n-heptane mixture (dew point 3,750 psia, CGR 80 STB/MMSCF) on five samples from Indiana limestone (46.8 mD) to a siltstone (0.0002 mD), at pressures of 3,500 to 1,000 psi. Saturation was tracked with 2 MHz T1-T2 NMR and 42 MHz SPRITE MRI, with T1-T2 cutoffs set using hydrogen index from EOS calculations. Capillary numbers spanned roughly 10^-2 to 10^-11; data agreed with literature where ranges overlapped, but uncertainty grew at lower capillary numbers and in the lowest-permeability samples. Fitting a Whitson-type model with Corey functions showed the kr-Nc transition shifting to lower Nc as sqrt(k·phi) decreased. NMR and MRI saturations differed by up to 20%, and phase discrimination was difficult.
+
+## Gravity effects on fines migration in sandstone: A numerical approach in 3D with complete forces set
+
+- ID: SCA2023-044, year: 2023
+- Authors: Shitao Liu, Igor Shikhov, Christoph Arns
+- Method: numerical simulation
+- Keywords: fines migration, CFD-DEM, pore clogging, Bentheimer sandstone, DLVO surface forces, gravity effects
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-044)
+
+A 3D CFD-DEM model on digital Bentheimer sandstone shows denser fines shift downward and toward the inlet, yet about 40% travel farther along flow via throat passage or clogging-induced rerouting.
+
+Fines transport and clogging in sandstone is poorly understood in 3D with all forces, so the authors built a resolved CFD-DEM model including hydraulic, DLVO surface, contact, buoyancy and gravity forces. It runs on a 400×500×500 voxel (2.15 µm) micro-CT subvolume of Bentheimer sandstone with octree adaptive mesh refinement around particles. 15 µm fines at 0.5% concentration were injected for 2 PV at favorable attachment conditions (300 mM ionic strength), comparing densities of 1000 and 2000 kg/m3 with flow perpendicular to gravity. Denser fines were retained more at the bottom and near the inlet, but pairwise trajectory comparison showed 37.2% of denser fines traveled shorter distances along gravity and 39.1% traveled farther along flow. Two mechanisms explain this: gravity helps denser particles pass downward throats, and clogging of a downward throat (flux down to 63% at 0.16 s) reroutes flow and later particles. Most particle pairs showed little deviation because favorable attachment causes rapid capture, so fluid flow dominates.
+
+## Using Minkowski Functionals to Improve the Accuracy of Residual Gas Saturation (compressed air, CH4, H2) from $\mu$ CT Core Flooding Experiments
+
+- ID: SCA_2025_1028, year: 2025
+- Authors: Ying Gao, Tibi Sorop, Yingxue Wang, Karin de Borst, Niels Brussee, Hilbert van der Linde, Steffen Berg
+- Method: digital rock or imaging
+- Keywords: residual gas saturation, Minkowski functionals, Euler characteristic, Ostwald ripening, micro-CT core flooding, hydrogen storage
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1028)
+
+Time-resolved micro-CT corefloods in Bentheimer use Euler characteristic and interfacial area to separate displacement from ripening dissolution, bounding Sgr; H2 and CH4 trap more than air.
+
+Residual gas saturation from unsteady-state corefloods is uncertain because trapped gas dissolves even when brine is pre-equilibrated, a consequence of ripening/anti-ripening in the pore space. Five brine-displacing-gas experiments (compressed air saturated and unsaturated brine, CH4, H2 twice) were imaged in situ at 5 µm voxel size on a 4 mm by 20 mm Bentheimer mini-plug at 5 bar, with 0.5 µL/min injection. Minkowski functionals (Euler characteristic, interfacial area, curvature) were computed to identify the end of displacement (Euler characteristic stabilizing, upper bound on Sgr) and the start of dissolution (interfacial area decreasing, lower bound). Dissolution slopes scaled with the product of Henry's constant and diffusion coefficient (slope ratios 3.73 and 1.55 versus KH·D ratios 3.27 and 1.67 for H2/air and H2/CH4). Sgr of H2 was close to CH4 and both exceeded compressed air, suggesting air/N2 may not be representative for gas SCAL, though only one rock type and mm-scale samples were tested.
+
+## A Comparison of Coreflood and Digital Rocks Methods to Study the Remobilisation of Residual Gas Through Depressurisation
+
+- ID: SCA2026-025, year: 2026
+- Authors: Chris Jones, Vahid Azari, David Rodrigues, Pavel Gramin, Glen Gettemy, Yang Ning, Nazim Abdullayev, Araz Khalafli, Denis Klemin
+- Method: laboratory experiment
+- Keywords: residual gas remobilisation, depressurisation coreflood, digital rock simulation, critical gas saturation, net confining stress, in-situ saturation monitoring
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-025.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-025)
+
+Nitrogen-brine depressurisation corefloods validated a pore-scale Digital Rocks model of residual gas remobilisation; constant NCS gave 34% recovery, increasing NCS gave 77%.
+
+Residual gas was logged at up to 50% saturation in a deep ~20,000 psi well where only brine flowed, so the feasibility of remobilising it by depressurisation was studied. A three-plug composite sandstone core (51 mD, 11.9% porosity) was brought to trapped nitrogen saturation by brine imbibition and depressurised from 4,000 to 2,300 psi at 174 psi/day with 2 ml/hr brine recirculation, using x-ray ISSM and inline density monitoring. With constant net confining stress (Coreflood 1), gas first exited at 3,501 psi and recovery was 33.6% of gas in place as discrete bubbles. With increasing NCS (Coreflood 3), production began after about 100 psi drop and recovery reached 77.3%, despite only ~7% permeability loss, suggesting compaction displaces brine from small pores and promotes gas connectivity. A 1D Nexus model matched Coreflood 1 with Sgt of 61.1%, and a micro-CT based Digital Rocks twin (DHD simulator) reproduced Sgr (0.52 vs 0.53), remobilisation pressure (3,500 vs 3,501 psi) and bubble-type gas production.

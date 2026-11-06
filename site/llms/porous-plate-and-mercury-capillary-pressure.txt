@@ -1,0 +1,1006 @@
+# Porous plate and mercury capillary pressure
+
+> 77 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: capillary pressure, saturation, pc, porous plate, mercury, drainage, curves, water, permeability, micp.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Capillary Pressure Probe for SCAL Applications
+
+- ID: SCA1999-08, year: 1999
+- Authors: J.N.M. van Wunnik, S. Oedai, S. Masalmeh
+- Method: measurement technique or apparatus
+- Keywords: capillary pressure probe, capillary end effect, relative permeability, oil-wet and water-wet filters, drainage and imbibition, Berea sandstone
+- Cited by 5 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-08)
+
+A small oil- and water-wet filter pressure probe is designed and tested on Berea, Bentheim and carbonate plugs to directly measure capillary pressure and reveal end effects.
+
+Capillary end effects superpose capillary and viscous pressure gradients in relative permeability plug experiments. The authors present a detailed design of a capillary pressure probe using a ceramic water-wet filter and a Teflon oil-wet filter (1 mm2 active area, rated to 300 bar and 120 °C, filter failure near 10 bar). Probes mounted on the plug side were tested in a Caprici-type drainage/imbibition set-up on Berea (620 mD), Bentheim (1560 mD) and carbonate (1.6 mD) plugs. Probes responded to the capillary pressure and were insensitive to the viscous pressure build-up from oil or water accumulating at the end filters, which dominated the total plug pressure drop. Three-probe runs resolved the oil mound moving along the plug, and in the carbonate the entry pressure was 60-70 kPa.
+
+## Improvement of Diaphragm Method for Drainage Capillary Pressure Measurement with Micro Pore Membrane
+
+- ID: SCA1992-05EURO, year: 1992
+- Authors: Wibeke L. Hammervold, Svein M. Skjæveland
+- Method: measurement technique or apparatus
+- Keywords: micropore membrane, drainage capillary pressure, porous plate method, equilibration time, Berea sandstone, Nuclepore
+- Cited by 5 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-05EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-05EURO)
+
+A thin micropore membrane replaces the ceramic plate in oil-brine drainage capillary pressure measurements on Berea sandstone, giving comparable curves with roughly ten times shorter equilibration time.
+
+Ceramic porous plate capillary pressure measurements take weeks because the thick disk controls equilibration. The authors replaced the plate with thin water-wet membranes, testing Nuclepore polycarbonate and Millipore cellulose types, and selected a 0.08 µm Nuclepore membrane with 4 bar entry pressure. They built a coreholder and an endpiece with a support screen, glue and protective Millipore membrane to prevent twisting, rupture and leakage. Oil-brine drainage curves were measured on Berea cores (about 100-500 md) at ambient conditions, and two cores were compared against commercial porous plate data with fairly good agreement. Fitting 32 recovery curves with a Langmuir-type function gave an average characteristic time of 25.8 h for the plate versus 3.1 h for the membrane, about a factor 8-10 faster. Premature oil breakthrough still occurred occasionally, and the authors propose uncertainty-based rules for ending each pressure step.
+
+## Advances in APEX Technology
+
+- ID: SCA1990-04, year: 1990
+- Authors: H.H. Yuan
+- Method: theory or analytical model
+- Keywords: constant-rate mercury porosimetry, APEX, pore throat distribution, Archie's lithologic exponent, permeability model, residual non-wetting saturation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-04)
+
+Bivariate pore-body and pore-throat distributions from constant-rate mercury porosimetry (APEX) feed parameter-free models of Archie's m and permeability, matching limited measurements on sandstones and carbonates.
+
+Slow constant-rate mercury injection (APEX) resolves pore space into pore bodies (subisons) and throats (risons), each with entry pressure and volume. From these, subison and rison bivariate distribution functions are built, shown for Berea sandstone and San Andres dolomite. The subison distribution gives residual non-wetting saturation and the residual-initial relationship. The rison distribution, used in a parallel capillary tube formalism, gives Archie's lithologic exponent (m = 1 + log(S/2)/log φ) and permeability (k = 477φ/S Σ A_r/Pe²), with upper and lower bounds depending on how unfilled pore space is treated. Comparison with measurements on 1/2 inch and 1 inch samples (Berea, Bentheim, San Andres, Red River, chert) shows good agreement: sandstone m values lie near the lower bounds, carbonates near the upper bounds, and air permeabilities generally fall between bounds. The author notes the comparison set is limited and that more data and tests with one-ended mercury entry are needed.
+
+## Improvements of the Semidynamic Method for Capillary Pressure Measurements
+
+- ID: SCA1995-31, year: 1995
+- Authors: R. Lenormand, A. Eisenzimmer, Ph. Delaplace
+- Method: measurement technique or apparatus
+- Keywords: semidynamic method, capillary pressure, steady-state injection, CAT scanning saturation, relative permeability inversion, entrance saturation
+- Cited by 7 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-31)
+
+The semidynamic capillary pressure method is simplified by computing local saturation from average saturation, checked against CAT scanning, with numerical history matching used to fix inaccuracy near Swi.
+
+The semidynamic method measures water-oil capillary pressure cycles by steady-state injection of one fluid, previously requiring local saturation measurements. Here local entrance saturation is calculated from average saturation and entrance pressure at several flow rates using the Ramakrishnan and Cappiello analytical derivative approach. It was tested on a simulated primary drainage and on a Vosges sandstone drainage experiment under CAT scanning, with eight oil rates from 5 to 500 cm3/h, saturations at 7 locations and pressures at 6. Calculated saturations match measurements at intermediate values but are inaccurate near Swi (0.20 calculated vs 0.19 measured) because differentiation amplifies noise in average saturation. Using the analytical results as a first guess for numerical simulation and fitting average saturation and local pressures gave Pc and Kr over the whole saturation range within ±2 saturation units.
+
+## Importance of Porous Plate Measurements on Carbonates at Pseudo Reservoir Conditions
+
+- ID: SCA2006-28, year: 2006
+- Authors: M Z Kalam, K Al Hammadi, O B Wilson, M Dernaika, H Samosir
+- Method: laboratory experiment
+- Keywords: porous plate capillary pressure, saturation exponent, resistivity index, continuous injection, FRIM, principal component analysis
+- Cited by 7 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-28)
+
+Porous plate capillary pressure and resistivity index data on 76 carbonate plugs serve as the reference, showing continuous injection and FRIM give uncertain saturation exponents; PCA flags outliers.
+
+The paper compares porous plate (PP), continuous injection (CI), centrifuge and FRIM techniques for water-oil capillary pressure and Sw-RI measurements on carbonate cores at reservoir stress and temperature with dead crude. Over 70 plugs from four Middle East carbonate fields were tested, with PP as the reference method on all fields, CI on Field B and FRIM on Field D. PP gave consistent saturation exponents (e.g. 2.14 for Field A, 2.47 for Field B, 1.99 and 1.61 for Field D rock types). CI (n = 2.16, std 0.910) and FRIM (n = 1.80, std 0.252) showed large scatter and non-linear Sw-RI trends not seen with PP, with significant STOOIP impact. Principal component analysis identified outlier plugs (e.g. P19, P26, P40) and showed that irreducible water saturation and n-exponent drive unexplained variance.
+
+## Micritic Limestones of the Middle East: Influence of Wettability, Pore Network and Experimental Technique on Drainage Capillary Pressure Curve
+
+- ID: SCA2005-08, year: 2005
+- Authors: Benjamin SALLIER, Gérald HAMON
+- Method: laboratory experiment
+- Keywords: mercury injection capillary pressure, centrifuge drainage Pc, mercury contact angle, oil-base mud invasion, Amott-Harvey wettability, microporous carbonates
+- Cited by 4 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-08)
+
+Centrifuge oil/water and mercury drainage Pc curves on micritic outcrop limestones differ greatly, and oil-base mud invasion biases Swi even after cleaning; wettability depends on pore structure.
+
+The study compares first drainage capillary pressure from oil/water centrifuge and mercury injection on outcrop Urgonian limestone facies (R4, R3, R5, Orgon) analogous to Middle East Shuaiba/Kharaib. Companion plugs were screened by porosity, permeability, NMR, tomography and probe permeametry, then subjected to refined oil, crude oils, ageing, cleaning and oil-base mud filtrate, with Amott-Harvey, USBM and imbibition wettability tests. Water/oil and mercury Pc curves differ over the whole saturation range, with scaled ratios of 1 to 2, largest in microporous facies; an apparent mercury contact angle of 40–60° rising as throat size decreases would reconcile them. Ageing with crude oil and cleaning changed Swi by less than 5 saturation units, but oil-base mud invasion followed by cleaning raised Swi to 20% in R4 and 29% in Orgon, against 7.5–7.7% initially. Wettability alteration was larger in bimodal R4 than in purely microporous Orgon, and pore-network modelling with distributed contact angles reproduced the main drainage and imbibition trends qualitatively.
+
+## Mercury Porosimetry Protocol for Rapid Determination of Petrophysical and Reservoir Quality Properties
+
+- ID: SCA2000-21, year: 2000
+- Authors: John Shafer, John Neasham
+- Method: review or workflow
+- Keywords: mercury injection capillary pressure, blank correction, closure pressure, sample dilation, unconsolidated sands, 1-D drainage
+- Cited by 6 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-21)
+
+Presents practical protocols for high-pressure mercury injection capillary pressure testing, covering jacketing, blank and closure corrections, sample dilation in compressible rocks, and unconsolidated sands.
+
+High-pressure MICP (to 60,000 psia) can rapidly screen drainage capillary pressure and reservoir quality, but data validity depends on sample preparation and corrections. The paper discusses sample size, 1-D versus 3-D drainage (radial jacketing), mercury contact angle (140° vs 180°, a factor of 1.30), blank cell corrections, and closure pressure selection. Using operator-generated quartz blank correction instead of formula lowered MICP porosity by about 5% for sandstone (31.2 to 29.8%) and 26% for shale (3.66 to 2.71%). For compressible high-entry-pressure samples (0.03 md example, bulk compressibility ~20 microsips), unaccounted bulk dilation after mercury entry makes closure selection subjective and can produce pessimistic capillary pressure curves and low porosities. For unconsolidated sands, frozen plugs are jacketed with Teflon and nickel-alloy foil with end screens, and screen mesh must be matched to filling pressure and sample entry pressure to avoid erroneous porosity. MICP can be compared with grain-size-derived pore aperture distributions, but clay-bearing samples give optimistic curves relative to porous plate or centrifuge data.
+
+## Capillary Pressure Characteristics of Carbonate Reservoirs: Relationship Between Drainage and Imbibition Curves
+
+- ID: SCA2006-16, year: 2006
+- Authors: S.K. Masalmeh
+- Method: laboratory experiment
+- Keywords: capillary pressure hysteresis, core cleaning, mercury injection, centrifuge capillary pressure, contact angle distribution, carbonate wettability
+- Cited by 5 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-16)
+
+Compares centrifuge oil-brine and Hg-air capillary pressure on Middle East carbonates, shows poor cleaning distorts drainage but not imbibition, and proposes drainage-imbibition conversion and a Pc model.
+
+Carbonate reservoir Pc data are needed for static and dynamic modelling, but oil-brine and Hg-air primary drainage curves often disagree. Centrifuge Pc (interpreted numerically) was compared with Hg-air on about 50 samples from a Cretaceous Middle East field. Mismatches were attributed to ineffective cleaning, which changes curve shape and traps water; one sample needed 10% trapped water and a 55° contact angle. Adding flow-through chloroform cleaning after Soxhlet gave an excellent match to Hg-air, while imbibition Pc on 32 samples was unaffected by cleaning method. Imbibition and drainage curves were converted with contact angles of about 108-111° for uni-modal samples, with larger pores more oil-wet in dual-porosity samples, and a three-term Pc model was proposed to fit both cycles.
+
+## Measurement of Capillary Pressure Curves at Reservoir Conditions
+
+- ID: SCA2002-09, year: 2002
+- Authors: J-M. Lombard, P. Egermann, R. Lenormand
+- Method: measurement technique or apparatus
+- Keywords: semi-dynamic method, capillary pressure cycle, reservoir conditions, X-ray saturation monitoring, USBM wettability index, history matching relative permeability
+- Cited by 8 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-09)
+
+A semi-dynamic apparatus with X-ray saturation monitoring measures a full capillary pressure cycle and relative permeability on a carbonate at reservoir conditions; duration scales with L² and K^-1/2.
+
+The paper presents a prototype Hassler cell (carbon-fibre composite, heated, X-ray transparent) applying the semi-dynamic method to measure full Pc cycles at reservoir pressure and temperature. A first experiment on a 6 cm, 13 mD, porosity 0.31 carbonate aged with live oil was run at 120°C and 200 bar, taking about 2.5 months. No spontaneous water imbibition occurred, with limited spontaneous oil invasion; the USBM index was -0.07, indicating intermediate wettability. Relative permeability from analytical interpretation and history matching gave krw of about 0.6 at Sorw, and kro down to about 1e-6 after 65 PV injected. Scaling analysis shows duration scales as L²K^-1/2, so an 8 cm sample is 16 times faster than 32 cm; simulated cycles on 32 cm, 10 mD samples take about 110 to 200 days, and 18-20 X-ray points suffice for accurate average saturation.
+
+## Porous Plates Influence on Effective Drainage Rates in Capillary Pressure Experiments
+
+- ID: SCA2001-30, year: 2001
+- Authors: Ove Bjørn Wilson, Bjørn Gunnar Tjetland, Arne Skauge
+- Method: laboratory experiment
+- Keywords: porous plate technique, drainage capillary pressure, layered ceramic plate, plate flux restriction, Bentheimer sandstone, stabilisation time
+- Cited by 6 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-30)
+
+Layered high-flux ceramic porous plates cut drainage capillary pressure experiment time by 3-10 times versus homogeneous plates, without changing saturation or electrical behaviour, supported by experiments and simulation.
+
+Standard porous plate capillary pressure measurements are very slow, and the plate's flow restriction limits drainage rates. The authors tested layered KeraFlux ceramic plates (water flux 2-10 ml/h at 1 bar) against homogeneous Soil Moisture plates (0.13 ml/h) on Bentheimer sandstone and three North Sea reservoir sandstones (about 0.4-4000 mD). A simple capillary-tube network model based on the Washburn equation shows the plate matters most for high-permeability rock. Bentheimer drainage with layered plates reached final equilibrium in 41 days, versus roughly 99 days for the first step alone with a homogeneous plate. In a laminated reservoir, equilibrium took 71 days with layered plates and 207 days with homogeneous ones. 1-D simulation gave 3 versus 40 days for the 0.1 bar step. Drainage was 3-10 times faster across 2-4000 mD, with saturation distribution and electrical properties unaffected.
+
+## A Fast and Accurate Method to Measure Threshold Capillary Pressure of Caprocks Under Representative Conditions
+
+- ID: SCA2006-07, year: 2006
+- Authors: P. Egermann, J.-M. Lombard, P. Bretonnier
+- Method: measurement technique or apparatus
+- Keywords: threshold capillary pressure, caprock, CO2 storage, dynamic displacement, residual capillary pressure, brine production rate
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-07)
+
+A constant-pressure-drop injection method derives caprock threshold capillary pressure from the break in brine production rate; it matches the step-by-step method and is about five times faster.
+
+Threshold capillary pressure of caprocks is needed for basin modeling and gas or CO2 storage, but existing methods are slow (step-by-step), biased by viscous effects (continuous injection), or underestimate it (residual Pc). The authors propose injecting the non-wetting fluid at a constant pressure drop above threshold, starting with brine in the inlet dead volume. The slope break in brine production gives the virgin-region pressure drop through Darcy's law, and subtracting it from the total drop gives threshold Pc. On five samples (chalk to caprock, 0.0006-1.7 md) with an air/brine system, dynamic values (e.g. 6.2 vs 6 bar, 14.6 vs 17 bar) agreed well with the standard method, while residual Pc was systematically lower (e.g. 2.9 vs 6 bar). The test was about five times faster than the standard approach. A synthetic simulation showed local pressure taps could resolve threshold Pc heterogeneity (10, 20, 40 bar) along a composite core; gas solubility in brine is flagged as a possible artifact for CO2.
+
+## Relative Permeability Effects Overlooked in MICP Measurements Transition Zones Likely to Be Smaller
+
+- ID: SCA2016-013, year: 2016
+- Authors: Jos G. Maas, Niels Springer, Albert Hebing
+- Method: laboratory experiment
+- Keywords: mercury injection capillary pressure, equilibration time, relative permeability interference, SCORES simulator, transition zone, saturation-height function
+- Cited by 4 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-013.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-013)
+
+Simulations and about 40 MICP experiments show the default 10 s equilibration is too short; longer equilibration shifts plateau saturations by roughly 20 units, shrinking transition zones.
+
+Standard MICP uses a default 10 s equilibration per pressure step, ignoring interference between capillary pressure and mercury relative permeability. An extended SCORES 1-D simulator showed apparent Pc curves deviate from true curves at low mercury saturation, more so for low permeability and longer samples. The Autopore electronics were extended to record intrusion and pressure time series, confirming intrusion had not stabilised at 10 s. Four-versus-four sample comparisons on Oberkirchener sandstone and Micromeritics reference material, using a suspend mode with readings at 10, 100 and 1000 s, showed statistically significant shifts (t-test, 5% and 1% levels) of up to about 20 saturation units. Chalk showed differential shifts of 5-12 units, while high-permeability Euville limestone and low-permeability Rotliegendes samples showed little measurable effect. An improved protocol using suspend mode between 0.1 and 0.8 PV is recommended, and the transition zone is likely smaller than currently estimated.
+
+## Capillary Flow Porometry – Assessment of an Alternative Method for the Determination of Flow Relevant Parameters of Porous Rocks
+
+- ID: SCA2013-007, year: 2013
+- Authors: Matthias Halisch, Esther Vogt, Cornelia Müller, Angels Cano-Odena, Danny Pattyn, Patrice Hellebaut, Kees van der Kamp
+- Method: measurement technique or apparatus
+- Keywords: capillary flow porometry, pore throat size distribution, mercury injection, Bentheimer sandstone, first bubble point, wetting liquid displacement
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-007)
+
+Capillary flow porometry, using nitrogen to displace a nontoxic wetting liquid, is tested on Bentheimer sandstone and gives pore throat distributions matching mercury injection in about an hour per cycle.
+
+Mercury injection porosimetry is slow, applies high pressure and contaminates samples with toxic mercury. The authors adapt capillary flow porometry (CFP), in which nitrogen displaces a perfluoroether wetting liquid (γ about 18 dynes/cm) with pressure steps, using a POROLUX 1000 instrument. A 4-5 mm slice from Bentheimer sandstone plugs (porosity 21.5%, permeability 593 mD, dominant throat size about 15 µm) was measured in six wetting-drying cycles of about one hour each. Results showed good reproducibility with about 200 points per curve, after discarding cycle 1 (sample holder leakage) and values above 50 µm. After polynomial fitting to the mercury bin sizes, the distributions agreed well with Hg injection, with somewhat more scatter on the flanks. The method preserves the sample, and the authors plan a larger cell, leakage improvements and tests on other sandstones and carbonates.
+
+## Forty Comparisons of Mercury Injection Data with Oil/Water Capillary Pressure Measurements by the Porous Plate Technique
+
+- ID: SCA1997-10, year: 1997
+- Authors: H. N. Greder, V. Gallato, Ph. Cordelier, D. Laran, V. Munoz
+- Method: laboratory experiment
+- Keywords: mercury injection capillary pressure, porous plate, oil/brine drainage, irreducible water saturation, shaly sandstone heterogeneity, carbonate wettability
+- Cited by 5 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-10)
+
+Forty paired tests on adjacent samples show scaled mercury injection systematically underestimates irreducible water saturation versus reservoir-condition porous plate oil/brine drainage, with differences tied to heterogeneity, clay structure and carbonate mineralogy.
+
+The paper asks whether mercury injection can substitute for reservoir-condition oil/brine porous plate drainage capillary pressure. Forty tests on adjacent samples (25 sandstones, 15 carbonates; Gulf of Guinea and North Sea) compared water saturation at 4 bar oil/brine Pc (DS) and displacement pressure. Mercury injection always gave lower Swi, with DS from 0 to 30 %PV in sandstones and up to 0.28 in limestones. Equilibrium time, sample dispersion and compaction explained little of the difference. In sandstones DS rose with clay content, shale lamination/bioturbation, pore-access heterogeneity (SI) and cementation exponent, probably through brine trapping in 1D oil placement. Clean well-sorted sandstones matched, while in carbonates DS was larger for limestones and calcite-rich samples, suggesting a wettability effect.
+
+## A New Methodology to Evaluate the Impact of the Local Heterogeneity on Petrophysical Parameters (KR, PC): Application on Carbonate Rocks
+
+- ID: SCA2004-18, year: 2004
+- Authors: P. Egermann, R. Lenormand
+- Method: data analysis or correlation
+- Keywords: local heterogeneity, relative permeability history matching, capillary pressure, saturation profiles, upscaling, carbonate coreflood
+- Cited by 3 papers in the corpus, cites 7
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-18)
+
+A pressure-based upscaling method uses local saturation profiles to derive local Pc and kr, reproducing saturation fluctuations in carbonate coreflood experiments and giving confidence intervals for kr and Pc.
+
+Local saturation fluctuations in carbonate coreflood experiments cannot be reproduced by conventional history matching using a single kr-Pc set or smoothed saturation inputs. The authors propose a method based on the fact that pressure profiles are smoother than saturation profiles, so simulated pressure from a homogeneous history match can be combined with measured local saturations to compute local Pc values at each measurement position. These local Pc curves are fed back into the simulator for one further kr optimization, and transient profiles give local fractional flow and displaced-phase kr. A synthetic multi-rate imbibition case (8 cm core, 11-47 md) shows saturation deviations up to 10% between homogeneous and heterogeneous cores while pressure profiles remain similar. Applied to a gas/oil composite carbonate core (~30% porosity, 10 md) with CT saturation monitoring and a single water/oil carbonate plug (29%, 14.8 md), the method matches production data and local saturation profiles after one iteration, with Pc and kro values scattering around the global curves to define an uncertainty interval.
+
+## A New Technique for Measuring the Breakthrough Capillary Pressure
+
+- ID: SCA2002-40, year: 2002
+- Authors: Jonathan D. Smith, Ioannis Chatzis, Marios A. Ioannidis
+- Method: measurement technique or apparatus
+- Keywords: breakthrough capillary pressure, constant rate injection, glass micromodel, mercury porosimetry, Berea sandstone, threshold pressure
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-40)
+
+A constant-rate injection of air or mercury, with inlet pressure monitored, gives breakthrough capillary pressure accurately in glass micromodels and Berea sandstone, agreeing with drainage height and porosimetry.
+
+Breakthrough capillary pressure is usually found from stepwise pressure drainage or the inflection of porosimetry curves. The authors inject a slug of air or mercury at constant rate (about 1.8e-2 cm3/min) with a syringe pump and take the peak inlet pressure as breakthrough pressure. In eight glass micromodels the values agreed with drainage capillary height tests within about 1-7%. Mercury-air in one micromodel, corrected for surface tension and contact angle, gave 17.6 cm H2O (16.1 after viscous correction) versus 14.0 for air-water. In Berea cores (270 and 518 mD), breakthrough pressures were 88 and 55 cm H2O, with about 14.5% non-wetting saturation at breakthrough. The 88 cm H2O value fell within the 77-102 cm H2O range from mercury porosimetry, and vertical core orientation worked best.
+
+## Porous Plates Influence on Effective Imbibition Rates in Capillary Pressure Experiments
+
+- ID: SCA2002-16, year: 2002
+- Authors: Ove Bjørn Wilson
+- Method: laboratory experiment
+- Keywords: porous plate, layered porous plate, spontaneous imbibition, forced imbibition, characteristic time, capillary pressure
+- Cited by 3 papers in the corpus, cites 7
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-16)
+
+Layered and homogeneous porous plates were compared in drainage and imbibition on North Sea cores; layered plates equilibrate faster, with a time saving factor of 2.86, same capillary curves.
+
+Porous plate capillary pressure experiments are very slow, and layered high-flux plates have been shown to speed up drainage. This study extends the comparison to spontaneous and forced imbibition using four pairs of twin North Sea plugs (porosity 0.268-0.272, permeability 1717-2421 mD) at 157 bar net confining pressure and 85°C with stock tank oil. Plugs were tested with layered Keraflux plates (hydrophilic and hydrophobic) or homogeneous Soil Moisture plates, using strict equilibrium criteria of 48 hours without change in saturation or resistivity index. Layered plates reached final equilibrium in 76, 86 and 108 days versus 247, 238 and 279 days for homogeneous plates, a total time saving factor of 2.86. A characteristic time from first-order exponential fits of transient production gave a characteristic time ratio that falls as a power function of drainage pressure and rises with dSw/dPc, tends to unity at endpoints, and follows an exponential trend in forced imbibition. Near-zero-pressure spontaneous imbibition was not well described by a single exponential.
+
+## Heterogeneity Study Through Representative Capillary Pressure Measurements - Impact on Reservoir Simulation and Field Predictions
+
+- ID: SCA2004-32, year: 2004
+- Authors: J-M. Lombard, P. Egermann, R. Lenormand, S. Bekri, M Hajizadeh, H Hafez, A Modavi, M Z Kalam, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: semi-dynamic method, imbibition capillary pressure, in situ saturation monitoring, carbonate heterogeneity, rock types, centrifuge comparison
+- Cited by 4 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-32)
+
+A semi-dynamic method interpretation gives sets of local Pc curves capturing heterogeneity in six carbonate rock types at reservoir conditions, improving simulation inputs versus single-curve methods.
+
+Imbibition capillary pressure is needed to interpret waterfloods and calibrate reservoir simulation, but single-curve methods ignore sample heterogeneity. The authors extend the IFP semi-dynamic method (up to 130°C, 330 bar, X-ray in situ saturation monitoring) by solving the average pressure field with ATHOS using the analytical Pc and krw curves, then combining it with local saturation profiles to get Pc at each measured location. Applied to one plug for each of six carbonate rock types (permeability 451 to 0.14 mD), RRT1–3 showed wide Pc scatter while the lower-permeability RRT4–6 plugs collapsed onto nearly one curve, consistent with CT images. Centrifuge Pc curves (Forbes, J-function scaled) for RRT1 and RRT5 fell within the SDM scatter band, but only the SDM gives upper and lower limits. Representative curves selected by waterflood history matching show ordering with rock type, and using them in the full-field model improved water slumping and horizontal well matches.
+
+## Can We Really Measure the Relative Permeabilities Using the Micropore Membrane Method?
+
+- ID: SCA1996-37, year: 1996
+- Authors: R. Lenormand, P. Delaplace, P. Schmitz
+- Method: numerical simulation
+- Keywords: micropore membrane, relative permeability, porous plate, capillary pressure, transient production, analytical model
+- Cited by 5 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-37)
+
+Experiments, numerical simulation and an analytical model show relative permeability from membrane transient production is poorly determined for liquid/liquid systems unless membrane resistance is low.
+
+The paper examines whether relative permeability can be derived from transient effluent production during capillary pressure measurements with porous plate or micropore membrane methods. A 1D finite-volume simulator and an analytical diffusion-type solution (constant Kr, linear Pc over small steps, after Carslaw and Jaeger) treat the membranes as boundary conditions. A gas/oil drainage experiment on a 4 darcy core with a membrane about 260 times more resistive than the core showed that transient kinetics were controlled by membrane resistance, and Kr(max) changes from 1 to 0.01 had the same effect as a factor 2 change in membrane resistance. Sensitivity simulations with ±10% membrane resistance uncertainty showed that for water/oil systems at resistance ratio 10 there is no accuracy. For oil/gas systems, oil Kr is well determined up to a saturation of about 0.8 if the resistance ratio is below 1. Only the Kr of the fluid at low saturation is accessible; the answer to the title is no for water/oil, and yes for oil Kr in oil/gas with low membrane resistance.
+
+## An Empirical Method for Evaluation of Capillary Pressure Data
+
+- ID: SCA1992-07EURO, year: 1992
+- Authors: Erik Søndenå
+- Method: data analysis or correlation
+- Keywords: capillary pressure correlation, Leverett J-function, water saturation–permeability relationship, Caplog multilinear regression, porous plate method
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-07EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-07EURO)
+
+Proposes an empirical equation linking water saturation, permeability and capillary pressure; on 120 North Sea samples it beats the Leverett J-function and matches Johnson's method.
+
+The paper addresses correlating capillary pressure data with permeability to predict water saturation. A new empirical method, extending Wright and Wooddy (1955), fits Sw = A'·ln(K) + B' with both slope and intercept as power laws of Pc. It was compared with the Leverett J-function, the Caplog multilinear regression and Johnson's method using 120 porous-plate drainage curves from 11 wells in 6 North Sea reservoirs (five sandstone, one chalk; permeability 0.05–25000 md). Average R² was 0.84 for the J-function, 0.89 for Caplog, and 0.93 for both Johnson and the new method. The new method and Johnson's were less sensitive to porosity and best at high capillary pressure, while none predicted Sw well below 0.2 bar. The author recommends applying both the new and Johnson methods and choosing the better fit.
+
+## Capillary Pressure and Pore Size Distribution from Water Injection: A Feasibility Study
+
+- ID: SCA2012-41, year: 2012
+- Authors: R. Lenormand
+- Method: measurement technique or apparatus
+- Keywords: brine injection capillary pressure, siliconate wettability treatment, mercury injection capillary pressure, pore size distribution, contact angle 90°
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-41)
+
+Rocks treated with water-soluble siliconate become non-wetting to brine, enabling brine-injection capillary pressure curves and pore size distributions that qualitatively match mercury injection.
+
+Mercury injection capillary pressure is standard but mercury is banned in some settings, so the paper tests brine injection (BICP) as a substitute. Carbonate and sandstone samples are saturated with a potassium methyl siliconate solution and dried, which gives a near-90° contact angle and also yields porosity from mass difference. Brine is injected in a porosimeter-type cell up to 30 bar without vacuum, with air compressibility corrected by Boyle's law, and injection and withdrawal curves are recorded. Spontaneous imbibition of treated samples is limited to about 10-20% of pore volume. Pressure levels follow permeability (chalk ~5 mD, Vosges sandstone ~200 mD), and pore size distributions agree qualitatively with mercury, though peaks differ and BICP distributions are wider.
+
+## Estimation of Curvature from Micro-CT Liquid-Liquid Displacement Studies with Pore Scale Resolution
+
+- ID: SCA2012-55, year: 2012
+- Authors: R. T. Armstrong, C. H. Pentland, S. Berg, J. Hummel, D. Lichau, L. Bernard
+- Method: digital rock or imaging
+- Keywords: interfacial curvature, micro-CT, capillary pressure, marching cubes, image segmentation, trapped oil
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-55)
+
+Compares surface-based (triangulated mesh) and voxel-based interfacial curvature methods on synthetic and micro-CT data; mesh smoothing gave about 1% error and was applied to a trapped oil blob.
+
+Interfacial curvature from micro-CT images can give in-situ capillary pressure, but accuracy depends on image resolution and quality. Two approaches were tested: curvature on marching-cube triangulated surfaces fitted with quadric patches, and voxel-based curvature from image gradients and Hessian eigenvalues. Datasets were synthetic spheres (5-45 pixel diameter), synchrotron CMT of 0.8 mm glass beads at 4.5 µm/pixel, and a sintered glass sample water-flooded after decane saturation at 4.1 µm/pixel. All methods deviated from true curvature as sphere radius decreased, owing to pixelation. For both approaches an optimal smoothing level existed; the surface-based method with 25 smoothing iterations gave the best result at about 1% relative difference, while anisotropic-diffusion-filtered gray-scale data was best among voxel methods. Applied to a residual oil blob, it separated capillary-dominated from disjoining-pressure-dominated regions of the interface.
+
+## Converting Ambient Capillary Pressure Measurements to Reservoir Stress for Improved Formation Evaluation: A Novel Approach
+
+- ID: SCA2026-012, year: 2026
+- Authors: Mohammed Al-Hamad, Ahmad Al-Zoukani, Farhan Ali, Shouxiang Mark Ma
+- Method: laboratory experiment
+- Keywords: capillary pressure, confining stress, centrifuge drainage, porous plate method, stress correction model, rock stiffness
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-012)
+
+Ambient centrifuge and 3,000 psi porous-plate Pc curves on nine carbonate and sandstone samples were used to generalize a stress-conversion model that works across lithologies.
+
+Capillary pressure is usually measured by centrifuge at ambient stress, so it must be converted to reservoir stress. Nine outcrop dolostone, limestone and sandstone samples (about 10-21% porosity, 19-232 mD) were measured by centrifuge at ambient stress, cleaned, then measured by porous plate at 3,000 psi confining stress using brine and Soltrol-130. Stress shifted Pc curves toward higher water saturation, more strongly for sandstone and limestone than for stiffer dolostone. A previous Indiana-limestone-based Beta model (fixed x=61.301, y=0.2) failed for sandstone and one limestone, and a porosity-based Juhasz correction was also inadequate. Treating x and y as variables dependent on Sw, Pc and rock stiffness gave a generalized model that corrected the sandstone and the mismatched limestone data.
+
+## Comparing Centrifuge, Steady-State and Semi-Dynamic Methods for Relative Permeability and Capillary Pressure Determination: New Insights
+
+- ID: SCA2021-019, year: 2021
+- Authors: Fabrice Pairoys, Cyril Caubit, Micah Alexander, Javier Ramos
+- Method: laboratory experiment
+- Keywords: semi-dynamic method, steady-state relative permeability, centrifuge Forbes capillary pressure, in-situ saturation monitoring, history matching, live fluids reservoir conditions
+- Cited by 3 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-019)
+
+Semi-dynamic, steady-state and centrifuge methods are compared for waterflood Kr and Pc on tight carbonates; SD matches centrifuge Pc and Kro but differs from SS.
+
+The study compares semi-dynamic (SD), steady-state (SS) and centrifuge methods for water-oil relative permeability and imbibition capillary pressure on twin tight limestone plugs (He 12-16%, Kw 0.5-0.9 mD). SD and SS waterfloods were run on two-plug composite stacks at 100 °C and 3000 psi with live oil and 1D X-ray saturation monitoring, while centrifuge multistep Pc and single-step Kro tests used dead oil. Kr curves were fitted with Corey models and history-matched, with a log(Beta) Pc function for SD and SS. SD Pc agreed acceptably with centrifuge Forbes Pc, and SD Kro overlapped centrifuge Kro. SD and SS Kr differed (Nw 4.5 vs 3.5, No 4.0 vs 3.0, Krw max 0.16 vs 0.22), attributed to heterogeneity, capillary contact in composites, lack of equilibrium or wettability. The authors recommend 2D/3D X-ray saturation monitoring, non-composite samples, and measuring the positive Pc part.
+
+## The Spinning Porous Plate (SPP) Method: A New Technique for Setting Irreducible Water Saturation on Core Samples
+
+- ID: SCA2009-08, year: 2009
+- Authors: M. FLEURY
+- Method: measurement technique or apparatus
+- Keywords: centrifuge desaturation, porous plate, irreducible water saturation, capillary foot, X-ray CT saturation profile, perforated ceramic
+- Cited by 5 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-08)
+
+A perforated porous ceramic placed under a sample during centrifugation removes the capillary foot, giving uniform low water saturation within hours to days, verified by CT scans.
+
+Setting initial water saturation by viscous oil flooding gives non-uniform profiles, the porous plate is very slow, and standard centrifuging leaves a capillary foot. The spinning porous plate method centrifuges the sample on a thick perforated ceramic (entry pressure about 3.5 bar air-water, permeability about 0.2 mD, about 20 perforations of 2 mm) so the outlet face is held at the ceramic's capillary pressure while the perforations keep flow fast. A boundary-condition argument shows the perforations do not alter outlet capillary pressure. X-ray CT on a sandstone and a tight carbonate shows a uniform profile with the ceramic in the sandstone, whereas the tight carbonate keeps some profile and needs inversion and further spinning. Companion plugs of about 180 mD reach low saturation within hours with or without ceramic, and typical spinning times are 24-48 h, even for tight rocks.
+
+## On the Effect of Reservoir Confining Stress on Mercury Intrusion-Derived Pore Frequency Distribution
+
+- ID: SCA2003-23, year: 2003
+- Authors: P. Mitchell, Integrated Core, J. Williams
+- Method: laboratory experiment
+- Keywords: mercury intrusion porosimetry, confining stress, pore size distribution, entry pressure, seal capacity, microporosity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-23)
+
+High-pressure mercury intrusion on six rock types under hydrostatic confinement up to 16000 psi shows entry pressure rises and microporosity is lost with stress, so unstressed tests mislead.
+
+Conventional high-pressure mercury intrusion is run on unstressed samples, which are not representative of downhole conditions. The authors used a miniature pre-stressing cell with a hardening sleeve fluid to hold fixed hydrostatic confinement (2000 to 16000 psi) during intrusion up to 60000 psia. Six rock types were tested (limestone, Kimmeridge Clay siltstone, chloritic sandstone, tight gas sandstone, poorly consolidated sandstone, chalk), plus a homogeneous synthetic sample showing about 1% relative reproducibility in intrusion volume. Entry pressure increased with confining stress; for example, Kimmeridge Clay seal capacity rose by a factor of 3.6 at approximate in-situ stress. Microporosity was lost preferentially, several samples collapsed at high stress (chloritic sandstone entry pressure rose from 12.9 to 1848 psia at 6000 psi), and ambient tests of poorly consolidated sand showed false intrusion from compaction. Only the chalk deformed systematically without failure.
+
+## An Integrated Petrophysical Tool Measurements and Data Interpretation
+
+- ID: SCA1997-17, year: 1997
+- Authors: Roland LENORMAND, Philippe SCHMITZ
+- Method: measurement technique or apparatus
+- Keywords: semi-dynamic capillary pressure, resistivity index, steady-state relative permeability, Hassler cell, integrated petrophysical measurement, local saturation calculation
+- Cited by 2 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-17)
+
+An integrated tool based on semi-dynamic steady-state injection measures the full Pc cycle, resistivity index and partial Kr on one sandstone sample, matching standard methods for one sample.
+
+The paper presents the Integrated Petrophysical Tool (IPT), an extension of the semi-dynamic capillary pressure method, to measure the complete Pc cycle, resistivity index and parts of the Kr curves in a single experiment. A modified Hassler cell with six pressure taps and electrodes is used, with local saturations calculated from effluent production by an analytical (Ramakrishnan) and numerical 1D approach. Two water-wet reservoir sandstones (porosity 0.22, permeability about 0.125 and 1.19 darcy) were tested at room conditions with Soltrol and brine, in about 30 steps over roughly four weeks. Kr agreed with standard steady-state results and Pc with centrifuge data for sample 1, but Pc was too low for the high-permeability sample 2, likely due to pressure sensor accuracy. Formation factors were 18.9 and 17 (m of 1.94 and 1.90), and resistivity index gave a saturation exponent near 2 using four-electrode local potentials. Main error sources were leaks, dead volumes and pore volume determination, which affect effluent measurement.
+
+## An Experimental Study of Irreducible Water Saturation Estabilishment
+
+- ID: SCA2014-070, year: 2014
+- Authors: Zhang Zubo, Luo Manli, Lv Weifeng
+- Method: laboratory experiment
+- Keywords: irreducible water saturation, porous plate method, oil displacement, centrifuge desaturation, Karl Fischer titration, capillary pressure
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-070)
+
+Compares porous plate, oil displacement and centrifuge methods for establishing irreducible water saturation against in-situ Karl Fischer data; oil displacement matches best, while the other two overestimate in low-permeability cores.
+
+Establishing irreducible water saturation affects relative permeability and other displacement tests, yet the porous plate, oil displacement and centrifuge methods give discrepant results. The authors tested 97 water-wet Shengli oilfield sandstone cores (1.1–1725 mD) with all three methods and compared them with in-situ initial water saturation from Karl Fischer titration of 293 closed-coring samples. Irreducible water saturation decreased with increasing permeability. Oil displacement matched in-situ saturation across the whole range. The air-brine porous plate method matched only above 100 mD, because its 200 psi entry pressure limits the capillary pressure available; deviations reached 26.8% against oil-brine porous plate for a 6.89 mD sample. Centrifuge results (maximum 60 psi equivalent) overestimated saturation across all permeabilities, especially in low-permeability samples.
+
+## A Capillary Pressure Function for Interpretation of Core-Scale Displacement Experiments
+
+- ID: SCA1998-07, year: 1998
+- Authors: X.D. Jing, J.N.M. van Wunnik
+- Method: numerical simulation
+- Keywords: capillary pressure function, multi-speed centrifuge, residual oil saturation, Corey relative permeability, numerical history matching, intermediate wettability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-07)
+
+Proposes a flexible capillary pressure function for drainage and imbibition, consistent with Corey relative permeability, and uses it with simulation to interpret multi-speed centrifuge data, giving lower Sor.
+
+Analytical interpretations of centrifuge experiments often ignore coupled capillary pressure and relative permeability effects, and existing Pc functions match threshold pressure, irreducible saturation and sharp transitions poorly. The authors propose a Pc function with asymptotes for irreducible saturation and threshold pressure plus shape parameters (Pc°, d, n, a) that works for drainage and imbibition and shares Sor and Swc with the Corey Kr model. Multi-speed oil/water centrifuge experiments on three sandstones (227–1624 mD) and one tight Middle East carbonate (4 mD) were history-matched with the MoRes simulator. Close matches were obtained in all cases; a, d and n can be fixed from the Hassler-Brunner solution (n=2), so only Sor, Pc° and the Corey oil exponent are fitted. Fitted Sor ranged 0.09–0.27, and some values were notably lower than conventional SCA results. A sensitivity study varied Sor by ±0.02, Pc by ±10% and no by ±10%.
+
+## Case Study for Representative Water Saturation from Laboratory to Logs and the Effect of Pore Geometry on Capillarity
+
+- ID: SCA2007_38, year: 2007
+- Authors: M Dernaika, M S Efnik, M S Koronful, M Al Mansoori, H Hafez, M Z Kalam ResLab L.L.C, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: porous plate capillary pressure, resistivity index, saturation exponent, forced imbibition, residual oil saturation, carbonate rock types
+- Cited by 1 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_38)
+
+Porous plate drainage, spontaneous and forced imbibition Pc and RI-Sw tests on carbonate rock types give imbibition saturation exponents (up to 2.28) that change log-derived water saturation in swept wells.
+
+Porous plate measurements at reservoir temperature (121°C) and overburden pressure were run on carbonate cores from several reservoir rock types (RRT 1-7) through primary drainage, spontaneous imbibition and forced imbibition, with simultaneous resistivity index. Samples were characterized by CT, NMR T2, MICP, porosity, permeability and thin sections. Tight, uniform RRT 5-7 samples (<1 mD) showed unexpectedly large spontaneous imbibition despite 5 months of aging in crude, whereas high-permeability RRT 1-4 showed little or none. Sor converged near 20% for RRT 1-5 and 27-30% for RRT 6-7. The saturation exponent n rose from 1.99 to 2.28 (PD to FI) for RRT 1-5 and from 1.56 to 1.82 for RRT 6-7. Applying the imbibition n of 2.28 in two wells (crest and mid-dip) lowered calculated remaining oil, most strongly in the water-swept well, so drainage n is not appropriate for swept zones.
+
+## Hybrid Technique for setting initial water saturation on core samples
+
+- ID: SCA2022-23, year: 2022
+- Authors: Victor Fernandes, Cyril Caubit, Benjamin Nicot, Fabrice Pairoys, Henri Bertin, Jean Lachaud
+- Method: measurement technique or apparatus
+- Keywords: primary drainage, initial water saturation, porous plate, capillary end effects, NMR saturation profiles, viscous flooding
+- Cited by 3 papers in the corpus, cites 10
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-23)
+
+A Hybrid Drainage Technique couples viscous oil flooding with porous plate drainage in one cell, giving uniform initial water saturation faster than porous plate alone, validated by NMR.
+
+Setting initial water saturation by viscous flooding or centrifuge leaves capillary end effects, while porous plate drainage is slow. The authors propose a Hybrid Drainage Technique in a PEEK overburden cell with a mono-perforated porous plate: Phase 1 is viscous oil injection through a bypass outlet, and Phase 2 switches to the porous plate outlet to equalize capillary pressure. Tests used twin Bentheimer and Richemont (Thénac) plugs at high and low Swi targets, with NMR 1D saturation profiles, compared against conventional porous plate runs. Saturation profile standard deviation fell, for example from 4% to 1% for Bentheimer high Swi and from 9–10% to 2% for Richemont, and max-min spread also dropped, with experiment duration reduced versus porous plate. History matching of Richemont Phase 1 gave MAPE of 1.9% (dP), 3.0% (water production) and 8.5% (Sw profile). CYDAR simulations on a full-size core suggest similar time savings.
+
+## Interpretation of Mercury Injection Curves to Derive Pore Size Distribution
+
+- ID: SCA2003-52, year: 2003
+- Authors: R. Lenormand
+- Method: theory or analytical model
+- Keywords: mercury injection capillary pressure, pore size distribution, spline smoothing, logarithmic derivative, double porosity, fractal dimension
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-52)
+
+Shows that raw incremental-saturation mercury plots depend on step spacing, and recommends spline-smoothing the data and using the logarithmic derivative dS/d(lnP) for pore geometry.
+
+Raw incremental saturation versus incremental pressure from mercury porosimetry is often presented as a pore size distribution, but it has no physical meaning and depends on the number and spacing of the pressure steps. The author fits the experimental mercury injection curve with third-degree splines (about 20 knots) to remove high-frequency noise and then calculates derivatives analytically. The standard psd, f(r) = P²/(2γcosθ)·dS/dP, has units of inverse length but heavily weights small pores because of the P² term. It suits fractal roughness analysis but not mean pore size or double porosity. The logarithmic derivative P·dS/dP is dimensionless, gives more information at intermediate pressures, and matches incremental plots only when pressure steps are log-spaced, as ASTM recommends. All derived functions describe a throat-size distribution rather than a true pore distribution.
+
+## Evaluation of Water Saturation from Laboratory to Logs
+
+- ID: SCA2006-56, year: 2006
+- Authors: M. S. Efnik, M. Dernaika, M.Z. Kalam, ResLab L.L.C, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: porous plate drainage, resistivity index, saturation exponent, J-function, carbonate reservoir rock types, log calibration
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-56.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-56)
+
+Porous plate drainage Pc and resistivity index at reservoir conditions on Middle East carbonates show n from about 2 down to 1.6 by rock type, improving log Sw calibration.
+
+The study addresses determining initial water saturation in a Middle East carbonate reservoir from core data integrated with logs. Twenty SCAL plugs from 8 reservoir rock types (porosity 10-33%, permeability 0.01-6000 mD) underwent porous plate primary drainage at reservoir temperature (121°C) and overburden pressure, measuring Pc and resistivity index; a full drainage cycle could take up to 8 months. The cementation exponent m increased slightly from 1.95 to 1.98 at reservoir temperature. The saturation exponent n ranged from 1.99 in the main rock types (RRT 1-5) to about 1.6 in tighter RRT 6-8, with no non-linear RI-Sw behaviour. Using the new parameters (m=1.95, n=1.99 or 1.60) instead of the old (m=2.15, n=1.78) gave log water saturations that matched oil-base-mud cores more closely, and lower n implies more remaining oil and STOOIP.
+
+## Full Cycle Capillary Pressure and Transition Zone Measurements via the Semi-Dynamic Technique
+
+- ID: SCA2006-05, year: 2006
+- Authors: Daniel R. Maloney
+- Method: laboratory experiment
+- Keywords: semi-dynamic capillary pressure, full-cycle Pc, scanning curves, x-ray saturation profiles, Brooks-Corey, transition zone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-05)
+
+Semi-dynamic capillary pressure tests with x-ray saturation monitoring on a chalk core at reservoir conditions give full-cycle Pc curves, and local scanning curves are estimated from saturation profiles.
+
+The paper evaluates the semi-dynamic method for measuring full-cycle oil-brine capillary pressure (primary drainage, spontaneous and forced brine imbibition, spontaneous oil imbibition, second drainage) at 150°F, 300 psig pore pressure and 1000 psig confining stress. A chalk plug (0.38 porosity, 0.77 mD at test conditions) was tested with n-decane and CsCl brine, with x-ray saturation profiles recorded at each Pc step up to 250 psi. Brooks-Corey fits described drainage (Pe 29.6 psi; second drainage λ 1.19, Pe 6.7 psi) and an imbibition function fit local Pc from saturation profiles along the core. A second confirmation test reproduced the estimated scanning loop, with Pe of 28-30 psi and similar saturation at the same Pc. Results show that oil trapping during imbibition depends on initial water saturation, which is useful for transition zone recovery estimates.
+
+## Two-Phase Semi-Dynamic Method with Electrical Measurements: Determination of Relative Permeability and Capillary Pressure from a Single Experiment
+
+- ID: SCA2014-005, year: 2014
+- Authors: F. Pairoys
+- Method: measurement technique or apparatus
+- Keywords: semi-dynamic method, resistivity index, relative permeability from resistivity, capillary pressure, Ramakrishnan-Cappiello, wettability index
+- Cited by 1 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-005)
+
+A semi-dynamic brine-oil experiment with resistivity on an Indiana limestone slab yields Pc, Kr, RI and wettability indices in under two months; simulation match is only fair.
+
+Conventional SCAL needs separate, long experiments for relative permeability, capillary pressure and electrical properties. This work combines the IFP semi-dynamic method with resistivity measurements on a water-wet Indiana limestone rock slab at ambient conditions, with the displaced-phase Kr derived from resistivity (Li's model in drainage, normalized resistivity index in imbibition). Primary drainage, spontaneous and forced imbibition, and spontaneous and forced secondary drainage gave Pc, Kr and RI in under two months. Results included n = 2.1 in drainage and 2.48 in imbibition, Swi of 32.9% (Ramakrishnan-Cappiello), Sor of 14.9%, a Krw end point of 0.44, and wettability indices of about 0.25 (USBM) and 0.26 (Amott-Harvey), indicating only slight water wetness, possibly influenced by oil dye adsorption. CYDAR history matching of forced imbibition agreed only moderately, even after optimization, so in situ saturation monitoring such as X-ray is recommended.
+
+## New Procedure and Apparatus for Combined Reservoir Condition Gas-Brine Relative Permeability, Capillary Pressure, and Electrical Property Measurements
+
+- ID: SCA1994-27, year: 1994
+- Authors: D. Maloney, K. Doggett, R. Gilliland, Producing U.S
+- Method: measurement technique or apparatus
+- Keywords: steady-state relative permeability, porous plate desaturation, gas humidification, X-ray saturation measurement, resistivity index, high-temperature high-pressure
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-27)
+
+A patented outlet endpiece with a porous ceramic disk enables desaturation and steady-state gas-brine relative permeability and resistivity tests at 150°C and 55 MPa, with humidification control identified via X-ray and resistivity.
+
+Special core analysis of deep Norphlet sandstone required 55 MPa net confining pressure, 150°C, and brine above 200,000 ppm, with initial brine saturation near 20%. Gas flow alone could not reach irreducible brine saturation, so a patented outlet endpiece combining a porous ceramic disk and a Berea flow insert was built. It allows capillary desaturation and then steady-state imbibition and drainage relative permeability and resistivity measurements without disturbing the sample. Saturations were tracked by X-ray scanning (NaI-doped brine) and resistivity. Gas humidification was the main difficulty: under- or over-humidified gas dehydrated or wetted plugs, detected by off-trend resistivity versus X-ray saturation and by ΔP/Qg changes. The humidifier had to run cooler than the coreholder to match brine vapor pressure, and Berea data demonstrated the method.
+
+## The Toroidal Porous Plate: A New Method to Facilitate Waterflooding
+
+- ID: SCA2014-068, year: 2014
+- Authors: Christopher H. Pentland, Rehab M. El-Maghraby, Stefan Iglauer, Martin J. Blunt
+- Method: measurement technique or apparatus
+- Keywords: porous plate, primary drainage, waterflooding, residual trapping, CO2-brine, Hassler cell
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-068.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-068)
+
+A porous plate with a central hole sealed by o-rings lets primary drainage and waterflooding run in one cell without moving the core; tests confirm no leakage and effective bypass.
+
+Moving a core between primary drainage and imbibition apparatus can change saturations, core mass and phase composition, especially for CO2 at high pressure. The authors drilled a hole through a ceramic porous plate, sealed a central steel flow line with Viton o-rings, and fitted it in a modified Hassler cell. Drainage was run on three Berea and three Indiana limestone plugs with decane-brine and CO2-brine at 50-70 °C and 4.2-9 MPa. The plate stayed impervious to the non-wetting phase, with water production ceasing at capillary equilibrium, and withstood up to 5 bar capillary pressure. During waterflooding the pressure drop matched the core alone (50-300 mD effective permeability for Berea versus 125 µD for the plate), so the plate was bypassed. Maximum residual saturations were 0.366 for Berea and 0.237 for Indiana limestone; flow distribution channels on the plate face and in-situ saturation monitoring are suggested improvements.
+
+## A New Approach to Derive Relative Permeability Data While Measuring Resistivity Index
+
+- ID: SCA2005-04, year: 2005
+- Authors: M. Fleury, P. Poulain, P. Egermann
+- Method: measurement technique or apparatus
+- Keywords: FRIM resistivity index, relative permeability, multi-rate waterflood, history matching, forced imbibition, oil-wet carbonate
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-04)
+
+Relative permeability curves are derived by history matching resistivity-based average saturation and sample-only pressure drop during multi-rate forced imbibition in FRIM tests, matching unsteady-state results on an oil-wet carbonate.
+
+Resistivity index and relative permeability are usually measured in separate SCAL programs. The authors extend the FRIM imbibition cell, which uses a radial electrode geometry on short samples, with four pressure taps that measure the sample pressure drop excluding the ceramic. A low-permeability oil-wet carbonate (0.13 mD, porosity 0.206, Swi 0.46) was flooded at 0.1, 0.2 and 1 cc/hr over about 80 hr at reservoir conditions. Average saturation from resistance (Archie, n=2.33) gave three capillary pressure and water Kr points analytically, and history matching with a Brooks-Corey Pc gave full Kr curves. The Kr curves, including the cross-over point, agreed closely with unsteady-state results on a companion 7 cm plug. Resistance-derived average saturations matched simulated parallel-resistance averages within 0.5%, and the Kr curves are most reliable for Sw 0.6-0.85, where equilibrium points exist.
+
+## Phase Pressure Measurements: Simultaneous and Direct Derivation of Relative Permeability and Dynamic Capillary Pressure
+
+- ID: SCA2005-05, year: 2005
+- Authors: A.S. Lackner, O. Torsaeter
+- Method: measurement technique or apparatus
+- Keywords: dynamic capillary pressure, phase pressure measurement, porous membrane pressure tap, relative permeability, drainage and imbibition, capillary end effect
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-05)
+
+Water- and oil-wet porous membrane pressure taps on epoxy-sealed sandstone cores measure in-situ phase pressures, giving dynamic capillary pressure that exceeds static centrifuge data and improves relative permeability derivation.
+
+Traditional unsteady-state relative permeability calculation neglects capillary pressure, and Pc is usually measured statically on different rock. The authors built a prototype pressure tap (about 0.01 ml volume) with PAN water-wet and PTFE oil-wet membranes, mounted at x/L≈0.35-0.40 on epoxy-sealed Bentheimer and Berea cores. Drainage at increasing rates and low-rate imbibition were run with brine and Exxsol-D60, with saturations from material balance. Pc rose with each rate increase as water was produced and fell to zero as the water front passed the tap; the membrane response delay was estimated below 1 s. Dynamic drainage Pc in Berea was considerably greater than static centrifuge curves, with the cause not resolved. Simulation showed traditional steady-state relative permeabilities become less accurate at low water saturation, while phase-pressure-based values with in-situ saturation were more accurate.
+
+## Petrophysical Parameter Measurements: Comparison of Semi-Dynamic and Centrifuge Methods for Water-Wet and Oil-Wet Limestone Samples
+
+- ID: SCA2006-09, year: 2006
+- Authors: J-M. Lombard, S. Gautier, P. Egermann, O. Vizika, E. Tachet
+- Method: laboratory experiment
+- Keywords: semi-dynamic method, centrifuge capillary pressure, Forbes method, forced imbibition, non-uniform wettability, Lavoux limestone
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-09)
+
+Centrifuge and semi-dynamic capillary pressure curves on the same Lavoux limestone agree for uniform water-wet drainage but diverge for oil-wet imbibition with non-uniform Swi, explained by simulation.
+
+The paper compares centrifuge (Forbes interpretation) and semi-dynamic method (SDM) capillary pressure measurements on one homogeneous Lavoux limestone plug (La6, porosity 0.25, Kw 4.9 mD) at ambient conditions. For first drainage of the water-wet sample, centrifuge and SDM curves match and fall within a very narrow band of local SDM Pc-curves. After aging in oil at 80°C to make it oil-wet, forced imbibition gave different centrifuge and SDM curves, and a wide band of local curves. The cause was a non-uniform initial Swi profile from centrifuge Swi-setting (Swi=0.18), which produced non-uniform wettability so the plug behaved heterogeneously. A numerical centrifuge imbibition using five plugs in series with local Pc-curves, interpreted homogeneously, reproduced the experimental centrifuge curve. The authors conclude that centrifuge is suitable for screening, while SDM with local saturation measurements gives the variability of Pc for heterogeneous samples and works at reservoir conditions.
+
+## Acquisition of Core Capillary Pressure Data by in-Situ Saturation Monitoring – a Comparative Evaluation
+
+- ID: SCA2009-20, year: 2009
+- Authors: C. Lindsay, C. Cornwall, D. Green
+- Method: laboratory experiment
+- Keywords: in-situ saturation monitoring, centrifuge capillary pressure, X-ray saturation profiling, SPRITE NMR, drainage capillary pressure, Forties sandstone
+- Cited by 1 papers in the corpus, cites 7
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-20)
+
+Blind comparison of X-ray and NMR in-situ saturation monitoring during centrifuge drainage Pc on five Forties sandstone plugs against conventional Pc; X-ray agreed better at low Pc.
+
+The study independently evaluates centrifuge drainage capillary pressure measured with in-situ saturation monitoring (ISSM), using X-ray (Corex) and NMR SPRITE (Green Imaging Technology) at separate laboratories. Five Forties sandstone plugs (porosity 17.4–25.5%, permeability 1.4–158 mD) were spun at three speeds, with saturation profiles scanned after each. Results were compared with earlier porous plate, conventional centrifuge and mercury injection data held only by the lead author. X-ray and NMR ISSM Pc curves agreed well above about 50 psi air-brine, but below that NMR gave higher entry pressure, while X-ray matched conventional data better. The NMR T2-derived Pc curve matched poorly, and MICP was more optimistic above 50 psi, possibly due to clay. The authors conclude ISSM centrifuge is validated, saves time, and that NMR interpretation may need refinement at low Pc.
+
+## A Modified Leverett Approach and PLS-Regression for Integrated Formation Evaluation
+
+- ID: SCA1992-16, year: 1992
+- Authors: J. I. Kristiansen, M. Mikkelsen
+- Method: data analysis or correlation
+- Keywords: Leverett J-function, PLS regression, capillary pressure, effective water saturation, core-log integration, height above free water level
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-16)
+
+Modified Leverett J-function and PLS regression unify capillary pressure data from 23 North Sea sandstone plugs, predicting height above FWL and saturation from core and log data.
+
+Conventional Leverett J-functions failed to unify porous-plate air/water capillary pressure data from 23 plugs (12–29% porosity, 1.5–2200 mD) of a heterogeneous Jurassic North Sea sandstone. A modified function, Y=(Pc+0.8)·k^0.174, drops porosity and uses effective water saturation, giving a power-law fit Y=1.69·Sw*^-0.676 with r=0.96 versus 0.82 for the J-function. Partial-least-squares regression with full cross-validation gave r≈0.97 for predicting Pc and Sw*, and only r=0.82 for permeability. Loadings showed permeability dominates and porosity plays a minor role, consistent with the modified Leverett result. Centrifuge data from other wells fit the model, and predictions of height above FWL and Sw from logs and core in Well-A agreed with log-derived saturations within the reservoir section.
+
+## An Improved Model for Relative Permeability and Capillary Pressure Incorporating Wettability
+
+- ID: SCA1997-18, year: 1997
+- Authors: David. D. Huang, Matt M. Honarpour, Rafi Al-Hussainy
+- Method: theory or analytical model
+- Keywords: wettability indices, USBM index, Amott-Harvey index, Corey-Burdine equations, log-normal pore size distribution, relative permeability hysteresis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-18)
+
+A log-normal pore-size model links capillary pressure, relative permeability, USBM and Amott-Harvey wettability indices consistently, and is checked against Berea relative permeability data.
+
+Capillary pressure, relative permeability, residual saturations and wettability are usually measured separately and are often inconsistent. The authors build an integrated model that assumes a log-normal pore/throat size distribution for the free pore volume. It gives analytical capillary pressure curves for primary imbibition and secondary drainage, from which USBM and Amott-Harvey indices follow. Corey-Burdine integrals then give relative permeability for each segment. Sample calculations with USBM indices from 0.477 to -0.046 show that relative permeability hysteresis grows with capillary hysteresis, and that the kro-krw crossover moves left as the system becomes less water-wet. Predictions were compared with NIPER data on a 260-mD fired Berea (sigma=1.3, mean Pc=2.5 psi), with adjusted end points: the model matched the measured crossover points and the lower drainage krw. Capillary pressure curves could not be compared for lack of data.
+
+## Use of Pore-Size Distributions from Mercury Injection to Derive Correlations Between Pore-Size Population Statistics and Rock/Flow Parameters
+
+- ID: SCA1997-33, year: 1997
+- Authors: Waddah T. ALHANAI, Abu Dhabi
+- Method: data analysis or correlation
+- Keywords: mercury injection capillary pressure, pore-throat size distribution, log-normal distribution, bimodal pore system, permeability-porosity correlation, carbonate reservoir
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-33)
+
+Mercury-injection pore-throat distributions are fitted with log-normal models, including bimodal cases, and population statistics are correlated with porosity, permeability and end-point saturations in carbonate samples.
+
+Mercury injection capillary pressure data are converted to pore-throat size distributions and treated as discrete random variables. A log-normal model is fitted and tested with a chi-square test, and the work is extended to bimodal distributions using an effective geometric mean (the square root of the product of the two means). For samples from a Mid-Eastern carbonate reservoir (Table I), porosity correlates inversely with the coefficient of variation (φ = -10.673 ln(s/m) + 29.1), and permeability with the geometric mean radius (K = 2.603 m^3.172). Combining the two gives a parametric K-φ relation with standard deviation as the parameter. Initial water and residual oil volume fractions are also found to be functions of the standard deviation. Treating the distributions as bimodal lets more samples pass the normality test.
+
+## Modeling of Capillary Pressure for Heterogeneous Reservoirs by a Modified J-Function
+
+- ID: SCA2001-35, year: 2001
+- Authors: A. Skauge, O. Torsæter
+- Method: theory or analytical model
+- Keywords: Leverett J-function, capillary pressure scaling, saturation exponent, irreducible water saturation, tortuosity, gamma-ray saturation monitoring
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-35)
+
+Defines a modified Leverett J-function including tortuosity, irreducible saturation and saturation exponent, with correlations to estimate them from permeability and porosity, supported by centrifuge and gamma-scanning data.
+
+Leverett's J-function scales capillary pressure poorly between formations with different pore size distribution, irreducible saturation and tortuosity. The authors derive a modified J-function (J*) from a capillary-bundle model with a power-law drainage Pc, so J* depends on normalized saturation and the saturation exponent n. They propose auxiliary correlations: Swir·porosity as a hyperbolic function of permeability (a=0.1683, b=96.93), tortuosity from Archie's formation factor, and n·Swir as an exponential decay in (k/φ)^0.5. Berea tests showed irreducible saturation scales between air-water and air-C19 by the interfacial tension ratio. Data came from 11 North Sea porous-plate samples, 3 samples measured at mm scale by gamma-absorption saturation monitoring, and literature data. Hassler-Brunner and saturation monitoring gave significantly different saturations for the heterogeneous sample v128 but not for v129 and v130.
+
+## The Effect of Pore Structure on Primary Drainage Capillary Behaviour
+
+- ID: SCA2001-47, year: 2001
+- Authors: Naima Chetouani, Phillipe Mitchell
+- Method: laboratory experiment
+- Keywords: mercury injection capillary pressure, porous plate drainage, gamma ray saturation monitoring, microporosity, irreducible water saturation, clay-rich sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-47)
+
+Compares drainage capillary pressure from mercury injection and air/brine porous plate with gamma-ray saturation monitoring on six samples; mercury underestimates irreducible water saturation in chalk and clay-rich sands.
+
+The study explains differences in irreducible water saturation between drainage capillary pressure curves from mercury injection (up to 60,000 psia) and air/brine porous plate with a gamma-ray saturation monitoring system (GASM) under reservoir confining stress. Six samples with varied pore structure and mineralogy (clean sand, cherty sand, quartz-arenite, chalk, chloritic sand, kaolinitic/illitic sand) were tested on adjacent plugs, with XRD used to confirm the origin of microporosity. Mercury data were converted to air/brine equivalents using standard interfacial tension and contact angle values. The curves agree in the macroporous region for all samples and agree well for the quartz-rich samples. They diverge at high pressure for the chalk, chloritic and kaolinitic/illitic samples, and the difference in Swi is proportional to microporosity content. Mercury intrusion therefore suits clean and cherty sandstones but is not representative for chalk and clay-rich sandstones.
+
+## An Integrated Approach for Reducing Uncertainty in the Estimation of Formation Water Saturation and Free Water Level in Tight Gas Reservoirs – Case Studies
+
+- ID: SCA2002-41, year: 2002
+- Authors: Sheng Ding, Tai Pham, El Paso
+- Method: field or reservoir case study
+- Keywords: J-function, saturation-height function, free water level, tight gas, capillary pressure, log calibration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-41)
+
+An Excel-based J-function saturation-height tool (JMOD) calibrates log analysis to core capillary pressure, giving free water level and Sw in tight gas reservoirs, shown in three case studies.
+
+Log-derived water saturation in tight gas reservoirs is highly uncertain, so the authors built JMOD, an Excel tool based on Leverett's J-function. It fits core capillary pressure data with selectable J-Sw forms (power or exponential) and computes Sw from height above free water level, porosity and permeability without Archie parameters. FWL is found by iterating until calculated Sw matches log Sw. In case 1, calibration to three cored wells let Sw be populated across a field, which allowed a reservoir simulation history match and identification of infill locations. In case 2, density porosity was up to 8% higher than core porosity, while shear-DT porosity matched core; the well was judged uneconomic, and moving 200 ft up-dip gave only about 5% Sw improvement. In case 3, predicted FWL matched the RFT gas-water gradient crossover, and mismatches between log and JMOD Sw were traced to incorrect Vsh and Rw (0.05 versus 0.02 ohm-m). The method applies only to rocks of similar pore geometry.
+
+## Characterization of the Pore Space Accessed by the Non-Wetting Phase During Constant Rate Injection at the Breakthrough Capillary Pressure
+
+- ID: SCA2004-35, year: 2004
+- Authors: J.D. Smith, I. Chatzis
+- Method: numerical simulation
+- Keywords: constant rate mercury injection, APEX porosimetry, breakthrough capillary pressure, subison pore system, invasion percolation, glass micromodel
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-35)
+
+A modified subison pore system classification analyzes constant-rate injection pressure traces in network simulations and a mercury micromodel; the micromodel behaves like correlated networks.
+
+The paper develops a method to characterize pore space invaded by a non-wetting phase during constant-rate injection up to breakthrough capillary pressure. It modifies the Yuan and Swanson rison/rheon/subison terminology so that every sequence between two pressure rises is a subison pore system (SPS), allowing nested pore systems down to single-pore events. The scheme was applied to 2-D invasion percolation networks (500x500 sites, coordination number 4, uncorrelated and exponentially correlated with lengths 5 and 8) and to a mercury-air glass micromodel injected at 6.0e-4 mL/min (about 3,200 pores). In uncorrelated lattices, large SPS appear only near the percolation threshold (none in the largest bin until about index 23), whereas correlated lattices show local maxima and large SPS at much lower indices (as low as index 4). Micromodel average SPS size showed local maxima and minima, resembling correlated networks, though limited resolution and few events restrict direct comparison.
+
+## Dynamics of Capillary Flow and Transport Properties in Carbonate Sedimentary Formation by Time-Controlled Porosimetry
+
+- ID: SCA2004-44, year: 2004
+- Authors: A. Cerepi
+- Method: laboratory experiment
+- Keywords: time-controlled mercury porosimetry, Washburn equation, capillary fingering, pore filling time, carbonate texture
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-44)
+
+Time-controlled mercury porosimetry on four carbonate textures is analysed with an extended Washburn equation to get capillary flow dynamics and pore filling times, showing capillary-fingering flow.
+
+The paper uses time-controlled mercury injection to study pore-scale capillary flow dynamics and to calculate permeability in carbonates. Four rock textures were tested, from mudstone-wackestone to grainstone, on a Carlo-Erba Series 200 porosimeter. Volume versus time shows a rapid then a slow injection rate, and pressure versus time shows Haines jumps. Log Ca ranges from -6.66 to -8.33 with log M constant at 1.935, indicating capillary fingering as the main Hg-air flow regime. Using the Washburn equation extended by Sorbie et al., front length and capillary velocity were computed; velocity decreases with time as smaller throats are invaded, and samples with large well-connected pores show higher velocity. The permeability calculation section is cut off in the text.
+
+## Relationship Between Capillary Pressure and Resistivity Index
+
+- ID: SCA2005-14, year: 2005
+- Authors: Kewen Li
+- Method: theory or analytical model
+- Keywords: capillary pressure, resistivity index, fractal model, porous plate, Archie saturation exponent, low permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-14)
+
+A fractal-based power-law model linking capillary pressure to resistivity index is tested on 14 cores and fits well, especially at low permeability, outperforming Szabo's linear model.
+
+Capillary pressure is hard to measure on low-permeability cores, while resistivity is easy to obtain, so the authors derived a relation between them from fractal scaling laws. The model predicts Pc = pe·I^β, a power law on a log-log plot. Gas-water capillary pressure and resistivity were measured simultaneously with the porous-plate method on 14 cores from two formations (0.028 to 3680 md, porosity 8 to 32%). Saturation exponents averaged about 1.94 (high permeability) and 2.13 (low permeability). The model fit the data well, particularly for low-permeability samples where nearly all points follow a straight line, while for high-permeability samples it held only at low water saturation. Szabo's linear model fit poorly, and β (mostly 1 to 3) decreased with permeability on a log-log plot (correlation 0.82 and 0.71).
+
+## Investigation of Critical Capillary Number for Gas-Water System Through Experiment and Reservoir Simulation
+
+- ID: SCA2005-27, year: 2005
+- Authors: Minghua Ding, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: critical capillary number, residual gas saturation, spontaneous imbibition, forced imbibition, gas compressibility, NMR saturation monitoring
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-27)
+
+Spontaneous and forced water imbibition with NMR monitoring plus simulation show the critical capillary number for remobilizing trapped gas (2e-8) is far below that for oil-water (2e-5).
+
+Trapped gas in water-invaded gas reservoirs is controlled by the capillary number needed to remobilize it. Spontaneous then forced water imbibition tests were run on two Berea and four Western Canada sandstone plugs, with on-line NMR monitoring of saturation, and oil-water tests on Berea for comparison. The oil-water critical capillary number was about 2x10^-5, consistent with literature, while the gas-water value was about 2x10^-8. Handy's model gave end-point capillary pressure and relative permeabilities came from Corey equations and forced-imbibition data. 1D and 3D simulations matched co-current and counter-current data, and showed gas compressibility lowers residual gas saturation and the critical capillary number; capillary pressure matters in spontaneous but not forced imbibition.
+
+## A Valid Approach to Correct Capillary Pressure Curves- a Case Study of Berea and Tight Gas Sands
+
+- ID: SCA2009-41, year: 2009
+- Authors: Gbenga M. Funmilayo, Shameem Siddiqui
+- Method: laboratory experiment
+- Keywords: high-pressure mercury injection, capillary pressure correction, blank correction, rock compressibility, tight gas sands, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-41)
+
+A modified blank correction for mercury injection capillary pressure, using non-porous quartz runs to account for system compressibility, matters for Berea but not for tight gas sands.
+
+Mercury injection capillary pressure curves are rarely corrected for system and rock compressibility. The authors developed a modified blank correction using at least three runs of non-porous quartz with different bulk volumes on an Autopore IV (up to 60,000 psia). A linear fit of intrusion versus bulk volume at each pressure step is subtracted from the uncorrected sample run. Three Berea samples (about 22% porosity) and three tight gas sands (5-7% porosity) were tested. For tight gas sands, with displacement pressure around 10,000 psia, corrections had negligible effect. For Berea (displacement pressure about 6 psia), corrections lowered the estimated water saturation, increasingly with pressure up to about 10,000 psia, and the modified method differed from the standard blank correction until both converged near 12,000 psia.
+
+## Extracting Pore Throat Size and Relative Permeability from MRI Based Capillary Pressure Curves
+
+- ID: SCA2009-46, year: 2009
+- Authors: Derrick P. Green
+- Method: measurement technique or apparatus
+- Keywords: MRI capillary pressure, GIT-CAP, NMR relaxivity, pore throat size distribution, Burdine relative permeability, T2 cut-off
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-46)
+
+MRI-based centrifuge capillary pressure curves with many data points yield pore throat size distributions, NMR relaxivity and Burdine-model relative permeability without needing a fitted Pc model.
+
+Conventional centrifuge and porous plate capillary pressure data have too few points to resolve pore throat size or support direct relative permeability calculation. The GIT-CAP technique uses a centrifuge with MRI saturation profiles to produce 70-100 Pc points from as few as two equilibrium steps. Pressure is converted to throat radius via the Washburn equation and compared with T2 distributions to derive NMR relaxivity, which ranged from 1.65 to 9.21 um/s across six sandstone and carbonate samples. Relative permeability was calculated from measured Pc points using the Burdine model, including imbibition curves for a chalk sample, avoiding Brooks-Corey fitting. T2 cut-offs for tight samples were 10-15 ms (13 ms for sample 4) versus the standard 33 ms. Limitations include sensitivity to irreducible water saturation, cleaned cores at ambient conditions, and differences between T2 pore size and mercury throat size in low permeability rocks.
+
+## Drainage Capillary Pressure and Resistivity Index from Short-Wait Porous Plate Experiments
+
+- ID: SCA2010-46, year: 2010
+- Authors: Moustafa Dernaika, Ove B. Wilson, Svein M. Skjæveland, Einar Ebeltoft, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: porous plate, resistivity index, primary drainage capillary pressure, short-wait method, exponential decay model, carbonate
+- Cited by 0 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-46)
+
+Short-wait porous plate drainage tests on carbonates give the same RI-Sw relationship as equilibrium tests in one third of the time, with Pc derived by exponential fitting.
+
+Standard equilibrium porous plate tests give Pc and resistivity index together but are slow. The authors ran primary drainage with dead crude oil at reservoir conditions on 11 carbonate plugs (porosity 27-32%, Kw 100-600 mD), split into sister batches: equilibrium and short-wait, where intermediate Pc steps are not run to equilibrium. RI-Sw relationships were essentially identical and near-linear for both methods, with a time saving factor of three for short-wait. This is attributed to the absence of fluid trapping in primary drainage, since water remains connected through wetting layers. Saturation versus time was fitted with an exponential decay Sw = a exp(-bt) + c to predict equilibrium saturation and derive Pc curves; the same approach applied to 1/RI showed RI changes faster than Sw. Sendra simulation supported the data, though it cannot give unique relative permeability alone.
+
+## Entry Pressure Measurements Using Three Unconventional Experimental Methods
+
+- ID: SCA2011-02, year: 2011
+- Authors: P.F. Boulin, P. Bretonnier, V. Vassil, A. Samouillet, M. Fleury, J.M. Lombard
+- Method: laboratory experiment
+- Keywords: entry pressure, caprock, CO2 storage, dynamic method, racking method, residual pressure method
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-02)
+
+Four gas entry pressure methods (standard, dynamic, racking, residual) were compared on a carbonate and a claystone caprock; dynamic is fastest, residual underestimates PE.
+
+Caprock sealing depends on gas entry pressure (PE), which is slow to measure in nanodarcy rocks. Four methods were compared on a Tavel carbonate (1.5 µD) and a Ketzin claystone (about 15 nD) in a Hassler cell with nitrogen displacing brine. On Tavel, the standard, dynamic and racking methods gave PE of about 11-13 bar, while the residual method gave about 4-5 bar, an underestimate by a factor of about 2. On Ketzin, the standard and dynamic methods gave about 104-130 bar, the standard test lasted 48 days versus 3 days for the dynamic one, and the racking method failed because of leaks. The dynamic method is quickest but imposes large stress changes, so the choice of reference permeability matters (130 vs 136 bar).
+
+## Hysteresis of Capillary Pressure, Resistivity Index and Relative Permeability in Carbonate Rock Types
+
+- ID: SCA2011-14, year: 2011
+- Authors: Moustafa R Dernaika, M Z Kalam, M Basioni, A Dawoud, Svein M Skjæveland, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: hysteresis, resistivity index, Archie saturation exponent, steady-state relative permeability, porous plate capillary pressure, carbonate rock types
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-14)
+
+Drainage-imbibition hysteresis in Pc, resistivity index and steady-state Kr was measured on Middle East carbonate rock types, showing strong, rock-type-dependent hysteresis and non-Archie imbibition RI.
+
+The paper investigates hysteresis in capillary pressure, resistivity index and water-oil relative permeability in a Middle East carbonate reservoir. Seven plugs (He porosity 16-26%, permeability 0.63-46 mD) covering the main rock types were measured by porous plate for PcRI, and four plugs from good and poor rock types by steady-state Kr with live fluids and in situ saturation monitoring, after 4 weeks of aging. Pc and RI showed large drainage-imbibition hysteresis, no spontaneous imbibition and low Sor (Sw ~0.8-0.9), indicating oil-wet to mixed-wet states, and imbibition RI gave higher saturation exponent n than drainage. Kr hysteresis differed by rock type: the good, high-permeability rock type behaved oil-wet, while the poor rock type showed strong oil trapping and water-wet-type behavior. A pore-level water invasion mechanism is proposed to explain RI hysteresis, and the authors conclude hysteresis cannot be neglected in estimating residual oil saturation.
+
+## An Integrated Approach to Estimate Threshold Capillary Pressure from Core and Log Data
+
+- ID: SCA2013-020, year: 2013
+- Authors: K. Djaouti, P. Egermann, P. Hennebelle
+- Method: data analysis or correlation
+- Keywords: threshold capillary pressure, caprock, high pressure mercury injection, Pcd–permeability correlation, gas breakthrough, well log integration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-020)
+
+A Pcd–permeability correlation calibrated on mercury injection data from old caprock cores is combined with logs to produce a Pcd log, validated blind on fresh cores.
+
+Caprock threshold capillary pressure (Pcd) is hard to measure at scale because of extremely low permeability. The authors calibrated a Pcd–Kv correlation on 62 old, poorly preserved core samples using HPMI, with permeability estimated by the Swanson method. The resulting composite correlation follows Monicard (a=9, b=0.5) for K>0.00033 mD and Thomas-type behavior (a=100, b=0.2) below it. Combined with a neutron-density porosity log and core Phi-K and Kh-Kv relations, it gave a Pcd log for a new well that guided sampling of fresh cores. Standard gas-breakthrough tests on eight plugs gave Pcd of 36 to >90 bar, with Kgas of 0.003–0.03 µD, and agreed well with the log, which showed a 30–40 bar baseline and meter-scale layers above 100 bar at the base. Marlstone samples showed creep under confining pressure, so stabilization before gas steps is recommended.
+
+## Thin Section Image Analysis for Estimation of Initial Water Saturation in Siliciclastic Reservoir Rocks
+
+- ID: SCA2013-070, year: 2013
+- Authors: Olivier Lopez, Carl Fredrik Berg, Stig Bakke, Tony Boassen, Alf Birger
+- Method: digital rock or imaging
+- Keywords: irreducible water saturation, BSE image analysis, thin section, authigenic clay microporosity, siliciclastic reservoir, porous plate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-070)
+
+Swirr is estimated from BSE thin-section images by treating clay microporosity as water-filled, giving values that match porous plate measurements on 52 Norwegian shelf sandstone plugs.
+
+Irreducible water saturation is normally measured by slow capillary pressure experiments on few plugs, so a faster alternative is sought. The authors segmented BSE image mosaics of thin sections from 52 plugs of one Norwegian continental shelf field (porosity 0.20-0.31, permeability 0.1 mD-6 D, clay 5.4-36.2%). Grey levels between pore and quartz were assigned to clay, and clay microporosity was assumed water-filled because capillary pressures of 2.6-26 bar would be needed to invade it. A microporosity of 40% made total image porosity agree with helium porosity. Swirr computed as microporosity divided by total image porosity showed the same permeability trend as porous plate data from the same field, supporting the method for extending Swirr datasets.
+
+## Transition Zone Behaviour: The Measurement of Bounding and Scanning Kr and Pc Curves at Reservoir Conditions for a Giant Carbonate Reservoir
+
+- ID: SCA2014-004, year: 2014
+- Authors: Mike Spearing, Medhat Abdou, Gregory Azagbaesuweli, Zubair Kalam
+- Method: laboratory experiment
+- Keywords: transition zone, scanning relative permeability, steady-state Kr, live crude drainage, semi-dynamic capillary pressure, mixed wettability
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-004.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-004)
+
+Reservoir-condition steady-state Kr and semi-dynamic Pc tests with live crude on carbonate plugs show minimal hysteresis, lower imbibition Krw than drainage, and Sor independent of initial water saturation.
+
+Uncertainty in how Kr, Pc and residual oil vary with initial water saturation in the transition zone of an Abu Dhabi carbonate reservoir motivated bounding and scanning measurements. Twenty 1.5-inch plugs (porosity 28%, Kw 2-4.5 mD) were tested with live crude and brine at reservoir conditions with in-situ saturation monitoring. Primary drainage was run with live crude and ageing at each fractional flow, and imbibition was measured from Swirr (~0.10 PV) and from Swi of about 0.25, 0.40 and 0.60 PV. Bounding curves showed little hysteresis, and imbibition Krw lay below drainage Krw, contrary to the usual water-wet-drainage/oil-wet-imbibition model. Sor stayed within 7-15% PV with no clear dependence on Soi. Water flowed through existing water-filled paths at Swi between 0.25 and 0.40 PV, indicating mixed-wet behaviour, and Kro scanning changed character between those saturations.
+
+## Oil Recovery in the Transition Zone of Carbonate Reservoirs with Wettability Change: Hysteresis Models of Relative Permeability Versus Experimental Data
+
+- ID: SCA2014-007, year: 2014
+- Authors: Franck Nono, Henri Bertin, Gérald Hamon
+- Method: data analysis or correlation
+- Keywords: relative permeability hysteresis, transition zone, wettability variation, scanning imbibition curves, residual oil saturation, carbonate
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-007)
+
+Experimental scanning imbibition Kr data from two limestones are compared with Killough, Carlson and Skjaeveland hysteresis models, and a new wettability-aware hysteresis model is proposed that fits better.
+
+Oil recovery in carbonate transition zones depends on wettability that varies with height above the free water level, which common Kr hysteresis models ignore. Steady-state crude oil/brine scanning imbibition data from Richemont (unimodal) and Estaillade (bimodal) limestones were compared with Killough, Carlson and Skjaeveland models. Killough's model underestimates Krow and overestimates Krw, fitting Richemont better than the strongly oil-wet Estaillade. Carlson's model fits Estaillade Krow but not Richemont, can give negative Sorw, and gives optimistic fractional flow. The proposed model combines Killough and Skjaeveland approaches with an Aissaoui-type Sorw–Soi relation and an exponential end-point Krw ratio scaled by a critical initial oil saturation (about 0.12 bar capillary pressure, or 65% of maximum mobile oil). It reproduces Krw, Krow and fractional flow for both limestones.
+
+## Comparison of the Change of Cap Rock Permeability and Capillary Entry Pressure with Varying Effective Stress
+
+- ID: SCA2014-085, year: 2014
+- Authors: Nathan J. Welch, John P. Crawshaw, Edo S. Boek
+- Method: measurement technique or apparatus
+- Keywords: capillary entry pressure, cap rock permeability, pressure decay technique, effective stress, CO2 sequestration, anhydrite
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-085.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-085)
+
+An apparatus measures cap rock permeability by pressure decay and capillary entry pressure by a dynamic method; anhydrite permeability varies with effective stress, tight carbonate does not.
+
+Cap rock sealing for CO2 storage depends on low permeability and high capillary entry pressure, but traditional entry pressure tests take months. The authors built a core holder apparatus (400 bar, 70°C) with Quizix pumps to measure permeability by transient pressure decay on 6 mm plugs and capillary entry pressure by a fast dynamic method based on wetting-phase production change. Permeability of a mine anhydrite sample changed with effective pressure, while a tight carbonate showed no significant change over the stress range. The dynamic method gave a capillary entry pressure of 30.88±0.47 bar from three repeat water/N2 experiments on a ceramic standard sample. Relating stress-dependent permeability to entry pressure is left as future work.
+
+## Threshold Pressure in Tight Gas Reservoirs of Central European Formations
+
+- ID: SCA2015-058, year: 2015
+- Authors: Budak P, Cicha-Szot R, Leśniak G, Majkrzak M
+- Method: laboratory experiment
+- Keywords: threshold pressure gradient, mercury injection capillary pressure, tight gas sandstone, Rotliegend, Cambrian sandstone, step-by-step method
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-058.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-058)
+
+Threshold pressure from corrected MICP is compared with flow and step-by-step measurements on Cambrian and Rotliegend tight sandstones; MICP works for simple Cambrian pores but underestimates in Rotliegend.
+
+Threshold pressure and gradient (TPG) are key parameters for flow in tight gas reservoirs. The authors measured them on 24 plugs and cuttings from Cambrian quartz arenites (porosity about 2–6%) and Rotliegend sandstones (porosity up to about 14%), using corrected MICP, continuous flow and step-by-step methods with reservoir-specific brines. Petrographic image analysis (CAMI) and correlation coefficients linked pore structure to the measured threshold values. In unfractured Cambrian sandstones, MICP and step-by-step results were similar, and low specific surface (below about 0.2 m²/g) indicated MICP is reliable. In Rotliegend sandstones with complex microporosity and diagenetic secondary porosity, MICP underestimated threshold pressure and flow-based methods were preferred; TPG correlated inversely with depth.
+
+## A Novel Laboratory Method for Determining Capillary Pressure and Wettability While Measuring Steady-State Relative Permeability
+
+- ID: SCA2016-001, year: 2016
+- Authors: Robin Gupta, Daniel Maloney, David Laverick, Robert Longoria, Larry Poore, Jeff Spitzenberger
+- Method: measurement technique or apparatus
+- Keywords: steady-state relative permeability, inlet end-piece, capillary pressure, viscous pressure correction, USBM Amott wettability, phase mixing
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-001)
+
+A modified inlet end-piece isolates injected phases in steady-state coreflood, allowing capillary pressure from viscous-corrected inlet phase pressure differences, matching centrifuge Pc alongside relative permeability.
+
+Capillary pressure, relative permeability and wettability are normally measured in separate tests, causing mismatched data sets. The authors develop inlet end-pieces that prevent phase mixing at the core inlet face so the difference in injected phase pressures can be measured during steady-state coreflood. Tests on Cordova Cream limestone showed that metal end-pieces and screens mix phases (zero pressure difference), O-ring designs seal but add large viscous pressure, and an elastomer spiral failed after about 4000 minutes. Half-moon and spiral-with-gasket designs with metal plus compatible elastomer performed best. Viscous contribution is removed by measuring several total rates per fractional flow and taking the intercept of the linear pressure difference versus rate trend as Pc. In a live-fluid water-oil test on a 25 cm composite, the resulting imbibition Pc curve closely matched centrifuge data on companion plug C1, and wettability could be derived by USBM or Amott-Harvey if drainage cycles are also run.
+
+## On the Role of Sub-Core Scale Heterogeneity During Repeated Drainage/Imbibition Cycles in a Sandstone
+
+- ID: SCA2016-024, year: 2016
+- Authors: Ronny Pini
+- Method: laboratory experiment
+- Keywords: capillary pressure hysteresis, sub-core heterogeneity, X-ray CT saturation imaging, Brooks-Corey model, CO2 residual trapping, Berea sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-024.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-024)
+
+Sub-core (mm-scale) drainage and imbibition capillary pressure curves for scCO2/water in Berea sandstone are measured by X-ray CT and predicted by a Brooks-Corey model with linear trapping.
+
+The study examines hysteresis of capillary pressure at the sub-core scale for supercritical CO2/water in a 930 mD Berea sandstone core (50°C, 9 MPa), using X-ray CT with voxels of 2×2×3 mm3. A multi-rate drainage flood gives the core-scale drainage Pc curve, and sub-core drainage curves are derived from it. Scanning imbibition curves are obtained by combining that drainage curve, a linear trapping model (C = 0.45) and co-injection data at varied gas fractional flows. Capillary scaling factors deviate up to 20% from the mean, reflecting finer-textured strata sub-parallel to the core axis. These strata fill last with CO2 during drainage and re-wet first during imbibition. Brooks-Corey with non-hysteretic effective mobile saturation predicts imbibition curves at voxel scale, with the scaling factor fitted only on drainage.
+
+## Stress Sensitivity of Mercury Injection Measurements
+
+- ID: SCA2017-011, year: 2017
+- Authors: P. Guise, C. Grattoni, Q.J. Fisher, A. Schiffer
+- Method: measurement technique or apparatus
+- Keywords: mercury injection capillary pressure, confining stress, threshold pressure, Swanson permeability, tight gas sandstone, porosimeter under confining stress
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-011)
+
+A new mercury porosimeter under confining stress shows tight rock threshold pressures about three to four times higher than standard unconfined MICP, which also affects permeability prediction.
+
+Standard MICP applies no confining stress, yet mercury isostatically compresses the sample up to its threshold pressure, a concern for stress-sensitive tight rocks. The authors built a porosimeter (PUCS) that holds net stress up to 15,000 psi, injects mercury to 60,000 psi, and detects breakthrough via electrical conductivity. About 250 tight gas sandstones were run on an Autopore, with 28 samples (sandstones, fault rocks, caprocks) also run in PUCS. Under reservoir net stress, threshold pressures were on average three times higher and peak pore diameters one third of unconfined MICP values; for all rock types threshold pressure averaged over four times higher, up to an order of magnitude. Swanson permeability predictions matched gas permeability at threshold-pressure stress without underestimating tight samples (A=500, B=1.8). Standard MICP may therefore underestimate seal capacity and overestimate mobile gas in saturation-height functions.
+
+## An integrated workflow for MICP integration, pore typing and saturation height modeling – Poster # 62
+
+- ID: SCA2017-062, year: 2017
+- Authors: Philippe Rabiller
+- Method: review or workflow
+- Keywords: MICP, pore throat size distribution, Purcell-PSKT permeability model, saturation height modeling, Katz & Thompson threshold, k-NN prediction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-062)
+
+A six-stage workflow integrates MICP with logs and core, using PSD analysis, a Purcell-PSKT permeability model, clustering and k-NN prediction to drive saturation height modeling.
+
+The paper presents a modular workflow for integrating mercury injection capillary pressure (MICP) data with logs and core data, tested on more than 4000 samples from varied basins. MICP saturation is binned into a regular log-Pc array (240 bins, 0.1 to 100,000 psi), followed by conformance correction, Katz & Thompson entry pressure picking and detection of PSD features. A Purcell-PSKT permeability model uses only the pore throats beyond the Thomeer hyperbola apex, and is reported to predict permeability better than the classic Purcell model. It also defines an effective porosity PHIZ that extends the FZI method to complex pore networks. MRGC/CFSOM clustering, k-NN prediction and histogram up-scaling produce PSD and rock-type logs in cored and uncored wells. Saturation height is then computed by reversing the PSD derivation using buoyancy-equivalent Pc.
+
+## Validation of Permeability and Relative Permeability Data Using Mercury Injection Capillary Pressure Data
+
+- ID: SCA2018-002, year: 2018
+- Authors: Rasoul Arabjamaloei, David Daniels, Einar Ebeltoft, Egil Boye Petersen, Richard John Pitman, Douglas Ruth
+- Method: data analysis or correlation
+- Keywords: mercury injection capillary pressure, Swanson method, Ruth-Lindsay-Allen method, steady-state relative permeability, Burdine model, formation factor
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-002.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-002)
+
+MICP data are used to validate permeability and steady-state relative permeability of high-permeability Atlantic Canada samples; RLAM predicts permeability well, and a modified Burdine model fits curve shapes.
+
+The study validates core analysis data from seven zones of an offshore Atlantic Canada well, with permeabilities of about 2400-7900 mD, using MICP curves. The Swanson method with published parameters under-predicted permeability (max error 84%, mean -67%). The Ruth-Lindsay-Allen method, using formation factor from a porosity correlation (F = 0.85/phi^1.755) and no fitting parameters, gave a maximum error of 33% and mean error of -12%. For steady-state relative permeability on stacked composite cores, the Gates–Tempelaar-Lietz model predicted wetting curves well but non-wetting curves poorly. The Burdine model reversed this, and a modified Burdine with exponents of 3 (non-wetting) and 0 (wetting) matched both reasonably, with mean differences of about 0.067 for non-wetting curves. The authors propose a protocol combining MICP, electrical properties and RLAM to judge data quality.
+
+## Measurement of Spontaneous Imbibition Capillary Pressure, Saturation and Resistivity Index by Counter Current Technique at Net Reservoir Stress and Elevated Temperature
+
+- ID: SCA2018-009, year: 2018
+- Authors: Stefano Pruno, Hans Erik Rodvelt, Ola Skjæveland
+- Method: laboratory experiment
+- Keywords: counter-current spontaneous imbibition, resistivity index, Archie saturation exponent, porous plate, wettability, net confining pressure
+- Cited by 0 papers in the corpus, cites 11
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-009)
+
+Counter-current spontaneous imbibition at net confining stress and 70°C yields saturation, resistivity index and wettability data on sandstone and carbonate plugs about ten times faster than porous plate.
+
+Porous plate spontaneous imbibition with resistivity measurements at reservoir stress and temperature is slow and prone to capillary contact problems. The authors flowed brine at 1 ml/h across the core end face grooves in an electrically insulated core holder, with oil produced counter-currently, at 70°C and 30-100 bar NCP. Tests used Bentheim, Berea, Parker sandstones and a carbonate (10 mD to 2.4 D), in strongly water-wet and silane-treated oil-wet states, with synthetic brine and Isopar L. Oil-wet samples had higher Swi (0.39-0.49 vs 0.07-0.30) and higher Archie n (up to 6.4) than water-wet ones. Water-wet recovery rose with permeability among sandstones, Dean Stark saturations agreed within 3% saturation units except for oil-wet samples, and the test took about a week, at least 10 times faster than standard porous plate imbibition. The method gives only single-point saturation and RI data.
+
+## Pore-scale imaging and determination of relative permeability and capillary pressure in a mixed-wet carbonate reservoir rock at subsurface conditions
+
+- ID: SCA2019-001, year: 2019
+- Authors: Amer M. Alhammadi, Ying Gao, Takashi Akai, Martin J. Blunt, Branko Bijeljic
+- Method: digital rock or imaging
+- Keywords: micro-CT imaging, steady-state relative permeability, differential imaging, interfacial curvature capillary pressure, mixed-wet carbonate, micro-porosity
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-001)
+
+Micro-CT with steady-state flow at reservoir conditions gives simultaneous relative permeability and capillary pressure in a mixed-wet carbonate, showing oil-wet behaviour, negative Pc and favourable recovery.
+
+Relative permeability and capillary pressure are rarely measured together on reservoir rock with crude oil at subsurface conditions. A 50 mm, 6 mm diameter carbonate sample (27.4% porosity, 292 mD) was aged two weeks at 10 MPa and 80 °C. Steady-state coinjection of crude oil and KI-doped brine at eight fractional flows was imaged at 3.567 µm voxel size, and differential imaging quantified saturation in macro- and micro-pores. Relative permeability crossed over at Sw of 63%, water kr stayed low until then, and oil layer flow gave additional recovery near residual saturation. Mean contact angle was 113°, and curvature-derived capillary pressure was negative (-150 to -630 Pa), decreasing with water fractional flow, consistent with predominantly oil-wet behaviour.
+
+## Local Capillary Pressure Estimation Based on Curvature of the Fluid Interface – Validation with Two-Phase Direct Numerical Simulations
+
+- ID: SCA2019-020, year: 2019
+- Authors: Takashi Akai, Branko Bijeljic, Martin Blunt
+- Method: numerical simulation
+- Keywords: interface curvature, local capillary pressure, color-gradient lattice Boltzmann, surface smoothing, micro-CT, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-020)
+
+Lattice Boltzmann simulations in bead pack and Bentheimer pores test image-based interface curvature for local capillary pressure; Laplacian smoothing with a 3-voxel cutoff gives about ±20% error.
+
+Image-based curvature of voxelized fluid interfaces can be error-prone, so the authors used color-gradient lattice Boltzmann two-phase simulations, which provide exact interfaces and local pressures, as a benchmark. The model was validated in a 2D triangular pore (radius of curvature error under 3%) and tested on a 3D oil droplet, then on a bead pack and Bentheimer sandstone (256³ voxels, 3.56 µm, 402 and 272 pores). Staircase interfaces from synthetic segmented data were smoothed by constrained Gaussian, Laplacian (LPS) and boundary-preserving Gaussian (BPGS) methods, and curvature was fitted locally with quadratic forms. Without a cutoff, smoothed surfaces gave wide distributions with negative values; discarding points within 3 voxels of the solid removed contact-line errors but also lost high-curvature small pores. With the cutoff, LPS and BPGS estimated pore-by-pore curvature within about ±20% up to 0.15 voxel⁻¹, whereas constrained Gaussian smoothing overestimated strongly; LPS was best overall.
+
+## Using Capillary Condensation and Evaporation Isotherms to Investigate Confined Fluid Phase Behavior in Shales
+
+- ID: SCA2019-026, year: 2019
+- Authors: Elizabeth Barsotti, Evan Lowry, Mohammad Piri, Jin-Hong Chen
+- Method: laboratory experiment
+- Keywords: capillary condensation, propane adsorption isotherm, shale nanopores, adsorption hysteresis, MCM-41, kerogen swelling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-026)
+
+Gravimetric propane isotherms in MCM-41 and shale show capillary condensation occurs in shale despite smooth isotherms, with hysteresis and SEM-observed fracturing suggesting kerogen swelling.
+
+Standard shale evaluation ignores capillary condensation and continuous pore filling, partly because shale isotherms resemble IUPAC Type I/II curves. Propane isotherms were measured gravimetrically on macro-scale core holders containing blends of MCM-41 (2.90, 4.19, 8.08 nm pores) at 5.4 °C and a crushed Middle East gas shale (~67 g) at 16.1 °C. Pure small-pore MCM-41 showed a single continuous-filling step, small plus large pores showed two steps (continuous filling and capillary condensation), and close pore sizes merged into one step, so a broad pore size distribution yields a gently sloping isotherm without implying absence of condensation. Shale desorption showed hysteresis up to ~90% of saturation pressure (~7.5 bar), with desorption at lower uptake than adsorption, indicating deformation. FIB-SEM before and after propane exposure at ~6.9 bar showed new large fractures but unchanged milled hole geometry, suggesting reversible kerogen swelling causes fracturing.
+
+## Comparing the porous plate technique and the evaporation technique for establishing initial water saturation
+
+- ID: SCA2019-080, year: 2019
+- Authors: Lykourgos Sigalas, Hanne Dahl Holmslykke, Dan Olsen
+- Method: laboratory experiment
+- Keywords: initial water saturation, porous plate, evaporation technique, residual oil saturation, wettability alteration, CT imaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-080.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-080)
+
+Compares porous plate and evaporation methods for setting initial water saturation; evaporation gives lower residual oil after waterflooding, suggesting it alters sample wettability.
+
+The paper compares two ways of establishing initial water saturation (Swi) before core flooding: the porous plate technique, considered to preserve wettability, and the evaporation technique, which is faster and more precise in reaching a target saturation. A concern is that evaporation dries the pore surfaces and may change wetting. A series of waterflooding experiments on samples prepared by each method was run. Samples prepared by evaporation showed lower Sorw at the end of waterflooding, indicating altered wetting characteristics. CT data processing is under way to quantify water and oil distributions before and after the floods.
+
+## Rate-Controlled Mercury Injection Experiments to Characterize Pore Space Geometry of Berea Sandstone
+
+- ID: SCA2021-039, year: 2021
+- Authors: Walid Mohamed Mahmud
+- Method: laboratory experiment
+- Keywords: rate-controlled mercury injection, pore body and throat distribution, capillary pressure, Berea sandstone, Haines jumps, residual mercury saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-039)
+
+A custom constant-rate mercury injection apparatus split Berea sandstone capillary pressure into pore-body and throat curves, giving pore volume and radius distributions and showing plug-to-plug heterogeneity.
+
+Conventional pressure-controlled mercury porosimetry gives little information on pore geometry, so a constant-rate mercury injection apparatus (0.00000002 cc/s, 27 C, pressure resolution 0.00005 psi) was built. Three Berea sandstone plugs (porosity 28.2-30.7%, gas permeability 1.31 D) were tested, and pressure fluctuations were used to separate pore-body, throat and total capillary pressure curves. Plug 1 had pore saturation 60.4% versus throat 27.5% (threshold ~2 psi), while plugs 2 and 3 had pore saturations of about 32% and throat saturations of 39.5% and 46.3% (threshold ~14 psi). Pore volumes peaked near 5 nL, and pore radii ranged from 0.0106 to 644 μm, peaking near 130 μm. Differences between plugs indicate pore-scale correlated heterogeneity does not extend to plug size, and the pore/throat distinction is partly arbitrary in this well-sorted rock. The method is costly, slow and labor intensive, and was compared only qualitatively with published petrographic images.
+
+## Fast measurements of capillary pressure using the porous plate method: An alternative to MICP
+
+- ID: SCA2024_1083, year: 2024
+- Authors: Roland Lenormand, Guillaume Lenormand
+- Method: measurement technique or apparatus
+- Keywords: porous plate capillary pressure, pore throat size distribution, MICP alternative, resistivity index, capillary equilibrium simulation, thin disk samples
+- Cited by 0 papers in the corpus, cites 14
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1083.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1083)
+
+A porous plate apparatus using thin 6 mm disks, two plates and a spring gives gas-brine Pc and pore throat size distributions in about a day, matching MICP.
+
+Conventional porous plate capillary pressure measurements take weeks to months. The authors built a spring-loaded, sleeve-free cell with two water-wet porous plates (15 or 3 bar) for 3-6 mm disks. Effluent is weighed on a balance, and a continuous pressure ramp is used with 2- or 4-electrode resistivity index. Gas-brine pore throat size distributions on six quarry samples (brick, carbonates, sandstones; 0.05 to 1000 mD) agreed with MICP for most samples, with poorer agreement for high-permeability Bentheimer, where MICP itself varied between labs. Simulations with CYDAR give optimum-duration diagrams (about 20 h for 100 mD BRA) and quality control of capillary equilibrium, and a numerical correction for non-equilibrium data is shown. Pressure is limited to 15 bar, so pore radii below about 0.05 micron are not reached.
+
+## Efficient True Resistivity Prediction and Time Optimization in PcRI Measurements: A Results-Driven Approach
+
+- ID: SCA_2025_1014, year: 2025
+- Authors: Meysam Nourani, Alvaro Munoz Beltran, Stefefano Pruno, Hans-Erik Rodvelt
+- Method: data analysis or correlation
+- Keywords: PcRI, porous plate, true resistivity model, resistivity index, equilibrium time prediction, saturation exponent
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1014)
+
+Exponential-decay models for true resistivity and water production in porous plate PcRI tests are validated on over 12,500 points and can cut measurement time by up to 63%.
+
+Porous plate PcRI measurements are slow, especially in low-permeability rocks. The authors developed exponential-decay models (Rt and water production versus time) and validated them on more than 12,500 data points from sandstone and carbonate samples with crude oil/water, lab oil/water and gas/water systems. Average relative errors were 5.6% (gas/water), 5.9% (crude oil/water) and 8.5% (lab oil/water), and 5% for sandstone versus 6% for carbonate. The models fit poorly at the first pressure step, which can be improved by excluding early data, and they can correct data after an equipment failure. On twin samples, a single-step test of 75 days, extrapolated with the model, gave a final RI of 1151 and n of 2.04, versus 260 days for the multi-step test. Data covering 37% of the equilibrium time gives about 99% prediction accuracy, saving up to 63% of time.
+
+## Monitoring of Wettability Behaviour During Capillary Pressure Measurements at Reservoir Conditions: An Alternative Experimental Approach
+
+- ID: SCA_2025_1042, year: 2025
+- Authors: Meysam Nourani, Mohammad Ghasemi, Stefano Pruno, Geir Inge Høivik, Hans-Erik Rodvelt
+- Method: measurement technique or apparatus
+- Keywords: Young-Laplace equation, MICP conversion, contact angle matching, interfacial tension pendant drop, porous plate capillary pressure, QCM sensor
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1042.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1042)
+
+Contact angle at each porous-plate capillary pressure step is back-calculated by matching overburden-corrected MICP to oil-water drainage data using measured IFT, validated with QCM silica contact angles.
+
+Wettability evolution during months-long porous plate (PcRI) drainage is hard to monitor directly. The authors convert ambient MICP data to reservoir oil-water conditions using porosity-based overburden correction and pendant-drop IFT measured at reservoir conditions. They then iterate the contact angle (0–89°) at each pressure step until converted saturations match PcRI saturations, with an independent wettability test (Amott-Harvey or a contact angle on a silica-coated QCM sensor) selecting between θ and 180°−θ. Default values (32 mN/m, 30°) deviated strongly from PcRI data, whereas matched angles gave R² of 0.9997 across four water-wet/neutral samples. In an oil-wet example (QCM angle 158°, 8 months), the match deviated by 13–31% (MSE 0.001875) at higher capillary pressures, which the authors attribute to IFT rising from 19.3 to 28.3 mN/m as wettability shifted.
+
+## Hysteresis in Relative Permeability from Cyclic Water-Oil Corefloods
+
+- ID: SCA_2025_1070, year: 2025
+- Authors: Victor Fernandes, Halidi Abdoulghafour, Amin Rezaei, Fabrice Pairoys, Marcel Bourgeois, Franck NONO, Cyril Caubit
+- Method: laboratory experiment
+- Keywords: relative permeability hysteresis, WOWO cyclic coreflood, Amott* wettability index, Killough model, in-situ X-ray saturation monitoring, turbidite sandstones
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1070)
+
+Six cyclic water-oil-water-oil unsteady-state corefloods on turbidite sandstones show cycle-dependent mobility reduction in oil and water Kr that Killough's hysteresis model cannot reproduce.
+
+Relative permeability hysteresis was studied with six WOWO unsteady-state corefloods on aged turbidite sandstone cores (80–3060 mD) at 90 °C and 10 bar, using formation brine and dead oil. In-situ 2D X-ray saturation monitoring (CXBOX) provided saturation profiles for history matching with CYDAR, giving Kr and Pc curves for primary drainage, two imbibitions and two drainages. Amott* indices computed from the interpreted Pc curves ranged from water-wet (about 0.43 for SLT1-10 and KLT2-8 first cycle) to neutral/slightly oil-wet (-0.28 to -0.35 for KLT1-8). Every core had at least one cycle crossing the primary-drainage bounding curves, and oil mobility fell systematically with cycle number. More water-wet cores showed little Krw hysteresis between I1 and D2, while less water-wet cores showed water mobility reduction. Higher trapped water after drainage did not necessarily give higher oil recovery in the next imbibition. The authors conclude Killough's model cannot predict hysteresis in these mixed-wet systems.

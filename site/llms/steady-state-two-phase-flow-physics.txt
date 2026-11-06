@@ -1,0 +1,356 @@
+# Steady-state two-phase flow physics
+
+> 27 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: flow porous, relative permeability, porous media, phase, steady-state two-phase, darcy, capillary, two-phase flow, flows, viscous.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Transition from Laminar to Non-Darcy Flow of Gases in Porous Media
+
+- ID: SCA1990-23EURO, year: 1990
+- Authors: Rashed Noman, M. Zubair Kalam
+- Method: laboratory experiment
+- Keywords: non-Darcy flow, critical velocity, Klinkenberg gas slippage, Forchheimer inertial coefficient, critical Reynolds number, gas permeability
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-23EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-23EURO)
+
+Gas flow tests on 23 North Sea plugs show slippage-corrected plots give the onset of non-Darcy flow, which correlates with permeability and √(k/φ) rather than a Reynolds number.
+
+The paper investigates the gas velocity at which flow in porous media departs from Darcy's law, which matters for core analysis and high-rate gas wells. Porosity (helium expansion), Klinkenberg permeability and Forchheimer inertial coefficients were measured on 23 North Sea core plugs using air at varied flow rates. Plotting pressure drop squared against flow rate, with and without a Klinkenberg slippage correction, gave the onset of deviation. Including slippage raised the critical velocity, by up to about 20 times in low-permeability plugs and only about 5% near 100 md. Critical Reynolds numbers based on the β·k length were about 1 for 10–100 md, about 0.1 for 1–10 md and about 0.05 for 0.1–1 md, and the length scale decreased with increasing permeability, which contradicts expectation. Critical velocity correlated with permeability and better with √(k/φ), so the authors recommend measuring it directly from slippage-corrected plots.
+
+## A Perfect-Cross-Flow Model for Two Phase Flow in Porous Media
+
+- ID: SCA2002-05, year: 2002
+- Authors: Douglas Ruth, Jonathan Bartley
+- Method: theory or analytical model
+- Keywords: perfect-cross-flow model, parallel tube model, modified Darcy law, Corey medium, boundary conditions, two-phase displacement
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-05)
+
+A perfect-cross-flow parallel tube model reproduces modified Darcy law simulator results, but implies conventional inlet/outlet capillary boundary conditions are inconsistent and Darcy law may not hold for real media.
+
+The paper develops a perfect-cross-flow model (PCFM), a parallel tube bundle in which same-phase fluid equalizes pressure between tubes with no resistance. Governing Hagen-Poiseuille equations are solved with a fully implicit scheme for a 60-tube Corey medium (λ=3), with water injection and water at the exit face. Results at varied viscosity ratios and flow rates show strong sensitivity of saturation profiles. Compared without history matching against a modified Darcy law simulator using PCFM-derived relative permeability and capillary pressure, production, pressure and saturation profiles agree closely, with small differences attributed to numerical dispersion. Using the saturation-based exit capillary pressure rather than the PCFM condition changes the differential pressure significantly. Since real media lie between PCFM and the parallel tube model (which is inconsistent with Darcy law), the modified Darcy law may not be universally valid.
+
+## Universal, Flow Dependent Relative Permeability Scaling for Steady-State Two-Phase Flows in Porous Media
+
+- ID: SCA2018-060, year: 2018
+- Authors: Marios S. Valavanides, Ag. Spyridonos
+- Method: numerical simulation
+- Keywords: flow-dependent relative permeability, DeProF model, capillary number, flow rate ratio, steady-state two-phase flow, reduced pressure gradient
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-060)
+
+DeProF pore-network simulations over five decades of Ca and flow rate ratio yield a universal analytical scaling of pressure gradient and relative permeabilities with flow conditions.
+
+Relative permeability is conventionally treated as a function of saturation, but mobile disconnected non-wetting phase makes it depend on flow rates. The study uses the DeProF true-to-mechanism stochastic model to simulate steady-state two-phase flow in a typical pore network, spanning -9 ≤ log Ca ≤ -4 and -2 ≤ log r ≤ 2 for nine viscosity ratios. The reduced pressure gradient (inverse of wetting-phase relative permeability) follows x = A(log Ca) + κ r, with A fitted by an implicit function of log Ca (x0 = -4.3, C0 = 0.003, C3 = -1.16 for κ = 1.5). This reproduces the simulated values and the physical asymptotes: linear Darcy-type behavior at high Ca and r, and a Bingham-like regime with x ∝ 1/Ca below log Ca ≈ -7.5. Relative permeability maps for both phases follow from the fit, supporting flow-dependent kr in SCAL and simulators.
+
+## Flow in Porous Media with Slip Boundary Condition
+
+- ID: SCA2007_13, year: 2007
+- Authors: S. Berg, A. W. Cense, J. P. Hofman, R. M. M. Smits
+- Method: theory or analytical model
+- Keywords: endpoint relative permeability, slip boundary condition, slip length, wetting films, capillary tube model, sandstone SCAL database
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_13)
+
+Endpoint relative permeabilities above one are explained by a capillary-tube slip boundary model; fitting Shell SCAL data from 43 sandstone reservoirs gives slip lengths of roughly 0-700 nm.
+
+Endpoint relative permeabilities greater than one are often renormalized to 1 as suspected measurement errors. The authors treat immobile wetting films as an effective Navier slip boundary for the non-wetting phase in capillary tubes. This gives kr = 1 + 4b/R, so kr increases as pore radius decreases. They compare this with 130 endpoint measurements from 43 sandstone reservoirs in a Shell SCAL database, using an equivalent radius re ≈ 5√(K/φ). Oil endpoint kr rises to as much as 14 for small radii, and the best fit gives an average slip length of 318 ± 44 nm. Individual fields group at about 0, 200 and 700 nm. The authors conclude that renormalizing kr endpoints to 1 is unjustified and can bias production and pressure-drop predictions.
+
+## Flow Regimes During Immiscible Displacement
+
+- ID: SCA2016-009, year: 2016
+- Authors: R. T. Armstrong, J. E. McClure, M. A. Berill, M. Rücker, S. Schlüter, S. Berg
+- Method: numerical simulation
+- Keywords: relative permeability, capillary number, ganglion dynamics, Euler characteristic, lattice Boltzmann, fast micro-CT
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-009)
+
+Lattice Boltzmann simulations initialized from fast micro-CT images show relative permeability depends on capillary number through ganglion dynamics and NWP connectivity (Euler characteristic) in a homogeneous sample.
+
+Relative permeability is normally treated as a function of saturation only, yet it depends on experimental conditions. The authors imaged decane-water fractional flow in a water-wet borosilicate glass filter (porosity 0.35, 22 D) by fast synchrotron micro-CT. The segmented images then initialized GPU lattice Boltzmann color-model simulations on the Titan supercomputer at fixed saturation over a range of capillary numbers. Relative permeability increased with capillary number, mostly above Ca of 10^-5, and did not match connected-pathway-only permeability. Corey exponents decreased and end-point permeabilities increased with Ca. The NWP Euler characteristic became more negative with Ca, except at the highest Sw. Ganglion flux was a significant fraction of NWP flux for Sw > 0.5 and generally decreased with Ca through coalescence.
+
+## Simulation of the Immiscible Displacement in Porous Media Using Capillary Pressure and Relative Permeability Curves from Transient and Steady-State Experiments
+
+- ID: SCA2004-12, year: 2004
+- Authors: C. D. Tsakiroglou, D.G. Avraam, A. C. Payatakes
+- Method: laboratory experiment
+- Keywords: history matching, steady-state relative permeability, capillary number, glass micromodel, wettability, unsteady-state imbibition
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-12)
+
+Relative permeability and capillary pressure from transient history matching and steady-state tests on a glass micromodel differ significantly and both depend on capillary number and wettability.
+
+The paper asks how reliable steady-state relative permeabilities are as input to transient displacement simulators, and how much capillary number and wettability dependence matters. Transient imbibition experiments were run at varying Ca on a glass-etched chamber-and-throat network for two fluid systems (intermediate wettability: hexadecane/water, contact angle 42°; strong wettability: nonanol/formamide, 9°). Pressure drop and total saturation after breakthrough were history matched with a 1-D model to estimate Pc, krw and kro, which were compared with steady-state curves measured on the same network. For intermediate wettability, transient krw was always greater than steady-state krw and converged with it at high Ca. Steady-state kro was higher or lower than transient kro at high or low Ca, respectively, and transient Pc decreased with Ca. The differences are explained by the transient growth pattern (frontal, viscous or capillary fingering) versus steady-state flow regimes, and 2-D finite element simulations are said to give very different results depending on which curves and Pc treatment are used.
+
+## Explicit Correlation of the Steady-State Two-Phase Relative Permeability Functions of Porous Media with the Local Flow Rates
+
+- ID: SCA2014-041, year: 2014
+- Authors: C.D. Tsakiroglou, C.A. Aggelopoulos, K. Terzi, D.G. Avraam, M. Valavanides
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, capillary number, Archie saturation exponent, two-phase flow regimes, sand column, glass-etched pore network
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-041.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-041)
+
+Steady-state oil/water flow data from a sand column and 2-D networks are fitted with power laws in water and oil capillary numbers, showing relative permeability depends on flow rates.
+
+Relative permeability in field-scale simulation is usually treated as a function of local saturation only, ignoring dependence on local flow rates. Steady-state oil/water coinjection tests were run on a 30 cm long, 5 cm diameter sand column (k=25 D, porosity 0.42, viscosity ratio 1.0) with pressure transducers and ring electrodes; segment water saturation was derived from resistivity via Archie's law (n=1.06). Saturation and oil and water relative permeability were fitted as power functions of water and oil capillary numbers, and earlier 2-D glass-etched network data (viscosity ratios 1.45 and 3.35) were treated the same way. Water relative permeability was mainly sensitive to Ca_w and oil relative permeability to Ca_o, with weak cross effects attributed to viscous coupling and wetting films. The authors conclude that local relative permeability should be a function of local flow rates of both fluids rather than saturation.
+
+## Operational Efficiency Map & Flow Characterization for Steady-State Two- Phase Flows in Porous Media
+
+- ID: SCA2014-047, year: 2014
+- Authors: Marios S. Valavanides, TEI Athens, Ag. Spyridonos
+- Method: data analysis or correlation
+- Keywords: steady-state two-phase flow, relative permeability, energy utilization index, optimum operating conditions, capillary number, DeProF
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-047.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-047)
+
+Reconstructing 83 published relative permeability diagrams into energy utilization curves shows optimum operating conditions, yielding a universal efficiency map and a capillary- versus viscous-dominated flow criterion.
+
+Steady-state relative permeability data are usually plotted against saturation, which hides how efficiently the flow uses pumping energy. The paper transforms 83 published relative permeability data sets (19 studies; real cores, glass and virtual networks) into energy utilization index (oil produced per power dissipated) versus oil/water flow ratio. Every case shows a local maximum, the optimum operating condition, consistent with DeProF theory. An asymptotic optimum flow ratio of 1/sqrt(kappa) and maximum efficiency 1/(1+sqrt(kappa))^2 are derived for high capillary number. The results are combined into a universal operational efficiency map over Ca and r, and a scaling form for the optimum locus is used to define a critical capillary number separating capillary- from viscous-dominated flow.
+
+## Physical origin of pressure- and saturation fluctuations in steady-state core floods
+
+- ID: SCA2021-020, year: 2021
+- Authors: Steffen Berg, Hilbert van der Linde, Niels Brussee, Maja Rücker, Harm Dijk, Evren Unsal, Tibi G. Sorop, Matthias Appel
+- Method: laboratory experiment
+- Keywords: steady-state relative permeability, pressure fluctuations, travelling saturation waves, fractional flow theory, hysteresis, Fontainebleau sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-020)
+
+Artefact-minimized steady-state floods in Fontainebleau sandstone show large pressure and saturation fluctuations caused by travelling saturation waves, consistent with hysteretic fractional flow theory rather than instrument noise.
+
+Large pressure and saturation fluctuations in steady-state relative permeability floods are often dismissed as artefacts. The authors ran drainage/imbibition cycles on a water-wet Fontainebleau sandstone (K=539 mD, porosity 0.13) with pulse-free pumps, recirculated fluids, no back-pressure regulator and in-situ linear X-ray saturation monitoring. Fluctuations beyond noise (up to 50 mbar, ±5% Sw) occurred reproducibly for 0.02≤fw≤0.67, with bimodal histograms and non-linear dominant frequencies. Space-time saturation plots show travelling water banks. Their velocities match drainage df/dS at fw=0.10 and imbibition df/dS at fw=0.05, and a rough mobility estimate shows waves transport more flux than flat profiles at Sw<0.4–0.5. Bentheimer floods aged with three crudes show fluctuations decreasing from water-wet to intermediate-wet, so fluctuations are physical and the measured kr lies on scanning curves.
+
+## Effect of the Flow Rate on an Imbibition Capillary Pressure Curve: Theory Versus Experiment
+
+- ID: SCA1992-09EURO, year: 1992
+- Authors: François Kalaydjian
+- Method: laboratory experiment
+- Keywords: dynamic capillary pressure, imbibition, relative permeability, flow rate dependence, ultrasonic saturation measurement, waterflood
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-09EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-09EURO)
+
+Waterfloods at 1, 5 and 15 cc/hr show imbibition capillary pressure and relative permeabilities increase with flow rate; an averaging-based dynamic capillary pressure term is proposed.
+
+The standard two-phase flow framework assumes capillary pressure and relative permeability depend only on saturation. Waterfloods were run at 1, 5 and 15 cc/hr on a limestone (L13) and a sandstone (M5500), with local pressures in both phases and ultrasonic saturation measured in situ to obtain dynamic capillary pressure curves. Higher flow rates gave higher capillary pressure and a lower dPc/dS. Relative permeabilities history-matched with the measured dynamic Pc increased with flow rate: in L13, end-point water kr rose 30% and oil kr 40% from 1 to 15 cc/hr, and curvature vanished. Using quasi-static Pc instead overestimated the water end point (0.12 vs 0.09 at 5 cc/hr). A theoretical dynamic term, Pc,dyn = Pc,stat + λ ∂(φS)/∂t, was derived by averaging and irreversible thermodynamics, and λ was found to decrease roughly inversely with flow rate.
+
+## A New Concept for the Correlation of Relative Permeability Data and Capillary Pressure for Microfissured Rocks
+
+- ID: SCA1996-08, year: 1996
+- Authors: K. Nyikes, G. Pusch, V. Reitenbach
+- Method: theory or analytical model
+- Keywords: relative permeability, microfissured rocks, crack network model, viscosity ratio, drainage capillary pressure, Grimsel granite
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-08)
+
+A crack-network model with friction-controlled displacement links drainage capillary pressure to non-wetting phase relative permeability, including viscosity ratio; it matches Odeh's data and Grimsel granite only with fitted parameters.
+
+Relative permeability of low-permeability crystalline and cap rocks is hard to measure, and classical capillary-bundle correlations ignore the viscosity ratio. The authors derive a model for a 2D network of parallel cracks, using Hagen-Poiseuille flow under constant pressure drop and friction-controlled piston-like displacement. The drainage capillary pressure curve (Brooks-Corey type, with curvature exponent m and irreducible saturation Swc) defines the crack-width distribution, and the viscosity ratio V enters the non-wetting phase relative permeability. The model was matched to Odeh's steady-state oil/brine data on a 15 mD core, where m=0.38 fit both V=2 and V=0.012. For Grimsel granite (about 5 µD, porosity 0.005) with m=0.55 and Swc=0.5, the measured gas/water data matched only when V was reduced from the actual 56.8 to 10, possibly because gas compressibility was neglected. The authors state that the matches do not prove the concept and that more imbibition measurements are needed, but the correlation adds V as an extra fitting parameter beyond Brooks-Corey.
+
+## A Viscous Coupling Model for Relative Permeabilities in a Fracture
+
+- ID: SCA1998-25, year: 1998
+- Authors: Parc de, R. LENORMAND
+- Method: theory or analytical model
+- Keywords: fracture relative permeability, viscous coupling, Lockhart-Martinelli parameter, two-phase flow, Corey exponent, air-water
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-25)
+
+A viscous coupling model for two-phase flow in a fracture gives analytical Kr relations that match air-water data well when plotted against the Lockhart-Martinelli parameter.
+
+Two-phase relative permeabilities in fractures lack a general predictive model, and measured Kr values often sum to less than 1. The authors model the fracture as two parallel planes with a planar interface, with the wetting fluid at the walls. Solving Stokes' equation with no slip at the interface gives analytical Kr expressions that depend on saturation and viscosity ratio. Corey-type power-law fits give a wetting exponent of 1.66 and a non-wetting exponent a_G = 3exp(-1.6m), which is 2.91 for air/water. Against air-water data from Fourar and Bories (glass plates with 1 mm aperture, and clay bricks), Kr versus saturation fits poorly. Kr versus the Lockhart-Martinelli parameter fits well, and the model can convert flow rates to saturation for simulators.
+
+## Numerical Investigations of the Steady State Relative Permeability Functionality
+
+- ID: SCA1999-41, year: 1999
+- Authors: Kare Langaas
+- Method: numerical simulation
+- Keywords: lattice Boltzmann, cocurrent countercurrent relative permeability, viscous coupling, driving force, viscosity ratio, pore-scale simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-41)
+
+Lattice Boltzmann pore-scale simulations show how co- and countercurrent steady-state relative permeabilities vary with saturation, wettability, driving force and viscosity ratio, indicating process-dependent mobility tensors.
+
+The paper examines how steady-state co- and countercurrent relative permeabilities depend on saturation, wettability, driving force and viscosity ratio. A 2D thermodynamically consistent lattice Boltzmann model was run in a 288x288 lattice with 64 octagonal grains, with periodic boundaries and body-force driving, for neutrally wet and phase-1-wet systems. Relative permeabilities are generally convex in saturation. Cocurrent values rise with driving force (a factor of 2 to 2.5 for a 15-fold force increase) as phases form stationary channels, while countercurrent values fall as phases mix. Countercurrent values are always below cocurrent ones, and the phase distributions differ so much that a single mobility tensor cannot cover both flow types. Non-wetting relative permeability can exceed unity at M=0.1 because of lubrication by the low-viscosity phase.
+
+## Investigation of Pulse Injection Using Laboratory Special Core Analysis
+
+- ID: SCA2001-26, year: 2001
+- Authors: A.S. Cable, M.P. Dorey, S.G. Goodyear, A.J. Jayasekera
+- Method: laboratory experiment
+- Keywords: pressure pulsing, Darcy's law, waterflood, in-situ saturation monitoring, relative permeability, viscous fingering
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-26)
+
+Pulsed injection tests in sandpack and consolidated core show apparent single-phase flow enhancement is an artefact of higher pressure drop; pulsed waterflood raised brine mobility but not oil recovery.
+
+Published work claimed pressure pulsing violates Darcy's law and suppresses viscous fingering. The authors ran over 60 single-phase tests in a 10,000 mD sandpack and a 100 mD consolidated core with 2.5 and 25 cp oils, at pulse frequencies of 0.2-2 Hz and with mechanical and manual pulsing. Regression of average flow rate against average pressure drop gave the same effective permeability for pulsed and unpulsed flow; apparent enhancements (e.g. 81.4 vs 3.96 mL/h with manual pulsing) coincided with inlet pressure rising to 9-12 psi. Three waterfloods in the sandpack with gamma-ray in-situ saturation monitoring showed that the pulsed flood lost the +0.3 psi breakthrough capillary transient, broke through earlier, and had low-rate krw of 0.306 versus 0.09-0.10. Oil production was lower for the pulsed flood (0.65 PV vs 0.74-0.78 PV at similar throughput), with no evidence of improved front stability, and high-rate floods were similar.
+
+## Prediction of Optimum Operating Conditions for Steady-State Two-Phase Flow in Pore Network Systems Using the
+
+- ID: SCA2003-18, year: 2003
+- Authors: DeProF TRUE-TO-MECHANISM THEORETICAL MODEL, M.S. Valavanides, A.C. Payatakes
+- Method: numerical simulation
+- Keywords: DeProF, steady-state two-phase flow, energy utilization factor, pore network model, ganglion dynamics, capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-18)
+
+Using the DeProF model on 2D and 3D pore networks, the paper defines an energy utilization factor and finds a locus in (Ca, r) where oil transport per energy is maximal.
+
+Steady-state two-phase flow in porous media is modeled with DeProF, which decomposes flow into connected-oil pathway flow, ganglion dynamics and drop traffic flow. The authors introduce an energy utilization factor, f_EU = r/W, the oil/water flowrate ratio over reduced mechanical energy dissipation. Simulations covered 2D and 3D chamber-and-throat networks with oil/water viscosity ratios of 0.66, 1.45 and 3.35, over a Ca–r domain (Ca up to 10^-5, log r from -1 to 2). For every system and each Ca, a unique flowrate ratio r*(Ca) maximizes f_EU, forming a continuous ridge line in the (Ca, r) domain. f_EU rises with Ca as connected-oil flow expands and viscous dissipation dominates, and it rises more strongly at lower viscosity ratio. At fixed Ca it rises at small r and falls at larger r as oil organizes into larger, harder-to-mobilize ganglia that increase capillary dissipation.
+
+## An Alternative Approach to the Determination of the Inertia Flow Coefficient
+
+- ID: SCA2005-24, year: 2005
+- Authors: L. Kollbotn, F. Bratteli.
+- Method: data analysis or correlation
+- Keywords: inertial flow coefficient, beta factor, non-Darcy flow, Forchheimer equation, formation resistivity factor, friction factor
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-24)
+
+Proposes beta = λF/k, correlating the non-Darcy inertial coefficient with permeability and formation factor, fitting 83 cores (R2 0.96) and linking porous-media flow to pipe friction factors.
+
+The inertial (non-Darcy) flow coefficient β normally requires special core measurements or multi-rate well tests. The authors derive a correlation using actual fluid velocity, which equals flux times the Archie formation resistivity factor F, giving β = λF/k. Regressing about 82-83 cores (0.01 mD to 3.6 D, porosity 2.2–27%, sandstones and some dolomite) with β = λφ^-1.7/k gave R2 = 0.96 and a log(β) standard error of 0.28, versus R2 0.85 and 0.56 for Geertsma's correlation. For about 30 cores with measured F, using F directly gave R2 = 0.95 and a standard error of 0.18, with λ about 2.7 μm. The formulation yields a porous-media friction factor analogous to the Fanning friction factor, suggesting laminar and turbulent-like flow may coexist in pores. An average λ of 2.5 μm is suggested for practical use, with F taken from logs when core data are unavailable.
+
+## A Piv Study of Fluid Flow Through Parallel Communicating Layers of Porous Media
+
+- ID: SCA2008-32, year: 2008
+- Authors: James K Arthur, Douglas W. Ruth, Mark F. Tachie
+- Method: laboratory experiment
+- Keywords: particle image velocimetry, communicating porous layers, free zone flow, Darcy permeability, fractured reservoirs, model porous media
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-32)
+
+PIV measurements of water flow through model porous layers of rod arrays show flow concentrates in free zones and higher-porosity layers, with complex distributions not predicted by permeability ratios.
+
+The study examines pressure-driven single-phase flow through and over model porous media made of square arrays of acrylic rods (porosity 0.51-0.99) in a 600 mm by 71 mm channel, using PIV at Re below 4 so inertia is negligible. Configurations were a porous layer with a free zone above, two touching porous layers, and two layers separated by a free zone, with equal or unequal porosities. Empty-channel profiles were parabolic with centerline to bulk velocity ratio of 1.5, and uncertainty was about 2% in porous media and 1% in free zone. With a free zone above a porous layer, at porosity 0.95 only 38% of flow passed through the porous layer and at 0.78 only 1%. For two 0.51 layers separated by a free zone, 77% of flow went through the free zone and 21% and 2% through the lower and upper layers. Flow partitioning did not follow permeability ratios, and the higher-porosity layer carried most flow even for modest contrasts, which is relevant to fractured reservoirs.
+
+## The Viscous-Capillary Paradox in 2-Phase Flow in Porous Media
+
+- ID: SCA2009-13, year: 2009
+- Authors: A.W. Cense, S. Berg
+- Method: theory or analytical model
+- Keywords: capillary number, Darcy's law, relative permeability, capillary desaturation, residual oil, viscous coupling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-13)
+
+Resolves the apparent paradox between Darcy's viscous structure and low capillary numbers by showing that relative permeability lumps capillary effects and that the microscopic capillary number is ~1 for connected phases.
+
+The paper addresses the apparent paradox that two-phase Darcy's law looks like a purely viscous law, yet capillary numbers of 1e-7 to 1e-5 imply capillary dominance. It analyzes the macroscopic picture (Darcy, relative permeability, capillary pressure, various capillary number definitions) and the microscopic picture (Stokes drag versus Young-Laplace force on a residual oil blob, and film flow in an oil-wet triangular duct). For a residual blob with typical values (1 ft/day, 1 mPa·s, porosity 0.25, 30 mN/m), the microscopic capillary number is of order 1e-7, consistent with desaturation curves. For connected phases, viscous and capillary forces balance at equilibrium (Nc≈1), and during displacement viscous forces exceed capillary ones (Nc>1). The paradox arises because Darcy's law lumps viscous coupling and capillary effects into relative permeability, and because the capillary number definition applies to disconnected blobs.
+
+## Experimental Investigation of the Inertial Effects of Flow Through Porous Media
+
+- ID: SCA2010-47, year: 2010
+- Authors: James K. Arthur, Douglas W. Ruth, Mark F. Tachie
+- Method: laboratory experiment
+- Keywords: Forchheimer equation, Darcy flow transition, particle image velocimetry, inertial effects, model porous media, Reynolds number
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-47)
+
+PIV and differential pressure measurements on square rod arrays (porosity 0.51-0.88) suggest the Forchheimer equation applies even at weak inertia, with transition beginning at Re below 1.
+
+The paper addresses whether the Darcy, Forchheimer quadratic, or cubic law best describes the transition from Darcy to inertial flow in two-dimensional porous media. Square arrays of acrylic rods with porosities of 0.51, 0.78 and 0.88 were placed in a channel with a refractive-index-matched fluid. Velocity fields were measured by high-resolution PIV, and differential pressure by a low-range gauge, over Re of about 0.2 to 3.7. Streamlines stayed close to the rod surfaces at Re near 1, became skewed at Re of 1.53, and showed separation at Re above 2, without eddies. Pressure data deviated from Darcy behavior in the 0.88 porosity model, indicating inertial effects begin at Re below 1 and that the Forchheimer equation may hold at weak inertia, though the authors call the results preliminary.
+
+## Investigation of the Physics of Inertial Effects and the Forchheimer Equation Utilizing the Lattice Boltzmann Method
+
+- ID: SCA2016-051, year: 2016
+- Authors: Rasoul Arabjamaloei, Douglas W. Ruth
+- Method: numerical simulation
+- Keywords: Forchheimer equation, Lattice Boltzmann method, inertial effects, non-Darcy flow, pore-throat geometry, apparent permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-051.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-051)
+
+Lattice Boltzmann simulations of 2D pore-throat geometries show the Forchheimer equation fits only some geometries, while scaled permeability versus mass flow rate collapses all cases onto one trend.
+
+Inertial effects at high Reynolds number cause extra pressure drop and reduced apparent permeability, usually described by the semi-empirical Forchheimer equation. The authors simulated gravity-driven flow with the Lattice Boltzmann method in simplified 2D geometries, a circular pore with two connecting channels, over varying gravity and aspect ratios. For four pore-throat combinations, a second-order Forchheimer fit was acceptable, but a cubic polynomial fit better and showed a critical point linked to the critical Reynolds number. Across 10 aspect-ratio combinations, neither second- nor third-order polynomials matched the velocity-gravity relationship well. Scaled permeability (relative to permeability at vanishing Reynolds number) versus mass flow rate followed a single second-order polynomial for all geometries.
+
+## A Novel Relative Permeability Model - a Two-Fluid Approach Accounting for Solid-Fluid and Fluid-Fluid Interactions
+
+- ID: SCA2016-060, year: 2016
+- Authors: Dag C. Standnes, Steinar Evje, Pål Ø. Andersen
+- Method: theory or analytical model
+- Keywords: relative permeability, two-fluid model, fluid-fluid interaction, viscosity ratio, counter-current flow, interstitial velocity
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-060)
+
+A two-fluid momentum-balance relative permeability model with fluid-fluid drag predicts viscosity-ratio dependence and lower counter-current than co-current relative permeabilities.
+
+The paper derives a relative permeability model from two-fluid momentum equations including solid-fluid and fluid-fluid friction terms. Analytical expressions are obtained for steady-state co-current and counter-current flow, reducing to Corey-type curves when fluid-fluid interaction is zero. Illustrative calculations with chosen parameters show that momentum transfer raises the relative permeability of the slower phase and lowers that of the faster phase. Increasing oil viscosity from 1 to 10 cP changes both curves, giving the more viscous, slower phase higher relative permeability. Counter-current relative permeabilities are always lower than co-current ones when fluid-fluid interaction exists. The model is not validated against experimental data, and the authors call for validation that separates physical effects from artifacts such as capillary end effects.
+
+## Taxonomy of Steady-State Two-Phase Flows in Porous Media
+
+- ID: SCA2018-067, year: 2018
+- Authors: Marios S. Valavanides
+- Method: data analysis or correlation
+- Keywords: steady-state relative permeability, energy utilization factor, critical flow conditions, capillary number, flow rate ratio, classification map
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-067.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-067)
+
+Transforms steady-state relative permeability data into energy-efficiency-based taxonomic coordinates and maps about 180 published runs onto a universal classification map of two-phase flows.
+
+Steady-state relative permeability diagrams are hard to compare across different fluid systems and flow conditions. Using Darcy fractional flow analysis, each pair of relative permeabilities is converted into a flow rate ratio r and an energy utilization factor fEU. Two logarithmic distances of the maximum-efficiency point from the pure-viscous-flow reference values (ceiling of efficiency 1/(1+√κ)² and r*=1/√κ) define the taxonomic coordinates. About 180 runs from 35 published studies (sandstones, carbonates, sand packs, glass micromodels, and lattice-Boltzmann/CFD simulations) were mapped onto a 2D classification map, revealing sparsely and densely populated regions. The approach is proposed as a basis for a systematic repository of relative permeability data and improved SCAL protocols, with a possible extension to a third axis for pore-network structure.
+
+## Steady-State Two-Phase Flow in Porous Media: Laboratory Validation of Flow-Dependent Relative Permeability Scaling
+
+- ID: SCA2019-005, year: 2019
+- Authors: Marios S. Valavanides, Matthieu Mascle, Souhail Youssef, Olga Vizika
+- Method: laboratory experiment
+- Keywords: flow-dependent relative permeability, capillary number, flow rate ratio, steady-state method, critical flow conditions, energy efficiency
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-005)
+
+Steady-state core floods on a water-wet Clashach sandstone validate a flow-dependent relative permeability scaling in Ca and flow rate ratio, and confirm the critical flow conditions locus.
+
+Relative permeability is conventionally treated as a function of saturation, but it depends on capillary number (Ca) and flow rate ratio (r). The authors test a universal scaling, x = A(log Ca) + κr, derived from DeProF pore-network simulations, against 88 steady-state measurements in 14 drainage/imbibition cycles on a water-wet Clashach sandstone plug (13% porosity, 672 mD). Measurements used the CAL-X X-ray radiography core-flood setup at two IFT values (50 and 0.5 mN/m). Measured r matched the mobility ratio, and the curves crossed at r = 1/κ. The kernel function A decayed more steeply at high Ca than in the simulations, which the authors attribute to emulsion-type flow, and it was fitted with a new expression. The critical flow conditions locus was S-shaped, with the high-Ca asymptote at r ≈ 0.32 versus the nominal 0.845, and energy efficiency was lower than the nominal ceiling.
+
+## Derivation of A Representative Elementary Volume (REV) for Upscaled Two-Phase Flow in Porous Media
+
+- ID: SCA2023-012, year: 2023
+- Authors: James E. McClure, Ming Fan, Steffen Berg, Ryan T. Armstrong, Carl Fredrik Berg, Zhe Li, Thomas Ramstad
+- Method: theory or analytical model
+- Keywords: representative elementary volume, relative permeability, lattice Boltzmann simulation, time-and-space averaging, Haines jumps, digital rock
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-012)
+
+Using time-and-space averaging and energy balance, the paper defines a representative timescale for relative permeability and shows with lattice Boltzmann simulations that mm-scale Bentheimer domains give valid results.
+
+Relative permeability upscaling assumes a multiphase REV, yet pressure and saturation fluctuate even at centimeter scale. The authors derive two-phase Darcy's law from energy conservation using combined time and space averages, requiring a stationary energy balance in which net work from fluctuations vanishes. They propose a fluctuation criterion, a ratio of fluctuation power to Darcy flow work, as an uncertainty measure for relative permeability. LBPM lattice Boltzmann simulations on micro-CT Bentheimer sandstone (1.66 µm resolution, domains of 1494x1494x2656 µm and half that size, Ca=1e-5, water-wet and oil-wet, four saturations each) show the combined fluctuation histograms have zero mean already at 1-2 mm. Fluctuations in water and oil pressure work partly cancel even when non-Gaussian. This supports digital rock domains of a few mm for relative permeability, though experimental use is harder because wetting terms are hard to infer.
+
+## Using the fluctuation-dissipation theorem to measure total phase mobility during fractional flow experiments
+
+- ID: SCA_2025_1040, year: 2025
+- Authors: Umarcel Moura, Ying Da Wang, Dick Bedeaux, Signe Kjelstrup, Peyman Mostaghimi, Ryan T. Armstrong
+- Method: laboratory experiment
+- Keywords: fluctuation-dissipation theorem, Green-Kubo, total phase mobility, flux fluctuations, fractional flow, lattice Boltzmann
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1040)
+
+Flux fluctuations from steady-state water-decane co-injection in a sintered glass-bead column, analyzed with the Green-Kubo fluctuation-dissipation relation, predict total phase mobility consistent with Darcy and lattice Boltzmann results.
+
+Steady-state two-phase flow shows flux fluctuations that are usually ignored, and this work tests whether they can give total phase mobility through the Green-Kubo form of the fluctuation-dissipation theorem. Water-decane co-injection experiments were run at constant pressure gradient on a sintered glass-bead column (K = 8e-12 m2) at Fw of 0.2, 0.5 and 0.8, with Ca of about 6-10e-6 and triplicate runs. Total flux was recorded with a mass flowmeter at 30 ms resolution and compared with saturation changes from dynamic micro-CT radiographs. The integral of the flux-fluctuation autocorrelation, fitted with an exponential decay, followed the same saturation trend as Darcy-derived total mobility (1.02-1.09e-11 m2/Pa·s). A linear fit gave a prefactor of 0.03 Pa^-1 and an intercept of 2.2e-12 m2/Pa·s, attributed to fluctuations faster than the flowmeter can resolve. Lattice Boltzmann relative permeability on the segmented micro-CT image agreed with the FDT and Darcy total mobility.
+
+## Impact of Representative Elemental Volume on Steady-State and Unsteady-State Relative Permeability
+
+- ID: SCA_2025_1088, year: 2025
+- Authors: Guangyuan Sun, Andrew Fager, Bernd Crouse, Christian Lange, Dassault Systèmes
+- Method: numerical simulation
+- Keywords: representative elementary volume, lattice Boltzmann, steady-state relative permeability, unsteady-state relative permeability, coefficient of variation, digital rock
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1088.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1088)
+
+Lattice Boltzmann simulations on Berea, fractured and clay-rich shale digital rocks show SSRP and USRP agree only when the sample passes an REV screening based on porosity, PSD and permeability COV.
+
+The paper examines how sample representativeness affects agreement between steady-state and unsteady-state relative permeability. A screening workflow was introduced using normalized connected porosity (threshold 0.9), pore size distribution convergence (size-growing and space-filling analyses) and permeability coefficient of variation (COV; <20% strong, 20–50% moderate, >50% poor). Shan–Chen multiphase lattice Boltzmann simulations (Nc ~1e-5, 30° contact angle) were run on Berea sandstone (15.7% porosity, 235 mD), a fractured rock (8.9%, 725 mD) and a clay-rich shale (31.8%, 0.0047 mD). For Berea, a 500³ voxel subvolume (COV 15.8%) gave strong SSRP–USRP agreement, while a 300³ subvolume (COV 26.3%) showed USRP oil relative permeability exceeding SSRP. The fractured sample had no REV (COV 75.4%) and showed clear SSRP–USRP mismatch, while the shale (COV ~47%) was transitional with mostly consistent curves and a slight water-phase difference.
+
+## Flow-dependency aspects in SCAL of steady-state two-phase flow in model pore networks
+
+- ID: SCA_2025_1097, year: 2025
+- Authors: K. Mouravas, N. Karadimitriou, P. Dimitriadis, A. Giotis, M. Valavanides
+- Method: laboratory experiment
+- Keywords: steady-state co-injection, capillary end-effects, intrinsic dynamic capillary pressure, energy efficiency index, microfluidic pore network, flowrate-dependent relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1097.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1097)
+
+Steady-state co-injection in three microfluidic networks yields flow-rate-dependent relative permeabilities, IDCP curves and energy-efficiency flow conditions, used to diagnose capillary end-effects from pressure-drop data.
+
+The paper addresses flow-rate dependence of relative permeability and capillary end-effects in SCAL steady-state measurements. Forty-four constant-Ca co-injection experiments (Ca and flowrate ratio spanning 3 orders of magnitude each) were run in three planar micromodels: periodic PDMS, periodic glass and non-periodic PDMS, using Fluorinert FC-770 and dyed water. Relative permeabilities were computed from phase pressure drops, and the intrinsic dynamic capillary pressure (IDCP) function was fitted with a power law for each system. Energy efficiency analysis located critical flow conditions following an S-curve, with high-Ca asymptotes close to the theoretical 1/sqrt(kappa). Comparing imposed flowrate ratio with measured mobility ratio (Pearson correlation) showed stronger end-effects in the periodic networks than in the non-periodic one.

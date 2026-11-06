@@ -1,0 +1,499 @@
+# SCAL programs and relative permeability
+
+> 38 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: scal, relative permeability, saturation, wettability, oil, flow, swi, water, initial, wi.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Improved Special Core Analysis: Scope for a reduced residual oil saturation
+
+- ID: SCA1996-01, year: 1996
+- Authors: J.A. Kokkedee, W. Boom, A.M. Frens, J.G. Maas
+- Method: review or workflow
+- Keywords: residual oil saturation, wettability restoration, capillary end-effect, multi-speed centrifuge, oil relative permeability tail, history matching
+- Cited by 12 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-01)
+
+Shell shows that SCAL at representative wettability, with numerical history-matching of artefacts, gives residual oil saturations 10-15 saturation percent lower than old data, boosting tail-end production.
+
+Historic SCAL data from mature fields, measured on cleaned water-wet samples and interpreted analytically, overestimated residual oil saturation. The paper describes restoring representative wettability by cleaning and ageing with crude, and handling artefacts such as capillary end-effects and insufficient experiment time to reach low oil saturations. Steady-state, unsteady-state and multi-speed centrifuge data are combined and history-matched with numerical simulation to obtain a single consistent set of relative permeability and capillary pressure curves. A centrifuge example shows ultimate recovery at least 25% above an early estimate. Table data for fields in Europe, Africa, the Middle East and North America show current residual oil saturations of about 10-20% versus old values of 25-40%. A dipping-reservoir simulation shows that the properly interpreted oil relative permeability tail gives post-breakthrough production through gravity drainage, potentially raising ultimate recovery by 20% or more.
+
+## A Focused Relative Permeability SCAL Study Driven by Reservoir Management Decisions
+
+- ID: SCA2002-02, year: 2002
+- Authors: M C Spearing, A S Davies, D J Element, S G Goodyear, E J Law
+- Method: laboratory experiment
+- Keywords: in-situ saturation monitoring, core flood simulation, JBN analysis, capillary end effect, trapped gas saturation, unconsolidated heavy oil
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-02)
+
+A focused SCAL program on unconsolidated heavy-oil sand used in-situ saturation monitoring and simulation to correct end effects, showing JBN and earlier 1992 relative permeabilities were suppressed.
+
+The study designed a focused relative permeability program for an unconsolidated, ~8 D, 80 cp heavy oil reservoir by analysing the imbibition and drainage processes that matter most for recovery. Restored-state composite cores from the oil leg and gas cap were flooded at reservoir conditions (1356 psig, 30.5°C) with live oil, with gamma-ray in-situ saturation monitoring (ISSM). Mass-balance residual oil was higher than ISSM (e.g. Sor 56.1% vs 45.9% at low rate), attributed to oil holdup in rig pipework, and trapped gas was 34.3% by PVT versus 26.2% by ISSM. Capillary end effects and inlet viscous fingering were identified, and simulation corrected curves that JBN had suppressed. The 1992 data proved similarly end-affected; gas-cap Sorw was 18% PV, below the 25% predicted by a rule of thumb, and Kro at Sgt was 0.34.
+
+## A Summary of Experimentally Derived Relative Permeability and Residual Saturation on North Sea Reservoir Cores
+
+- ID: SCA2002-12, year: 2002
+- Authors: Arne Skauge, Bård Ottesen
+- Method: data analysis or correlation
+- Keywords: waterflood residual oil saturation, trapped gas Land constant, Amott-Harvey and USBM wettability, intermediate wettability, three-phase gas trapping, North Sea sandstone
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-12)
+
+Summarizes more than 500 SCAL experiments from 30 North Sea fields, finding lower three-phase gas trapping and lowest waterflood Sor at intermediate wettability, with three intermediate wetting types.
+
+Early field evaluation lacks SCAL data, so the authors compiled over 500 gas injection, trapped gas and waterflood experiments from 30 North Sea fields. Average remaining oil saturation was 0.16 for gas injection (Sorg) and 0.20 for waterflooding (range 0.04–0.45). Trapped gas follows initial gas saturation: a Land constant of 1.75 (Sgt,max 0.36) for two-phase and 2.05 (0.33) for three-phase, with no correlation to permeability or porosity. Waterflood remaining oil is lowest for intermediate-wet cores, and wettability becomes more oil-wet at low Swi. Comparing USBM and Amott-Harvey indices for 13 reservoirs, five were mixed-wet large pores, four fractional-wet and four mixed-wet small pores; average Sorw was 0.165, 0.178 and 0.217 for MWL, FW and MWS respectively.
+
+## Relative permeability, hysteresis and I-Sw measurements on a carbonate prospect
+
+- ID: SCA2000-07, year: 2000
+- Authors: N. van der Post, S.K. Masalmeh, J.G.C. Coenen, K.H. van der Gijp, J.G. Maas
+- Method: laboratory experiment
+- Keywords: X-ray steady state, relative permeability hysteresis, resistivity index, saturation exponent, mixed wettability, centrifuge
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-07)
+
+X-ray steady-state, γ-ray and centrifuge measurements on aged high-porosity carbonate show relative permeability hysteresis and a saturation exponent of 3 (versus 2.2 unaged), reconciling log and core water saturation.
+
+Logs in a high-porosity Middle East carbonate showed resistivities of 2000 Ωm, implying an unrealistic 1.5% connate water when using n=2.2 from water-wet continuous-injection tests. The authors used a modified X-ray steady-state apparatus with pressure and voltage probes to measure saturation and resistivity at several positions along aged cores (about 5 mD, 40% porosity), with decane replacing crude after washout. Steady-state and centrifuge oil relative permeabilities agreed, and high viscous pressures suppressed end effects; fitted centrifuge Sor was 0.13 versus 0.12 in steady state. Oil relative permeability was higher and water lower in secondary drainage than in first imbibition, consistent with mixed wettability. Aged plugs gave n≈3 in three samples, giving connate water of about 5% consistent with SCAL, with little I-Sw hysteresis.
+
+## Parameter Based SCAL - Analysing Relative Permeability for Full Field Application
+
+- ID: SCA2014-080, year: 2014
+- Authors: Einar Ebeltoft, Frode Lomeland, Amund Brautaset, Åsmund Haugen
+- Method: review or workflow
+- Keywords: LET correlation, relative permeability parameterization, trend models, initial water saturation, wettability, residual oil saturation
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-080.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-080)
+
+Parameterizes SCAL relative permeability with LET correlation and wettability-consistent trend models versus Swi to build base, optimistic and pessimistic saturation functions for full-field simulation, shown on an NCS field.
+
+Relative permeability from individual SCAL experiments is difficult to combine into saturation functions for full-field simulation. The authors verify each experiment by core-flood simulation, parameterize the curves with the LET correlation, and store end points and L, E, T parameters in a SCAL database with plug data. Trend models for Sorw, krw(Sorw) and the LET parameters as functions of initial water saturation are built from wettability physics and NCS data, then calibrated visually to field data with base, high and low bounds. For a field case, four Swi bins (0–0.15, 0.15–0.25, 0.25–0.35, 0.35–1.0) represent rock types, each with its own curves, avoiding the wettability-inconsistent curve shapes caused by end-point scaling. The result is smooth curves with uncertainty bounds, with more scatter noted in Lw and To because of low experimental sensitivity near Swi.
+
+## SCAL for Gas Reservoirs: A Contribution for Better Experiments
+
+- ID: SCA2016-023, year: 2016
+- Authors: Arjen Cense, Jules Reed, Patrick Egermann, LR Senergy
+- Method: review or workflow
+- Keywords: residual gas saturation, gas-water relative permeability, Land equation, differential pressure limit, in-situ saturation monitoring, paleo contact
+- Cited by 5 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-023)
+
+Reviews pitfalls in gas-water SCAL (Pc, residual gas, unsteady and steady state floods) and recommends low differential pressure, limited injection volume, and QC of Sgr and endpoints.
+
+Gas-field SCAL appears simple because gas systems are water wet, but gas compressibility and solubility make experiments difficult. The paper discusses capillary pressure choices (drainage vs imbibition, paleo contacts), and QC of residual gas saturation using compressibility tests, ambient SgrM measurements (73 samples) with the Land equation, and Brooks-Corey endpoint checks. Reviewed unsteady-state floods at 200 psi pore pressure showed Sgr declining once differential pressure exceeded about 10 psi (5% of pore pressure). Gas produced after breakthrough (about 2.9 ml after ~30 PVI) was attributed to incomplete brine-nitrogen equilibration, not dissolution at the inlet, so Sgr at breakthrough is representative. Steady-state imbibition tests suffered large saturation jumps at low fractional flow and end effects; simulations showed stabilization would take 10-30+ days, so they are not recommended for typical commercial labs.
+
+## Relative Permeability Technology and Applications
+
+- ID: SCA1990-08, year: 1990
+- Authors: Matt M. Honarpour, Dan R. Maloney
+- Method: review or workflow
+- Keywords: relative permeability, three-phase flow, formation damage, wettability and hysteresis, in situ saturation measurement, EOR relative permeability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-08)
+
+A review of relative permeability: controlling factors, formation damage, gas-condensate, three-phase and EOR processes, reservoir-condition testing, saturation measurement technology and use of models in simulation.
+
+This review covers the factors controlling relative permeability, including saturation, rock properties, wettability, hysteresis, initial saturation and flow rate. It discusses how relative permeability tests reveal formation damage, and how heterogeneity, bedding, vugs and fractures complicate measurements. It stresses testing at reservoir conditions with live fluids and net confining stress, and covers gas-condensate, three-phase (ternary isoperms, hysteresis, CO2 versus nitrogen) and chemical, thermal and gas EOR behavior. It also summarizes steady-state, unsteady-state and centrifuge methods and in situ saturation techniques (CT, NMR imaging, X-ray, microwave, with accuracy around ±2%). Empirical and statistical models, agreement with well tests, and pseudo relative permeabilities for simulation are addressed; no new experimental data are presented.
+
+## SCA-9909 Relative Permeability Measurements on Heterogeneous Samples A pragmatic approach
+
+- ID: SCA1999-09, year: 1999
+- Authors: Aart Zweers, Wim Scherpenisse, Krijn Wit, Jos Maas
+- Method: numerical simulation
+- Keywords: steady-state relative permeability, heterogeneous core plugs, capillary end-effects, phase-selective pressure measurement, reservoir simulation upscaling
+- Cited by 3 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-09)
+
+Simulations show steady-state floods on heterogeneous plugs with separate phase pressure drops and low rates reproduce field-scale relative permeabilities, enabling a statistical distribution of curves for reservoir simulation.
+
+Standard SCAL flow experiments require homogeneous plugs, and CT screening can reject up to 90% of core, raising doubts about representativeness for heterogeneous reservoirs. The authors propose a modified steady-state method applied to a statistically representative plug set, measuring pressure drop separately in water and oil using water-wet and oil-wet filters. Using the MoReS simulator in 2-D, they tested layered plugs and isolated low- or high-permeability spots (contrasts of 2 to 100) with Corey curves (n=4), comparing plug-scale steady-state runs with plug-in-reservoir field-scale runs at 1 ft/d. Layered cases agreed within about 15% up to 30 times field rate, and spot cases agreed up to 30 ft/d, though effective field curves deviated from input curves by 30% (layers) and over 50% (spots). Limitations include restricted saturation range, poor access to low oil saturation due to end-effects, and few isolated-heterogeneity cases tested.
+
+## Method to Recover Connate Water From Reservoir Cores Using Centrifuge and Surfactant-Enhanced oil for Formation Evaluation
+
+- ID: SCA2026-020, year: 2026
+- Authors: Hussain Al Qatari, Shouxiang Ma, Taha Okashah, Najebah M. Alsaleh
+- Method: laboratory experiment
+- Keywords: connate water recovery, surfactant-enhanced oil, interfacial tension, centrifuge drainage, ion chromatography, formation water salinity
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-020)
+
+Centrifuging aged cores with surfactant-enhanced oil, which strongly lowers IFT, recovers part of irreducible water whose salinity can be measured by titration and ion chromatography.
+
+Formation water resistivity for Archie-based Swi is hard to obtain because irreducible water is capillary-bound and cannot be sampled directly. The authors drained brine-saturated Indiana Limestone and Berea Sandstone plugs with crude oil by centrifuge, aged them for one month at 70°C and 1500 psi, then centrifuged them at higher speed with oil containing 2% oil-soluble surfactant. The 2% surfactant cut oil-brine IFT by 93% (200 KPPM) and 83% (100 KPPM). Recovered volumes were 0.5–1.4 cc for carbonates and 0.6–0.7 cc for sandstones, except one sandstone plug that yielded almost none. After calibration and dilution, the small brine volumes gave NaCl concentrations matching the prepared brines by both ion chromatography and titration.
+
+## Defining a sample heterogeneity cut-off value to obtain representative Special Core Analysis (SCAL) measurements
+
+- ID: SCA2019-024, year: 2019
+- Authors: Niels Springer, Albert Hebing
+- Method: numerical simulation
+- Keywords: heterogeneity number V, SCAL interpretation by simulation, AutoSCORES history matching, CT Hounsfield heterogeneity, unsteady-state relative permeability, Student t-test
+- Cited by 5 papers in the corpus, cites 11
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-024.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-024)
+
+Simulating 70+ synthetic heterogeneous plugs with automated history matching and t-tests, the study derives scenario-dependent cut-off values of heterogeneity number V for reliable SCAL, validated on three sandstone plugs.
+
+SCAL relative permeability data can be distorted by heterogeneous plugs, and no quantitative cut-off existed for the CT-based heterogeneity number V. The authors built more than 70 synthetic 3-D plugs (random porosity, speckled, layered, impermeable layers, fractures) in SCORES3D, simulated unsteady-state and multispeed centrifuge imbibition experiments, and history matched them with the new AutoSCORES tool. Student t-tests of extracted Corey parameters against homogeneous equivalents gave V cut-offs per scenario for N=3 samples: about 0.9 for random heterogeneity, 0.2 speckled, 0.1 for visible layering, and 0 for open fractures. Increasing the sample count to 10 changes the critical t value and lowers the cut-off for random heterogeneity to about 0.5. Gas-brine drainage USS tests on three Oberkirchener sandstone plugs with V≈0.26, one with stylolites, gave similar Corey parameters except krgwc, which was likely affected by salt precipitation.
+
+## Initial states of core flooding techniques evaluation: a global pore-scale investigation
+
+- ID: SCA2022-16, year: 2022
+- Authors: Franck Nono, Cyril Caubit, Richard Rivenq
+- Method: digital rock or imaging
+- Keywords: initial water saturation, micro-CT pore occupancy, porous plate, capillary end-effect, Bentheimer sandstone, core cleaning
+- Cited by 5 papers in the corpus, cites 7
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-16)
+
+Micro-CT comparison of porous-plate, oil-flooding and centrifuge initial water saturation on Bentheimer shows porous plate is most robust; reversals trap oil and non-water-wet rock traps brine.
+
+The paper compares porous-plate, viscous oil flooding and centrifuge primary drainage for establishing initial water saturation, using micro-CT (4-5 µm voxels) on Bentheimer mini-plugs, both water-wet and Surfasil-altered. At low Swi targets (4-8%) on water-wet plugs, porous plate and oil flooding give similar pore occupancy, connectivity and Kro near the literature curve. At high Swi targets, oil flooding and centrifuge show capillary end-effects, and reverse flow or spinning produced disconnected oil clusters, about 5-15% of oil volume versus at most 0.1% for porous plate. In Surfasil-treated plugs, oil flooding left large brine ganglia in big pores, giving Swi of 18.5-35% and reduced Kro (down to 0.1), while a porous-plate test reached low Swi. After crude-oil ageing and cleaning, Swi rose repeatably (5.3 to 10.6% and 4 to 22%) with up to 50% permeability loss.
+
+## Hybrid Drainage Technique application on bimodal limestone
+
+- ID: SCA2023-006, year: 2023
+- Authors: Victor Fernandes, Franck Nono, Benjamin N Nicot, Fabrice Pairoys, Henri Bertin, Jean Lachaud, Cyril Caubit
+- Method: laboratory experiment
+- Keywords: Hybrid Drainage Technique, Viscous Oil Flood, Estaillades limestone, bimodal pore network, NMR T2 saturation profiles, imbibition relative permeability
+- Cited by 2 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-006.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-006)
+
+Compares Hybrid Drainage Technique with Viscous Oil Flood on bimodal Estaillades limestone; HDT reaches low Swi, invades small pores, and changes imbibition Kr and Sor.
+
+Setting initial water saturation on bimodal limestone is difficult with viscous-controlled drainage, which can bypass the small pores. Estaillades limestone samples (38 mm x 50 mm, 103-260 mD) were drained by Viscous Oil Flood (VOF) or Hybrid Drainage Technique (HDT, viscous flood followed by a porous-plate capillary step), aged in crude oil and waterflooded, with NMR and micro-CT monitoring. VOF could not get Swi below about 35% even with flow reversal, whereas HDT reached Swi of about 0.20 (Pc 5 bar) with a homogeneous profile and no capillary end effect. At matched Swi of 0.38, the VOF waterflood history match fit Corey curves (Nw 1.8, No 3.3), but the HDT sample needed LET curves and showed higher Sor (0.74 vs 0.87 Sw at Sor) with a different Krw trend. Micro-CT showed oil trapped in the small pores after HDT waterflooding, indicating that pore occupancy after primary drainage governs imbibition results.
+
+## Overview of the Let Family of Versatile Correlations for Flow Functions
+
+- ID: SCA2018-056, year: 2018
+- Authors: Frode Lomeland
+- Method: theory or analytical model
+- Keywords: LET correlation, relative permeability, capillary pressure, LETh, upscaling, parameter trend functions
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-056)
+
+Overview of the 2018 LET correlation family for relative permeability and capillary pressure, introducing invertible LETh drainage Pc and LETs imbibition Pc with separate spontaneous and forced branches.
+
+The paper reviews the LET family of empirical correlations for relative permeability and capillary pressure, used for interpreting flow experiments, upscaling and history matching. It presents LET and LETx Kr formulas, generic parameter trend functions linked to initial water saturation, and a conceptual model in which Swi controls wettability variation. New elements are LETh, a primary drainage Pc correlation with an exact analytical inverse, and LETs, an imbibition Pc correlation with independent spontaneous and forced branches split at Swzo. LETh and LET can match each other with adjusted parameters, and both fit centrifuge drainage and imbibition data from a Norwegian Continental Shelf core plug. Independent studies cited find LET the best Kr model compared with Corey and Chierici and other correlations. The paper also notes that LET can be fitted analytically by linearizing in L, log(E) and T, and that it suits upscaling and history matching.
+
+## A Case Study to Demonstrate the Use of SCAL Data in Field Development Planning of a Middle East Carbonate Reservoir
+
+- ID: SCA2006-18, year: 2006
+- Authors: M Z Kalam, A El Mahdi, S Negahban, J N B Bahamaish, OB Wilson, M C Spearing
+- Method: laboratory experiment
+- Keywords: steady state relative permeability, in situ saturation monitoring, principal component analysis, porous plate capillary pressure, Hammervold-Longeron wettability index, carbonate reservoir
+- Cited by 2 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-18)
+
+An integrated SCAL study on Middle East carbonate cores, screened with PCA, validates static and dynamic reservoir models; steady-state ISSM saturations proved unreliable alone.
+
+The paper shows how integrated SCAL data improve static and dynamic models of a Middle East carbonate reservoir. Eleven plugs (kw <1 to ~10 mD, porosity 16-23%) underwent steady-state water-oil relative permeability with live crude at reservoir conditions and in-situ gamma saturation monitoring. They were complemented by centrifuge relperm, centrifuge and porous plate capillary pressure, and wettability indices. Four plugs gave anomalously low remaining oil saturations (as low as 2% PV) by ISSM, versus about 20% PV from centrifuge. Porous plate Hammervold-Longeron wettability indices (-0.08 to +0.38, average 0.10) were more intermediate-wet than USBM centrifuge values (-0.17, -0.40). PCA captured 97% of variance in three components and flagged outliers. Measured Pc matched log saturations in crest and flank wells, and measured relperm gave higher predicted plateau and cumulative production than analogue data.
+
+## A New Waterflood Initialization Protocol for Pore-Scale Multiphase Flow Experiments
+
+- ID: SCA2018-032, year: 2018
+- Authors: Q. Lin, B. Bijeljic, S. C. Krevor, M. J. Blunt, S. Berg, A. Coorn, H. van der Linde, A. Georgiadis, O. B. Wilson
+- Method: laboratory experiment
+- Keywords: micro-CT, waterflood initialization, centrifuge connate water saturation, in situ contact angle, wettability alteration, Bentheimer sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-032)
+
+Micro-plugs drilled from a SCAL core and centrifuged to connate water with crude oil, then aged, give uniform Swc (~0.08) and wettability alteration in micro-CT.
+
+Dynamic flooding to establish initial water saturation in micro-CT plugs gives non-uniform, high Swc due to capillary end effects and poor ageing. The authors drill 6 mm by 24 mm micro-plugs from a 38 mm Bentheimer core while keeping them attached to the base for capillary continuity, then centrifuge with crude oil (up to 3200 rpm, 60 kPa) and age four weeks at 80°C and 3 MPa. Micro-CT showed uniform saturation along the plug with an average Swc of 0.082, matching the 0.078 from centrifuge production, MICP and full-size cores (0.068-0.094), versus 0.14 from dynamic flooding. Steady-state waterflooding at fw=0.5 showed negative interfacial curvature and in situ contact angles above 90° in the aged plug, whereas the unaged plug had angles below 90°. Up to 45 plugs can be prepared per centrifuge batch without occupying flooding equipment.
+
+## In-Situ Investigation of Aging Protocol Effect on Relative Permeability Measurements Using High Throughput Experimentation Methods
+
+- ID: SCA2018-016, year: 2018
+- Authors: Matthieu Mascle, Souhail Youssef, Hervé Deschamps, Olga Vizika
+- Method: laboratory experiment
+- Keywords: wettability alteration, aging protocol, steady-state relative permeability, X-ray radiography saturation, Bentheimer sandstone, mixed wettability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-016)
+
+Steady-state kr with 2D X-ray saturation maps on small Bentheimer cores shows dynamic crude-oil aging alters wettability more strongly and uniformly than static aging, which gives patchy mixed-wettability.
+
+The study compares static and dynamic crude-oil aging of small Bentheimer sandstone plugs (10 mm by 20 mm) and its effect on oil/water relative permeability. Steady-state kr (brine/dodecane) was measured on the CAL-X high-throughput platform with X-ray radiography giving 2D saturation maps, for a water-wet reference, a statically aged core (3 weeks, 80°C) and a dynamically aged core (1 week flooding, 80°C). Static aging raised krwm from 0.10 to 0.26 and reduced Sorw from 0.43 to 0.25, with a kro curve of greater Corey exponent. Dynamic aging inverted the kr asymmetry (krom 0.20 vs krwm 0.37) and lowered Sorw to 0.20, indicating strongly oil-wet behaviour. 2D maps showed homogeneous flow in the dynamically aged core but heterogeneous flow paths in the statically aged one, with a more altered rim and a more water-wet centre, pointing to a patchy mixed-wet state.
+
+## The Influence of Porosity, Permeability, Tortuosity, Wettability and Mercury Porosimetry Properties on Limestone Waterflood Residual Oil Saturation
+
+- ID: SCA1993-09, year: 1993
+- Authors: Olubunmi O. Owolabi, Robert W. Watson, The Pennsylvania
+- Method: data analysis or correlation
+- Keywords: residual oil saturation, Indiana limestone, mercury porosimetry, Amott-Harvey wettability index, tortuosity, multiple regression model
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-09)
+
+Waterfloods on 16 Indiana limestone cores, with Amott-Harvey wettability and mercury porosimetry on 512 plugs, yield regression models predicting residual oil saturation at breakthrough and floodout.
+
+The study relates limestone rock and pore properties to waterflood residual oil saturation. Sixteen Indiana limestone cores (40–45.7 cm long) were flooded with oil and brine at a scaling coefficient near 5.0, 35°C and 500 psig overburden. Thirty-two plugs per core (512 total) were then tested for Amott-Harvey wettability and mercury porosimetry. All cores were water-wet, had bimodal gently sloping capillary pressure curves, and showed mercury recovery efficiency inversely related to average pore diameter. Wettability index correlated directly with floodout residual oil saturation. Multiple regression gave models for residual oil saturation at breakthrough (R² 90.4%) and at floodout (R² 94.4%) using porosity, permeability, tortuosity, formation factor, irreducible water saturation, wettability and porosimetry variables.
+
+## Effects of Using Live Versus Dead Crude Oils on Unsteady-State Water/Oil Relative Permeabilities
+
+- ID: SCA1993-26, year: 1993
+- Authors: G. M. Narahara, T. H. Blackshear Jr
+- Method: laboratory experiment
+- Keywords: live versus dead oil, unsteady-state waterflood, JBN relative permeability, brine elution, preserved cores, wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-26)
+
+Unsteady-state waterfloods with live and dead crude oils on preserved cores and Berea showed no consistent relative permeability difference where saturation ranges overlapped; Berea results were irreproducible.
+
+The study asks whether relative permeabilities measured with dead (de-gassed) crude oil differ from those with live oil, since live-oil testing is costly. Unsteady-state waterfloods were run on composite cores for three crude oil systems: North Sea A (preserved core, 34° API), a French reservoir (preserved core, 37° API), and North Sea B (aged Berea, 23° API). Each composite was flooded with live oil and then dead oil, or in reverse order, at reservoir temperature and pressure. Saturations were checked by brine elution and vacuum distillation, and relative permeabilities were computed with the JBN method. Dead oil gave earlier breakthrough and a broader saturation range because of its higher viscosity. Where the curves overlapped, no consistent live-versus-dead difference appeared in the preserved cores; differences tracked initial water saturation (3-4% HCV spread after normalization). The Berea/North Sea B tests were not reproducible, probably because of unstable wettability and viscous fingering, so no conclusion was possible for that case.
+
+## Effect of Procedure on Wettability Index to Water
+
+- ID: SCA1994-22, year: 1994
+- Authors: L. Bouvier, S. Maquignon
+- Method: laboratory experiment
+- Keywords: wettability index to water, Amott-Cuiec test, initial water saturation, spontaneous imbibition, limestone reservoir, centrifuge
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-22)
+
+Iw measured on limestone samples from water, transition and oil zones varies with how Swi is established; Iw falls as Swi rises, though samples remain distinguishable.
+
+The paper examines how test procedure affects the Cuiec/Amott-type wettability index to water (Iw) in a limestone reservoir. Nine preserved plugs from water, transition and oil zones were tested, along with cleaned twin samples, with Swi set by flushing, centrifugation or porous plate, using dead crude and refined oil. Preserved samples showed Iw above 0.9 near the water-oil contact, decreasing upward, but Iw shifted to lower values for centrifuged and porous-plate samples. Wettability alteration was ruled out, since refined-oil samples behaved the same; instead Iw decreases as Swi increases (e.g. type I water-zone Iw from 0.98 at Swi 14% to 0.62 at 50%), because Sor and spontaneously imbibed water both decline. Absolute Iw is therefore not significant alone, but remains a good comparative index when Swi values are similar, and low Swi best reveals water-wetness.
+
+## Integration of Core, Log, and Test Data for Saturation Modeling
+
+- ID: SCA1998-01, year: 1998
+- Authors: J. Gidman
+- Method: field or reservoir case study
+- Keywords: saturation modeling, Swi-Vshale transform, Brooks-Corey capillary pressure, Land trapping constant, residual oil saturation, gravity drainage
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-01)
+
+Two field cases integrate core, log and test data into saturation models, raising OOIP 25% in a mature field and quantifying Swi and Sorw uncertainty in another.
+
+Conventional resistivity analysis gave inconsistent and too-high Sw in thin-bedded, low-salinity sands, and legacy core data were underused. In Case A, a core-log Swi-Vshale transform (CLAWS) built from porous-plate Pc plugs (R²=0.83) plus thin-bed resistivity modeling gave Swi 15-20% lower than log values. OOIP rose 25% (125 MM BBL) and ultimate recovery fell from ~80% to ~65%. Log-derived and corrected PK&S data indicated Sorw of 10-15%, lower than the 23-29% from lab relative permeability and imbibition tests, consistent with mixed-wet gravity drainage. In Case B, a mixed clastic/carbonate field, permeability transforms checked against DSTs, Brooks-Corey Pc parameters and Land's trapping constants from air/oil and water/oil tests were used to build Low, Most Likely and High cases for Swi and movable oil. The uncertainty range was large enough to justify coring more wells and running more advanced SCAL.
+
+## Residual Oil Saturation Dependence on Initial Water Saturation in Clean Water-Wet Sandstone
+
+- ID: SCA1999-12, year: 1999
+- Authors: M. M Honarpour, J. R. Bulau, R. N. Vaidya, P Technical
+- Method: digital rock or imaging
+- Keywords: residual oil saturation, initial water saturation, network modeling, computed microtomography, Land correlation, oil trapping
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-12)
+
+Network modeling on microtomography images and waterflood experiments show an S-shaped Sorw versus Siw relationship in clean water-wet sandstones, differing from Land, Agarwal and Narr-Henderson correlations.
+
+Residual oil after waterflooding depends on initial water saturation, which matters for reserves and for normalizing relative permeability. A pore-level network model was run on 3-D computed microtomography images of seven sandstones (five unconsolidated channel sands, Berea, and a North Sea Triassic sandstone), with four mass-transfer surface placements per sample. Waterflood experiments on unconsolidated deltaic core plugs used oilflood and porous-plate (20 psi) preparation of initial water saturation. Both approaches show an S-shaped trend: Sorw is insensitive to Siw at low Siw, drops sharply at high Siw, and trapping is most sensitive at mid-range saturations. A new correlation was built from the network results and differs significantly from Land, Agarwal and Narr-Henderson; it is explained by reversible interface movements at low saturation and irreversible pore-filling events that trap oil at mid saturations. It is not recommended for microporous or oil-wet rocks.
+
+## Simultaneous Determination of Absolute and Relative Permeabilities
+
+- ID: SCA2000-49, year: 2000
+- Authors: R. Valestrand, K. Kolltveit, J.E. Nordtvedt
+- Method: numerical simulation
+- Keywords: simultaneous estimation, relative permeability, absolute permeability heterogeneity, composite core, history matching, Haar basis
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-49.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-49)
+
+A regression-based history-matching method jointly estimates relative permeability and spatially varying absolute permeability from simulated steady-state data on a composite core, outperforming estimates that use the harmonic mean permeability.
+
+Relative permeability is usually interpreted from flooding data assuming a homogeneous core with one average absolute permeability, which can give large errors in composite cores. The authors present a method that estimates absolute and relative permeability simultaneously. Relative permeabilities are represented by B-splines and the spatially varying absolute permeability by a multi-scale Haar basis, and the two are estimated alternately by nonlinear least squares. Tests used simulated steady-state two-phase data (pressure drop, production, four internal pressure points) with added random error on a composite core with initial water saturation of 10%. Relative permeabilities estimated with the harmonic mean permeability deviated from the true curves and failed the statistical tests. Nine successive estimations gave relative and absolute permeabilities close to the true ones, with acceptable sum of squared residuals, number of runs and narrow 95% confidence intervals.
+
+## New Representative Sample Selection Criteria for Special Core Analysis
+
+- ID: SCA2003-40, year: 2003
+- Authors: Shameem Siddiqui, Taha M. Okasha, James J. Funk, Ahmad M. Al-Harbi
+- Method: review or workflow
+- Keywords: representative sample selection, CT scanning porosity, reservoir quality index, flow zone indicator, Lorenz coefficient, carbonate heterogeneity
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-40)
+
+Proposes a SCAL plug selection workflow combining CT porosity, brine permeability, cumulative RQI zonation, FZI binning and heterogeneity screening, showing sister-plug permeability data can mislead.
+
+SCAL sample selection lacks industry guidelines, and porosity of wettability-preserved plugs cannot be measured routinely. Using a well in an Upper Jurassic carbonate reservoir, about 375 brine-preserved SCAL plugs were CT-scanned to obtain porosity, and brine permeability was measured. Cores were depth-shifted 6.5 ft by gamma scan, and CT porosity agreed well with logs. Normalized cumulative RQI versus depth split the cored section into eight zones, and zones 6 and 8 contributed almost nothing to production. Plugs were screened by CT heterogeneity (max/min CT ratio ≥1.09, mean slice Cv >0.08, porosity ≤5% rejected), leaving 134 plugs grouped into five FZI bins. Lorenz coefficients differed between SCAL plugs (0.57) and conventional sister plugs (0.72), with permeability differing by one to two orders of magnitude, so sister-plug data should be used cautiously.
+
+## Permeability to Residual Water Saturation in Oil Saturated Plugs
+
+- ID: SCA2004-07, year: 2004
+- Authors: W. Hammervold Thomas, G.M.G. Teige, C. Hermanrud, O.B. Wilson, L. Rennan, J.K. Ringen
+- Method: laboratory experiment
+- Keywords: residual water permeability, irreducible water saturation, porous plate drainage, CT scanning, cap rock leakage, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-07)
+
+Water permeability at residual water saturation was measured on oil-saturated sandstone plugs behind a water-wet membrane; it is very low, varies far less than absolute permeability, and flows through few pathways.
+
+The study tests whether residual water in oil-saturated reservoir rock can flow, as relevant to overpressure transfer through hydrocarbon columns. Bentheimer, Berea and a low-permeability North Sea Jurassic sandstone plug were drained to Swi on a Keraflux water-wet membrane, then water was injected at the inlet and flowed through the Swi phase and membrane without oil production. Water permeability at Swi ranged from about 0.02 to 1 µD (Bentheimer about 0.7 µD, reproducible), while absolute permeability ranged from about 0.06 mD to 2 D, a factor of 30,000 versus only about 50 for residual water permeability. Relative permeability to residual water was highest in the low-permeability plug, which had the highest Swi. A CT experiment on Bentheimer showed early breakthrough of injected water after about 1.5% PV, with flow through a few preferred pathways. Uncertainties include Swi estimated from mercury injection, water-wet samples only, and spontaneous imbibition and gravity effects at the inlet.
+
+## Core Based Perspective on Uncertainty in Relative Permeability
+
+- ID: SCA2005-30, year: 2005
+- Authors: Jairam Kamath, Frank Nakagawa, Josephina Schembre, Tom Fate, Padmakar Ayyalasomayajula
+- Method: review or workflow
+- Keywords: relative permeability uncertainty, P10-P50-P90 curves, rate bump end-point tests, capillary end effects, fractional flow theory, experimental design
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-30)
+
+Presents a Chevron framework classifying relative permeability uncertainty as geological, process and subjective, using fractional flow theory and end-point bump tests to generate P10-50-90 curves.
+
+Reservoir simulation increasingly needs P10/50/90 relative permeability, but SCAL sample numbers and time are limited. The paper sorts uncertainty into geological (rock-type variability), process (flow rate, wettability, reservoir conditions, scale-up) and subjective categories. Standard tests include ambient-condition, mobility-matched water-oil end-point tests with rate bumps, high-rate unsteady-state viscous-oil tests for curve shape, and steady-state gas-oil tests. Rate bumps change Krw@Sorw strongly, and in unconsolidated sands with oil-wet end screens this is due to capillary end effects, so high-rate data are most representative. Fractional flow theory (So versus PVI) shows where core floods give useful information, and it is used with end-point and curve-shape ranges to select P10-50-90 curves. A 50-50 split of resources between geological variability and process tests is recommended.
+
+## Acceptable Water-Oil and Gas-Oil Relative Permeability Measurements for Use in Reservoir Simulation Models
+
+- ID: SCA2007_11, year: 2007
+- Authors: Zubair Kalam, Tawfiq Obeida, Abdurrahman Al, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: steady state relative permeability, unsteady state waterflood, in-situ saturation monitoring, gas-oil relative permeability, reservoir condition coreflood, carbonate composite core
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_11)
+
+Steady and unsteady state water-oil and ambient versus reservoir-condition gas-oil relative permeability tests on a carbonate composite agree well when simulated; new data improve field model water production match.
+
+The paper addresses uncertainty in relative permeability for a low-permeability (1-7 mD) carbonate reservoir whose legacy SCAL was ambient, limited and unmonitored. Five-plug composites (26.8 cm) were aged with live oil at about 300 barg and 121°C, and steady-state and unsteady-state water floods were run on the same composite with in-situ saturation monitoring and coreflood simulation (dyrectSCAL) beyond JBN. USS and SS gave very similar results; residual oil was about 11-14.5% PV, and SS end saturation was within about 2.3% of USS, while SS covered a wider saturation range. Gas-oil tests at ambient and bubble-point conditions (2,185 psig) showed reservoir-condition tests give more favorable Kro and Krg, and simulation showed oil production continuing to about 200 PV where JBN suggested none beyond 5-6 PV. Using the new SCAL data in the field model reduced predicted water production and brought it closer to observed values.
+
+## Application of Environmentally Friendly Scale Inhibitors in Carbonate Coreflooding Experiments
+
+- ID: SCA2008-05, year: 2008
+- Authors: N. Poisson
+- Method: laboratory experiment
+- Keywords: green scale inhibitor, polyaspartate, carboxy methyl inulin, DETPMP phosphonate, squeeze lifetime, Portland limestone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-05)
+
+Four corefloods on Portland limestone compare green scale inhibitors CMI and polyaspartate with phosphonate DETPMP; PASP retention and squeeze lifetime approach DETPMP and exceed CMI.
+
+Environmental regulations restrict phosphonate scale inhibitors, so the authors tested two green alternatives, carboxy methyl inulin (CMI) and polyaspartate (PASP), against DETPMP. Four single-phase corefloods (P1 DETPMP, P2 and P3 CMI, P4 PASP) were run on Portland oolitic limestone (porosity 19.8%, k about 600-700 mD) in Hassler cells, with lithium tracer, shut-in and seawater postflush. CMI showed little retention (2.72% and 4.80% retained) and dropped to 1 ppm within about 100-127 PV, versus 21.33% retained and about 530 PV for DETPMP. PASP retained 2.47 mg/g (DETPMP 2.71 mg/g), returned 83.3% and reached 1 ppm after about 550 PV. Post-treatment permeability rose 10-24%, and Ca and Mg effluent profiles reflected rock dissolution. The Hyamine analysis method is slow and inaccurate at low concentrations, and needs replacing.
+
+## Building Analog Confidence for Relative Permeability Through Systematic Approach Across Major Middle Eastern Carbonate Fields
+
+- ID: SCA2014-033, year: 2014
+- Authors: Maged Yaslam, Zubair Kalam, Abu Dhabi
+- Method: data analysis or correlation
+- Keywords: relative permeability analog, reservoir quality index, MICP pore throat distribution, carbonate wettability, reservoir rock types, blind test
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-033)
+
+Forty-six full-reservoir-condition water-oil kr profiles from four carbonate fields are grouped by permeability, RQI and pore throat size into analogs; low-quality rocks group tightly, high-quality ones vary widely.
+
+Reliable relative permeability data are slow and costly to obtain, so analogs are used for exploration and undeveloped fields, but their validity in heterogeneous carbonates is uncertain. The authors reviewed 46 water-oil kr profiles (steady-state and unsteady-state, live fluids, full reservoir conditions) from four carbonate fields of the same formation, spanning 0.1 to 1000 mD. Profiles were normalized and grouped by absolute permeability, reservoir quality index (RQI) and MICP pore throat size distribution, then checked with blind tests. Low-permeability rocks (0.1-1 mD, RQI 0.047-0.07) had unimodal pore throats of 0.5 to under 1 micron, water-wet behavior and tightly clustered profiles. Rocks with RQI above 0.4 were bimodal or trimodal with throats near 5 microns, more oil-wet, and showed wide kr variation and high analog uncertainty. The resulting catalogue is proposed for initial kr inputs and SCAL quality assurance, with P10/P50/P90 cases covering uncertainty.
+
+## Experimental Investigation of Factors Affecting Laboratory Measured Relative Permeability Curves and EOR
+
+- ID: SCA2017-052, year: 2017
+- Authors: Sami M. Aboujafar
+- Method: laboratory experiment
+- Keywords: relative permeability, history matching, residual oil saturation, wettability USBM Amott-Harvey, oil viscosity, low salinity waterflood
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-052.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-052)
+
+Core-flood and centrifuge tests on sandstone and carbonate cores, history matched, show oil viscosity, salinity, temperature and wettability control residual oil saturation, water relative permeability and fractional flow.
+
+The paper examines how fluid properties, rock type, wettability and measurement conditions affect water-oil relative permeability, residual oil and waterflood recovery. Core-flood and centrifuge tests were run on sandstone and carbonate cores (porosity 5-34%, air permeability 0.23-551 mD) with about eleven oils (1 to >30 cp) and fourteen brines (8,000-230,000 ppm). Curves were derived by history matching with a 1D simulator using Corey and LET correlations, and wettability was measured by USBM and Amott-Harvey. Residual oil rises and Krw@Sor falls as oil viscosity and viscosity ratio increase, and Sor is lowest near neutral wettability and high at strongly water-wet conditions. Low salinity brine generally lowered Sor, temperature effects on fractional flow were inconsistent, and laboratory Sor was higher than history-matched values.
+
+## Improved method for complete gas-brine imbibition relative permeability curves
+
+- ID: SCA2019-006, year: 2019
+- Authors: M. Ben Clennell, Cameron White, Ausama Giwelli, Matt Myers, Lionel Esteban, Michael Cullingford, William Richardson, Gavin Ward, Matt Waugh, Scott Cole, Ashley Hunt, Peter Bright
+- Method: measurement technique or apparatus
+- Keywords: gas-brine imbibition, relative permeability, LET function, X-ray CT saturation, brine banking, steady-state co-current flow
+- Cited by 0 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-006.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-006)
+
+A pre-equilibration blotting method fills the low-Sw gap in gas-brine imbibition relative permeability, revealing convex-up or S-shaped gas curves rather than concave-up Corey shapes.
+
+Standard co-current gas-brine imbibition tests cause brine banking at the inlet, leaving a data gap between Swirr and Sw of about 40-50%. The authors pre-condition brine saturation outside the rig by blotting with tissue in 5-10% Sw increments, verified by NMR profiling. They then ran gas-only multi-rate flows at low Sw and co-current steady-state flows at higher Sw in an X-ray CT monitored rig (500 psi pore, 2500 psi confining, N2 and NaI brine). Five NW Shelf sandstones (9.4-670 mD, 17-23% porosity) and Berea (665 mD) gave convex-up or sigmoidal gas relative permeability curves fitted with LET, while brine curves followed Corey. In S22B, a single blotted point at Sw about 23% lay well above the Corey fit, and the banked point had krg of only 2.2 mD versus 7.6 mD at uniform Sw=53%. Results imply higher gas rates during early water ingress than Corey-based curves predict, for water-wet, low capillary number conditions.
+
+## A Fast and Direct RCAL Methods on as-Received Brazilian Pre-Salt Carbonates Cores
+
+- ID: SCA2019-079, year: 2019
+- Authors: Leonardo Goncalves, Plinio Cancio Rocha Da Silva Junior, Glenio Rosinski Ribeiro, Bernardo Coutinho Camilo Dos Santos, Willian Andrighetto Trevizan
+- Method: laboratory experiment
+- Keywords: as-received cores, low-field NMR porosity, probe permeametry, Pre-Salt carbonates, routine core analysis, oil-base mud
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-079.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-079)
+
+Fast porosity (NMR) and probe permeability measurements on uncleaned Pre-Salt carbonate cores agree with standard results within about 2 p.u. and the same order of magnitude.
+
+Cleaning mixed-wet and oil-wet Brazilian Pre-Salt carbonate cores can take months, delaying routine core analysis results needed for early decisions. The authors tested a fast method on a few hundred oil-base-mud cores kept as-received. Total porosity was measured by low-field NMR after re-saturating with filtrate-equivalent fluid, and absolute permeability with a steady-state gas probe permeameter. Samples were then cleaned and measured by standard methods for comparison. Porosity deviations generally did not exceed 2 p.u., and permeabilities mostly agreed within the same order of magnitude, despite fluid presence and no confining pressure. Turnaround falls from months to days, and probe permeametry also helps assess heterogeneity.
+
+## Pore-scale comparisons of primary drainage techniques on non-water-wet reservoir rocks
+
+- ID: SCA2023-013, year: 2023
+- Authors: Fabrice Pairoys, Victor Fernandes, Cyril Caubit
+- Method: digital rock or imaging
+- Keywords: primary drainage, porous plate, oil flooding, X-ray microtomography, initial water saturation, pore occupancy
+- Cited by 0 papers in the corpus, cites 9
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-013.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-013)
+
+3D X-ray microtomography compares porous plate and oil flooding primary drainage on two non-water-wet reservoir rocks; porous plate gives lower Swi and less brine trapping in macropores.
+
+Initial water saturation methods are well studied on water-wet rocks, but less so on reservoir rocks that remain non-water-wet after cleaning. Four mini-plugs were drained with Marcol52 oil against NaI-doped brine: three from a quartz-rich sandstone (rock A) and one from a dolomite (rock B). Oil flooding and porous plate drainage were imaged at 2–5 µm voxel size, using differential imaging to separate macropore and sub-resolved porosity saturation. Rock A reached very low Swi with both methods and showed water-wet-like pore occupancy, with most brine held in water-wet sub-porosity. Rock B showed substantial brine trapping in macropores during oil flooding, while the porous plate at the same inlet pressures gave a Swi about 10 saturation units lower and water-wet-like occupancy. The difference is attributed to pressure build-up at the saturation front and to re-injection of fluid from diffuser dead volumes after flow reversal; oil permeability dropped about 9% after reversal.
+
+## An integrated SCAL study for estimating wettability and relative permeability
+
+- ID: SCA2023-020, year: 2023
+- Authors: Andrew Fogden, Egil Boye Petersen
+- Method: review or workflow
+- Keywords: wettability restoration, core cleaning, NMR wettability index, Amott-USBM, digital rock pore-scale simulation, LET relative permeability
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-020)
+
+Combines steady-state floods, cleaning tests, NMR and Amott-USBM wettability, digital rock simulation and analogue-based LET modelling to estimate wettability and relative permeability for a North Sea sandstone.
+
+Initial steady-state floods on North Sea Synrift sandstone gave high Sor (0.37) and very low Krw (0.065), inconsistent with the measured neutral-to-water-wet state, prompting a cleaning study. Twin plugs showed that harsh Soxhlet cleaning raised permeability 2-3 times and shifted wettability from oil-wet (Amott-Harvey about -0.6) to weakly water-wet (about 0.06), extracting heavy components absent from the stock tank oil. After harsh cleaning and aging in crude, NMR wettability index (-0.31), Amott-Harvey (-0.27) and USBM (-0.20) agreed, indicating neutral to weakly oil-wet. Micro-CT and SEM-EDS digital rock on two sub-plugs reproduced porosity and permeability; contact-angle scenarios of 140-155° gave upscaled Sor of 0.27-0.17 and Krw(Sor) of 0.31-0.59. An LET trend model tuned to analogue data and experiments agreed reasonably with the experimental and digital rock curves, with the steady-state water curve falling outside the uncertainty band.
+
+## The Effect of Wettability and Relative Permeability Hysteresis On Fluid Displacement in Transition Zone
+
+- ID: SCA2023-040, year: 2023
+- Authors: A. Tawfic
+- Method: numerical simulation
+- Keywords: transition zone, relative permeability hysteresis, scanning curves, Land correlation, wettability, imbibition capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-040)
+
+Generates scanning relative permeability and capillary pressure curves from limited Sor-Soi data and shows in 1-D simulation that wettability and hysteresis significantly change transition-zone displacement.
+
+Thick transition zones need imbibition saturation functions, but SCAL data are often scarce. Using published waterflood data on ten Portland limestone cores (four water-wet, Iw>0.9; six oil-wet, Iw near 0), a Land-type Sor versus Soi relationship was fitted for each wettability (R²>0.9). Corey and Bentsen equations were then used to generate oil relative permeability and imbibition capillary pressure scanning curves. A 20-cell 1-D black-oil model of a ~100 ft transition zone compared four cases (water-wet or oil-wet, with or without scanning curves). Wettability produced about 16% difference in displacement efficiency and scanning curves 9–11% more oil recovery; oil-wet cases gave more oil, lower water cut and lower Sor at the producer (32% vs 42%).
+
+## A Versatile Workflow of Pore Geometry-Structure Rock Typing and Corey Parameter-Based Relative Permeability Trend Modeling
+
+- ID: SCA2024_1026, year: 2024
+- Authors: Muhammad Nur Ali Akbar, Ardian Pradhana Putra, Matthew Guy Reppert
+- Method: review or workflow
+- Keywords: pore geometry-structure rock typing, Corey relative permeability, SCAL trend modeling, initial water saturation, wettability, recovery factor uncertainty
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1026)
+
+Combines pore geometry-structure rock typing with Corey-parameter trend models of relative permeability for a Norwegian field, narrowing simulated recovery factor uncertainty from 16% to 7%.
+
+The paper addresses how to integrate SCAL relative permeability into rock typing for full-field simulation. Core data (1,242 of 1,477 RCA samples, plus 21 SCAL samples) were grouped into 11 rock types by pore geometry-structure curves based on the Kozeny relation, then generalized into 6 groups. Corey parameters (Sorw, krw endpoint, no, nw) were extracted from simulated SCAL experiments and fitted with trend models as functions of Swi, with base, optimistic and pessimistic bounds per rock group. Swi in the groups ranged from 0.20 to 0.63, with base no falling from 5.58 to 2.44 and nw rising from 4.43 to 6.50. In a 3.8-million-cell dynamic model, the recovery factor uncertainty range narrowed from 29-45% to 34-41%.
+
+## A Review of Primary Drainage Techniques
+
+- ID: SCA2024_1054, year: 2024
+- Authors: Victor Fernandes, Benjamin Nicot, Fabrice Pairoys, Franck Nono, Henri Bertin, Jean Lachaud, Cyril Caubit
+- Method: review or workflow
+- Keywords: primary drainage, initial water saturation, capillary end-effects, porous plate, centrifugation, Hybrid Drainage Technique
+- Cited by 0 papers in the corpus, cites 17
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1054)
+
+Reviews viscous oil flood, centrifuge, porous plate and hybrid primary drainage techniques, concluding that only the Hybrid Drainage Technique gives homogeneous Swi without flow reversal or sample unloading.
+
+Primary drainage in SCAL both yields petrophysical properties (Pc, resistivity index, drainage Kr) and sets initial water saturation for restored-state recovery tests, but these goals often conflict. The paper reviews viscous oil flood, centrifugation and porous plate methods, including their capillary end-effects, flow-reversal artifacts, long durations and sample-unloading requirements. It also covers measurement add-ons such as semi-dynamic Pc, MRI-centrifuge RI, the continuous injection and FRIM methods, and the Toroidal and Spinning Porous Plates. Porous plate is deemed the reference for establishing Swi but is slow and requires unloading. The authors conclude that the Hybrid Drainage Technique, which couples viscous flood with a perforated porous plate, is the only method giving a homogeneous profile at target Swi without flow reversal or unloading.
+
+## SCAL Workflow for Heterogeneous Pre-salt Carbonate Rocks
+
+- ID: SCA_2025_1027, year: 2025
+- Authors: Ying Gao, Tibi Sorop, Hilbert van der Linde, Fons Marcelis, Niels Brussee, Santiago Drexler, Yingxue Wang
+- Method: review or workflow
+- Keywords: pre-salt carbonates, in-situ saturation monitoring, steady-state coreflood, solid hydrocarbons, solvent cleaning, imbibition capillary pressure
+- Cited by 0 papers in the corpus, cites 9
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1027)
+
+An integrated SCAL workflow for heterogeneous pre-salt carbonates with solid hydrocarbons, using cyclohexane cleaning, in-situ saturation monitoring and history matching, finds non-water-wet behaviour and steady-state floods more robust.
+
+Pre-salt carbonates are heterogeneous at plug scale, contain solid hydrocarbons and carry light-component-rich fluids, which complicates SCAL. Shell describes an integrated workflow: plug selection by medical and micro-CT, a solvent cleaning study (toluene, chloroform, THF, methanol, cyclohexane) on mini-samples, porous plate drainage over 9-12 months, and wettability screening by Amott gas/brine imbibition. Unsteady-state water/gas and steady-state water/oil corefloods with X-ray ISSM, plus multi-speed centrifuge imbibition Pc, were history matched with a 1D MoReS model. Cyclohexane was the least aggressive solvent and left solid hydrocarbons intact, while methanol cracked them. Samples were non-water-wet: gas saturation stayed at 0.7-0.8 after a month of imbibition, bump floods gave extra production, and Pc end effects were seen. Saturation fluctuations from heterogeneity were larger at low Sw and in USS tests than in SS tests, so end points were more robust than mid-range relative permeabilities.
+
+## Characterization of Uncertainty Sources of Special Core Analysis
+
+- ID: SCA_2025_1100, year: 2025
+- Authors: André Luiz Martins Compan, Caroline Henrique Dias, Rodrigo Surmas, Flavia Barros de Andrade
+- Method: theory or analytical model
+- Keywords: uncertainty propagation, Monte Carlo MCMC, dead volumes, Klinkenberg correction, relative permeability, centrifuge capillary pressure
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1100.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1100)
+
+Catalogs uncertainty sources in routine and special core analysis and proposes analytical and numerical (MCMC) propagation frameworks, with sensitivity examples for permeability and saturation uncertainty.
+
+The paper addresses the many sources of uncertainty in routine and special core analysis, including transducers, sample geometry, dead volumes, Klinkenberg correction, gas-expansion porosity, centrifuge capillary pressure reading and parallax, and relative permeability references. It proposes a Type B analytical approach based on first-order propagation (with covariance for fitted parameters) for absolute permeability, porosity, relative permeability and centrifuge Pc. For transient relative permeability from history matching, it recommends numerical inverse modeling with Levenberg-Marquardt covariance and MCMC credibility intervals. Sensitivity examples show sample geometry (caliper, 3 readings) dominates apparent permeability uncertainty, followed by viscosity. For an unsteady-state test, transducer uncertainty (0.1 psi) becomes important above about 100 mD, and dead volumes increase saturation uncertainty at test start and after each change in saturation direction.

@@ -1,0 +1,460 @@
+# Spontaneous imbibition oil recovery
+
+> 35 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: spontaneous imbibition, oil recovery, initial water, counter-current, face, open, end, saturation, boundary, brine.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Initial Water Saturation and Oil Recovery from Chalk and Sandstone by Spontaneous Imbibition
+
+- ID: SCA1998-14, year: 1998
+- Authors: B. G. Viksund, N. R. Morrow, S. Ma, W. Wang, A. Graue
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, initial water saturation, chalk, Berea sandstone, dimensionless time scaling, oil recovery
+- Cited by 8 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-14)
+
+Spontaneous imbibition tests on Berea sandstone and several chalks show initial water saturation strongly lowers chalk recovery, barely affects Berea recovery, and shifts scaled imbibition rate differently in each.
+
+Spontaneous imbibition drives recovery in fractured reservoirs, but the effect of initial water saturation (Swi) was little studied for chalk. The authors ran 59 imbibition tests on Berea sandstone and Rørdal, Seaton (low and high porosity), Stevns and other chalks, with Swi from 0 to about 51% set by drying, porous plate, oilflood, evaporation or adsorption. Rates were scaled with a modified Mattax-Kyte dimensionless time and compared with a zero-Swi reference curve. Berea final recovery varied only a few percent (about 52-56% OOIP), while Rørdal recovery fell from 67% to 30% as Swi rose from 7.5 to 51%. Chalk imbibition rate increased with Swi up to about 34% then decreased, whereas Berea rate fell, reached a minimum at 6-15% and rose again above 15%. These trends are attributed to the balance between falling capillary pressure and rising water mobility, with water relative permeability higher in chalk than in Berea.
+
+## Enhanced Oil Recovery by Dilution of Injection Brine: Further Interpretation of Experimental Results
+
+- ID: SCA2001-13, year: 2001
+- Authors: Jos G. Maas, Krijn Wit, Norman R. Morrow
+- Method: numerical simulation
+- Keywords: low salinity waterflooding, brine dilution, history matching, water relative permeability, spontaneous imbibition, Buckley-Leverett
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-13)
+
+History matching of Berea core imbibition and waterflood experiments with diluted brine shows dilution mainly lowers water relative permeability endpoint (about 5x); field-scale impact is assessed qualitatively.
+
+Earlier core experiments on Berea with Dagang crude showed that 10- and 100-fold dilution of brine raised oil recovery in spontaneous imbibition and waterflooding, but no pressure data were available for SCAL parameters. The authors history-matched these experiments with Shell's MoReS simulator in 1-D. Spontaneous imbibition required a small positive capillary pressure (about 0.2-0.4 kPa) over a wide saturation range, with the zero-crossing shifting to higher water saturation on dilution. Waterflood breakthrough delay (0.3 to 0.4-0.5 PV) could only be matched by cutting the water relative permeability endpoint from about 0.2 to 0.05, while effects on Sor (<5% PV) and kro (factor <2) were small. Buckley-Leverett analysis suggests delayed breakthrough and accelerated production in virgin reservoirs, with smaller benefits in dipping reservoirs and brown fields; 2-D scouting simulations and SCAL measurements are recommended.
+
+## The Effect of Fluid Viscosities on Counter-Current Spontaneous Imbibition
+
+- ID: SCA2004-11, year: 2004
+- Authors: D. Ruth, G. Mason
+- Method: theory or analytical model
+- Keywords: counter-current spontaneous imbibition, viscosity scaling, mobility ratio, Corey relative permeability, analytical solution, Berea sandstone
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-11)
+
+Using an approximate analytical solution, the paper tests viscosity scaling of counter-current imbibition and proposes an empirical correlation that fits Berea sandstone over all viscosity combinations.
+
+Existing scaling of counter-current spontaneous imbibition uses the square root of the viscosity product, which degrades when viscosities diverge and lacks a mechanistic basis. The authors use an approximate self-similar analytical solution with Corey relative permeabilities and a logarithmic capillary pressure, parameterized for Berea sandstone (K=1.064 D, porosity 0.219). Non-wetting viscosity was varied from 0.001 to 10000 cp with wetting viscosity of 1 and 10 cp. The analytical time-scale factor agrees well with numerical simulation, except at very high displaced-phase viscosity. The square-root model holds over about three orders of magnitude around unit mobility ratio, a tube-bundle model gives the right trend but poor agreement, and a modified form with exponent m=3 matched to the mobility-ratio limits fits all data without matching at any point.
+
+## Scaling of Viscosity Ratio for Oil Recovery by Imbibition from Mixed-Wet Rocks
+
+- ID: SCA2001-21, year: 2001
+- Authors: Zhengxin Tong, Xina Xie, Norman R. Morrow Chemical
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, mixed wettability, viscosity ratio scaling, dimensionless time, initial water saturation, decalin flush
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-21)
+
+Spontaneous imbibition into mixed-wet Berea sandstone with mineral oils of 3.8–180 cp is correlated by the geometric mean of oil and water viscosities, despite much slower rates than water-wet.
+
+Scaling of imbibition recovery for viscosity ratio had been established for very strongly water-wet rocks but not for mixed-wet conditions. Berea sandstone cores (~80–106 md, 18.5% porosity) were aged in asphaltic Alaska 95 crude at 75 or 95°C, flushed with 5–20 PV decalin, then with mineral oils of 3.8–180 cp, and tested by spontaneous imbibition of brine. Mixed-wet imbibition was orders of magnitude slower than very strongly water-wet, and water-wetness decreased as initial water saturation (11–28%) decreased and increased with decalin flush volume. Duplicate cores gave reproducible results. With Swi held near 21%, recovery curves for different oil viscosities collapsed using dimensionless time with the geometric mean viscosity. Berea 90 also showed lower VSWW recovery (~47%) and longer dimensionless times than higher-permeability Berea.
+
+## A Numerical Study of the Influence of Sample Shape on Spontaneous Imbibition
+
+- ID: SCA2003-16, year: 2003
+- Authors: Douglas Ruth, Geoffrey Mason, Norman Morrow
+- Method: numerical simulation
+- Keywords: spontaneous imbibition, scaling characteristic length, sample shape, annular-radial geometry, finite-difference simulation, counter-current imbibition
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-16)
+
+Finite-difference simulations of counter-current imbibition show sample shape changes curve shape for annular and hollow-spherical samples with one face open; a volume-weighted characteristic length correlates results well.
+
+The study examines how sample geometry affects spontaneous imbibition recovery curves in a water-wet, Berea-like system (k = 600 mD, porosity 0.215). An explicit finite-difference simulator with 298 grid blocks was extended from linear to radial, spherical, annular-radial and hollow-spherical geometries, with inner, outer or both faces open and aspect ratios from 0 to 0.8. Linear, radial and spherical solid shapes give essentially the same curve shape, though rates differ by factors of about 22 to 27. Annular and hollow-spherical samples with only one face open show systematic shape differences, largest at small aspect ratio and vanishing as the ratio approaches one. With both faces open, curves are nearly identical to the linear case. The Ma et al. characteristic length works within experimental error, but a new scale factor weighting distance from the open face by local volume correlates the simulations more closely, except for inner-open cases at the lowest aspect ratios.
+
+## Wettability Alteration by Spontaneous Imbibition of Sulphate-Containing Water into Chalk Cores with Different Boundary Conditions
+
+- ID: SCA2008-42, year: 2008
+- Authors: Liping Yu, Steinar Evje, Ingebret Fjelde, Svein M. Skjaeveland
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, chalk, sulphate seawater, boundary conditions, wettability alteration, countercurrent flow
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-42)
+
+Spontaneous imbibition of sulphate-containing seawater into Stevns Klint chalk with top, bottom or both ends open shows boundary conditions and gravity affect recovery; 1D simulation supports this.
+
+Seawater spontaneous imbibition studies in chalk usually leave all core surfaces open, so the effect of boundary conditions was unclear. Eleven Stevns Klint chalk plugs, aged in crude oil-based fluids, were sealed with epoxy to leave the top, bottom or both ends open. Imbibition of synthetic seawater (SSW) and Ekofisk formation brine was tested at 50, 70 and 130°C. With both ends open, top-end recovery exceeded bottom-end recovery, and the gap fell from about 15% to 7% as core length dropped from 7 to 4 cm, showing the role of gravity. SSW gave higher recovery than formation brine, and SSW as initial water raised recovery (about 10% to 25% top open; 12% to 27% bottom open). Lower Swi gave lower recovery (11% at 9.1% vs 16% at 25.6%). A 1D model with dynamic wettability change predicted lower recovery for bottom-end-open than top-end-open, but experiments with one end open gave no consistent trend.
+
+## A Mechanism Study of Co-Current and Counter-Current Imbibition Using New Magnetic Resonance Techniques
+
+- ID: SCA2005-38, year: 2005
+- Authors: Quan Chena, Karl E. Butlerb, Murray K. Gingrasc, Bruce J. Balcoma
+- Method: measurement technique or apparatus
+- Keywords: DDIF, Conical-SPRITE MRI, spontaneous imbibition, pore size distribution, trapped gas, Berea sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-38)
+
+DDIF pore-size spectra and Conical-SPRITE imaging of Berea sandstone show piston-like co-current imbibition versus film-flow and thickening in counter-current imbibition, with trapped air in pores.
+
+The pore-level mechanisms of co-current and counter-current spontaneous imbibition are not directly proven. The authors combined DDIF, which gives water-filled pore-size distributions in partially saturated rock, with 3D Conical-SPRITE imaging of saturation in a Berea sandstone (19% porosity, 0.2 D) at 2.4 T. DDIF gave a dominant pore size near 70 µm, against a mercury throat peak near 15 µm. In co-current imbibition the DDIF spectra kept the same shape at 35.5% and 57.9% saturation, and images showed a rectangular, piston-like front. In counter-current imbibition, pores were poorly filled while throats filled early (26.3% saturation after 8 s). Images showed uniform saturation behind merged fronts, consistent with film thickening, and equilibrium was reached near 56% saturation with air trapped in pore centers.
+
+## In-Situ Saturation Development During Spontaneous Imbibition
+
+- ID: SCA1999-22, year: 1999
+- Authors: B. A. Baldwin, E. A. Spinler
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, MRI saturation profiles, initial water saturation, chalk, water films, Amott wettability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-22)
+
+MRI monitoring of spontaneous water imbibition in chalk plugs shows sharp fronts at zero initial water saturation but uniform saturation change at high initial water, suggesting water-film thickening.
+
+The paper uses MRI (Varian 2T, ~300-350 µm pixels) to image in-situ decane saturation during spontaneous imbibition of D2O into one-inch reservoir chalk plugs. Initial water saturations of 0, 15, 22 and 33%PV were tested on a highly water-wet plug, plus a less water-wet plug (Amott 0.5) at 15%PV. At Swi=0 a steep front (gradient 2.2 fractional saturation/cm) formed, with no further oil production behind it, and water took about 1.25 hr to reach the plug center. As Swi increased the gradient fell (1.5, 1.0, then 0.1-0.7) and time to reach the center dropped; at 33% in the water-wet plug and 15% in the less water-wet plug no front appeared. The authors propose two mechanisms: bulk displacement and a long-range process such as thickening of water films. Average saturation curves resembled standard imbibition tests and final water saturation was independent of Swi.
+
+## Magnetic Resonance Imaging of Oil Recovery During Spontaneous Imbibition from Cores with Two-Ends Open Boundary Condition
+
+- ID: SCA2011-24, year: 2011
+- Authors: S. Wickramathilaka, J.J. Howard, J.C. Stevens, N.R. Morrow, G. Mason, A. Graue, M.A. Fernø
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, two-ends-open boundary condition, MRI saturation profiles, characteristic length, asymmetric oil production, very strongly water-wet
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-24)
+
+Oil production from the two open ends of TEO chalk and limestone cores was asymmetric, and MRI showed piston-like fronts starting from the same end regardless of gravity.
+
+Two-Ends-Open spontaneous imbibition often scales poorly with characteristic length, so oil production was measured separately from each end face of 13 chalk cores. Production was frequently asymmetric, with up to about 85% from one face, independent of initial water and unrelated to total production rate. MRI (2 T, 0.8 mm³ resolution) of Whitestone UZ limestone saturated with n-decane and imbibing D2O brine showed sharp piston-like fronts. In vertical TEO tests the front started from the same end face when the core was inverted, with oil split 84.4/15.6% and 16/84% between ends. Oil recovery and frontal distance were linear in square root of time. The authors conclude that subtle end-face differences, likely in capillary back pressure, outweigh gravity, and that both co- and counter-current flow occur.
+
+## Effect of Salinity on Oil Recovery by Spontaneous Imbibition
+
+- ID: SCA2010-12, year: 2010
+- Authors: Siluni Wickramathilaka, Norman R. Morrow
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, spontaneous imbibition, mixed wettability, imbibition scaling group, reservoir sandstone, cation exchange capacity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-12)
+
+Spontaneous imbibition tests on limestone, Berea and reservoir sandstone show low salinity brine raises oil recovery in sandstones but not in Edwards limestone.
+
+The study examines how invading brine salinity affects oil recovery by spontaneous imbibition, using 27 tests on Edwards Garden City limestone, Berea sandstone and a siderite-rich reservoir sandstone (RS) with two high-asphaltene crude oils. Edwards limestone, tested both very strongly water-wet with mineral oils and mixed-wet with crude, showed no systematic recovery increase with dilution of seawater. Berea sandstone gave about 8% OOIP more oil with RS low salinity brine than with RS seawater, with little change in imbibition rate. RS cores immersed in low salinity brine recovered 16.7-30.5% OOIP versus 6.2-12.7% for seawater, and switching from seawater to low salinity brine produced additional oil, whereas the reverse did not. Effluent pH fell in all RS tests, conductivity rose with low salinity imbibition, and final recovery correlated with total clay content; post-imbibition low salinity waterflood recovered further oil, correlating with CEC.
+
+## Measurement of Core Properties Using a New Technique – Two Ends Open Spontaneous Imbibition
+
+- ID: SCA2014-006, year: 2014
+- Authors: Martin A. Fernø, Åsmund Haugen, Geoffrey Mason, R. Morrow
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, two ends open, capillary back pressure, co-current and counter-current flow, piston-like displacement, chalk
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-006.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-006)
+
+A two-ends-open imbibition setup with brine at one end and oil at the other, plus piston-like theory, yields relative permeabilities and capillary back pressure in chalk.
+
+Conventional AFO and OEO imbibition give square-root-of-time production, so only one lumped parameter can be extracted. The authors use a two-ends-open geometry with brine at one face and bulk oil at the other, measuring oil production separately at each end and pressure at tappings. Rørdal chalk cores were tested with oil/brine viscosity ratios of 1.3, 76 and 126. Production starts counter-current at the brine face and then becomes co-current; the counter-current share rose from about 4-6% (low viscosity) to 25-33% (high viscosity). A piston-like displacement theory fitted production well after counter-current flow ceased, giving NWP relative permeability behind the front of about 0.8 (137 cP) and 0.5 (83 cP). Capillary back pressure at the brine face was about half the front capillary pressure (for example 80 vs 128 kPa), while pressure predictions fit poorly.
+
+## Numerical Simulation of Combined Co-Current/Counter-Current Spontaneous Imbibition
+
+- ID: SCA2015-002, year: 2015
+- Authors: Douglas W. Ruth, Geoffrey Mason, Martin A. Fernø, Åsmund Haugen, Norman R. Morrow, Rasoul Arabjamaloei
+- Method: numerical simulation
+- Keywords: spontaneous imbibition, co-current counter-current, TEO-free boundary condition, history matching, capillary pressure, piston-like flow
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-002.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-002)
+
+Simulations history-match three published TEO-free spontaneous imbibition experiments with one relative permeability set and fitted capillary pressure curves, largely supporting piston-like flow theory.
+
+The paper simulates combined co- and counter-current spontaneous imbibition with the TEO-free boundary condition, using an explicit upstream-differencing simulator with zero-width boundary cells and 50 grid blocks. Three previously published experiments (samples CHP07, CHP11, CHP25; permeability about 4-5.5 mD, oil/water viscosity ratios from 1.35 to about 125) were history matched using a single relative permeability set and a six-point capillary pressure table as the fitting parameter, with face oil productions as match data. Fitted capillary pressure curves were similar in shape and magnitude across samples, and the unfitted pressure histories were reproduced well, including the pressure spike in CHP07. Saturation profiles showed a frontal displacement with a wedge-shaped region, and front capillary pressures and saturations agreed reasonably with piston-like flow theory, though relative permeabilities at the front differed. Different capillary pressure curves gave comparable errors, and the inlet face saturation was set to the final average saturation, so results need cautious use.
+
+## Quick and Affordable SCAL: Spontaneous Core Analysis
+
+- ID: SCA2015-003, year: 2015
+- Authors: M. A. Fernøa, B. Brattekåsa, G. Masond, N. Morrowd
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, TEO-free boundary condition, capillary back pressure, PET imaging, piston-like displacement, chalk
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-003)
+
+Spontaneous imbibition with a TEO-free boundary, analysed with a piston-like M2HF model and verified by PET imaging, gives brine relative permeability and capillary pressure, including nonzero back pressure.
+
+The paper proposes a quick, low-cost SCAL method based on spontaneous imbibition with the two-ends-open free (TEO-free) boundary, where one core end contacts brine and the other oil. Oil production is measured separately at each end, and pressure is measured along the core. Two epoxy-coated chalk plugs (CHP26, 8.88 cm and CHP27, 11.8 cm) were imbibed with decane, and PET/CT tracked the water front. The front was piston-like and self-similar, and the M2HF model then gave brine relative permeability behind the front of 0.31-0.33 and front capillary pressure of 64-78 kPa. Counter-current production was only 10-11% of the total (recovery 58-61% OOIP). The capillary back pressure at the open face was 22-34 kPa, about 1/3 of the driving pressure, so it cannot be assumed zero.
+
+## Paper - SCA # 9018 Imbibition Flooding with CO2-Enriched Water
+
+- ID: SCA1990-18, year: 1990
+- Authors: S. G. Grape, S. W. Poston, J. S. Osoba
+- Method: laboratory experiment
+- Keywords: carbonated water imbibition, CO2 enhanced oil recovery, fractured reservoirs, capillary retention, limestone dissolution, contact angle
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-18)
+
+Spontaneous imbibition of 1% carbonated water in 1-in. sandstone and limestone cores gives faster, higher oil recovery than brine, by 6-16% OOIP over 72 hours.
+
+Fractured, low-permeability matrix reservoirs leave much oil behind because injected fluids bypass the matrix, so the authors tested carbonated water to improve imbibition rate and recovery. Visual imbibition cells held 1-in. sandstone and limestone cores saturated with 35 API diesel. Cores were soaked 72 hours at 70°F and atmospheric pressure in 20,000 ppm NaCl brine or 1% CO2 water (pH 5). Carbonated water recovered an extra 6% OOIP in a 420 md sandstone, 8% in a 76 md sandstone, 14% in a 29 md limestone and 16% in a 7 md limestone. Limestone dissolved 0.4-0.5% by weight, and oil permeability rose by about 13 md in sandstone and 6 md in limestone. CO2 also reduced capillary retention of oil droplets on the rock face and the contact angle, and depressurization gave solution-gas drive. The Graham and Richardson sqrt(k/φ) correlation held for sandstone but not limestone.
+
+## “Studies of Carbonated Water Imbibition Using MRI”
+
+- ID: SCA1992-21, year: 1992
+- Authors: I. ABSTRACT
+- Method: laboratory experiment
+- Keywords: carbonated water imbibition, MRI saturation profiles, fractured reservoirs, CO2 solution gas drive, oil swelling, spontaneous imbibition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-21)
+
+MRI monitoring of carbonated water imbibition in oil-saturated limestone cores shows CO2 acts near the imbibing face, and blow-down gas drive substantially raises oil recovery.
+
+Oil recovery from low-permeability matrix blocks in fractured reservoirs by spontaneous imbibition is slow, so CO2-enriched water imbibition was tested as an accelerant. One-inch by three-inch limestone cores (22-26% porosity, 7-12 md) were tested in conventional displacement cells at 70-150 °F, and in a fiberglass core holder at 2,000 psi using D2O saturation and MRI with reference samples to normalize signals and map oil saturation. Plain water recovered 15.4, 20.3 and 23.3% OOIP at 70, 110 and 150 °F, while 2.3% carbonated water gave 26.9, 34.6 and 38.0% at 48 hours. MRI showed oil saturation changes concentrated near the imbibing face, and depressurizing below the CO2 mixing pressure drove a localized gas drive that also cleaned oil from the core face. In an Austin Chalk oil test, recovery rose from 7% with water to 24% with carbonated water, and to 31% after two blow-down cycles. Carbonated water also raised permeability by up to 20%, and recovery followed an exponential trend.
+
+## Study of Waterflooding Process in Naturally Fractured Reservoirs from Static and Dynamic Imbibition Experiments
+
+- ID: SCA1999-10, year: 1999
+- Authors: Erwinsyah Putra, Yan Fidra, David S. Schechter
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, fractured Spraberry, matrix capillary pressure, critical injection rate, Amott wettability index, fracture capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-10)
+
+Static and dynamic imbibition experiments on Spraberry and Berea cores, history-matched numerically, give matrix capillary pressures, show weak water-wetness, and yield critical injection rates upscaled to field scale.
+
+Imbibition controls oil recovery in the naturally fractured Spraberry Trend, so matrix-fracture transfer was studied with static and dynamic imbibition tests at 138°F. Spontaneous imbibition on Spraberry plugs followed by forced waterflooding gave an average Amott index of about 0.3, and a 2-D implicit finite-difference model matched recoveries to give a low imbibition capillary pressure, both indicating weakly water-wet rock. Dynamic tests injected brine into artificially fractured Berea (28 md matrix) and Spraberry (0.1 md) cores, and simulator matching produced matrix capillary pressures. Using a fracture capillary number (viscous/capillary), the critical injection rate was found to be 20 cc/hr for Berea, where oil cut stopped improving at higher rates. Upscaling gave 1013 and 1433 STB/D for 40- and 80-acre Berea cases and 393 and 556 STB/D for Spraberry.
+
+## by
+
+- ID: SCA2000-24, year: 2000
+- Authors: Douglas Ruth
+- Method: numerical simulation
+- Keywords: spontaneous imbibition, scaling group, counter-current flow, capillary pressure, relative permeability, initial water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-24)
+
+Simulations of 1D counter-current spontaneous imbibition in water-wet Berea-type cores largely agree with an experimental scaling correlation, including viscosity ratio and initial water saturation effects.
+
+The paper tests a semi-empirical imbibition time-scaling correlation (modified Mattax and Kyte) against a finite-difference simulator of 1D counter-current imbibition, with capillary pressure as the sole driving force. The base case uses Berea-like properties (600 mD, porosity 0.215, 5.08 cm long) with Corey relative permeabilities and a logarithmic capillary pressure curve, history-matched to the correlation. Permeability, porosity, length and interfacial tension scale exactly, and oil viscosity from 0.97 to 156 cp agrees closely. Varying capillary pressure shape, water and oil relative permeability endpoints and exponents changes dimensionless time by less than about an order of magnitude. Initial water saturation of 0 to 30% changes imbibition rate in a manner qualitatively similar to experiments on chalk, and very high viscosity ratios (gas displaced by oil) show trends consistent with experiment.
+
+## Oil Recovery by Spontaneous Imbibition from Weakly Water-Wet Rocks
+
+- ID: SCA2000-26, year: 2000
+- Authors: Xina Xie, Norman R. Morrow
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, weakly water-wet, initial water saturation, dimensionless time scaling, characteristic length, Berea sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-26)
+
+Tests whether a characteristic-length imbibition scaling group works for weakly water-wet Berea cores; initial water saturation dominates rate, and epoxy sealing during aging reduces water-wetness.
+
+The study tests a semi-empirical imbibition scaling group, developed for very strongly water-wet rock, under weakly water-wet conditions. Thirty-two Berea sandstone cores (about 450 md, 20% porosity) of cylindrical, annular and rectangular shape, some partially sealed with epoxy, were set to Swi of 14-31% and aged in Alaska 95 crude at 55°C for 10 days. Spontaneous imbibition of brine at room temperature showed that imbibition times rose by orders of magnitude as Swi decreased. Scaling with the characteristic length Lc correlated cores of different size, shape and boundary conditions well when Swi was held within a narrow range. Cores sealed with epoxy were less water-wet than all-faces-open cores, which an aging test with a separate resin block confirmed. At 20% Swi the 50% recovery time was about 514 times that for very strongly water-wet rock, and gravity could become significant if capillary pressure fell by about three orders of magnitude.
+
+## A Scaling Method for Spontaneous Imbibition in Systems with Different Wettability
+
+- ID: SCA2002-08, year: 2002
+- Authors: Kewen Li, Roland N. Horne
+- Method: theory or analytical model
+- Keywords: spontaneous imbibition, scaling, wettability, dimensionless time, countercurrent imbibition, oil recovery
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-08)
+
+Derives a dimensionless time including relative permeability, capillary pressure and wettability that scales published countercurrent imbibition data at different wettability, and shows recovery is linear in the square root of time.
+
+Existing scaling groups for spontaneous imbibition require identical wettability and relative permeability and capillary pressure functions, so they fail when wettability varies. The authors derive an analytical model from Darcy's law, neglecting gravity, that predicts oil recovery proportional to the square root of imbibition time. From the fitted slope they compute a new dimensionless time that includes viscosity, permeability, porosity, initial water saturation, relative permeability, capillary pressure and wettability. They tested it on published countercurrent imbibition data (Ma et al.) for Alaskan'93 and Lagrave crude oils, with wettability altered by different aging times (fifteen wettability conditions in total). Recovery was linear in the square root of time before the imbibition front reached the no-flow boundary, and the new dimensionless time collapsed the data to a single curve where the conventional group did not.
+
+## Understanding the Lost Hills Waterflood
+
+- ID: SCA2002-15, year: 2002
+- Authors: Dengen Zhou, Jairam Kamath, Francois Friedmann, Mike Morea
+- Method: field or reservoir case study
+- Keywords: spontaneous imbibition, diatomite, CT saturation imaging, waterflood relative permeability, sector simulation, hydraulic fractures
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-15)
+
+CT-monitored imbibition and waterflood tests on diatomite plus sector simulation show Lost Hills waterflood behavior is explained by high-permeability channels, with spontaneous imbibition contributing at most about 20%.
+
+The Lost Hills diatomite waterflood shows early water breakthrough and oil rates independent of water rates, suggesting fracture-dominated flow and possibly spontaneous imbibition. A counter-current imbibition test with CT scanning on a native core (porosity 0.57, Swi 0.51, ko about 0.1 mD) recovered about 50% of mobile oil in about 10 days. A composite-core waterflood (10 cc/day, 1400 psi, about 19.6 days, maximum pressure drop 400 psi) gave relative permeabilities by JBN and history matching, and CT showed fine-scale lamination with preferential flow in some layers. A sector model (204 x 204 x 500 ft) matched oil rate, WOR and tracer data using hydraulic fracture half-lengths (producer under 100 ft, injector over 100 ft) and a low-porosity (0.03) high-permeability channel connecting the fractures. Upscaled imbibition modeling with 20-ft fracture spacing gave a most optimistic contribution of about 20% (about 10 bbl/day) to the oil rate, so imbibition likely plays a small role.
+
+## Investigation of Liquid Imbibition Mechanisms Using NMR
+
+- ID: SCA2003-39, year: 2003
+- Authors: Minghua Ding, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: NMR relaxometry, spontaneous imbibition, T2 cutoff, residual gas saturation, wettability assessment, Li and Horne model
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-39)
+
+On-line NMR monitors co-current spontaneous water and oil imbibition into dry sandstone plugs, showing similar residual gas saturation but different pore-size filling, T2cutoff and rates.
+
+On-line low-field NMR relaxometry was used to monitor co-current spontaneous imbibition of brine and oil (6.6 mPa.s) into five dry Western Canadian sandstone plugs (about 3.8 cm by 5 cm, air permeability 45-608 mD), with air as the non-wetting phase. NMR amplitudes gave liquid and gas saturation versus time and the distribution of liquid between small and large pores. Residual gas saturations from water and oil imbibition were close for most plugs, but T2cutoff differed (plug D: 56 ms for water, 25 ms for oil). Oil barely entered the small pores, whereas water filled small pores first. Subsequent water imbibition after oil showed none in plug A and some in plugs B and D, suggesting plug A is more oil-wet and B and D mixed-wet. The initial imbibition rate depended strongly on air permeability, and rate versus reciprocal recovery followed the Li and Horne model.
+
+## Spontaneous Imbibition in Low Permeability Carbonates
+
+- ID: SCA2003-63, year: 2003
+- Authors: Can Ulas Hatiboglu, Ugur Karaaslan, Serhat Akin, Middle East
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, low permeability carbonates, effective medium approximation, thin section image analysis, coordination number, kriging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-63.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-63)
+
+Gas-water spontaneous imbibition in three low-permeability limestones, with and without alcohol, is modeled using an effective medium approximation fed by thin-section image analysis and kriging; trapped gas is very low.
+
+The study examines spontaneous gas-water imbibition in tight, heterogeneous limestone plugs (2.88 cm long, 1.27 cm radius, from Southeast Turkey) using distilled water and 20% and 40% alcohol solutions to vary interfacial tension. Weight-gain data were scaled with the Ma et al. dimensionless time; repeatability was within 0.5% and trapped gas saturation was very low in all cases. Thin sections from the top, middle and bottom of each plug were imaged to obtain porosity, pore size distribution and circularity, and gaps were filled by 3D kriging. An effective medium approximation with a coordination number z gave effective throat radii and water adsorption coefficients; values for z=6 and 12 matched experiments better than z=2 or 100, indicating 3-D flow. Adding alcohol reduced imbibed water, possibly due to partial wetting. The model worked for samples with varying pore circularity but struggled in the plug with hairline fractures. The abstract states coordination number below six, whereas the conclusions state more than six.
+
+## 1D-Simulation of Countercurrent Imbibition Process in a Water Wet Matrix Block
+
+- ID: SCA2004-52, year: 2004
+- Authors: O. Torsæter
+- Method: numerical simulation
+- Keywords: countercurrent imbibition, IMPES simulation, fractured reservoirs, capillary pressure, pseudo-steady state, Corey relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-52)
+
+A 1D IMPES finite-difference model of countercurrent imbibition in a water-wet block predicts pressure, saturation, capillary pressure and recovery, showing transient and pseudo-steady-state behavior.
+
+Countercurrent imbibition is a key recovery mechanism in fractured reservoirs. The authors develop a one-dimensional IMPES finite-difference model for countercurrent water-oil flow in a cylindrical water-wet core closed on all faces but one. The model uses Corey relative permeabilities (exponents of 4) and a logarithmic capillary pressure function (B = 1.45 psia), with data for a 0.7 ft, 20 md, 0.3 porosity core. Results show that the flow shifts from a transient regime to pseudo-steady state after about 15 days, and that pressure and capillary pressure ahead of the front stay constant until the front reaches the sealed end. Recovery rises to an ultimate value at around 27 days, after which no more oil is produced.
+
+## Oil Recovery by Water Imbibition in Asmari Fractured Rock
+
+- ID: SCA2005-47, year: 2005
+- Authors: H. Karimaie, O. Torsæter, M.R. Esfahani
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, fractured carbonate, inverse Bond number, low interfacial tension, initial water saturation, Asmari limestone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-47)
+
+Water injection and immersion tests on a 116 cm fractured Asmari limestone stack show low recovery (~10%); low-IFT surfactant raises recovery through gravity-driven cocurrent imbibition.
+
+Oil recovery by water injection in fractured, slightly water-wet Asmari limestone (porosity ~15%, permeability <1 md) was studied using a 116 cm stack of three cores in a plexiglass cylinder with an annular fracture. Tests varied injection rate (0.5, 1, 5 cm3/min) and initial water saturation (0, 14, 25%), plus immersion tests; Amott indices were 0.42-0.60. Breakthrough recovery was higher at low rate (below 7%), while final recovery was about 10% regardless of rate, and recovery rate and final recovery increased with Swi. Because recovery was low, low-tension imbibition tests (IFT 0.057 mN/m) were run on Asmari limestone and Bentheimer sandstone, shifting flow from countercurrent capillary to cocurrent gravity-driven. In Bentheimer, recovery rose from about 44% at inverse Bond number 31.8 to about 80% at 0.0026, and connate water slowed imbibition without changing final recovery.
+
+## Perfect Cross Flow Model for Counter-Current Spontaneous Imbibition
+
+- ID: SCA2013-083, year: 2013
+- Authors: Rasoul Arabjamaloei, Douglas W. Ruth, Jonathan Bartley, Geoffrey Mason, Norman R. Morrow
+- Method: theory or analytical model
+- Keywords: counter-current spontaneous imbibition, tube bundle model, perfect cross flow, imbibition face boundary condition, modified Darcy's law
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-083.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-083)
+
+A perfect cross flow tube bundle model of counter-current spontaneous imbibition matches Darcy-based simulation but cannot predict the imbibition face saturation, which needs experiments.
+
+The paper develops a perfect cross flow tube bundle model for counter-current spontaneous imbibition, with algebraic self-similar equations for front positions solved by iteration on a guessed value of f2. A case study uses 101 tubes with diameters from 1 to 10.1 μm, 50 cm length, IFT 6 mN/m, zero contact angle and 1 cp fluids. Results are compared with a 1D finite-volume Darcy simulation using equivalent relative permeability and capillary pressure. The two agree closely (f2=0.993), showing the tube bundle model is an exact analog of modified Darcy's law. The tube bundle model can also give a constant saturation plateau at f2 above 0.9935, which Darcy simulation cannot reproduce. Neither method fixes the inlet face saturation and both allow nearly 100% water, contrary to experiments showing about 50%, so experiments are needed.
+
+## Investigation of Co-Current and Counter-Current Spontaneous Imbibiti on Using Micro-Computerized Tomography
+
+- ID: SCA2014-098, year: 2014
+- Authors: Nayef Alyafei, Theis SØlling, Martin J. Blunt
+- Method: digital rock or imaging
+- Keywords: spontaneous imbibition, micro-CT, co-current and counter-current flow, Berea sandstone, residual gas saturation, analytical solution
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-098.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-098)
+
+Micro-CT saturation profiles of co-current and counter-current brine/air imbibition in Berea sandstone match, consistent with a negligible Buckley-Leverett fractional flow term at high viscosity ratio.
+
+The study compares co-current and counter-current spontaneous imbibition of brine into air-filled Berea sandstone using micro-CT. A 5 mm plug (72 md, 19.9% porosity) was scanned dry and after imbibition at ambient conditions, with a 2.9 µm voxel size over a 2.6 mm height. Images were registered, bilateral-filtered and segmented by Otsu multithresholding, and saturation was derived slice by slice from the gas fraction divided by dry porosity. Saturation profiles for the two modes matched, with average residual gas saturation of 0.32 in both cases. This agrees with the Schmid et al. analytical solution, where the only difference is the Buckley-Leverett fractional flow term, which is near zero for brine/air with a viscosity ratio above 500.
+
+## Analyzing the Open Face Condition and Non-Equilibrium Effects in Co- and Counter-Current Spontaneous Imbibition with Experiments and Numerical Simulation
+
+- ID: SCA2015-040, year: 2015
+- Authors: Rasoul Arabjamaloei, Douglas W. Ruth, Derrick Green, Dragan Veselinovic
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, co-current and counter-current, NMR saturation profiles, Corey relative permeability, history matching, inlet face boundary condition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-040)
+
+Co- and counter-current spontaneous imbibition on sandstone was monitored by NMR; Corey relative permeabilities history-matched on counter-current data approximately predicted co-current production, with inlet saturation showing non-equilibrium effects.
+
+Spontaneous imbibition is poorly understood, particularly the inlet face condition and whether one set of relative permeability curves serves both co- and counter-current flow. Co- and counter-current imbibition tests were run on a 2 md, 23% porosity sandstone plug initially saturated with decane, imbibing D2O, with saturation profiles measured by NMR (Oxford Maran DRX-HF, 2 MHz, 30 °C). Capillary pressure came from MICP and centrifuge data. An explicit simulator history-matched the saturation profiles to obtain Corey-type relative permeabilities. The counter-current match was close, especially for production, and inlet water saturation (~50%) varied with time, indicating non-equilibrium effects contrary to capillary continuity. Using these curves for co-current prediction gave good production agreement but poorer saturation profile match, especially upstream, partly because production occurred at both open faces.
+
+## Matching Experimental Saturation Profiles by Numerical Simulation of Combined and Counter-Current Spontaneous Imbibition
+
+- ID: SCA2016-005, year: 2016
+- Authors: Douglas W. Ruth, Martin A. Fernø, Åsmund Haugen, Bergit Brattekås, Rasoul Arabjamaloei
+- Method: numerical simulation
+- Keywords: spontaneous imbibition, history matching, capillary pressure, relative permeability, counter-current imbibition, in situ saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-005)
+
+History matching of one-end-open and two-ends-open spontaneous imbibition experiments by simulation yields comparable capillary pressure and relative permeability curves from a single test with in situ saturations.
+
+The paper addresses simultaneous determination of capillary pressure and relative permeability from spontaneous imbibition experiments. An explicit upstream-differencing simulator with zero-width boundary cells and 60 grid blocks was used to history match two water-wet cases: counter-current one-end-open (OEOSI) and combined co-/counter-current two-ends-open (TEOSI) imbibition. Six-point tabular curves were fitted by exhaustive search (several hundred runs) to oil production, in situ saturations and, for OEOSI, closed-face pressure. OEOSI production, saturation profiles and pressure were well matched, with the face saturation set to the final mean saturation (0.685 experimental vs about 0.6 from a theoretical method). TEOSI matched final production and later-time saturations, but early-time mismatch was attributed to an induction period, and internal pressures were poorly predicted in magnitude.
+
+## Pore-Scale Displacement During Fast Imaging of Spontaneous Imbibition
+
+- ID: SCA2017-005, year: 2017
+- Authors: W.-B. Bartels, M. Rücker, M. Boone, T. Bultreys, H. Mahani, S. Berg, S.M. Hassanizadeh, V. Cnudde
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, Amott test, micro-CT fast imaging, Ketton carbonate, snap-off, mixed-wet
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-005)
+
+Fast micro-CT of Amott spontaneous imbibition in Ketton shows produced oil in mixed-wet SCAL plugs does not match interior pore-scale changes, and reveals snap-off outside the sample.
+
+Amott spontaneous imbibition tests rely on cumulative oil production, which may not reflect pore-scale wettability behavior. The authors built new core holders and imaged Ketton carbonate with HECTOR and EMCT micro-CT: 4 mm mini-plugs at up to 15 s per rotation and 13 µm voxels, and 2.54 cm SCAL plugs (one water-wet with decane, two mixed-wet with crude oil) over months. Sample preparation protocols were adequate, with no trapped air and no detectable capillary end effect. In the water-wet SCAL plug, production matched an observed imbibition front, whereas in mixed-wet plugs production of almost 1 ml occurred with minimal interior change, probably from oil on the outer surface (~0.25 mm film would suffice). Preferred production sites and a snap-off event near the open face were seen, and force balances showed buoyancy is negligible inside the samples (about 10,000 times smaller than capillary forces) but may matter outside.
+
+## Mechanisms of Water Imbibition in Carbonate-Rich Unconventional Reservoirs
+
+- ID: SCA2017-027, year: 2017
+- Authors: Robert L. Krumm, James J. Howard
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, osmosis, NMR T2 relaxation, LiCl brine, ICP brine chemistry, carbonate-rich shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-027)
+
+Imbibition tests with LiCl brines of varying salinity on marl plugs show water activity has little effect, indicating capillary forces rather than osmosis drive water uptake.
+
+The mechanism of water loss into carbonate-rich unconventional reservoirs during hydraulic stimulation is unresolved, with capillarity, osmosis and clay sorption all proposed. Marl core plugs (porosity 0.10-0.13, oil permeability 50-500 nD) were saturated with decane and subjected to spontaneous water imbibition in glass cells using LiCl brines of 100 to 100,000 ppm over 10 days, with NMR T2 and mass balance tracking saturation changes. Oil production was 6-12% OOIP and showed no dependence on brine salinity, discounting osmosis; no correlation with clay content discounted clay sorption. ICP analysis of post-imbibition brines showed Ca, Na and Si release (carbonate and quartz dissolution, Na from residual formation water) and pH increases of 1 to 2.5 units. Reverse oil imbibition tests after harsh drying gave poor mass balance (produced water about twice that expected), pointing to a need to reconsider sample preparation protocols.
+
+## Investigation of Co- and Counter Current Flow Behavior in Carbonate Rock Cores
+
+- ID: SCA2017-061, year: 2017
+- Authors: Pouyan Ahmadi, Masoud Riazi, Mohammad Reza Malayeri
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, co-current imbibition, counter-current imbibition, smart water, carbonate wettability alteration, boundary conditions
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-061.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-061)
+
+Spontaneous imbibition tests on six carbonate cores with different open-face boundary conditions and brines show smart seawater and two open faces give the highest oil recovery.
+
+The study examines how brine composition and boundary conditions affect co- and counter-current spontaneous imbibition in carbonate cores. Six outcrop plugs (about 18% porosity, 30 mD, 67 mm long) were aged with oil for 40 days at 75°C and 2500 psi, then imbibed in Amott cells with smart seawater (SSW, enriched in sulfate, calcium and magnesium) or 5-times diluted seawater (5dSW). Three boundary configurations were used: one open face (OOF), two open faces (TOF), and one open face with the opposite face isolated from brine but allowing oil collection (OOCO). SSW reduced contact angle (129 to 30°) and IFT (8.3 mN/m) more effectively than 5dSW. Final recovery was highest for TOF-SSW (38%) and lowest for OOCO-5dSW (8.7%). Allowing co-current production at an isolated face reduced counter-current production at the open face.
+
+## Experimental Study of Wettability Alteration in Carbonate Fractured Porous Media using Computed Tomography
+
+- ID: SCA2017-101, year: 2017
+- Authors: Luis Oliveira Pires, Osvair Vidar
+- Method: laboratory experiment
+- Keywords: wettability alteration, fractured carbonate, spontaneous imbibition, designed salinity brine, CT saturation monitoring, dolomite
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-101.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-101)
+
+CT-monitored brine floods of fractured dolomite show designed-salinity brines (seawater, sulfate-rich, low-NaCl) raise oil recovery and matrix imbibition rate, indicating wettability alteration toward water-wet.
+
+Oil recovery from naturally fractured carbonates depends on spontaneous imbibition into the matrix, which is limited by oil-wet conditions. Composite cores of three Thornton dolomite plugs with a 4 mm sand-filled artificial fracture were set to Swi=10% by evaporation, saturated with pre-salt oil, aged at 90 °C for 20 days, and flooded at 0.05 cm3/min, 70 °C and 600 psi while CT scans tracked matrix water saturation. In DFD1.1, formation water recovered 29.9% OOIP in 30 days, followed by seawater with 31.4% additional and 20-times diluted seawater with 12.6% additional. In DFD1.2, seawater gave about 32.5% OOIP and seawater without NaCl added about 40% more. Open core faces in DFD1.1 allowed imbibition from the inlet face, whereas sealed faces in DFD1.2 gave more uniform saturation and imbibition only across the matrix-fracture interface; viscous forces contributed little.
+
+## Dos and Don'TS When Developing a System to Investigate Spontaneous Imbibition in Unconsolicdated Porous Media
+
+- ID: SCA2018-006, year: 2018
+- Authors: Bergit Brattekås, Tore L. Føyen, Trond Vabø, Håkon Haugland, Simon I. Reite, Anders S. Saunes, Martin A. Fernø
+- Method: measurement technique or apparatus
+- Keywords: spontaneous imbibition, unconsolidated sand packs, TEOFSI boundary condition, capillary back pressure, inlet filter, packing procedure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-006.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-006)
+
+Describes developing a TEOFSI spontaneous imbibition setup for unconsolidated sand and glass-bead packs, showing filters, packing, and hydrostatic or viscous effects strongly affect results, and gives practical do's and don'ts.
+
+Spontaneous imbibition in high-permeability, low-capillarity unconsolidated packs is very sensitive to laboratory artifacts. Sand (125-250 and 212-250 µm) and glass beads (150-212 µm) were packed in 2.04 cm diameter glass tubes of 0.09-0.5 m under TEOFSI boundary conditions, with front visualization and production measurement. Shaking gave porosities of 37-41% (narrow sand) and 40-46% (wide sand) but packs failed in forced floods; a compaction device (1 kg, 16-18 h) preserved structure but widened porosity spread to 38-49%. Inlet/outlet filters (glass discs, paper, membrane, glass wool, metal mesh) strongly affected imbibition: oil-aged glass discs, an oil-wet membrane, polymer clogging, and compressible glass wool caused artifacts. Four setups were compared; calculated front capillary pressure was comparable to hydrostatic head in submerged designs, so a continuously flushing inlet (estimated viscous pressure 0.065 Pa) was adopted. The paper concludes with a checklist on filters, fluids, forces and packing.
+
+## A novel experimental approach for studying spontaneous imbibition processes with alkaline solutions
+
+- ID: SCA2018-029, year: 2018
+- Authors: T. Chevalier, J. Labaume, A. Delbos, T. Clemens, V. M. Waeger, B. Bourbiaux, M. Fleury
+- Method: laboratory experiment
+- Keywords: spontaneous imbibition, alkaline brine, NMR oil saturation monitoring, capillary diffusion coefficient, interfacial tension, wettability alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-029)
+
+Small sandstone plugs imbibed in D2O brines are monitored by NMR oil-signal; alkaline brine slows kinetics only 2x despite 10x lower IFT, implying wettability change.
+
+The study examines spontaneous imbibition of alkaline versus non-alkaline brine in St Ulrich (Vienna basin) Flysch sandstones (porosity about 10%, matrix permeability about 0.3 mD) aged with crude oil. Small plugs (15 mm diameter, about 18 mm length) at irreducible saturation were fully immersed in D2O brines, and oil volume was tracked by low-field NMR (23.7 MHz), with T2 components above 100 ms removed to exclude surface droplets. Oil-brine IFT fell from 8 to 0.8 mN/m with 15 g/L sodium carbonate. A 3D constant-coefficient capillary diffusion model fitted the data within about ±5%, giving Dc values 1.5 to 2 times lower for alkaline brine. Recovery was about 44% of saturation for all four samples. Since Dc fell by at most 2 while IFT fell by 10, a shift toward more water-wet conditions is inferred, and the small-sample 3D setup cuts test time by about a factor of 8.
+
+## Impact of Brine Spontaneous and Forced imbibition on effective permeability in gas shales
+
+- ID: SCA2019-048, year: 2019
+- Authors: Denis Dzhafarov, Benjamin Nicot
+- Method: laboratory experiment
+- Keywords: shale imbibition, NMR T1T2, step-decay permeability, effective gas permeability, Vaca Muerta, forced imbibition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-048.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-048)
+
+Brine spontaneous and forced imbibition in a Vaca Muerta shale, tracked by NMR and step-decay permeability, reduces effective gas permeability by factors of 10 to 100.
+
+Hydraulic fracturing introduces water into gas shale matrix, so its effect on effective gas permeability needs to be understood. A Vaca Muerta shale sample was progressively saturated with brine, first by spontaneous imbibition and then by forced imbibition in pressure steps. At each step, NMR T2 and T1T2 measurements and step-decay gas permeability were performed to follow pore size distribution, water uptake and the organic (oil-wet) pore contribution to permeability. Effective gas permeability dropped by a factor of 10 from the dry state to the spontaneous imbibition state, and by up to a factor of 100 after forced imbibition. Water imbibition therefore strongly impairs effective gas permeability in this shale.

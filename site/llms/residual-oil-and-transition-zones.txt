@@ -1,0 +1,577 @@
+# Residual oil and transition zones
+
+> 44 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: residual oil, oil saturation, capillary, transition, cdc, pore, mobilization, flooding, sor, cluster.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Pore-Scale to Core-Scale Study of Capillary Desaturation Curves Using Multi-Scale 3D Imaging
+
+- ID: SCA2013-027, year: 2013
+- Authors: Rezki Oughanem, Souhail Youssef, Yannick Peysson, Brigitte Bazin, Eric Maire, Olga Vizika
+- Method: laboratory experiment
+- Keywords: capillary desaturation curve, trapping number, micro-CT, surfactant flooding, residual oil saturation, pore network
+- Cited by 6 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-027)
+
+Coreflood CT and micro-CT on four water-wet sandstones show capillary desaturation curves depend on pore structure; a permeability-modified trapping number reduces the dispersion between curves.
+
+Capillary desaturation curves (CDC) show large scatter between rocks, and this study links that scatter to pore structure. Berea, Bentheimer, Fontainebleau and Clashach cores were flooded vertically with KI brine/n-decane, then with SDBS surfactant (IFT 0.3 dyn/cm) at rates up to 499 cc/hr, with CT scanning of saturation profiles after each step. Residual oil mobilized at trapping numbers of 1e-6 to 1e-3, with clear shifts between sandstones. Micro-CT of mini-plugs (3 µm voxels) gave pore body radii (mean 28.6-41.4 µm), throat radii (10.5-14.8 µm), aspect ratios (mean ~5) and trapped oil blob sizes (mean 31-40 µm, about one pore body). A force-balance model gives Nt = 2KaKrw/(rL), and plotting normalized Sor against Nt/(KaKrw) reduces the dispersion; the remainder is attributed to blob length variation.
+
+## Visualizing and Quantifying the Residual Phase Distribution in Core Material
+
+- ID: SCA2009-16, year: 2009
+- Authors: Munish Kumar, Tim J. Senden, Adrian P. Sheppard, Jill P. Middleton, Mark A. Knackstedt
+- Method: digital rock or imaging
+- Keywords: micro-CT imaging, residual saturation, blob size distribution, spontaneous imbibition, pore partitioning, wettability
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-16)
+
+Micro-CT imaging of registered cores after spontaneous and forced imbibition quantifies residual phase blob sizes versus initial water saturation, rate and wettability in sandstone and carbonates.
+
+The paper images the pore-scale distribution of residual gas and oil after waterflooding using micro-CT of the same small cores registered across saturation states. Samples were Fontainebleau sandstones, sucrosic dolomites and a bimodal reservoir carbonate, subjected to spontaneous and forced imbibition at varying initial water saturation, capillary number and wettability (steric-acid mixed-wet treatment). Residual gas saturations in Fontainebleau (e.g. 28.9% at Swi=0) agree with literature data and Aissoui's relationship. Residual phase is held in large ramified blobs spanning from tens to thousands of pores. Forced imbibition at Ca~2x10-4 in water-wet dolomite cut Sor from 37% to 28% by mobilizing the larger blobs. Mixed-wet samples showed larger blobs after spontaneous imbibition, but blob distributions were similar after forced imbibition.
+
+## Oil ganglia dynamics in natural porous media during surfactant flooding captured by ultra-fast x-ray microtomography
+
+- ID: SCA2014-023, year: 2014
+- Authors: Souhail Youssef, Elisabeth Rosenberg, Herve Deschamps, Rezki Oughanem, Eric Maire, Rajmund Mokso, INSA-Lyon MATEIS, Swiss Light Source, Paul Scherrer
+- Method: digital rock or imaging
+- Keywords: synchrotron microtomography, surfactant flooding, oil ganglia mobilization, capillary number, Bentheimer sandstone, phase contrast imaging
+- Cited by 4 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-023)
+
+Ultra-fast synchrotron microtomography (5 μm, 3 s) imaged drainage, imbibition and surfactant flooding in Bentheimer sandstone, showing ganglia coalescence and breakup, with mean cluster size following a power law in capillary number.
+
+The study images oil ganglion trapping and mobilization in natural sandstone during surfactant flooding, which is hard to observe with conventional methods. A 5.8 mm Bentheimer miniplug (22% porosity, 3.8 D) underwent drainage, spontaneous imbibition and surfactant injection (IFT 0.3 mN/m, five rates 0.05–4 cc/min) at the TOMCAT beamline, with 3D tomograms every 3 s. Drainage reached 52% oil saturation and imbibition left a residual of 35%, with oil trapped in the largest pores (mean radius 62.2 μm versus 52.2 μm sample mean) through snap-off. During surfactant flooding, residual oil fell to 4% at 1.4 cc/min and 4 cc/min recovered no more oil. The largest cluster grew right after each rate increase through coalescence, then decreased as it was evacuated, and mean cluster size followed a power law in capillary number (about 10^-4 to 10^-2).
+
+## Waterfloodings on Intermediate Wet Porous Media : New Considerations on Two Phase Flow Properties Determination
+
+- ID: SCA1992-13EURO, year: 1992
+- Authors: Renaud Gauchet
+- Method: laboratory experiment
+- Keywords: residual oil saturation, imbibition capillary pressure, centrifuge, intermediate wettability, gamma-ray saturation profiles, waterflooding
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-13EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-13EURO)
+
+Combining waterflood and centrifuge imbibition capillary pressure on Aerolith 10 and Berea shows coreflood ROS exceeds true residual oil by 5-10% in intermediate-wet cores.
+
+Waterflood remaining oil saturation often overestimates residual oil in intermediate-wet, permeable media. Waterfloods at various rates, some with gamma-ray saturation monitoring, and centrifuge imbibition capillary pressure measurements were run on Aerolith 10, Berea and a Lagrave reservoir core at water-wet and aged wettability states. In intermediate-wet Aerolith 10, ROS fell from 36.7% to 21.8% as rate rose from 16.7 to 600 cm3/h, while the water-wet case showed no extra recovery. Points (Sw, ΔP) from rate increases fell on the centrifuge Pc curve, showing ROS is capillary-limited; centrifuge reaches larger gradients (800 vs 100 mbar). Coreflood ROS was 5-10% higher than centrifuge ROS, so relative permeabilities should be determined down to the centrifuge ROS, and the two tests should be combined.
+
+## The Structure of Residual Oil as a Function of Wettability Alteration Using Pore-Scale Network Modelling
+
+- ID: SCA2011-37, year: 2011
+- Authors: K.S. Sorbie, A.V. Ryazanov, M.I.J. van Dijke
+- Method: numerical simulation
+- Keywords: pore network modelling, residual oil structure, oil layers, mixed-wet, Amott-Harvey index, Berea sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-37.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-37)
+
+Pore-network modelling of waterflooding on a Berea network predicts residual oil shifts from layer-dominated in oil-wet cases to bulk-oil-dominated in water-wet cases, with testable structural predictions.
+
+Low residual oil in mixed-wet waterfloods requires oil layers in pore corners, so the authors use a Berea micro-CT-derived network with thermodynamic oil-layer existence criteria. Relative permeabilities from the network feed 1D Buckley-Leverett calculations of remaining oil versus pore volumes injected, matched to experimental data at breakthrough and then predicting 3 and 20 PV well. Four wettability cases (Iow = -0.47, 0.13, 0.31, 0.59) are visualised in 3D and analysed statistically by pore size. For the oil-wet case Sor falls from 51.9% at breakthrough to 2.0% at infinite PV, while the moderately water-wet case stays at 24.7% as trapped bulk oil. Residual oil in oil-wet cases is mostly in many low-volume layers across all pore sizes, whereas in water-wet cases it is bulk oil in larger pores. The predictions are semi-quantitative and testable by micro-CT or NMR.
+
+## Transition Zone Characterization with Appropriate Rock-Fluid Property Measurements
+
+- ID: SCA1999-39, year: 1999
+- Authors: Richard L. Christiansen, Michael J. Heymans, Anand Kumar
+- Method: laboratory experiment
+- Keywords: transition zone, trapped oil relationship, residual oil saturation, saturation profile, video image gray level, unconsolidated pack
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-39)
+
+Using video-imaged saturation profiles in unconsolidated packs, the paper shows residual oil in transition zones depends on initial oil saturation, so oil there is more recoverable than conventionally assumed.
+
+Conventional transition-zone analysis pairs drainage capillary pressure with waterflood relative permeability and assumes a constant residual oil saturation. The authors argue that residual oil saturation instead depends on initial oil saturation and saturation history, so trapped-oil relationships and a suite of relative permeabilities are needed. They built a vertical 48.3-cm acrylic tube apparatus packed with glass beads (70-100 mesh), sand (20-40 mesh) and plastic beads (20-40 mesh), saturated with water and nonane. Saturations were estimated from video gray level using a two-point calibration. Cross-plots of initial versus final oil saturation gave trapped-oil relationships, with little scatter for glass beads and more for sand. Material balance errors on the video saturations ranged from about 4% to 57% across steps. The paper outlines how reservoir rock could be tested with flooding or centrifuge methods and why reservoir charging history must be known.
+
+## The Fate of Oil Clusters During Fractional Flow: Trajectories in the Saturation-Capillary Number Space
+
+- ID: SCA2015-007, year: 2015
+- Authors: M. R¾cker, R. Armstrong, A. Georgiadis, H. Ott, L. Simon, F. Enzmann, M. Kersten, S. de With
+- Method: digital rock or imaging
+- Keywords: ganglion dynamics, fractional flow, synchrotron micro-CT, cluster-based capillary number, connected pathway flow, steady-state relative permeability
+- Cited by 2 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-007)
+
+Fast synchrotron micro-CT of decane-brine co-injection in sintered glass tracks oil clusters in saturation-capillary number space, distinguishing connected pathway flow from ganglion dynamics that cause pressure and saturation fluctuations.
+
+Steady-state relative permeability experiments show pressure and saturation fluctuations whose origin is unclear. The authors co-injected n-decane and brine into a water-wet sintered glass sample (35% porosity, 22 D) at different fractional flows and total rates (4e-6 to 4e-4 m/s), imaging at 2.2 µm voxel size once per minute at the TOMCAT beamline. Individual clusters were tracked: coalescence moves them up in volume and capillary number, while snap-off moves them down. Cluster volumes follow a power law with exponent about 2.5, consistent with percolation scaling. At fw = 0.5 ganglion dynamics gave up-and-down trajectories in the saturation-Ca diagram, while at fw = 0.2 connected pathway flow stayed at a fixed point, even though the average Ca was below 1. Ganglion disconnection and reconnection changed the relative permeability of the connected phases, mirroring fluctuations seen in 5 cm core floods.
+
+## Oil Mobility in Transition Zones
+
+- ID: SCA2000-02, year: 2000
+- Authors: Shehadeh Masalmeh, Sjaam Oedai
+- Method: laboratory experiment
+- Keywords: transition zone, residual oil saturation, initial oil saturation, Land correlation, centrifuge relative permeability, mixed-wet carbonate
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-02)
+
+Centrifuge measurements on low-permeability carbonates show residual oil is independent of initial oil saturation after aging, but oil relative permeability rises as initial saturation falls.
+
+Oil recovery from transition zones depends on how residual oil saturation (Sor) and relative permeability vary with initial oil saturation (Soi), which is rarely measured; Land's gas/water correlation is commonly used despite ignoring wettability. The authors ran multi-speed and single-speed ultracentrifuge drainage/imbibition cycles on low-permeability carbonate plugs (1-6 md) at 60 °C, aging in crude at 70 °C and 100 bar, and interpreted the data numerically with the MoReS simulator. Sor stayed about constant (0.04-0.05, within 2 saturation units) for Soi of 20-80%, and fell only for Soi below 20%. Cyclic testing without cleaning did not change trapped oil, indicating that trapped oil reconnects on re-injection. Oil relative permeability at a given saturation increased with decreasing Soi, and remaining oil saturation at a kro cut-off exceeded Sor by more than 10% at high Soi, so Sor is approached faster nearer the free water level.
+
+## Trapped Non-Wetting Phase Clusters: An Experimental Investigation of Dynamic Effects at the Pore Scale Using a Micro-CT Scanner
+
+- ID: SCA2013-024, year: 2013
+- Authors: M. Khishvand, M. Akbarabadi, M. Piri
+- Method: laboratory experiment
+- Keywords: micro-CT imaging, trapped oil clusters, capillary number, residual oil saturation, imbibition, Bentheimer sandstone
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-024.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-024)
+
+Micro-CT imaging of three drainage-imbibition cycles in Bentheimer sandstone shows that higher capillary number imbibition reduces residual oil saturation and trapped oil cluster size and oil-brine contact area.
+
+The study examines how dynamic (viscous) effects change trapping of non-wetting oil during imbibition at the pore scale. A custom micro core holder was integrated with a two-phase flooding apparatus in a Versa XRM 500 micro-CT scanner. Three unsteady-state drainage-imbibition cycles were run on a 4.9 mm by 13 mm Bentheimer core with n-decane and 1.5 wt% NaI brine, at 24 °C and 2.76 MPa, with the same Swi of 0.34 and increasing imbibition rates (0.015, 0.075, 0.75 cc/min). Middle-section residual oil saturation was 0.41 and 0.37 for the first two imbibitions but fell to 0.16 for the third at the highest rate. Trapped blobs became smaller and shorter, the cumulative volume shifted toward smaller blob volumes, and oil-brine contact area decreased while brine-grain contact increased. Blob aspect ratios were less scattered at high rate and differed from glass bead pack results.
+
+## Onset of Oil Mobilization and Non-Wetting Phase Cluster Size Distribution
+
+- ID: SCA2014-022, year: 2014
+- Authors: R. T. Armstrong, A. Georgiadis, H. Ott, A. Schwing, R. Neiteler, N. Brussee, A. Makurat, M. Rücker, L. Leu, M. Wolf, F. Khan, F. Enzmann, M. Kersten
+- Method: digital rock or imaging
+- Keywords: synchrotron micro-CT, imbibition, cluster size distribution, snap-off, invasion percolation, macroscopic capillary number
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-022)
+
+Fast synchrotron micro-CT of imbibition in sandstone shows the largest oil cluster breaks into smaller ones by snap-off, with occasional coalescence, contradicting static-cluster percolation assumptions.
+
+Pore-scale oil mobilization during imbibition was imaged with fast synchrotron micro-CT (2.2 µm) in sintered glass, Gildehauser sandstone and Estaillades limestone, using n-decane and brine. Sandstone showed the most mobilization (about 60% of oil), with saturation dropping from 75% to 30% after ~1200 s at Ca_macro of 1.6–2.3×10^-3, i.e. capillary-dominated flow. The largest cluster initially held 99.24% of the oil and only 56.31% at the end, with oil redistributed to medium-sized clusters. The cluster-size power-law exponent started at about -1.6±0.2 and trended toward -2.0, approaching the invasion percolation value of 2.2. Snap-off at narrow throats or across several pores dominated breakup, with rare coalescence, showing disconnected clusters continue to evolve.
+
+## Investigation of Pore Structure Impact on the Mobilization of Trapped Oil by Surfactant Injection
+
+- ID: SCA2014-064, year: 2014
+- Authors: Souhail Youssef, Daniela Bauer, Yannick Peysson, Olga Vizika
+- Method: laboratory experiment
+- Keywords: capillary desaturation curve, trapping number, surfactant flooding, micro-CT ganglia size distribution, water relative permeability, sandstone
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-064.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-064)
+
+Surfactant and brine floods on four water-wet sandstones show capillary desaturation curves collapse with a permeability- and pore-size-based trapping number, enabling CDC prediction from micro-CT ganglia statistics.
+
+The paper examines how pore structure controls mobilization of trapped oil and the capillary desaturation curve (CDC). Brine and surfactant floods were run on Berea, Bentheimer, Fontainebleau and Clashach sandstones after n-decane drainage, with CT-scan measurement of residual oil and micro-CT (3 µm) of mini-plugs at residual oil. Normalized pressure gradient versus trapping number shows three regimes, with slope 1, ~0.5 at intermediate trapping numbers, and 1 again, resembling steady-state two-phase flow. A modified trapping number N_t* = N_t<r>²/(K_a K_rw) collapses the four CDCs, with critical value near 10⁻² and full desaturation near 1. The CDC computed from the volume-weighted cumulative ganglion size distribution at the mini-plug scale matches macro-plug CDCs well.
+
+## Impact of Capillary Forces on Residual Oil Saturation and Flooding Experiments for Mixed to Oil-Wet Carbonate Reservoirs
+
+- ID: SCA2012-11, year: 2012
+- Authors: Shehadeh K. Masalmeh
+- Method: laboratory experiment
+- Keywords: residual oil saturation, capillary end effect, Bond number, centrifuge imbibition, non-water-wet carbonate, surfactant IFT reduction
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-11)
+
+Centrifuge and flooding tests on non-water-wet carbonates show capillary end effect inflates remaining oil at field rates, while Sorw (~10-15%) stays stable up to Bond number ~1e-3.
+
+Residual oil saturation measurements in non-water-wet carbonates are often corrupted by capillary end effect, especially at field rates of ~1 ft/d. The study used over 100 plugs of varying permeability, aged in crude, with multispeed imbibition centrifuge tests (with and without surfactant) and steady/unsteady-state floods on 16 samples, interpreted by numerical simulation. Inlet oil saturation reached a plateau Sorw of ~10-15% at Bond numbers of 1e-6 or higher, with no remobilization up to ~1e-3, and no oil produced below ~1e-7. End effect was stronger in higher-permeability samples (average saturation ~20 units above Sorw), and simulated field-rate floods overestimated remaining oil by 20-30 units and underestimated Krwo by a factor of 2-8. Remaining oil at equilibrium was independent of pore volumes injected.
+
+## Capillary Desaturation Curve Prediction Using 3D Microtomography Images
+
+- ID: SCA2015-008, year: 2015
+- Authors: Souhail Youssef, Yannick Peysson, Daniela Bauer, Olga Vizika
+- Method: digital rock or imaging
+- Keywords: capillary desaturation curve, trapping number, micro-CT oil cluster size distribution, surfactant flooding, residual oil saturation, sandstone pore structure
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-008)
+
+Capillary desaturation curves of four sandstones are rescaled with a modified trapping number and predicted from oil cluster size distributions measured by micro-CT at residual oil saturation.
+
+The paper links capillary desaturation curves (CDC) to pore structure and trapped oil cluster size in water-wet Berea, Bentheimer, Fontainebleau and Clashach sandstones. Macro-plug coreflood with CT scanning measured residual oil versus trapping number (brine/surfactant, IFT 40 to 0.3 mN/m). Synchrotron imaging of a Bentheimer mini-plug showed the largest cluster grows by coalescence after each rate increase and then breaks up, with cluster size plateaus decreasing at higher capillary number. Lab µ-CT at 3 µm resolution gave pore and cluster statistics; mean cluster size was close to mean pore size, and cluster volume power-law exponents were 2.05 to 2.37. A force balance yields a modified trapping number including effective brine permeability and mean throat radius, which collapses the four CDCs (critical N_t* about 10^-2, full desaturation at about 1). The volume-weighted cumulative cluster size distribution from mini-plug images matches the macro-plug CDCs well.
+
+## Impact of Wettability on Residual Oil Saturation and Capillary Desaturation Curves
+
+- ID: SCA2013-025, year: 2013
+- Authors: K. J. Humphry, B. M. J. M. Suijkerbuijk, H. A. van der Linde, S. G. J. Pieterse, S. K. Masalmeh
+- Method: laboratory experiment
+- Keywords: capillary desaturation curve, residual oil saturation, Bond number, spontaneous imbibition, Berea sandstone, wettability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-025.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-025)
+
+Berea sandstone cores with varied wettability show that less water-wet rock has lower residual oil saturation and critical capillary and Bond numbers at least ten times higher than 1e-5.
+
+Capillary desaturation data for non-water-wet porous media are scarce, and it is unclear whether differences between water-wet sandstone and mixed-wet carbonate come from wettability or pore structure. Eighteen outcrop Berea plugs were prepared with five brine/oil/aging combinations (including n-decane for strongly water-wet), and wettability was characterized by spontaneous imbibition at 70°C. Desaturation curves were measured with multi-speed centrifuge (Bond number) and unsteady-state flooding, including polymer to extend the range (capillary number). Residual oil saturation ranged from about 15% for mixed-wet samples to nearly 50% for strongly water-wet ones. The critical Bond number was about 1e-5 for n-decane cores and about 1e-4 for aged crude-oil cores, even though both had an Amott index of 1. Mixed-wet samples showed critical numbers at least an order of magnitude higher and incomplete desaturation. The results indicate desaturation depends primarily on wettability rather than pore structure, which matters for surfactant and ASP flood design.
+
+## Continuous vs Discontinuous Capillary Desaturation and Implications for IOR/EOR
+
+- ID: SCA2018-066, year: 2018
+- Authors: Rui Xu, Bernd Crouse, David M. Freed, Andrew Fager, Nathan Lane, Qiang Sheng
+- Method: numerical simulation
+- Keywords: capillary desaturation curve, digital rock simulation, lattice-Boltzmann, critical capillary number, wettability, Berea sandstone
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-066.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-066)
+
+Lattice-Boltzmann pore-scale simulations on a digital Berea sandstone generate continuous and discontinuous capillary desaturation curves for water-wet and oil-wet cases, reproducing lab trends in critical capillary number.
+
+The study uses digital rock pore-scale simulation to generate capillary desaturation curves (CDC) for a Berea sandstone micro-CT image (2.02 µm voxels, 500³ voxels, porosity 15.7%, 235 mD). Lattice-Boltzmann waterfloods start at Swi of 10%, with water-wet and oil-wet cases set by contact angles (30° and 150° on oil-contacted surfaces; Amott indices Iw=0.9 and 0 respectively). Continuous CDCs use separate floods at different capillary numbers, while discontinuous CDCs step up the pressure gradient on one flood. In water-wet rock the discontinuous CDC has a higher critical capillary number than the continuous one, the curves merge above Nc of about 6E-4, and the results resemble Chatzis & Morrow lab data. In oil-wet rock, remaining oil depends on injected pore volumes because of film flow; the critical Nc is about 7.4e-5, oil-wet recovers more oil at low Nc, and water-wet recovers more at high Nc.
+
+## Capillary Transition Zones from a Core Analysis Perspective
+
+- ID: SCA2000-20, year: 2000
+- Authors: Johne Alex Larsen, Trond Thorsen, Geir Haaskjold
+- Method: laboratory experiment
+- Keywords: capillary transition zone, Land correlation, residual oil saturation, Killough hysteresis, X-ray saturation monitoring, gravity drainage
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-20)
+
+Gravity-drained one-metre Berea composite core with X-ray saturation monitoring shows residual oil depends on initial oil saturation and permeability; Killough hysteresis simulations reproduce waterflood profiles.
+
+The paper addresses flow in oil-water capillary transition zones, where residual oil saturation (ROS) depends on the historical maximum oil saturation (HMOS). A 95 cm vertical Berea composite core (five elements, ~100 and ~700 mD) was primary-drained by gravity using decane and NaI-doped brine, taking 2.5 months, then waterflooded from the bottom with X-ray in-situ saturation monitoring. ROS versus HMOS followed a Land-type relation, with C≈5 at low HMOS and ≈2 at high HMOS, so a single constant overpredicts ROS at low HMOS. Recovery was about 58% at HMOS 0.6 falling to 45% at 0.2 for the high-permeability Berea, and lower for the low-permeability Berea, so the Land constant depends on permeability (2 versus 3 in simulation). Simulations with Killough hysteresis in oil relative permeability and capillary pressure predicted the dynamic saturation profiles well, whereas bounding-curve or end-point-scaled models matched poorly.
+
+## Shuaiba Transition Zone Fields: From Laboratory SCAL Experiments to Field Development Challenges
+
+- ID: SCA2008-02, year: 2008
+- Authors: I. Abu-Shiekah, S.K. Masalmeh, X.D. Jing
+- Method: field or reservoir case study
+- Keywords: capillary transition zone, saturation height function, mercury injection capillary pressure, relative permeability scanning curves, Archie saturation exponent, Shuaiba carbonate
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-02)
+
+SCAL data from Shuaiba transition zone fields feed upscaled saturation height functions and scanning relative permeability models that history-match well and field production.
+
+Shuaiba fields in Oman hold much of their oil in thin, low-relief capillary transition zones, making initial saturation and oil mobility hard to predict. A ten-year SCAL programme used MICP, centrifuge and porous plate drainage Pc, formation factor and resistivity index, and relative permeability/imbibition Pc tests. MICP on trim ends of twin plugs varied widely, so Pc curves were volume-weighted upscaled and matched log saturations in horizontal and vertical wells. Cementation exponent averaged 1.9±0.1, while saturation exponent ranged 2-4, highest in oil-wet heavy-oil fields. Simulations with Sor/Soi-dependent scanning relative permeability and imbibition Pc matched crestal and flank well and field production, whereas bounding curves alone underestimated oil and overestimated water production.
+
+## An Improved Method for Estimating Oil Reserves in Oil-Water Transition Zones
+
+- ID: SCA1999-36, year: 1999
+- Authors: John R. Fanchi, Richard L. Christiansen, Michael J. Heymans
+- Method: theory or analytical model
+- Keywords: trapped oil relationship, transition zone, residual oil saturation, reserves estimation, saturation profile, black oil simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-36)
+
+Shows experimentally that residual oil depends on initial oil saturation in transition zones, and that including this trapped oil relationship raises estimated reserves by roughly 11-38%.
+
+Conventional reserve estimates assume constant residual oil saturation in oil-water transition zones, although residual oil depends on initial oil saturation (a trapped oil relationship). Video-based saturation profile experiments in unconsolidated glass bead and sand packs, using nonane and water with flow reversal, corroborated the trapped oil relationship for water-wet media. Saturation-profile material balances agreed within 5% for many experiments and within 20% for others. An analytical model gave reserve increases of 10.7% for a hyperbolic and 36.8% for a quadratic saturation profile. A layered extended black oil simulation of a quadratic profile produced 1.24 MMSTB with variable Sor versus 0.90 MMSTB with constant Sor, about 38% more, in agreement with the analytical result.
+
+## The Accessibility of Waterflood Residual Oil by the Oil Bank When Slugs of Solvent Alternate with Slugs of Water (Saw) Under Oil-Wet and Water-Wet Conditions
+
+- ID: SCA2003-06, year: 2003
+- Authors: Ioannis Chatzis, Dianbin Liu, Porous Media
+- Method: laboratory experiment
+- Keywords: residual oil accessibility, oil bank, glass micromodel, miscible solvent flooding, SAW process, capillary number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-06)
+
+Micromodel visualization shows solvent oil banks fully access waterflood residual oil in oil-wet systems but only partly in water-wet ones, where alternating water slugs add little.
+
+The study examines how well a miscible solvent oil bank reconnects waterflood residual oil, using 2-D etched glass micromodels with varied pore structure under water-wet and oil-wet conditions. Residual oil was classified as flowing, dendritic or isolated, and quantified by image analysis of video recordings as a function of pore volumes injected, capillary number and slug size, including solvent-alternating-water (SAW) runs. In water-wet models, solvent broke through early (about 0.2-0.4 PV) and isolated residual oil ranged widely, with accessibility of roughly 30% to 99% depending on pore structure and capillary number. In the oil-wet VUG-14 model, residual oil was 100% accessible after about 5 PV. After 3-4 PV of solvent, no further isolated oil was reached, and extra SAW cycles changed residual oil only modestly (e.g., 42.3% to 38.3% PV). Higher capillary number and lower interfacial tension improved accessibility, and capillary number mattered more than slug size.
+
+## The Characteristics of Relative Permeability Curves in Chemical Flooding by Pore Scale Network Modeling
+
+- ID: SCA2003-46, year: 2003
+- Authors: Liu Qingjie, Shen Pingping, Li Xianbing
+- Method: numerical simulation
+- Keywords: dynamic pore-scale network model, relative permeability, interfacial tension, ASP flooding, polymer viscosity, breakthrough saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-46.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-46)
+
+A dynamic 2D pore-scale network model shows oil and water relative permeabilities rise and become linear as IFT drops, while polymer viscosity lowers water relative permeability.
+
+Relative permeability data for chemical flooding (surfactant, polymer, ASP) are scarce, so the authors use a dynamic pore-scale network model: a 2D triangular lattice (coordination number 6) of spherical pores and cylindrical throats with Weibull-type size distributions and uniform water-wet contact angle. Six virtual surfactant floods with IFT from 0.2 to 5e-4 mN/m were simulated. Relative permeabilities changed negligibly above about 1e-2 mN/m, then both oil and water curves shifted upward and approached linearity at ultra-low IFT. Adding water viscosity had little effect at high IFT but at low IFT reduced water relative permeability strongly and oil relative permeability less, with little oil effect at Sw>70%. Over 40 simulations (viscosity ratios 3, 1, 0.6, 0.3) showed breakthrough saturation falls with IFT, with a non-monotonic dependence on viscosity ratio between 0.1 and 0.001 mN/m. Trends agreed qualitatively with published experiments.
+
+## New Laboratory Data Based Modeling of Miscible Displacement in Compositional Simulation
+
+- ID: SCA2005-55, year: 2005
+- Authors: E. Shtepani, F. B. Thomas, D. B. Bennion
+- Method: theory or analytical model
+- Keywords: miscible displacement, interfacial tension dependent relative permeability, compositional simulation, capillary number, minimum miscibility pressure, equation of state
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-55)
+
+Proposes measuring bounding relative permeability and capillary pressure at equilibrium high and low IFT fluid pairs and interpolating them by IFT in compositional simulators for miscible displacement.
+
+Compositional simulators normally assign one fixed set of relative permeability curves per rock region, ignoring capillary number changes during miscible and near-miscible gas injection. The paper outlines the PVT and miscibility studies (swelling tests, rising bubble, slim tube, multiple contact) that precede core flooding. It proposes special core floods using equilibrium fluid pairs from multiple-contact tests at maximum and minimum interfacial tension to measure bounding relative permeability and capillary pressure curves. Intermediate curves are obtained by linear interpolation on a dimensionless IFT, with IFT computed from the Weinaug-Katz parachor correlation. Example curves show IFT-dominated behavior (lower residual oil with lower IFT) versus cases dominated by wettability and pore size distribution, where enriched gas gives no gain. The approach is said to give dynamic saturation functions per rock region and to be usable for gas condensate relative permeability near the wellbore.
+
+## Effects of Sweep Efficiency and Displacement Efficiency During Chemical Flooding on a Heterogeneous Reservoir
+
+- ID: SCA2005-67, year: 2005
+- Authors: Shen Pingping, Yuan Shiyi, Deng Baorong, Song Jie, Shen Kuiyou, Haidian District
+- Method: numerical simulation
+- Keywords: ASP flooding, sweep efficiency, displacement efficiency, heterogeneous reservoir, polymer flooding, numerical simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-67.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-67)
+
+Simulation of water, polymer and ASP flooding on a three-layer positive rhythm model shows sweep efficiency controls recovery in low-permeability zones and displacement efficiency in high-permeability zones.
+
+The paper asks whether sweep or displacement efficiency matters more in chemical flooding of highly heterogeneous reservoirs. Water, polymer and ASP (1.2% alkali, 0.3% surfactant, 1500 mg/L polymer) flooding were simulated with RIPED's ASP compositional software on a 2-D positive rhythm model with three layers (permeabilities 150, 550 and 2100 md). The simulation was matched to a physical model water-cut history. Chemical slug of 0.3 PV was injected at high water cut, and recovery, displacement efficiency and sweep efficiency were computed layer by layer. In the low-permeability top zone polymer flooding gave the highest sweep and recovery, with similar displacement efficiency for all methods. In the mid-zone both matter, with ASP displacement efficiency about 20% higher. In the bottom zone ASP recovery is much higher due to displacement efficiency. ASP recovery in the top zone is only about 40%, so improving sweep there (e.g. profile control before ASP) is the key.
+
+## The Influence of Interfacial Tension on Water-Oil Two-Phase Relative Permeability
+
+- ID: SCA2005-68, year: 2005
+- Authors: Pingping Shen, Bin Zhu, Xian-Bin Li, Taixian Zhong, Hongzhuang Wang
+- Method: laboratory experiment
+- Keywords: interfacial tension, steady-state relative permeability, capillary number, residual oil saturation, surfactant flooding, Corey exponent
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-68.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-68)
+
+Steady-state water-oil relative permeability measurements at low interfacial tension show two critical capillary numbers and a logarithmic dependence of Corey-type exponents on interfacial tension.
+
+Relative permeability data at very low interfacial tension, relevant to alkaline-surfactant-polymer flooding, are scarce because such measurements are difficult. The authors developed an improved steady-state method and tested water-wet sandstone outcrop cores with model oil and surfactant-containing brine. Residual oil saturation stays near 0.40 below a first critical capillary number (0.0005, σ about 3 mN/m), falls rapidly between the critical values, and stays low above the second (0.1, σ about 10^-2 mN/m). Normalized relative permeability curves change little at low capillary number but change significantly above NC1, becoming straighter as interfacial tension drops. A model with exponents depending on log(σ) was fitted (λw = 3.81, λo = 2.0); exponents remain above one even at σ = 0.01 mN/m.
+
+## Impact of Deformation Bands on Fluid Flow and Oil Recovery
+
+- ID: SCA2010-45, year: 2010
+- Authors: G. Ersland, A. Graue, R.W. Moe
+- Method: laboratory experiment
+- Keywords: deformation bands, waterflood imaging, nuclear tracer imaging, MRI saturation, capillary barrier, Moab sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-45)
+
+Waterflood imaging with MRI and nuclear tracer in Moab sandstone shows deformation bands cause local water accumulation upstream but do not significantly change ultimate oil recovery.
+
+Deformation bands are sub-seismic faults with much lower permeability than host sandstone, and their effect on multiphase flow and oil trapping is poorly mapped. Samples from the Slick Rock Member of the Moab fault, Utah, included six core plugs and a 20x10x5 cm block, saturated with 3.8 wt% NaCl brine and drained with decane. Host rock permeability was 600-800 mD versus 0.5-1 mD in the bands, and band porosity was 8-11% versus about 23% in host rock. The block waterflood (0.5 cc/h, nuclear tracer imaging with 22Na) gave 55% OOIP recovery with breakthrough at 0.43 PV and was capillary dominated, with water congesting upstream of the band. MRI floods of plugs at 5 and 30 cm/day showed the same behavior, and no oil trapping upstream of the band was observed. The authors suggest micro-fractures may create capillary barriers, and conclude the band affected local saturation development but not ultimate recovery.
+
+## Mobilization of Residual Oil Mechanisms Seen in Micromodels
+
+- ID: SCA2011-54, year: 2011
+- Authors: I. Chatzis
+- Method: laboratory experiment
+- Keywords: residual oil mobilization, capillary number curve, glass micromodel, blob break-up, pressure pulsing, rising gas bubbles
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-54)
+
+Glass micromodel experiments show residual oil mobilization by increased capillary number, rising bubbles and pressure pulsing, with capillary number curves matching water-wet sandstones.
+
+Waterflood residual oil is mobilized and visualized in water-wet glass micromodels (square-lattice networks, pore throats 30-100 µm, permeability similar in both models). Water injection rate was raised stepwise, and residual oil was quantified by image analysis to build capillary number curves. Some reduction begins near a capillary number of 5x10^-5, and above 5x10^-4 half or more of the residual oil is mobilized, agreeing with published sandstone curves. Mobilized blobs break up into sub-pore droplets that attach to pore walls, so above about 10^-3 the remaining oil is not recoverable. A surfactant slug (IFT lowered from about 26 to 3 mN/m) gave residual oil structures equivalent to higher-rate water floods at the same capillary number. Rising gas bubbles carry oil upward but need many contacts, and pressure pulsing (10-30 pulses/min) emulsifies residual oil in situ so it can be produced, provided no free gas is present.
+
+## Pore-Scale Micro-CT Imaging: Cluster Size Distribution During Drainage and Imbibition
+
+- ID: SCA2011-59, year: 2011
+- Authors: A. Georgiadis, S. Berg, G. Maitland, H. Ott
+- Method: digital rock or imaging
+- Keywords: micro-CT imaging, cluster size distribution, representative elementary volume, drainage and imbibition, capillary trapping, sintered glass
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-59.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-59)
+
+Micro-CT of n-decane/brine drainage and imbibition in sintered glass shows one cluster holds 65-99% of the non-wetting phase, so the two-phase REV exceeds the field of view.
+
+Understanding non-wetting phase cluster size matters for capillary trapping of CO2, so the authors imaged n-decane clusters in a brine-saturated sintered glass core (porosity 0.318, permeability about 22 D) at 11.5 μm resolution. Drainage and imbibition floods were run at 1 ml/min with DTAB surfactant to vary IFT (8.6, 27.2, 50.5 mN/m), with CT scans at several injected pore volumes. Image analysis gave cluster size distributions, with small clusters resembling earlier literature and large clusters extending beyond the pore size (peak radius about 30 μm) and the porosity-based REV. The largest cluster held 65-99% of the n-decane, growing at the expense of smaller clusters during drainage and fragmenting during imbibition. Saturation in subvolumes varied strongly even when porosity was constant, implying a two-phase REV larger than the single-phase REV and the attainable field of view.
+
+## Study of Waterflooding Oil Recovery in Different Wettability Conditions with Pore Scale Network Model
+
+- ID: SCA2014-031, year: 2014
+- Authors: Zhenpeng LENG, Qingjie LIU, Desheng MA, Weifeng LV, Shiguan DENG, Ninghong JIA, Hu DONG
+- Method: numerical simulation
+- Keywords: pore scale network model, wettability, waterflooding oil recovery, relative permeability, quasi-static flow, contact angle distribution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-031)
+
+A pore network model with quasi-static flow and contact angle distributions shows neutral-wet conditions give higher waterflood oil recovery than water-wet or oil-wet, with no fixed water- versus oil-wet ranking.
+
+The paper examines how wettability affects waterflooding oil recovery using a pore-scale network model. Pore structure data come from micro-CT (coordination number, connectivity) combined with rate-controlled mercury injection (pore and throat radius distributions). A quasi-static flow rule balancing capillary and viscous forces drives two displacement stages, oil saturation with irreducible water and then waterflooding, with a retention effect rule. Wettability is represented by contact angle distributions in pores and throats. Relative permeability curves for three wettability states show neutral-wet networks have the lowest isotonic point and longer water relative permeability extension at high water cut, giving higher recovery, attributed to film flow displacement. Water-wet versus oil-wet recovery has no fixed relationship, suggesting dependence on pore structure.
+
+## Numerical Investigation of the Dependence of Residual Oil Saturation on Geometry, Wettability, Initial Oil Saturation and Porosity
+
+- ID: SCA2014-042, year: 2014
+- Authors: Xiaobo Nie, Y. Mu, R. Sungkorn, V. Gundepalli, J. Toelke
+- Method: digital rock or imaging
+- Keywords: lattice Boltzmann, residual oil saturation, digital rock, contact angle wettability, Land correlation, Fontainebleau sandstone
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-042.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-042)
+
+Lattice Boltzmann simulations on micro-CT digital sandstones show how residual oil depends on geometry, contact angle, initial saturation and porosity, matching published experiments and the Land correlation.
+
+The paper uses a GPU-parallelized two-phase lattice Boltzmann solver on micro-CT images of Berea, Bentheimer and eight Fontainebleau sandstones to simulate primary drainage and imbibition with a digital porous plate. For zero contact angle, simulated Sor for Berea (45.4%) and Bentheimer (36.6%) falls between published plug and mini-plug values. Fontainebleau Sor is higher than the one plug measurement but agrees with more systematic published data. Sor decreases with weaker water wetness, dropping rapidly near a 60 degree contact angle, and follows the Land correlation with initial oil saturation. For Fontainebleau, Sor decreases with porosity and correlates with the pore body to throat size ratio (correlation coefficients 0.94 and 0.93).
+
+## Effects of Wettability and Interfacial Tension on the Distribution of Residual Oil on the Pore Scale After Water Flooding
+
+- ID: SCA2014-053, year: 2014
+- Authors: T. Ramstad, T. Varslot, R. Meland, O. J. Arntzen
+- Method: digital rock or imaging
+- Keywords: lattice-Boltzmann, residual oil saturation, interfacial tension, wettability, oil cluster distribution, snap-off
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-053.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-053)
+
+Lattice-Boltzmann waterflood simulations on a micro-CT sandstone model show IFT and wettability control residual oil saturation and cluster distribution, even at intermediate IFT values.
+
+The study examines how wettability and oil-water interfacial tension affect residual oil after waterflooding at the pore scale. A multiphase lattice-Boltzmann solver was run on a 400^3 voxel (5 µm) digital model of Tarbert sandstone from micro-CT. Eight cases were simulated: contact angles of 30° (water wet) and 70° (intermediate wet), each with IFT of 40, 10, 1 and 0.1 mN/m, injecting about 3 PV of water. In water-wet cases Sor is similar at 40 and 10 mN/m and drops markedly at 1 and 0.1 mN/m, with little tail production after breakthrough and a cutoff in cluster length indicating snap-off trapping. Intermediate-wet cases show lower Sor, significant tail production, longer and more connected clusters, and cluster size distributions that change little with IFT.
+
+## Impact of Displacement Rate on Waterflood Oil Recovery Under Mixed-Wet Conditions
+
+- ID: SCA2015-011, year: 2015
+- Authors: Yukie Tanino, Blessing Akamairo, Magali Christensen, Stephen A. Bowden
+- Method: laboratory experiment
+- Keywords: mixed-wet waterflood, capillary number, capillary desaturation curve, microfluidic chip, limestone, remaining oil saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-011)
+
+Waterflood remaining oil saturation in mixed-wet limestones and a calcite microfluidic bed shows rate dependence emerging at Ca about 100 times higher than water-wet, with residual saturation rate-independent.
+
+Oil recovery by waterflood under mixed-wet conditions lacks a capillary-number framework comparable to water-wet media. The authors imaged secondary waterflood in a microfluidic chip packed with calcite grains using crude oil, and ran corefloods in Ketton and Indiana limestones with oil containing cyclohexane acids, at Ca from 6×10^-8 to 8×10^-4. In the limestones, So/Soi stayed constant up to Ca≈10^-4 and then decreased, two orders of magnitude higher than the water-wet threshold of 10^-6 to 10^-5. In the packed bed, So/Soi after 1 pore volume decreased with rate, but all rates converged to So/Soi≈0.5 by 10 pore volumes, so the rate dependence is transient. Water relative permeability was about 0.6, giving krw/(1-So) of 0.8-0.9 versus 0.2 in water-wet rocks, consistent with oil-wet grain surfaces.
+
+## Residual Oil Distribution in Sandstone with Different Permeability Scale During Water Flooding Process
+
+- ID: SCA2016-056, year: 2016
+- Authors: Xin WANG, Qi ZHANGab, Jun YAO, Yongfei YANG, Zhonghai ZHOUa, Liya Duana
+- Method: digital rock or imaging
+- Keywords: micro-CT, residual oil distribution, Euler number, sphericity, pore network model, waterflooding
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-056)
+
+X-ray micro-CT of waterflooding in four sandstones shows oil cluster patterns evolve strongly in well-connected rock but change little and stay complex in tight, complex pore structures.
+
+The study examines how pore structure controls residual oil distribution during waterflooding. Four water-wet sandstones (48.5–520.8 mD, porosity 0.20–0.25) were imaged by micro-CT at 3.78 μm after oil saturation and after 1, 5, 15 and 50 PV of brine injection, using 300³ voxel subvolumes. Oil clusters were classified into network, branch, multiple, singlet, and film/tubular patterns using sphericity and Euler number, and pore networks were extracted. In the best-connected sample, a network cluster holding 99% of the oil broke up (likely by snap-off) into mainly branched clusters after 50 PV, with some coalescence at high water cut. In tighter samples, patterns changed less, all five patterns coexisted throughout, and network-type oil dominated in the tightest sample.
+
+## Residual Oil Saturation Under Mixed-Wet Conditions: A Direct Comparison Between Indiana Limestone and Its Microfluidic Analogue
+
+- ID: SCA2017-009, year: 2017
+- Authors: Yukie Tanino, Magali Christensen, Xanat Zacarias
+- Method: laboratory experiment
+- Keywords: residual oil saturation, mixed-wet, contact angle, microfluidic analogue, Indiana limestone, waterflood
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-009)
+
+Residual oil saturation versus contact angle in Indiana limestone cores and a crushed-calcite microfluidic analogue shows the same non-monotonic trend, with an optimum at moderately oil-wet conditions.
+
+The optimal wettability for waterflood oil recovery remains disputed, so the authors compare residual oil saturation (Sor) in Indiana limestone cores and a quasi-monolayer crushed-marble microfluidic analogue. Wettability was varied with cycloalkane carboxylic acids in decane, giving advancing contact angles of 90° to 160°. Waterfloods were run at low capillary numbers, with Sor from mass balance in cores and image analysis in the chip. In both media Sor/Soi falls then rises with contact angle, fitted by concave-up quadratics; the minimum is about 0.31 near 130-135° in limestone and 0.41 near 115-120° in the chip. Sor/Soi in the chip exceeds that in the cores by 17-47%. CYDAR simulations show capillary end effects raise core-averaged Sor only 2-4%, so the rise at high contact angle is a real effect.
+
+## Fluid Topology in Drainage and Imbibition: Pore Scale Imaging by Synchrotron Tomography
+
+- ID: SCA2017-085, year: 2017
+- Authors: Hamid Hosseinzade Khanamiri, Ole Torsæter, Georg J. B. Voss
+- Method: digital rock or imaging
+- Keywords: Euler characteristic, synchrotron X-ray tomography, ganglion dynamics, low salinity surfactant, topology hysteresis, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-085.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-085)
+
+Time-resolved synchrotron tomography of drainage, waterflooding and low salinity surfactant flooding in Berea shows topology hysteresis arises from ganglia, and the connected-pathway Euler ratio may indicate wettability change.
+
+The study examines how fluid connectivity, quantified by the Euler characteristic, evolves during drainage and imbibition in a small water-wet Berea sandstone core (4 mm diameter, ~10 mm long). Fast synchrotron X-ray tomography at TOMCAT (3.25 μm pixels, scans every ~2 min) imaged oil injection, high salinity waterflooding and four alternating low salinity surfactant steps (with NaCl only or NaCl plus CaCl2; IFT 0.03–0.1 mN/m). Euler characteristics were computed separately for total phase, ganglia and the largest connected cluster of each phase. Hysteresis between drainage and imbibition appeared in ganglia and total phase for both oil and water, but not in connected pathways. The water connected pathway had near-zero negative χ, consistent with control by fixed pore geometry. Switching to NaCl-only surfactant caused a sharp rise in oil cluster number and χ, and the ratio χwP/χoP varied more in NaCl-only steps, hypothesized as a qualitative indicator of wettability change.
+
+## Greater-Than-One Relative Permeability in Mixed-Wet Limestone
+
+- ID: SCA2017-103, year: 2017
+- Authors: Magali Christensen, Luca Romanello, Yukie Tanino
+- Method: laboratory experiment
+- Keywords: greater-than-one relative permeability, mixed-wet Indiana limestone, contact angle, waterflood history matching, Brooks-Corey, end-point relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-103.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-103)
+
+Waterflood relative permeability in mixed-wet Indiana limestone shows end-point values above one for oil at low contact angles and brine at high angles, including wetting-phase flow.
+
+Relative permeability models usually assume kr ≤ 1, yet some studies report greater-than-one end points. Unsteady-state waterfloods were run on Indiana limestone cores (porosity 0.15, k about 6.6 mD) with five oils giving advancing contact angles of 55° to 150°, at Darcy velocities of 1.5 and 30 μm/s. Brooks-Corey curves were fitted by history matching pressure drop with CYDAR, using pore-network-derived capillary pressure. Oil end-point kro decreased and brine krw(Sor) increased with contact angle; krw(Sor) was up to about 3 times larger at the higher velocity. Normalising by flowing-phase saturation showed kr/S > 1 for oil at θo ≥ 45° (wetting phase flowing) and for brine only at θw > 130°, so enhanced permeability is not limited to non-wetting flow.
+
+## Impact of injection rate on transient oil recovery under mixed-wet conditions: a microfluidic study
+
+- ID: SCA2018-027, year: 2018
+- Authors: Magali Christensen, Xanat Zacarias-Hernandez, Yukie Tanino
+- Method: laboratory experiment
+- Keywords: capillary desaturation curve, microfluidics, capillary fingering, mixed-wet, capillary end effects, history matching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-027)
+
+Microfluidic waterfloods of mixed-wet marble grain beds show end-point oil saturation falling with Ca, but history-matched Sor barely changes, implicating capillary end effects across the whole bed.
+
+The study examines how water injection rate controls oil displacement in mixed-wet, quasi-monolayer packed beds of crushed marble in a 55 µm-deep microfluidic channel (k = 690 mD, φ = 0.27). Eight waterfloods were imaged over Ca = 5.5×10⁻⁸ to 2.2×10⁻⁴, and depth-averaged oil saturation was obtained from blue/red channel intensity ratios. Water invasion moved from stable displacement at the highest Ca, through a transitional regime, to capillary fingering at Ca ≤ 10⁻⁵, with no Ca-independent plateau at low Ca in the end-point saturation. CYDAR history matching with Brooks-Corey relative permeabilities and rescaled centrifuge Pc gave Sor that depended only weakly on Ca (about 0.56–0.58 for most runs, 0.46 at Ca = 1.5×10⁻⁶). Simulated saturation profiles indicate capillary end effects span the entire 1.5–3 mm bed at all Ca, so the apparent desaturation trend is largely an end-effect artifact; matching used only production data, so the fitted curves may not be unique.
+
+## Capillary Desaturation Curves and Insights on Trapped Oil at the Pore Scale, in Water-Wet and Oil-Wet Sandstones
+
+- ID: SCA2018-036, year: 2018
+- Authors: Hélène Berthet, Prisca Andriamananjaona, Sandra Barbouteau, Mathilde Hebert, Remi Farwati, Redouane Meftah, Gerard Quenault, Jean-Philippe Chaulet, Regis Brugidou, Richard Rivenq
+- Method: digital rock or imaging
+- Keywords: capillary desaturation curve, micro-computed tomography, trapped oil connectivity, wettability alteration, capillary number, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-036)
+
+Micro-CT imaging of whole sandstone plugs during waterflooding shows wettability controls capillary desaturation curves and oil connectivity, and that wettability alteration can be spatially heterogeneous.
+
+The study combines capillary desaturation experiments with micro-tomography of entire 4 mm by 30 mm plugs at 2-4 µm voxels. One water-wet Fontainebleau sample (seven waterfloods) and three Bentheimer samples aged with crude oil at 90°C for two weeks to become oil-wet were imaged after each waterflood. The water-wet case shows a saturation plateau up to a critical capillary number of about 3e-5 and strong oil fragmentation (18,000 blobs becoming 59,000 clusters, largest blob 0.3% of oil in place). In oil-wet cases, the oil stays largely connected, with the largest cluster holding over 80% of remaining oil in one test, and desaturation continues without a clear critical capillary number. The three oil-wet tests differed in recovery and connectivity, and images with contact-angle sign changes between neighboring pores show that wettability alteration was not uniform.
+
+## Residual Oil Saturation Under Mixed-Wet Conditions: Optimal Wettability Revisited
+
+- ID: SCA2018-040, year: 2018
+- Authors: Magali Christensen, Yukie Tanino
+- Method: laboratory experiment
+- Keywords: residual oil saturation, mixed-wet wettability, centrifuge imbibition capillary pressure, LET relative permeability, capillary end effects, Indiana limestone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-040)
+
+Centrifuge imbibition Pc and history-matched waterfloods in mixed-wet Indiana limestone show residual oil falls monotonically with contact angle; capillary end effects explain non-monotonic core-averaged waterflood results.
+
+The paper revisits the optimal wettability for waterflood oil recovery, where earlier studies disagree. Forced imbibition capillary pressure curves were measured by multi-speed centrifuge on Indiana limestone cores (k of about 3-7 mD) made mixed-wet with three organic acids in n-decane, giving advancing contact angles of 110°, 125° and 150°. The Pc curves were combined with earlier waterflood data to obtain LET relative permeabilities by history matching with CYDAR. Residual oil saturation decreases monotonically with contact angle in both centrifuge and waterflood analyses, though at 150° the centrifuge gives Sor of 0.15 versus 0 from waterflood. Core-averaged saturation after about 100 pv is non-monotonic because floods were stopped before equilibrium and because of capillary end effects; simulations show end effects raise the equilibrium saturation by 9% and 20% of pore volume at 110° and 150°.
+
+## Influence of Aspect Ratio and Wettability on Residual Oil Saturations after Waterflooding and Immiscible Gas Flooding: A Microfluidics Based Study
+
+- ID: SCA2018-063, year: 2018
+- Authors: Sushobhan Pradhan, Gbeu Kone, Ryan Antle, Clint Aichele, Haifeng Jiang, Prem Bikkina
+- Method: laboratory experiment
+- Keywords: microfluidics, aspect ratio, residual oil saturation, wettability, immiscible gas flooding, ImageJ saturation analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-063.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-063)
+
+Microfluidic chip floods with water then methane show that higher pore-throat aspect ratio raises residual oil, and wettability and channel depth also matter.
+
+The study examines how pore-throat aspect ratio (1.97–60.16), wettability and channel depth affect residual oil after waterflooding and immiscible gas flooding. Hydrophilic and hydrophobic linear and uniform microfluidic chips were saturated with dyed water and n-decane, then flooded with water (0.1 µL/min) and methane (0.3 sccm) at 100 psig, with saturations measured by ImageJ. In 20 µm linear networks, Sorw rose semilogarithmically with AR in both wettabilities, attributed to lower displacing velocity in larger pores; 40 µm hydrophobic chips had much lower residual oil than 20 µm chips. In uniform networks, Sorw showed no clear AR trend (41–51 %PV hydrophilic, 57–72 %PV hydrophobic), but Sorg correlated semilogarithmically with AR. At high AR the hydrophilic and hydrophobic Sorg converge and the Sorw–Sorg gap narrows, implying less incremental gas EOR potential.
+
+## An experimental and digital investigation into the impact of diagenesis above and below the oil-water contact
+
+- ID: SCA2019-052, year: 2019
+- Authors: Francis Mujica, Lesley A. James, Carl F. Berg, Derek H. C Wilton
+- Method: digital rock or imaging
+- Keywords: oil-retarded diagenesis, quartz cementation, MICP, micro-CT digital rock, Ben Nevis Formation, oil-water contact
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-052.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-052)
+
+Combining MICP, micro-CT and digital rock simulations on eleven Ben Nevis samples, the study finds more quartz cement below the OWC but similar pore structure and transport.
+
+The study examines whether diagenetic differences above and below the oil-water contact in the Ben Nevis Formation (Hebron field, offshore Newfoundland) change pore structure and transport properties. SEM and cathodoluminescence imaging of thin sections near the OWC showed more quartz cementation in the water zone, consistent with the oil-retarded diagenesis theory. Eleven core samples from the oil and water zones were characterized by MICP and micro-CT. Digital rock simulations modeled mercury injection (quasi-static morphological method), electrical conductivity (Laplace equation) and single-phase flow (Stokes equation). Despite the differing quartz overgrowth, pore structure was surprisingly consistent, so flow properties were not substantially affected.
+
+## A Pore-Level Analysis on Residual Oil Structure post Secondary and Tertiary Displacements
+
+- ID: SCA2019-067, year: 2019
+- Authors: Felix Servin
+- Method: laboratory experiment
+- Keywords: micromodel, residual oil structure, surfactant flooding, snap-off, coordination number, image analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-067.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-067)
+
+Micromodel waterflood and surfactant flood images show remaining oil shifts from large, irregular, multi-pore globules to small, round, single-pore snapped-off globules, with saturation falling from 35% to 15%.
+
+The paper examines how the structure of remaining oil evolves during waterflooding and tertiary surfactant flooding. A 2D micromodel mimicking sandstone topology was saturated with connate brine and oil (initial oil saturation 87%), then waterflooded and surfactant flooded. 25 microscopic images were taken after each stage and analyzed with in-house Matlab code for size, roundness and coordination number. Remaining oil saturation fell from 35% after waterflooding to 15% after surfactant flooding. After waterflooding, globules were irregular, spanned multiple pore bodies and were mainly trapped by bypassing, whereas after surfactant flooding nearly all were circular, occupied part of a single pore body and were trapped by snap-off. IFT reduction allowed viscous forces to mobilize globules, which the authors relate to the narrowest connected pore throat.
+
+## Geomechanical Deformation of Saturated Porous Media under Various Wettability Conditions: A Pore-scale Investigation
+
+- ID: SCA2022-25, year: 2022
+- Authors: Ahmed Zankoor, Rui Wang, Maziar Arshadi, Mohammad Piri
+- Method: digital rock or imaging
+- Keywords: pore-scale imaging, geomechanical deformation, in-situ capillary pressure, interfacial curvature, wettability, sandpack micro-CT
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-25)
+
+Micro-CT imaging of water-wet and oil-wet sandpacks under hydrostatic compression shows oil desaturation and capillary pressure drops, less uniform in oil-wet, with local pressure increases from pinned interfaces.
+
+Little is known about how pore space deformation affects fluid occupancy and capillary pressure at the pore scale, especially under different wettabilities. Two 10 mm by 75 mm Northern White sandpacks (porosity about 0.30, permeability 6.6 and 7.6 D) were drained with Soltrol (water-wet, contact angle 41.7°) or aged with crude oil (oil-wet, 107°). They were then compressed hydrostatically and imaged by micro-CT, with in-situ capillary pressure derived from interfacial curvature. Oil volume fell by 18% in the water-wet sample versus 6% in the oil-wet one, which was also less uniform. Capillary pressure dropped uniformly in the water-wet sample as interfaces moved to wider pores. In the oil-wet sample, capillary pressure rose locally in the middle, which is attributed to interfaces hinging in place and becoming more curved.
+
+## Integrated Field and Core Data Analysis of Residual Oil Saturation Measurements from ASP Flooding Candidate Sandstone Reservoir in North Kuwait
+
+- ID: SCA2023-035, year: 2023
+- Authors: Bodoor Baroon, Chen Chao, Issa Abu Shiekah
+- Method: laboratory experiment
+- Keywords: residual oil saturation, ASP flooding, restored wettability, steady-state relative permeability, centrifuge imbibition, bond number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-035.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-035)
+
+Restored-wettability steady-state and centrifuge floods on Zubair sandstone plugs, integrated with logs, Dean Stark and SWCTT data, show residual oil saturation below 0.20 for ASP baseline.
+
+The paper determines the waterflood baseline residual oil saturation for a planned ASP pilot in the Upper Zubair sandstone, Raudhatain field, North Kuwait. Restored-wettability experiments were run on 6 plugs from the pilot well (1000-2700 mD) and 8 plugs from an analogue field (180-650 mD): steady-state floods, Amott tests and multi-speed centrifuge imbibition/drainage. Steady-state Sor was 0.10-0.14 and centrifuge end-face Sor 0.12-0.16; analogue plugs gave 0.13-0.19. Amott tests showed no spontaneous imbibition, indicating non-water-wet rock. Centrifuge desaturation showed no onset up to a bond number of 1.9E-3, implying IFT below about 2E-3 mN/m is needed. Combined with logs, Dean Stark and SWCTT (0.24±0.02), remaining oil is 0.20±0.05 while true residual oil is below 0.20.
+
+## Evaluation of Residual Oil in the Wara, Mauddud, and Burgan Formations, Burgan Field, Kuwait
+
+- ID: SCA2024_1021, year: 2024
+- Authors: Antia Jonathan, Hayat Laila, Salter Greg, Chen Feiyan, Drylie Stephen, Ramoin Joe
+- Method: data analysis or correlation
+- Keywords: residual oil saturation, capillary number, imbibition capillary pressure, waterflood, Land trapping model, bypassed pay
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1021)
+
+Legacy and new capillary pressure and waterflood data from Burgan Field formations are used to build a porosity-based Sor model, revealing low core Sor from filtrate invasion and bypassed pay.
+
+Residual oil saturation (Sor) is critical for reserves, bypassed pay and EOR design but correlates poorly with rock quality. The study integrates legacy porous plate and centrifuge capillary pressure data and waterflood tests (extracted and wettability-restored samples) from the Wara, Mauddud and Burgan formations in the Burgan Field, Kuwait. Sor averages about 25% and ranges up to about 55-60%, consistent with published sandstone trends for the Wara. Mauddud and Burgan show many points below the published porosity trend, tied to argillaceous, mud-dominated and dolostone rock types with microporosity, and likely to filtrate invasion exceeding the capillary number during coring. Measured Sor approaches maximum trapped values from Land and Jerauld models (median Land C of 3.01). Petrophysical models show bypassed pay of 10-25% in much of the Middle Burgan, and residual oil needing EOR of about 25-30%.
+
+## Investigation of residual oil saturation at different capillary number regions through Surfactant-Polymer flood experiments
+
+- ID: SCA2024_1043, year: 2024
+- Authors: Shouq Alabdumuhsen, Meshal Algharaib, Osamah Al-Omair, Mahmoud Ali
+- Method: laboratory experiment
+- Keywords: capillary desaturation curve, surfactant-polymer flooding, capillary number, residual oil saturation, ultra-low interfacial tension, coreflooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1043)
+
+Eight secondary-mode surfactant-polymer coreflood experiments on Berea show recovery rises with capillary number, but ultra-low IFT conditions give unstable displacement and inconsistent residual oil saturation.
+
+The study examines how capillary number affects residual oil saturation when surfactant-polymer (SP) flooding is applied in secondary mode, before waterflood. Eight corefloods were run on synthetic Berea cores (3.78 cm by 30.2 cm, 21-43 md) in horizontal and vertical orientation at capillary numbers from about 1E-6 to 6E-4, varying polymer (2,000-3,000 ppm), surfactant (Triton X-100 or ENORDET J071), and salinity (5,000 or 200,000 ppm). Waterflood baselines at Nc ~1E-6 gave about 54% recovery and Sor of 0.33-0.35 with no orientation effect. At Nc ~7E-5, ultimate recovery rose to about 72% with Sor of 0.21-0.24. At Nc ~5-6E-4 with ultra-low IFT (0.08 mN/m), emulsions and unstable displacement appeared, with recoveries of 61-83%, and the vertical case sometimes broke through earlier. The results indicate that ultra-low IFT does not necessarily improve recovery and that Sor does not fall consistently at high capillary number.

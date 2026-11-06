@@ -1,0 +1,1018 @@
+# Core-log petrophysical integration
+
+> 78 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: petrophysical, log, porosity, logs, parameters, wells, plug, evaluation, images, formation.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Archie'S Dream: Petrophysics from Sidewall Samples and Cuttings
+
+- ID: SCA1998-05, year: 1998
+- Authors: T.W. Fens, M.A. Kraaijveld, R. Visser
+- Method: data analysis or correlation
+- Keywords: SEM backscattered electron imaging, sidewall samples, cuttings, image analysis porosity, Carman-Kozeny permeability prediction, multiple linear regression
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-05)
+
+Porosity and permeability are predicted from SEM/BSE images of small samples via regression on about 250 plugs, with R 0.94 and 0.89 and validation on 32 samples.
+
+Coring in HP/HT wells is costly, so the authors predict petrophysical properties from sidewall samples and cuttings using SEM backscattered-electron (BSE) images of impregnated, polished samples. A reference set of about 250 siliciclastic samples from many provinces was used to regress image parameters against plug measurements. Porosity (open plus micro-porosity) correlates at 0.94 with a standard error of about 2 porosity units. Permeability, from a Carman-Kozeny-type model using porosity, specific surface and pore body/neck aspect ratio, correlates at 0.89 with error within a factor of 3. A 32-sample Middle East validation set gave a porosity correlation of 0.87, with outliers explained by plug-scale heterogeneity (images cover about 3% of a plug section) and clay-swelling cracks from cleaning. The minimum sample size is about 3x3x3 mm, with 2x2 mm scanned areas at about 1 micron resolution.
+
+## A Fast and Direct Method of Permeability Measurement on Drill Cuttings
+
+- ID: SCA2002-23, year: 2002
+- Authors: P. Egermann, R. Lenormand, D. Longeron, C. Zarcone
+- Method: measurement technique or apparatus
+- Keywords: drill cuttings permeability, trapped gas compression, pressure diffusion, viscous oil injection, history matching, rig-site measurement
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-23)
+
+A fast method measures permeability of drill cuttings by viscous-oil invasion compressing trapped gas, history-matched with a diffusion model, agreeing with core permeability from 0.1 to 2000 md.
+
+Permeability is hard to obtain during drilling, and existing cuttings methods need conditioning or work only at very low permeability. The authors place about 100 cc of cuttings in a cell, saturate with viscous oil (200-1200 cP) leaving trapped helium, then apply a 10 bar nitrogen-driven pressure pulse. Oil invasion, driven by compression of trapped gas, is recorded at 500 Hz and history-matched with a spherical pressure-diffusion model (finite differences) to extract permeability. Tests on crushed cores of known permeability (0.14-1700 md) agreed well with core values: up to 2000 md with 3-5 mm cuttings, 200 md with 2-3 mm, and 50 md with 1-2 mm. Measurements take minutes, and porosity can be roughly estimated assuming 25% initial gas saturation.
+
+## Reservoir Rock Properties of Devonian Shale from Core and Log Analysis
+
+- ID: SCA1989-10, year: 1989
+- Authors: D.L. Luffel, F. Kent Guidry
+- Method: laboratory experiment
+- Keywords: Devonian shale, gas saturation, Dean Stark extraction, cation exchange capacity, mercury injection capillary pressure, fibrous illite
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-10)
+
+Core and log analyses of a Devonian shale well show porosity and gas saturation far higher than earlier reports, with Dean Stark ineffective and permeability results puzzling.
+
+Devonian shale has been regarded as a seal with little free gas storage, so core data are scarce. The authors measured porosity and saturations on 121 preserved core samples from a 150-ft air-drilled interval in West Virginia and compared them with a shale-specific log model. Core porosity averaged 4.5% and gas saturation 32.4% (bulk volume gas 1.3%); Dean Stark toluene extraction failed to remove water fully, and oven drying was needed. SEM showed fibrous illites unaffected by oven drying, and CEC and humidity-drying gave effective/total porosity of about 0.8. Mercury injection on ten plugs gave pore throats mostly 0.01-0.1 micron, while six plugs showed brine permeability far below gas permeability at native saturation, with no coherent relationship.
+
+## Extracting Information from Digital Images of Core
+
+- ID: SCA1991-25, year: 1991
+- Authors: Craig Phillips, Rocco DiFoggio, Kathryn Burleigh
+- Method: measurement technique or apparatus
+- Keywords: digital core images, color discrimination, principal component analysis, paylog, thin-bed analysis, borehole image calibration
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-25)
+
+Describes ImageLog, a color-discrimination system using ellipsoid models in RGB space to quantify sand, shale and fluorescing oil sands in core images for log calibration and thin-bed analysis.
+
+The paper presents ImageLog, a system for quantitative analysis of digital core images captured in white, UV and infrared light. Users pick a few training pixels, and an ellipsoid fitted to the color cloud by principal component analysis (covariance eigenvectors) classifies similar colors, avoiding the inappropriate colors included by rectangular RGB boxes. Outputs include dip-oriented net/gross ("paylog"), sand flag, bed thickness and global net/gross every 1/120 ft. Applications shown include calibrating FMS and CBIL borehole images, orienting core fractures, depth shifting, and image enhancement. In a thin-bed example, FMS pad 1 versus SFL cross plots with beds under 1 ft removed gave a 4 ohm-m sand/shale cutoff, whose predictions compared favorably with core-image sand/shale ratios in a second cored well.
+
+## Formation Evaluation by Multidimensional Petrophysical Correlations in Azerbaijan
+
+- ID: SCA1992-03, year: 1992
+- Authors: Alexander Rutman, Haim Fligelman
+- Method: data analysis or correlation
+- Keywords: multidimensional regression, well log interpretation, porosity-permeability correlation, clay content, SP and gamma-ray logs, Azerbaijan Productivnaja Tolshcha
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-03)
+
+Multidimensional regression polynomials relate old Azerbaijan well logs to core porosity, permeability and clay content, giving good porosity agreement and showing log errors dominate uncertainty.
+
+Many older Azerbaijan wells have only early-type logs with no porosity device, so quantitative interpretation is difficult. The authors regressed core-measured porosity, permeability and clay content from about 500 cores of the Neogene Productivnaja Tolshcha formation (1500-2000 m; porosity 18-30%, permeability 20-800 md) against resistivity, SP, gamma-ray, neutron, depth, temperature and caliper data. Polynomials were fitted by least squares, validated on a second random subsample using the Fisher criterion, and ranked by correlation coefficient and a variable-contribution measure. Single-log permeability correlations were poor (θ 1.04-1.11), while multivariable correlations including depth were better (e.g., r = 0.80 for porosity, 0.84 for clay parameter q). Dimensionless SP and resistivity groups performed worse than raw log values. Calculated porosity agreed well with core porosity, and error analysis showed logging errors dominated the correlation error (e.g., S for ln k of 0.81 from logs versus 0.50 from cores).
+
+## Constructing Core Petrophysical Groups: A Key Step to Reconcile Petrophysical and Geological Core Data in Reservoir Modelling
+
+- ID: SCA1995-17, year: 1995
+- Authors: H. N. Greder, B. Caline, F. M. Petit, F. M. Pellerin, P. M. Calatayud
+- Method: data analysis or correlation
+- Keywords: petrophysical groups, cluster analysis, reservoir modelling, sequential indicator simulation, mixed carbonate-siliciclastic reservoir, diagenesis
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-17)
+
+Clustering plug porosity, permeability and grain density into six Petrophysical Groups, then distributing them within geostatistically modelled sedimentary bodies, reduces property dispersion versus 17 lithofacies in a mixed carbonate-siliciclastic reservoir.
+
+In a mixed carbonate-siliciclastic Albian reservoir, properties vary widely within sedimentary facies because of diagenesis, so facies are poor predictors of rock properties. Over 1000 plug measurements of porosity, gas permeability and grain density from two wells were clustered into six Petrophysical Groups (Group 0 for k<0.1 mD). Capillary pressure and relative permeability were assigned per group, and thin sections and XRD linked groups to dolomitization and dissolution. Five sedimentary bodies were generated by 3-D object modelling, Groups were simulated within them by sequential indicator simulation, and porosity and permeability were simulated per group. Within groups porosity dispersion stayed below 3.9 p.u. and permeability below 0.48 decades, versus 4.5-7 p.u. and 0.7-1 decade within the original 17 lithofacies.
+
+## Porosity from Cuttings : Optitions and Answers
+
+- ID: SCA1996-06, year: 1996
+- Authors: M.Della Martera, M.R. Saunders
+- Method: laboratory experiment
+- Keywords: cuttings porosity, NMR relaxometry, helium pycnometry, Boyle's law porosity, wellsite formation evaluation, vuggy porosity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-06)
+
+Three wellsite-compatible methods (two volumetric devices and NMR) for measuring porosity on simulated cuttings were tested against core plugs; cuttings of 2 mm or larger give meaningful porosity.
+
+The paper evaluates ways to obtain porosity from drill cuttings at the wellsite as an alternative to coring or logging. Simulated cuttings (2-4, 1-2 and 0.25-0.5 mm) were crushed from sandstone, limestone, dolomite, siltstone and shale plugs and measured with a glass-bead/Boyle's law device (A), a helium pycnometer plus bulk volume device (B), and low-field NMR (MARAN-2, 2.2 MHz). Cuttings porosity correlates with core porosity for 2-4 mm sandstones and dolomites (A: r=0.93 and 0.67; B: 0.79 and 0.78), but poorly for vuggy limestones (r about 0.25) and for smaller chips; 0.25-0.5 mm results were unreliable. NMR gave r² of 0.88 (limestone), 0.84 (sandstone) and 0.52 (dolomite), with dolomite overestimated because NMR sees total rather than effective porosity. Device A was very sensitive to ambient pressure (54% porosity change for 40 mb) and device B was too costly, while NMR could determine porosity in about 30 minutes once cuttings of about 0.5 cc are saturated.
+
+## Predicting Rock Properties from Digital Core Images
+
+- ID: SCA2002-34, year: 2002
+- Authors: Christopher M. Prince, Petro Image, Reservoir Management
+- Method: measurement technique or apparatus
+- Keywords: spatial analysis, Fourier transform power spectrum, grain size distribution, laser particle size analysis, digital core imaging, permeability estimation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-34)
+
+Fourier-based spatial analysis of high-resolution slabbed core images estimates grain size matching LPSA and direct measurement, and permeability estimates from modal grain size agree with measurements.
+
+Archived core photos and low-resolution images support only qualitative work, so the authors test whether high-resolution digital images of slabbed core can give grain size and permeability logs. A 2-D Fourier transform radial power spectrum of the image, originally developed for thin sections, is used to derive grain size distributions. Images from four unlithified core intervals and three plug ends were taken with a Nikon D1X, and results were compared with laser particle size analysis and direct measurement of 100-150 grains per image. Mean and modal grain sizes agree well among the three methods, though sorting and higher moments cannot be compared because LPSA is a whole-sample method and the image methods see only framework grains. Permeability estimated by regression of log K on modal grain size agreed well with measured values. An appendix discusses resolution needs (about 1000 dpi for fine sand, about 5000 dpi for coarse silt), file sizes, and two-stage digitization.
+
+## A Density-Based Imaging Technique to Supplement Fmi Images for Sedimentary Facies Modeling
+
+- ID: SCA2003-58, year: 2003
+- Authors: Shameem Siddiqui, Aon A. Khamees, R. Kumbe Sadler, G. Wyn
+- Method: digital rock or imaging
+- Keywords: CT scanning, FMI image logs, rudist, bulk density, carbonate facies, core-log integration
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-58.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-58)
+
+An algorithm extracts near-surface density data from CT-scanned cores to build FMI-type images, helping identify rudist facies in a Lower Aptian carbonate reservoir.
+
+FMI image interpretation needs validation against core, but visual core description can miss heterogeneity. The authors developed an algorithm that converts CT numbers to bulk density, draws the largest circular region of interest near the periphery of each slice, and stacks these circumferential density strips with depth-shifted positions to form an unwrapped, FMI-like image. It was applied to eight roughly 60 ft cores from a vertical well in a Lower Aptian carbonate reservoir in Saudi Arabia, with Core #2 studied in detail. Twelve tubes with rudist-like features were rescanned at 5 mm spacing and 5 mm beam width instead of the usual 2 inch spacing. Rudists appeared as highly resistive features on FMI and matched the CT density images, allowing in-situ and displaced rudist assemblages to be distinguished and supporting facies interpretation in uncored horizontal wells.
+
+## Stochastic Approach to Computation of Uncertainties in Petrophysical Properties
+
+- ID: SCA1989-07, year: 1989
+- Method: theory or analytical model
+- Keywords: uncertainty analysis, error propagation, core porosity, formation factor, well test permeability, density log porosity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-07)
+
+Root-mean-square error propagation equations are derived for core, log and well-test properties, with worked examples showing uncertainties in pore volume, porosity, formation factor and permeability.
+
+Petrophysical properties carry random errors from their input variables, and the paper develops root-mean-square uncertainty equations for core, log and well-test quantities. Partial-derivative-based equations are tabulated for pore volume, bulk and grain volume, porosity, saturations, electrical properties, permeability, relative permeability, build-up permeability and log porosity. Worked examples show that a 0.1% uncertainty in all inputs gives a saturation pore volume uncertainty of ±1.67%, while 0.5% uncertainty in bulk and grain volume gives ±6.4% relative porosity uncertainty at 10% porosity, exceeding the API ±0.5 pu limit. Formation factor uncertainty is ±2.8% for 2% errors in Ro and Rw, and predicted ±4% agreed reasonably with observed ±5% repeat scatter. For density-log porosity, relative error is about twice as large at 10% porosity as at 20%, so the absolute error is about ±2 porosity units in both cases, and bulk density is the dominant contributor. The equations can also set tolerable limits on input variables, but they do not capture systematic errors.
+
+## Deciphering Core and Log Porosity Differences and Evaluating the Scale Dependence of Core Analyses in a Complex Lithology
+
+- ID: SCA1994-11, year: 1994
+- Authors: June Gidman, Frank. J. Conner, Dennis J. Fischer
+- Method: field or reservoir case study
+- Keywords: full-diameter vs plug permeability, minipermeameter, core-log porosity discrepancy, bioturbated mottled siltstone, density log rugosity, permeability scale-up
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-11)
+
+Core porosity (~20%) versus log porosity (~30%) in a bioturbated West African reservoir is explained by borehole rugosity from washed-out burrows; plugs underestimate permeability below 80 mD.
+
+Core porosities averaged about 20% while density and neutron-density log porosities averaged about 30% in a mixed siliciclastic/carbonate reservoir offshore West Africa, creating reserves uncertainty. Three new wells were cored and measured at full-diameter, 1-inch plug and minipermeameter scales, with redundant Archimedes, caliper and Boyle's Law measurements for quality control. Vugs made up under 4% of the section, so they did not explain the gap. Mottled siltstones with porous burrow fills in tight silty dolomite were heterogeneous: plug ends differed by up to three orders of magnitude, and plugs underestimated permeability below about 80 mD, so a power-law scale-up was applied. Full-diameter porosity exceeded plug porosity in carbonates by 1.6 p.u. on average. The log porosity excess coincided with burrow mottling, where washed-out burrows created small-scale borehole rugosity that the density pad read as extra porosity.
+
+## Upscaling from Core Data to Production: Closing the Cycle. a Case Study in the Santa Barbara and Pirital Fields, Eastern Venezuela Basin
+
+- ID: SCA2001-02, year: 2001
+- Authors: Juan Carlos, Petróleos de Venezuela S.A. BARBATO, Petróleos de Venezuela S.A. SALAZAR, Universidad de Oriente
+- Method: field or reservoir case study
+- Keywords: Pittman R45 pore throat radius, mercury injection capillary pressure, rock typing, production log analysis, flow units Lorenz plot, Winland equation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-02)
+
+Core porosity, permeability and MICP data define pore-throat (R45) rock types that are correlated with normalized production-log flow contributions, with stronger relations in oil wells than gas/condensate wells.
+
+The study links core-derived rock types to well production in the Santa Barbara and Pirital fields, Eastern Venezuela Basin. Routine core data from 17 wells and MICP from 11 wells were used to test Winland/Pittman pore-throat equations. The R45 equation best matched MICP radii and was used to define five rock types (mega- to nannoporous). Residual water saturation was found to be controlled by pore geometry. Production logs were normalized for differential pressure and interval thickness (flow contribution per foot, APP) and compared with normalized permeability and K/phi-based variables. A clear relation between rock quality and flow contribution was found, stronger for oil wells (28-35 °API) than for gas/condensate wells (35-41 °API), enabling estimation of well production profiles from petrophysics.
+
+## Factors Affecting Relative Permeability Measurements for the Miocene and the Rotliegend Poorly Consolidated Sandstones
+
+- ID: SCA2003-61, year: 2003
+- Authors: Piotr Such, Poland Grzegorz Lesniak
+- Method: laboratory experiment
+- Keywords: relative permeability, poorly consolidated sandstone, residual water saturation, fractal dimension, hairy illite, mercury injection capillary pressure
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-61.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-61)
+
+Steady-state gas and water relative permeability on 113 Rotliegend and Miocene sandstones shows pore space damage from clay effects and cement destruction, linked to residual water saturation and fractal dimension.
+
+Gas reservoirs in Polish Rotliegend and Miocene sandstones require multiphase flow data, but many of these rocks are poorly consolidated and damaged by contact with reservoir water. Steady-state relative permeability tests under reservoir conditions were run on 68 Rotliegend and 45 Miocene samples, supported by mercury injection capillary pressure, fractal dimension and thin section analysis. Base relative permeability to gas reached 0.86-0.9 at most, but many samples were low, and 13 samples closed completely during water flow. Over 50% of samples showed pore space damage, and undamaged samples had gas relative permeability above 0.6. Damage in the Rotliegend came from hairy illite webs, extraction of illite/chlorite plates and swelling of mixed-layer clays (20-35 min reaction). In the Miocene, damage came from mechanical extraction of cement and grain collapse, which sharply raised residual water saturation.
+
+## Petrophysical Sampling Strategy for a Model-Dominated User Group Using an Experimental Design Checklist Approach
+
+- ID: SCA2001-01, year: 2001
+- Authors: Patrick W.M. Corbett, David K. Potter, Dave Bowen
+- Method: review or workflow
+- Keywords: experimental design, sampling strategy, genetic petrophysics, shoreface sandstone, poroperm relationships, reservoir modelling
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-01)
+
+Applies a 13-step experimental design checklist to plan core sampling for reservoir modellers, illustrated retrospectively with a North Sea shoreface reservoir where one parasequence represented the whole cored well.
+
+Core sampling has traditionally been based on regular plug spacing and sample availability, whereas reservoir modellers now need petrophysical data by rock type and at model block scale. The authors adapt Robinson's experimental design checklist (consult, clarify objectives, use existing data, list variables, broad strategy, update beliefs) to core analysis and apply it retroactively to a North Sea shallow marine sandstone. A single 7.3 m (24 ft) shoreface parasequence, containing upper and lower shoreface units, was tested as representative of the 122 m (400 ft) cored section. Results showed distinct poroperm relationships for each unit, linked to quartz overgrowth in the upper shoreface and illite in the lower shoreface, with barite-filled fractures as outliers. Existing special core analysis data came only from the upper shoreface, revealing sampling bias. A staged budget (10% preliminary, 50% main trial, 40% reserve) and Genetic Petrophysics screening are recommended.
+
+## The Use of Core Derived Quantitative Mineralogical Data to Improve Formation Evaluation
+
+- ID: SCA1990-10EURO, year: 1990
+- Authors: Kenneth Guest
+- Method: data analysis or correlation
+- Keywords: FTIR mineralogy, grain density, Brent Group, statistical log analysis, clay volume from gamma ray, siderite
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-10EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-10EURO)
+
+FTIR-based quantitative mineralogy (Mineralog) on Brent Group core improves deterministic and statistical (Optima) log evaluation of porosity and clay, and aids sand correlation.
+
+Log evaluation usually ignores geological information, so mineral effects on density, neutron and gamma ray responses cause errors. The paper applies FTIR spectroscopy (Mineralog, accurate to within ±5 wt%) to a North Sea Jurassic Brent Group well and compares log-derived results with core porosity, grain density and clay. Using a constant 2.65 g/cc grain density gives clear porosity errors in siderite-rich intervals (siderite up to ~50% in the Broom sand, grain density up to ~3.3 g/cc); each 1% siderite lowers porosity by ~0.8 porosity percent. Mineralog grain density improves the match, and a mica correction improves it further (maximum grain density discrepancy 0.04 g/cc at 16% muscovite). Mineralog total clay calibrates gamma-ray Vcl, which is distorted by K-feldspar, mica and non-radioactive kaolinite. Feeding mineral volumes into the Optima statistical program gives excellent agreement with core porosity, and distinct mineral assemblages can fingerprint the four Lower Ness sands for correlation.
+
+## A Fresh Look at Predictive Equations for Compressional Wave Velocity - Porosity
+
+- ID: SCA1990-14EURO, year: 1990
+- Authors: N. Robin Brereton, David M. McCann
+- Method: data analysis or correlation
+- Keywords: compressional wave velocity, porosity-velocity transform, Wyllie time average, Wood equation, acoustic impedance, ODP Leg 123
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-14EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-14EURO)
+
+Using ODP Leg 123 sediment and basalt data, the authors compare porosity-velocity models and propose a semi-empirical acoustic impedance transform that fits better than Wyllie, Wood or Wyllie-Wood.
+
+Established porosity-velocity equations (Wyllie time average, Wood, Wyllie-Wood, Nafe-Drake, Raymer, Raiga-Clemenceau) are tested against shipboard index property and 500 kHz velocity measurements on sediments and basalts from ODP Leg 123 (Sites 765 and 766), covering porosity from near 0 to 100%. The time average equation fails over the full range, and fitting it requires unrealistically low matrix and pore water velocities (5800-6200 and 1050 m/s). The Wood equation predicts well above about 62% porosity, and a Wyllie-Wood form with porosity-weighted rigidity terms improves the fit. A new semi-empirical acoustic impedance equation, with q equal to 0.22 (Poisson's ratio 0.42), fits better over both high and low porosity. Regressing predicted on measured velocities gives slope 0.90 and R2 of 96 for the impedance equation, against slope 0.70 and R2 of 95 for the modified Wyllie-Wood.
+
+## Sensitivity Analysis of Errors in Reserve Evaluations Due to Core and Log Measurement Inaccuracies
+
+- ID: SCA1990-19EURO, year: 1990
+- Authors: John Owens, Peter Cockcroft
+- Method: theory or analytical model
+- Keywords: sensitivity analysis, Archie equation, water saturation, volumetric reserves, cementation exponent, porosity uncertainty
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-19EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-19EURO)
+
+A simple one-at-a-time ±10% sensitivity analysis of Archie parameters shows which core and log measurements most affect volumetric reserves, illustrated for Rotliegende gas and Brent oil examples.
+
+Reserve estimates depend on water saturation, which is computed from Archie parameters (porosity, m, n, Rw, Rt). The authors propose a quick sensitivity analysis that perturbs each parameter individually by ±10% (with m=n=2) around representative values and recomputes reserves using a volumetric constant. Applied to a typical Southern North Sea Rotliegende gas field (1 Tcf assumed) and a Northern North Sea Brent oil field (100 MMbbl assumed), the results show reserves are most sensitive to porosity, then m and n, and least sensitive to Rw and Rt. In the Rotliegende case a 10% change in m changed GIIP by +14%/-17%, and n by about ±6-7%, while Rw gave about ±4%. Brent sensitivities were generally smaller, and responses to m and Rt are non-linear at larger errors. The method assumes independent parameters, clean formations or shale-corrected values, and consistent porosity definitions, and it helps prioritise coring, core analysis and logging effort.
+
+## Core Analysis to Calibrate Well Log Interpretation
+
+- ID: SCA1991-03EURO, year: 1991
+- Authors: Jan Rafdal
+- Method: review or workflow
+- Keywords: log calibration, Archie saturation exponent, shaly sand, North Sea chalk, J-function, core-log scale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-03EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-03EURO)
+
+Reviews how core data calibrate and verify log interpretation of lithology, porosity, saturation, permeability, net/gross and compaction, with North Sea examples and scale and uncertainty issues.
+
+The paper reviews how core analysis is used to calibrate well-log interpretation for static and dynamic reservoir description. It covers lithology and clay mineralogy, porosity response equations, Archie saturation and shaly-sand corrections, J-function capillary pressure, net/gross, permeability, fluid contacts, recovery and rock mechanics. A North Sea chalk example shows density-log porosity and Archie Sw agreeing with core porosity (approaching 50%) and Dean-Stark saturations on average over the cored interval, despite thin laminations not resolved by the log. Brent 'mica' sands illustrate how radioactive minerals cause shaly log response and underestimated porosity unless calibrated with core. The saturation exponent can only be derived from core and depends on wettability. Scale differences between measurements and core and log representativeness are discussed, and improved standards are called for.
+
+## Characterization of Devonian Shales with X-Ray Computed Tomography
+
+- ID: SCA1991-22, year: 1991
+- Authors: A. Ted Watson, Jim Mudra, Texas A
+- Method: measurement technique or apparatus
+- Keywords: X-ray computed tomography, Devonian shale, xenon gas storage, adsorption, microfractures, dual-scan porosity
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-22)
+
+Dual-scan xenon X-ray CT quantifies gas storage in a Cleveland Shale plug, detecting sub-resolution fractures and finding storage far above porosity.
+
+Devonian shales are heterogeneous, with very low matrix permeability and fractures, so conventional core tests give averaged values of limited use. The authors applied a dual-scan X-ray CT method with xenon at 50 psia and room temperature to a 1.5 inch Cleveland Shale plug. Voxel-by-voxel differencing of evacuated and xenon-saturated scans gave a storage ratio (xenon attenuation in rock over bulk gas attenuation) that equals porosity unless adsorption, solution or densification occurs. Measured porosity of an adjoining sample was 6.3%, while the average storage of slice 3 was 0.15 and about a quarter of the slice reached 25%. Thin sections showed that the high-storage streaks were unmineralized fractures, probably induced by coring, and that a pyrite nodule stored much xenon. Fractures of tens of microns, below scanner resolution, were detected, and results are consistent with very low matrix permeability and strong adsorption.
+
+## Integration of Core Data for Calibrated Shaly-Sand Log Analysis
+
+- ID: SCA1992-01, year: 1992
+- Authors: Jeff Hawkins, Senior Reservoir Engineer
+- Method: field or reservoir case study
+- Keywords: shaly-sand log analysis, Modified Simandoux, FTIR mineralogy, clay volume, formation resistivity parameters, capillary pressure Swi
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-01)
+
+Core mineralogy, porosity, clay volume and resistivity data calibrate shaly-sand log models for the 4th Grubb reservoir; the calibrated Modified Simandoux model matched capillary pressure and production data.
+
+The paper shows how routine and special core analysis can calibrate shaly-sand log interpretation in the deep, mineralogically complex 4th Grubb turbidite sands (San Miguelito Field, California). FTIR and XRD gave consistent mineralogy, with illite-dominated clay of 4 to 42 wt% (average 11.3). Grain density averaged 2.65 g/cc and showed no correlation with clay content, so density-log porosity agreed with stress-corrected core porosity (11.4% vs 11.8%). The neutron-density crossplot overestimated clay volume by about 20% clay volume, whereas gamma-ray Vclay calibrated to FTIR core data fit well. Parameter estimation on laboratory resistivity data favored the Modified Simandoux equation, with clay resistivity of 1.74 ohm-m versus 1.6 from Co/Cw, and two-electrode data were rejected because of end effects. Log saturations agreed with capillary-pressure Swi (25-45% vs 27-38%) in Grubb 366 and with fractional-flow-derived saturation (about 54%) in Grubb 396.
+
+## Applications of Digital Core Image Analysis to Thin-Bed Evaluation
+
+- ID: SCA1992-06, year: 1992
+- Authors: D. T. Georgi, C. Phillips, R. Hardman, Long Beach
+- Method: data analysis or correlation
+- Keywords: core image analysis, thin-bed evaluation, sand-shale ratio, neutron-density crossplot, induction log forward modeling, laminated sands
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-06)
+
+Color-based digital analysis of core photographs gives sand-shale ratios and bed boundaries that calibrate neutron-density Vsh and constrain induction log forward modeling, roughly doubling estimated reserves in a laminated sand.
+
+Thinly bedded laminated sands are hard to evaluate from logs, and core photographs are normally used only qualitatively. The authors digitize white-light or UV core photographs and classify sand versus shale by color, using a trained RGB ellipsoid. This gives sand-shale ratio, sand flag, thickness and percent logs every 1/120 ft. For Alaskan and Gulf Coast laminated sands, the image sand fraction was used to place the clean-sand and shale points on neutron-density crossplots, giving Vsh that agreed well with the image results. Core-derived bed boundaries and dip were then used in induction log forward modeling with shale fixed at 2.5 ohm-m and sands constrained equal per zone. In the example (110 ft gross, 7.1% porosity), average Sw fell from 82.7% to 65%, and the computed reserves (2.7 ft) were double those from the measured deep resistivity (1.3 ft).
+
+## Adsorption Measurements in Devonian Shales
+
+- ID: SCA1993-02, year: 1993
+- Authors: X. Lu, F.C. Li, A.T. Watson
+- Method: measurement technique or apparatus
+- Keywords: methane adsorption isotherm, Devonian shale, volumetric apparatus, error analysis, total organic carbon, illite
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-02)
+
+A volumetric adsorption apparatus with error analysis, NIST-standard dual-expansion calibration and ±0.005°C control measures methane isotherms on Devonian shales, showing adsorbed gas averages 61% of storage.
+
+Devonian shales adsorb little gas (about 0.5–5 scc/g at 1000 psi), so conventional volumetric methods give unacceptable errors. The authors built a volumetric helium/methane apparatus (4.86 cc reference cell, 25 cc sample cell) designed from a maximum-error analysis, which predicts errors below 8% for sorption and adsorption isotherms. Cell volumes were calibrated by dual-gas expansion with a NIST silicon crystal standard (error below 0.4%), and a PI-controlled water bath held temperature within ±0.005°C. Replicate isotherms agreed within 3%. Across 24 samples from five wells, adsorbed gas averaged 61% of total storage at 500 psi. Adsorbed amount correlated linearly with TOC, illite showed significant adsorption, and capacity increased as temperature fell from 60 to 25°C.
+
+## Core Petrophysical Groups in Wggy Carbonate Reservoirs
+
+- ID: SCA1996-39, year: 1996
+- Authors: H. N. Greder, B. Ferreol, L. Sabatier, F. M. Pelterin
+- Method: data analysis or correlation
+- Keywords: petrophysical groups, cementation factor, cluster analysis, vuggy carbonate, relative permeability, rock typing
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-39)
+
+Cores from a vuggy carbonate reservoir are clustered on porosity, permeability, grain density and cementation factor into petrophysical groups that are less dispersed than lithofacies and geologically meaningful.
+
+Conventional lithofacies subdivisions of cored intervals often ignore petrophysical behavior, which limits reservoir model rock typing. Over 700 plugs from four continuously cored wells in an Albian dolomite and sandstone reservoir were measured for porosity, gas permeability, grain density and cementation factor. Cutoffs (0.1 mD, grain density 2.78 g/cm3, m of 2.05 and 2.35) and a k-means plus hierarchical clustering produced six groups: a low-permeability group 0, three dolomite groups D1 to D3, and two sandstone groups S1 and S2. Capillary pressure and full-size waterflood experiments at high and low rate, history matched, gave a Sw law and a consistent relative permeability set per group. A geologist's vug description showed the groups reflect lithology and dissolution intensity (D3 has the most vugs), and porosity and permeability dispersion within groups is smaller than within the seven lithofacies ensembles.
+
+## Estessive Core ~Ali'Sis Data Improved the Description of the C:Arapita and Sak Juas Reservoirs in Eastere: Venezuela
+
+- ID: SCA1996-40, year: 1996
+- Authors: Henry A. Ohen
+- Method: data analysis or correlation
+- Keywords: hydraulic flow units, flow zone indicator, core-log integration, permeability prediction, Waxman-Smits saturation, Venezuela sandstone reservoirs
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-40)
+
+Hydraulic flow units from core data delineate seven Carapita and ten San Juan units; log-based models predict FZI and permeability in uncored intervals, validated by cores and production tests.
+
+The highly heterogeneous Carapita and San Juan sandstone reservoirs in the Orocual Field (eastern Venezuela) were poorly served by conventional formation evaluation. The authors built composite core and log databases, filtered core data by FZI error, stress-corrected permeability, and used FZI histograms and cluster analysis to define hydraulic units, giving seven units in Carapita and ten in San Juan. Petrographic descriptions, irreducible water and residual oil saturation trends confirmed the units. Deterministic non-linear equations (Levenberg-Marquardt) relating FZI to porosity, gamma ray, neutron-density difference or resistivity gave a correlation coefficient of 0.88 against core FZI, and were preferred over a probabilistic model. Production tests confirmed predicted producibility in all but two Carapita wells, which were attributed to drilling and completion damage.
+
+## Calibrated Coreimage Digitisation, a Prerequisite to Make Real Quantitative Use of Coreslab Images
+
+- ID: SCA1996-42, year: 1996
+- Authors: T.W. Fens, W.J.M. Epping
+- Method: measurement technique or apparatus
+- Keywords: core image digitisation, image calibration, coreslab photography, UV/white light imaging, thin-bedded sand-shale, image log
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-42)
+
+Shell describes a digital camera set-up and calibration workflow (COREPIX) that turns coreslab photographs into continuous, quantitative core image logs for formation evaluation.
+
+Digital scanning of coreslabs has mostly been used for archiving, but quantitative image analysis requires calibrated images. Shell International Exploration and Production in Rijswijk developed a set-up that replaces the standard 35 mm camera at existing core photography sites with a digital camera. Calibration includes geometric and colour balance normalisation, UV/white light image matching, removal of artefacts such as cracks, plug holes and rubbled zones, and concatenation of core sections into a continuous image log. The log can be loaded into third-party image interpretation packages for depth matching to wireline logs and for quantitative analysis of laminated thin sand-shale sequences and turbidites. A joint industry project with an image analysis software company produced COREPIX, a high-resolution colour camera with a PC and Windows interface, with prototype testing being finalised and commercial availability expected in the third quarter of 1996.
+
+## Log Interpretation Parameters Determined from Chemistry, Mineralogy and Nuclear Forward Modeling
+
+- ID: SCA1997-27, year: 1997
+- Authors: Michael M. Herron, Susan L. Herron
+- Method: data analysis or correlation
+- Keywords: aluminum clay correlation, FT-IR mineralogy, nuclear forward modeling, sigma matrix, neutron porosity, gamma ray clay volume
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-27)
+
+Core FT-IR mineralogy, geochemistry and nuclear forward modeling show clay, sigma matrix, neutron porosity and hydrogen index correlate better with aluminum than gamma ray in two wells.
+
+Log interpretation parameters such as clay volume are often scaled arbitrarily from gamma ray ranges. Core plugs from a European well and a Texas gas well were analyzed by dual-range FT-IR mineralogy (±2 wt%) and extensive elemental chemistry, then used with SNUPAR-based nuclear forward modeling to compute gamma ray, sigma matrix, neutron porosity and hydrogen index. In the European well, clay correlated with aluminum at r=0.98 (standard error 2.6 wt%), versus r=0.86 (8.7 wt%) for gamma ray and r=0.95 for neutron-density separation. Sigma matrix, matrix neutron response and hydrogen index also correlated better with Al than with gamma ray. In the Texas well, gamma ray scaled 0-60% clay gave ~20 wt% errors, and the Bhuyan-Passey approach missed sands at 3600-3700 and 4950 ft affected by volcanic ash, while Al-derived clay did not. Regression parameters are tabulated for both wells.
+
+## Plug Gamma Ray: Key to Formation Evaluation
+
+- ID: SCA1997-32, year: 1997
+- Authors: Daniel T. Georgi, Paul A. Bergren, Western Atlas, Chuck A. Devier
+- Method: measurement technique or apparatus
+- Keywords: plug gamma ray, core-log correlation, GAPI calibration, grain size, cation exchange capacity, sidewall cores
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-32)
+
+Gamma-ray measurements on core plugs, calibrated to API standards, give better correlations with core petrophysical properties than wireline gamma ray, enabling depth-independent core-log integration.
+
+Core-plug properties are hard to correlate with wireline gamma ray because of the roughly 1000:1 volume difference and depth misalignment of about 6 in. The authors built a gamma-well NaI detector with lead shielding, calibrated to a 200 GAPI KUTh billet, with counting times of 10-30 minutes per 1-inch plug. Plug gamma ray agrees on average with wireline values but shows far greater variance. Correlations with plug gamma ray were much stronger: r² for percent sand rose from 0.28 to 0.57, and for silt and clay from 0.1 and 0.28 to 0.49 and 0.43. Examples show a 40 GAPI boundary between fine and very fine sands, a 60 GAPI permeability cutoff, a diatomite trend, and CEC and clay content correlating with plug gamma ray but not with continuous core gamma ray.
+
+## Improved Characterisation of Fine Scale Structure: Integration of Downhole and Core Electrical Image Data
+
+- ID: SCA1998-20, year: 1998
+- Authors: P. D. Jackson, M.A. Lovell, P.K. Harvey, C. G. Williams, R.C. Flint, G. Williamson, D.A. Gunn
+- Method: measurement technique or apparatus
+- Keywords: electrical core imaging, FMS borehole images, core-log integration, fine-scale heterogeneity, resistivity imaging, laminated sands
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-20)
+
+Compares FMS borehole electrical images with laboratory core resistivity images from three North Sea wells, finding FMS resistivity values can differ substantially from core values at fine scale.
+
+Fine-scale heterogeneity such as laminae affects resistivity-based reserve estimates, and downhole electrical images are not established as quantitative petrophysical data. The authors compared Formation MicroScanner (FMS) images with laboratory resistivity images of slabbed half-round core, acquired with a 5 mm grid of over 500 electrodes using four-electrode technology. Core pieces of 100-300 mm length came from three North Sea sand-shale wells (A, B, C), and depth matching used core photographs, gamma ray, electrical logs and borehole images. Core images resolved lithological changes and fine dipping layers that appeared diffuse or absent in the FMS images. In Piece C3, FMS resistivity values on either side of a high-resistivity layer disagreed with the core image, and non-contact induction measurements supported the core values. The authors conclude that FMS data alone may give substantially erroneous resistivities for fine-scale structure.
+
+## Application of Core-Log Correlation and Artificial Neural Networks to Better Define Permeability, Porosity and Lithology
+
+- ID: SCA1998-36, year: 1998
+- Authors: Stan Patniyot, Pedro A. Romero
+- Method: data analysis or correlation
+- Keywords: artificial neural network, core-log correlation, permeability prediction, lithofacies identification, backpropagation, Misoa Formation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-36)
+
+A backpropagation neural network trained on core data predicts porosity, permeability and lithofacies from gamma ray, resistivity and density logs in Venezuelan Misoa sands, outperforming regression transforms.
+
+Permeability prediction from logs is hard because of non-linear dependence on porosity, shale content and other variables. The authors trained a feed-forward backpropagation neural network (five hidden nodes) on core data, using gamma ray, deep resistivity and density porosity logs as inputs. The case study is a laminated Misoa Formation reservoir (C2 and C3 units, Maracaibo Lake) with porosity of 11-18% and permeability of 20-500 mD. Core log-permeability versus porosity was linear for facies S3 and S31 but quadratic for S2 and S11, supporting a non-linear approach. The ANN permeability correlated with core at r = 0.9381, against 0.8155 for the empirical KCOREL2 transform, and ANN lithofacies agreed well with core descriptions.
+
+## Acquisition, Integration, and Archiving of Core Information
+
+- ID: SCA2001-45, year: 2001
+- Authors: John S. Campbell
+- Method: review or workflow
+- Keywords: core image archiving, digital core photography, PDF data integration, core data management, ultraviolet photography
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-45)
+
+Describes ExxonMobil's workflow for digitally capturing, integrating and archiving core images and data in an Acrobat PDF template on a controlled LAN for geoscientists and engineers.
+
+The paper addresses the problem of integrating and archiving diverse core information, including photographs, routine and special core analysis, descriptions, mineralogy and CT scans, so it is accessible to geoscientists and engineers. ExxonMobil's process merges core images from negatives, transparencies and prints and archives them to Kodak Photo CDs in five resolutions. Images are also printed as laminated half-scale panels. Merged images and core data are assembled into an integrated PDF template with bookmarks on a controlled LAN server. Users can launch routine analysis, particle size and facies data to Excel and copy images or data into their own reports, while only authorized staff can modify the master file. The authors conclude that Acrobat PDF is a versatile standard for integrating data types and images, speeding interpretation and ensuring digital archiving.
+
+## Rock Physics from Small Samples - Sometimes Your Only Solution
+
+- ID: SCA2001-58, year: 2001
+- Authors: Olav-Magnar Nes, Eyvind F. Sønstebø, Rune M. Holt
+- Method: measurement technique or apparatus
+- Keywords: small shale samples, drill cuttings, static Young's modulus, unconfined compressive strength, acoustic velocity anisotropy, shale-fluid interaction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-58.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-58)
+
+Static and acoustic tests on mm-cm shale samples and cuttings give results consistent with standard triaxial plug tests, but faster and cheaper.
+
+Shale cores are often scarce, which limits rock mechanical characterization for wellbore stability. The authors developed SAMSS, a system for acoustic velocity, static Young's modulus and UCS measurements on mm-cm samples under controlled axial stress and fluid exposure, plus a rig-site CWT system for cuttings. Cuttings velocities agreed well with wireline sonic data in one well, though less well elsewhere owing to drilling damage and heterogeneity. Young's modulus on 10 mm by 4 mm soft (28% porosity) and hard (3%) shale samples was fairly consistent with triaxial plugs. Small-sample UCS tests fit the Mohr-Coulomb envelope from CU triaxial tests, Pierre shale showed bedding-dependent stress-sensitive velocities, and KCl exposure strain tests on 2 mm discs were faster than plug tests.
+
+## Improving Prospect Evaluation by Integrating Petrophysical Models into the Workflow
+
+- ID: SCA2002-01, year: 2002
+- Authors: Bob Harrison, Martin Kennedy
+- Method: review or workflow
+- Keywords: saturation-height function, Monte Carlo HCIIP, capillary pressure, fractional flow, Stiles method, prospect evaluation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-01)
+
+Using a North Sea Forties example, the paper shows that ignoring petrophysical linkages, saturation-height behaviour and field-specific relative permeability badly distorts hydrocarbon-in-place and water cut forecasts.
+
+Prospect evaluation workflows often exclude petrophysicists, so Monte Carlo volumetrics and production forecasts can be inconsistent with the rock and fluid model. Using a hypothetical Palaeocene Upper Forties turbidite oil field in the UK Central North Sea, the authors demonstrate three malpractices. Not linking porosity, NTG and Sw reduced mean HCIIP from 50 to 43 MMbo (14%) and narrowed the P90–P10 range by about 50%. Using irreducible Sw (57 MMbo) or average Sw (41 MMbo) instead of a saturation-height function (33 MMbo base case) overestimated HCIIP by 73% and 24%. Published water-wet relative permeability curves predicted later water breakthrough than actual field water cut, whereas a Stiles layered analysis from core porosity-permeability data matched better.
+
+## Reserves Re-Estimation Using SCAL to Validate Sw Model from Neural Net Processed Old Logs. La Ceibita Field, Eastern Venezuela, Case Study
+
+- ID: SCA2002-47, year: 2002
+- Authors: R. Panesso, A. Quaglia
+- Method: field or reservoir case study
+- Keywords: mercury injection capillary pressure, neural network porosity, resistivity inversion, rock typing pore throat radius, height above free water level, water saturation model
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-47)
+
+Old resistivity logs were inverted and a neural net estimated porosity; mercury capillary pressure rock typing validated Sw via column heights, raising OOIP in La Ceibita field.
+
+La Ceibita field in Eastern Venezuela has mostly pre-1968 logs lacking modern porosity data. Resistivity inversion modeling (Rt-Mod) corrected old logs, and a neural network trained on modeled resistivity, SP and core porosity generated porosity curves. Rock types (mega to nano porous) were defined from mercury injection pore throat radius at 45% Hg saturation using Pittman's R45. Sw from modeled Rt was converted through Hg Pc to hydrocarbon height above free water level, using water-wet Amott/USBM results; for example LCV-05 gave 655 ft and LCV-10 gave 1146 ft. Calculated heights agreed with structural-map OWC heights within about 5% average error, and OOIP per acre-ft increased in all nine wells tabulated, averaging about 25%.
+
+## Genetic Petrophysics Approach to 1 Core Analysis – Application to Shoreface
+
+- ID: SCA2003-35, year: 2003
+- Authors: SANDSTONE RESERVOIRS David K. Potter, An H. Le, Patrick W. M. Corbett, Clive McCann, Solomon Assefa, Tim Astin, Jeremy Sothcott, Barry Bennett, Steve Larter, Arnaud Lager
+- Method: data analysis or correlation
+- Keywords: genetic petrophysics, neural network prediction, representative genetic unit, hydraulic units, shoreface sandstone, shear wave quality factor
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-35)
+
+Neural networks trained on a few core plugs from one representative shoreface genetic unit predict permeability, shear-wave Q and a geochemical ratio in the same and adjacent wells.
+
+Routine core sampling is costly and not geologically based. The authors select a 7 m coarsening-up representative genetic unit (RGU) in a North Sea well and train a committee neural network on core data plus three wireline logs (gamma ray, density, sonic). Permeability trained on only 5 plugs, one per hydraulic unit, gave r2 = 0.72 over the 129 m cored interval, versus 0.85 using all 297 plugs and 0.25 for porosity-permeability. In adjacent Well 2b the 5-plug predictor gave r2 = 0.68 versus 0.65 for the full-dataset predictor. Shear-wave quality factor at 30 MPa, trained on 4 SCAL plugs without acoustic logs, gave r2 = 0.70, and a fluorenone/methyl fluorenone ratio trained on 37 chips gave r2 = 0.68.
+
+## The Use of High-Resolution Core Imagery in Reservoir Characterization: An Example from Unlithified Miocene Turbidites
+
+- ID: SCA2005-12, year: 2005
+- Authors: C.M. Prince, M.W. Dixon, L.L. Haynes
+- Method: data analysis or correlation
+- Keywords: core imagery, grain size analysis, spatial Fourier analysis, permeability estimation, unlithified sand, thin section
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-12)
+
+High-resolution core images of unlithified Miocene turbidites yield grain size logs and, with porosity, a permeability log that agrees with NMR log and most plug data.
+
+The paper shows how high-resolution core imagery can support reservoir characterization in an unlithified Miocene turbidite core from offshore West Africa. About 110 ft of core was scanned at 1200 dpi, with very high-resolution (~5300 dpi) frames every 3 inches, and supplemented by thin sections and 66 core plugs. Grain size was measured by direct grain measurement and 2D Fourier spatial analysis on 298 samples (234 core images, 64 thin sections). Image results agreed closely with thin section and laser particle size analysis, with major differences in two samples attributed to sampling. Permeability was estimated from modal grain size and porosity using a regression calibrated on selected plug and thin-section data, matching the NMR log and plugs in medium and fine sand but not in one very fine sand interval where lab values were much higher.
+
+## Integrated Analysis of Core and Log Data to Determine Reservoir Rock Types and Extrapolation to Uncored Wells in a Heterogeneous Clastic and Carbonate Reservoir
+
+- ID: SCA2005-42, year: 2005
+- Authors: A. M. Bagheri, B. Biranvand, S. Rezazadeh, M. Fasih, H. Bakhtiari
+- Method: data analysis or correlation
+- Keywords: rock typing, fuzzy logic, uncored wells, mercury injection capillary pressure, Asmari formation, well log
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-42)
+
+Seven rock types in the mixed clastic-carbonate Asmari reservoir were defined from core data, then predicted in 28 uncored wells from logs using fuzzy logic, matching core well.
+
+The study addresses rock typing in the mixed siliciclastic-carbonate Asmari formation of the Ahwaz field, Iran, where most wells lack core. Core description (over 2000 m from 17 wells), over 6000 thin sections, SEM on 16 samples, over 1500 plugs of routine analysis and MICP on 16 plugs were used to define seven rock types (RT1-RT7) and eight zones. Fuzzy logic membership functions were built from five logs (GR, PHIE, NPHI, RHOB, DT) calibrated against core-derived rock types in four cored wells. A blind test in a fifth cored well showed good to very good agreement with core-based rock types. The method was then applied to 28 uncored wells and used to build a field-wide rock type model with geostatistics.
+
+## Magnetic Resonance Imaging of Porosity Heterogeneity in Bioturbated Sandstone from the White Rose Reservoir, Atlantic Canada
+
+- ID: SCA2005-60, year: 2005
+- Authors: A. Belonogov
+- Method: measurement technique or apparatus
+- Keywords: conical SPRITE MRI, porosity heterogeneity, T2* mapping, bioclastic sandstone, White Rose reservoir, single-point imaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-60.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-60)
+
+Conical SPRITE MRI maps 3D porosity in two White Rose sandstone plugs, resolving a calcite-cemented fracture and shell-fragment heterogeneity that bulk porosimetry cannot show.
+
+Core-scale porosity heterogeneity is hard to measure with conventional petrophysics, and standard spin-echo MRI fails because of short, multi-exponential T2 decay. The authors apply conical SPRITE MRI, a pure phase-encoding method, to two water-saturated 37 mm plugs from White Rose well L-08. They acquired 16 images at different encoding times (55 and 90 µs), fitted signal pixel by pixel to obtain T2* and spin density, and calibrated to a reference standard to get porosity maps at 2 mm nominal resolution. Plug #160 (bulk porosity 18.8%) is massive and fine grained, with a dark calcite-cemented fracture, and 75% of pixels fall at 15-25% porosity. Plug #11 (13.7%) is a bioclastic sandstone with pixel porosities of 0-35%, with shell fragments appearing as low-porosity zones and a spatial average matching bulk porosity.
+
+## Use of CWT Acoustic Velocity Measurement on Cuttings for Evaluation of Pore Pressure
+
+- ID: SCA2006-53, year: 2006
+- Authors: P. Budak, S. Falkowicz
+- Method: field or reservoir case study
+- Keywords: CWT ultrasonic velocity, drill cuttings, pore pressure prediction, Eaton method, corrected d-exponent, P-wave velocity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-53)
+
+P-wave velocities measured on drill cuttings with a CWT-200 were used with Eaton's method to estimate pore pressure, matching corrected d-exponent results in a Carpathian well.
+
+Pore pressure is critical for well design, and cuttings are often the only available material. P-wave velocities were measured with a Temco CWT-200 continuous wave apparatus on 1-3 mm thick cutting slices from a Carpathian well (1000-3500 m, mostly shales and silts), conditioned in reservoir-concentration brine at surface conditions. Pore pressure gradients were computed from transit time using Eaton's method with a normal trend defined in shales at 1000-1350 m. These were compared with gradients from the corrected d-exponent method based on drilling parameters. The two methods gave close results, with differences attributed to the finer depth resolution of cuttings and to shale anisotropy, which was not analyzed; agreement was best in sandstone cuttings.
+
+## Benefit of Complementary Methods for Characterizing Sandstone Cores
+
+- ID: SCA2007_57, year: 2007
+- Authors: I.G. Main
+- Method: laboratory experiment
+- Keywords: sandstone characterization, CT scanning, ESEM wettability, MRI iron susceptibility, point counting, XRD mineralogy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_57)
+
+Combining MRI, CT, ESEM, XRD, XRF, point counting and grain size analysis on four sandstones gives a fuller characterization than any single method.
+
+The paper addresses how sub-cm heterogeneity affects reservoir characterization and tests whether a suite of complementary methods describes sandstone cores better than any single one. Four sandstones (Slick Rock Aeolian, Fife, Locharbriggs, Berea) were examined with MRI, CT, ESEM, XRD, XRF, thin-section point counting, grain size analysis and permeability measurements. Conventional MRI failed on the Slick Rock Aeolian sandstone because iron (hematite) shortened T2* to about 100 µs, so continuous-wave MRI was used to image the waterfront. CT revealed calcite and iron-rich phases, while point counting and ESEM detected hematite, pyrite and smectite missed by XRD. Fife sandstone had the largest grain size (294–368 µm), lowest cement (4.7–6.3%) and highest permeability (liquid about 1980 mD). Berea, with about 18% cement, had the lowest permeability (liquid about 172 mD). ESEM showed quartz, feldspar and clays to be water wet.
+
+## Core Image Analysis: Reliable Pay Estimation in Thin-Bedded Reservoir Units
+
+- ID: SCA2008-48, year: 2008
+- Authors: Christopher M. Prince, TX Jayashree Chitale
+- Method: measurement technique or apparatus
+- Keywords: core image analysis, thin-bedded reservoirs, net pay estimation, HSI thresholding, image segmentation, pay log
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-48)
+
+Describes estimating net pay in thin-bedded reservoirs from high-resolution core images using HSI segmentation, plug-data validation, and run-length versus pay-ratio methods; run-length underestimates pay by about 3%.
+
+Well logs and image logs cannot reliably resolve net pay in thin-bedded clastic reservoirs, so the authors estimate pay directly from high-resolution (10x) whole-tube core images. Images are projected to 150 dpi, median filtered, and segmented into sand and fracture masks by HSI thresholding. The sand mask is then validated and refined into a pay mask using plug porosity and permeability, thin section petrography, SEM and QXRD, which exposed non-pay lithotypes such as featureless and calcite-cemented sands. Net pay is computed by a run-length method and a pay-ratio method with 1 cm windows. Applied to twelve thin-bedded intervals (2–33 m) from a 200+ m core from southern Asia, fractures and kerf accounted for about 4% of core length, and run-length underestimated pay by about 3%, with divergence growing with interval length.
+
+## Dispersion Analysis of Acoustic Velocities in Polish Shale Rocks: Effects of Petrophysical Properties and Mineralogy
+
+- ID: SCA2013-043, year: 2013
+- Authors: Marek Stadtmuller, Renata Cicha-Szot, Maja Mroczkowska-Szerszeń, Paweł Budak Sylwia Kowalska, Grzegorz Leśniak
+- Method: laboratory experiment
+- Keywords: acoustic velocity dispersion, shale cuttings, FTIR mineralogy, Vp-Vs relationship, bulk modulus porosity, Polish shale
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-043)
+
+Acoustic Vp and Vs measured on Polish shale cuttings, compared with logs, porosity and XRD/FTIR mineralogy, show deviation from Greenberg-Castagna trends and porosity-dependent bulk modulus.
+
+The paper characterizes mechanical properties of Polish Ordovician and Silurian shales, aiming to link laboratory ultrasonic velocities with sonic logs and to guide sample selection when cores or logs are unavailable. Forty-two shale samples were measured for porosity by mercury porosimetry and mineralogy by XRD and FTIR, and Vp and Vs were measured on small cuttings (0.8–3 mm thick) with a CWT-200 device at surface conditions. FTIR calcite/quartz band ratios correlated with XRD ratios (R² = 0.97), confirming correct sample selection. Polish shale Vp–Vs data deviate from Greenberg-Castagna lines and overlap the Kimmeridge Clay trend (suggested Vs = 0.45Vp + 397.6), with laboratory velocities shifted lower than log data. Bulk modulus vs. porosity separated into distinct trends for Ordovician and Silurian samples, and porosity, mineralogy, organic matter, saturation and pressure were found to control mechanical properties.
+
+## Correlation of Mineralogical Indices of Brittleness with Acoustic Properties of Rocks in Basins of Different Diagenesis Level
+
+- ID: SCA2013-057, year: 2013
+- Authors: Sylwia Kowalska, Maja Mroczkowska-Szerszeń, Renata Cicha-Szot, Paweł Budak, Sławomir Falkowicz
+- Method: data analysis or correlation
+- Keywords: brittleness index, Young's modulus, Poisson's ratio, Vp/Vs on cuttings, XRD FTIR mineralogy, shale gas
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-057)
+
+Mineralogical and chemical brittleness indices from XRD, XRF and FTIR are compared with Vp/Vs-derived moduli on cuttings from Polish Miocene and Silurian-Ordovician shales; correlations are weak and formation-specific.
+
+Brittleness is often estimated from quartz-plus-feldspar or SiO2 content, but it also depends on compaction, structure and amorphous phases. The authors compared these mineralogical and chemical indices with dynamic Young's modulus and Poisson's ratio for two Polish shale sets of very different diagenesis: Silurian-Ordovician and Miocene. Mineralogy was determined by XRD (internal standard, RockJock), XRF, and FTIR-ATR to check cuttings representativeness. Vp and Vs were measured on brine-saturated cuttings 1-3 mm thick using a CWT-200 system at surface conditions. Mineralogical and SiO2 indices correlated well (R2 0.80-0.90) with basin-specific trends, but moduli showed no clear overall relation to mineralogy. Velocities and Young's modulus were lower in the Miocene shales, and each stratigraphic unit had its own weak trend, so indices need empirical calibration per formation.
+
+## Benefits of High-Resolution Core Logs Integration in Characterizing Gas Shales Cores
+
+- ID: SCA2013-076, year: 2013
+- Authors: B. Lalanne, L. Martinez, F. Umbhauer, F. Gélin
+- Method: measurement technique or apparatus
+- Keywords: CT-scan core logging, LIPS laser pyrolysis, gas shale, total organic carbon, scratch test, grain density
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-076.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-076)
+
+High-resolution core logs (CT-scan, LIPS pyrolysis, scratch test, spectral GR) on a gas shale core correlate with spot-sample density, porosity, TOC and clay, guiding fresh-state sampling.
+
+Gas shale lab measurements must be made on fresh, hydrated samples, so sampling needs to be targeted rather than random. The authors ran a suite of fast core logs over a 100 m cored section (quartz ~45 wt%, clay ~35 wt%, TOC ~3 wt%): CT-scan, the proprietary LIPS laser pyrolysis device, scratch test and spectral GR. The 1D CT-scan grey-level log correlates well with bulk density from core samples, and indirectly with grain density, porosity and TOC because porosity is tied to low-density kerogen. LIPS gives centimetric pyrolyzable hydrocarbon content that correlates with TOC, with dispersion attributed to the pinhead-size pyrolysis spot. Scratch-test specific energy tracks dry clay content, and such logs permit ranking of core sections and upscaling of spot measurements. Logging rates are several tens of meters per day.
+
+## Posibilities of Quantitative Evaluation of Polish Shale-Gas Rocks Petrophysical and Geomechanical Parameters by Laboratory Analytical Methods and Well Logs Interpretation
+
+- ID: SCA2014-056, year: 2014
+- Authors: G. Leśniak, R. Cicha-Szot, M. Stadtmüller, M. Mroczkowska-Szerszeń, L. Dudek, G. Tallec, A. Butcher, H. Lemmens, P. Such
+- Method: laboratory experiment
+- Keywords: shale gas, FIB-SEM, XRMI electrofacies, gas adsorption pore size, acoustic velocities, geomechanical parameters
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-056)
+
+Integrates mercury porosimetry, gas adsorption, FIB-SEM, mineralogy, MHz acoustic velocities and triaxial tests on Polish shale cores to calibrate XRMI electrofacies and predict geomechanical parameters.
+
+The study addresses calibrating well logs against core data for Polish shale gas, since future wells may supply only side-wall cores or cuttings. About 450 m of Silurian and Ordovician Baltic basin core was characterized by mercury porosimetry, argon adsorption, FIB-SEM, QEMSCAN mineral mapping, FTIR, XRD, triaxial tests and MHz P and S wave velocities at reservoir temperature and HTHP. Four XRMI electrofacies (tuffites, siltstones, shales, calcareous) were defined and tied to laboratory data. FIB-SEM porosity and mineralogy correlated well with mercury porosimetry and XRD. Pores fell into three groups (>8 µm, 100–1000 nm, <10 nm), the smallest linked to organic matter and possibly explaining velocity discrepancies. Laboratory velocities differ from log velocities, most for clay- or carbonate-rich samples, with the shift negligible under HTHP.
+
+## The Scratch Test as a Mean to Derive High Resolution Rock Strength Profiles for Geomechanical and Petrophysical Evaluations
+
+- ID: SCA2014-072, year: 2014
+- Authors: Christophe Germay, Thomas Richard, Tanguy Lhomme
+- Method: measurement technique or apparatus
+- Keywords: scratch test, rock strength profile, uniaxial compressive strength, core heterogeneity, plug selection, core-log integration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-072.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-072)
+
+Continuous centimeter-scale scratch-test strength profiles map core heterogeneity, guide plug selection, and show strength-petrophysics correlations are not universal across wells or reservoirs.
+
+Plug and well-log measurements differ in resolution, and sparse plugging can produce misleading correlations between petrophysical properties. The scratch test traces a constant-depth groove on a core and records cutting forces averaged over 1 cm, giving Intrinsic Specific Energy equivalent to uniaxial compressive strength. Strength profiles at 5 cm and 50 cm resolution identify heterogeneous and homogeneous intervals, where plug-versus-log porosity mismatch is larger in the heterogeneous sections. A ratio of 50 cm to 5 cm averaged strength is proposed to guide plug selection. Strength correlations with porosity, permeability, sonic and density vary between rock types and between wells in the same reservoir, so they are not universal; within a facies they can yield high-resolution porosity and permeability profiles. Running the scratch test early in the core workflow supports probe permeability, photography, core-shift estimation, rock typing and geomechanical plug selection.
+
+## Influence of the Mineral Composition of Shales on the Results of Triaxial Compression Tests – a Case Study from the Ordovician and Silurian Rocks of Poland
+
+- ID: SCA2014-079, year: 2014
+- Authors: Marek Dohnalik, Sylwia Kowalska, Zbigniew Mikołajewski, Andrzej Domonik, Zbisław Tabor
+- Method: data analysis or correlation
+- Keywords: triaxial compression, Young's modulus, Poisson's ratio, XRD mineralogy, brittleness, micro-CT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-079.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-079)
+
+Triaxial tests, XRD, XRF and micro-CT on nine Polish Ordovician-Silurian shale, marl and limestone cores show carbonate and clay content, not quartz, control Young's modulus and Poisson's ratio.
+
+Hydraulic fracturing efficiency depends on rock mechanical properties and brittleness, so the study tests how mineral composition controls these in Polish Ordovician and Silurian shales. Nine cores (about 8 cm long, 5 cm diameter) from claystone, marl and limestone formations were micro-CT scanned before and after triaxial compression, then analysed by XRD (Rietveld) and XRF. Young's static modulus ranged from 15.1 to 50.4 GPa and rose with carbonate content, while Poisson's ratio (0.12–0.26) correlated with clay content. SiO2 and quartz-plus-feldspar, common brittleness indicators elsewhere, were of limited use in this basin. Micro-CT showed the high-carbonate samples (4 and 5) had minor structural change, while others developed large cracks following pre-existing tectonic fractures, so homogeneous sampling is needed.
+
+## Integration of Petrophysical and Petrographic Data for the Prediction of Reservoir and Filtration Parameters in Deep-Lying Layers in Polish Rotliegend Basin
+
+- ID: SCA2014-084, year: 2014
+- Authors: Piotr Such, Grzegorz Leśniak
+- Method: data analysis or correlation
+- Keywords: Rotliegend sandstone, diagenesis, compaction and cementation, tight gas reservoir, porosity-permeability correlation, granulometry
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-084.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-084)
+
+Combining petrophysical, petrographic and granulometric data from deep Polish Rotliegend wells shows compaction-dominated diagenesis and good porosity and non-zero permeability below 4700 m.
+
+The Polish Rotliegend gas province has been explored mainly in the top 120 m, so reservoir quality in the more than 4000 m thick deeper section is poorly known. Samples from wells drilled through the full Rotliegend profile were analysed for porosity, permeability, mercury porosimetry, image analysis of pore space, petrography and granulometry. Compaction and cementation porosity loss (Lundegard-type diagram, ICOMPACT versus depth, pore elongation versus depth) indicate compaction dominates, with late cements precipitated after compaction. Permeability trends versus depth approach an asymptote near 1 mD, and samples from about 4800 m show 1–5 mD. Porosity exceeds 15% below 4700 m and no critical depth was observed. Better sorting correlates with lower permeability, and non-zero permeability is attributed to normal pore flow (throats >3 μm), microfractures (up to 3 mD) and fracture-like systems (>10 mD, aeolian dune cores).
+
+## Comparative core analysis from a Wolfcamp formation well; a case study
+
+- ID: SCA2016-044, year: 2016
+- Authors: Joel Walls, Anyela Morcote, Tiffany Hintzman, Michael Everts
+- Method: digital rock or imaging
+- Keywords: digital rock analysis, FIB-SEM, porosity associated with organic matter, dual-energy CT, LECO TOC, Wolfcamp shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-044)
+
+A 246-ft Wolfcamp core was characterized by CT, SGR, geochemistry and SEM/FIB-SEM digital rock on 34 plugs, then upscaled to continuous property logs.
+
+A 246 ft full-diameter Wolfcamp core from the Delaware Basin was CT and spectral gamma scanned in its liners, and 34 plugs were selected by RHOB/PEF classes for XRD, XRF, LECO TOC, GRI-type tests and digital rock analysis. Ion-milled SEM (10 nm/pixel) gave effective porosity of 1–6% in siliceous samples and 0.5–5% in calcareous ones, with PAOM up to about 2%. SEM organic matter correlated linearly with LECO TOC (R² 0.84) on 13 depth-matched samples. Eight FIB-SEM volumes gave porosity of 4–11% and horizontal permeability of about 40–1900 nD by Lattice-Boltzmann, with a porosity-permeability trend similar to GRI data (depths not matched). Clay-bound water porosity (about 0.18 times clay volume) was added to SEM porosity to estimate total porosity. Plug results were upscaled to continuous curves of mineralogy, brittleness, TOC, porosity and permeability.
+
+## Evaluation of the Impulse Hammer Technique for Core Mechanical Properties Profiling
+
+- ID: SCA2016-045, year: 2016
+- Authors: P. Gramin, R. Fisher, A. Frooqnia, A. Ai, P. Hojnacki, G. Boitnott, L. Louis, J. Hampton
+- Method: measurement technique or apparatus
+- Keywords: Impulse Hammer, reduced Young's modulus, Scratch Test, Terratek Strength Index, rock strength profiling, Hertzian contact
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-045)
+
+Impulse Hammer reduced Young's modulus E* profiling on Gulf of Mexico cores is compared with Scratch Test strength index, showing strong power-law correlations and a nondestructive alternative.
+
+Scratch Test strength profiling cuts a furrow in the core, so geologists often refuse it on slabbed core. This study trialled the nondestructive Impulse Hammer, which fits the force-time response of a dropped mass to a Hertzian elastic model to obtain reduced Young's modulus E* and an impulse hardness H. About 21 ft of slabbed core from two Gulf of Mexico fields (A, B) and seven weak sand plugs (field C) were measured at 5 mm spacing and compared with Terratek Strength Index (TSI) by depth profiles and histograms. E* tracked TSI variations along the cores, and sands from all three fields followed similar power-law fits (TSI ≈ 1.4–2.1 E*^~1.2), while shales needed a polynomial fit. Predicted TSI lay within a factor of two of measured values over three orders of magnitude, and using H to separate sand from shale worked as well as core-based rock types.
+
+## Drill Cuttings as an Economic Tool to Understand the Petroleum System for Exploratory and Development Wells
+
+- ID: SCA2016-089, year: 2016
+- Authors: Ibrahim Ghiniwa
+- Method: review or workflow
+- Keywords: drill cuttings, thin section petrography, SEM, mercury injection capillary pressure, point counting, reservoir quality
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-089.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-089)
+
+Describes a workflow of lithological description, thin section, SEM and MICP on drill cuttings to assess reservoir quality in un-cored intervals, illustrated with examples.
+
+Cores are often unavailable, so the paper proposes using drill cuttings recovered every 3-5 m for geological and petrophysical characterization of source rocks, reservoirs and seals. The workflow covers cleaning (without water for swelling clays), binocular lithological description integrated with gamma-ray logs, and thin sections with blue resin impregnation and Alizarin Red-S, ferricyanide and cobaltinitrite staining. Mineralogy and porosity were quantified by 50-200 point counts or visual estimation when cuttings were poor, and sandstones classified by Dott. Samples were split 40% thin section, 40% SEM and 20% reference, and SEM shows pore-occluding clays and quartz overgrowths. An MICP example gave geometric-mean permeability of 0.12 mD and average helium porosity of 10.7%, with small pore throats. The authors conclude cuttings give a continuous lithological record for well and field correlation where cores are absent.
+
+## Comparison of Residual Saturations of an Unconventional Reservoir Rock Measured by Different Capillary Pressure Laboratory Methods
+
+- ID: SCA2017-025, year: 2017
+- Authors: N. Schleifer, Alexandra Amann-Hildenbrand, Jim Bell, Philipp Aurin, Roman Scheliga
+- Method: laboratory experiment
+- Keywords: capillary pressure, residual gas saturation, mercury injection capillary pressure, counter-current imbibition, vapor desorption, tight sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-025.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-025)
+
+Compares porous plate, centrifuge, MICP, vapor sorption and counter-current imbibition on tight Carboniferous sandstones, finding Swi and Sgr depend strongly on method and ambient trends do not extrapolate to reservoir stress.
+
+A tight gas Carboniferous sandstone (porosity below 12%, Klinkenberg permeability 0.001–1 mD) was characterized by an SCAL program and a follow-up thesis comparing capillary pressure methods. Methods included porous plate and MICP at overburden stress, ultracentrifuge, ambient MICP, vapor desorption/adsorption and toluene-gas counter-current imbibition. Ambient MICP and centrifuge curves cross near 100 psig, and Swi ranked VD ≤ MICP ≤ CCI ≤ UC at comparable permeability. Overburden MICP and porous plate Swi differed by up to 0.4 and could not be reconciled by wettability parameters. Sgi–Sgr trends differ by method (VD Sgr 0.5–0.8, CCI 0.2–0.55, UC below 0.4); the ambient Swi–K trend cannot be extended to reservoir conditions, and vapor sorption is not recommended for imbibition.
+
+## Study of Drill Cuttings Porosity for Formation Evaluation
+
+- ID: SCA2017-075, year: 2017
+- Authors: S. T. Dang, M. M. Rolke, C. H. Sondergeld, C. S. Rai
+- Method: measurement technique or apparatus
+- Keywords: drill cuttings porosity, NMR T2 relaxation, dodecane saturation, high-pressure pycnometer, shale formation evaluation, T2 cutoff
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-075.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-075)
+
+A cuttings porosity method combines helium pycnometer grain density with NMR-measured dodecane uptake (T2 cutoff 70 ms); 90% of results fall within 1.5 p.u. of core porosity.
+
+Porosity of drill cuttings is hard to measure because bulk volume cannot be determined directly; mercury injection underestimates it by 2.5-12% due to conformance effects. The authors dry cuttings (>1 mm) at 100°C, measure grain density by high-pressure helium pycnometry, and saturate them with dodecane at 7000 psi for 24 hours. Pore oil volume is taken from the NMR T2 signal gain below a 70 ms cutoff, which excludes oil coating the cutting surfaces, and porosity is computed from oil volume, grain density and dry mass. Tested on 3 tight sand and 27 shale samples (core porosity 1-19 p.u.), 90% of cuttings porosities were within 1.5 p.u. of core values. The result is effective porosity, since clay-bound water is not captured, and remaining error is attributed to sample loss or excess surface oil.
+
+## Improved Characterization of Unconventional Reservoirs by Anisotropy of Magnetic Susceptibility
+
+- ID: SCA2017-094, year: 2017
+- Authors: Norbert Schleifer, Nina Gegenhuber, Robert Scholger
+- Method: laboratory experiment
+- Keywords: anisotropy of magnetic susceptibility, Rotliegend tight gas sandstone, depositional facies, shape parameter T, natural remanent magnetization, BET surface area
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-094.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-094)
+
+Adding anisotropy of magnetic susceptibility to routine core analysis of Rotliegend tight gas sandstones discriminates depositional facies better than porosity-permeability crossplots alone.
+
+Legacy data from two Rotliegend Waste Zone gas wells in the Northern German Basin were re-evaluated with new measurements on 58 and 131 plugs. These covered Klinkenberg permeability, Archimedes porosity and grain density, BET surface area, ultrasonic Vp/Vs, and AMS plus remanence measurements to identify magnetic carriers. Low-energy facies (pond/lake, aeolian mudflat, low-energy fluvial) show low porosity and permeability, high susceptibility (100-1000e-6 SI), high Vp and Spor above 1 m2/g, with shape parameter T from negative to positive. Dunes and sandflats show high porosity and permeability, low susceptibility and mostly positive T. AMS response and dominant magnetic carrier (magnetite in one well, hematite in the other) differ between wells and even within a single member, so interpretation needs additional rock magnetic study; the method is cheap and non-destructive.
+
+## Characterization of Micro-Pores in Organic-Rich Unconventional Reservoir Rocks
+
+- ID: SCA2017-097, year: 2017
+- Authors: Elizabeth Krukowski, Robert Krumm, James Howard
+- Method: laboratory experiment
+- Keywords: low-pressure gas adsorption, CO2 adsorption micropores, solvent extraction, thermogravimetric analysis, pore-size distribution, organic-rich shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-097.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-097)
+
+N2 and CO2 gas adsorption plus TGA/DSC on as-received and toluene-extracted shale show extraction adds 10-20% pore volume, mostly pores under 5 nm, while most pores are 100-500 nm.
+
+Pore-size distributions in organic-rich unconventional rocks are hard to measure because of tiny pores and trapped residual liquids. Shale from a carbonate-rich reservoir was crushed to 90-32 µm, split into as-received and toluene-extracted aliquots, and analyzed by N2 (-196 °C) and CO2 (0 °C) adsorption with BET, BJH and DFT analysis, and by TGA/DSC. Extraction shifted N2 isotherms from Type IV toward quasi-Type I and raised total pore volume by 10-20%, with new pores dominated by those below 5 nm, likely in organic matter. CO2 extended the pore-size range down to 0.5 nm. TGA confirmed loss of water and light hydrocarbons in the 200-500 °C range after extraction, and He porosimetry comparison separated two lithofacies by presence of pores larger than N2 can sense. Most pores lay in the 100-500 nm range, with only a small proportion true micropores.
+
+## Shale Gas Formations in Poland – New Evaluation Methods for Processing and Quantitative Interpretation Using Computed X-Ray Tomography
+
+- ID: SCA2017-099, year: 2017
+- Authors: Krakowska P, Puskarczyk E, Jędrychowski M, Madejski P, Habrat M
+- Method: digital rock or imaging
+- Keywords: X-ray nanotomography, shale gas, pyrite content, pore space heterogeneity, XRD, Silurian shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-099.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-099)
+
+Nano-CT of Silurian shales from SE and NW Poland quantifies pyrite and pore space, giving pyrite contents close to XRD and showing regional differences in reservoir quality.
+
+The study uses nano-CT (Nanotom S 180n, resolution about 500 nm) to characterize pyrite and pore space in four Silurian shale samples from the Lublin Synclinorium (SE Poland) and the Peribaltic Syneclise (NW Poland). Results are compared with XRD mineralogy, helium pycnometry, mercury porosimetry, pressure-decay permeability and P/S-wave velocities. CT-derived pyrite content (0.3–2.1%) is close to XRD values (e.g. 2% vs 2.1% for sample 22). Pyrite occurs in thin laminae in the SE samples and dispersed in the NW sample, with most pyrite grains 10–20 µm in diameter and most pores below 10 µm. CT porosity differs from pycnometer porosity because of resolution (0.2% vs 3.15% for sample 872). The SE samples show better reservoir parameters, while NW samples show better geomechanical properties.
+
+## Success, Pitfalls and Limitations in the Chemostratigraphic Analysis of Brine-Rich Cores: Three Forks Formation, North Dakota
+
+- ID: SCA2017-100, year: 2017
+- Authors: Harry Rowe, Evan Sivil, Pukar Mainali, Jarred Garza
+- Method: measurement technique or apparatus
+- Keywords: energy-dispersive XRF, chemostratigraphy, brine contamination, hierarchical cluster analysis, chemofacies, Three Forks Formation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-100.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-100)
+
+Brine-coated Three Forks core was scrubbed and re-scanned by ED-XRF until chlorine was minimal, yielding major and trace element records and eleven chemofacies via cluster analysis.
+
+Brine on core surfaces attenuates low-energy X-rays and distorts inter-element corrections in XRF analysis of the Three Forks Formation, Williston Basin. A 257-ft core was scrubbed and dried repeatedly, and the chlorine peak in raw spectra was monitored, with samples re-analyzed until the peak was absent or near baseline. Bruker Tracer IV ED-XRF gave 1016 major and trace element analyses, plus 14 in the lowermost Bakken. %Al, %Mg, %S and Si/Th proxies for clay, dolomite, anhydrite and quartz define five members, and Sr, Ba and Zr/Ti add marker horizons. Hierarchical cluster analysis produced eleven chemofacies, tracing a shift from detrital to dolomitic-anhydritic deposition and then oscillating dolomite-rich and dolomite-poor deposition, with seven dolomite-rich zones in the upper Three Forks.
+
+## Continuous Core Measurements: Applications for Optimized Petrophysical and Geomechanical Modelling in Sne Field, Senegal
+
+- ID: SCA2018-044, year: 2018
+- Authors: C. Germay, T. Lhomme, C. McPhee, Mike Starcher
+- Method: field or reservoir case study
+- Keywords: scratch test, uniaxial compressive strength, plug sampling heterogeneity, wireline log upscaling, rebound hardness Equotip, porosity profile
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-044)
+
+Continuous scratch testing on SNE field cores gives strength, velocity and porosity profiles that guide plug selection and upscale plug data to logs, outperforming rebound tests.
+
+Thin-bedded heterogeneous sandstones in the SNE field (Senegal) caused many plug failures and unreliable core data. Continuous scratch tests (UCS and P-wave velocity) were run on about 100 m of fresh core in Well 1 and on already plugged core in Well 2. A heterogeneity index from the strength profile ranked 10 cm intervals to recommend homogeneous plug sites. Plug UCS and thick-wall cylinder results agreed well with the scratch strength profile, and strength-log proxies calibrated on continuous data captured low-strength intervals better than plug-only proxies. More than a third of planned RCA plugs failed in both wells (Well 1: 43% intact after three cycles; Well 2: 65%), while a scratch-derived porosity profile matched validated RCA data and flagged suspect plugs. Equotip rebound tests showed large scatter, with two UCS proxies differing by a factor of two.
+
+## Lithologically Controlled Core-Log-Geocell Integration Using Probabilistic Multivariate Clustering Analysis and an Expert System
+
+- ID: SCA2019-051, year: 2019
+- Authors: A. A. Curtis, E. Eslinger, S. Nookala, F. Boyle
+- Method: review or workflow
+- Keywords: multivariate clustering, probabilistic lithology classification, expert system, upscaling core to log, geocellular model, geomechanical properties
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-051.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-051)
+
+A workflow uses Bayesian multivariate clustering and an expert system to carry lithology consistently from core to log to geocell scale, improving upscaling, saturation and geomechanics estimates.
+
+The paper addresses the loss of lithological control when core data are moved to wireline-log scale and then to geomodel scale. It presents a workflow using Bayesian-based multivariate clustering to produce probabilistic lithology classifications from core plug data and well logs at each scale. An expert system, adjustable by an analyst, assigns lithology to clusters and predicts probabilistic lithology at each log depth. The resulting models are used to QC and predict missing log curves, estimate upscaled core properties along the wellbore, and compute lithology-dependent pore pressure and minimum horizontal stress. An onshore conventional gas field example shows that lithology-controlled geocell properties improve hydrocarbon-in-place and geomechanical evaluation.
+
+## Petrophysical Parameter Prediction Utilizing Limited Core Training Data
+
+- ID: SCA2019-073, year: 2019
+- Authors: Ana Maria Naranjo Pacheco, David K. Potter
+- Method: data analysis or correlation
+- Keywords: permeability prediction, machine learning, global hydraulic elements, representative genetic units, well logs, training data selection
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-073.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-073)
+
+Machine learning permeability prediction from logs works almost as well with a few representative core plugs chosen by hydraulic elements as with several hundred plugs.
+
+Predicting petrophysical parameters in uncored wells normally relies on core-log correlations from a cored well, but it is unclear how much core training data is needed. The authors combine machine learning with representative genetic units (RGUs) and global hydraulic elements (GHEs) to predict permeability from key well logs. They compare four training scenarios with progressively fewer plugs: the entire dataset, specific reservoirs, short RGUs, and minimal plugs selected by GHE within RGUs. Predictions from the minimal set, a few plugs each from a different GHE, were almost as good in r2 as those from the full set of several hundred plugs. The r2 values were relatively high in all scenarios, and the approach is proposed as a rapid, low-cost method that could extend to other parameters and historical core.
+
+## Combining high-resolution core data with unsupervised machine learning schemes for the identification of rock types and the prediction of reservoir quality
+
+- ID: SCA2021-002, year: 2021
+- Authors: Christophe Germay, Tanguy Lhomme, Paul Bisset
+- Method: measurement technique or apparatus
+- Keywords: whole core non-destructive measurements, mini-slab, k-means clustering lithofacies, laser topography grain size, wavelet analysis, portable XRF
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-002.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-002)
+
+CoreDNA combines non-destructive high-resolution whole-core measurements on a mini-slab with k-means clustering to identify lithofacies; applied to two North Sea cores, it found six to seven facies.
+
+Plug-based core analysis consumes scarce core and plug sites are chosen with little prior information. CoreDNA mounts whole cores on one bench, cuts a 3 cm-wide mini-slab with a PDC cutter, and runs XRF, panoramic and ultra-high-resolution imaging, laser topography, probe permeability, ultrasonic velocity and scratch strength at about 3 ft/h. Grain size distributions come from wavelet analysis of images and autocorrelation of laser profiles, with permeability estimated empirically from grain size. On two 37 m cores from a North Sea observation well, data recovery was much lower in the heavily plugged Core1 than in the unplugged Core2. K-means clustering of strength, grain size, XRF elements and brightness at 1 cm resolution gave seven lithofacies in Core1 and six in Core2, ranging from coarse clean sand to fine shaly sand with thin calcite-cemented layers. A facies sequence with reservoir quality index was delivered within 24 hours of testing.
+
+## Effect of specimen size and shape on the mechanical properties measured on plugs subsampled from sidewall cores
+
+- ID: SCA2021-031, year: 2021
+- Authors: Giorgio Volonté, Jørn Stenebraten, Euripides Papamichos
+- Method: laboratory experiment
+- Keywords: rotary sidewall cores, triaxial compression, specimen size effect, L/D ratio, Young's modulus, Poisson's ratio
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-031)
+
+Triaxial tests on small plugs of two sandstones and two limestones quantify shape and size effects on strength, stiffness and Poisson's ratio, yielding correction equations for sidewall-core subsamples.
+
+Sidewall cores must be subsampled into small plugs for triaxial testing, so shape (L/D) and size (diameter) effects on mechanical properties need quantifying. Conventional triaxial tests at 0.5, 10 and 30 MPa confinement were run on dry Carbon Tan and Saltwash North sandstones and Indiana and Burlington limestones, with 10 mm plugs at L/D 1, 1.5 and 2 and L/D 2 plugs at 10, 25 and 38 mm. Data were density-corrected and normalized to reference specimens. For 10 mm plugs, strength at L/D = 1 was 5-24% lower than at L/D 1.5-2, contrary to literature trends, likely due to coring/polishing damage. Strength fell with decreasing diameter (about 21% at low confinement, 7-10% at higher), stiffness rose with L/D (L/D = 1 was 27-58% lower than L/D = 2) but not with size, and Poisson's ratio showed little shape dependence and a slight decrease with size. Empirical equations relating properties to L/D and diameter were derived.
+
+## Integration of core-scale logging, dual-energy computed tomographic imaging and geochemical and mineralogical analysis of a composite core
+
+- ID: SCA2021-034, year: 2021
+- Authors: Helene Velcin, Jeremie Dautriat, Lionel Esteban, Mark D. Lindsay, Annette D. George, Thomas Richard, Adam Ramage
+- Method: measurement technique or apparatus
+- Keywords: dual-energy CT, effective atomic number, HyLogger-3, multi-sensor core logger, scratch test UCS, composite core
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-034.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-034)
+
+An 84 cm composite core of sandstones and limestones is characterised by core logging and dual-energy CT, giving density, mineralogy and porosity profiles that match plug measurements.
+
+Well-log and plug data leave gaps and scale mismatches, so the authors built an 84 cm, 10 cm diameter composite core from 15 reference sandstones, limestones and a granite, with oblique interfaces and clay-filled glaze. They logged it with an MSCL-S (gamma density, Vp, magnetic susceptibility, XRF, UV imaging), a scratch test (UCS, Vp, Vs) and HyLogger-3 (hyperspectral mineralogy), and acquired dual-energy CT at 80 and 140 kV. Logged bulk density, Vp and Vs matched companion-plug lab values, and scratch UCS ranged ~9–120 MPa consistent with supplier data. Zeff maps segmented using HyLogger/XRD constraints separated five rock types and estimated mineral content, though fine-grained, mineralogically diverse sandstones overestimated K-feldspar and underestimated grain density. DE-XCT porosity agreed with lab porosity with R² of 0.94.
+
+## Innovations in low UCS core acquisition and quality assessment using digital rock physics
+
+- ID: SCA2022-07, year: 2022
+- Authors: Dmitry Lakshtanov, Jennie Cook, Yuliana Zapata, Dave Saucier, Robin Eve, Mark Lancaster, Nathan Lane, Glen Gettemy, Kevan Sincock, Elizabeth Liu, Rosemarie Geetan, Ian Draper, Tim Gill
+- Method: digital rock or imaging
+- Keywords: percussion sidewall coring, digital rock physics, microCT imaging, core damage characterization, unconfined compressive strength, weak sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-07)
+
+Novel percussion sidewall coring bullets with X-ray transparent sleeves were tested on six sandstones; microCT digital rock analysis showed intact zones with porosity and permeability close to reference plugs.
+
+Conventional percussion sidewall cores in weak formations are often damaged, limiting their use. A new PSWC barrel with a sharper cutter profile and an X-ray transparent aluminum sleeve was tested in three phases (ambient quasi-static, ambient dynamic, and reservoir-condition dynamic with up to 1000 psi overbalance) on six outcrop sandstones (20–35% porosity, ~100 mD to ~10 D). Test and reference plugs were microCT imaged (full plug at 7–11 µm, regions of interest at 4–5 µm) and damage was quantified by rind thickness, open fracture ratio and cataclastic zone ratio. Rind thickness increased with plug length, and damage depended on formation, velocity and penetration. Intact zones were identified in all plugs, and digital rock porosity and permeability of test plugs averaged within 5 porosity units and one order of magnitude of control plugs. Field trials are planned for 2022–2023 against full bore and rotary sidewall core.
+
+## Artificial Intelligence Assisted Quantitative Petrophysical Properties Analysis using Core Images and Well Logs
+
+- ID: SCA2022-18, year: 2022
+- Authors: Tao Lin, Mokhles Mezghani, Chicheng Xu, Weichang Li
+- Method: data analysis or correlation
+- Keywords: core image analysis, computer vision, Haralick texture features, random forest, deep neural network, petrophysical property prediction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-18)
+
+An AI workflow extracts color and texture features from core images, combines them with well logs, and predicts grain density, porosity and permeability profiles with moderate accuracy.
+
+Plug measurements are sparse and labor intensive, so the authors estimate continuous petrophysical profiles from high-resolution core photos and core gamma logs. Image features (RGB, HSV, Shannon entropy, Haralick GLCM texture) are computed per depth strip, smoothed to remove plug holes and markers, and aligned with plug data. Random forest, gradient boosting and a deep feed-forward neural network were trained to predict grain density, porosity and log permeability on a Saudi Arabian field example. The neural network performed best for grain density (R2 70.4%, CC 86.0%), while porosity reached R2 about 40% and permeability about 33-37%. Random forest feature importance showed grain density tied to hue (rock type), while porosity and permeability depended on Haralick texture features.
+
+## Combining high-resolution core data and machine learning schemes to develop sustainable core analysis practices
+
+- ID: SCA2022-19, year: 2022
+- Authors: Christophe Germay, Tanguy Lhomme, Luc Perneder, John Cummings
+- Method: measurement technique or apparatus
+- Keywords: CoreDNA, non-destructive core analysis, convolutional neural network, ultra-high-resolution core photos, rock facies classification, transfer learning
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-19)
+
+CoreDNA combines non-destructive high-resolution core measurements with a convolutional neural network to classify 27 outcrop rock types at 99% accuracy, a first step toward AI facies identification.
+
+The paper presents CoreDNA, a non-destructive core analysis workflow that produces continuous profiles of XRF composition, ultra-high-resolution photos (1.8 µm/pixel), laser-scan grain size, probe permeability, P/S velocity and scratch strength before slabbing and plugging. To show these data can support supervised machine learning, the authors used 27 outcrop samples (17 sandstones, 10 carbonates), augmented to 479 600x600 pixel images plus 16 CoreDNA data vectors. A pre-trained EfficientNet CNN was fine-tuned by transfer learning, using 60% of the data for training. It reached about 99% accuracy, with only 1 of 95 test points misclassified (San Saba confused with Kirby, a rock of similar properties and appearance). The paper also describes an iterative model-improvement loop and LithoLog software for standardized digital core description and grain size quality checking. Real-world application will need extensive labelled training sets.
+
+## Rapid, High Resolution Probe Screening Techniques for Core Analysis and their Potential Usefulness for Hydrocarbon or Energy Transition Applications
+
+- ID: SCA2022-43, year: 2022
+- Authors: Emmanuel Okwoli, David K. Potter
+- Method: measurement technique or apparatus
+- Keywords: probe permeametry, probe acoustics, linear X-ray luminance, magnetic susceptibility, slabbed core, geothermal basement
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-43)
+
+Probe luminance, permeability, acoustic and magnetic susceptibility measurements on slabbed core give rapid lamina-scale data that reveal cemented zones, anisotropy and basement boundaries missed by plug sampling.
+
+Conventional plug sampling every foot can miss thin cemented zones, fractures and lamina-scale heterogeneity, and is destructive. The authors apply probe techniques to slabbed North Sea core: linear X-ray/luminance, pressure-decay probe permeability and probe acoustics, plus magnetic susceptibility on powders from a geothermal well in Northern Alberta. X-ray images showed barite-filled fracture veins to be far more extensive in 3D than visible-light images, and luminance correlated with bulk density log. Over a 36 ft interval, 2 ft smoothing raised R² between vertical acoustics and permeability from 0.41 to 0.85, and luminance versus permeability from 0.48 to 0.76. Horizontal versus vertical acoustics exposed mica-related anisotropy in the Rannoch sandstone that the vertical sonic log would miss. Plug permeabilities were higher than probe values, likely from clay removal during hot soxhlet cleaning. Magnetic susceptibility separated a sedimentary sample (19×10⁻⁵ SI) from crystalline basement samples (239–506×10⁻⁵ SI).
+
+## Chemostratigraphic analysis as a powerful tool for the lateral continuity of structurally complex reservoirs. A case study
+
+- ID: SCA2022-47, year: 2022
+- Authors: Liborius-Parada Andreina, Medina-Macedo Marlen, Tonner Dave, Hughes Simon, McCulley Meri
+- Method: field or reservoir case study
+- Keywords: chemostratigraphy, ED-XRF cuttings, chemofacies, paleoredox proxies, pseudo-TOC model, Kimmeridgian
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-47)
+
+Portable XRF chemostratigraphy on 1156 cuttings from four wells defines chemofacies and units, reducing stratigraphic uncertainty and clarifying lateral continuity in a salt-affected Mexican Kimmeridgian reservoir.
+
+Seismic imaging in the structurally complex Pilar-Reforma-Akal province (salt bodies, shale diapirs, listric faults) leaves formation tops and lateral continuity uncertain. The authors analyzed 1156 cuttings (sampled every 3-5 m) from four vertical wells with a portable ED-XRF spectrometer after washing, drying and grinding, with USGS-standard calibration and QA/QC every five samples. Offset wells A, B and I defined 3 chemostratigraphic packages and 9 chemofacies using detrital, carbonate and paleoredox proxies, binary plots and a Ni-based pseudo-TOC model. Binary plots correlated a biostratigraphically barren Lower Cretaceous interval (6925-6977 m) with unit 1.1 and distinguished contamination from caved cuttings from true depositional changes. Well G showed the highest Mg Kimmeridgian interval, stronger anoxic proxies, and higher Mg, Al, Fe and Zr than offsets, with thickening toward the southeast; the results supported real-time well decisions.
+
+## Whole core scanning and artificial intelligence for the automatic recognition of sedimentological features
+
+- ID: SCA2023-038, year: 2023
+- Authors: Christophe Germay, Tanguy Lhomme, Luc Perneder, Bastien Pinchard, Thomas Mazur
+- Method: measurement technique or apparatus
+- Keywords: instance segmentation, grain size distribution, core photographs, Mask R-CNN, laser topography, QEMSCAN garnet detection
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-038.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-038)
+
+Describes a CoreDNA software framework linking labelling, annotation database and dataset generation to train segmentation AIs on core photographs, demonstrated on grain sizing and garnet detection.
+
+The paper presents software tools that connect high-resolution CoreDNA whole-core data and photographs to AI model training: a labelling tool with AI-assisted segmentation, an annotation database, and a COCO-format dataset generator. Grain-size profiles from instance segmentation of ultra-high-resolution core photographs were compared with laser topography median grain size and a sedimentologist's Wentworth classification. An end-to-end regression model matched small grain sizes but diverged for larger ones. Mask R-CNN, trained on 30 images with about 9000 instances, showed feasibility but was limited by image size (5300x4000 pixels) and a 100-instance cap, forcing downscaling or tiling that biased results. The later segmentation approach performed fairly well but matched poorly in clay/silt intervals where grain boundaries are not visible. A U-Net/EfficientNet semantic segmentation model trained on QEMSCAN maps was used to detect garnet in mining cores.
+
+## Machine learning and artificial intelligence algorithms for geomechanical rock properties prediction based on laboratory measurements and well logs
+
+- ID: SCA2023-054, year: 2023
+- Authors: Edyta Puskarczyk, Paulina Krakowska-Madejska, Bartosz Papiernik, Grzegorz Machowski
+- Method: data analysis or correlation
+- Keywords: machine learning, geomechanical properties, ultrasonic P- and S-wave velocity, CO2 storage, Random Forest, elastic moduli
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-054)
+
+Machine learning algorithms trained on laboratory ultrasonic and geomechanical measurements predict elastic and mechanical rock properties along Jurassic well intervals for a gas and CO2 storage model.
+
+Geomechanical properties are needed to simulate reservoir behavior for gas and CO2 storage. P- and S-wave velocities and elastic moduli were measured under simulated high pressure and temperature on several dozen core samples from wells in a planned aquifer storage area. Support Vector Machines, K-Nearest Neighbours, Random Forest and Artificial Neural Networks were trained on these laboratory results to predict velocities, Poisson's ratio, and Young's, bulk and shear moduli. The best models were applied to the whole Jurassic interval to give continuous profiles of geomechanical parameters, which fed a comprehensive geological model for the storage facility design.
+
+## Dynamic elastic parameters of Jurassic deposits in the Marianowo Anticline (Poland) gas storage site with a CO2 cushion
+
+- ID: SCA2023-055, year: 2023
+- Authors: Paulina Krakowska-Madejska, Grzegorz Machowski, Gabriel Ząbek, Bartosz Papiernik, Michał Michna
+- Method: data analysis or correlation
+- Keywords: dynamic elastic moduli, P- and S-wave velocity, geomechanical model, CO2 cushion gas storage, well logging, Jurassic
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-055)
+
+Combines core ultrasonic velocity measurements and well logs to estimate dynamic elastic moduli of Jurassic formations in the Marianowo Anticline for a geomechanical model of CO2 cushion gas storage.
+
+The Marianowo Anticline in NW Poland is a candidate aquifer structure for CO2 storage, and a geomechanical model of the Lower and Middle Jurassic formations was needed. P- and S-wave velocities were measured on core samples under axial compression at different axial loads, and dynamic elastic moduli were calculated using several models. Well logs supplied P-wave velocity and bulk density, and petrophysical analysis provided porosity and mineral content for additional modulus estimates. Core and log results were combined and optimal models selected for the geomechanical model. The results indicate the anticline meets capacity and safety conditions for CO2 cushion gas storage, though high-resolution 3D seismic and new wells with logging and reservoir tests are needed for optimal development.
+
+## Integration of PCA and clustering analysis with chemostratigraphy for improved lithofacies characterization in Southwest Texas
+
+- ID: SCA2023-056, year: 2023
+- Authors: Andreina Liborious, Simon Hughes, Carolina Mayorga, Carl Symox, Dave Toner
+- Method: data analysis or correlation
+- Keywords: chemostratigraphy, principal component analysis, clustering, XRF, Eagle Ford, anoxia proxies
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-056)
+
+Applies PCA and clustering to XRF chemostratigraphic data from 30 Eagle Ford wells to identify depositional sequences and anoxia variations for lithofacies characterization.
+
+Chemostratigraphic datasets are large, making patterns hard to interpret. The authors analyzed 2550 cuttings samples from 30 Eagle Ford wells in South Texas using benchmark XRF. They applied principal component analysis and clustering to the elemental data and examined anoxic geochemical proxies. The results identified changes in depositional environment and could be correlated with isotopic and organic geochemical data on oceanic anoxic events and hypersaline conditions, in comparison with known Late Cretaceous and Eagle Ford-equivalent source rocks. The analysis identified depositional sequences and variations in anoxia, with implications for the petroleum system, drilling, completion and production economics.
+
+## Tree-Based Machine Learning Can Determine Lithofacies Properties of Reservoir Rocks- Camal Oil field, Yemen
+
+- ID: SCA2024_1010, year: 2024
+- Authors: Ghareb M. Hamada, Abbas M. Al-khudafi, Hamzah A. Al-Sharifi
+- Method: data analysis or correlation
+- Keywords: lithology classification, random forest, well log data, SMOTE, AdaBoost, decision tree
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1010)
+
+Six tree-based machine learning classifiers predict lithology from well logs in the Camal field, Yemen; random forest performs best (F1 0.913) and AdaBoost boosting improves the other models.
+
+The study compares six decision-tree classifiers (random forest, random tree, J48, REPT, LMT, Hoeffding tree) for lithology identification using 20,966 log data points from four Camal field wells, labelled from core and cuttings. Inputs were depth plus RHOB, NPHI, DT, GR, LLD, LLS and RES, with IQR outlier removal, SMOTE balancing (RF accuracy 88.2% to 92.1%), normalization, and ten-fold cross-validation. Random forest performed best (precision 0.913, recall 0.914, F1 0.913), followed by random tree and J48, while the Hoeffding tree was worst (F1 about 0.43-0.52). Depth ranked as the most important feature in the Relief analysis. AdaBoost improved the models, raising RT accuracy from 81.57% to 89.25%. A train/CV/test split showed overfitting, with RF at 100% training accuracy versus about 86% on unseen data.
+
+## Detailed sensitivity analysis assessment for the determination of the best clay volume model in the shallow offshore area in Suriname
+
+- ID: SCA2024_1068, year: 2024
+- Authors: Raidel F. Djodi, Elias R. Acosta, James S. Deering, Staatsolie Maatschappij Suriname N.V, Offshore Directorate, Subsurface Appraisal, Evaluation Team
+- Method: data analysis or correlation
+- Keywords: clay volume, Stieber model, XRD mineralogy, gamma ray index, neutron-density, sensitivity analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1068.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1068)
+
+A sensitivity tool (VCLEAT) tested clay volume models against 64 XRD samples in Suriname offshore wells; Stieber fit best, and a weighted Stieber-neutron-density blend improved agreement.
+
+Inconsistent clay volume (Vcl) methods in Suriname's shallow offshore wells created large uncertainty. The authors built an Excel tool, VCLEAT, to run sensitivity analysis of empirical Vcl models (Clavier, Stieber, Larionov, GR index, neutron-density) using fixed, P10-P90 and P5-P95 input ranges. Models were compared with Vcl from 64 XRD rotary sidewall core samples in three key wells (AKT-01, CRC-01, SP-01). Stieber gave the smallest deviation and the most stable response, while the previously used Larionov approach overestimated Vcl in most wells. Because kaolinite and chlorite lower gamma ray readings, a Stieber-neutron-density weighted average (60-40 to 90-10 depending on caliper/bit-size condition) was proposed. Applied to 26 other wells, it matched core data and facies maps for the Paleocene-Eocene and Cretaceous intervals.
+
+## The Importance of XRD data to overcome the challenges of Clay Volume Estimation in K-Felspar and Kaolinite-rich unconsolidated reservoirs of the Paleocene age in the Tambaredjo Oil Field of Suriname
+
+- ID: SCA2024_1069, year: 2024
+- Authors: Ferhaad Idoe, Arantxa Lieveld, Elias Acosta, Prachand Naigi, Fabian Graanoogst, Bhagwanpersad Nandlal
+- Method: data analysis or correlation
+- Keywords: clay volume, XRD calibration, K-feldspar, spectral gamma ray thorium, Larionov Young Rocks, neutron-density
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1069.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1069)
+
+XRD clay data calibrate log-derived clay volume in K-feldspar and kaolinite-rich Tambaredjo sands, giving zone-specific endpoints, a 60/40 GR-ND weighting, and lower Vcl and Sw.
+
+Log-derived clay volume in the unconsolidated Paleocene T-Unit of the Tambaredjo field, Suriname, is overestimated in K-feldspar-rich intervals and underestimated in kaolinitic ones. Using XRD data from four systematically sampled wells (converted from dry to wet clay with 1-PHIT), the authors cross-plotted GR Thorium, neutron and density against XRD_Vcl to derive unique clean and clay endpoints. The field splits into TAMN (deltaic, with T3 separate from T2+T1) and TAMC/TAMS (fluvial), with GR_THOR clean points of about 4 ppm and clay points of roughly 18-30 ppm. The clay point was extrapolated from XRD samples with Vcl above 50%. Using GR Thorium instead of GRKT and a 60% Larionov Young Rocks / 40% neutron-density average gives a 1-5% difference from XRD_Vcl, reducing Vcl by 5-10% and Sw by 7-14%, which raises PIIP.
+
+## A Comparison of Lithology Predictors in Some Thin Bedded Gas Turbidite Reservoirs Using Conventional and Quantum Neural Networks
+
+- ID: SCA_2025_1060, year: 2025
+- Authors: David K. Potter, An H. Le
+- Method: data analysis or correlation
+- Keywords: quantum neural networks, lithology prediction, thin bedded turbidites, genetic petrophysics, wireline logs, modular neural networks
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1060)
+
+Quantum neural networks trained on short representative core intervals predict sand/shale lithology from well logs in two thin-bedded gas turbidite wells, generally beating conventional neural networks and statistics, especially for thin sands.
+
+Lithology must be predicted from well logs where core is scarce, and thin sands in turbidite gas reservoirs are hard to identify. The authors trained back-propagation, modular and quantum neural networks (QNNs) on short Representative Genetic Units and compared predictions against core in a Nile Delta well and a Polish Carpathian Foredeep well. In the Nile Delta test interval (282 points), predictors gave 183–200 correct values (65–71%); QNN3-2 identified the most sand (65 of 111 correct) and recovered thin sand layers, including a 9 cm bed, that others missed. In the Polish well, Model 1 (sand/shale) accuracy ranged 60–73%, with discriminant analysis on principal components best overall (98 of 134) and QNN3-2 best for sand; for Model 2 (four classes) QNN3-4 was best overall (54 of 134). Total lithology proportions were predicted much better than exact depth positions, suggesting depth-matching errors.
+
+## Effective Symbolic Regression-Based Petrophysical Model Development Workflow and Efficient Software Tool for Enabling Easy Utilization
+
+- ID: SCA_2025_1067, year: 2025
+- Authors: Wei Shao, Songhua Chen, Hyung T. Kwak, Jun Gao, Mohammed Abdul-Qadir, Abdullah Alkhaldi, Gabor Hursan
+- Method: data analysis or correlation
+- Keywords: symbolic regression, genetic programming, NMR permeability model, formation resistivity factor, cementation exponent, PySR
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1067.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1067)
+
+A five-step symbolic regression workflow and GUI software produce interpretable permeability and formation factor equations from small core datasets, outperforming calibrated Coates and SDR models.
+
+Petrophysical models built from small, noisy core datasets are hard to make both accurate and physically interpretable. The authors present a symbolic regression workflow (correlation heatmap feature selection, genetic-programming SR, ensembling, conditional branching with max/min operators, and complexity-penalized model selection) implemented in a desktop GUI that integrates PySR and other SR packages. It was applied to 29 unconventional-reservoir core samples (28 after removing one outlier) to derive NMR-based permeability equations, which outperformed calibrated Coates and SDR models. Branching and threshold terms identified two data regimes, and PySR sometimes gave overly complex or physically inconsistent equations. For 30 carbonate samples, a PySR formation factor model gave m = φmacro + 1.9, comparable in performance to the Eureqa model, offering insight into cementation and tortuosity interdependence.
+
+## Invisible Bias: Amorphous Silica Cement as a Source of Petrophysical Non-Reproducibility
+
+- ID: SCA2026-044, year: 2026
+- Authors: Matthias Halisch, Marina Dercks
+- Method: laboratory experiment
+- Keywords: Fontainebleau sandstone, amorphous silica cement, NMR T2 relaxation, spectral induced polarization, alkaline leaching, measurement reproducibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-044.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-044)
+
+Repeated NMR and SIP measurements on Fontainebleau sandstone were non-reproducible due to amorphous silica films; weak alkaline leaching stabilized responses, revealing hidden bias in reference rocks.
+
+Fontainebleau sandstone, a quartz reference rock, gave unstable NMR T2 distributions and SIP phase responses over repeated saturation-drying cycles, while porosity and DC resistivity stayed stable. Three strata (strongly cemented, intermediate, porous) were characterized with SEM, micro-CT, MICP, porosity-permeability, NMR and SIP before and after weak alkaline leaching (1 wt.% Na2CO3, 85 °C, 4 h). SEM showed intergranular wallpaper-like SiO2 films interpreted as amorphous silica. Leaching raised porosity from 8.4 to 9.7% and permeability from 0.1 to 21 mD in the tight strata, with little change in the porous strata. Short-T2 components (<30 ms) largely disappeared, and SIP phase scatter (e.g. 6.5–24 mrad at 1 mHz in tight strata) fell to about ±2–3 mrad. The authors recommend repeated measurements, controlled conditioning and combined multi-method interpretation, using leaching only as a diagnostic tool.
+
+## Core-Based Geomechanical Profiling of a Continental Shale Oil Reservoir and Dynamic-to-Static Transformation Relationships of Mechanical Parameters
+
+- ID: SCA2026-046, year: 2026
+- Authors: Shouding Li, Bo Zheng, Peng Guo, Yanzhi Hu, Xiukuo Sun, Hang Bian, Zhuoran Xie, Fei Tian, Xiao Li, Qingyun Di
+- Method: laboratory experiment
+- Keywords: dynamic-to-static conversion, triaxial compression, Brazilian tensile strength, lacustrine shale oil, in-situ stress profile, mobile rock mechanics laboratory
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-046.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-046)
+
+Well-site triaxial and Brazilian tests on 86 plugs from a 49 m Lucaogou shale oil interval yield geomechanical profiles and lithology-specific dynamic-to-static conversion equations for mudstone and sandstone.
+
+Thin interbedding and heterogeneity in the lacustrine Lucaogou shale oil reservoir (Jimsar Sag) make static mechanical parameters hard to derive from logs. Eighty-six 10 mm plugs from a 49 m continuous core interval were tested in a containerized mobile rock mechanics laboratory: triaxial compression at 100 MPa confinement, Brazilian splitting, resistivity, chargeability and magnetic susceptibility, plus XRD. Triaxial strength ranged 190.76–672.26 MPa, elastic modulus 13.92–34.54 GPa, Poisson's ratio 0.12–0.36 and tensile strength 8.58–30.24 MPa, with sharp vertical fluctuations that carried into calculated in-situ stress and breakdown pressure profiles. Polynomial dynamic-to-static conversions were fitted separately for mudstone (R² 0.69–0.75) and sandstone (R² 0.74–0.82), with sandstone correlating better because of its more grain-supported, less heterogeneous structure. The small specimen size may bias absolute strengths upward, so the data are used mainly for relative variation and log calibration.

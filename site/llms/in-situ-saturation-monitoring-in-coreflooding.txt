@@ -1,0 +1,512 @@
+# In-situ saturation monitoring in coreflooding
+
+> 39 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: flooding, ct, fluid, x-ray, flow, oil, water, monitoring, in-situ, steam.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## In-Situ Saturation Distributions: The Key to Understanding Core Analysis
+
+- ID: SCA1994-05, year: 1994
+- Authors: P Naylor, D A Puckett
+- Method: review or workflow
+- Keywords: in-situ saturation, gamma attenuation, X-ray attenuation, gamma emission, gravity drainage, three-phase saturation
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-05)
+
+Reviews gamma attenuation, X-ray attenuation and gamma emission methods for in-situ saturation measurement in core floods, with accuracy analysis and wettability and gravity drainage examples.
+
+The paper reviews ionising-radiation techniques for measuring in-situ saturation distributions of up to three phases during core floods: gamma attenuation, X-ray attenuation and gamma emission. It gives the saturation equations and a statistical error analysis relating photon intensity accuracy to saturation accuracy. For 1% PV saturation accuracy, intensity accuracy of 0.004% is needed for decane/brine/air and 0.04% for decane/brine, relaxed to 0.089% and 0.47% with 10% NaI dopant. X-ray scanning improves temporal resolution by about an order of magnitude over gamma attenuation, while gamma emission is the practical option for steel pressure vessels. Examples show waterflood ROS of 0.42 in a water-wet core versus 0.21 after ageing, and gravity drainage profiles revealing end effects that would cause mass balance to overestimate residual oil to gas.
+
+## Towards a Better Understanding of Multiphase Flow in Porous Media: 3D in-Situ Fluid Distribution Imaging at the Pore Scale
+
+- ID: SCA2009-17, year: 2009
+- Authors: S. Youssef, D. Bauer, S. Bekri, E. Rosenberg, O. Vizika
+- Method: digital rock or imaging
+- Keywords: X-ray micro-tomography, in-situ fluid imaging, drainage and imbibition, residual oil trapping, image segmentation, Fontainebleau sandstone
+- Cited by 5 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-17)
+
+A PEEK Hassler microcell combined with lab micro-CT images oil/water distribution through a full drainage-imbibition cycle in Fontainebleau sandstone, revealing trapping configurations, IFT effects and hysteresis in interfacial area.
+
+The paper presents a micro-CT setup with a small PEEK Hassler-type flow cell (5 µm pixels) that images fluid distributions in situ during a capillary pressure cycle without interrupting flow. A 6 mm Fontainebleau sandstone miniplug (22% porosity, 2.6 D) was drained with iododecane-doped dodecane at 0.01–0.2 cc/min, then imbibed by positive spontaneous, free (Pc=0) and forced imbibition. Saturation profiles from mean grey level agree with those from 3-phase segmentation, except that segmentation misses water films at Swi. The drainage Pc curve derived from the images matches mercury intrusion on a sister plug; drainage showed microfingering along walls at low capillary number. Free imbibition left oil trapped in many small ganglia; raising IFT from 16 to 40 mN/m produced more connected blobs. At equal So of 23%, the oil–water interfacial area in imbibition was 1.5 times that in drainage, which may explain hysteresis.
+
+## State-of-the-art X-ray Steady State Apparatus for advanced core flow studies. SCA-9853
+
+- ID: SCA1998-53, year: 1998
+- Authors: J.G.C. Coenen, P. Koornneef.
+- Method: measurement technique or apparatus
+- Keywords: X-ray saturation measurement, steady state relative permeability, carbon fibre core holder, saturation profiles, resistivity electrodes
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-53)
+
+Shell describes a new steady-state relative permeability apparatus using an X-ray source for fast, undoped in-situ saturation measurement to ±1 sat%, with multi-port pressure and resistivity.
+
+Conventional steady-state relative permeability tests rely on gamma-ray saturation measurement, which needs long counting times (about 20 min/point) and doped fluids that risk altering wettability. Shell Research built an X-ray steady state (SSX) apparatus with a high-flux industrial X-ray source, allowing 0.2 s per position, a 15 cm sweep scan in 12 s, and 40 discrete scan positions. Custom CdWO4/photodiode current-mode detectors resolve the only 4% signal change between 100% water and 100% oil, and a monitor detector in the primary beam compensates for source drift. The carbon-fibre epoxy core holder is X-ray transparent, with multiple pressure ports and resistivity electrodes (full core plus 4 positions), and tandem HPLC pumps give pulse-free flow of 0.01-20 ml/min. Saturation is accurate to ±1 sat% with natural undoped fluids for porosities down to 25%, and the profiles allow correction for entrance and capillary end effects and numerical-simulation interpretation.
+
+## How Reliable Is in Situ Saturation Monitoring (Issm) Using X-Ray?
+
+- ID: SCA2014-009, year: 2014
+- Authors: A.W. Cense, H.A. van der Linde, N. Brussee, J. Beljaars, A. Schwing
+- Method: measurement technique or apparatus
+- Keywords: X-ray saturation monitoring, low salinity waterflooding, Welge weighing under back pressure, Dean-Stark, unsteady-state coreflood, calibration scans
+- Cited by 4 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-009)
+
+X-ray saturations in unsteady-state floods are compared with oil production measured by a weighing-under-pressure balance; X-ray can deviate substantially, especially in low salinity floods, while the balance matches Dean-Stark.
+
+X-ray monitoring of in situ saturation is common in core floods, but its uncertainty is rarely quantified, and low salinity EOR increments are small (about 1.2 ml of oil for a typical plug). The authors built a Welge-type set-up in which produced oil floats into a cap hanging from a balance at 5-6 bar back pressure, so no gas evolves; dead volumes (about 1.2 ml inflow, 1.0 ml outflow) give under 0.2 ml uncertainty. In one sandstone polymer flood, X-ray and balance saturations agreed within 0.01-0.03 PV. In a low salinity sandstone flood they diverged, owing to brine mixing, salinity contrast, possible dissolution/precipitation and imperfect calibration scans (residual water of 0.3% and 2.7% after oil scans). Against Dean-Stark on 14 samples, the balance gave a mean saturation difference of 0.016 ± 0.015 (0.25 ml). The authors recommend combining X-ray profiles with the balance for quality control.
+
+## Cal-X: An X-Ray Radiography Tool for High Throughput Coreflood Experimentation. Applications in the EOR Context
+
+- ID: SCA2017-012, year: 2017
+- Authors: Souhail Youssef, Matthieu Mascle, Yannick Peysson, Olga Vizika
+- Method: measurement technique or apparatus
+- Keywords: X-ray radiography, capillary desaturation curve, steady-state relative permeability, surfactant EOR, mini-plug, high throughput coreflood
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-012)
+
+CAL-X, a miniaturized X-ray radiography coreflood setup for 10 mm plugs, cuts experiment time by an order of magnitude and reproduces macro-plug relative permeability and CDC results.
+
+Chemical EOR studies need fast coreflood measurements, so the authors built CAL-X, combining an X-ray radiography facility, an automated multi-fluid injection platform and a beryllium core holder for 10 mm by 20 mm mini-plugs (up to 150 bar, 150 °C). Saturation is computed in real time from radiographs using Beer-Lambert's law with dopant-free fluids. Tests on water-wet Bentheimer, Clashach and Fontainebleau sandstones (12-23% porosity, 200-2030 mD) gave steady-state relative permeabilities in hours and capillary desaturation curves in hundreds of minutes. Both agreed well with macro-plug literature data, and CDCs were repeatable, with half of the residual oil produced near Nc = 1.3e-4. A surfactant slug at 110°C showed oil bank formation and a final oil saturation of 5%, giving 92% OOIP recovery after 3.3 PV.
+
+## Cxbox: An Innovative Tool for Fluid Dynamic Quantification During Corefloods
+
+- ID: SCA2017-037, year: 2017
+- Authors: Gilles PUYOU, Michel N'GUYEN, Sabine SAVIN
+- Method: measurement technique or apparatus
+- Keywords: 2D X-ray imaging, in situ saturation monitoring, Beer-Lambert law, flat-panel detector, carbon coreholder, reservoir-condition coreflood
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-037.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-037)
+
+A self-shielded 2D X-ray bench with flat-panel detector and carbon coreholder images fluid saturation in corefloods at reservoir conditions without dopants, matching material balance within a few saturation units.
+
+Conventional 1D NaI X-ray saturation monitoring is slow and cannot capture heterogeneous flow, while CT is costly. TOTAL developed the CXBOX, a cabinet 2D X-ray system with a 40x40 cm flat-panel detector (200 µm pixels), a hyper-stable generator (<0.5% dose drift over 24 h), and a low-attenuation carbon coreholder rated to 650 bar, 155°C and 100 mm samples. Two saturation calculation methods were developed: one using reference images of fully saturated rock, and one using the Beer-Lambert law relative to the last saturation state, with PEEK standards to measure fluid attenuation in situ. On a 50 mm homogeneous sandstone, Swi was 26.6% by material balance versus 26.0% and 25.8% for methods 1 and 2; final So was 41.6% versus 40.0% and 39.2%. Images take 1-10 s, and a miscible tracer test with two similar brines and no dopant showed preferential flow at the sample edge. Method 1 can drift by about five saturation units over months-long tests.
+
+## Laboratory Evaluation of Waterflood Residual Oil Saturation in Four Carbonate Cores
+
+- ID: SCA2001-12, year: 2001
+- Authors: Jairam Kamath, Frank Nakagawa, Robert Meyer, Shah Kabir, Randall Hobbet
+- Method: laboratory experiment
+- Keywords: residual oil saturation, CT flow imaging, carbonate waterflood, capillary number, Amott wettability, capillary end effect
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-12)
+
+CT-monitored waterfloods on four whole carbonate cores show residual oil saturation of 30-60% PV at field rates, falling substantially with higher pressure gradient, most strongly in rocks with large pore aspect ratios.
+
+Residual oil saturation in carbonates is uncertain because of pore-size distribution, heterogeneity and wettability, so four whole limestone cores (6-85 md, 17-26% porosity) were characterized with thin sections, mercury injection, CT porosity maps and miscible floods. Unsteady-state and steady-state oilfloods and waterfloods were run on cleaned and restored-state samples at stepped rates, with CT scanning used to separate capillary end effects, bypassing and true ROS reduction. ROS at field-rate conditions (~1 psi/ft, Nc ~1e-8) was 30-60% PV and fell as pressure gradient rose to ~100+ psi/ft; for example K2 fell from 32 to 20% PV and K4 from 60 to 32% PV. Samples K4 and K5, with large pore body-to-throat ratios, had the highest ROS and strongest rate dependence. Amott water indices were near zero and oil indices 0-0.3, and steady and unsteady state saturation profiles agreed. The authors conclude that a critical capillary number concept does not hold for these carbonates and that coreflood rates should be varied with visualization.
+
+## Fluid Velocities in Oil Cores During Water Injection
+
+- ID: SCA1991-13, year: 1991
+- Authors: M. A. Robinson, W. A. Edelstein
+- Method: measurement technique or apparatus
+- Keywords: MRI velocity imaging, 3DFT flow encoding, water injection, flow channeling, Casper sandstone, San Andres dolomite
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-13)
+
+A 3DFT MRI flow pulse sequence maps axial water velocities in Casper sandstone and San Andres dolomite cores, showing flow channeling into high-porosity regions and detecting channels.
+
+Conventional coreflood experiments give only core-averaged properties, and CT-based flow imaging needs a displacement front. This work uses a modified 3DFT MRI flow-encoding sequence on a 2-tesla imager with a bird-cage coil to measure steady-state axial velocities during water injection. Two cores were studied: Casper sandstone (T2 5.4 ms, 77-88 md, 16.1% porosity) and heterogeneous San Andres dolomite (T2 35 ms, 10-60 md, ~16% porosity). Echo time was 15 ms, with 16 slices and 32 averages. In Casper sandstone, flow near the inlet was piston-like, then became channeled into high-porosity layers further along, with some apparent backflow regions. In the dolomite, flow channeled into a few high-porosity regions and along a channel where the epoxy sleeve separated, leaving the second half of the core largely unswept. Low signal-to-noise remained a limitation near the core ends.
+
+## Quality Control of Waterfloods on Heterogeneous Core Samples Using Computer Tomography
+
+- ID: SCA1990-17EURO, year: 1990
+- Authors: Helga Baardsen, Victor Nilsen, Arvid O. Hove
+- Method: laboratory experiment
+- Keywords: X-ray CT, miscible displacement, heterogeneous sandstone, initial water saturation, residual oil saturation, core firing wettability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-17EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-17EURO)
+
+X-ray CT visualization of water- and oilfloods on a layered North Sea sandstone shows channeling that makes Swi, Sor and JBN relative permeability unreliable; firing changes wettability and clay structure.
+
+Displacement tests on heterogeneous North Sea reservoir sandstone gave high Swi, high Sor and unusual relative permeability curves, so a layered 1.5-inch sample was studied with X-ray CT during miscible, oil- and waterfloods. The miscible displacement revealed a high-permeability middle zone (~2700 mD) and outer zones (~900 mD). Swi depended on the method: about 0.13 by centrifuge, 0.40 with viscous oil flood and about 0.50 with low-viscosity oil flood at 400 ml/h. Sor was about 0.30, nearly independent of Swi and only slightly dependent on rate, because oil was produced mainly from the permeable layer. Firing at 600 °C made the sample strongly water-wet (Amott water index 0.9, oil index 0.0), lowered and evened out Sor, and altered clay morphology (kaolinite, illite) and porosity. The authors conclude that JBN-type relative permeability calculation should be avoided on strongly layered samples and that CT should be used to select homogeneous samples.
+
+## Improved Flooding Experiments in Heterogeneous Rocks Using in-Situ Saturations from X-Ray CT Measurements
+
+- ID: SCA2000-40, year: 2000
+- Authors: Svein Håvard Midtlyng, Jan Åge Stensen
+- Method: measurement technique or apparatus
+- Keywords: X-ray CT saturation, core flooding, heterogeneous rock, three-phase flow, WAG, capillary end effect
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-40)
+
+X-ray CT in-situ saturation measurements in four core flood cases show they improve interpretation, especially for heterogeneous rocks and complex three-phase floods.
+
+Core floods are usually interpreted from effluent production and pressures alone, which can mislead in heterogeneous samples or complex floods. The authors used a dual-energy medical CT scanner with NaI dopant for two-phase floods, and with tungstate and iododecane dopants for three-phase saturation calculation. Four cases are shown: a homogeneous core in steady-state relative permeability tests, a heterogeneous cross-bedded core, a 10x10x2 cm heterogeneous slab with miscible, oil, gas and water floods, and a three-phase WAG flood at 100 °C and 300 bar. CT showed capillary end effects that invalidated the drainage endpoint, within-section saturation variations of 0.1-0.4 after drainage and 0.5-0.8 after waterflood, and permeability-controlled fingering and gas flooding patterns. In-situ saturations are recommended for heterogeneous rocks and complex floods, since mass balance becomes inaccurate, for example with evaporation during gas flooding.
+
+## An Experimental Study of Waterflooding from Layered Sandstone by CT Scanning
+
+- ID: SCA2013-088, year: 2013
+- Authors: Zhang Zubo, Zhang Guanliang, Lv Weifeng, Luo Manli, Chen Xu, Danyong Li
+- Method: laboratory experiment
+- Keywords: CT scanning, oil crossflow, layered sandstone, waterflooding, permeability variation coefficient, saturation profile
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-088.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-088)
+
+CT scanning and per-layer effluent measurement in a three-layer sandstone model quantify oil crossflow during waterflooding, showing flow from low to high permeability layers and better recovery at lower permeability variation.
+
+The study investigates crossflow between communicating layers during waterflooding and its effect on oil recovery. Three water-wet outcrop sandstone layers of equal thickness (high, medium, low permeability, e.g. 1188/441/176 mD for Vk 0.71 and 1266/808/375 mD for Vk 0.45) were loaded in a PEEK coreholder that collects outflow from each layer separately, with 12 cP oil and NaBr brine. Waterflooding at 1 ml/min continued to 99.9% water cut while CT scans gave the saturation profile of each layer. Comparing volumetric recovery with CT-derived local displacement showed that oil crossflows mainly from low to high permeability layers and increases markedly after water breakthrough. Lower permeability variation coefficient gave higher recovery, especially below 1.5 PV injected, though both groups reached the same final recovery.
+
+## New X Ray Scanning System for Special Core Analyses in Support of Reservoir Characterization
+
+- ID: SCA1999-40, year: 1999
+- Authors: Dan Maloney, Dennis Wegener, David Zornes
+- Method: measurement technique or apparatus
+- Keywords: x ray scanner, germanium detector, image intensifier, fluid saturation, rock heterogeneity, three-phase coreflood
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-40.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-40)
+
+Describes a custom dual-detector x ray scanner combining a germanium detector and image intensifier for coreflood saturation measurement and heterogeneity imaging at reservoir conditions.
+
+Phillips Petroleum built a multi-purpose x ray scanner because no commercial unit combined linear intensity scanning with rapid imaging for reservoir-condition special core analysis. It uses a 160 kV tube with 3 mm and 0.4 mm foci, a germanium detector and an image intensifier on movable platforms, with X (310 cm), Y (130 cm), Z axes and sample rotation, all at 0.1 mm resolution. The scan region (1 m by 3.1 m) allows several corefloods to run concurrently. Imaging revealed a burrow-like feature in a chalk plug and heterogeneity in Bluejacket sandstone, and also measures sample dimensions and fluid interfaces in separators. A test with brine cells showed both detectors correlate linearly with the natural log of signal versus brine thickness, though image intensifier saturations are more noise-sensitive.
+
+## Significance of Absorption Coefficients When Determining In Situ Core Saturations by Linear X-ray Scans
+
+- ID: SCA2000-13, year: 2000
+- Authors: D. R. Maloney, D. C. Wegener, D. R. Zornes
+- Method: theory or analytical model
+- Keywords: linear x-ray scanning, Lambert's equation, linear absorption coefficient, beam hardening, three-phase saturation, polychromatic x-ray
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-13)
+
+Applies Lambert's equation directly with fluid absorption coefficients to compute two- and three-phase saturations from polychromatic linear x-ray scans, showing narrow energy integration minimizes beam-hardening errors.
+
+Many labs use heuristic correlations between ln(intensity) and saturation in linear x-ray scans, which fail when fluid density or composition changes. The authors present a corollary of Lambert's equation using emergent reference intensities, with closed-form solutions (Cramer's rule) for two- and three-phase saturations using one, two or three energy ranges. Using a dry North Sea chalk plug scanned at 52 kV and 95 kV in a carbon-fiber coreholder at 70 bar, they calculated pulse-height spectra for CsCl or KBr brine, decane and nitrogen saturations with XCOM absorption coefficients. Integrating intensity over wide energy ranges introduces saturation errors between endpoints due to beam hardening, while narrow or symmetric ranges give calculated saturations within about 0.001-0.01 of true values. Guidance is given for reservoir-condition tests, including measuring fluid absorption coefficients in a separator and correcting for confining fluid density changes.
+
+## Imaging-based Dispersion in CT Coreflooding Experiments
+
+- ID: SCA_2025_1012, year: 2025
+- Authors: Ali Fadili, Steffen Berg
+- Method: numerical simulation
+- Keywords: imaging-based dispersion, 4D CT imaging, tracer dispersivity, advection-dispersion equation, coreflooding, motion blurring
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1012)
+
+Finite CT scan time blurs moving fronts in coreflooding, inflating apparent dispersivity; scanning 10x faster than flow is insufficient, and 3D heterogeneity gets misread as dispersion.
+
+Finite acquisition time in 4D imaging (CT, MRI, PET) of coreflooding causes motion blurring of fluid fronts, termed imaging-based dispersion, which can be mistaken for hydrodynamic dispersion. Using a synthetic 1D advection-dispersion model of a 5 cm core and 30 s scan time, the authors fit effective dispersivity and velocity versus the ratio of front velocity to scanner velocity (v/vs). At v/vs≈0.1 the fitted dispersivity is about 25% too high and velocity about 10% too high; v/vs≈0.01 reduces the error to below 5%, and the fit diverges as v approaches vs. A 3D simulation on a heterogeneous carbonate digital twin (porosity from dry/wet CT, power-law permeability, flow rates 0.1–2 cm3/min) shows local concentration errors of about 20% in high-velocity regions, so resolved heterogeneity appears as extra dispersion and spatial resolution is lost. Two-phase flow is expected to be similarly affected, and the authors suggest imaging at two fixed positions to obtain effluent curves instead of full 3D scans.
+
+## HPLC Chromatography Packing as a Tool to Evaluate Mechanisms of Formation Damage by Fines Migration
+
+- ID: SCA1992-28, year: 1992
+- Authors: José Guzmán, Ivanka Kancev, Mario Lattanzio
+- Method: measurement technique or apparatus
+- Keywords: fines migration, critical salinity concentration, HPLC packed column, formation damage, kaolinite, sandpack permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-28)
+
+Steel HPLC columns packed with Ottawa sand and kaolinite reproduce fines-migration permeability damage seen in core plugs, in 40 minutes instead of 8 hours.
+
+Fines migration causes permeability loss in reservoirs, but conventional core-plug displacement tests take hours and give poor control over pore geometry and mineralogy. The authors packed 316 steel HPLC columns (0.7 cm i.d., 9.2 cm long) with 600–900 µm Ottawa sand and a small fraction of ~30 µm kaolinite, and ran tests at room temperature. Two programs were used: decreasing NaCl or BaCl2 salinity at 1.5 ml/min, and variable flow rate (0.5–8 ml/min) at 3% NaCl. NaCl gave a critical salinity concentration near 0.3% (0.27% in Berea core tests), with permeability falling to about 0.33 of initial in fresh water, while BaCl2 caused no decline. In the rate test, permeability first rose from 2.61 to about 5.1 mD and then declined as fines accumulated at the column frit. The test took 40 minutes versus about 8 hours for conventional displacement.
+
+## A Novel Approach to Testing Core Samples at Reservoir Conditions
+
+- ID: SCA1993-25, year: 1993
+- Authors: B.T. Ngwenya, G.B. Shimmield, S.C. Elphick
+- Method: measurement technique or apparatus
+- Keywords: seawater injection, core flood apparatus, on-line HPLC, permeability reduction, Clashach sandstone, formation damage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-25)
+
+A re-circulating, inert core flood rig with on-line HPLC shows Clashach sandstone permeability falls with brine injection but rises with distilled water, depending on fluid chemistry and sample preparation.
+
+Seawater injection in North Sea reservoirs may trigger poorly understood diagenetic reactions, so the authors built a re-circulating plug-flow core flood rig with on-line HPLC sampling of 10-20 µl volumes at reaction temperature and pressure. The rig uses PEEK and titanium wetted parts, confines cores to 68.9 MPa and 34.5 MPa pore pressure, and heats to 100°C. A chloride pulse tracer test checked flow behaviour. Clashach sandstone cores (200 mD to 1 D) were flooded at 80°C, 13.8 MPa effective stress and 0.3 cm3/min for 2-5 weeks. Artificial brine reduced permeability to about 70% (Test #7) and 45% (Test #8) of initial values, while distilled water doubled permeability in a pre-flushed core but dropped it to 12% initially in an unflushed core, recovering to about 63%. The authors conclude that waterflooding is chemically active and that sample preparation strongly affects permeability results.
+
+## Flow Imaging in Core Samples by Electrical Impedance Tomography
+
+- ID: SCA2001-06, year: 2001
+- Authors: J.J.A. van Weereld, M.A. Player, D.A.L. Collie, A.P. Watkins, D. Olsen
+- Method: measurement technique or apparatus
+- Keywords: electrical impedance tomography, 3D resistivity imaging, bipolar DC pulse, truncated-Newton reconstruction, flow front monitoring, Bentheim sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-06)
+
+A 192-electrode 3D electrical impedance tomography system images fluid distribution in 38 mm core plugs using bipolar DC pulses and a fast truncated-Newton reconstruction.
+
+The paper presents 3D electrical impedance tomography for imaging resistivity and fluid distribution in core plugs under confining pressure in a Hassler or Hoek-type holder. A flexible printed circuit with 192 electrodes (8 rings of 24) is wrapped around the plug, and a bipolar DC pulse technique performs four-wire measurements and removes electrode offsets. Reconstruction uses a finite element model with 1080 prismatic elements and a regularised Levenberg-Marquardt scheme accelerated about 9 times by truncated-Newton with preconditioned conjugate gradients. A full data set is acquired in under 1 minute and reconstruction takes under 10 minutes at roughly 4x4x4 mm resolution, with about 5% accuracy in uniform regions. Phantom tests and brine flooding of an oil-saturated Bentheim sandstone show a conical flow front, though some anomalies from contact and geometry errors remain and conversion to saturation is left for future work.
+
+## Two-Dimensional Fluid Saturation Imaging Improves Estimates of Oil Recovery in Heterogeneous Carbonates
+
+- ID: SCA2004-15, year: 2004
+- Authors: P. Brockley, Integrated Core
+- Method: measurement technique or apparatus
+- Keywords: gamma attenuation, 2D saturation imaging, waterflood, heterogeneous carbonates, residual oil saturation, slab coreholder
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-15)
+
+A low-cost gamma-attenuation scanner images 2D saturation during waterfloods of slabbed cores, showing heterogeneities such as cemented fossils and bedding divert flood fronts and create localized residual oil.
+
+Conventional coreflood interpretation assumes one-dimensional flow, which heterogeneous rocks violate, while CT/MRI is costly. The authors built a 2D gamma-attenuation scanner with a flat alloy coreholder (slabs up to 100 x 200 mm, 3000 psi confinement) and four 200 mCi sources with detectors on robotic arms, giving 4 mm pixels and about 300 pixels per hour. Waterfloods with KBr-doped brine at 1.5 ml/hr were imaged on three Middle East limestone slabs and one sandstone slab with a cemented fracture. Cemented fossils, bedding and porosity contrasts split and diverted flood fronts, producing local zones of high residual oil and strong end effects. Preserved or aged samples showed fingering and oil-wet behavior such as stripping after breakthrough. The authors conclude that 2D monitoring gives more insight into heterogeneity than 1D saturation profiles.
+
+## Innovative Core Flooding Technology for Heavy Oil Recovery Studies
+
+- ID: SCA2007_23, year: 2007
+- Authors: J.G.C. Coenen
+- Method: measurement technique or apparatus
+- Keywords: steam injection, cyclic steam stimulation, heavy oil, CT scanning, carbon fiber core holder, in-situ temperature sensors
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_23)
+
+Describes a steam-injection core flooding rig with a carbon-fiber core holder, in-core P&T sensors and CT scanning for heavy oil CSS studies, with first synthetic-core results.
+
+Thermal EOR processes such as CSS and steam flooding need laboratory tools that reproduce field pressure and temperature while allowing in-situ imaging. The paper describes a rig built for this, with a custom 4 kW steam generator (100 bar, 300 °C), a heated valve manifold, and a carbon fiber-epoxy Hassler core holder for 3.5 in by 1 ft whole cores that is transparent to X-rays. The core carries 11 thin thermocouples and 11 capillary-fed MEMS pressure sensors. A medical CT scanner with an overlay translation table (±6 micron repositioning) provides 3-D coverage with 150 scans of 2 mm. A first CSS test on a synthetic Athabasca sand-heavy oil core at 80 bar pore pressure and 100 bar confinement showed front temperatures peaking from 250 °C and rising with cycle number. Pressure and temperature data indicated only hot water entered during pressure build-up, while rapid depletion produced flash steam, supported by CT images of a steam finger.
+
+## Particle Deposition Profile in the Radial Deep-Bed Filtration of Injection Water
+
+- ID: SCA2008-57, year: 2008
+- Authors: Mohammad A. J. Ali
+- Method: theory or analytical model
+- Keywords: deep bed filtration, filtration coefficient, radial injection, produced water re-injection, formation damage, critical velocity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-57)
+
+A velocity step-change filtration coefficient is added to radial deep-bed filtration theory, predicting deposition that jumps at a critical radius rather than decaying monotonically from the wellbore.
+
+Re-injection of produced water requires predicting how suspended particles deposit in the formation and affect injectivity. Earlier X-ray-monitored hematite injections into sandstone cores showed that the filtration coefficient is higher at low flowrates. Here deep-bed filtration theory is formulated in radial geometry with a step change in the filtration coefficient at a critical velocity, giving a critical radius r_c = r_w u_w/u_c. Deposition decreases with distance until r_c, then rises sharply and may exceed wellbore-face deposition, unlike the constant-coefficient prediction. For an example Kuwait injector (10,000 bbl/day, 5 m interval, 23% porosity, u_c = 26.7 m/day, λ_high = 45 m⁻¹, λ_low = 400 m⁻¹), the wellbore velocity is 533 m/day and the critical radius is about 2.25 m.
+
+## Core Holder Technology for Steam – Heavy Oil Gravity Drainage Studies
+
+- ID: SCA2009-04, year: 2009
+- Authors: J.G.C. Coenen
+- Method: measurement technique or apparatus
+- Keywords: steam-oil gravity drainage, heavy oil carbonate bitumen, CT scanning, core holder design, high-pressure high-temperature, rolling ROI averaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-04)
+
+Describes an X-ray-transparent aluminum core holder for CT-monitored steam-heavy oil gravity drainage at 32 bar and 238 °C, with a commissioning test on a carbonate bitumen core.
+
+Assessing thermal gravity drainage of heavy oil carbonate bitumen requires direct observation at high-pressure, high-temperature steam conditions. A new vertical aluminum core holder was designed for a 45 bar working pressure, 32 bar pore pressure and 250 °C, with X-ray-transparent foil heaters, a sand-pack annulus, nickel-plated internals, air cooling, and an integral oil collection pan, all scanned in a medical CT. A commissioning test used a substitute outcrop carbonate bitumen core (88.9 mm OD, 160 mm long), heated at 5 °C/min to 238 °C. Steam formed in situ, so no injection was needed, and the test ran 120 hours. Produced oil was 43 g from core weight change, 69 g from pan weight, and 52 ml from CT liquid-level analysis, a discrepancy left unresolved. Pixel-level CT in the core was too noisy, but rolling ROI averaging showed desaturation near the bottom of the core, which was atypical, while pan oil levels were detected accurately.
+
+## Phase Identification and Saturation Determination in Carbon Dioxide Flooding of Water Flooded Chalk Using X-Ray Computed Tomography
+
+- ID: SCA2009-19, year: 2009
+- Authors: Ben Niu, Wei Yan, Alexander A. Shapiro, Erling H. Stenby
+- Method: laboratory experiment
+- Keywords: X-ray CT, CO2 flooding, three-phase saturation, dopant adsorption, chalk, Huber estimation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-19)
+
+Four CO2 floods of water-flooded chalk cores were CT-scanned at dual energy; three-phase saturations proved ill-conditioned, while pseudo two-phase treatment worked and tungstate dopant adsorbed strongly.
+
+The paper examines whether oil, water and CO2 can be identified simultaneously by dual-energy (80/120 kV) X-ray CT during CO2 flooding of Danish North Sea chalk cores at 65 and 100 bar and 15 °C. Sodium tungstate dopant was strongly adsorbed by the chalk even at 1–3 wt%, corrupting results; KI was ultimately used for the water. Dense CO2 and Isopar-L have similar CT numbers, so the flood can be treated as pseudo two-phase, and water saturation in Experiment 3 agreed with mass balance. Pixels exceeding the scanner's 3071 upper limit at 80 kV biased averages, which a nonlinear Huber estimation corrected (differences of 25 and 96 CT numbers versus ImageJ). Simultaneous three-phase saturations in Experiment 4 gave values outside 0–1 because the coefficient matrix was ill-conditioned (det(A3) near zero), and using a dopant with a K-edge between the two energies is proposed as a remedy.
+
+## Visualisation of Micro Fracture Network in an Oilwet Carbonate
+
+- ID: SCA2009-35, year: 2009
+- Authors: Wim Looyestijn, Arjen Cense, Jan Hofman, Fons Marcelis, Axel Makurat
+- Method: measurement technique or apparatus
+- Keywords: micro fractures, CT scanning, NaI brine contrast, deconvolution, oilwet carbonate, waterflood breakthrough
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-35)
+
+Differential CT scanning with NaI-doped brine and deconvolution reveals and sizes micrometer-scale fractures in an oilwet carbonate whole core causing early water breakthrough.
+
+A waterflood on a preserved ~10 cm by 30 cm oilwet carbonate whole core in a CT-transparent holder showed water breakthrough after only 0.03 PV of oil production, with water permeability of about 15 mD (declining to 8 mD) versus 47 mD oil permeability. Replacing NaCl brine with mole-equivalent NaI brine and subtracting CT scans revealed a tortuous fine fracture network through the core, with no leakage along the outside. An inverse-filter deconvolution of the CT kernel, calibrated on a test tube and a 30 µm aluminium foil (recovered as 35 µm), gave fracture apertures of roughly 30-65 µm, up to ~100 µm, often under 30 µm. A cubic-law estimate for a single ~25 µm fracture gives about 8 mD, consistent with the measurements. Matrix oil permeability was estimated at about 30 mD, and thermal expansion of the holder could enlarge but probably not create the fractures.
+
+## Tetiary Carbon Dioxide Flooding of Low Permeable Chalk with in-Situ Saturation Determination Using X-Ray Computed Tomography
+
+- ID: SCA2010-36, year: 2010
+- Authors: Ben Niu, Wei Yan, Alexander A. Shapiro, Erling H. Stenby
+- Method: laboratory experiment
+- Keywords: X-ray CT saturation, CO2 flooding, dopants, chalk, three-phase flow, tertiary oil recovery
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-36)
+
+Doping live oil and water to equal CT number allows single-energy CT to quantify CO2 saturation in tertiary CO2 flooding of North Sea chalk, agreeing with mass balance within 1.5-3.9%.
+
+The paper addresses in-situ phase saturation determination by X-ray CT during tertiary CO2 flooding of low-permeability chalk under reservoir conditions (385 bar, 115 °C). Live oil was doped with iodododecane and water with KI so both had nearly the same CT number (473 and 476), letting them be treated as one pseudo-phase and CO2 (-270) quantified with a single 120 kV scan. An artificial PTFE core was used to tune dopant concentrations (14 wt% and 3 wt%) in days rather than weeks. In a North Sea chalk core (0.73 mD, 33% porosity), waterflood recovery was 33.5% and total recovery after CO2 flooding was 77.7%, with most oil produced by 0.72 PV of CO2. CT and mass-balance saturations differed by 1.5-3.9%, attributed to CO2 dissolution and incomplete replacement of pure water by doped water.
+
+## Use of Micromodels to Study Multiphase Flow in Porous Media
+
+- ID: SCA2013-038, year: 2013
+- Authors: Christos Tsakiroglou, Olga Vizika-Kavvadias, IFPEN R. Lenormand
+- Method: review or workflow
+- Keywords: micromodels, pore network simulation, invasion percolation, viscous fingering, imbibition mechanisms, neutral wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-038.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-038)
+
+Reviews fabrication techniques for 2D micromodels (glass, silicon, resin, PMMA) and the pore-scale multiphase displacement mechanisms they revealed, noting neutral wettability as a key gap.
+
+The paper reviews transparent 2D micromodels used to visualize multiphase flow in porous media. It covers fabrication routes: glass bead monolayers, HF-etched glass (50-100 μm depth), silicon wafers (down to 1 μm), cast resin (1 mm depth, 0.2 mm minimum width) and PMMA hot-embossed models (10-25 μm depth). It summarizes displacement mechanisms: drainage invasion percolation, imbibition by pore and channel collapse and corner film flow, and viscous fingering comparable to DLA. It also covers dispersion, wettability effects, trapped ganglion dynamics, three-phase flow, CO2 bubble nucleation, and shear-thinning fluids. The authors conclude that micromodels validate pore network simulators and that pore-level rules for neutral wettability (contact angle near 90°) remain unstudied.
+
+## In-Situ Monitoring for Process in Conglomerate Using CT Technology
+
+- ID: SCA2014-067, year: 2014
+- Authors: Weifeng LV, Shiguan DENG, Qingjie LIU, Zhenpeng LENG, Ninghong JIA, Desheng MA, Zubo ZHANG, Tong LI
+- Method: laboratory experiment
+- Keywords: CT scanning, conglomerate reservoir, polymer flooding, dominant channels, oil saturation profile, waterflooding
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-067.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-067)
+
+CT scanning monitored waterflooding and polymer flooding in two heterogeneous conglomerate cores, showing dominant channels blocked by polymer and suggesting high first-flood water cut and reduced polymer volume.
+
+Conglomerate reservoirs recover only about 45% by waterflooding because of strong heterogeneity, and the polymer EOR mechanism is unclear. Two Xinjiang conglomerate cores (S1: 27.8% porosity, 1419 mD air permeability; S2: 20.1%, 379 mD) were flooded with brine, then 0.7 PV polymer, then brine again, while a medical CT scanner tracked saturation profiles and reconstructed images. Water broke through early (about 0.125 PV), and dominant channels formed that produced nearly all oil after breakthrough. Polymer blocked these channels and mobilized oil bypassed in the first waterflood, but island-shaped residual oil remained. Total recovery was 66.3% for S1 (45.4% water, 19.9% polymer, 0% second water) and 60.9% for S2 (35.0%, 15.6%, 10.3%). The authors recommend a high water cut in the first waterflood, reduced polymer volume, and a second waterflood to push the polymer slug.
+
+## Combined CT and Magnetic Scanning Techniques for Multimodal Imaging of Fluid Flow in Porous Media: Application to Heavy Oil Waterflooding
+
+- ID: SCA2015-012, year: 2015
+- Authors: Petar Petrov, David K. Potter, Shauna Cameron, Mike London, James Donald, Wade Waterman
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, superparamagnetic nanoparticles, heavy oil waterflood, CT scanning, maghemite, front tracking
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-012)
+
+Maghemite nanoparticles in injected water let a magnetic susceptibility sensor track the water/heavy oil front in a sandpack waterflood, while CT showed no clear front.
+
+Imaging heavy oil waterfloods is hard because water and heavy oil have nearly equal densities, so CT contrast is poor. The authors injected deionised water with 0.6 wt% maghemite nanoparticles (20 nm) and DDBS dispersant into an Ottawa sand pack (114 mm long) saturated with 20,000 cP Lloydminster heavy oil. They monitored it with a coil magnetic susceptibility sensor and medical CT over 1.75 PV injected. A positive magnetic susceptibility peak formed at the inlet and migrated to the outlet, interpreted as nanoparticles accumulating at the main front, supported by agglomerates in production jar #5. Breakthrough occurred at 0.04 PV produced, before the main front. CT profiles showed no recognisable front, likely due to low contrast (24 HU nanoparticle-oil) and trapped gas. After the front passed, magnetic profiles matched the CT porosity profile.
+
+## Heterogeneity Analysis of Oil Sands Cores
+
+- ID: SCA2015-056, year: 2015
+- Authors: A. Kantzas, S. Kryuchkov, J. Vanegas Prada, M. Parliament
+- Method: measurement technique or apparatus
+- Keywords: oil sands, V-shale, continuous NMR scanning, CT density, dielectric capacitance sweep, inclined heterolithic stratification
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-056)
+
+Oil sand cores are characterized at high resolution using CT, continuous NMR and EM capacitance sweeps; CT and NMR shale estimates agree in trend, and capacitance separates sand from shale.
+
+Heterogeneity in oil sands affects steam propagation and drainage in thermal recovery but is poorly resolved by logs. The authors built a nondestructive workflow on slabbed, rehydrated oil sand core pieces (IHS, breccia, cap rock) combining 1 mm CT scanning, continuous full-diameter NMR (1 cm steps deconvolved to ~3 cm resolution) and EM sweeps (induction and parallel-plate probes, 0.08-20 MHz). V-shale was derived from CT density cut-offs and from an NMR clay indicator based on clay-bound versus capillary-bound water. CT and NMR trends agreed qualitatively but not always quantitatively; CT resolved IHS better, while NMR flagged high clay in piece 16A that CT missed, suggesting dispersed clay. Capacitance versus frequency showed distinct power-law signatures for sand and shale, though desiccated core and unknown salinity prevented quantitative interpretation.
+
+## An Experimental Investigation of Performance Evaluation for Seawater and CO2 Injection Using Dual Cores Methodology at Reservoir Conditions
+
+- ID: SCA2016-054, year: 2016
+- Authors: Xianmin Zhou, Fawaz AlOtaibi, Almohannad Alhashboul, Sunil Kokal
+- Method: measurement technique or apparatus
+- Keywords: dual core flooding, supercritical CO2 miscible flooding, seawater flooding, permeability contrast, diverting system, carbonate reservoir conditions
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-054)
+
+A dual core flooding apparatus is developed and used to test seawater and sc-CO2 injection in high- and low-permeability carbonate plugs, showing bypassing and diverter benefits.
+
+The paper presents a dual core flooding apparatus (up to 150 °C, 6000 psi pore pressure, 10,000 psi confining pressure) that injects fluids simultaneously into two core plugs in parallel. It was applied to two carbonate plugs (967 mD and 22.3 mD) aged with live oil at 3200 psi and 102 °C. Seawater flooding was followed by miscible sc-CO2 injection (MMP 2600 psi), then a diverting slug in the high-permeability plug, and a second sc-CO2 flood. Seawater and sc-CO2 preferentially bypassed through the high-permeability plug, which reached 98% recovery, while the low-permeability plug performed poorly. Blocking the high-permeability plug with the diverter allowed subsequent CO2 to recover additional oil from the low-permeability plug.
+
+## Analyzing Retention via Particle Mobility Coreflooding
+
+- ID: SCA2016-078, year: 2016
+- Authors: Katherine R. Aurand, Victoria Flatås, Reidun Cecilie
+- Method: measurement technique or apparatus
+- Keywords: particle retention, EOR nanoparticles, vertical coreflooding, Berea sandstone, differential pressure, final saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-078.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-078)
+
+A vertical coreflooding procedure on initially dry Berea cores is proposed to screen EOR particle retention; baseline brine floods give about 60% final saturation.
+
+EOR particle screening needs a way to determine how much particle mass adsorbs onto rock grains. The paper proposes a vertical particle mobility coreflooding (PMC) procedure using initially dry cores, so that diffusion into dead-end pores does not dilute effluent concentration and mass-balance retention can be attributed to adsorption. Baseline tests used synthetic North Sea water in two Berea cores (4.5 cm, 275 mD, and 10 cm, 400 mD, both 16% porosity) at 0.3-3.0 ml/min for the short core and 1-2 ml/min for the long core. Final saturations were 56-59% for the short core with no trend with rate, and 62-64% for the long core. Differential pressure kept rising in stepwise fashion at all rates except 0.3 ml/min, suggesting saturation was still increasing during injection.
+
+## Using a Densitometer for Quantitative Determinations of Fluid Density and Fluid Volume in Core Flooding Experiments at Reservoir Conditions
+
+- ID: SCA2017-039, year: 2017
+- Authors: Dan Olsen GEUS
+- Method: measurement technique or apparatus
+- Keywords: densitometer, core flooding, produced fluid volume, water breakthrough, acoustic separator, reservoir conditions
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-039)
+
+An in-line densitometer after the core holder gives fluid density logs and, for two-phase floods, produced oil and water volumes matching an acoustic separator within 1.3%.
+
+The paper describes using an in-line Paar DMA HPM densitometer downstream of the core holder in reservoir-condition core floods at GEUS, alongside a Nisep-200 acoustic separator. In a North Sea chalk waterflood (Exp-1, PV 146 ml), the density log showed constant oil density of 0.7821 g/ml before water breakthrough at 0.481 PV. Connate water (1.0245 g/ml) was displaced ahead of injection water (1.0015 g/ml), finishing before 0.79 PV. Oil drops produced partial-volume deflections, and the sensitive cell volume was found to be 0.35 ml. Assuming oil and water move as trains without bypassing, a water fraction calculation from density envelopes gave produced oil volumes matching the separator within 1.3% relative. The method may fail with emulsions, heavier oils, higher rates or fines in the cell, and is used as a secondary volume method.
+
+## In Situ Saturation Monitoring (Issm) – Recommendations for Improved Processing
+
+- ID: SCA2018-007, year: 2018
+- Authors: Jules Reed, Arjen Cense
+- Method: review or workflow
+- Keywords: in situ saturation monitoring, X-ray attenuation, unsteady state relative permeability, water breakthrough, capillary end effect, saturation uncertainty
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-007)
+
+Identifies processing errors in X-ray/gamma ISSM coreflood saturation data, including count statistics, sample end selection and breakthrough picking, and recommends corrections and independent verification.
+
+ISSM is widely used in commercial corefloods and often assumed accurate to 1-2 saturation units, but processing choices can add uncertainty. The authors show that count statistics matter: at one slice, error fell from 3.5% to 1.7% only after about 6 hours of scanning. They show that selecting sample ends from base counts and stretching data to caliper length distorts profiles, giving average differences of 3 s.u. (maximum 6 s.u.) and an endface Sw of 0.62 versus about 0.4 with the recommended approach. Picking water breakthrough from the first saturation change at the outlet ignores capillary effects, particularly in water-wet cases, and misaligns production and pressure data, giving erroneous relative permeability at low saturations. They recommend reference scans, calculating saturation from all locations to set end faces, independent Vo and dP time corrections, verifying endpoint saturations by independent methods, and normalising/denormalising ISSM saturations to true endpoints.
+
+## Core-Floods on Site: Assessing the Options for Water Treament in Fields with Active EOR Applications
+
+- ID: SCA2018-050, year: 2018
+- Authors: T. Gumpenberger, P. Toplack, Ch. Pripfl, W. Vollnhofer, Ch. Einzinger, M. Marx
+- Method: measurement technique or apparatus
+- Keywords: permeability reduction test, produced water injectivity, back-produced polymer, micro-bubble flotation, mobile core flood, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-050)
+
+A mobile container with two core-flood rigs continuously measures injectivity of treated produced water in the field, revealing a coagulant that caused core blockage despite low OIW.
+
+Oil-in-water and TSS values alone can miss injectivity damage from water-treatment chemicals interacting with back-produced EOR polymer. OMV built a road-transportable 10 ft container with two parallel core-flood rigs (diaphragm pumps up to 6 L/h and 100 bar, Coriolis flow control, remote operation) for continuous permeability reduction tests with about five minutes latency. Tests used ~800 mD, 20% porosity Berea cores at the Matzen field, Vienna Basin, during micro-bubble flotation trials in 2017. Untreated separator water (~1000 ppm OIW) could be injected for almost 48 hours before slug formation blocked the core. In a chemical dosing test, a flocculant caused only a gentle pressure rise, while adding a coagulant cut OIW from 88 to 5 ppm but drove the core to shut-down pressure within about four hours.
+
+## High-resolution inline density measurements: insight on multiphase flow and transport phenomena in porous media
+
+- ID: SCA2019-039, year: 2019
+- Authors: Jelayne Falat, Adam Fehr
+- Method: measurement technique or apparatus
+- Keywords: inline densitometry, coreflood effluent analysis, steam foam, steam quality, heavy oil quantification, nanoparticle transport
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-039)
+
+An in-line oscillating U-tube densitometer at 1 Hz quantifies oil, nanoparticle, steam and saturation behavior in sandpack floods, agreeing with conventional effluent analysis within a few percent.
+
+Conventional effluent collection gives low temporal resolution and mass-balance errors, especially for heavy oil, emulsions and steam. The authors placed an Anton Paar DMA HPM densitometer at the outlet (and inlet for steam tests) of sandpacks and logged density at 1 Hz at test temperature and pressure (up to 200 °C). For dodecane waterfloods, mass balance was 100.2% by densitometer versus 99.6% by effluent analysis, and oil production visible as trains continued beyond 8 PV. Heavy oil OOIP was 113 vs 111 mL (1.79% difference), but oil coating the cell gave about ±10% average error. Iron oxide nanoparticle breakthrough was resolved at 260 s, and steam tests gave inlet/outlet steam quality (below 10% mass quality versus 40-60% by flash calculation), foam/no-foam identification and dynamic water saturation, with 16.6% error in Sw at flow rates above ~21 mL/min.
+
+## The Impact of Microbial Growth on Hydraulic Properties in Saturated Porous Media
+
+- ID: SCA2019-090, year: 2019
+- Authors: Holger Ott, Neda Hassannayebi, Frieder Enzmann, Johanna Schritter, Martin Ferno, Andreas Loibner
+- Method: digital rock or imaging
+- Keywords: microfluidics, biomass growth, porosity-permeability relationship, digital twin, Lactobacillus casei, Stokes flow simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-090.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-090)
+
+Microfluidic imaging of Lactobacillus casei growth in 2D glass micromodels, with digital-twin flow simulations, shows biomass creates preferred flow paths and phase-dependent porosity-permeability relationships.
+
+The study addresses how microbial accumulation and growth alter hydraulic properties in saturated porous media, relevant to underground hydrogen storage, in-situ methanization, remediation and microbial EOR. Lactobacillus casei was flooded through glass-etched 2D microfluidic chips in two phases: suspension injection in stationary growth, then nutrient injection to trigger exponential growth. Optical microscopy image sequences were segmented to track porosity change from biomass accumulation. The segmented images served as digital twins for Stokes and Navier-Stokes simulations to obtain flow fields and permeability. Results show preferred flow pathways forming with biomass and different porosity-permeability behavior in suspension versus nutrient flooding, plus intermittent biomass release and filtration causing stepwise local biomass increases. Initial particle-flow simulations of microbe transport were started.
+
+## Oscillating Back Pressure Regulator (OBPR) for High-Pressure Core Flooding
+
+- ID: SCA2021-042, year: 2021
+- Authors: Sanjay Dubey, Hossein Khorshidian, Maziyar Mahmoodi, Edison Sripal, Lesley James
+- Method: measurement technique or apparatus
+- Keywords: back pressure regulator, core flooding, PID feedback control, LabVIEW automation, pressure response, stepper motor valve
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-042.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-042)
+
+A LabVIEW PID-controlled oscillating back pressure regulator prototype was built and tested with water, brine and CO2, responding faster than commercial BPRs but less stable.
+
+Commercial back pressure regulators struggle at ultra-low flow and very high pressure, so the authors built a prototype oscillating BPR (OBPR) using a stepper-motor-driven micro-metering valve, a nitrogen coil accumulator and a LabVIEW PID feedback loop. It was rated to 9,500 psi and 200°C but tested only up to about 2000 psi on a Hibernia sandstone core (5.29 cm long, 16% porosity) without overburden. Pressure response was recorded with water (50 and 10 ml/hr at 2000 psi), brine (500, 1000, 1500 psi) and CO2, and compared with an Equilibar diaphragm BPR and a Vinci piston BPR. Water tests showed fluctuations of about ±0.125 to ±0.25% of set point, and CO2 held pressure within ±50 psi. The OBPR responded faster with less dead time than the commercial units for brine and gas, but showed overshoot, instability and longer settling at higher pressure, attributed to manual PID tuning. Further work on tuning, gas and multiphase flow, and full-pressure testing is needed.
+
+## In-Situ Two- and Three-Phase Saturation Monitoring Using Dual-Resonance $^1\text{H}/^{23}\text{Na}$ MRI During Coreflooding
+
+- ID: SCA_2025_1052, year: 2025
+- Authors: Daan W. de Kort, Efraïm C. Keijzer, Matthias Appel, Benjamin C. Anger, Tibi G. Sorop
+- Method: measurement technique or apparatus
+- Keywords: MRI saturation monitoring, 23Na dual-resonance NMR, three-phase saturation, inverse modelling relative permeability, trapped CO2 saturation, SE-SPI
+- Cited by 0 papers in the corpus, cites 11
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1052.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1052)
+
+Dual-resonance 1H/23Na MRI gives quantitative two- and three-phase saturation profiles during coreflooding, validated by mass balance and history matching, and quantifies trapped supercritical CO2.
+
+Coreflooding with in-situ saturation monitoring is needed for relative permeability and trapped gas, but three-phase monitoring and gas-phase experiments are difficult. The authors ran unsteady-state drainage corefloods in Berea sandstone with perfluorinated oil on a 0.30 T 1H system and a 2.12 T 1H/23Na dual-resonance system. An offset correction from CPMG bulk measurements fixed relaxation-induced signal loss, and MRI desaturation matched injected pore volumes before breakthrough. Inverse modelling with Core2Relperm (LET and Skjæveland functions) gave relative permeability and capillary pressure curves with uncertainty bands. In three-phase flow, 1H and 23Na saturations agreed within 3 saturation units, and decane injection displaced only the perfluorinated oil (final Sw 0.24, Sg 0.54, So 0.22; kro 0.06). A brine imbibition test into supercritical CO2 at 100 bar and 50 °C gave trapped gas saturation of 0.30 ± 0.02 and krw 0.2.
+
+## Comparative Evaluation of Three Coreholder Head Geometries on Axial and Radial Saturation Distributions Using CFD
+
+- ID: SCA2026-054, year: 2026
+- Authors: Murilo Guimarães Morimoto, Nicolas da Silva Riva, Cláudia Míriam Scheid, Luís Américo Calçada, Cristiano Agenor Oliveira de Araujo, André Luiz Martins Compan, Luiz Augusto da Cruz Meleiro, Filipe Arantes Furtado
+- Method: numerical simulation
+- Keywords: coreholder head geometry, volume of fluid CFD, waterflooding, variogram sill, flow front homogeneity, residual oil saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-054.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-054)
+
+CFD (VOF) simulations of brine-oil waterflooding in a core show that coreholder head geometry changes front homogeneity and oil production by up to 32%, favoring a triangular groove design.
+
+Coreholder end-piece groove design may disturb the displacement front in waterflooding experiments. The authors built a 3D ANSYS Fluent VOF porous-media model with Corey relative permeability and Brooks-Corey capillary pressure, validated against a published Berea imbibition experiment (residual oil 26.08% simulated vs 27.67% measured). Three heads (Spiderweb, Waffle, Triangular) were compared on a 7.00 cm by 3.82 cm core at 1 cm³/min in horizontal orientation. Triangular geometry gave the lowest residual oil saturation (54.25% vs 58.17% Spiderweb and 60.35% Waffle) and about 32% more oil produced than Waffle, with reduced gravity segregation. Variogram sills indicated the front lost homogeneity about 8.7 to 9.8 mm from the inlet, and results apply only to horizontal flooding.
+
+## Geometric Optimization of Coreholder Head Designs in Coreflooding Experiments Using CFD
+
+- ID: SCA2026-055, year: 2026
+- Authors: Murilo Guimarães Morimoto, Nicolas da Silva Riva, Cláudia Míriam Scheid, Luís Américo Calçada, Cristiano Agenor Oliveira de Araujo, André Luiz Martins Compan, Luiz Augusto da Cruz Meleiro, Filipe Arantes Furtado
+- Method: numerical simulation
+- Keywords: coreholder head, computational fluid dynamics, Volume of Fluid, waterflooding, factorial design, inlet diffuser
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-055)
+
+CFD (VOF) simulations with a factorial design show that wider coreholder head gutters sharply reduce near-inlet oil saturation during waterflooding, while inlet diameter has no effect.
+
+Coreholder head geometry may affect front homogeneity in coreflooding, but building multiple heads from expensive alloys is costly. The authors simulated waterflooding of a 7 cm by 3.82 cm core (597 mD, porosity 0.225) with ANSYS Fluent using FVM and VOF, with Corey relative permeability and Brooks-Corey capillary pressure. The model was validated against published data, with residual oil saturation 0.2608 versus 0.2767 (error under 6%). A three-level factorial design varied gutter width (1.0–2.0 mm) and inlet diameter (1.8–2.6 mm) across nine cases. Gutter width significantly reduced oil saturation near the inlet: 65.19%, 61.17% and 28.33% at 3, 5 and 10 mm for 1 to 2 mm widening. Inlet diameter and head geometry did not significantly change residual oil saturation (mean about 59.4%).

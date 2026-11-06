@@ -1,0 +1,798 @@
+# Fractured rock flow and matrix
+
+> 61 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: fracture, fractures, fractured, matrix, flow, permeability, fracturing, fluid, chalk, aperture.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Visualization of Two- and Three-Phase Flow in Fractures Using X-Ray Computed Tomography
+
+- ID: SCA2006-25, year: 2006
+- Authors: Freddy E. Alvarado, Abraham S. Grader, Phillip M. Halleck
+- Method: digital rock or imaging
+- Keywords: x-ray computed tomography, fracture aperture, closure stress, three-phase flow, asperity contact area, Berea sandstone
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-25)
+
+High-resolution x-ray CT maps fracture aperture versus closure stress and the distribution of water, benzyl alcohol and decane in tensile fractures in Berea sandstone.
+
+Multiphase fracture flow modeling needs fracture geometry under stress and phase occupancy, which earlier methods could not provide. Tensile fractures were created in 25 mm Berea sandstone cores and scanned dry at about 25 micron resolution under confining pressures of 3.5 to 17.2 MPa. Raising stress from 3.5 to 17.2 MPa cut fracture volume from 99.4 to 83.2 mm3 and mean aperture from 273 to 229 microns (15%). Asperity area rose from 1.58% to 5.69%, and the roughness factor from 1.03 to 1.12. Using tagged fluids, two-phase scans showed mobile oil at irreducible water saturation as disconnected globules while the wetting water stayed connected. Three-phase scans (water/benzyl alcohol/decane at 25.7/41.6/32.7%) showed decane globules in large-aperture regions, surrounded by benzyl alcohol.
+
+## Property Measurement in Naturally Fractured Devonian Shale Cores Using a New Pressure Pulse Method
+
+- ID: SCA1993-01, year: 1993
+- Authors: Xiuxu Ning, Jin Fan, Stephen. A. Holditch, W. John Lee, Texas A
+- Method: measurement technique or apparatus
+- Keywords: pressure pulse method, naturally fractured core, Devonian Shale, matrix permeability, fracture conductivity, leak compensation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-01)
+
+Extends a pressure pulse method to fractured low-permeability cores with multiple or off-center fractures and gas leaks, and measures matrix and fracture properties in eleven Devonian Shale cores.
+
+Matrix and fracture properties of naturally fractured, extremely low permeability cores are hard to measure separately. The authors extend their pressure pulse method with simplified parallelepiped models for off-center and multiple fractures. They derive new analytical solutions that include gas leaks and add a numerical leak compensation based on the late-time pressure decline. Eleven Devonian Shale cores from well FMC#78 were tested with history matching. Matrix porosity was 1.7–5.4%, matrix permeability 1.9e-9 to 5.5e-8 md, fracture conductivity 6.65e-6 to 1.03 md-in, and fracture width 0.13–3.15 microns. Two cores without continuous fractures were artificially fractured to make testing feasible.
+
+## Prediction of Fracture Direction using Shear Acoustic Anisotropy
+
+- ID: SCA1987-11, year: 1987
+- Authors: David P. Yale, Eve S. Sprunt
+- Method: measurement technique or apparatus
+- Keywords: shear wave birefringence, acoustic extinction, shear acoustic anisotropy, maximum horizontal stress, anelastic strain relaxation, stress-relief microcracks
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1987/SCA1987-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1987-11)
+
+Shear-wave birefringence and acoustic extinction on oriented cores identify maximum horizontal stress and hence fracture direction, outperforming anelastic strain relaxation in naturally fractured formations.
+
+Fracture direction, which controls drainage and waterflood patterns, follows the maximum horizontal in situ stress. Stress-relief microcracks formed in cores are aligned preferentially, producing shear-wave birefringence. The authors describe two techniques on oriented cores: vertical shear velocity anisotropy with parallel-polarized transducers, and acoustic extinction with cross-polarized transducers rotated through 360°. Signal at extinction is 5 to 50 times smaller than at 45°, allowing anisotropies as small as 0.1% to be resolved, whereas shear velocity anisotropy is typically only 1–5%. In cores from six naturally fractured wells, strain relaxation was 90° in error in 42% of cores versus 7% for acoustic anisotropy. Acoustic results were within 15° of strain relaxation, tiltmeter, core fracture and minifrac overcoring directions.
+
+## High-Velocity Pressure Loss in Sandstone Fractures: Modeling and Experiments
+
+- ID: SCA1999-27, year: 1999
+- Authors: E. Skjetne, T. Kløv, J. S. Gudmundsson
+- Method: laboratory experiment
+- Keywords: Forchheimer equation, self-affine fracture roughness, inertial resistance, weak inertia regime, Berea sandstone, gas flow in fractures
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-27)
+
+A centripetal-acceleration model predicts inertial resistance scales as a power law of fracture width set by roughness exponent; nitrogen flow in fractured Berea cores confirms it.
+
+High-velocity pressure loss in rough fractures is modeled as pressure drag from centripetal acceleration as flow tubes impinge on self-affine wall roughness. The model gives an inertial resistance b proportional to w^-(3/z-2), with z the roughness exponent. Nitrogen flow experiments were run on longitudinally fractured Berea cores (7.45 cm long, 3 cm diameter) with 20 fracture widths set by steel shims from 50 µm to 1 mm. Data were fitted with the Forchheimer equation at Re of about 8 to 1861. The fitted power gave z = 0.77 (95% CI 0.72-0.83), close to profilometry values of 0.67-0.75, with a residual width of about 200 µm, roughly one grain size. The Forchheimer linear term was negative for some larger widths, and a weak inertia regime preceded the Forchheimer regime, with crossover near Re 400 to 800 for wider fractures.
+
+## Effects of Shear-Fracture Displacement and Orientation on Fracture Topology and Absolute Permeability
+
+- ID: SCA2007_52, year: 2007
+- Authors: Sultan Al Enezi Abraham Grader, Phillips Halleck
+- Method: laboratory experiment
+- Keywords: shear fracture, Berea sandstone, X-ray micro-CT, Klinkenberg permeability, fracture aperture distribution, bedding orientation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_52.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_52)
+
+Shear-fractured Berea sandstone samples were CT-scanned and tested for permeability; fracturing raised permeability 19-110%, with displacement and bedding orientation controlling fracture connectivity and porosity.
+
+Prior studies of shear fracture effects on permeability were inconsistent and did not relate flow to fracture morphology. Four dry Berea cores (25 mm by 70 mm), cut parallel or perpendicular to bedding, were fractured in triaxial compression at 10.3 MPa confining; two were displaced a further 0.2 mm. Nitrogen Klinkenberg permeability was measured before and after fracturing, and micro-CT (0.030 x 0.030 x 0.033 mm voxels) was used to map fracture porosity and aperture. Permeability increased in all samples (19% and 35% for parallel, 110% and 60% for perpendicular). Perpendicular fractures were larger and better connected; displacement reduced fracture porosity and enlarged asperity areas. Displacement increased permeability gain in the parallel case but reduced it in the perpendicular case.
+
+## Stressed Permeability in Shales: Effects of Matrix Compressibility and Fractures - a Step Towards Measuring Matrix Permeability in Fractured Shale Samples
+
+- ID: SCA2016-027, year: 2016
+- Authors: Marisa B. Rydzy, Jorge Patino, Nours Elmetni, Matthias Appel
+- Method: laboratory experiment
+- Keywords: stress-dependent permeability, pulse-decay, micro X-ray CT, fractured shale, permeability hysteresis, Montney
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-027.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-027)
+
+Pulse-decay permeability versus confining stress on ten Montney shale plugs classified by micro-CT fracturing shows fractures dominate stress dependence and hysteresis; matrix permeability can be estimated at high stress.
+
+Fractures in shale plugs, mostly induced during coring and handling, can dominate gas flow and mask matrix permeability. Ten as-received Montney plugs were classified by micro-CT fracture density and type, then tested by pulse-decay at 1900 psi pore pressure through a confining-stress cycle from 2700 to 8300 psi. Permeability fell exponentially with stress and then stayed nearly constant on unloading. Average hysteresis loss at 3200 psi was about 35% for intact samples, 50-60% for lightly fractured ones, and above 70% for heavily fractured ones. CT of a Vaca Muerta mini-plug showed hairline fractures closing at about 1000 psi and thicker ones at about 4000 psi. An equation that predicts permeability stabilization at high stress gave projected matrix permeabilities of about 1-298 nD for some samples, while others could not be fitted.
+
+## Impacts of Wettability on Oil Recovery in Fractured Carbonate Reservoirs
+
+- ID: SCA2000-25, year: 2000
+- Authors: Arne Graue, Robert W. Moe, Thomas Bognø
+- Method: laboratory experiment
+- Keywords: wettability alteration, fractured chalk, nuclear tracer imaging, waterflooding, Amott-Harvey index, history matching
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-25)
+
+Nuclear-tracer 2D imaging of waterfloods in whole and fractured chalk blocks at two wettabilities, history-matched with a simulator, shows similar recovery but different recovery mechanisms.
+
+The study examines how wettability affects waterflood recovery in fractured carbonate using large Rørdal chalk blocks (about 20x10x5 cm), made strongly or moderately water-wet (Amott-Harvey Iw 0.4-0.8) by aging in crude oil at 90°C. Blocks were waterflooded whole and then with embedded or interconnected fracture networks, while 22Na and 60Co tracers imaged injected and in-situ water saturations in 2D. Recovery was similar for both wettabilities when the permeability increase after fracturing was low (about 42%PV oil in strongly water-wet CHP-12, versus 32%PV in fractured moderately water-wet CHP-14, with a permeability increase of about 11). At strongly water-wet conditions fractures held up the water front by capillary hold-up, whereas at moderately water-wet conditions water crossed the fractures early. SENSOR simulations matched best with measured Pc and optimized kr, and including wettability heterogeneity improved the match for CHP-14. Matching also required more capillary contact across fractures at less water-wet conditions, suggesting an additional mechanism not in the model.
+
+## Complementary Imaging Techniques Applying Nti and MRI Determined Wettability Effects on Oil Recovery Mechanisms in Fractured Reservoirs
+
+- ID: SCA2003-08, year: 2003
+- Authors: A. Graue, B.A. Baldwin, E. Aspenes, J. Stevens, D.P. Tobola, Green Country Petrophysics
+- Method: laboratory experiment
+- Keywords: nuclear tracer imaging, magnetic resonance imaging, fractured chalk, wettability, water bridges across fractures, spontaneous imbibition
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-08)
+
+NTI on fractured chalk blocks and MRI on stacked plugs show wettability, fracture width and rate control how water crosses open fractures via hydraulic filling or bridges.
+
+Water movement across fractures in Rørdal outcrop chalk was studied at three wettabilities (Iw about 1.0, 0.6-0.7, 0.3) to understand oil recovery mechanisms in fractured reservoirs. Nuclear tracer imaging (about 1 cm resolution) monitored waterflooding of large fractured blocks, while MRI (about 300 µm) imaged decane in 1-3.5 mm fractures between stacked plugs, with D2O replacing brine. At strongly water-wet conditions, water did not enter the open fracture until the inlet plug reached its spontaneous imbibition endpoint, even at 5 times field rate, and then filled the fracture hydraulically. At moderately water-wet and nearly neutral-wet conditions, water drops grew into bridges across the fracture well before the imbibition endpoint, giving viscous communication. Bridge formation depended on fracture width (none at 3.5 mm for Iw=0.6), injection rate and wettability, with larger drops at lower water wetness.
+
+## Mapping Fracture Apertures Using Micro Computed Tomography
+
+- ID: SCA2003-50, year: 2003
+- Authors: Z. Karpyn, A. Alajmi, C. Parada, A. S. Grader, P.M. Halleck, O. Karacan.
+- Method: digital rock or imaging
+- Keywords: micro-CT, fracture aperture map, layered Berea sandstone, thresholding segmentation, fracture-matrix flow
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-50)
+
+Micro-CT images of induced fractures in layered Berea sandstone yield 2D aperture maps and 3D fracture volumes, showing larger apertures where the fracture crosses high-permeability layers.
+
+The paper addresses the difficulty of resolving fracture topology with medical CT scanners. Layered Berea sandstone cores (18-22% porosity, 25-50 mm diameter) were fractured with a Brazilian-type test and scanned with a medical HD250 (0.25x0.25x2 mm) and an industrial OMNI-X micro-CT (20-50 µm). Fractures were extracted by thresholding, erosion and dilation, and the distance between the surfaces was projected onto a common plane to build aperture maps. Medical scans overestimated fracture width and blurred detail, while micro-CT resolved apertures from about 50 µm up to about 1 mm and contact asperities. Aperture correlated with the porosity and permeability of adjacent layers, and the 3D fracture volume can be used for multiphase flow simulation.
+
+## Matrix-Fracture Interactions During Gas Injection: A Pore-Scale Experimental Study
+
+- ID: SCA2016-029, year: 2016
+- Authors: M. Sabti, A.H. Alizadeh, M. Piri
+- Method: digital rock or imaging
+- Keywords: micro-CT imaging, three-phase flow, spreading oil layers, fractured Berea sandstone, layer drainage, gas injection
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-029)
+
+Micro-CT imaging of gas injection into a partially fractured Berea sample shows spreading oil layers keep matrix-fracture oil connectivity at high gas rates, while threshold pressure and gas accessibility govern at low rates.
+
+The study examines whether spreading oil layers help move oil from matrix to fracture during gas injection in fractured porous media. A miniature Berea sandstone plug (10 mm × 40 mm, fractured over half its length) was imaged with a Zeiss VERSA micro-CT at 2.5 µm resolution during oil drainage (Swi 31%) and secondary gas injection with a doped brine/Soltrol/nitrogen system at 3.45 MPa and 20 °C. Gas rates from 0.015 to 7 ml/min were used, and images were taken at the fracture, fracture end and matrix-only locations. At low rates, gas filled the fracture and drained large matrix pores adjacent to the fracture by piston-like displacement, controlled by threshold capillary pressure and gas accessibility. At high rates, layer drainage through stable spreading oil layers continued to reduce oil saturation slowly (over three days at 7 ml/min) and maintained matrix-to-fracture oil connectivity, and oil saturations in the fractured and matrix-only sections became nearly equal.
+
+## Imaging Saturation During Flow in Fractured Chalk: Emphasizing Recovery Mechanisms, Capillary Contjnuity and Scaling
+
+- ID: SCA1996-09, year: 1996
+- Authors: Bjern Gerry Viksund', Sverre Hetland', Arne Graue', Bernard A. Baldwin
+- Method: laboratory experiment
+- Keywords: nuclear tracer imaging, spontaneous imbibition, fractured chalk, capillary continuity, Ma-Morrow scaling, stacked cores
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-09)
+
+Nuclear tracer imaging of spontaneous imbibition in Dania outcrop chalk, single and stacked cores, shows good capillary continuity across fractures and improved rate collapse with Ma-Morrow scaling.
+
+The study quantifies the roles of viscous and capillary forces in fractured chalk, ahead of a planned 2D fractured chalk reservoir model. 22Na-labelled brine and a movable detector gave in-situ 1D brine saturation profiles during spontaneous imbibition and waterflood in Dania outcrop chalk plugs, including 1D, 2D and 3D exposure and horizontally and vertically stacked cores acting as fractured systems. Imbibition endpoints were similar regardless of exposed surface or length (for example 51% OIP recovery in 1D and 54% in 2D for CHD-3), while rates rose with exposed area and fell with core length. Low-rate oilfloods showed no capillary hold-up at the fractures, and imbibition continued through the stacked cores without delay, indicating capillary continuity under about 0.9 bar axial pressure. Low-permeability core CHD-9 (5 mD) pulled brine from CHD-8, giving a saturation jump at the fracture. The Ma and Morrow scaling brought the imbibition curves into close agreement for different exposed areas and somewhat closer for different lengths and stacked systems.
+
+## Identifying a Non-Permeable Fracture for Convection and Diffusion Using X-Ray Computed Tomography
+
+- ID: SCA2001-53, year: 2001
+- Authors: A. Polak, The Hebrew, A. S. Grader, The Pennsylvania, R. Kehl, Scientific Visualization Systems
+- Method: laboratory experiment
+- Keywords: X-ray computed tomography, fractured chalk, NaI tracer diffusion, sealed fracture, water invasion, image subtraction
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-53)
+
+X-ray CT monitoring of water invasion and NaI tracer diffusion in a fractured chalk core shows the natural fracture, likely calcite-filled, blocks both convection and diffusion.
+
+Fine natural fractures in contaminated fractured chalk from the Negev may be sealed, complicating remediation planning. A 20 cm by 5 cm chalk core (0.4 mD, 33% porosity, about 80% calcite) containing a natural fracture was artificially split, held open with 0.5-1.0 mm spacers in a bi-axial holder at about 300 psig, and scanned in a medical CT scanner. Gaskets with slits restricted injection to the fracture. Water invasion images, with dry scans subtracted, showed water entering the matrix on one side while the natural fracture stopped it crossing. Continuous injection of 5% NaI tagged water showed iodine diffusing into the matrix but not across the natural fracture over the experiment duration, so the fracture is likely calcite-filled.
+
+## The Determination of Fracture Toughness of Rocks by Chevron-Notched Brazilian Disk Specimens
+
+- ID: SCA1990-14, year: 1990
+- Authors: X. L. Zhao, J.-C. Roegiers, M. Guo
+- Method: laboratory experiment
+- Keywords: fracture toughness, chevron-notched Brazilian disk, Mode I fracturing, hydraulic fracturing, size effect, stress intensity coefficient
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-14)
+
+Proposes the chevron-notched Brazilian disk for rock fracture toughness in lateral crack directions; tests on sandstone and limestone show higher toughness for the smallest disks.
+
+Existing ISRM methods (Short Rod, CENRBB) give only Mode I toughness and restrict crack direction, so lateral propagation relevant to hydraulic fracturing cannot be tested. The authors adapt the chevron-notched Brazilian disk (CDISK), deriving a dimensionless stress intensity coefficient Y* from the Munz simplified method and straight-crack solutions, and tabulating minimum values for disk and saw sizes. Thirty-six disks (2.125, 3.125 and 4.125 in. diameter) of Vosges sandstone and Indiana limestone were dried and loaded in an MTS frame at 0.04 in/min with load cycling. Mean K_Ic was 0.76, 0.48 and 0.58 MPa√m for sandstone and 1.55, 1.36 and 1.25 MPa√m for limestone at 2.125, 3.125 and 4.125 in. respectively. The smallest disks gave the highest toughness (37% above 3.125 in. for sandstone), indicating a size effect. The compressive stress near the crack tip is argued to limit the process zone, so toughness can be taken directly from peak load.
+
+## The Measurement of Compressibility of Fractured Rock
+
+- ID: SCA1993-18, year: 1993
+- Authors: X.L. Zhao, Q. Ma, J.-C. Roegiers
+- Method: laboratory experiment
+- Keywords: continuum damage mechanics, damage tensor, rock compressibility, fracture porosity, hydrostatic confining pressure, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-18)
+
+Uses continuum damage mechanics and cyclic uniaxial loading with hydrostatic pressure to measure compressibility of damaged Berea sandstone and Cordoba Cream limestone, finding compressibility rises with damage.
+
+Fracture-based models need crack dimensions and counts that are hard to estimate, so the authors use continuum damage mechanics with a measurable damage tensor D. Berea sandstone and Cordoba Cream limestone cores (2.125 in. by 4.25 in.), cut in three directions, were subjected to cyclic uniaxial loading to create damage, interspersed with hydrostatic confining pressure tests (up to 10,000 psi for Berea, 3,000 psi for limestone) to measure compressibility. P- and S-wave velocities gave dynamic moduli. Compressibility increased with damage, and the initial change with pressure related to damage level, while at high pressures compressibility was nearly independent of damage. Theory agreed with measurements at large damage but underpredicted compressibility at small damage, attributed to less crack sliding and pore-dominated closure. Higher Poisson's ratio gave a larger compressibility ratio.
+
+## Characterization of Fractures and Multiphase Flow in Fractured Permeable Rocks Using NMR Imaging Techniques
+
+- ID: SCA1994-02, year: 1994
+- Authors: Songhua Chen, Xiaoli Yao, Jinli Qiao, A. Ted Watson
+- Method: measurement technique or apparatus
+- Keywords: NMR imaging, inversion recovery spin-echo, fracture characterization, T1 weighting, fractured sandstone, two-phase displacement
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-02)
+
+Inversion-recovery spin-echo NMR imaging selectively suppresses fracture or matrix signal to identify fractures, image matrix faster, and monitor two-phase displacement in fractured cores.
+
+Fractures in permeable rock are hard to detect with conventional spin-echo NMR images because of poor contrast and signal-to-noise between fracture and matrix. The authors use an inversion-recovery spin-echo sequence with the inversion time chosen to null either the fracture or the matrix signal, exploiting their different T1 relaxation. Tests used Berea, Arkansas Gold and Calico samples and Indiana limestone with natural or artificial fractures (beads up to 250 µm) in a 2-T imager. Fractures under about 100 µm and low-porosity fractures in laminated Berea were identified unambiguously, and suppressing fracture signal revealed matrix bedding in Calico limestone. Shorter TR/TI pairs cut imaging time to 40% with better S/N. Apparent fracture widths were larger than bead sizes because of linebroadening. A D2O-oil displacement in a fractured Arkansas Gold sandstone showed water bypassing through the fracture in the central region.
+
+## Evaluation of Fracture Aperture and Wettability, Capillary Properties of Oil-Bearing Fractured Granite
+
+- ID: SCA1994-10, year: 1994
+- Authors: Pham Anh Tuan, Martyntsiv O.F, Tran Le Dong
+- Method: laboratory experiment
+- Keywords: fractured granite basement, fracture aperture, resistivity-permeability relationship, Amott wettability index, contact angle, spontaneous imbibition
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-10)
+
+Lab study of fractured granite from offshore Vietnam: fracture aperture from simultaneous permeability and resistivity, plus wettability and imbibition showing water-wet matrix and intermediate-wet fractures.
+
+Fractured granite basement reservoirs (Bach Ho field, offshore Vietnam) have macrofractures, microfractured matrix and tight matrix. Air-water capillary pressure curves on ten full-size cores (226-19250 mD, porosity 3-10%) gave a fracture/vug partition coefficient of 0.22-0.46, so microfractured matrix holds most pore volume; matrix cementation exponent m was 1.36. Simultaneous permeability and resistivity measurements on six reassembled fractured models in a Hassler cell (15-400 bar overburden) showed a good resistivity-permeability relationship, strong hysteresis, and resistivity-derived apertures systematically larger than permeability-derived ones, attributed to fracture roughness. Amott-IFP (130-140°C, 50 bar) and contact-angle tests showed water-wet matrix (WI>0.8, 41-62°) and mostly intermediate-wet fracture surfaces (75-112°). Spontaneous imbibition gave high recoveries, higher than in carbonate matrix of similar porosity, and was lower in samples without residual water.
+
+## Heterogeneity of Fractured Granite: Effects on Petrophysical Properties and Water Saturation of Preserved Cores
+
+- ID: SCA1995-25, year: 1995
+- Authors: Pham Anh Tuan, Tran Le Dong
+- Method: laboratory experiment
+- Keywords: fractured granite, dual porosity, resistivity index, saturation exponent, capillary extraction chalk powder, electrical anisotropy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-25)
+
+Petrophysical study of fractured granite cores shows scale-dependent permeability, chalk-powder capillary extraction for irreducible water, and macrofracture-driven non-Archie resistivity and anisotropy.
+
+Fractured granite of the Bach Ho field is highly heterogeneous, which complicates core analysis. Gas permeability on 30 mm plugs mostly fell below 10 mD, while 50 mm plugs and 70 mm full-size cores reached several Darcy; permeability dropped about 60 times from ambient to 400 bar effective stress, with hysteresis attributed to induced fractures. Water saturation of preserved cores from water-based mud was reduced by chalk-powder capillary extraction by an average of 16.2%, close to the macrofracture partition coefficient of 0.20, whereas porous plate Swi (34%) matched preserved Sw (33.1%) and failed to remove filtrate. Formation factor correlated well with porosity (m = 1.3-1.5), but saturation exponent n varied from 1.68 to 4.80, and dual-porosity samples showed two-slope RI-Sw curves with higher n at high Sw. Electrical anisotropy was 1.24-1.35 for single macrofractured cubes versus 1.00-1.10 for matrix.
+
+## SCA1995-26
+
+- ID: SCA1995-26, year: 1995
+- Authors: David P. Tobola, Bernard A. Baldwin
+- Method: laboratory experiment
+- Keywords: capillary continuity, fractured chalk, magnetic resonance imaging, gas-oil displacement, water-oil displacement, fracture contact area
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-26)
+
+Gas and water displacement of decane in fractured chalk cores with MRI shows contact area matters for gas drive but not water drive; natural fractures behaved as fully continuous.
+
+The study examines capillary continuity across fractures in chalk using Niobrara outcrop cores with sawn fractures at 100, 10 and 3% contact area and two naturally fractured North Sea cores. Decane displacement at residual water by nitrogen or D2O injection was monitored by production profiles and MRI saturation images. For water drive, Niobrara recovery was 63-66% OOIP regardless of contact area, and MRI showed uniform residual oil on both sides of the fracture. For gas drive, reduced contact lowered ultimate recovery and left bypassed oil in the inlet block at 10% and 3% contact. The North Sea cores behaved like the 100% contact case (about 69% OOIP for water drive), so their natural fractures had negligible effect; a gouge-filled feature with higher oil saturation was identified by MRI.
+
+## Dry Gas Injection in Fractured Chalk Reservoirs - an Experimental Approach
+
+- ID: SCA1995-27, year: 1995
+- Authors: Lars Qlyno, Noway. Knut Uleberg, NTH. Curtis H. Whitson
+- Method: laboratory experiment
+- Keywords: gas injection, fractured chalk, molecular diffusion, gas-oil IFT, vaporization, gravity drainage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-27)
+
+High-pressure lean gas injection experiments on stacked chalk cores with a fracture annulus, plus compositional simulation, show vaporization and diffusion give significant oil recovery, with gravity drainage limited by IFT gradients.
+
+Gas injection in fractured Ekofisk chalk was studied with composite cores (up to ~52 cm of stacked Liege outcrop chalk, plus one Ekofisk core) in a holder whose 1.5 mm annulus simulated a fracture. Recombined Ekofisk fluids were used at 6000 psia and 270°F, with lean separator gas circulated in the fracture at different initial water saturations, for secondary and tertiary cases. Little free oil was produced, and the gas became enriched in a few days. The recovery is consistent with the pre-test PVT estimate of 30% OOIP for a gas/oil volume ratio of 1.9. A compositional simulation including molecular diffusion and IFT-scaled capillary pressure matched the measured gas composition. It showed that gas-phase diffusion creates IFT gradients that imbibe oil back upward and reduce net desaturation, while without diffusion the front has very low IFT (<0.03 mN/m) and displacement is piston-like. The authors conclude that lean gas injection at high pressure offers significant recovery, with more than 10% of remaining oil recoverable by vaporization above about 0.5 HCPV injected.
+
+## 2D-Imaging of the Effects from Fractures on Oil Recovery in Larger Blocks of Chalk
+
+- ID: SCA1997-22, year: 1997
+- Authors: Bjorn G. Viksund, Terje Eilertsen, Arne Graue, Bernard A. Baldwin, Eugene Spinler
+- Method: laboratory experiment
+- Keywords: 2-D nuclear tracer imaging, fractured chalk, waterflood, capillary continuity, gravity segregation, 22Na saturation mapping
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-22)
+
+2-D 22Na tracer imaging of waterfloods in whole and fractured water-wet chalk blocks shows fractures redirect flow but leave oil recovery essentially unchanged.
+
+The study examines how fractures affect waterflood flow paths and oil recovery in large (about 20 x 12 x 5 cm) strongly water-wet outcrop chalk blocks from Rørdal and Dania, Denmark. Brine saturation was mapped in 2-D by gamma emission from 22Na-labeled brine on a 2 cm grid, before and after sawing the blocks to create open and 'closed' vertical and horizontal fractures. Whole blocks at low initial water saturation showed a dispersed water front, whereas higher Swi gave uniform saturation increase. In fractured blocks, brine did not cross a fracture until the upstream matrix was near final water saturation, and gravity segregation occurred in the open fracture. Oil recovery was similar for whole and fractured blocks (e.g. 62 vs 60 %OIP for CHP-6), and results were unaffected by fracture roughness or by constant rate versus constant pressure flooding, with good repeatability.
+
+## Multiphase Flow in Fractures
+
+- ID: SCA1997-30, year: 1997
+- Authors: Dan Maloney, Kevin Doggett
+- Method: laboratory experiment
+- Keywords: fracture relative permeability, cubic law, X-ray saturation scanning, gravity effects, parallel plate fracture cell
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-30)
+
+Steady-state oil-brine flow in vertical smooth plastic fracture cells shows relative permeability in wide fractures depends on fluid density and flow direction, while narrow fractures are near-linear in saturation.
+
+Fracture relative permeability is often assumed equal to phase saturation, but few measurements exist. The authors measured oil and brine permeability and steady-state relative permeability in vertical smooth-walled plastic fracture cells, with a wide (787 μm) and a narrow (51 μm) fracture, using viscous glycerin-NaBr brine and mineral/Soltrol oil, with X-ray scanning for saturation and width. Single-phase permeabilities matched the cubic-law prediction k = w²/12 (for example, 72,600 D brine and 55,700 D oil in the wide cell). In the wide fracture, the fluid injected from the higher port occupied the central stream. Relative permeabilities were nonlinear in saturation and depended on density contrast and flow direction (upward vs downward). In the 51 μm fracture, relative permeabilities were nearly linear with saturation, consistent with Romm, though gravity effects are probable at low rates.
+
+## New Analytical Techniques for Core Analysis of Fractured Reservoirs
+
+- ID: SCA1997-38, year: 1997
+- Authors: F.M. Dawson, K.C. Pratt
+- Method: measurement technique or apparatus
+- Keywords: profile micro-permeameter, fractured sandstone, UV fluorescence imaging, fracture halo, Cardium Formation, iso-permeability map
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-38)
+
+Profile micro-permeameter grids and UV fluorescence imaging of fractured Cardium sandstone cores quantify matrix, fracture and halo contributions, showing conventional tests underestimate fractured reservoir permeability.
+
+Conventional plug and whole-core permeability tests miss or distort the contribution of fractures in cores from the Alberta foothills. The authors flattened core surfaces and measured point permeability with a PDPK300 micro-permeameter on a 2.5 mm grid, contouring 0.001 to >1000 mD values into iso-permeability maps. They also impregnated cores with Rhodamine-dyed Spurr epoxy and imaged them under UV to quantify areas of matrix, fracture and halo. In the Mudge sample, the halo covered 22.1% of the area and fractures 1.1%, with an average micro-permeameter permeability of about 32 mD versus plug values below 1 mD. Banshee had a halo of only 2.1%, consistent with Mudge flowing about 10 times more than Banshee. Both techniques mapped fracture distribution well; the micro-permeameter gives permeability numbers, while imaging is cheaper and allows thin-section follow-up.
+
+## Geological Description and Flow Characterization of a North Sea Chalk Containing Stylolites and a Gouge-Filled Fracture
+
+- ID: SCA1998-32, year: 1998
+- Authors: D. P. TOBOLA, B. A. BALDWIN, H. E. FARRELL
+- Method: laboratory experiment
+- Keywords: gouge-filled fracture, stylolites, MRI saturation imaging, gas displacement, chalk, displacement pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-32)
+
+MRI-monitored gas displacement in a North Sea chalk core shows stylolites do not affect flow, while a gouge-filled fracture has higher displacement pressure from reduced pore size.
+
+Gouge-filled fractures and stylolites are common in Shetland Group chalks of the Ekofisk area, and their effect on flow was unknown. A 6.6 cm diameter, 14 cm long whole core containing both features was examined by SEM and thin section, then subjected to a porous-membrane nitrogen displacement of decane with D2O as water phase, imaged by MRI at each pressure step. SEM showed cataclasis in the fracture: broken coccoliths and platelets, smaller grains and pores, and lower porosity than the matrix. The bulk matrix began producing decane between 10 and 20 psi, whereas the gouge-filled fracture retained its decane up to 75 psi, indicating higher capillary entry pressure. Residual oil was about 39 to 35% of pore volume, stylolites showed no effect, and no fluid holdup or bypass was found; a second constant 75 psi test gave the same fracture retention.
+
+## Innovation in Fracture Roughness Characterization
+
+- ID: SCA1998-44, year: 1998
+- Authors: Trygve Klv
+- Method: measurement technique or apparatus
+- Keywords: fracture roughness, self-affine surface, Fourier power spectrum, average wavelet coefficient, shadow imaging, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-44)
+
+Berea fracture roughness is measured by perthometer profilometry and shadow imaging, showing three roughness regimes, and used to synthesize realistic fracture profiles and surfaces.
+
+Sandstone fractures are usually modeled as smooth parallel surfaces, but real fractures are rough with scale-dependent height. Fracture roughness in Berea sandstone was measured with high-resolution perthometer profilometry (2.42 m length, 30.5 nm height resolution) and a new shadow imaging technique using a light source and CCD camera. Profiles were analyzed with Fourier power spectra and an average wavelet coefficient method, and shadow images with shadow length distribution theory for self-affine landscapes. Averaged over 162 profiles, three regimes appeared: grain shape, self-affine, and uncorrelated noise. The methods agreed; Fourier had higher resolution, wavelet less noise, and imaging is fast and non-contact but resolved only the self-affine regime. Synthetic profiles and surfaces built by filtering and inverse Fourier transform closely matched measured spectra and surfaces.
+
+## Movement of Connate Water During Water Injection in Fractured Chalk
+
+- ID: SCA2000-04, year: 2000
+- Authors: E. A. Spinler, D. R. Maloney
+- Method: laboratory experiment
+- Keywords: connate water displacement, fractured chalk, spontaneous imbibition, X-ray imaging, diffusion, iodide tracer
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-04)
+
+Waterflood tests on a fractured Kansas chalk plug with X-ray imaging show most connate water is not viscously displaced; diffusion into the fracture dominates its removal.
+
+Complete viscous displacement of connate water by injected water is often assumed for chemical EOR and well log flushed-zone interpretation. Two waterflood tests (5 ml/h) were run on a water-wet Kansas outcrop chalk plug fractured along its axis, tracking connate water by K+ or iodide tracer in the effluent and by X-ray imaging of KI-doped connate brine. Injected water in the fracture did not outrun the imbibition front, and water breakthrough came only at about 0.63 PV when oil displacement was nearly complete. After 10 PV only about 50% of the connate water was produced in test 1, and 80% after 16 PV in test 2, with the bulk of connate water only disturbed, not banked. Profile evolution (declining concentrations without forward shift, spreading of the outlet bank) indicates diffusion of connate salt into the fracture fluid was the main mechanism, with implications for log interpretation of waterflooded fractured zones.
+
+## Carbonate Acidizing: A Physical Simulation of Well Treatments. B.Bazin and D.Longeron, Institut Français du Pétrole
+
+- ID: SCA2000-42, year: 2000
+- Authors: B. Bazin, D. Longeron
+- Method: laboratory experiment
+- Keywords: acid fracturing, wormhole, self gelling acid diverter, fluid loss, matrix acidizing, carbonate etching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-42)
+
+Laboratory tangential-flow core tests compare acid fracturing fluids and a self-gelling acid diverter, evaluating wormholing, fluid loss, etching and diversion efficiency in carbonates.
+
+Acid stimulation of carbonates is hampered by unstable wormhole formation, so the authors built core-flood equipment with tangential cells that mimics flow from an open-hole or fracture wall. For acid fracturing, three 15% acids (plain, emulsified, gelled) were compared at 50°C in a 5 md limestone. Filtration rate and wormhole propagation rate ranked plain > emulsion > gelled, and the gelled acid's apparent relative viscosity in the rock was only 4 to 10, so Darcy estimates with bulk viscosity fail. Viscous acids left flat core faces, while plain acids etched most. For matrix acidizing in horizontal wells, dual parallel core tests with a Self Gelling Acid Diverter showed that a diverter with 1% HCl cut the flow rate ratio to about 2 at a permeability ratio of 11. Followed by 15% HCl, it gave similar acid penetration in both cores. The same sequence stimulated a low permeability core damaged with drilling mud, although pitting showed some damage remained.
+
+## The Role of Core Analysis Data in the Systematic and Detailed Modeling of Fractured Carbonate Reservoir Petrophysical Properties to Reduce Uncertainty in Reservoir Simulation
+
+- ID: SCA2002-49, year: 2002
+- Authors: Henry Abuya Ohen, Pauly Enwere, Sezgin Daltaban, A Core
+- Method: review or workflow
+- Keywords: fractured carbonate, cementation exponent, hydraulic flow units, fracture intensity index, pore type identification, full diameter core
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-49.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-49)
+
+Presents a core-calibrated method using variable cementation exponent m and fractured hydraulic units to characterize fractured carbonate porosity and permeability, applied to Gulf of Campeche wells.
+
+Sandstone-based petrophysical practice is often misapplied to fractured carbonates, creating uncertainty in reservoir simulation. The authors propose a methodology using a variable cementation exponent m, derived from core and logs, to identify pore types (m<2 fractured or bimodal, m≈2 intercrystalline, m>2 vuggy). They extend the hydraulic flow unit concept to fractured systems with a fractured RQI and flow zone indicator, plus partitioning coefficient and fracture intensity index to separate matrix and fracture porosity. Core data on fractured full-diameter samples showed m ranging from 1.4 in fractured zones to 2.43 in mineralized or vuggy zones. In a Gulf of Campeche example with limited core data, four flow zones were assigned by m ranges (FRZI averages of 89, 35.6, 14.24, 7.85). Averaged total permeability per well in seventeen wells was about two orders of magnitude lower than the fracture permeability obtained with this method.
+
+## Multi-Phase Flow in the Presence of a Fracture Tip: Experiments and Modeling
+
+- ID: SCA2003-60, year: 2003
+- Authors: Abdullah F. Alajmi, Abraham S. Grader
+- Method: laboratory experiment
+- Keywords: fracture tip, X-ray CT saturation, layered Berea sandstone, history matching, two-phase displacement, fracture-matrix interaction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-60.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-60)
+
+CT-monitored oil-water floods in fractured, layered Berea cores, history-matched with a simulator, show the fracture tip accentuates layer contrast and flow differs for inlet versus outlet fractures.
+
+Fractures create bypass paths, and the role of the fracture tip in two-phase displacement in layered rock is poorly understood. Two oil-into-water floods were run on layered Berea sandstone cores fractured by a modified Brazilian test, with the fracture spanning the first third of the core at the inlet in one case and at the outlet in the other. Saturations were mapped in time and space with X-ray CT, using benzyl alcohol and NaI-tagged water. The experiments were history-matched with Eclipse using a 3D multi-layer model with porosity from CT and permeability from Timur's correlation. Flow turns from horizontal in the fracture to vertical at the tip, which accentuates the contrast between high and low k-phi layers. The inlet-fracture case reached residual saturation fastest near the tip, while the outlet-fracture case retained water near the tip for a long time as oil converged into the fracture.
+
+## Evaluation of Water and Gas Injection in a Carbonate Reservoir
+
+- ID: SCA2004-53, year: 2004
+- Authors: P.R. Nurafza, M.J. Blunt, M.R. Fassihi
+- Method: numerical simulation
+- Keywords: fractured carbonate, gas injection, water injection, wettability, reservoir simulation, sector model
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-53)
+
+Simulation of fractured and non-fractured sector models of a Middle East carbonate field shows gas injection outperforms water injection and depletion, because of intermediate to oil-wet rock and fractures.
+
+Carbonate reservoirs in the Middle East are mostly fractured and decline quickly, so the best secondary recovery strategy is needed. Two ~50,000-cell sector models, one fractured (dual porosity/permeability) and one non-fractured, were built and run for 30 years under primary depletion, crestal gas injection and flank water injection. Primary depletion recovered about 6.5% STOIIP (fractured) and 9% (non-fractured). Water injection gave under 6% in the fractured sector, slightly below depletion, and about 16% in the non-fractured one; gas injection gave about 6.5% and 14%. Per pore volume injected, gas performed better in both sectors, which the authors attribute to intermediate to oil-wet wettability limiting matrix imbibition, while connected fractures caused early breakthrough.
+
+## Integrating Core Data and Image Logs: The Critical Steps in Modelling a Fractured Carbonate Reservoir
+
+- ID: SCA2004-54, year: 2004
+- Authors: R.J. Evans, A.H. Anis, C. Staffelbach
+- Method: field or reservoir case study
+- Keywords: borehole image logs, fracture characterization, stereonet, en echelon fractures, core orientation, carbonate reservoir
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-54)
+
+Four Gulf carbonate case histories compare core-based fracture descriptions with borehole image logs, showing the logs misclassify or miss fractures unless calibrated against core.
+
+Fracture networks control fluid flow in many Middle East carbonate fields, but core and borehole image (BHI) interpretations of fractures sometimes disagree. Five wells were selected from about 20,000 ft of Gulf core, cut with a triple tube barrel and half-moon inner barrel and described at the wellsite using AS-3D computer-aided goniometry. Core fracture data were compared with sonic, resistivity and combination image logs in four case histories. BHI logs missed partially open fractures, misread them as hairline series, and could not distinguish infill material. They also overlooked up to two thirds of en echelon natural fractures, mistook induced petal-centreline fractures for natural ones, and counted short hairline clusters as open fractures. Core showed over 50% more tectonic features in one case, and revising the BHI interpretation with core guidance improved agreement.
+
+## Relative Permeabilities and Transport System in Mixed Wetted Carbonate Rocks
+
+- ID: SCA2004-56, year: 2004
+- Authors: P. Such, G. Leśniak
+- Method: laboratory experiment
+- Keywords: mixed wettability, Amott wettability index, relative permeability, fractal dimension of fractures, Main Dolomite, mercury injection capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-56.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-56)
+
+Relative permeability, Amott tests and fractal fracture analysis show Main Dolomite carbonates are mixed-wet: reef rocks vary with organic matter, and fractured reservoirs have oil-wet fractures in water-wet matrix.
+
+Two types of mixed-wet Main Dolomite reservoirs in Poland were studied: porous bryozoan reef carbonates and fractured, low-porosity carbonates. For 34 reef samples, porosity, nitrogen permeability, mercury capillary pressure, steady-state relative permeability under reservoir conditions, Amott tests and thin sections were measured. The difference between base water and oil relative permeabilities indicated a wide range of wettability, and Amott tests showed only the first 5 samples were purely water-wet. Wettability followed organic matter content, so rock colour served as an indicator. In the fractured reservoir, matrix porosity was 5-14%, with thresholds below 2 μm and permeability below 0.3 mD. Fractal analysis found three fracture systems, of which only the "black" one (mean thickness 0.0025 mm, fractal dimension 1.24-1.31) transports fluid, along organic and clay-lined layers. Relative permeability tests on three fractured samples were oil-wet with residual water above 50%.
+
+## Experimental and Numerical Studies of Gas Injection in Fractured Carbonates: Pressure and Compositional Effects
+
+- ID: SCA2005-13, year: 2005
+- Authors: Jon K Ringen, Vidar Haugse, Lars Høier, Lars Inge Berge, Jules Reed
+- Method: laboratory experiment
+- Keywords: gas injection, fractured carbonates, capillary continuity, non-equilibrium gas, gamma saturation monitoring, compositional simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-13)
+
+Gas injection into a vertical composite carbonate core with and without capillary barriers shows barriers cut recovery, pressure increase helps, rich gas recovers nearly all oil; simulation matches.
+
+Gas injection in fractured carbonate reservoirs was studied using a 52 cm composite core of eight Middle East dolomitic plugs in an annular-gap core holder, with C1/C3/nC10 fluids at 40°C and gamma in-situ saturation monitoring. Three configurations were tested: a single block, an 8 mm Teflon barrier, and a 0.125 mm perforated tin disc. Equilibrium gas at 200 bar gave 75.9 cm3 oil from the single block versus about 29 cm3 with either barrier, and the tin disc proved as poor a capillary contact as the Teflon. Raising pressure to 240 bar (IFT 2.35 to 1.20 mN/m) gave additional recovery, proportionally highest with the barrier. Rich non-equilibrium gas (90% C1, 10% C3) left residual oil saturation of 1-3.5%, and lean methane also improved recovery. A compositional model, history matched with capillary pressure multipliers on the upper five plugs, reproduced the experiments and indicated that diffusion improves non-equilibrium gas recovery at this scale.
+
+## Studies of Water Flooded Chalk Under High Pressure by Use of X-Ray Computed Tomography
+
+- ID: SCA2005-15, year: 2005
+- Authors: Eyvind Aker, Karstein Monsen, Fabrice Cuisiat, Harald Westerdahl
+- Method: laboratory experiment
+- Keywords: X-ray CT, chalk water weakening, pore collapse, waterflooding, CT saturation, P-wave velocity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-15)
+
+CT-monitored brine flooding of intact and fractured Lixhe chalk at 16 MPa shows pore collapse, piston-like displacement, and anisotropic compaction controlled by heterogeneities and fracture.
+
+Water weakening and pore collapse of chalk during waterflooding affect displacement and deformation, and CT saturation estimates are biased by compaction. Two oil-saturated (n-decane) Lixhe outcrop cores, one intact and one with an axial tensile fracture, were flooded stepwise with brine at 16 MPa isotropic stress while scanned with a medical CT scanner in a carbon-fibre holder, with axial LVDT strain and P-wave velocity measured. A method was developed to correct CT numbers for matrix density increase from compaction, giving brine saturation profiles that show piston-like displacement. Axial strain reached about 60 and 90 mS, and cross-line strain was strongly anisotropic. Final brine saturation was 47.4% (intact) and 71.2% (fractured), and P-wave velocity rose from 2210 to 2280 m/s and from 2225 to 2400 m/s. Dense low-porosity bands in the intact core aligned with the maximum strain direction, while the fracture delayed local oil displacement but had minor effect on residual oil.
+
+## Factors Affecting Reservoir and Filtration Properties of Carbonate Rocks of the Main Dolomite (the Polish Lowland)
+
+- ID: SCA2006-42, year: 2006
+- Authors: Grzegorz Leśniak, Irena Matyasik, Piotr Such
+- Method: laboratory experiment
+- Keywords: mercury injection porosimetry, fractal dimension, fracture permeability, Amott wettability, pyrobitumen, Zechstein carbonates
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-42.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-42)
+
+Mercury porosimetry, fractal fracture analysis, geochemistry, Amott wettability and relative permeability characterize heterogeneous, mixed-wet, fractured Zechstein Main Dolomite carbonates in the Polish Lowland.
+
+Zechstein Main Dolomite reservoirs in the Polish Lowland combine low matrix permeability (<15 mD, porosity 8-22%), fractures and organic residues. Mercury injection on 241 samples from 6 wells defined four pore-space classes by porosity, threshold diameter and fractal dimension. Fractal analysis of polished sections identified three fracture systems (dimensions 1.08, 1.35 and 1.18), with fracture permeability estimated from thin sections. Rock-Eval and oxidation curves showed pyrobitumen in the pores. Amott tests on 10 samples gave mixed wettability (indices -0.03 to 0.12), and 42 relative permeability tests showed samples ranging from water-wet to oil-wet, 11 with fracture-flow behavior. Three transport systems were defined, with lab permeability agreeing with well tests (15-100 mD), and oil-wet vertical fractures flagged as potential water paths.
+
+## Improving Efficiency of Acid Fracturing in Low Permeability Gas Reservoirs
+
+- ID: SCA2006-55, year: 2006
+- Authors: Z. Zhou, X. Wang, Z. Zhao, Y. Xu, K. Li
+- Method: laboratory experiment
+- Keywords: acid fracturing, leakoff control acid, dynamic leakoff test, gelled acid, tight carbonate gas reservoir, viscosity vs pH
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-55)
+
+A new leakoff control acid whose viscosity rises as it reacts cut leakoff versus normal and gelled acid and raised gas production over sixfold in a pilot well.
+
+Acid fracturing of tight dolomite gas reservoirs in the Changqing field (0.1-1.0 mD, 99.6-113.5 °C) is limited by acid leakoff. The authors developed a leakoff control acid (LCA) whose viscosity starts low (about 40 cP), peaks near 150 cP at pH about 2.5 as it reacts, then falls to about 20 cP. Dynamic leakoff tests on 2x2x2 cm reservoir cores at 90 °C showed leakoff reduced about 75% versus normal acid and 36% versus gelled acid. Leakoff scaled linearly with the square root of time only for LCA, and LCA left the highest residual acid concentration, indicating slower acid-rock reaction. In a field comparison of two similar wells, LCA/normal acid gave 39.8 ×10^4 m3/day versus 6.0 for gelled/normal acid, and 26 wells have been treated with LCA.
+
+## Visualizing Fluid Flow with MRI in Oil-Wet Fractured Carbonate Rock
+
+- ID: SCA2007_12, year: 2007
+- Authors: M.A. Fernø, G. Ersland, A. Graue, J. Stevens
+- Method: laboratory experiment
+- Keywords: MRI saturation imaging, fractured limestone, capillary continuity, oil-wet wettability, Amott-Harvey index, fracture crossing
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_12)
+
+MRI of water and oil floods across an open fracture in stacked limestone plugs shows wettability-dependent fluid crossing; simulation reproduces it with a slightly negative fracture capillary pressure.
+
+The study asks whether the capillary bridging seen in fractured chalk at moderately water-wet conditions also occurs in more heterogeneous limestone at moderately oil-wet conditions. Epoxy-coated stacked limestone plugs with a 1 mm open fracture were flooded with decane and D2O brine while MRI tracked saturation, at strongly water-wet (Iw-Io=0.9) and moderately oil-wet (Iw-Io=-0.4) states. At strongly water-wet conditions, both fluids filled the fracture hydraulically. At moderately oil-wet conditions, oil droplets formed on the fracture surface in both floods, but only during oilflood did they transport oil into the outlet core, at low fracture oil saturation and without a pressure increase. In waterflood, water entered the outlet core only after the fracture was fully water saturated. Sendra history matches reproduced the average saturation and pressure data when the fracture was given a straight, slightly negative capillary pressure curve (-6 kPa at Sw=1 to 0 kPa at Sw=0), with a threshold of -2 to -3 kPa.
+
+## Flow Simulations of Geomechanical Models of Faulting
+
+- ID: SCA2007_44, year: 2007
+- Authors: Gary D. Couples, Helen Lewis, Jingsheng Ma, Peter Olden
+- Method: numerical simulation
+- Keywords: fault damage zone, geomechanical simulation, volumetric strain, permeability prediction, fault seal, caprock breach
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_44)
+
+Finite-element poro-plastic simulations of shear-zone faulting are converted to permeability fields via volumetric strain and used in single-phase flow simulations of fault seal development and caprock breach.
+
+Fault damage zones alter petrophysical properties, but the full mechanical history of deformation cannot be observed in experiments or outcrops. The authors use the SAVFEM finite-element poro-plastic simulator, which reproduces the en echelon strain pattern of a laboratory shear-zone experiment on mudstone. Permeability is predicted from plastic volumetric strain, scaling linearly with dilation and exponentially with compaction, with calibration constants a, b and c. The resulting permeability fields from layered strong/weak models feed single-phase mixed finite-element flow simulations. Dilated sheaths around the damage zone progressively breach a caprock seal, while in the fault-seal case flux falls by about two to three orders of magnitude as the shear zone grows.
+
+## Confining Pressure Effects on Multi-Phase Transport in a Shear-Fractured Sandstone
+
+- ID: SCA2008-21, year: 2008
+- Authors: Sultan M. Al Enezi, Philip M. Halleck, Abraham S. Grader, Pennsylvania State
+- Method: laboratory experiment
+- Keywords: shear fracture, X-ray CT, confining pressure, fracture aperture, relative permeability, fractional flow
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-21)
+
+X-ray CT and flow tests on a shear-fractured Berea core at two confining pressures show oil fills large fracture apertures, giving high kro but very low krw.
+
+Multiphase flow in shear fractures is less studied than in tensile fractures. A Berea sandstone core was shear-fractured parallel to bedding in a Hoek cell, raising gas permeability from 28.9 to 81.5 mD. Drainage, imbibition and fractional flow tests with brine and n-dodecane were run inside an X-ray CT scanner at 10.3 and 17.2 MPa confining pressure. Raising pressure cut fracture volume 30% (275 to 191 mm3), mean aperture from 227 to 193 microns, and absolute permeability from 103.4 to 65.2 mD. Fracture Swirr/Sor were 8.5%/46.9% at low pressure and 5.9%/40.8% at high pressure, with kro@Swirr near 0.9 and krw@Sor about 0.06. CT images show oil occupying large apertures and water forming films in small apertures, so water is forced through the matrix.
+
+## The Significance of Wettability and Fracture Properties on Oil Recovery Efficiency in Fractured Carbonates
+
+- ID: SCA2008-22, year: 2008
+- Authors: A. Graue
+- Method: laboratory experiment
+- Keywords: MRI saturation imaging, fractured carbonates, wettability, spontaneous imbibition, fracture permeability, history matching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-22)
+
+MRI-monitored waterfloods of fractured water-wet chalk and oil-wet limestone blocks, history matched numerically, show wettability and fracture permeability strongly control recovery and sweep.
+
+The study examines how matrix wettability and fracture properties control waterflood recovery in fractured carbonates. Composite blocks of Rørdal chalk (water-wet) and Edwards limestone (weakly oil-wet) were cut into a defined fracture network with one 1 mm open fracture. Each block was waterflooded whole and then fractured with D2O brine while MRI imaged in-situ saturations. In the water-wet chalk, recovery was capillary dominated (44.6% OOIP fractured vs 50% whole), while in the oil-wet limestone recovery fell from 70% to 15.7% OOIP, with early breakthrough as water flowed through fractures. Eclipse history matches reproduced both cases using zero fracture capillary pressure. A sensitivity study showed that reducing fracture permeability to about 20 times matrix permeability produces a viscous gradient that improves oil-wet recovery, while water-wet recovery is insensitive.
+
+## The Impact of Thermal and Chemical Effects in Fracture Deformation
+
+- ID: SCA2009-45, year: 2009
+- Authors: Ruqayia Al-Zadjali, Suleiman Al-Hinaib, Carlos Grattoni, Quentin Fishera
+- Method: laboratory experiment
+- Keywords: fracture permeability, chalk, thermal recovery, calcite dissolution, X-ray CT, fracture aperture
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-45)
+
+Flow experiments with CT imaging on fractured chalk show that heating to about 50 °C and distilled water circulation both close fractures and sharply reduce permeability.
+
+Fractures dominate flow in heavy oil carbonate reservoirs, but their permeability under steam injection is uncertain. Two fractured Flamborough Head chalk plugs (matrix porosity 18-20%, matrix permeability 4.7 mD) were flowed with oil at 1 ml/min from ambient to about 51 °C at 4000 psi confining, and with distilled water at room temperature, with in-situ X-ray CT (250 µm resolution). Loading to 3500 psi cut fracture permeability by 58% versus 10% for the unfractured sample. Heating from 22 to 51 °C reduced permeability almost to matrix level. Distilled water raised pressure drop from 3.9 to 8.6 psi over 15 days (up to 30-fold permeability decrease) while Ca rose from 6.03 to 17.17 mg/L and Mg from 0.763 to 2.46 mg/L, indicating calcite dissolution and fracture closure confirmed by CT.
+
+## Effects of Closure Stress on Fracture Morphology and Absolute Permeability of a Shear Fractured Sandstone
+
+- ID: SCA2010-39, year: 2010
+- Authors: Sultan M. Al Enezi, Philip M. Halleck, Avrami S. Grader
+- Method: digital rock or imaging
+- Keywords: shear fracture, micro-CT, closure stress, fracture aperture, Euler-Poincare coefficient, cubic law
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-39)
+
+Micro-CT of a shear fracture in Berea sandstone shows fracture volume, aperture and permeability fall with closure stress, and the cubic law fails to predict flow.
+
+The study examines how closure stress changes the morphology and absolute permeability of a shear fracture induced parallel to the flow axis and bedding in a Berea sandstone plug. The fracture was created in a Hoek cell with shims and a stiff frame, followed by 0.5 mm post-failure displacement. It was then imaged with micro-CT at 1500 and 2500 psig confining pressure. Fracture volume dropped from 275 to 191 mm3 (-31%), average aperture from 0.227 to 0.192 mm, and asperity ratio rose from 19% to 33%, while the surface-to-volume ratio stayed at 20. Brine permeability fell from about 102 to 64 mD (~35%) and conductivity fell 56%. Roughness factor showed strong deviation from the parallel plate model; the cubic law predicted 0.018 atm against a measured 0.6 atm. EPC rose as aperture decreased, so it can serve as a connectivity measure.
+
+## Extraction of fractures from 3D rock images and network modelling of multi-phase flow in fracture-pore systems
+
+- ID: SCA2012-57, year: 2012
+- Authors: Zeyun Jiang, Rink van Dijke, Sebastian Geiger, Gary Couples, Rachel Wood
+- Method: digital rock or imaging
+- Keywords: medial surface, fracture network extraction, pore network modelling, carbonate µ-CT, drainage capillary pressure, skeletonisation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-57)
+
+A thinning algorithm extracts medial surfaces of fractures from 3D images and builds virtual fracture networks; drainage curves on the mixed network match distance-map simulation.
+
+Fractures in carbonates are poorly represented by conventional pore-network extraction, which uses only medial axes. The authors extend a distance-map-based thinning algorithm with new definitions of surface and edge points to produce a medial surface for fractures while avoiding spurious sub-surfaces. Fracture apertures are read from distance values on the medial surface (2.0 to 14.56 µm for an artificial fracture), and a virtual network of nodes and bonds is generated with a γ-ball criterion. The method is applied to a carbonate µ-CT image of 500×500×600 voxels containing 46 fractures. For an artificial fracture-matrix system, a two-phase network model on the mixed network reproduces the drainage filling curve of a distance-based simulation, whereas treating the fracture as normal pores does not.
+
+## Computerized X-Ray Microtomography Observations and Fluid Flow Measurements of the Effect of Effective Stress on Fractured Low Permeability Porous Media
+
+- ID: SCA2015-023, year: 2015
+- Authors: Nathan J. Welch, John P. Crawshaw, Edo S. Boek
+- Method: laboratory experiment
+- Keywords: micro-CT fluid flow imaging, fractured shale permeability, effective stress, Lattice-Boltzmann simulation, parallel plate model, fracture aperture
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-023.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-023)
+
+In-situ micro-CT and flow measurements on a fractured shale plug show permeability falls with rising effective stress and mostly recovers; imaged apertures overpredict permeability because fractures are sub-voxel.
+
+Fractures in seal shales strongly affect CO2 storage integrity, so the study relates fracture geometry changes under stress to flow behaviour. A fractured Carboniferous shale plug (Long Lane Quarry; HPMI porosity 9.77%, pores mostly <100 nm) was imaged in a carbon-fibre Hassler cell at 13.2-13.7 µm voxels while confining pressure rose from 6 to 120 bar, then upstream and downstream pore pressures were raised. Permeability decreased with increasing effective pressure as apertures closed, dropped with rising pressure drop, and largely recovered when pore pressure was raised, with a small permanent loss from compaction. Parallel-plate calculations (dry scan about 14.7 D) agreed with Lattice-Boltzmann simulations (15.3-44.6 D). At low stress the predicted 0.71 D (simulation 0.63-2.52 D) far exceeded the measured 0.001 D, because the real aperture (~3.7 µm for 1 mD) is below voxel size. The high-stress scan could not be segmented, so greyscale profiles were used to track aperture changes qualitatively.
+
+## Correlation of Compositional Phases and Wettability-Based Fluid-Tracers in Fine-Grained Reservoirs
+
+- ID: SCA2015-057, year: 2015
+- Authors: Qinhong Hu, Jamil J. Clarke, Rod Baird, Chad Ostrander, Zhiye Gao, Yuxiang Zhang, Kibria Golam
+- Method: measurement technique or apparatus
+- Keywords: wettability tracers, LA-ICP-MS mapping, SEM image montage, Eagle Ford shale, Ar-ion milling, 1-iododecane
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-057)
+
+Combines SEM phase imaging with LA-ICP-MS mapping of brine and n-decane tracers on Eagle Ford shale, finding brine and oil tracers occupy different micron-scale regions.
+
+Wettability and connectivity of organic and mineral phases in fine-grained reservoirs are poorly understood. An Eagle Ford sample was Ar-ion milled and imaged by SEM as a 460-tile montage over 2.1×1.8 mm. Brine tracers (ReO4- and Eu3+) and a 1-iododecane tracer in n-decane were then applied to the same area. LA-ICP-MS mapped them at 75 μm (Grid A) and 8 and 12 μm (Grid B). The two brine tracers followed similar patterns, while the iododecane tracer concentrated in different regions, giving a seemingly negative correlation. This indicates micron-scale spatial variability of water-wetting and oil-wetting phases, the latter being carbonate in this sample. n-decane spread quickly on the surface, unlike brine.
+
+## Core Analysis as a Key to Understanding Formation Damage After Hydraulic Fracturing Treatment
+
+- ID: SCA2016-062, year: 2016
+- Authors: P. Kasza, K. Labus
+- Method: laboratory experiment
+- Keywords: hydraulic fracturing, formation damage, fracturing fluid leak-off, filter cake, Rotliegend sandstone, UV fluorescence
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-062)
+
+Flow tests of three fracturing fluids on Rotliegend sandstone cores, with permeability, SEM and UV fluorescence, show linear and cross-linked polymers cut permeability by about 85-90%.
+
+Water-based fracturing fluids can damage reservoir rock through leak-off, filter cake and polymer residue. Three fluids (slickwater, linear polymer, cross-linked polymer) were injected into Rotliegend sandstone cores on an AFS core flood system at ambient temperature and 140 psi backpressure. Permeability fell from 146.6 to 15.5 md with linear polymer and from 155.0 to 19.5 md with cross-linked polymer, with slight porosity increases from particle elution. Slickwater raised permeability from 78.1 to 99.4 md, probably because solids were washed out. SEM and UV fluorescence showed a polymer coating about 50 µm thick for slickwater, polymer traces 3-6 mm into the core for linear polymer, and an intense polymer layer on the face for cross-linked fluid.
+
+## Fracture stratigraphy: Predicting fractures from small-scale lithologic and textural changes
+
+- ID: SCA2016-085, year: 2016
+- Authors: Laura Kennedy, Jack Beuthin, Jaime Kostelnik
+- Method: field or reservoir case study
+- Keywords: fracture stratigraphy, Heath Formation, natural fractures, thin section petrography, XRD mineralogy, diagenesis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-085.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-085)
+
+Two Heath Formation cores show five stratigraphic units with distinct fracture domains, correlated with lithology, mineralogy and diagenesis from core to thin-section scale.
+
+Natural fractures are hard to predict in vertically heterogeneous unconventional reservoirs. Two densely fractured Heath Formation cores from central Montana (Reese 1 and Padre 1A) were studied using fracture logging, core description, twelve thin sections and XRD mineralogy, integrated in core panels. Fractures group into five domains tied to lithologic units: coal cleats, joints, shear fractures, short bed-limited fractures, and highly variable fracturing including beef. Fracture style changes abruptly across lithologic boundaries at half-meter to millimeter scales. XRD averaged 19% clay, 43% carbonate, 19% quartz and 13% anhydrite, and thin sections show crack-seal fills and multiple deformation events. Carbonate content, bed thickness, ductile anhydrite-brittle dolostone alternation and argillaceous lamination appear to control fracture mode and geometry.
+
+## Micro-Scale Modeling of Matrix-Fracture Interactions in Fractured Porous Media
+
+- ID: SCA2016-090, year: 2016
+- Authors: Samuel Kazmouza, Maziar Arshadia, Arash Aghaeib, Mohammad Piria
+- Method: numerical simulation
+- Keywords: dynamic pore network model, fractured Berea sandstone, micro-CT, matrix-fracture interaction, drainage and imbibition, capillary pressure profile
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-090.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-090)
+
+A dynamic pore network model of a micro-CT-based fractured Berea core simulates drainage and imbibition, showing fracture saturation is insensitive to imbibition rate while matrix saturation rises with rate.
+
+The study addresses matrix-fracture interaction in two-phase flow by building a single pore network from micro-CT scans (2.5 µm) of a fractured Berea sandstone core. A 6 mm x 6 mm subdomain containing the fracture end was segmented; matrix and fracture networks were merged statistically, giving 511,406 elements (167,707 pores, 343,699 throats). A fully dynamic pore network model simulated 18 flow steps of drainage then imbibition, with imbibition brine rates differing by 100x between Sim.1 and Sim.2. After drainage the fracture was nearly fully oil-saturated (Sw ~0%) while matrix Sw ranged 5-45%. After imbibition, fracture Sw stayed near 30% in both cases, whereas matrix Sw rose from 20-40% (Sim.1) to a uniform ~60% (Sim.2). Capillary pressure showed a sharp drop at the fracture tip at 2 mm, and relative permeability curves showed residual oil saturation of 42% in Sim.1.
+
+## Experimental Study on Dynamic Fractures Induced by Water Flooding in Low Permeability Reservoirs
+
+- ID: SCA2016-095, year: 2016
+- Authors: Gao Jian, Zhang Zubo, Liu Qingjie, Qian Yuchen, Jia Ninghong, Tan Xiqun
+- Method: laboratory experiment
+- Keywords: dynamic fractures, water flooding, low permeability reservoirs, injection pressure above overburden, CT scanning, displacement efficiency
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-095.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-095)
+
+Core flooding with a modified holder allows injection pressure above overburden, inducing dynamic fractures that raise permeability 5-30 times but give lower displacement efficiency than matrix flow.
+
+Dynamic fractures induced by water injection in low permeability reservoirs are poorly understood experimentally. The authors modified a conventional core holder with sealing systems on both sides so injection pressure can exceed overburden pressure. Fractures began when injection pressure was 0.7-3.2 MPa above overburden and stabilized at 1.0-5.0 MPa above. CT scanning showed micrometer-scale fractures growing in a planar pattern, with width and fracture pressure increasing with injection rate, and absolute permeability rose 5-30 times. Displacement efficiency in induced fractures was 9.8-25.5% versus 56-63% for matrix flow, with faster water cut rise; results were compared with Changqing field data.
+
+## The Effect of Spreading Coefficient on Recovery of Waterflood Residual Oil Using Gas Injection in Fractured Carbonate Rocks: A Micro-Scale Experimental Investigation Using X-Ray Microtomography
+
+- ID: SCA2017-007, year: 2017
+- Authors: M. Sabti, A.H. Alizadeh, E. Lowry, M. Piri
+- Method: digital rock or imaging
+- Keywords: spreading coefficient, tertiary gas injection, micro-CT, fractured carbonate, three-phase flow, oil layer drainage
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-007)
+
+Micro-CT core floods on a partially fractured limestone show tertiary gas injection recovers more waterflood residual oil with a spreading oil than a nonspreading one, via oil layers.
+
+The study examines how oil spreading affects recovery of waterflood residual oil by gas injection in fractured carbonate. A 10 mm by 48 mm partially fractured Fond Du Lac limestone miniature core was flooded in a three-phase apparatus integrated with a micro-CT scanner (2.5 μm resolution). Two fluid systems were used: Soltrol 170 (spreading) and white mineral oil (nonspreading), starting from similar waterflood residual oil of 52% and 47%. Gas first filled the fracture and displaced brine, then at higher rates reached trapped oil. In the spreading system, stable oil layers between brine and gas reconnected oil to the fracture, reducing oil saturation to 14%, versus 27% for the nonspreading system, where no layer drainage was seen.
+
+## Effect of Microfracture on Ultratight Matrix Permeability
+
+- ID: SCA2017-091, year: 2017
+- Authors: G. Leśniak, P. Such, R. Cicha-Szot
+- Method: data analysis or correlation
+- Keywords: microfracture width, shale permeability, pulse-decay, anomalous permeability, X-ray microtomography, Baltic Basin
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-091.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-091)
+
+Anomalously high pulse-decay permeabilities in Baltic Basin shale plugs are attributed to microfractures, and fracture widths are back-calculated from permeability, giving roughly 0.2–15 µm.
+
+Pulse-decay permeability of 48 Baltic Basin shale plugs spanned six orders of magnitude, from 0.4 nD to 3.8 mD, and the high values appeared anomalous for clay-rich shale. Samples were screened with CT (10-12 µm resolution) and 2D X-ray imaging, and microscopy separated natural microfractures from decompression-induced ones. Samples with no visible fractures had a maximum permeability of 295 nD, so 300 nD was taken as the matrix permeability. Fracture width was back-calculated from a random-traverse permeability formula, subtracting matrix permeability for low-permeability samples. Widths were 1.0–15.2 µm for one fracture and 0.65–9.6 µm for four fractures in the high-permeability group, and 0.18–0.65 µm in the lower group. Permeability of a fractured sample fell from 0.0688 to 0.0221 µD as confining pressure rose from 2000 to 7000 psi, with calculated width decreasing from 2.5 to 1.7 µm.
+
+## Permeability Reduction and Water Imbibition in Unpropped Fractures in Carbonate-Rich Shale
+
+- ID: SCA2017-098, year: 2017
+- Authors: Robert L. Krumm, James J. Howard
+- Method: laboratory experiment
+- Keywords: unpropped fracture permeability, countercurrent imbibition, micro-CT contrast agent, NMR T2, shale fluid sensitivity, steady-state permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-098.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-098)
+
+A workflow combining micro-CT, NMR T2 and steady-state permeability shows brine exposure reduces unpropped fracture permeability in carbonate-rich shale, sometimes sealing it, with 31-46% oil displaced.
+
+Hydraulic fracture fluids can imbibe into shale and soften the fracture face, potentially closing unpropped fractures. Four oil-saturated carbonate-rich shale plugs (porosity 9.2-13.0%, matrix permeability 25-102 nD) were sheared to create a single fracture. Decane and then 50 wt% KI brine in D2O were flowed through the fracture at 172 bar net stress and 66°C, with NMR T2 and micro-CT (58 µm/voxel) before and after. Fracture permeability fell in all samples when brine replaced decane, and in two samples approached matrix permeability, with the fractures no longer visible on CT. Brine imbibed rapidly over 2-3 days and displaced 31-46% of the oil, with the larger displacements in samples where the fracture closed. The authors attribute the closure to softening and annealing of the fracture faces.
+
+## Hele-Shaw setup for investigation of two-phase flow in fractures
+
+- ID: SCA2019-055, year: 2019
+- Authors: Martin Raphaug, Per Bergmo, Alexandre Lavrov, Bård Bjørkvik, Cathrine Ringstad
+- Method: measurement technique or apparatus
+- Keywords: Hele-Shaw cell, two-phase flow in fractures, fracture aperture, wettability alteration, fluid trapping, image-based front tracking
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-055)
+
+SINTEF built a 60x100 cm transparent horizontal Hele-Shaw cell with adjustable aperture, roughness, wettability and tilt to study two-phase flow and trapping in fractures.
+
+Two-phase flow in fractures matters for carbonate and gas-shale production, but experimental data and models are limited. SINTEF developed a transparent polycarbonate Hele-Shaw cell of 60 x 100 cm, described as the largest horizontal cell of its kind. Aperture is set at 0.5-1.0 mm by a precision stainless spacer, and glass plates 25 mm thick prevent plate deflection. Surface roughness or geometry can be machined, wettability ranges from native oil-wet to water-wet with a hydrophilic coating, tilt is 0-90 degrees, and two phases can be injected simultaneously. A camera, flow rates and differential pressure are recorded, and images are processed to track fronts, phase fractions and velocities. The abstract announces first experiments but gives no results.
+
+## Modeling carbonate microfractures with the lattice Boltzmann method
+
+- ID: SCA2019-062, year: 2019
+- Authors: Andrew Fager, Bernd Crouse, David Freed, Josephina Schembre-McCabe, Neil Hurley
+- Method: digital rock or imaging
+- Keywords: lattice Boltzmann method, microfractures, Indiana Limestone, digital rock, fracture aperture, relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-062.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-062)
+
+Lattice Boltzmann simulations on digital Indiana Limestone with overlaid microfractures quantify effects of fracture aperture and shape on permeability, capillary pressure, relative permeability and residual oil.
+
+The paper examines how microfractures affect flow in carbonates, using high-resolution 3D images of Indiana Limestone in which no fractures were originally observed. Microfractures of varying size and shape were digitally overlaid on the unfractured image, and results were compared with the unfractured case. Single-phase lattice Boltzmann simulations relate permeability to fracture aperture and shape, and emulate fracture closure under changing confining stress. Modeled trends compare favorably to laboratory measurements. Multiphase simulations compute capillary pressure, relative permeability and residual oil saturation for different fracture conditions, with attention to oil production from matrix into fracture.
+
+## Combination of computed X-ray tomography and triaxial geomechanical tests as a tool for fracture propagation prediction
+
+- ID: SCA2019-077, year: 2019
+- Authors: Edyta Puskarczyk, Paulina I. Krakowska, Marek Dohnalik
+- Method: digital rock or imaging
+- Keywords: X-ray computed tomography, triaxial compression test, fracture propagation, crack azimuth and angle, hydraulic fracturing, 3D pore geometry
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-077.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-077)
+
+Combines X-ray CT scans taken before, during and after triaxial compression of sandstone, shale and carbonate samples to characterize crack propagation and preferred fracture directions.
+
+The study addresses predicting how rocks fracture under stress, relevant to hydraulic fracturing in unconventional reservoirs. Samples of sandstone, shale and carbonate were scanned by X-ray computed tomography before, during (in the linear stress-strain stage) and after triaxial compression tests. The initial scan served as a reference for natural pores and microcracks, and the final scan was used to assess crack propagation and pore space changes. Pores and cracks were compared quantitatively by diameter, angle, azimuth, direction and volume. The samples were found prone to fracturing in defined directions, improving understanding of fracture systems and planning of fracturing.
+
+## Core Fracture Segmentation in CT Images by Transfer Learning
+
+- ID: SCA2019-085, year: 2019
+- Authors: Ryan Antle, Mackenzie Dreese
+- Method: digital rock or imaging
+- Keywords: fracture segmentation, convolutional neural network, transfer learning, fully convolutional network, X-ray CT, core images
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-085.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-085)
+
+A CNN fracture classifier (>90% accuracy) on core CT slices is transferred to a fully convolutional network for pixel-wise fracture segmentation, improving accuracy despite class imbalance.
+
+Fracture characterization in reservoir core CT images needs automation beyond manual labeling. The authors trained a deep CNN on manually classified CT cross-sections to label slices as fractured or not, reaching over 90% accuracy. They then transferred the learned hyperparameters from the fully connected layer to a fully convolutional network, adding layers to upscale class probabilities to the original image size and produce a pixel-wise heatmap. The transferred parameters were refined by iteratively minimizing error against annotated images. Transfer learning improved segmentation accuracy (reported as >60%) regardless of class imbalance, enabling further automation of fracture aperture and length measurements.
+
+## Improved fracture segmentation from unwrapped drill-core images using an innovative two-stage segmentation approach
+
+- ID: SCA2021-014, year: 2021
+- Authors: Fatimah Alzubaidi, Harikrishnan Nalinakumar, Stuart R. Clark, Jan Erik Lie, Peyman Mostaghimi, Ryan T. Armstrong
+- Method: data analysis or correlation
+- Keywords: fracture segmentation, unwrapped core images, Mask R-CNN, PointRend, intersection-over-union, fracture aperture
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-014)
+
+A two-stage Mask R-CNN approach, with optional PointRend, segments fractures in unwrapped core images, raising average IoU by 0.25 over the one-stage baseline and cutting aperture error.
+
+Automated fracture segmentation from high-resolution unwrapped core images is limited by the low mask resolution of Mask R-CNN. The authors train a first model on full-size images to detect fractures and a second on cropped regions (three per fracture) to refine masks, testing standard Mask R-CNN and Mask R-CNN + PointRend. Training used 100 images (204 fractures) augmented to 1200 from two boreholes. Testing used 72 images (160 fractures, ~47 m) from four North Sea and Barents Sea boreholes. Two-stage segmentation raised average IoU by 0.14 (standard) and 0.11 (PointRend); the best case, two-stage PointRend, reached about 0.52 average IoU with 62% of fractures above 0.5 IoU. For eight fractures, aperture error fell by 0.46 mm (46%) on average. PointRend gave finer masks but sometimes failed on adjacent or overlapping fractures.
+
+## Experimental time-lapse visualization of mud-filtrate invasion and mudcake deposition in complex rocks using X-ray radiography
+
+- ID: SCA2022-27, year: 2022
+- Authors: Pierre Aérens, Carlos Torres-Verdín, Nicolas Espinoza
+- Method: measurement technique or apparatus
+- Keywords: mud-filtrate invasion, mudcake deposition, X-ray radiography, microCT, laminated sandstone, vuggy carbonate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-27)
+
+A microCT 2D radiography method images time-lapse mud-filtrate invasion and mudcake growth in thin rock slabs, showing how heterogeneity and anisotropy control invasion in sandstones and carbonates.
+
+Mud-filtrate invasion affects borehole measurements, and existing experiments mostly use homogeneous rocks. The authors inject water- or oil-base mud at 100 psi overbalance into 14 x 7 x 0.6 cm rock slabs epoxied in a polycarbonate flow cell inside a microCT scanner, acquiring 2D radiographs quasi-continuously at 17-50 µm resolution and subtracting baseline images to show invaded zone and mudcake. Tested rocks include Berea types, Leopard, laminated Nugget and Antolini sandstones, and vuggy and Silurian dolomites. Homogeneous Upper Gray Berea shows a near piston-like front, while laminated sandstones show irregular fronts that level out with crossflow when anisotropy is lower (Antolini kv about half kh versus Nugget one order lower). In vuggy carbonates invasion and internal/external mudcake are patchy and confined to permeable vugs. WBM gave greater filtrate loss and thicker mudcake than OBM, though the difference in Leopard sandstone was smaller than expected.
+
+## Multi-Phase Flow in Fractured Rocks: From Pore-Scale Processes to Field-Scale Responses
+
+- ID: SCA2022-57, year: 2022
+- Authors: Xupeng He, Marwa AlSinan, Hyung Kwak, Hussein Hoteit
+- Method: numerical simulation
+- Keywords: fracture roughness, hydraulic aperture, polynomial chaos expansion, Sobol sensitivity analysis, Gaussian copula, naturally fractured reservoirs
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-57)
+
+A multi-scale workflow links pore-scale fracture simulations to field-scale recovery factor via surrogates and Sobol sensitivity, showing fracture roughness strongly affects hydraulic aperture and recovery.
+
+The paper addresses how pore-scale fracture properties propagate to field-scale responses in naturally fractured reservoirs. The workflow runs high-resolution Navier-Stokes simulations on single fractures to obtain hydraulic aperture, and pore-scale two-phase simulations to build relative permeability curves. Fracture roughness, tortuosity and mechanical aperture are the input parameters, and polynomial chaos expansion surrogates are built for hydraulic aperture, relative permeability and fracture volume. Monte Carlo sampling, kernel density estimation and a Gaussian copula carry the correlated distributions to core scale, giving time-varying PDFs of field-scale recovery factor. Sobol indices show that fracture roughness strongly affects hydraulic aperture, core-scale hydraulic properties and recovery factor, so roughness should be included in fractured reservoir characterization.
+
+## Pore Scale Modelling of Fracture Permeability Evolution Under Coupled Flow-Geochemical Process
+
+- ID: SCA2023-060, year: 2023
+- Authors: Xupeng He, Zhen Zhang, Hyung Kwak, Hussein Hoteit
+- Method: numerical simulation
+- Keywords: fracture permeability, reactive transport, mineral dissolution and precipitation, Navier-Stokes, mixed finite element, FEniCS
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-060)
+
+A 3D pore-scale model couples Navier-Stokes flow with reactive transport in rough fractures, showing permeability first rises by dissolution then falls by mineral precipitation.
+
+The paper addresses how coupled flow and geochemical reactions change fracture permeability in geological formations. It develops a model coupling Navier-Stokes flow with a reactive transport model in 3D rough fractures, including mineral dissolution and precipitation. The model is solved with a mixed finite element method in the open-source FEniCS platform. Preliminary results show permeability rising rapidly early through self-enhanced dissolution, then decreasing significantly later due to mineralization. Fluid composition strongly affects the process dynamics, and interactions between fractures control the magnitude and distribution of permeability changes.
+
+## Experimental Investigation of Fracture–Matrix Flow Using CT Imaging
+
+- ID: SCA_2025_1058, year: 2025
+- Authors: Ciprian-Teodor Panaitescu, Kejian Wu, Yukie Tanino, Andrew Starkey, Mehmet Emin Kartal, Guan Qin
+- Method: laboratory experiment
+- Keywords: fracture–matrix interaction, triaxial core flooding, micro-CT imaging, CNN segmentation, permeability enhancement, hydraulic fracturing
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1058.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1058)
+
+Triaxial flooding of North Sea sandstone with in situ micro-CT shows fracturing raises permeability, with the enhancement ratio inversely related to initial matrix permeability and flow concentrated in fractures.
+
+The study examines how flow evolves as fractures form and interact with the matrix in North Sea sandstone. Single-matrix and composite (low/high permeability) 25.4 mm plugs were fractured in a custom triaxial flow cell under water injection (250 psi confining, 200 psi inlet) while pressure, flow rate and load were recorded. Dual-resolution micro-CT (12.7 and 25.4 µm) was combined with a U-Net-type CNN trained on synthetic fractured volumes to segment matrix, pores and fractures (Jaccard 0.86 in 2D). The fractured-to-unfractured permeability ratio k_D reached about 5.5 for the single-matrix sample and 3.5 for the composite, and was inversely related to initial matrix permeability. Fracture apertures ranged from 10 to 400 µm, and flow stayed concentrated along fractures with diminishing matrix contribution.
+
+## Effect of Multi-scale Fractures on Oil Recovery from a Laminated Shale Reservoir
+
+- ID: SCA2026-060, year: 2026
+- Authors: D. Leslie Zhang, Denis Klemin, Litao Shang, Zhiwei Wu, Jianquan Liu, Qingchuan Ye, Omar Reffell
+- Method: numerical simulation
+- Keywords: digital rock, density functional hydrodynamics, micro-fractures, HF NMR T1-T2, laminated shale, mercury injection capillary pressure
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-060)
+
+Validated multi-scale digital rock models of laminated Cangdong shale simulate depletion recovery, showing micro-fractures add about 7% recovery at plug scale and boost early well production.
+
+The paper examines how primary, secondary and micro-fractures affect oil recovery in a laminated shale oil reservoir (Kong-2, Dagang oilfield). Sister plug A was characterized with HF NMR, pressure decay, GRI crushed analysis, pyrolysis and MICP (porosity 7.8%, Swanson permeability 2.3 µD, median throat radius 33 nm). Plug B was imaged at six resolution levels and upscaled into a digital rock model (porosity 6.5%, permeability 2.5 µD) that matched plug A. Density functional hydrodynamics simulations of depletion showed micro-fractures help most in the poorly connected, clay-rich upper layer, reducing its initial water saturation from 31.5% to 14.5%. At plug scale, primary and secondary fractures recovered 14.5% of the oil and micro-fractures added about 7% more. Well-scale models of an 1840 m, 80-stage horizontal well showed the upper layer contributes little, while micro-fractures raise early rates but speed up decline.

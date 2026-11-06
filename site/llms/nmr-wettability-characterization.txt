@@ -1,0 +1,330 @@
+# NMR wettability characterization
+
+> 25 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: wettability, nmr, relaxation time, t2, oil, water, surface, signal, pore, index.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Wettability Characterization by NMR T2 Measurements in Chalk
+
+- ID: SCA2006-39, year: 2006
+- Authors: Else B. Johannesen, Marianne Steinsbø, James Howard, Arne Graue
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, wettability, Amott index, spontaneous imbibition, chalk, surface relaxation
+- Cited by 3 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-39)
+
+NMR T2 measured during spontaneous imbibition in Rørdal chalk of varied wettability shows the oil-phase T2 shift changes sign near Amott index 0.6, while the water-phase shift does not track wettability.
+
+The paper tests whether NMR T2 relaxation (CPMG) can characterize wettability in outcrop chalk. Twenty-seven Rørdal chalk plugs (porosity 42-46%, permeability 3.3-4.5 mD) were aged at Swi to give a range of wettabilities, with decane as the oil phase. T2 was measured at Swi, at several stages of spontaneous water imbibition, at Swsp and at Sorw. Water-phase T2 consistently shifted to slower relaxation with increasing Sw, but did not show the expected wettability dependence. The oil-phase T2 shift during imbibition was positive for strongly water-wet plugs, zero near Iw = 0.6, and negative at weaker water-wetness, which is explained by changes in the surface-to-volume ratio of the oil. Residual oil saturation after forced imbibition was lowest at Iw of about 0.4.
+
+## A Review of 60 Years of NMR Wettability
+
+- ID: SCA2018-017, year: 2018
+- Authors: Andrea Valori, Benjamin Nicot
+- Method: review or workflow
+- Keywords: NMR wettability, T1/T2 ratio, restricted diffusion, T1 dispersion, USBM index, surface relaxivity
+- Cited by 2 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-017)
+
+Reviews six decades of NMR wettability methods (T2, T2 vs saturation, restricted diffusion, T1 dispersion, T1/T2 ratio), comparing strengths, limitations and downhole applicability.
+
+Wettability is normally measured in the lab by Amott-Harvey and USBM tests, which are slow and cannot be run downhole. This review covers NMR approaches since the 1950s that exploit sensitivity of relaxation and diffusion to fluid-rock interactions. Techniques covered are T2 forward modelling and inversion, T2 versus saturation, restricted diffusion with the Padé model, T1 frequency dispersion (fast field cycling), and the T1/T2 ratio. T2-based methods need detailed fluid and rock knowledge and so are lab-oriented, and field cycling is lab-only. The authors judge the saturation, T1/T2 ratio and restricted diffusion methods most promising downhole, noting that the oil-phase T1/T2 ratio correlates strongly with the USBM index but requires fluid separation and is time consuming.
+
+## Wettability Alteration During Aging: The Application of NMR to Monitor Fluid Redistribution
+
+- ID: SCA2005-10, year: 2005
+- Authors: S.H. Al-Mahrooqi, C.A. Grattoni, A. H. Muggeridge, X.D. Jing
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, wettability restoration, core aging, complex impedance, Amott-Harvey index, mixed wettability
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-10)
+
+NMR T2 and complex impedance monitored sandstone plugs aging in crude oil, showing wettability alteration starts immediately and accelerates with temperature, from water-wet toward mixed-wet.
+
+Aging of cores in crude oil is used to restore reservoir wettability, but the dynamics are poorly understood. Three outcrop sandstones (7-38 mD, ~17-18% porosity) were aged in crude oil, one at 35-50 °C and atmospheric pressure for 108 days, two at ambient conditions for 80 days then 85 °C and 1.38 MPa for 50 days. NMR T2 (2 MHz) and 10 Hz-2 MHz impedance were measured at intervals, and Amott-Harvey indices were measured on clean and aged plugs. T2 distributions shifted to shorter times as bulk oil signal fell and surface-relaxing signal rose, and impedance increased as water lost continuity, both indicating alteration within the first week, well before 40 days. A log-mean-T2 NMR wettability index fell steadily from strongly water-wet to weakly mixed-wet and dropped faster at higher temperature, correlating with Amott-Harvey values.
+
+## Wettability as a Function of Pore Size by NMR
+
+- ID: SCA2012-31, year: 2012
+- Authors: Ahmed S. Al-Muthana, Gabor G. Hursan, S. Mark Ma, Andrea Valori, Benjamin Nicot, Philip M. Singer
+- Method: measurement technique or apparatus
+- Keywords: NMR wettability index, T2 relaxation, wettability inversion, Amott-Harvey, USBM, carbonate core cleaning
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-31)
+
+A new NMR T2 time-domain inversion gives wettability and saturation versus pore size for carbonates, and appears more representative than Amott-Harvey and USBM for water-wet plugs.
+
+Amott-Harvey and USBM wettability indices often disagree, so the authors develop an NMR inversion that returns wettability and saturation as functions of pore size. The forward model uses fully water-saturated T2 spectra and bulk fluid data, with saturation-history constraints (monotonic or Gaussian) to stabilize the inversion, and it is solved in the time domain without a Laplace transform. It was tested on Saudi carbonate reservoir plugs (porosity 9.2–30.2 p.u., permeability 0.5–2580 mD) and Indiana Limestone outcrops in native, aged, Soxhlet-cleaned and force-cleaned states. Example indices were -0.47 for a strongly oil-wet plug, +0.86 for a water-wet plug at Swirr, and +0.32 for a water-wet plug at Sor. Force-cleaned and outcrop plugs came out strongly water-wet by NMR, whereas AH and USBM* indicated weaker water wetness. Native-state plugs reached an NMR index down to -1, while aged plugs were limited to about -0.6.
+
+## Toward a Method for Measuring Wettability in Porous Media by NMR Water Vapor Isotherm Technique
+
+- ID: SCA2017-032, year: 2017
+- Authors: Hyung T. Kwak, Ahmad M. Harbi
+- Method: measurement technique or apparatus
+- Keywords: NMR water vapor isotherm, wettability, hydrophobic silane coating, contact angle, glass beads, water adsorption
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-032)
+
+NMR-detected water vapor isotherms on chemically treated glass beads distinguish hydrophilic from hydrophobic surfaces within granular media, consistent with contact angles, as a step toward core wettability measurement.
+
+Conventional wettability tests such as contact angle, Amott-Harvey and USBM are poorly suited to pore-scale or heterogeneous surfaces. The authors propose measuring wettability from NMR-detected water vapor adsorption isotherms at 20 °C on soda lime glass beads (20, 40, 400 µm) and microporous silica beads made hydrophilic by acid wash or hydrophobic by silane coating. Contact angles on glass wafers were about 59° unmodified, 95° silane-coated and 24° acid-washed. Isotherms were nearly flat for hydrophobic beads, highest for hydrophilic beads, and intermediate for unmodified beads, matching the contact angle ranking. Normalizing adsorbed water mass by hydrophilic surface area collapsed mixed-bead isotherms onto one curve, showing surface-dominated adsorption. Silane-treated microporous silica adsorbed normally at P/P0 < 0.2 but flattened above, since the narrow micropores stayed uncoated while the intergranular space became hydrophobic.
+
+## Investigation of Low Salinity Water Flooding by NMR and Cryoesem
+
+- ID: SCA2010-26, year: 2010
+- Authors: Hege Christin Wideroee, Haakon Rueslaatten, Tony Boassen, Christian M. Crescente, Martin Raphaug, Geir H. Soerland, Hege Urkedal
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, NMR diffusion-T2, CryoESEM, Amott-Harvey wettability, Berea sandstone, kaolinite
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-26)
+
+Low salinity flooding of Berea sandstone is studied with core floods, Amott-Harvey tests, NMR diffusion-T2 and CryoESEM, indicating a shift toward water-wet conditions but little extra oil recovery.
+
+The study examines mechanisms of low salinity waterflooding in Berea sandstone, varying ionic strength and divalent ion content of the injected water. Core floods at 60°C, Amott-Harvey/USBM wettability tests, NMR T2 and diffusion-T2 on one core between flood stages, and CryoESEM imaging of parallel frozen cores were combined. Low salinity floods gave only 0-3% reduction in remaining oil saturation, but differential pressure, ion concentration and pH responded, with no clay in the effluent. Amott indices were higher (0.79-0.89) for plugs exposed to low salinity water, and NMR showed water T2 shifting shorter after low salinity floods, consistent with a more water-wet state. CryoESEM showed residual oil as snap-off droplets and associated with kaolinite and iron-rich carbonate cement. The authors conclude that combining NMR and CryoESEM is a useful way to detect wettability changes.
+
+## Evaluation of Wettability Distributions in Experimentally Aged Core
+
+- ID: SCA2008-17, year: 2008
+- Authors: Else Johannesen, James Howard, Arne Graue
+- Method: laboratory experiment
+- Keywords: NMR T2 wettability, gradient CPMG, Amott index, aging methods, wettability distribution, chalk
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-17)
+
+NMR T2 gradient measurements on chalk plugs show how four aging methods give different axial wettability distributions; multidirectional flooding is most uniform, and T2 wettability correlates with local Amott index.
+
+Uniform wettability is needed before SCAL tests, but aging methods can leave axial wettability gradients. Four Rørdal chalk plugs (porosity 0.45-0.48) were aged at 80°C with crude oil by oil-bath submersion, unidirectional flooding, partial drainage with static aging, or bidirectional flooding with reversed flow. Low-field NMR CPMG measurements with a gradient field on four 1 cm transverse slices gave local saturations during spontaneous imbibition, from which local Amott indices and T2 wettability (oil-phase T2 at Siw relative to a strongly water-wet core) were derived. The oil-bath plug was less water-wet at both ends, unidirectional flow gave more alteration at the inlet (Amott index near 0 at the inlet, about 0.3 at the outlet), and partial drainage gave a gradient from neutral to nearly strongly water-wet. Multidirectional flooding gave the most uniform distribution, and local Amott indices correlated well with T2 wettability, in line with uniform-field results.
+
+## How Can NMR Assess the Wettability of a Chalk Reservoir
+
+- ID: SCA2017-003, year: 2017
+- Authors: Wim Looyestijn, Xiangmin Zhang, Albert Hebing
+- Method: laboratory experiment
+- Keywords: NMR wettability index, Amott-Harvey, USBM, chalk, T2 distribution, NMR log
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-003)
+
+NMR wettability index measured at nine Amott-USBM steps on chalk cores correlates with Amott and USBM and stays roughly constant; applied to NMR log, it shows water-wet trend toward OWC.
+
+The study assesses wettability of an offshore chalk reservoir by adding NMR T2 measurements at each of nine steps of the combined USBM/Amott-Harvey protocol on six core samples. A forward model of the T2 response yields an NMR wettability index (NWI) and saturations for steps 4-9, where isopar-L and brine peaks are well separated. NMR saturations agree closely with core volumetric saturations, and NWI correlates positively with Amott and USBM indices, though not one-to-one. NWI stayed roughly constant (about 0.75 ± 0.15, fairly water-wet), suggesting mineral-oil flooding does not alter wettability, while crude-oil steps 2-3 could not be interpreted because oil and water responses overlap. Applied to the NMR log, the oil zone gave NWI of 0.5 ± 0.2, trending to fully water-wet across the transition zone to the OWC.
+
+## Interpretation of Wettability in Sandstones with NMR Analysis
+
+- ID: SCA1999-21, year: 1999
+- Authors: Gigi Qian Zhang, Chien-Chung Huang, George J. Hirasaki
+- Method: laboratory experiment
+- Keywords: NMR T1 relaxation, mixed wettability, Amott wettability index, chlorite-lined sandstone, D2O brine exchange, residual oil saturation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-21.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-21)
+
+NMR T1 distributions, Amott indices and residual oil saturation show Bentheim and Berea turn mixed-wet only with aged crude oil, while chlorite-lined North Burbank is mixed-wet even with refined oil.
+
+The paper uses NMR T1 relaxation to interpret wettability in three sandstones of varying clay content (Bentheim, Berea, North Burbank) with Soltrol refined oil and an aged Gulf of Mexico crude (SMY). Samples were saturated with brine, drained to Swir, aged 3 weeks at 50 °C for crude, then imbibed spontaneously and forced, with D2O exchange used to isolate residual oil signal. Bentheim and Berea were water-wet with Soltrol (Amott index about 0.77 and 1.0) but mixed-wet with crude oil (Amott 0.14–0.24 and 0.54). North Burbank was mixed-wet with both oils (Amott near 0), because oil contacts chlorite flake tips and partially shields macropore brine, shortening oil T1 and lengthening brine T1 relative to 100% brine. Residual oil saturations were lowest for North Burbank and well below counter-current imbibition values, and Berea showed about a 10% Sor reduction from refined to crude oil, consistent with the NMR interpretation.
+
+## A Kinetic Model of Imbibition in Soils
+
+- ID: SCA2001-27, year: 2001
+- Authors: Apostolos Kantzas, Tiona Todoruk, Florence Manalo, Cooper H. Langford
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, imbibition kinetics, soil water repellency, wettability, zero order kinetics, Berea sandstone
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-27)
+
+Low-field NMR monitoring of water imbibition in wettable and water-repellent soils shows zero-order uptake in wettable soils, second-order in repellent ones, with repellent soils eventually wetting similarly.
+
+Water uptake in soils is poorly understood, and no quantitative wettability measure exists for water-repellent soils. Counter-current imbibition with controlled water rates was monitored by 1 MHz low-field NMR T2 spectra over days to weeks in wettable and non-wettable Ellerslie and Devon soils, plus Berea sandstone. NMR water mass agreed with mass balance within 4.5%. T2 spectra resolved into several peaks (five for Ellerslie) that were treated with zero, first and second order rate laws. Wettable soils followed zero-order uptake, while Ellerslie non-wettable soil fit second-order kinetics, and Devon non-wettable was mixed. Non-wettable soils eventually reached spectra similar to wettable ones, differing mainly in timescale, and Berea small pores initially lost water before filling, contrary to the usual imbibition order.
+
+## The Study of Residual Water Saturation Formation in Hydrophilic and Hydrophobic Reservoirs by NMR Method
+
+- ID: SCA2002-44, year: 2002
+- Authors: V.G. Toporkov, V.A. Murtsovkin, A.S. Zelenov, S.Y. Tarasov
+- Method: laboratory experiment
+- Keywords: residual water saturation, NMR T2 relaxation, wettability, Archie saturation exponent, semipermeable membrane drainage, T2 cutoff
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-44)
+
+NMR T2 spectra during semipermeable-membrane drainage show hydrophobic rocks redistribute water from small to larger pores, invalidating T2 cutoffs and lowering Archie n in cleaned samples.
+
+Residual water saturation estimates in hydrophobic reservoirs are unreliable because laboratory resistivity data often disagree with logs. The authors drained hydrophilic sandstone and hydrophobic dolomite samples (Amott WI from 0.08 to 1) with a semipermeable membrane, measuring T2 spectra and resistivity at each step. In hydrophilic rocks the longest T2 components vanish first, as water leaves the largest pores. In extracted hydrophobic rocks the longest and shortest components disappear together and spectra narrow, indicating water moves from small to larger pores, so T2 cutoffs fail. Cleaned hydrophobic samples gave low resistivity at Swir and non-linear I–Sw, while native-state cores gave n=2, consistent with logs, versus n=1.7 for hydrophilic sandstone. A lattice pore model reproduced this: the resistivity index was 3.63 for simultaneous drainage versus 5.22 for large-pore drainage, a factor of about 1.5.
+
+## Measuring Wettability from Brine T2 Distributions in the Presence of an Inert Mineral Oil
+
+- ID: SCA2006-04, year: 2006
+- Authors: K. Djurhuus, J.R. Lien, A. Skauge, G.H. Sørland
+- Method: measurement technique or apparatus
+- Keywords: NMR T2 relaxation, wettability, pulsed field gradient, mixed-wet, bulk water component, mineral oil
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-04.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-04)
+
+Two NMR methods isolate the brine T2 distribution in sandstones containing viscous mineral oil, by subtracting bulk or PFG-derived oil signals, revealing wettability differences between mixed-wet and fractional-wet cores.
+
+Conventional wettability tests (Amott, USBM) are slow, and overlapping oil and water T2 signals make NMR interpretation ambiguous. The authors use a viscous mineral oil (Marcol 82) assumed inert to surface relaxation and isolate the brine T2 distribution in two ways: subtracting a scaled bulk oil signal, or subtracting the true oil signal measured with pulsed-field-gradient suppression of water. Two sandstones, one mixed-wet small and one fractional-wet, were measured at Swi and Sor on a 12 MHz instrument at 35 °C. Both methods gave similar main features, though the oil signal is not entirely unaffected by the porous medium, with differences mainly at the right cut-off. The mixed-wet small sample showed little evidence of a bulk water component, while the fractional-wet sample showed a bulk-like water peak (shift from 250 to 510 ms) indicating water in oil-wet pores. More cores are needed for reliable conclusions.
+
+## Wettability Characterization by NMR T2 Measurements in Edwards Limestone Rock
+
+- ID: SCA2007_02, year: 2007
+- Authors: E.B. Johannesen, H. Riskedal, L. Tipura, J.J. Howard, A. Graue
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, wettability, Edwards limestone, spontaneous imbibition, Amott index, surface relaxivity
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_02)
+
+NMR T2 of decane at Swi in aged Edwards limestone cores decreases with increasing oil-wetness, and T2 shifts during spontaneous imbibition reflect wettability, agreeing with Amott indices.
+
+Earlier NMR wettability work on homogeneous chalk was extended to heterogeneous Edwards limestone. Twelve plugs from one block were aged with different crude oils and times to give six wettability groups (Amott index from +1 to -0.5), then saturated with decane and brine. CPMG T2 distributions were measured at Swi and during spontaneous imbibition. The rock was characterized by T2, MICP and thin sections: pore diameters 1 µm to 2 mm, mostly ~150 µm, and mean throat radius ~2 µm. The decane T2 at Swi fell almost linearly with increasing oil-wetness (e.g. from ~1000 ms to ~700 ms in weakly oil-wet samples) and tracked Amott indices. During imbibition the decane peak shifted to slower T2, with the relative shift decreasing for less water-wet and increasing for more oil-wet cores. Scatter, including an outlier aged at Swi of 0.35, is attributed to heterogeneous pore geometry.
+
+## Dielectric and Combined NMR/Capillary Pressure Methods for Monitoring Liquid/Air and Liquid/Liquid Interface Evolution: Application to Rock and Mineral Wettability Studies
+
+- ID: SCA2007_39, year: 2007
+- Authors: Ben Clennell, Artem Borysenko, Iko Burgar, Rossen Sedev, John Ralston, Mawson Lakes
+- Method: laboratory experiment
+- Keywords: dielectric spectroscopy, NMR T2 relaxation, solid-state 13C NMR, shale wettability, clay-bound water, crude oil aging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_39)
+
+Combines broadband dielectric and low- and high-field NMR measurements on mineral and shale powders to track fluid interfaces and oil adsorption, distinguishing hydrophilic from hydrophobic shales.
+
+Wettability of clays and shales is hard to assess, so the authors combined dielectric spectroscopy (10 MHz–3 GHz coaxial probe) with NMR at 2 MHz (CPMG), 20 MHz (FID, solid echo) and 300 MHz (13C CPMAS/DDMAS). Samples were quartz, methylated quartz, kaolinite, montmorillonite, a 90% quartz/10% montmorillonite mix, and two Australian shales (hydrophobic O1A, hydrophilic L1_390), tested fresh and after crude oil aging. Dielectric conductivity was higher in the hydrophilic shale and levelled off at modest water content in the hydrophobic shale, attributed to trapped air blocking conduction paths. Time-lapse T2 spectra separated clay-bound water (~1 ms) from intergranular water (>50 ms) and tracked oil-water displacement. Solid echo and 13C NMR showed different adsorbed oil components and small organic carbon signals in the hydrophobic shale, consistent with standard wettability measurements; contact angle on hydrated shale fell from 130° to 40°.
+
+## Revisiting Two Phase NMR Data with a New Inversion Routine Using a Triangular Pores Model for Wettability Estimation
+
+- ID: SCA2009-24, year: 2009
+- Authors: Unn Højgaard á Lað, Aksel Hiorth, Ola Ketil Siqveland
+- Method: numerical simulation
+- Keywords: NMR inversion, triangular pore model, wettability index, T2 distribution, surface relaxivity, spontaneous imbibition
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-24)
+
+An NMR inversion fitting decay curves to a bundle of triangular pores yields oil/water distributions and a wettability index that fairly agrees with spontaneous imbibition in aged Berea cores.
+
+Conventional T2 inversion cannot separate oil and water signals within pores or give wettability directly. The authors built an inversion matrix from random-walk-derived bi-exponential signals for two phases in triangular pores, with Tikhonov regularization. They applied it to published CPMG data (2 MHz) on Berea cores at Sw=1, after crude oil flooding and after aging at 90°C, estimating bulk relaxation and surface relaxivity by matching the pore size distribution to ~85 µm. An area-based wettability index I_NMR (0.71–0.85 after aging) showed fair correlation with spontaneous imbibition, though it appeared to overestimate water wetness and the change trend did not match imbibition. The new T2 distribution has the same features as the standard one but with sharper, separate oil and water peaks; problems remain for fluids relaxing near bulk values.
+
+## Using Multifrequency NMR for Probing Wettability
+
+- ID: SCA2010-15, year: 2010
+- Authors: J.-P. Korb, B. Nicot, P. Ligneul
+- Method: laboratory experiment
+- Keywords: nuclear magnetic relaxation dispersion, fast field cycling NMR, surface affinity index, carbonate wettability, bimodal porosity, paramagnetic relaxation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-15)
+
+Fast-field-cycling NMR dispersion (NMRD) with a surface affinity index distinguishes wetting from nonwetting fluids by pore size in bimodal carbonate plugs saturated with dodecane and brine.
+
+Conventional wettability indices (Amott, USBM) and T2-based NMR methods cannot locally probe fluid–surface interaction in a single non-invasive measurement. The authors measured proton 1/T1 dispersion (10 kHz–20 MHz) on 8 mm intraclast skeletal ooid grainstone plugs (30% porosity, 700 mD) saturated with dodecane (Sw=0%), 50 kppm brine (Sw=100%) and dodecane/brine at Swirr. ESR showed Mn2+ as the main paramagnetic impurity. Dodecane data were fitted with a 2D surface-diffusion relaxation model giving τm=1 ns, τs=130 ns and an affinity index A=τs/τm=130. Brine data followed a paramagnetic ligand-field model. In the Swirr plug, the micro-pore signal showed brine dispersion (water-wetting) and the macro-pore signal showed dodecane dispersion (weakly or non-wetting), with mean Sw of about 20%.
+
+## NMR Study on Pore Occupancy and Wettability Modification During Low Salinity Waterflooding
+
+- ID: SCA2010-27, year: 2010
+- Authors: Quan Chen, David Mercer, Kevin Webb, Pushing Reservoir Limits
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, low salinity waterflooding, NMR wettability index, pore occupancy, spontaneous imbibition, mixed-wet
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-27)
+
+New NMR wettability indices track pore occupancy and wettability during ageing, imbibition and waterflooding; low salinity brine fills pore corners and centres, giving more water-wet states and higher recovery.
+
+The paper proposes NMR T2-based oil-phase wettability indices and a water-phase wettability index modification factor (WIMF) to separate wettability effects from pore structure in low salinity waterflooding. Experiment 1 used two sister sandstone plugs (about 25 mD, porosity 0.15) aged three weeks at 68°C, then spontaneously imbibed with 1500 ppm low salinity brine or 40.4 g/l seawater. Aged plugs were mixed-wet (WI 0.60 and 0.41). After imbibition the low salinity plug reached WI of 0 (strongly water-wet) with 46.4% water saturation, versus WI 0.19 and 42.2% for seawater. Experiment 2 flooded three sister plugs (158 mD) with 33.4, 3.1 and 0.4 g/l brines; Sor fell from 0.469 to 0.321 and 0.224. Water in pore centres gave WIMF of 1.47 and 1.86, and in pore corners 1.93 and 2.48, so corner filling contributes more than centre filling to the recovery and wettability shift.
+
+## A Study of Shale Wettability Using NMR Measurements
+
+- ID: SCA2014-015, year: 2014
+- Authors: Boyang Zhang, Ahmed M. Gomaa, Hong Sun, Qi Qu, Jin-Hong Chen
+- Method: laboratory experiment
+- Keywords: shale wettability, NMR T2 relaxation, fluid injection, Marcellus, Eagle Ford, mixed-wet pores
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-015.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-015)
+
+Short pressurized water or diesel injection into shale plugs, tracked by NMR T2 changes, shows Marcellus small pores mixed-wet, Eagle Ford and Mancos small pores water-wet, larger pores mixed-wet.
+
+Traditional Amott and USBM wettability tests are impractical for nanodarcy shales, so the authors developed a fast fluid-injection method monitored by NMR T2. Outcrop Eagle Ford, Marcellus and Mancos plugs (2 in. by 2 in.) received water (3% KCl) or diesel at 200 or 500 psi for 10 min, and T2 spectra (2 MHz, TE 0.1 ms) were compared before and after. Injection raised the fluid volume by about 18-22% in Marcellus, 70% (diesel) in Eagle Ford and 71% (water) in Mancos, whereas two hours of spontaneous diesel imbibition barely changed the Marcellus spectrum. Signal gains occurred at T2 far below bulk values, indicating fluid contact with pore surfaces. Small pores (radius <60 nm, T2 <5 ms) in Marcellus take up both fluids and are mixed-wet, those in Eagle Ford and Mancos take only water and are likely water-wet, and larger pores in Eagle Ford and Mancos are mixed-wet. The fast-region water uptake did not correlate with clay content, and Marcellus's higher TOC may explain its oil uptake in small pores.
+
+## Carbonate NMR Measurements in a Combined Amott-USBM Wettability Method
+
+- ID: SCA2015-033, year: 2015
+- Authors: Edmilson Helton Rios, Vinicius de França Machado, Bernardo Camilo Coutinho dos Santos, Willian Andriguetto Trevizan, André Luiz Martins Compan, Dario Abilio Cruz, Rodrigo Skinner, Felipe Moreira Eler
+- Method: laboratory experiment
+- Keywords: NMR T2 relaxation, Amott-USBM wettability, Pre-Salt carbonates, surface relaxivity, pore occupancy, core aging
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-033)
+
+NMR T2 distributions were acquired at each stage of a combined Amott-USBM test on Brazilian Pre-Salt carbonates, revealing pore occupancy and wettability shifts by pore size after aging, imbibition and drainage.
+
+Standard Amott and USBM indices cannot resolve saturation and wettability by pore type. T2 distributions were measured on seven Pre-Salt carbonate plugs (porosity 15-20%, permeability 8-1552 mD) at five stages: full brine saturation, drainage to Swi, three-month aging, imbibition to Sor, and second drainage to Swf. Measurements used a 2.2 MHz benchtop NMR at 60 °C with a centrifuge up to 100 psi. Crude oil relaxed close to its bulk T2 signature, so the oil signal could be subtracted to isolate brine. Samples with more oil-wet Amott-USBM indices showed larger T2 shifts to shorter values after aging. After imbibition and second drainage, residual oil made brine relax in sites with more or less wall contact, shifting T2 shorter or longer and preventing a return to the earlier shapes.
+
+## T2-Store-T2 Relaxation Exchange NMR to Charcterise Effect of Asphaltenes on Wettabilty Dynamics in Siliceous Systems
+
+- ID: SCA2017-030, year: 2017
+- Authors: Igor Shikhov, Rupeng Li, Ji-Youn Arns, Christoph H. Arns
+- Method: laboratory experiment
+- Keywords: asphaltene deposition, T2-store-T2 relaxation exchange, surface relaxivity, wettability alteration, aging, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-030)
+
+Bentheimer sandstone and bead packs aged in synthetic bitumen-based oils were tracked with T2 and T2-store-T2 NMR plus simulations; alteration rate depends on oil composition, not just asphaltene content.
+
+Aging in oil is used to restore wettability in core analysis, but oil choice for outcrops is often arbitrary. The authors aged borosilicate bead packs and 36 Bentheimer plugs at 60°C for up to 72-100 days in synthetic oils made of bitumen, toluene, hexadecane and crude, then cleaned and saturated with n-decane for NMR T2 and T2-store-T2 (REXSY) measurements. Random-walk NMR simulations on micro-CT images tested uniform versus crevice-focused deposition. Surface relaxivity of plugs aged in low-asphaltene oil 3.d rose from 4.2 to 9.0 µm/s after 52 days, while high-asphaltene oil 1.b rose only to about 5.9 µm/s; the relaxivity change rate ratio was 3:6:1 for oils 3.d, 2.c and 1.b. Simulations suggested altered surface fractions of about 15-35%, 40-60% and 90-100% for plugs aged 22, 36 and 72 days in oil 3.d, and REXSY gave deposit apparent porosity of about 0.73-0.75. Oil mobility and composition matter as much as asphaltene content for alteration rate.
+
+## 3D-NMR, simultaneous determination of saturations and wettability
+
+- ID: SCA2017-036, year: 2017
+- Authors: Benjamin Nicot, Georges Ibrahim, Gregory Dubes
+- Method: measurement technique or apparatus
+- Keywords: 3D NMR T1-T2-D, wettability index, T1/T2 ratio, diffusion-T2 map, multidimensional inversion, Estaillades limestone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-036)
+
+A 3D T1-T2-D NMR acquisition and inversion identifies oil signal in T1-T2 maps, giving saturations and an oil T1/T2 wettability proxy on bulk fluids, carbonate and sandstone.
+
+Standard wettability tests are slow, and T1-T2 maps cannot tell which fluid carries the high T1/T2 ratio. The authors acquire a 3D NMR sequence (inversion recovery, PGSTE diffusion encoding, CPMG) and invert it by unstacking the 3D kernel tensor into a 2D problem. The method was proven on a doped-water/oil bulk mixture, then applied to an Estaillades limestone (28.5 p.u.) at Swi before and after 3 weeks of ageing at 80°C, and to a strongly oil-wet reservoir sandstone. In Estaillades, water and oil T2 overlap, but selecting the oil in the D-T2 projection gave oil T1/T2 of 1.9 before and 2.2 after ageing, indicating a wettability shift. In the sandstone, oil T1/T2 was 3.7, corresponding to W = -0.75 using the Valori correlation, consistent with an Amott index of about -0.8.
+
+## Spatially Resolved Wettability Measurements Using NMR Wettability Index
+
+- ID: SCA2018-018, year: 2018
+- Authors: M.J. Dick, D. Veselinovic, D. Green
+- Method: measurement technique or apparatus
+- Keywords: NMR wettability index, spatial T2, Looyestijn method, centrifuge dodecane drainage, D2O saturation profile, Amott test
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-018)
+
+Extends the Looyestijn T2-based NMR wettability index to spatially resolved T2 data, giving wettability and saturation profiles along sandstone plugs; results agree with Amott and D2O checks.
+
+Standard wettability tests (Amott, USBM) are slow and only probe Swi and Sor, so the authors coupled the Looyestijn T2-based NMR wettability index with spatial-T2 measurements. Three sandstones were saturated with 2% KCl brine, then dodecane was centrifuged in at 700–7500 RPM to create mixed-saturation states. Predicted T2 spectra were built from 100% brine, 100% oil, bulk brine and bulk oil spectra by least-squares fitting of mixing functions, slice by slice. Wettability was found to be roughly uniform along each core and water wet (e.g. 109S average 0.73 at 7500 RPM), consistent with Fleury and Amott results. Saturation profiles matched D2O-derived profiles well in 109S, but differed by up to ~20% in 62A at 800 RPM, and the fit failed for 96S at 700 RPM where spectra were complex. Fit quality improved at higher speeds when oil and water peaks separated; only dodecane was tested, so no oil-wet rock was examined.
+
+## A new approach to measure the wettability of porous media under different saturation conditions by Temperature Sensitivity of Nuclear Magnetic Resonance Relaxation Time
+
+- ID: SCA2019-049, year: 2019
+- Authors: Hyung T. Kwak, Jun Gao
+- Method: measurement technique or apparatus
+- Keywords: NMR surface relaxation, wettability, activation energy, Arrhenius temperature dependence, glass bead packs
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-049.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-049)
+
+Proposes an NMR method that infers pore-surface wettability from the temperature sensitivity of surface relaxation, validated on glass bead packs and tested on reservoir rocks at any saturation.
+
+Conventional wettability measurements cannot be made at arbitrary saturation levels. The authors propose using the temperature dependence of NMR surface relaxation times, which is governed by an effective surface activation energy (DeltaE) following Arrhenius behavior for the correlation time. DeltaE depends on fluid and pore-surface properties, so it relates directly to wettability. The concept was first proven on mono-porous glass bead packs of various wettability, then tested on multi-porous reservoir rocks of varied mineralogy. The method is claimed to work under any saturation condition.
+
+## Comparison of Geophysics- and Core-based Wettability Assessment Methods: An Experimental Study using Artificial Grain Packs
+
+- ID: SCA2022-50, year: 2022
+- Authors: Zulkuf Azizoglu, Zoya Heidari
+- Method: laboratory experiment
+- Keywords: wettability, 2D NMR, electrical resistivity, USBM index, artificial grain packs, glass beads
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-50.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-50)
+
+Glass-bead packs with controlled wettability verify NMR- and resistivity-based wettability models, estimating saturation and wettability within 15% and 20% error; USBM indices differ up to 50%.
+
+Conventional wettability assessments are slow and non-unique, and newly developed 2D-NMR and resistivity wettability models lack core-scale verification because wettability distribution and ground truth are uncertain. The authors built cylindrical artificial grain packs by aggregating glass beads of different wettability to obtain a controlled, wide range of wettability. They varied water saturation and measured 2D-NMR and electrical resistivity on the packs. Integrating 2D NMR and resistivity estimated water saturation and wettability simultaneously with average relative errors below 15% and 20%, respectively. Up to 50% relative difference appeared between USBM indices and the fraction of water/hydrocarbon-wet beads, indicating differing reliability among wettability quantification methods.
+
+## Characterizing Wettability Using $^{13}\text{C}$ Magnetic Resonance Relaxation Times
+
+- ID: SCA2024_1064, year: 2024
+- Authors: Naser Ansaribaranghar, Mohammad Sadegh Zamiri, Fabrice Pairoys, Victor Fernandes, Laura Romero-Zerón, Florea Marica, Andres Ramirez Aguilera, Derrick Green, Benjamin Nicot, Bruce J. Balcom
+- Method: laboratory experiment
+- Keywords: 13C magnetic resonance, T1/T2 ratio, wettability, Amott index, Bentheimer sandstone, residual oil saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1064.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1064)
+
+13C MR T2 and T1/T2 relaxation of oil in aged Bentheimer plugs distinguish oil-wet from less oil-wet samples, consistent with Amott indices, avoiding 1H oil-water overlap.
+
+Conventional wettability tests (Amott, USBM) are slow, and 1H MR suffers from oil/brine signal overlap. The authors used 13C MR, which sees only hydrocarbons, on six aged Bentheimer plugs with crude oil and brines doped with different NaI concentrations, previously characterized by Amott index. Oil-wet samples (Iw 0.13–0.23) showed shorter 13C T2 and 13C T1/T2 above 4, while less oil-wet samples (Iw 0.44–0.74) had T1/T2 near 2; reference oil was 1. Fitting T1/T2 lines with Tb = 2.5 s gave T1s/T2s of 6.6 for Be1, 4 for Be2/Be3, and about 2 for Be4–Be6, showing results were not masked by bulk effects or saturation. Oil saturation from 13C CPMG and T1-T2 matched SCAL Sor, while 1H data gave only qualitative information.

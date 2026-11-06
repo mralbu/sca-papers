@@ -1,0 +1,705 @@
+# X-ray CT and microtomography imaging
+
+> 54 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: x-ray, imaging, ct, tomography, resolution, image, images, scanning, computed, density.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Image Registration: Enhancing and Calibrating X-Ray Micro-CT Imaging
+
+- ID: SCA2008-35, year: 2008
+- Authors: Shane Latham, Trond Varslot, Adrian Sheppard
+- Method: measurement technique or apparatus
+- Keywords: image registration, micro-CT, BSEM thin section, dry/flooded alignment, correlation coefficient, parallel computing
+- Cited by 10 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-35)
+
+A parallel multi-resolution, multi-start 3D registration method aligns BSEM thin-section images and flooded micro-CT scans with dry micro-CT volumes, enabling combined analysis of fine features and fluid distribution.
+
+Micro-CT analysis is limited by poor mineral discrimination, sub-resolution features and limited fluid contrast, so the authors developed a distributed-memory (MPI) registration algorithm. It uses a correlation-coefficient metric, a 7-DOF similarity transform, an exhaustive low-resolution search, and Powell local optimization at progressively finer resolutions. BSEM montages of carbonate and clay-rich sandstone thin sections were registered to micro-CT volumes (2.59-2.69 micron voxels) with correlation coefficients of 0.641 and 0.716, revealing porosity and structure below micro-CT resolution. A dry and a CsI-flooded sucrosic dolomite core (6.72 micron voxels) were also aligned using a modified metric restricted to dry-pore voxels with an overlap penalty, allowing the dry image to mask the flooded one and isolate contrast liquid. BSEM alignment takes under 1 hour on 64 CPUs and flooded/dry under 2 hours, using up to 32 and 64 GB RAM respectively.
+
+## Multiphase flow in porous rock imaged under dynamic flow conditions with fast x-ray computed microtomography
+
+- ID: SCA2013-011, year: 2013
+- Authors: S. Berg, R. Armstrong, H. Ott, A. Georgiadis, S. A. Klapp, A. Schwing, R. Neiteler, N. Brussee, A. Makurat, L. Leu, F. Enzmann, J.-O. Schwarz, M. Wolf, F. Khan, M. Kersten, S. Irvine, M. Stampanoni
+- Method: digital rock or imaging
+- Keywords: fast synchrotron microCT, Haines jump, snap-off, capillary desaturation, invasion percolation, cooperative pore filling
+- Cited by 9 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-011)
+
+Fast synchrotron microCT imaged Haines jumps and snap-off in real time under flow; drainage events are cooperative, spanning 10-20 pores, with 64% of work dissipated in Berea.
+
+Pore-scale displacements were imaged in real time with fast synchrotron microCT (16.8-60 s per tomogram) using an in-situ micro-pump and pressure monitoring. Samples were 4 mm sintered glass, Gildehauser and Berea sandstones and Estaillades limestone, with decane displacing water at Ca of 4e-9 to 4e-8. Haines jump events drained multiple pores cooperatively, with event volumes up to 100-200 nL versus 1-10 nL for the largest pores. In Berea, 61% of displaced volume occurred in irreversible jumps dissipating 64% of the work, and about 36% went to interfacial energy. Event size distributions followed a power law with exponent 1.0 for small events, but large events were more frequent than invasion percolation predicts. Snap-off and capillary desaturation were also observed, with a critical Ca near 3e-8 in sintered glass.
+
+## 4D Imaging of Fluid Flow Dynamics in Natural
+
+- ID: SCA2013-012, year: 2013
+- Authors: Swiss Light Source
+- Method: digital rock or imaging
+- Keywords: synchrotron microtomography, spontaneous imbibition, trapped gas, snap-off, Fontainebleau sandstone, saturation profile
+- Cited by 7 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-012)
+
+Ultra-fast synchrotron microtomography at 1 s per 3D image captures spontaneous imbibition in Fontainebleau sandstone, revealing saturation evolution and gas trapping by water blocking and snap-off.
+
+The paper addresses the lack of transient 3D pore-scale data on multiphase flow in natural rocks. Spontaneous imbibition of viscosified KI brine (15 cP) into a dry 5.8 mm Fontainebleau mini-core (17% porosity) was imaged at the TOMCAT beamline with 5.5 µm voxels and 1 s per 3D image. Imbibition finished within about 8 s, with saturation reaching 69% and varying linearly with the square root of time after the first 2 s, consistent with Washburn behavior. Saturation profiles became self-similar with a non-sharp front, and trapped gas was found mainly in larger pores (mean radius 60 µm versus 52.2 µm for all pores). Local mechanisms of gas trapping were water blocking and snap-off, the latter occurring far from the meniscus, which suggests precursor films.
+
+## Computed Microtomography of Reservoir Core Samples
+
+- ID: SCA1994-01, year: 1994
+- Authors: P. Spanne, E. L. Muegge, K. W. Jones
+- Method: measurement technique or apparatus
+- Keywords: computed microtomography, synchrotron X-ray, pore connectivity, sandstone porosity, mineral identification, attenuation coefficient
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-01)
+
+Synchrotron X-ray computed microtomography at about 5 µm resolution images sandstone pore structure, minerals and connectivity, with porosity compared against helium porosimetry and SEM.
+
+Medical CT scanners are too coarse (about 0.25 x 0.25 x 1.5 mm) for pore-level imaging, so the authors applied synchrotron X-ray computed microtomography (CMT) at the NSLS X26C beamline. Three sandstones were epoxy-impregnated and 2-3 mm microcores were scanned at 5 µm voxel resolution, with imaging times of 8-90 minutes per slice. Comparison with medical CT showed core-scale and pore-scale heterogeneity can differ. Minerals such as quartz, feldspar and siderite or pyrite were identified from attenuation coefficients (810, 1320 and 2690 m-1 in sandstone #2). CMT porosity agreed with helium porosity for sandstones #1 and #2 (24.5% vs 27.3%, 22.1% vs 21.6%), but sandstone #3 gave 12.7% vs 21.3%, attributed to sub-resolution pores. Stacking 95 slices gave a 3D volume and pore-connectivity maps usable as input for pore-level flow simulation.
+
+## Use of Attenuation Standards for CAT Scanning Applications Within Oil and Gas Production Research
+
+- ID: SCA1992-23, year: 1992
+- Authors: M. E. Coles, E. L. Muegge, B. F. Marek
+- Method: measurement technique or apparatus
+- Keywords: CT scanning, attenuation standards, scanner drift calibration, saturation determination, three-phase saturation, fused quartz
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-23)
+
+Fused quartz and aluminum attenuation standards correct day-to-day CT scanner drift, improving two- and three-phase saturation accuracy in a Berea core to within about 1.1 saturation percent of volumetrics.
+
+CT-derived saturations from multi-day core floods are degraded by unpredictable drift of the X-ray source and detectors, which varies with CT number. The authors scan fused quartz and aluminum secondary standards before each slice series and fit the deviation from baseline values as a function of CT number to correct the core CT values. The method was tested on a 2 in by 12 in Berea core in a Lucite cell with brine, hexadecane/iododecane and air, scanned at 140 and 100 kV. Calibration reduced the maximum two-phase water saturation error versus volumetrics from 4.54 to 1.09 saturation percent and the 140/100 kV spread from 2.54 to 0.88. Three-phase average deviations fell from about 3.0 to 0.74-0.85 saturation percent, though gas saturation at very low values (3.9% vs 2.63%) remained poorly determined.
+
+## The Use of Attenuation Standards for CT Scanning
+
+- ID: SCA1995-13, year: 1995
+- Authors: M. E. Coles, E. L. Muegge, Producing Technical, F. M. Auzerais, P. Frulla, A. Kantzas
+- Method: measurement technique or apparatus
+- Keywords: CT scanning, attenuation standards, CT number drift, saturation determination, bulk density calibration, x-ray tube stability
+- Cited by 4 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-13)
+
+Describes CT number drift in core scanning and three laboratories' attenuation-standard calibration methods, showing standards improve saturation accuracy to about 1%, with recommendations to minimize drift.
+
+CT numbers measured on core drift over time because of tube and detector aging, beam filtration, temperature, beam hardening and noise. A drift of only 10-20 CT units can cause significant saturation errors. Three calibration methods are presented. Schlumberger-Doll scans plastic and magnesium rods with each Berea core to normalize every slice to true density. Mobil scans fused quartz and aluminum standards before each core, and water saturations then agree with volumetric values within about 1% rather than about 4% without standards (average error 0.98% vs 3.54% in two-phase tests). Calgary checks a reference material of known density and adjusts tube gain or reruns the scanner standardization. The paper ends with eight recommendations, including using reference materials of similar effective atomic number, documenting the calibration, and warming up the tube.
+
+## Analysis of Rock Microstructure Using High-Resolution X-Ray Tomography
+
+- ID: SCA2006-26, year: 2006
+- Authors: A.P. Sheppard, R. M. Sok, H. Averdunk, V. B. Robins, A. Ghous, Applied Mathematics
+- Method: digital rock or imaging
+- Keywords: micro-CT, grain partitioning, pore network extraction, watershed transform, Delaunay tetrahedra, Castlegate sandstone
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-26)
+
+Partitions both pore and grain space of micro-CT images of clastic and carbonate rocks into networks, finding grain partitioning more robust than pore analysis and Delaunay-pore duality weak.
+
+The paper extends micro-CT network partitioning from pore space to grain space to relate microstructure to macroscopic properties. Eight samples were analysed (unconsolidated sands, Castlegate and Berea sandstones, two carbonates, and an acrylic sphere pack) using covering radius maps, medial axis and watershed transforms with region merging. Two Castlegate pieces segmented independently gave porosities of 26% and 21%, yet had identical grain density (179 grains/mm3) and similar grain distributions, indicating they are statistically equivalent. Pore-space results were much more sensitive, since throats are often only 2-3 voxels wide. In the sphere pack, only 28% of Delaunay tetrahedra contained a pore center, so grain-contact duality with pores is poor. Volume-weighting distributions is needed to reveal carbonate heterogeneity (coordination and aspect ratios above 20).
+
+## Direct Measurement of the Constituent Porosities in a Dual Porosity Matrix
+
+- ID: SCA1990-03, year: 1990
+- Authors: Robert M. Moss, Gregory P. Pepin, Lorne A. Davis
+- Method: measurement technique or apparatus
+- Keywords: X-ray CT porosity, dual porosity, fractured shale, xenon contrast gas, porosity histogram, beam hardening
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-03.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-03)
+
+A two-scan X-ray CT method with xenon contrast gas measures matrix and fracture porosities directly in dual porosity cores without mineralogy or fracture-width assumptions, agreeing with helium porosity.
+
+Fractured, dual porosity cores are hard to characterize because single-scan CT porosity needs mineralogy assumptions and thresholding misses narrow fractures. The authors subtract CT images of the evacuated core from images of the xenon-saturated core in an aluminum pressure vessel, using a fourth-generation scanner at 120 kVp with 2 mm slices. Mean CT porosities agree with helium porosimetry for Berea, carbonates and a porous ceramic. Beam hardening gives a minimum porosity distribution width of about 4.5% of the mean. Time-sequenced scans of Monterey shale showed a high-permeability bed filling to 26.5% porosity and a bimodal porosity histogram. Bakken shale showed thin high-porosity beds along the core axis, and a coal sample had 10% fracture porosity at 30 s and stored 2.9 times the surrounding gas density after 4.3 days. Longer scans (8 s, 75 mA) and a minimized annulus gave the best images.
+
+## Core Imaging – Twenty Five Years of Equipment, Techniques, and Applications of X-Ray Computed Tomography (CT) for Core Analysis
+
+- ID: SCA2011-25, year: 2011
+- Authors: J. J. Funk, E. M. Withjack, S. Siddiqui, Sultan M. Al-Enezi, Sinan Caliskan
+- Method: review or workflow
+- Keywords: X-ray CT, micro-CT, dual-energy CT, coreflood saturation monitoring, core-log integration, acid wormholing
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-25)
+
+Reviews 25 years of X-ray CT for core analysis, covering scanner equipment, calibration and display techniques, static and dynamic applications, and micro-CT, concluding CT is cost-effective and valuable.
+
+This review traces X-ray CT in core analysis from the 1984 isotope-source and modified medical scanners to modern multi-slice helical and micro-CT systems. It describes calibration and CT-number porosity determination, contrast agents (NaI, xenon), dual-energy density and Zeff measurements, scout and helical acquisition, and image analysis software. Static applications include core-log depth matching, lithology and electrofacies identification, and fracture and orientation analysis using unrolled CT images compared with FMI logs. Dynamic applications include coreflood saturation monitoring, acid wormholing, perforation analysis, hydrate dissociation and unconventional rocks. Scan times fell from hours to seconds, and micro-CT (focal spots 0.6-10 microns, resolution 1-50 microns) now supports pore-scale modeling. The authors conclude CT cost is small relative to project value.
+
+## Developments in Synchrotron X-Ray Microtomography for Application to Flow in Porous Media
+
+- ID: SCA1996-30, year: 1996
+- Authors: R. D. Hazlett, M. E. Coles, K. W. Jones, B. Andrews, B. Dowd, P. Siddons, A. Peskin
+- Method: digital rock or imaging
+- Keywords: synchrotron microtomography, pore network skeletonization, tortuosity, network model drainage, lattice Boltzmann waterflood, successive erosion connectivity
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-30)
+
+Describes upgraded synchrotron microtomography giving large, ~3 µm rock images in hours, and uses them for connectivity, tortuosity, network-model drainage/imbibition and lattice Boltzmann waterflood simulation.
+
+The paper reports upgrades to the Brookhaven NSLS computed microtomography system: a cooled CCD array detector with YAG scintillator and expansion optics now yields volumes of ~16-30 million voxels at 2.7-3 µm resolution in a few hours. A North Sea Brent sandstone (470 md) is imaged as an example, and a 3-D stereo visualization theater is described. Image analysis methods are demonstrated: extended variograms, cluster analysis, successive erosion to find the critical pore throat, and skeletonization with self-avoiding walks, giving a mean tortuosity of 2.68 for a 15 darcy sandstone. Network-model simulation of primary drainage and imbibition on CMT volumes gives initial water and residual oil distributions, and simulated drainage curves resemble mercury intrusion data in shape with an offset. Lattice Boltzmann simulation of a water-wet waterflood (Nca ~1e-4, 7400 md sample, Siw 12%) ended at Sor of 35%.
+
+## Combining High-Fidelity Helical Micro-Tomography with Region-of-Interest Scanning for Improved Core Characterisation
+
+- ID: SCA2011-26, year: 2011
+- Authors: Trond K. Varslot, Andrew M. Kingston, Shane J. Latham, Jill Middleton, Mark A. Knackstedt, Adrian P. Sheppard
+- Method: measurement technique or apparatus
+- Keywords: helical micro-CT, Katsevich reconstruction, region-of-interest tomography, tight gas sand, wet/dry image registration, unconsolidated sand
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-26)
+
+Helical-trajectory micro-CT with Katsevich reconstruction and region-of-interest scanning gives faster, higher-quality images of tight gas sand, coal and unconsolidated sand without physical subsampling.
+
+Imaging heterogeneous, tight or unconsolidated core is limited by the trade-off between field of view and resolution. The authors implemented exact helical (Katsevich) cone-beam reconstruction for micro-CT with software autofocus alignment, allowing 40° cone angles, about 20% X-ray capture, and long samples. Dry and CsI-saturated helical scans of a tight gas sand (7% porosity, 0.03 mD) were registered to give porosity maps, and formation factor on 1.75 mm subvolumes gave cementation exponents of 2.8 (X, Y) and 2.4 (Z), versus 2.1 measured at core scale. A coal sample was also imaged to map fractures and microporosity. Region-of-interest scanning using projection extrapolation improved a 38 mm unconsolidated sand from 28 μm to 10.2 μm voxels with a bimodal histogram suitable for segmentation, and a 2.4 μm ROI scan of the tight gas sand resolved pore-filling kaolinite.
+
+## Pore Level Imaging of Fluid Transport using Synchrotron X-Ray Microtomography by
+
+- ID: SCA1996-28, year: 1996
+- Authors: M. E. Coles, R. D. Hazlett, P. Spanne, W. E. Soll, E. L. Muegge
+- Method: digital rock or imaging
+- Keywords: synchrotron X-ray microtomography, lattice Boltzmann simulation, pore network model, residual oil saturation, pore-scale fluid distribution
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-28)
+
+Synchrotron microtomography at 30 µm imaged oil and brine at residual saturation in sandstone; lattice Boltzmann and network simulations on the dry-rock geometry matched the fluid distributions well.
+
+The paper addresses the need for pore-scale 3D images of fluid distributions that medical CT cannot provide. A high-permeability sandstone plug (26.4% porosity, 15.3 darcy) was imaged in a 6 mm subsection at 30 µm resolution using synchrotron CMT at NSLS, dry and after water flooding of iodohexadecane-doped hexadecane to residual oil. Image porosity averaged 24.5% and average water saturation was 25.1%, with water behaving as the non-wetting phase, likely due to waxy coatings. The dry-rock image was used as input to a lattice Boltzmann simulator (permeability 30 darcy) and a drainage network model. Simulated fluid distributions correlated well with experimental slices, with the network model result appearing as a subset of the others.
+
+## High Resolution Laboratory X-Ray Tomography on Rocks
+
+- ID: SCA1997-24, year: 1997
+- Authors: E. Rosenberg, P. Guéroult, J. Lynch, M. Bisiaux, R. Ferreira
+- Method: measurement technique or apparatus
+- Keywords: X-ray microtomography, electron microprobe source, pore network connectivity, grey level histogram, kaolinite, wettability
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-24)
+
+An electron microprobe is converted into an X-ray microtomograph with about 10 µm 3D resolution, used to image pore networks and minerals in sandstones, explaining permeability differences.
+
+The authors convert an electron microprobe into a laboratory X-ray microtomograph, using a focused electron beam on a niobium thin target as a point source, with a rotating specimen and CCD detector. Radiographic resolution reaches 2 µm, and 256³ reconstructions from 120 projections at 3° steps give better than 10 µm resolution. Tests on glass beads in a capillary, Fontainebleau sandstone and three Brent sandstone samples (CAR1, CAR3, CAR4) were compared with SEM images, showing reliable reconstruction of surface morphology. Grey-level histogram deconvolution gave total pore-plus-clay fractions in agreement with global measurements (e.g., 29 vs 28% for CAR1). CAR1 has large, poorly connected macropores, explaining its lower permeability, while CAR3 and CAR4 have well-connected macropores. Feldspars can be segmented, but kaolinite cannot be reliably separated because its absorption is close to quartz and its size is near the resolution limit.
+
+## Dynamic X-Ray Micro-Tomography for Real Time Imaging of Drainage and Imbibition Processes at the Pore Scale
+
+- ID: SCA2011-27, year: 2011
+- Authors: Glenn R. Myers, Andrew M. Kingston, Trond K. Varslot, Michael L. Turner, Adrian P. Sheppard
+- Method: measurement technique or apparatus
+- Keywords: dynamic tomography, micro-CT, drainage and imbibition, Bentheimer sandstone, iterative reconstruction, hysteresis
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-27)
+
+A dynamic tomography algorithm using fluid-phase constraints images air-water drainage and imbibition in Bentheimer sandstone at about 80 s per 512^3 frame, ten times faster than conventional CT.
+
+Conventional micro-CT needs a static sample during acquisition, which forces flow to be halted during pore-scale displacement imaging. The authors apply a SIRT-based dynamic reconstruction that uses a static pore-structure support and a two-grey-level fluid constraint to reconstruct from only 72 projections per revolution. They ran air-water drainage and imbibition on a 5 mm Bentheimer sample with KI-doped brine. Each displacement took about 2 h, and 512^3 images at 12 µm voxels were obtained at roughly 80 s intervals. Haines-jump-type pore draining was captured, and drainage and imbibition at Sw=0.6 showed hysteresis with more partially filled pores on imbibition. The drainage Pc curve was reasonable, but the imbibition curve was unphysical because of an experimental pressure problem. Resolution and noise were too poor to compute RI or relative permeability, and reconstruction accuracy remains unverified.
+
+## Impact of Wetting Film Flow in Pore Scale Displacement
+
+- ID: SCA2013-016, year: 2013
+- Authors: E. Unsal, Emmanuel Moulet-Vargas
+- Method: numerical simulation
+- Keywords: wetting film flow, snap-off, dynamic pore network model, counter-current imbibition, direct Navier-Stokes simulation, low salinity EOR
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-016)
+
+Reviews wetting film flow and snap-off, presents a dynamic pore network model with film flow coupled to PHREEQC, and compares it with direct Navier-Stokes simulation.
+
+Wetting films and snap-off control trapping and chemical transport during imbibition but are too thin to observe or resolve directly. The authors present a dynamic pore network model in which films are coupled to element flow without sub-gridding. They simulate counter-current imbibition in a three-capillary network at mobility ratios of 100 and 1000: forced injection lets the bubble grow, while spontaneous imbibition lets water short-cut through the outlet and trap oil. Compared with a direct VoF Navier-Stokes approach, the PNM needed about 0.5-1 day against 3-7 days for the direct method on a similar-sized domain, and resolving 1 µm films directly would need about 50³ times higher resolution. Coupling the PNM with PHREEQC shows low-salinity brine moving through films ahead of the front, which suits EOR studies, though PNM reliability depends on network extraction quality.
+
+## Computerized Neutron Tomography for Core Analysis
+
+- ID: SCA1991-28, year: 1991
+- Authors: R.C. Lanza, E.W. McFarland, G.W. Poulos
+- Method: measurement technique or apparatus
+- Keywords: neutron tomography, thermal neutron attenuation, porosity imaging, San Andres dolomite, CCD scintillator detector, x-ray CT comparison
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-28)
+
+Describes a thermal-neutron CT system at the MIT reactor that images water in a San Andres dolomite core, showing more internal detail than x-ray CT.
+
+X-ray CT is relatively insensitive to hydrocarbons and water in dense rock, and steel barrels degrade it further. The authors built a thermal-neutron tomography system using a 5 cm beam (2.4e8 n/cm2/s) from the MIT reactor, a 6LiF-ZnS scintillator, a mirror and lens, and a cooled CCD camera. A 2.54 cm water-saturated San Andres dolomite core was imaged at 45 angles in about three minutes, with an optical resolution of about 0.2 mm. Neutron slices showed more internal detail than 120 kVp x-ray CT. A counting-statistics analysis gives porosity errors of roughly 0.6-44% depending on core diameter, porosity, and barrel and mud layers, for 1 mm voxels and 1e9 neutron fluence. Practical use needs compact accelerator or plasma-focus neutron sources, as D-T generators would need about three hours per scan.
+
+## In-situ, real time micro-CT imaging of pore scale processes, the next frontier for laboratory based micro-CT scanning
+
+- ID: SCA2016-018, year: 2016
+- Authors: Van Loo, Van Hoorebeke
+- Method: measurement technique or apparatus
+- Keywords: dynamic micro-CT, 4D imaging, solute transport, tracer breakthrough curve, Savonnières limestone, in-situ flow cell
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-018)
+
+A gantry-based lab micro-CT with fixed sample achieves 12 s temporal resolution, imaging CsCl tracer transport in Savonnières limestone and revealing advective pathways versus diffusion-controlled vuggy pores.
+
+Lab micro-CT normally has minute-to-hour temporal resolution, limiting imaging of fast pore-scale processes. The authors present a gantry-based system (rotating source and detector, fixed sample, 130 kV, 39 W, 5 µm focal spot, fast CMOS detector) that gives a full 3D image every 12 s. They imaged 10 wt% CsCl tracer injection at 0.25 and 1 µl/s into a 6 mm Savonnières limestone in an X-ray-transparent PMMA cell, using 14.6 µm voxels and 45000 projections over 15 min. Breakthrough curves gave dispersion coefficients of 3.89E-3 mm2/s (1 µl/s) and 1.44E-3 mm2/s (0.25 µl/s), indicating advection-dominated transport. Images showed well-connected macropores saturating within ~3 min, while intragranular ooid pores connected via micropores filled over more than 10 min, consistent with diffusion control. Noise was mitigated by median filtering and masking with a high-quality 7.3 µm pre-scan.
+
+## Use of CT Scanning in the Investigation of Damage to Unconsolidated Cores
+
+- ID: SCA1989-02, year: 1989
+- Authors: R. E. Gilliland
+- Method: measurement technique or apparatus
+- Keywords: CT scanning, unconsolidated cores, core damage, mud invasion, slabbing orientation, plug fractures
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-02)
+
+Shows how CT scans of sleeved unconsolidated cores reveal bedding, slabbing orientation, inclusions and damage types such as fractures, core spin, rubble and mud invasion, with likely causes.
+
+Unconsolidated Gulf of Mexico cores are often damaged during coring, handling and transport, even with rigid inner barrel liners. The authors used CT scanning (surview and slice images) to inspect sleeved cores nondestructively before slabbing and plugging. Examples show how CT determines bedding dip for slabbing, distinguishes cross-bedding from structural dip, and identifies missing sections and shell inclusions. Damage examples include separation at shale laminations, shock-induced diagonal fractures, core spin, rubble, plug fractures, deep barite mud invasion and concentric fractures that coincide with the mud invasion depth, possibly linked to freezing of water-filtrate-invaded zones. The paper concludes that identifying damage and its probable cause lets coring and handling procedures be revised to reduce it. The results are qualitative image examples.
+
+## Non-Destructive Local X-Ray Tomography for Multi-Length Scale Analysis of Reservoir Rocks: Validations and Observations
+
+- ID: SCA2012-59, year: 2012
+- Authors: J. Gelb, S. Roth, H. Dong, D. Li, A. Gu, S. Yun, W. Yun
+- Method: digital rock or imaging
+- Keywords: local tomography, X-ray microscopy, digital core analysis, representative elementary volume, pore network modeling, Castlegate sandstone
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-59.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-59)
+
+Local X-ray tomography on carbonate and sandstone cores is validated against full tomography and physical drilling, giving consistent porosity, permeability and two-phase flow properties.
+
+Local (interior) tomography promises high-resolution imaging inside large samples without destructive sub-coring, but has been thought to introduce artifacts. The authors validated it on an Xradia MicroXCT-200 using a simulated case (a ~4 mm reef carbonate, ~2 µm pixels, central 255x255 pixel crop) and a Castlegate sandstone (~5 mm, 5.6 µm coarse scan, 2.2 µm local scan and drilled-out scan). The carbonate local scan gave porosity of 13.0% versus 14.3% for the full scan. For the sandstone, porosity (0.215-0.232), network permeability (597-721 mD), formation factor (28-40), residual saturations and relative permeability endpoints were similar across all scans. A two-point correlation function indicated an REV of ~1 mm, smaller than all imaged volumes. Physical drilling could not isolate the exact target region, supporting the need for local tomography.
+
+## Calculation of Constituent Porosity in a Dual-Porosity Matrix: MRI and Image Analysis Integration
+
+- ID: SCA1997-06, year: 1997
+- Authors: Daniela Mattiello, Massimo Balzarini, Lamberto Ferraccioli, Alberto Brancolini, AGIP SpA
+- Method: measurement technique or apparatus
+- Keywords: MRI porosity, constituent porosity, vugs and fractures, image segmentation, T2 map, dolomite
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-06)
+
+A software tool segments 2D MRI images of dolomite cores to separate vug and fracture porosity from matrix, with results agreeing with SEM at ~1 mm resolution.
+
+Conventional porosity measurements cannot separate vug and fracture porosity from matrix porosity, and thin-section SEM loses 3D information. The authors built an image analysis tool that statistically classifies pixels of MRI (multi-slice multi-echo CPMG, TE 4.8 ms) images into classes, from which a petrophysicist selects fracture and vug classes and shapes to compute constituent porosity. Nine water-saturated plugs (2 in x 3 in) from a fractured dolomite reservoir were imaged in eight 5 mm slices, with porosity calibrated against a reference sample. Manual thresholding was shown to be subjective: thresholds of 16% and 21% of maximum intensity changed partial porosity from 4.22% to 2.74%. MRI total and constituent porosities agreed reasonably with lab and SEM values for features of about 1 mm or larger, and T2 maps clearly showed the longest T2 in fractures; background noise could add up to 9% of the signal.
+
+## Uncertainty Reduction in the Evaluation of Poorly Consolidated, Thin Bedded Core Using X-Ray Computed Tomography
+
+- ID: SCA2004-48, year: 2004
+- Authors: F. Radaelli, P Division, San Donato Milanese
+- Method: measurement technique or apparatus
+- Keywords: X-ray computed tomography, poorly consolidated core, thin bedded reservoirs, CT number bulk density calibration, porosity profile, NMR relaxometry
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-48.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-48)
+
+Medical X-ray CT on sleeved whole core gives centimetre-scale bulk density and porosity logs in unconsolidated thin-bedded sands, avoiding plugging errors that overestimate sand porosity.
+
+Thin-bedded, poorly consolidated turbidite reservoirs in the Adriatic Sea are hard to evaluate because plugs are unrepresentative and wireline porosity resolution is about 30 cm. Whole core in fibreglass or aluminium sleeves was scanned with a fourth-generation medical CT scanner (130 kVp, 100 mA, 0.5 mm spatial resolution, 5 mm slices every 10 mm). CT numbers were calibrated to bulk density using four sandstone standards of similar mineralogy. Porosity was then computed from bulk density with grain density (helium pycnometer) and fluid saturation (NMR or extraction) from plugs taken after scanning. The resulting CT porosity logs matched the sedimentological description of sleeved and slabbed core. Conventional plug measurements overestimated sand-layer porosity by up to 4-5 p.u. and could not resolve the layering. A shale-porosity cut-off on the CT log also allows a net/gross estimate to compare with well logs.
+
+## Quick Core Assessment from CT Imaging: From
+
+- ID: SCA2016-031, year: 2016
+- Authors: Olivier Lopez, Carl F. Berg, Lars Rennan, Gunnar Digranes, Thibaut Forest
+- Method: measurement technique or apparatus
+- Keywords: dual energy CT, bulk density calibration, photoelectric factor, borehole image log integration, core orientation, thin bed porosity
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-031)
+
+A workflow integrates dual-energy CT images and derived density and porosity from whole cores into log evaluation software, with calibration and comparison to wireline and borehole image logs.
+
+Full-core CT data are difficult to use in standard log evaluation workflows. The authors standardized dual-energy CT scanning (80 and 140 kV) of whole cores in their liners and wrote Python scripts to crop the volumes and extract longitudinal slices and unrolled surface images. The unrolled images were aligned and oriented against borehole image logs in VirtualCore and exported as DLIS image logs. Density equations were calibrated on 12 samples for a Siemens Definition Edge scanner, with errors below 2.1%. Errors were larger on reservoir rock samples, where highly attenuating material blocked X-rays even at 140 kV. DECT-derived porosity agreed with wireline porosity in a US onshore well while resolving thin beds, and CT images revealed fractures not visible on resistivity image logs.
+
+## Benefits of High Resolution Computed Tomography in Core Analysis
+
+- ID: SCA1991-27, year: 1991
+- Authors: Michael Dixon
+- Method: measurement technique or apparatus
+- Keywords: industrial computed tomography, digital radiography, fracture characterization, coring artifacts, sleeved plugs, spatial resolution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-27)
+
+Industrial CT scanning (420 keV, down to 0.05 mm resolution) of varied cores shows better imaging of fine pores, fractures and coring artifacts than medical CT, at longer scan times.
+
+Medical CT scanners have roughly 1 mm resolution, which limits their use in core analysis. The paper tests an industrial CT system (420 keV source, detector apertures of 0.05 to 1 mm, scan times of 1.5 to 18 minutes per tomogram) on consolidated and unconsolidated sandstones and carbonates as plugs and 4-inch segments, combining digital radiography with selected tomograms. Compared with a medical scanner on a silicified conglomerate, ICT resolved pores down to 0.1 mm and pyrite more clearly, though with lower contrast sensitivity. It imaged Berea bedding and dissolution porosity, halite distribution, filled fractures in algal limestone, fracture/porosity relationships in a fractured carbonate, gaps in foil-sleeved unconsolidated plugs, and pulverization of a percussion sidewall core (less than 10% undamaged). Drawbacks are longer inspection times and higher equipment cost.
+
+## Heterogeneous Systems: An Integrated Approach Based on Different Imaging Techniques
+
+- ID: SCA1994-06, year: 1994
+- Authors: G. Maddinelli, A. Camanzi, C. Carati, A. Brancolini
+- Method: laboratory experiment
+- Keywords: MRI, X-ray CT, deuterated water flooding, vuggy dolomite, T1 relaxation, microporosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-06)
+
+MRI and X-ray CT, combined with SEM and petrography, characterize fluid distribution and porosity in a vuggy, fractured dolomite core before and after deuterated water flooding.
+
+Standard core analysis performs poorly on vuggy, fractured carbonates, so the authors combined MRI, X-ray CT, SEM and thin-section petrography on a dolomite breccia core (10 cm x 11.7 cm) and a 1" x 2" plug. The core was oil-saturated and flooded with 3 PV of D2O, which is invisible to MRI, with images taken at each step. NMR indicated 11% porosity versus 7.15% from conventional tests, and water retained after drying was 40%, falling to 30% after D2O flooding. MRI showed oil in large vugs and microvuggy zones being swept, while strongly trapped water sat in fine microporosity of a few microns. CT detected a thin cemented fracture that MRI missed, showing the techniques are complementary, and T1 distributions were compared with SEM pore sizes (100-250 µm pores in a fine microporous matrix).
+
+## Speed and Attenuation of Ultrasonic Waves from Chirp Measurements
+
+- ID: SCA1998-49, year: 1998
+- Authors: O. Meazza, B. Bam, N. Bona, P. Storer, M. Pastori, ENIAgip M.L. Smith, New England
+- Method: measurement technique or apparatus
+- Keywords: chirp source, ultrasonic velocity, attenuation Q-factor, cross-correlation, spectral ratio, signal-to-noise ratio
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-49.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-49)
+
+A swept-frequency chirp ultrasonic system with cross-correlation processing matches pulse-mode velocity and attenuation in aluminum and Lucite, with an estimated order-of-magnitude better amplitude signal-to-noise.
+
+Conventional ultrasonic core measurements use short pulses, which limits the emitted power. The authors built a system around a function-generator chirp source, recording source and receiver signals at 30 MHz and cross-correlating them in the Fourier domain to synthesize the impulse response. Tests on one-inch aluminum and Lucite compared 2 ms linear and logarithmic sweeps with pulse mode. Filtered sweeps gave P-wave velocity of about 6320-6334 m/s in aluminum and S-wave velocity of about 3155-3171 m/s, in good agreement with pulse mode (6334 and 3133 m/s), while the unfiltered wideband sweep deviated more. Spectral-ratio Q for Lucite was 160 (linear sweep), 157 (log sweep) and 183 (pulse). The chirp showed a much lower high-frequency noise plateau, suggesting an amplitude signal-to-noise ratio about ten times higher than pulse mode.
+
+## Application of Non-Destructive Continuous Motion X-Ray Analysis for Petrophysical Reservoir Characterization Studies
+
+- ID: SCA2000-47, year: 2000
+- Authors: Gary Gunter, Kent Newsham, Gene Kullman
+- Method: field or reservoir case study
+- Keywords: continuous motion fluoroscopy, core plug screening, x-ray imaging, geomechanical testing, triaxial compression, core heterogeneity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-47)
+
+Continuous motion x-ray fluoroscopy screens core plugs for hidden heterogeneities before testing; in a geomechanical program it rejected most plugs and reduced scatter in failure-criteria results.
+
+Plug orientation and hidden internal flaws such as fractures, faults, laminae and burrows can invalidate special core and geomechanical measurements, and static CT samples only a small subset of azimuths. The authors describe continuous-motion digital fluoroscopy, in which whole core or plugs rotate 360° while moving through an x-ray beam and are imaged in real time. Case images show homogeneous versus heterogeneous plugs, gas-expansion fractures, and a micro-fault visible over only about 15° of azimuth. In a geomechanical program, 600 one-inch plugs from 1000 ft of core were cut. Half were discarded visually, and fluoroscopy rejected 150 of the remaining 300, leaving 150 usable. The survey cost under 10% of the planned compression testing, and the screened set showed less scatter in the Zhang universal failure criterion plot than an unscreened set.
+
+## Development of a Portable X-Ray Computed Tomographic Imaging System for Drill-Site Investigation of Recovered Core
+
+- ID: SCA2003-51, year: 2003
+- Authors: Barry M. Freifeld, Timothy J. Kneafsey, Liviu Tomutsa, Jacob Pruess
+- Method: measurement technique or apparatus
+- Keywords: portable X-ray CT, gas hydrate core, cone-beam Feldkamp reconstruction, aluminum compensator, density calibration, drill-site core imaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-51.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-51)
+
+A lightweight, safely shielded portable cone-beam x-ray CT scanner was built for whole-round core imaging at drill sites, and it worked on a research ship and in the Arctic.
+
+Drill-site imaging of core, especially unstable gas hydrate cores, needs a CT scanner that is portable, rugged and fast. The authors built a cone-beam system with a 130 kV micro-focal source, a 150 mm CsI image intensifier with CCD, and a cross-shaped clamshell lead shield with redundant interlocks to keep weight low. An aluminum compensator, a copper shutter filter, and frame averaging (10 frames in 0.4 s) improve dynamic range and density accuracy. Feldkamp reconstruction of 180 images of a 10 cm section takes about 20 minutes, and density calibration uses reference standards in sand. Resolution is 100-200 microns for whole core and down to 10 microns for plugs. The system imaged hundreds of 1.5 m cores on ODP Leg 204 and about 128 m of the 428 m cored in the Hot Ice #1 Alaska well at subfreezing temperatures.
+
+## Measurement Parameters and Resolution Aspects of Micro X-Ray Tomography for Advanced Core Analysis
+
+- ID: SCA2004-36, year: 2004
+- Authors: J. Coenen, E. Tchouparova, X. Jing
+- Method: measurement technique or apparatus
+- Keywords: micro X-ray tomography, spatial resolution, geometrical magnification, focal spot size, synchrotron local tomography, carbonate pore structure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-36)
+
+Assesses commercial tabletop micro-CT scanners on carbonate and sintered quartz samples, finding 5-8 µm resolution versus 0.3 µm at synchrotron, and discusses nano-focus and laser X-ray sources.
+
+The paper reviews the parameters controlling spatial resolution and signal-to-noise in micro X-ray tomography, notably geometrical magnification, focal spot size and detector resolution. At high magnification (M>40) the effective beam width is governed by the focal spot size. Photon flux from micro-focal sources is estimated at 10^10-10^11 photons/s·cm² at 20 cm, and nano-focus sources (~0.75 µm spot) give about 8×10^10. Commercial tabletop scanners from several vendors were tested on 2 mm carbonate and sintered quartz cores, giving resolution of about 5-8 µm, which is insufficient for micro pores in tight carbonates. Synchrotron scans at ESRF reached 1.4 µm for full objects and ~0.3 µm with local tomography, though CT values were of concern. Nano-focus sources, anode target optimization and laser plasma X-ray sources are proposed to bring tabletop resolution below 1 µm.
+
+## High-Resolution Core Fluoroscopy, an Important Tool for Core Analysis
+
+- ID: SCA2007_59, year: 2007
+- Authors: Christopher M. Prince
+- Method: measurement technique or apparatus
+- Keywords: core fluoroscopy, X-ray imaging, whole core, estimated density log, CT scanning, core orientation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_59.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_59)
+
+Portable C-arm fluoroscopy images whole core tubes at about 150 dpi, enabling real-time orientation, detailed visualization of bedding and fractures, and estimated density logs before slabbing.
+
+CT scanning of whole core in tubes has low resolution (about 25 dpi scout scans) and is costly. This paper describes using a portable C-arm fluoroscope with a motorized rotating jig to align the core in real time and acquire 2-cm-spaced image tiles at about 150 dpi, assembled into whole-tube images. Images are median-filtered and contrast-enhanced for viewing, and standardized for density estimation either from within-tube sand, shale and fracture brightness or from rock disks of known density imaged with the core. The images resolve bedding, fractures and mud cake cracks, and yield an estimated density log in a laminated sand/shale example that reproduces lithologic variation. The technique is described as still in its infancy.
+
+## High Resolution Imaging of Porous Geomaterials and Geological Cores with Micro Computed X-Ray Tomography
+
+- ID: SCA2012-61, year: 2012
+- Authors: F.H. Kim, D. Penumadu, A. Gu, S. Yun, J. Gelb
+- Method: digital rock or imaging
+- Keywords: micro-CT, multi-resolution imaging, full morphology method, capillary pressure, partially saturated sand, direct numerical simulation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-61.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-61)
+
+Multi-resolution micro-CT of dry and partially saturated compacted sand images water without contrast agent; full morphology simulation on the images gives a drainage capillary pressure curve.
+
+The paper addresses the poor X-ray contrast between water and air in geomaterials, which usually requires contrast agents that alter wetting behavior. Compacted Ottawa sand (20/40, ~700 µm grains) specimens, dry and at 12% gravimetric water content, were imaged in a 10.21 mm mold with an Xradia microXCT-400 at 1X (22 µm/voxel) and 10X (2.04 µm/voxel) on the same specimen. Water, sand and air were clearly separated without contrast agent. At 1X, image analysis gave porosity of 36.1% (dry) and 32.9% (wet) and a wet saturation of 39%, with partial volume errors for the water phase. Full morphology drainage simulation in GeoDict on the 1X data, assuming a 0° contact angle and 72.75 mN/m surface tension, produced a capillary pressure-saturation curve and estimated the specimen's capillary pressure at 1.35 kPa.
+
+## Qualitative and Quantitative Investigation of Microstructures Within Porous Rocks by Using Very High Resolution X-Ray Micro-CT Imaging
+
+- ID: SCA2013-073, year: 2013
+- Authors: Gerhard Zacher, Matthias Halisch, Thomas Mayer, Meghan Faillace, Peter Westenberger
+- Method: digital rock or imaging
+- Keywords: nanofocus micro-CT, Bentheimer sandstone, microporosity segmentation, pyroclastic rock, Avizo XLab Hydro, pore-scale flow simulation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-073.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-073)
+
+Demonstrates a 180 kV nanofocus micro-CT (phoenix nanotom m) imaging Bentheimer sandstone and Etna pyroclastic rocks at 1–5 µm, with Avizo-based mineral segmentation and flow simulation.
+
+The paper presents the phoenix nanotom m, a 180 kV/15 W nanofocus CT system with voxel sizes below 300 nm, for geological samples. A 5 mm Bentheimer sandstone plug was scanned at 1 µm to segment quartz, feldspar and zirconia phases and to extract microporosity for flow modelling. Two highly porous pyroclastic rocks from Etna were scanned at 1 µm and 5 µm, resolving grain walls about 1.8 µm thick. Avizo XLab Hydro was used to simulate flow, giving permeability tensor, porosity, pressure drop and velocity fields visualized by line integral convolution. Small plugs (5–10 mm) can be scanned at 1 µm in about 2 hours with 5 min reconstruction.
+
+## Interfacial velocities and the resulting velocity field during a Haines jump
+
+- ID: SCA2014-029, year: 2014
+- Authors: R. T. Armstrong, N. Evseev, D. Koroteev, S. Berg
+- Method: numerical simulation
+- Keywords: Haines jump, density functional hydrodynamics, micromodel drainage, zone of influence, capillary number, representative elementary volume
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-029)
+
+Density functional hydrodynamics simulations, validated against high-speed micromodel drainage experiments, show Haines jumps affect velocity fields over several pores, so pressure fluctuations do not average out within a small REV.
+
+The paper examines whether Haines jumps average out at larger scales by combining high-speed (2000 fps) imaging of decane drainage in a hexagonal etched glass micromodel (60 µm pores, 13 µm necks) with Direct HydroDynamic (DHD) simulations. The simulator reproduced cooperative pore drainage, with neighboring menisci retracting, and drainage timescales: acceleration over 2-3 ms and rest after 10-12 ms, independent of bulk flow rate. Interface velocities reached 0.1-1 m/s, giving Reynolds numbers near 1, so full Navier-Stokes rather than Stokes flow is needed. A parametric study varying viscosity and interfacial tension by factors of 10 showed that the microscopic capillary number alone does not characterize the displacement; results were consistent with Lenormand's regime diagram and showed that lowering interfacial tension drives contact angle to ~0° and stabilizes wetting films. Velocity profiles indicated a zone of influence of about 4 pores in radius (roughly 8 by 8 pores) for the base case, shrinking to 2-3 pores at higher viscosity, implying a jump density below about 1 per 25 pores for averaging in this 2D system.
+
+## Application Specific Computed Tomography Systems for Core Analysis
+
+- ID: SCA2014-055, year: 2014
+- Authors: Frank NACHTRAB, Markus FIRSCHING, Virginia VOLAND, Michael SALAMON, Stefan SCHRÖPFER, Stefan REISINGER, Thorsten WÖRLEIN, Alexander ENNEN, Michael SCHMITT, Stefan HEBELE, Thomas SCHLECHTER, Norman UHLMANN, Fraunhofer Development
+- Method: measurement technique or apparatus
+- Keywords: helical micro-CT, ice core porosity, fly-by scanning, gantry CT, time-resolved imaging, large-area X-ray detector
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-055)
+
+Describes two custom X-ray CT systems: a helical micro-CT for 1 m ice cores down to 3.5 µm voxels, and a 1 s/slice gantry CT for dynamic liquid flow.
+
+The paper presents two purpose-built CT systems from Fraunhofer EZRT. The ice core scanner uses a 8000 x 4000 pixel detector and helical fly-by scanning to image 1 m long, 10 cm diameter cores at 12.5 µm voxel size, with full-core data at 50 µm acquired in under two hours and interior regions of interest down to 3.5 µm. It is operated at -15 °C and used to quantify porosity and pore size; firn in the upper 100 m has about 30% porosity with connected pores, while deeper ice has closed pores and decreasing porosity with depth. The gantry CT uses a rotating source and line detector to scan a single slice in 1 s at below 100 µm resolution for columns of 50-300 mm diameter and up to 1000 m length. A binned live reconstruction guides the experiment, and full-resolution projections are stored for later reconstruction. The authors conclude that these problems could not be solved with standard commercial systems.
+
+## Dynamic Drainage and Imbibition Imaged Using Fast X-Ray Microtomography
+
+- ID: SCA2015-009, year: 2015
+- Authors: M. Andrew, H. Menke, M. J. Blunt, B. Bijeljic
+- Method: digital rock or imaging
+- Keywords: dynamic X-ray microtomography, snap-off, Haines jump, interface curvature, CO2-brine drainage and imbibition, Ketton limestone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-009)
+
+Fast synchrotron tomography of scCO2-brine drainage and imbibition in Ketton limestone shows drainage snap-off is dynamic, leaving low curvature in ganglia, while imbibition snap-off is equilibrium.
+
+The paper uses fast synchrotron microtomography (3.64 µm voxels, 45 s per scan) to image scCO2 drainage and brine imbibition in a Ketton limestone at 10 MPa, 50 °C and 1.5 M KI brine. A low-permeability porous plate at the core outlet imposes a constant extremely low flow rate (1.75e-15 m3/s, capillary number about 1.1e-11), isolating the core from dead-volume effects. Interface curvature of terminal menisci, identified by curvature anisotropy, gave capillary pressure for connected and disconnected CO2. In drainage, a snapped-off ganglion had much lower curvature than the connected CO2, consistent with preserved dynamic low pressure from a Haines jump. In imbibition, connected and disconnected CO2 showed indistinguishable curvature, indicating equilibrium snap-off, and wetting phase swelled uniformly without a front.
+
+## Micro-CT Imaging and Microfluidics for Understanding Flow in Coal Seam Reservoirs
+
+- ID: SCA2015-051, year: 2015
+- Authors: Peyman Mostaghimi, Ryan T. Armstrong, Alireza Gerami, Majid Ebrahimi Warkaini, Hamed Lamei Ramandi, Val Pinczewski
+- Method: digital rock or imaging
+- Keywords: coal cleats, micro-CT segmentation, microfluidics, SEM registration, Stokes flow simulation, coal seam gas
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-051.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-051)
+
+Dry and wet micro-CT plus SEM are used to segment coal cleats, and a PDMS micromodel of a cleat junction is used to image brine displacing air.
+
+Flow in coal seam reservoirs depends on cleat geometry, but existing studies have not linked cleat features to flow properties. A Queensland bituminous coal plug (25 mm by 35 mm) was micro-CT imaged at 16.5 µm, dry and saturated with 1.5 M NaI brine, and the difference image reveals sub-resolution cleats. SEM at 100 nm was registered to the CT data to relate grey-scale values to cleat aperture, and this relationship was used to segment four phases. Stokes flow simulation showed the cleat network can hinge on single-voxel connections, so segmentation errors can break connectivity. A PDMS micromodel of a four-fracture junction was fabricated, and brine injected at 1 µl/min displacing air showed an interface with a contact angle near 90°. The work is a preliminary first stage, with future plans for plasma-treated wettability changes and more cleat features.
+
+## Phase Saturation Validation and Tracer Transport Quantification Using Micropet in a
+
+- ID: SCA2016-028, year: 2016
+- Method: measurement technique or apparatus
+- Keywords: microPET, positron emission tomography, phase saturation, streamtube permeability, advection-dispersion equation, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-028)
+
+MicroPET saturation measurements in a Berea sandstone water-nitrogen drainage test are validated against CT, and PET tracer pulse data are compared with streamtube advection-dispersion solutions.
+
+The paper develops microPET as a complement to X-ray CT for imaging flow in cores. A 3.5 inch Berea sandstone core underwent a water-nitrogen drainage experiment, first imaged with CT and then in a separate experiment with an FDG (18F) radiotracer in a preclinical Inveon scanner. Slice-average saturations from microPET and CT agree well, apart from a discrepancy near 10 mm from the inlet, attributed to different gas injection histories. Combining the saturation maps with MICP data (Brooks-Corey fit, λ=1.6, Swir=0.21) gave streamtube permeability maps with layers from about 17 to 40 mD. Fitting the tracer pulse with the advection-dispersion equation gave a dispersivity of 0.27 cm for the 1D core model and 0.11 cm for the streamtube model, while voxel-level comparison showed transverse dispersion not captured by the streamtubes.
+
+## SCA2016-080
+
+- ID: SCA2016-080, year: 2016
+- Method: digital rock or imaging
+- Keywords: micro-CT, cone-beam artifacts, Circle-and-Line trajectory, filtered backprojection, image reconstruction, scan throughput
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-080.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-080)
+
+Implements an exact Katsevich FBP reconstruction for Circle-and-Line micro-CT trajectories, eliminating cone-beam artifacts and cutting scan time by about 1.83 times versus circular scanning.
+
+Circular micro-CT scans need small cone angles to avoid cone-beam artifacts, which lengthens core scan times. The authors implement the exact Katsevich filtered backprojection algorithm for the Circle-and-Line (C&L) source trajectory and test it on two synthetic ball phantoms and a real core (8.1 mm diameter, 7.1 mm tall, half-cone angle 12°). Artifacts that were strong in circle-only reconstructions were practically eliminated with C&L, and image quality stayed far better than circular even with only 180 line sources (0.28 mm step), though discretization streaks grew as the line was sampled more sparsely. Because C&L tolerates wider cone angles (11° used versus the 5-6° typical), the reconstructable axial extent doubled from 9.5 to 19 mm, giving about 41.4 versus 75.8 views/mm, roughly a 1.83-fold throughput gain. The real core was scanned by adding a line scan to an existing scanner protocol without hardware changes.
+
+## Joint X-Ray and Neutron Tomography of Shale Cores for Characterizing Structural Morphology
+
+- ID: SCA2017-019, year: 2017
+- Authors: Jacob M. LaManna, David L. Jacobson, Michael Frenkel, Daniel T. Georgi, Qiushi Sun, Jin-Hong Chen
+- Method: digital rock or imaging
+- Keywords: neutron tomography, X-ray micro-CT, shale kerogen, attenuation coefficient, helical CT reconstruction, organic matter distribution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-019.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-019)
+
+Combined neutron and helical X-ray CT of a Middle Eastern shale plug distinguishes organic matter, minerals and fractures, revealing continuous organic-rich layers at core scale.
+
+Shale gas storage and flow modeling needs core-scale distributions of organic matter, minerals and fractures, which X-ray CT alone cannot separate because kerogen and open fractures both attenuate X-rays weakly. The authors scanned a 25 mm diameter, 19 mm long organic- and carbonate-rich Middle East shale plug with neutron tomography (NIST BT2, 30 µm detector resolution, ~18 h) and helical cone-beam X-ray CT (160 kV, ~20 µm voxel, Katsevich filtered backprojection reconstruction). Calculated attenuation coefficients show kerogen at 6.97 cm-1 for neutrons versus 2.07-2.32 cm-1 for clays and below 0.7 cm-1 for most other minerals. The opposing contrast let them identify pyrite and anhydrite regions, and show that a dark linear feature in X-ray images, which looks like an open fracture, is actually filled with organic matter. 3D neutron renderings reveal continuous organic layers at the top, middle and bottom of the plug, which coincide with where the plug ends broke, suggesting mechanically weak interfaces and possible effects on hydrocarbon flow.
+
+## Correlation Between Core Linear X-Ray and Wireline Bulk Density in Two Clastic Reservoirs: An Example of Core-Log Integration
+
+- ID: SCA2017-072, year: 2017
+- Authors: Yu Jin, David K. Potter
+- Method: data analysis or correlation
+- Keywords: linear X-ray, luminance, wireline bulk density, core-log integration, barite fracture veins, vertical averaging
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-072.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-072)
+
+Linear X-ray luminance on slabbed North Sea core, smoothed over 1-2 ft, correlates well with wireline bulk density, giving a high-resolution density profile.
+
+The study tests whether linear X-ray grayscale (luminance) on slabbed core can provide a rapid high-resolution density profile, by comparing it to wireline bulk density. Core from two North Sea shoreface quartz sandstones (24 ft in Well 2 with barite-filled fracture veins, 36 ft in Well 8 with clay laminae and a calcite dogger) was depth matched to logs. Raw single-point luminance gave R² of 0.37 (Well 2) and 0.43 (Well 8). Luminance smoothed over the log's vertical interval raised R² to 0.63 (1.5 ft, Well 2) and 0.68 (2 ft, Well 8), with an inverse relation between luminance and density. The X-ray images also revealed barite veins and clay laminae that were hard to see in visible-light images.
+
+## Rock visualization using micro-CT scanner and X-ray transparent triaxial apparatus
+
+- ID: SCA2017-073, year: 2017
+- Authors: M. Soldal, H. D. Wilkinson, I. Viken, G. Sauvin
+- Method: measurement technique or apparatus
+- Keywords: X-ray CT, triaxial testing, strain localization, displacement field, sandstone deformation, ring artefact removal
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-073.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-073)
+
+A new X-ray transparent triaxial cell inside a micro-CT scanner images internal deformation of two sandstones during shearing, revealing strain localization missed by conventional deformation sensors.
+
+Strain localization in rock samples during triaxial testing often goes undetected by conventional deformation sensors. The authors present a carbon-fiber, X-ray transparent triaxial cell (axial force up to 100 kN) used inside a Nikon XT H 225 LC micro-CT scanner. Two 38 mm diameter sandstones (about 20% and 60% porosity) were consolidated isotropically to 5 MPa effective stress and sheared in drained steps, with CT scans (3000 projections, about 50 min, 45 µm voxels) after each step. Ring artefacts were removed in post-processing, and displacement fields were obtained by iterative sub-volume phase correlation. The brittle sample 1 showed displacement across a failure plane. The weak sample 2 showed strain hardening and compaction without a shear plane, and CT revealed radial expansion in its lower ~30% that the radial sensor, which measures a single mid-height diameter, missed.
+
+## Analysing Flow in Rocks by Combined Positron Emission Tomography and Computed Tomography Imaging
+
+- ID: SCA2017-082, year: 2017
+- Authors: Yibing Hu, Ryan. T. Armstrong, Tzong-tyng Hung, Brendan Lee
+- Method: digital rock or imaging
+- Keywords: positron emission tomography, micro-CT, 18F-FDG tracer, voxel permeability map, fractured sandstone, Kozeny-Carman
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-082.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-082)
+
+Combined PET and micro-CT imaging with 18F-FDG tracer visualises flow in glass beads and Bentheimer sandstone cores, and is combined with simulation to map voxel permeability.
+
+The study uses combined PET and micro-CT imaging to visualise tracer-labelled fluid displacement in porous media. Three samples were tested: a glass bead pack (37% porosity), an artificially fractured Bentheimer sandstone (18.44%) and a Bentheimer sandstone (16.28%), injected with 18F-FDG at 0.1–0.5 ml/min. PET images showed gravity-dominated filling in the beads, gravity-affected then capillary-dominated flow in the fractured core, and diffusive capillary-dominated fronts in the sandstone. Permeability was 2.58×10^5 mD (Kozeny-Carman) for the beads and 4565 and 1236 mD (FEM simulation) for the fractured and intact sandstones. Combining PET saturation with CT porosity and simulated capillary pressure gave a voxel permeability map for the sandstone ranging from 920 to 1660 mD, with lower values in the bottom half.
+
+## Automated Quantitative Micromodel Image Analysis Applied to High-Pressure CO2 Foam Injections
+
+- ID: SCA2019-060, year: 2019
+- Authors: T. L. Føyen, J. Gauteplass, Ø. Eide, M. A. Fernø
+- Method: measurement technique or apparatus
+- Keywords: micromodel, CO2 foam, image analysis, bubble density, sweep efficiency, pore-scale visualization
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-060.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-060)
+
+An automated image-processing workflow quantifies bubble density, saturation and sweep efficiency from time-lapse high-pressure micromodel CO2 foam images, validated against manual analysis.
+
+High-resolution time-lapse imaging of micromodel injections generates hundreds of GB of data, making manual analysis of displacement mechanisms slow and biased. The authors present an automated workflow for CO2 foam injections in high-pressure micromodels with irregular pore space. It covers an experimental protocol, capture of high-resolution images across the micromodel with an enhanced field of view, and image preparation using open-source scientific image processing libraries. Software identifies, describes and counts features such as foam bubbles, yielding bubble density, fluid saturations and sweep efficiency. Quality control and comparison with manual analysis are presented to demonstrate the workflow.
+
+## Digital Core-Enabled High-Resolution Formation Evaluation via Coupled Physics and Data Analytics
+
+- ID: SCA2019-069, year: 2019
+- Authors: Nicholas Drenzek, Ryan Antle, Haifeng Jiang, Siddharth Misra
+- Method: digital rock or imaging
+- Keywords: dual energy CT, photoelectric factor, endmember mixing mineralogy, line imaging, machine learning synthetic logs, fraccability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-069.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-069)
+
+Dual-energy CT of 30 m of core yields mm-resolution density, PEF and mineralogy logs, which feed a machine learning model predicting fraccability, permeability and producibility.
+
+The study addresses high-resolution formation evaluation from core using digital core methods. Dual energy X-ray CT scans of 30 m of U.S. midcontinent core were processed to remove artefacts, core breaks, plug gaps and mud-invaded zones. Mineral standard calibrations gave millimeter-resolution bulk density and photoelectric factor logs, and an endmember mixing model produced sandstone, limestone, shale and porosity tracks. These agreed well with XRF-derived PEF, helium porosity and XRD mineralogy. The CT data were combined with visible and UV line images and spectral gamma logs to train a wireline petrophysics-supervised machine learning model that predicted synthetic fraccability, permeability and producibility logs in untrained sections; performance depended largely on the amount of input data.
+
+## Of rats and rocks: using pre-clinical PET imaging facilities in core analysis
+
+- ID: SCA2021-026, year: 2021
+- Authors: Bergit Brattekås, Martin A. Fernø, Malin Haugen, Tore Føyen, Marianne Steinsbø, Arne Graue, Njål Brekke, Tom Christian Holm Adamsen, Cecilie Brekke Rygh, Heidi Espedal
+- Method: measurement technique or apparatus
+- Keywords: positron emission tomography, pre-clinical PET-CT, 11CO2 radiotracer, 18F-FDG, CO2 storage, core flooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-026)
+
+Describes how shared pre-clinical small-animal PET-CT facilities can be used for high-pressure core flooding, covering tracer production, safe transfer, equipment constraints, and CO2 storage applications.
+
+PET offers high spatial and temporal resolution and strong signal-to-noise for core-scale flow imaging, but radiotracer production, transfer and handling hinder wider use. The authors describe a collaboration since 2013 using a Mediso nanoScan PET-CT at a university imaging centre next to a hospital cyclotron. They detail production of 18F-FDG (t1/2 109 min) and 11CO2 (t1/2 20 min), remote-controlled gas transfer with piston pumps, radiation shielding, and an aluminium core holder (1.5 in diameter, 10 cm length, 200 bar) fitting a 16 cm gantry and 120x120x97 mm field of view, with voxels of 0.3-0.4 mm. Applications reviewed include CO2 displacement in chalk at 50 bar, spontaneous imbibition, foam and polymer gel in fractures, CO2 flow in tight shale, and preliminary carbonate dissolution imaging. Over 1200 cyclotrons exist worldwide, so similar collaborations may be feasible elsewhere.
+
+## Dynamic pore-scale modeling of residual fluid configurations in disordered porous media
+
+- ID: SCA2021-041, year: 2021
+- Authors: Yanbin Gong, Mohammad Sedghi, Mohammad Piri
+- Method: numerical simulation
+- Keywords: dynamic pore-network model, residual oil trapping, snap-off, capillary number, contact angle hysteresis, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-041.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-041)
+
+A parallelized dynamic pore-network model with snap-off, layer flow and contact angle hysteresis is validated, then used to show how capillary number, viscosity ratio and wettability control residual oil trapping in Berea sandstone.
+
+The paper develops a fully dynamic pore-network model that solves two-phase pressure fields, includes piston-like, pore-body filling and snap-off displacements, wetting-layer flow and contact angle hysteresis, and runs in parallel. It is validated against Lenormand's micromodel flow regimes (stable displacement, viscous and capillary fingering) and against measured Berea and Bentheimer drainage and imbibition relative permeabilities. Eleven imbibition simulations were then run on a core-sized micro-CT Berea network (10.4 mm long, 623 mD). Residual oil saturation changed little up to Nc of about 2×10^-5 (43.9% to 42.2%) but fell to 34.8% and 27.0% at Nc of 2×10^-4 and 2×10^-3, while maximum and average cluster sizes decreased continuously with Nc. Raising water viscosity gave Sor as low as 9.3% at M=122, and moving toward neutral wetness reduced Sor from 51.2% to about 36% by suppressing snap-off and invasion selectivity in medium-to-large pores.
+
+## Comparison of Three-Dimensional Permeability Inversion from Positron Emission Tomography Experimental Data Using Convolutional Neural Networks and Ensemble Kalman Filter
+
+- ID: SCA2022-35, year: 2022
+- Authors: Zitong Huang, Christopher Zahasky
+- Method: numerical simulation
+- Keywords: positron emission tomography, permeability inversion, convolutional neural network, ensemble Kalman filter, Berea sandstone, arrival time
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-35)
+
+An encoder-decoder CNN and an ensemble Kalman filter invert 3-D sub-core permeability from PET tracer data in Berea sandstone; a hybrid CNN-initialized EnKF performs best.
+
+Inverting 3-D sub-core permeability from PET time-lapse tracer images is ill-posed and computationally costly. The authors reduced PET data from a 10 cm Berea core (23 mD) to quantile arrival-time difference maps. They trained an encoder-decoder CNN on 16,000 synthetic permeability/arrival-time pairs (MODFLOW/MT3DMS) and compared it with an EnKF (400 members) started from low-uncertainty, high-uncertainty, or CNN-perturbed ensembles. The trained CNN inverts a core in about 10 seconds after roughly 30 hours of training, whereas EnKF needs 3-9 hours depending on initial ensemble quality. Accuracy decreased as initial ensemble uncertainty increased, and the hybrid CNN+EnKF gave the best R2 of 0.891 and more geologically realistic heterogeneity than the smoother CNN map.
+
+## Some Useful Guidelines for Whole Core CT-Scanning for Petrophysical Applications
+
+- ID: SCA2022-41, year: 2022
+- Authors: Shameem Siddiqui
+- Method: review or workflow
+- Keywords: whole core CT scanning, CT number calibration, bulk density, beam hardening artifact, dual-energy CT, core-log depth matching
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-41)
+
+Practical guidelines for converting medical CT scanners, calibrating them, correcting for fluids, avoiding artifacts and processing images to get quantitative whole-core density and porosity, with ten applications.
+
+The paper addresses how to obtain quantitative, artifact-free petrophysical data from whole core CT scanning, mostly with converted medical scanners. It describes needed scanner modifications (sturdy table, custom calibration tables with solid phantoms, DICOM data transfer) and the use of calibration standards scanned in the same environment as the cores to convert CT numbers to bulk density through a linear relation. An iterative liquid correction is given to convert air-filled CT density to log-equivalent bulk density and porosity, along with guidance on depth matching, pilot scans and dual-energy positioning. Streak, ring and beam-hardening artifacts are discussed, as are desirable image-processing software features. Ten applications are illustrated, including depth matching, mud invasion, heterogeneity screening for SCAL, lithology, dual-energy mineralogy, density-based FMI-type images and fracture characterization.
+
+## Some Guidelines on CT-Scanning for Fluid Flow Visualization and Quantification
+
+- ID: SCA2023-039, year: 2023
+- Authors: Shameem Siddiqui
+- Method: review or workflow
+- Keywords: CT scanning, radiopaque dopants, coreflooding saturation, image subtraction, pore volume compressibility, composite core
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-039)
+
+Practical guidelines for CT-based multiphase coreflooding: scanner and equipment choice, dopants, core preparation, porosity and saturation calculation, image subtraction, with examples including wormholing and pore volume compressibility.
+
+The paper gives practical guidance for using CT scanning to visualize and quantify multiphase flow in cores. It compares medical and industrial/micro-CT scanners, and describes low-attenuation coreholders, heating methods, PEEK bypass lines and portable coreflooding units. It covers dopant selection (e.g., 5 wt% NaI brine), calibration with doped-fluid and air bottles scanned inside the coreholder, and core preparation including milling composite plugs for capillary continuity. CT porosity from dry and saturated scans agreed with conventional values in a three-plug carbonate composite (0.286, 0.240, 0.248 vs 0.281, 0.234, 0.243). Scan sequences for unsteady-state relative permeability tests, voxel-by-voxel image subtraction, and applications (emulsified acid wormholing, pore volume compressibility, single-energy three-phase flow with matched dopants) are illustrated.
+
+## X-Ray Computed Tomography 3D virtual plugging – value of the technique in challenging case studies
+
+- ID: SCA2023-045, year: 2023
+- Authors: Alvaro Munoz-Beltran, Stefano Pruno
+- Method: review or workflow
+- Keywords: virtual plugging, dual energy CT, whole core scanning, poorly consolidated sandstone, plug sampling, Hounsfield units
+- Cited by 0 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-045)
+
+3D CT virtual plugging of whole cores in inner barrels guides plug location and orientation, giving high plugging success in two fragile, heterogeneous Norwegian Continental Shelf sandstone cores.
+
+Obtaining representative, undamaged plugs for SCAL is difficult in heterogeneous, cross-bedded and poorly consolidated sandstones. The authors scanned whole cores in their barrels with a 160-slice medical CT scanner (dual energy 135/50 kV in case 1, single energy 135 kV in case 2; ~1 mm resolution, 0.3 mm slices). In Avizo, a virtual 38.1 mm (1.5 inch) cylinder was placed perpendicular to maximum dip, with ortho slices and HU line profiles used to check plug quality. In case 1 (fiberglass-barrel, gypsum-stabilized core, plugged without freezing or coolant) only two plugs partially broke. In case 2 (cross-bedded core, mineral oil lubricant) no plugs were damaged or broken, and the plugs suited planned capillary pressure, electrical and relative permeability tests. The method needs commercial visualization software and can be done within hours of core arrival.
+
+## Improve on Dual-Energy protocol for rock characterization and monitoring of porosity and phase saturations during multiphase flow
+
+- ID: SCA2024_1029, year: 2024
+- Authors: Janeth A. Vidal Vargas, Walter L. F. Antelo, Rosangela B. Z. L. Moreno
+- Method: laboratory experiment
+- Keywords: dual-energy CT, reconstruction kernel, CsI brine dopant, porosity profile, saturation monitoring, Indiana Limestone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1029.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1029)
+
+Dual- and single-energy medical CT protocols, kernels and dopants were screened on Indiana Limestone, selecting B50s kernel and 30% CsI brine to measure porosity and saturations during oil-brine flooding.
+
+The study seeks the best CT acquisition and reconstruction protocol for measuring porosity and phase saturation in heterogeneous carbonates. Three Indiana Limestone plugs (about 15-16% gas porosity, 150-170 mD) were scanned at 80, 110 and 130 kV with several convolution kernels, and brine dopants (NaBr, NaI, CsI) were screened with a CT-number ratio decision matrix. B50s kernel at 130 kV and 0.75 mm slices, with 30% CsI brine, gave the largest fluid contrast. For IL-5, dual-energy total porosity was 17.57% (B50s), single-energy effective porosity 16.14% and gas porosity 15.23%, implying a few percent unconnected pores. In coreflooding, drainage reached Swi of 0.54, waterflood left Sor of 0.308 (33% recovery), early breakthrough showed preferential flow paths, and end-point permeabilities were measured along five pressure-tap intervals (e.g. kw at Sor of 3.76 mD).
+
+## Multi-resolution X-ray imaging techniques for bulk operational applications: A short review and a proposed streamlined workflow
+
+- ID: SCA2024_1072, year: 2024
+- Authors: Naif J. Alqahtani, Sinan Caliskan, Tariq A. Almubarak, Sultan M. Alenizi
+- Method: review or workflow
+- Keywords: medical CT, micro-CT, nano-CT, digital rock analysis, rock typing, representative elementary volume
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1072.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1072)
+
+Reviews medical, micro- and nano-CT for core analysis and proposes a multi-scale workflow to select representative samples for SCAL and digital rock analysis.
+
+Coring programs generate large core volumes, but no systematic method exists for choosing representative samples for SCAL or digital rock analysis. The paper reviews medical CT, micro-CT and nano-CT, covering resolution, sample size, scan time, applications and limitations, with examples such as whole-core barrel scans, Indiana limestone micro-CT at 2.46 µm voxel size, hydrogen contact angle measurement and nano-CT shale fracture growth. It then proposes a workflow: pilot and dual-energy medical CT of whole cores for damage assessment and rock typing, plug scanning for homogeneity screening, quick plug tests (NMR, permeability, porosity), and micro/nano-CT of dominant rock types after REV analysis. The authors argue that the workflow can screen out non-representative plugs and reduce laboratory testing cost, at the expense of longer scanning time. Linking scales still requires super-resolution or upscaling.
+
+## Deep learning assisted processing of synchrotron-based micro-CT imaging of fast, dynamic multiphase flow in porous media
+
+- ID: SCA_2025_1030, year: 2025
+- Authors: Eric Sonny Mathew, Michael Camilleri, Quan Zheng, Yufu Niu, Bianca Brandstätter, Kunning Tang, Peyman Mostaghimi, Ryan T. Armstrong, Samuel Jackson
+- Method: digital rock or imaging
+- Keywords: synchrotron micro-CT, U-ResNet segmentation, streak artifacts, dynamic drainage, Minkowski functionals, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1030)
+
+A U-ResNet segmentation workflow for fast synchrotron micro-CT drainage scans suppresses streak artifacts and beats watershed segmentation in accuracy, Minkowski errors and speed (3x faster).
+
+Fast (1 s) synchrotron micro-CT scans at 3.6 µm of decane drainage in water-wet and mixed-wet Bentheimer sandstone produce large datasets with streak artifacts that hamper conventional segmentation. The authors register scans with SciPy shift/rotate, then train a 3-encoder/3-decoder U-ResNet on 25,000 256x256 patches, with WEKA-segmented slices as ground truth. Test mIoU was 0.93 (mixed-wet) and 0.95 (water-wet) with accuracy 0.98; on unseen slices, decane phase accuracy was 0.93–0.94 and mIoU averaged 0.96. Against non-local-means plus watershed on a streak-affected slice, U-ResNet gave mIoU 95.9% versus 90.2%. Its 2D Minkowski errors were -7% (area), -2% (perimeter) and 2% (Euler) versus 28%, 47% and 166% for watershed. It segmented a 1536x1536x160 volume in 40 s versus 2 min, about 3x faster. A deeper 4-block model overfitted.
+
+## Characterization of Sandstone and Carbonate Rocks Using Dual-Energy X-Ray Computed Tomography for Sample Selection in Coreflooding Tests
+
+- ID: SCA_2025_1034, year: 2025
+- Authors: Vidal Vargas, W. L. F. Antelo, R. B. Z. L. Moreno
+- Method: measurement technique or apparatus
+- Keywords: dual-energy CT, effective atomic number, bulk density, total porosity profile, sample selection, coreflooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1034.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1034)
+
+Dual-energy CT of 114 sandstone and carbonate cores yields bulk density, effective atomic number and porosity profiles to screen heterogeneity and select coreflooding samples.
+
+Representative sample selection for SCAL and coreflooding requires knowing lithological and porosity heterogeneity along each core. The authors scanned 114 outcrop plugs (45 sandstones, 69 carbonates; 30 cm long, 1.5 in diameter) at 80 and 130 kV on a medical CT scanner. Air, water and aluminum standards were used to calibrate the dual-energy equations, giving bulk density, effective atomic number and total porosity profiles after matrix density correction by calibration curves. Results were compared with gas porosity and Klinkenberg-corrected permeability. Berea Buff, Bentheimer, San Saba and Mt. Gambier were relatively homogeneous and suitable for displacement tests, while Bandera Brown, Desert Pink, Silurian Dolomite and Edwards Yellow were heterogeneous. Edwards Brown showed vugs and porosity of 40–45%. Parker, Wisconsin and Indiana 9-16 mD were limited by low permeability or clay. Discrepancies where total porosity fell below effective porosity were attributed to uncertain matrix density and image quality.
+
+## Rapid X-ray Micro-CT Imaging of Brine Imbibition in Porous Media with a Benchtop System Using Deep Learning
+
+- ID: SCA2026-016, year: 2026
+- Authors: Ahmed Adila, Kunning Tang, Peyman Mostaghimi, Ryan T. Armstrong
+- Method: digital rock or imaging
+- Keywords: 4D micro-CT, deep learning denoising, P3T-Net, brine imbibition, Euler characteristic, Bentheimer sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-016)
+
+A cascading P3T-Net deep learning workflow enhances ultrafast benchtop micro-CT scans, enabling quantitative 2.8 s 4D imaging of brine imbibition in Bentheimer sandstone.
+
+Benchtop micro-CT normally cannot capture fast pore-scale displacement because short scans are noisy and low in contrast. Brine (30 wt% KI) was imbibed at 1.2 µL/min into a dry 5 mm Bentheimer core in a CoreTOM scanner, with one 3D volume every 2.8 s (15 µm voxels, single rotation, 1R). A two-stage cascading P3T-Net (CycleGAN-based) translated 1R images to an 8R domain and then to a high-quality dry-scan domain, outperforming non-local means and single-stage transfer on PIQE and NIQE. Raw 1R images gave PSNR 18.19 dB against 8R, versus 25.06 dB for 4R. Segmented images showed consistent mass balance, pore-size distributions bounded by the dry image, interfacial area and Euler characteristic trends matching the literature, and a dispersed, non-piston saturation front. Training took about 4 h on an RTX 4090 and inference about 6 s per volume, so the 428-volume dataset was enhanced in about 42 min.

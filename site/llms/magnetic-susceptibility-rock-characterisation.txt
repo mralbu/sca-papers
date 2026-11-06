@@ -1,0 +1,447 @@
+# Magnetic susceptibility rock characterisation
+
+> 34 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: magnetic susceptibility, anisotropy, paramagnetic, content, illite, cuttings, ferrimagnetic, minerals, ams, rapid.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## A Novel Flow Cell and Integrated Sensor Technique for Simultaneous Magnetic Monitoring of Core Samples During Fluid Flow Experiments
+
+- ID: SCA2012-14, year: 2012
+- Authors: Shahjahan Khan, David K. Potter, Ergun Kuru
+- Method: measurement technique or apparatus
+- Keywords: magnetic susceptibility, acrylic flow cell, magnetic nanoparticles, nanoparticle transport, fines migration, in-line monitoring
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-14)
+
+An acrylic flow cell with an integrated magnetic susceptibility sensor enables in-line monitoring of nanoparticle transport through bead and sand packs; anionic DDBS dispersant gave the best transport.
+
+Stainless steel flow cells prevent magnetic measurements during flooding, so the authors built an acrylic flow cell (57 mm ID, 200 mm long) with a Bartington MS2C susceptibility sensor that can be positioned along the cell at 1 cm intervals during flow. They tested it by injecting 20 nm maghemite and magnetite nanoparticle suspensions into glass bead and sand packs (permeability 2.2–22.8 D), followed by water flooding. Sonicating before adding the cationic CTAB dispersant left the particles agglomerated at the inlet, while dispersing with anionic DDBS before sonication gave good transport, with about 90% of the nanoparticles removed by 4 PV water flooding. Higher permeability and injection rate (5–60 cc/min) flushed out more nanoparticles, and magnetite behaved similarly to maghemite. The cell may also be used to monitor fines migration in consolidated cores.
+
+## Sensitive Carbonate Reservoir Rock Characterisation from Magnetic Susceptibility: Mineral Quantification, Correlation with Petrophysical Properties, and Anisotropy
+
+- ID: SCA2008-10, year: 2008
+- Authors: David K. Potter, Tariq M. AlGhamdi, Oleksandr P. Ivakhnenko
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, hysteresis curves, carbonate permeability, paramagnetic clay, ferrimagnetic impurities, anisotropy of magnetic susceptibility
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-10)
+
+Magnetic hysteresis measurements on Middle East carbonates show high-field susceptibility correlates strongly with permeability and porosity, while low-field values are disturbed by trace ferrimagnetic impurities.
+
+The paper extends magnetic susceptibility characterisation, previously used for clastics, to carbonate reservoir rocks. Hysteresis curves from Arab-D Middle East carbonates were measured with a variable field translation balance, and compared with US, UK and North Sea carbonate samples. Low-field susceptibility (0-50 mT) correlated poorly with plug permeability and porosity because small ferrimagnetic (likely magnetite) impurities, visible as low-field kinks, dominated it. High-field susceptibility (above 750 mT), reflecting diamagnetic plus paramagnetic minerals, correlated extremely well with both permeability and porosity, possibly through calcite/dolomite ratio or ~1% paramagnetic clay. A North Sea dogger sample had a positive high-field slope, low permeability (0.01 mD), higher anisotropy (~5% vs ~1%) and a high-field susceptibility that decreased with temperature, while pure calcite/dolomite showed no temperature dependence.
+
+## Integration of Laboratory Temperature Dependent Magnetic Properties of Sediment and Crystalline Basement Core Samples with Borehole Data: Applications to Geothermal Studies in the Oil Sands Region of Northern Alberta, Canada
+
+- ID: SCA2012-49, year: 2012
+- Authors: Arfan Ali, Khalid Miah, David K. Potter
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, magnetic hysteresis, crystalline basement, ferrimagnetic minerals, geothermal oil sands, superparamagnetic grains
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-49.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-49)
+
+Temperature-dependent magnetic hysteresis and susceptibility of sediment and crystalline basement cores from Northern Alberta distinguish basement from sediment and characterize ferrimagnetic minerals, supporting borehole susceptibility use for geothermal heat-source location.
+
+Radiogenic heat sources in crystalline basement beneath the Fort McMurray oil sands could support geothermal energy for oil sands extraction, so locating basement depth and its ferrimagnetic minerals is needed. Powdered samples from the Hunt Well were measured for low-field susceptibility (Bartington MS2B) and hysteresis (VFTB) at room and in situ temperatures. Low-field mass susceptibility was 12.6e-8 m3/kg for the sediment versus 311.8e-8 and 207.6e-8 for two basement samples, a contrast larger than the gamma ray difference (34 vs 169 API). Hysteresis showed stable single-domain behavior in the sediment (remanence about half of saturation) and superparamagnetic behavior in the basement sample. High-field susceptibility decreased slightly with temperature, consistent with Curie-law paramagnetism. A borehole susceptibility value of 39.92e-5 SI at the sediment depth was close to the lab value of 30.22e-5 SI at 34°C.
+
+## Effects of Mechanical Anisotropy on Core Strain Measurements for In-situ Stress Determination
+
+- ID: SCA1989-08, year: 1989
+- Authors: G. G. Ramos, J. J. Rathmell
+- Method: laboratory experiment
+- Keywords: anelastic strain recovery, differential strain analysis, velocity anisotropy, in-situ stress orientation, microfractures, tight gas sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-08)
+
+Differential strain, velocity anisotropy, coring-induced fractures and thin-section microfractures resolved conflicting on-site strain azimuths in two tight sandstone wells, giving Shmax near 75±45 degrees.
+
+On-site anelastic strain relief tests on tight-gas sandstone cores from two Texas wells, about five miles apart, gave orthogonal maximum-strain azimuths (0-30° and 90-120°). To resolve this, laboratory differential strain analysis (21 tests), ultrasonic Vp/Vs velocity anisotropy, mapping of coring-induced macrofractures, and fluorescent thin-section microfracture mapping were applied. DSA gave a dominant azimuth of 70-90°, Vp anisotropy 50-90°, Vs 30-70°, coring-induced fractures 50-70°, and thin sections 70-100°, consistent with regional Shmax of 62-102° and with Well #2 but not Well #1. Velocity anisotropy indices were 1.019-1.070, and Vp gave less scatter than Vs. Thin sections showed a major aligned microfracture set and a minor orthogonal set, supporting the inferred stress orientation.
+
+## Anisotropy of Resistivity in Oil Bearing Thin-Bedded Formation: Experiment and Modeling
+
+- ID: SCA2003-28, year: 2003
+- Authors: J-B. Clavaud, J. LaVigne
+- Method: laboratory experiment
+- Keywords: resistivity anisotropy, thin-bedded formation, laminated sandstone, dual water model, water saturation equation, centrifuge desaturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2003/SCA2003-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2003-28)
+
+Twin-plug measurements show resistivity anisotropy in laminated sandstones rises as water saturation falls; forward modeling shows Sw equations using both rv and rh beat horizontal-only ones.
+
+Thinly laminated reservoirs often show large resistivity anisotropy, and the paper tests whether it is induced by saturation differences between oil-bearing coarse layers and water-bearing fine layers. Twin plugs of homogeneous Berea and laminated Navajo, Cutbank and Lyons sandstones were desaturated by centrifuge with dodecane, and rv/rh was measured at 100 kHz. In the laminated samples rv/rh rose as Sw fell (Navajo from 1.2 to 3.4 between 100% and 10% Sw), while Berea stayed near 1. Forward modeling of four geological units with a dual water model then tested Archie, dual water and three rv/rh-based Sw algorithms (SPC, HDA and a new SDR equation that does not need water resistivity). Horizontal-only methods underestimated hydrocarbon volume by about 20-47%, whereas the rv/rh methods were mostly within a few percent. On the experimental data the SPC model gave Sw close to the measured bulk values, though it tended to overestimate oil.
+
+## Magnetic Susceptibility as a Rapid, Non-Destructive Technique for Improved RCAL and SCAL Parameter Prediction
+
+- ID: SCA2005-02, year: 2005
+- Authors: David K. Potter
+- Method: data analysis or correlation
+- Keywords: magnetic susceptibility, illite content, permeability prediction, cation exchange capacity Qv, wireline gamma ray, core plugs
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-02)
+
+Low-field magnetic susceptibility on core plugs gives rapid illite content and permeability predictions, correlating with gamma ray and Qv where porosity-permeability is poor.
+
+Magnetic susceptibility is proposed as a rapid, non-destructive complement to routine and special core analysis. Susceptibility of 297 routine plugs from a North Sea shoreface well was measured with a Molspin bridge; the sign of the raw signal matched permeability zones (negative for clean sands above 100 mD, positive for muddy sands and shales). A quartz-illite mixing model converted susceptibility to illite content, with a critical value of about 3.54% at zero susceptibility. Magnetically derived illite correlated with permeability (power fit r2 = 0.73, 0.80 without two outliers), far better than porosity-permeability (r2 = 0.25). Susceptibility also correlated with wireline gamma ray (cut-off near 20 API) and with Qv for a few plugs, and probe measurements on slabbed core suit unconsolidated core.
+
+## The Use of Magnetic Hysteresis and Remanence Measurements in Rapidly and Non-Destructively Characterising Reservoir Rocks and Fluids
+
+- ID: SCA2006-08, year: 2006
+- Authors: Oleksandr P. Ivakhnenko, David K. Potter
+- Method: measurement technique or apparatus
+- Keywords: magnetic hysteresis, isothermal remanent magnetisation, magnetic susceptibility, illite content, ferrimagnetic minerals, reservoir fluids
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-08)
+
+Magnetic hysteresis and IRM curves up to 1000 mT identify diamagnetic, paramagnetic and ferrimagnetic components in reservoir rocks and fluids, extending single low-field susceptibility methods.
+
+Single low-field susceptibility readings can be biased by small amounts of strongly magnetic minerals, which affects estimates of permeability-controlling clays such as illite. The authors measured hysteresis curves (fields to 1000 mT) and isothermal remanent magnetisation on about 0.5 g samples with a Variable Field Translation Balance, taking 10-15 minutes per curve. Samples came from shoreface, turbidite and carbonate reservoirs, plus crude oil and formation water. Slopes at high field separate diamagnetic (negative) from paramagnetic (positive) components, low-field kinks or loops reveal ferrimagnetic minerals such as magnetite, and models show 4-5% illite in quartz makes the slope positive. Clean and muddy shoreface sands, turbidite sands and shale, limestone and calcite dogger, and oil versus water were distinguished. Turbidite sand and shale from the same unit gave near-identical normalised curves, implying a similar ferrimagnetic-to-paramagnetic ratio. The method complements but does not replace XRD, since it cannot distinguish different paramagnetic clays.
+
+## Clay Typing - Sensitive Quantification and Anisotropy in Synthetic and Natural Reservoir Samples Using Magnetic Susceptibility for Improved Petrophysical Appraisals
+
+- ID: SCA2007_05, year: 2007
+- Authors: David K. Potter, Oleksandr P. Ivakhnenko
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, magnetic hysteresis, illite quantification, anisotropy of magnetic susceptibility, soxhlet core cleaning, XRD comparison
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_05)
+
+Magnetic hysteresis and susceptibility measurements quantify clay content in synthetic and natural samples, agree with XRD, improve permeability correlation at high field, reveal clay loss in cleaning, and AMS tracks illite.
+
+The paper evaluates magnetic susceptibility and hysteresis as a rapid, sensitive complement to XRD for clay typing and quantification. Model hysteresis curves were compared with VFTB measurements on synthetic clay–quartz samples (illite, montmorillonite, kaolinite, chlorite) and on turbidite samples; measured high-field susceptibility matched XRD-derived values well, except for chlorite where XRD appeared to overestimate. For a North Sea well, illite content from high-field susceptibility correlated better with permeability (R2 = 0.95) than low-field (R2 = 0.89). Probe measurements before and after hot soxhlet cleaning showed illite content equal or lower afterwards, with permeability increases greatest where illite loss was greatest, implying clay removal. Low-field AMS on shoreface samples was small but correlated with magnetically derived illite content.
+
+## Quantifying the Relative Roles of Illite and Hematite on Permeability in Red and White Sandstones Using Low and High Field Magnetic Susceptibility
+
+- ID: SCA2009-11, year: 2009
+- Authors: David K. Potter, Arfan Ali, Oleksandr P. Ivakhnenko
+- Method: data analysis or correlation
+- Keywords: magnetic susceptibility, hematite, illite, magnetic hysteresis, probe permeability, tight gas sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-11)
+
+Magnetic hysteresis and low-field susceptibility separate illite and hematite in North Sea red and white tight sandstones, showing fine-grained hematite dominantly reduces permeability in red sandstones.
+
+Permeability in North Sea tight gas reservoirs is generally lower in red sandstones than adjacent white sandstones. Magnetic hysteresis measurements (VFTB) were used to identify hematite from low-field loops and quantify illite from the high-field slope. At similar illite content, red sandstones have systematically lower permeability, implicating fine-grained hematite. A rapid method was derived to estimate hematite and illite simultaneously from low-field susceptibility on slabbed core, assuming quartz fraction 0.9 and hematite susceptibility about 400×10-5 SI. Along several core sections of 0.8 to 6 m, hematite content mirrored probe permeability, with hematite peaks coinciding with permeability minima, while illite did not track permeability. The authors conclude small hematite amounts dominate permeability in red sandstones, though validation with combined low and high field measurements is still needed.
+
+## Quantifying the Effects of Core Cleaning, Core Flooding and Fines Migration Using Sensitive Magnetic Techniques: Implications for Permeability Determination and Formation Damage
+
+- ID: SCA2010-01, year: 2010
+- Authors: David K. Potter, Arfan Ali, Salim Imhmed, Norbert Schleifer
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, hot soxhlet core cleaning, fines migration, illite clay content, magnetic hysteresis, formation damage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-01)
+
+Magnetic susceptibility and hysteresis measurements quantify illite loss during soxhlet cleaning and fines migration in core floods and water injection filters, showing cleaned-plug permeability is overestimated.
+
+The paper uses low-field magnetic susceptibility and hysteresis (VFTB) measurements to quantify mineral removal from reservoir sandstones during core cleaning and flooding. Six North Sea quartz-illite plugs were measured before and after hot soxhlet cleaning with toluene and methanol; susceptibility fell in all, with illite removal from 0.01% in the 1.8 mD sample to 0.17% in the 1558 mD sample. This implies cleaned-plug permeability overestimates the uncleaned value, e.g. an estimated 1021 mD versus 1558 mD for Sample 1. Seawater-brine flooding of two ~7.5 cm plugs at 50 ml/hour reduced susceptibility at every measured point, consistent with illite fines removal. Hysteresis curves indicated mainly paramagnetic clay with minimal ferrimagnetic material. Hysteresis of filter papers from a North African water injection line detected paramagnetic and ferrimagnetic fines, including at the cartridge outlet, below XRD detection limits.
+
+## Novel Techniques to Rapidly Determine the Magnetic Anisotropy of Reservoir Rocks and Shales, and Comparisons with Permeability and Acoustic Anisotropies
+
+- ID: SCA2011-31, year: 2011
+- Authors: David K. Potter
+- Method: measurement technique or apparatus
+- Keywords: anisotropy of magnetic susceptibility, anisotropy of magnetic remanence, permeability anisotropy, acoustic anisotropy, tight gas sandstone, shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-31)
+
+Rapid single-plug magnetic anisotropy methods (low/high field AMS, AMR) are compared with permeability and acoustic anisotropy in tight gas red sandstones and shales.
+
+Permeability and acoustic anisotropy need many plugs and are slow, so the paper presents single-plug magnetic methods: low field AMS, ferrifluid AMS, high field AMS (torquemeter or VFTB hysteresis) and anisotropy of isothermal remanence (AIRM). On two tight gas red sandstones, permeability and acoustic anisotropy came from 18 plugs, while high field AMS and AMR came from one plug each. The maximum acoustic, high field AMS and AMR axes coincided with the minimum permeability axis, possibly because fine hematite blocks pore connections along the maximum framework axis. In two shales, all methods showed planar fabrics, and high field AMS axes matched acoustic axes better than low field AMS, which resembled AMR. This indicates high field AMS reflects paramagnetic clay alignment while low field AMS is affected by small ferrimagnetic fractions.
+
+## Model Templates for Quantifying Permeability Controlling Paramagnetic Clay Minerals at in Situ Reservoir Temperatures
+
+- ID: SCA2011-47, year: 2011
+- Authors: Arfan Ali, David K. Potter
+- Method: theory or analytical model
+- Keywords: magnetic susceptibility, Curie Law, illite, paramagnetic clays, thermomagnetic measurements, magnetic hysteresis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-47.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-47)
+
+Curie Law template curves of susceptibility versus temperature for clay-quartz mixtures match turbidite and shoreface sample data and give illite contents agreeing with hysteresis and XRD results.
+
+Magnetic susceptibility correlates with clay content and permeability, but prior measurements were made at room temperature, not at downhole temperature. The authors built Curie Law model templates of mass susceptibility versus temperature for illite-quartz, chlorite-quartz and montmorillonite-quartz mixtures. Thermomagnetic measurements (VFTB, 20 mT field) on three turbidite and four shoreface samples followed the template trends. Illite contents read from the templates agreed with those from room-temperature high-field hysteresis slopes and XRD in most cases, e.g. shale UTS1 at 63-67% versus 63.4% and 62.4%. The main discrepancy was UT17a (14-16% versus XRD 6.8%), likely due to smectite. The templates could be combined with downhole susceptibility and temperature data to quantify paramagnetic clay in situ.
+
+## A Comparison of Quantitative Acoustic, Magnetic and Permeability Anisotropy Measurements on a North Sea Caprock
+
+- ID: SCA2013-009, year: 2013
+- Authors: Muhammad Arif, David K. Potter, Ross Bishop, Norbert Schleifer
+- Method: laboratory experiment
+- Keywords: caprock anisotropy, anisotropy of magnetic susceptibility, anisotropy of isothermal remanent magnetization, S-wave velocity anisotropy, petrofabric, permeability anisotropy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-009.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-009)
+
+Acoustic, magnetic (AMS, AIRM) and permeability anisotropy measured on horizontal and vertical North Sea caprock plugs consistently show higher values parallel to the petrofabric.
+
+Caprock anisotropy is rarely quantified, yet may affect seal efficiency. Two siltstone caprock plugs (horizontal 4H and vertical 2V) were measured for P- and S-wave velocity up to 40 MPa hydrostatic pressure, AMS, AIRM and Klinkenberg-corrected gas permeability. The parallel-to-perpendicular velocity ratio at 40 MPa was 1.084 for P-waves and 1.061 for S-waves (1.061 using visually determined petrofabric axes). Permeability was 0.04 mD (horizontal) versus 0.03 mD (vertical), a ratio of 1.3 ± 0.4, too uncertain alone. AMS and AIRM maximum axes lay in the petrofabric plane for the vertical plug, whereas low magnetic signals made the horizontal plug's orientations less reliable. The combined results suggest real permeability anisotropy with lower vertical permeability, which contributes to caprock efficiency.
+
+## Improved Reservoir Characterisation Using Novel Unconventional Crossplots Between Magnetic Susceptibility and Downhole Wireline Log Data
+
+- ID: SCA2013-075, year: 2013
+- Authors: Salem Abdalah, Arfan Ali, David K. Potter
+- Method: data analysis or correlation
+- Keywords: magnetic susceptibility, wireline log crossplots, clay content, spectral gamma ray Th/K, bulk density, Curie law temperature dependence
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-075.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-075)
+
+Presents template crossplots relating mass magnetic susceptibility to spectral gamma ray and bulk density logs to identify clay type, mineral content and porosity, including temperature effects.
+
+Magnetic susceptibility measurements on core or cuttings correlate with clay content and permeability, but have not been tied to standard wireline logs. The authors build template crossplots, in the style of industry charts, of mass magnetic susceptibility against spectral gamma ray Th/K ratio and against bulk density, using literature susceptibility values for minerals. The Th/K plot separates clay types in quartz-clay mixtures, and the density plots quantify illite content (even at very low levels) and porosity from 0 to 40%. A quartz-calcite-dolomite template is also shown with data from heavily dolomitized Libyan carbonate samples. Using the Curie law, the templates are extended to temperature: for a 9% illite, 91% quartz mixture susceptibility falls between 0.9 and 0.2 x 10-8 m3/kg with rising temperature, supporting use with borehole susceptibility logs.
+
+## A Comparison of Quantitative Techniqueques for Determining the 3D Anisotropy of Shale Samples: Application to Horn River Basin Shales, British Columbia, Canada
+
+- ID: SCA2014-011, year: 2014
+- Authors: Vivian Ebufegha, David K. Potter
+- Method: laboratory experiment
+- Keywords: anisotropy of magnetic susceptibility, anisotropy of magnetic remanence, inverse magnetic fabric, anisotropy of electrical resistance, Horn River shale, sodium silicate impregnation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-011)
+
+Compares magnetic susceptibility, remanence and electrical resistance anisotropy in Horn River shales, finding inverse AMS fabrics from single-domain ferrimagnetic grains, so AMR is needed to infer true fabric.
+
+Fissile Horn River shales (Muskwa, Otter Park, Evie) are hard to plug, so samples were impregnated with sodium silicate and cut under propylene glycol into 2.2 cm cubes; some consolidated cylindrical plugs were also cut. AMS was measured in 18 directions on 57 cubes, along with isothermal remanence parallel and perpendicular to bedding, thin and polished section petrography, and AER on six plugs. All samples were magnetically anisotropic, with %AMS highest in the Evie (likely organic matter) and variable in the Otter Park (pyrite content). Normal and inverse AMS fabrics alternate with depth; IRM was always higher parallel to bedding, indicating that inverse fabrics arise from uniaxial stable single-domain ferrimagnetic grains, so AMS alone can mislead. In the six plugs, maximum electrical resistance was near-perpendicular to bedding and minimum near-parallel, broadly matching Kmax and Kmin axes respectively. Otter Park resistance (0.1-0.5 x 10^9 ohm) was lower than Muskwa (2-5 x 10^9 ohm).
+
+## Correlation Between Magnetic Properties and Permeability: Results from a New Case Study in the North Sea
+
+- ID: SCA2014-077, year: 2014
+- Authors: Arfan Ali, David K. Potter, Andrew Tugwell
+- Method: data analysis or correlation
+- Keywords: magnetic susceptibility, illite content, permeability prediction, shoreface reservoir, slabbed core probe, North Sea
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-077.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-077)
+
+Magnetic susceptibility on plugs and slabbed core from a North Sea shoreface reservoir gives illite content that correlates with permeability, matching an earlier field's relationship.
+
+The study tests whether magnetic susceptibility can predict clay content and permeability in a Jurassic North Sea shoreface reservoir, following earlier work on a different field. Susceptibility was measured over a 50.4 m interval on 1.5 x 3 inch plugs (Bartington MS2C coil) and on slabbed core at 10 cm spacing (MS2E probe). Illite content derived from susceptibility closely follows Klinkenberg-corrected air permeability, with a power-law crossplot R2 of 0.62. Applying the earlier field's illite-permeability relationship to these plugs also gave R2 = 0.62 between predicted and measured permeability. Slabbed-core probe profiles resemble the plug profiles and predicted permeability matches measured values in many intervals. Mismatches are attributed to other minerals such as calcite, kaolinite and chlorite, and to core heterogeneity and scale differences.
+
+## Magnetic Susceptibility of Drill Cuttings in a North Sea Oil Well: A Rapid, Non-Destructive Means of Characterizing Lithology
+
+- ID: SCA2015-036, year: 2015
+- Authors: Arfan Ali, David K. Potter, Andrew Tugwell
+- Method: field or reservoir case study
+- Keywords: magnetic susceptibility, drill cuttings, mass susceptibility, hematite, LWD gamma ray, mineralogy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-036)
+
+Mass magnetic susceptibility of North Sea drill cuttings maps lithology and reveals unexpected paramagnetic/ferrimagnetic minerals in low-gamma sandstones, possibly explaining low well productivity.
+
+Drill cuttings are an underused resource for mineralogy and petrophysics. The authors made 421 volume magnetic susceptibility measurements on 10 cc vials from 157 cuttings bags over a 9,000 ft section of a North Sea well, using a portable Bartington MS2B sensor, and converted them to mass susceptibility by dividing by bulk density. Results tracked lithological zonation and were inversely related to LWD gamma ray: low-gamma sandstones showed anomalously high positive susceptibility (cut-off about 17 x 10^-8 m3/kg) instead of the negative values expected for diamagnetic quartz. Limited XRD from another field well (about 85% quartz, no siderite) suggests small amounts of magnetite or hematite rather than siderite or clays. These minerals may reduce permeability and explain the lower productivity; high-field susceptibility or remanence measurements are proposed to confirm.
+
+## Quantifying Shale Mineralogy and Anisotropy from Low Temperature Magnetic Susceptibility Measurements
+
+- ID: SCA2016-033, year: 2016
+- Authors: Vivian T. Ebufegha, David K. Potter
+- Method: measurement technique or apparatus
+- Keywords: low temperature magnetic susceptibility, anisotropy of magnetic susceptibility, illite content, Curie law, Horn River shale, paramagnetic minerals
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-033)
+
+Low temperature magnetic susceptibility of Horn River shales, compared with Curie-law template curves, quantifies illite content and reveals hidden anisotropy and mineral sources of AMS fabrics.
+
+Shale mineralogy and anisotropy are difficult to quantify quickly and nondestructively. The authors cooled 54 sodium-silicate-impregnated Horn River Group cubes to about 173 K in liquid nitrogen and measured susceptibility with a Bartington MS2B meter as they warmed to 294 K. Measured curves were compared with theoretical Curie-law curves for 11 illite-quartz mixtures to estimate illite content. Illite content correlated with ICP-MS Al2O3 (R2 = 0.85 when averaged over 9 orientations). AMS measured in 9 orientations on 18 samples was enhanced at low temperature, revealing anisotropy in samples that appear isotropic at room temperature. Changes in principal axis orientation with temperature distinguished paramagnetic illite-dominated normal fabrics, iron carbonate inverse fabrics, and stable single domain ferrimagnetic inverse fabrics.
+
+## Rapid Estimation of Hydraulic Flow Unit Parameters Rqi and Fzi from Magnetic Measurements in Some Shoreface Reservoirs
+
+- ID: SCA2016-057, year: 2016
+- Authors: Carl Egiebor, David K. Potter
+- Method: data analysis or correlation
+- Keywords: magnetic susceptibility, illite content, reservoir quality index, flow zone indicator, XRD, shoreface reservoirs
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-057)
+
+Magnetic-susceptibility-derived illite content correlates well with RQI and FZI in North Sea shoreface core plugs, outperforming XRD-derived illite as a rapid, non-destructive predictor.
+
+Hydraulic flow unit parameters RQI and FZI normally require conventional core porosity and permeability data. This study tested whether magnetic susceptibility, measured with a Molspin bridge in about 5 seconds per plug, could estimate them on core plugs from two North Sea shoreface wells (nearly 300 plugs in Well 2, 87 in Well 2a). Illite content was derived from susceptibility assuming a quartz-illite mixture. In Well 2, R2 with RQI and FZI was 0.73 and 0.67. In Well 2a, pyrite-corrected magnetic illite gave R2 of 0.80 (RQI) and 0.76 (FZI), versus 0.31 and 0.27 for XRD-derived illite. The pyrite correction improved correlations only slightly (uncorrected R2 0.79 and 0.76).
+
+## Effect of Bedding Planes on Rock Mechanical Properties Anisotropy of Sandstone for Geomechanical Modeling
+
+- ID: SCA2016-084, year: 2016
+- Authors: Dee Moronkeji, Richard Shouse, Umesh Prasad
+- Method: laboratory experiment
+- Keywords: bedding plane anisotropy, unconfined compressive strength, confined compressive strength, Berea sandstone, Young's modulus, side wall cores
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-084.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-084)
+
+Triaxial UCS and CCS tests on Berea sandstone plugs at different bedding orientations show strongest strength perpendicular to bedding and weakest in horizontal plugs across bedding (YY).
+
+Side wall cores from directional wells sample bedding at varying angles, which can bias rock mechanical properties used in geomechanical models. Berea sandstone plugs were drilled in six orientations (ZZ, XX, YY, XY, XZ, YZ) from one block and tested in UCS and CCS (5500 psi confining) on a TerraTek 880 load frame. ZZ plugs were strongest (UCS about 48 MPa, CCS about 194 MPa), XX averaged 38 and 191 MPa, and YY was weakest at 33 and 186 MPa (with an outlier excluded, YY is consistently weakest). Young's modulus rose linearly with UCS (R² 0.85) and was highest perpendicular to bedding. All samples failed by shear with no distinct orientation pattern. The authors attribute the XX–YY difference to pre-existing stress anisotropy, suggesting anisotropic treatment of bedded sandstones.
+
+## Electrical Properties of Black Schist from the Himalayas of Central Nepal
+
+- ID: SCA2017-093, year: 2017
+- Authors: Jana H. Börner, Frédéric Girault, Frédéric Perrier, Mukunda Bhattarai, Lok Bijaya Adhikari, Klaus Spitzer
+- Method: laboratory experiment
+- Keywords: spectral induced polarization, black schist graphite, electrical anisotropy, surface conductivity, multi-salinity measurements, CO2 effect on conductivity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-093.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-093)
+
+Spectral induced polarization on Himalayan black schist and augen gneiss shows the graphite-bearing schist is highly polarizable, conductive and strongly anisotropic, while the gneiss is brine-dominated and nearly isotropic.
+
+Rocks from the Main Central Thrust shear zone in central Nepal were studied to help explain a mid-crustal conductor seen in magnetotelluric surveys. Complex conductivity (SIP) was measured on cores cut parallel and perpendicular to foliation and on crushed material of graphite-bearing black schist (4–8% graphite) and augen gneiss, including multi-salinity tests, schist–sand mixtures and CO2 exposure at 5 MPa. The black schist is very conductive for its low porosity and strongly polarizable, with anisotropy of about a factor 50 at 1 Hz, and about 25% schist mass fraction in sand can dominate bulk properties. Crushing removes the low-frequency response, indicating texture-controlled conduction, and the graphite appears disseminated but loosely aligned with foliation. The augen gneiss is dominated by electrolytic conduction with weak polarization and anisotropy, and CO2 increased real conductivity in both rocks. Black schist surface conduction could be misinterpreted as brine in MT surveys.
+
+## Anisotropies of Electrical Conductivity and Magnetic Susceptibility in Horn River Group Shales: Insights into Rock and Pore Fabrics
+
+- ID: SCA2017-095, year: 2017
+- Authors: Vivian T. Ebufegha
+- Method: laboratory experiment
+- Keywords: anisotropy of electrical conductivity, anisotropy of magnetic susceptibility, shale, transverse isotropy, illite clay, pore fabric
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-095.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-095)
+
+18-direction resistance measurements on Horn River shales show full 3D conductivity anisotropy correlates with porosity, unlike the transverse isotropic model, and AEC axes align with AMS axes.
+
+Shales are usually treated as transversely isotropic for electrical conductivity, which limits fabric interpretation. Thirty-three Horn River Group samples (Muskwa, Otter Park, Evie) were cut into 18-sided shapes, saturated with 20 wt% KCl, and measured for resistance along 9 axes (18 directions), then converted to a 3D conductivity tensor. Samples were not transversely isotropic: in-plane conductivity varied by 0.1–17%, and percent AEC ranged 65–180%, while the two-conductivity model overestimated anisotropy by factors of 1.4–12.9. Percent AEC correlated with porosity in clay-rich samples (R²=0.70, versus 0.15 for the transverse isotropic model), while illite content controlled conductivity itself (R² 0.5–0.76). AMS was measured on the same axes; AMS and AEC principal axis orientations were similar, indicating matrix and pore fabrics are aligned parallel to bedding.
+
+## Links Between Geochemistry, Total Organic Carbon, Magnetic Properties and Anisotropy in Shale Core Samples from the Horn River Group, British Columbia, Canada
+
+- ID: SCA2018-022, year: 2018
+- Authors: Vivian T. Ebufegha, David K. Potter
+- Method: data analysis or correlation
+- Keywords: magnetic susceptibility, anisotropy of magnetic susceptibility, total organic carbon, Horn River shale, illite, ICP-MS geochemistry
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-022)
+
+Magnetic susceptibility of Horn River shales correlates positively with Fe, Al, K oxides and negatively with TOC and quartz; AMS correlates positively with TOC.
+
+The study links magnetic properties of Horn River Group shales (Muskwa, Otter Park, Evie) to geochemistry and TOC. Probe susceptibility was measured every 0.25 m over 182 m of slabbed core, and AMS was determined from 18 directions on fifty-seven 2.2 cm cubes. ICP-MS oxide data and LECO TOC (0.46–6.85 wt%) were compared with these measurements. Susceptibility correlated strongly positively with Fe2O3, Al2O3, K2O and MnO, indicating illite-type paramagnetic clays host the iron, and negatively with TOC and SiO2. AMS did not follow illite content but correlated positively with TOC, supported by thin sections showing organic stringers aligned with matrix minerals, suggesting susceptibility and AMS can proxy TOC.
+
+## Probe Magnetics as a Rapid, Non-Destructive Screening Tool for Consolidated and Unconsolidated Core in Conventional and Unconventional Reservoirs
+
+- ID: SCA2018-057, year: 2018
+- Authors: Toan H. To, David K. Potter, Aminat Abiola, Vivian T. Ebufegha
+- Method: measurement technique or apparatus
+- Keywords: magnetic susceptibility, probe measurement, oil sands, turbidite, illite clay content, Horn River shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-057)
+
+Handheld probe magnetic susceptibility on slabbed core gives rapid non-destructive profiles of clay content, grain size and lithology in oil sands, turbidites and Horn River shales.
+
+Plug sampling is impractical in unconsolidated or fissile core, so the authors used a Bartington MS2E probe to measure volume magnetic susceptibility on slabbed core, at about 30 s per depth. In Athabasca oil sands wells, the susceptibility delineated clean sand (negative values from diamagnetic quartz) and thin siderite layers better than wireline gamma ray, and probe-derived illite content matched the SP log. In Nile delta turbidites, the probe separated uniform from graded sands; susceptibility correlated with quartz grain size, XRD illite (up 3.8x over 0.3 m) and probe permeability (6,500 to 2,300 mD). In Horn River shale, susceptibility varied with clay type, clay and organic content, and bedding-parallel values exceeded bedding-perpendicular values, indicating magnetic anisotropy, though thin laminae may contribute.
+
+## Optimizing Magnetic Measurements on Drill Cuttings for Reservoir Characterization
+
+- ID: SCA2019-053, year: 2019
+- Authors: Michael Bik, David K. Potter
+- Method: theory or analytical model
+- Keywords: magnetic susceptibility, drill cuttings, mass susceptibility, porosity effect, paramagnetic and diamagnetic minerals, permeability estimation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-053.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-053)
+
+A theoretical model shows mass magnetic susceptibility of washed, dry drill cuttings is essentially independent of porosity, making it the preferred measurement for petrophysical estimation.
+
+Magnetic susceptibility measurements on drill cuttings can estimate mineral content and permeability, offering a cheap, rapid alternative to core. This paper uses a theoretical model to optimize the measurements, treating total porosity as intrinsic matrix porosity plus inter-cutting space. For dry cuttings, mass susceptibility is essentially independent of porosity, whereas volume susceptibility depends on it: high porosity lowers susceptibility of paramagnetic cuttings (illite) and raises that of diamagnetic ones (quartz, calcite). With air-filled pores, mass susceptibility changes only above about 90% porosity; with water-filled pores it depends more strongly on porosity. Washing and drying cuttings before measurement is proposed as optimal, and the model explains earlier differences between wet and dry cuttings and the effects of mud additives and contaminants.
+
+## A Review of Effects of Bedding Plane and Anisotropy on Indirect Tensile Strength Test of Rocks
+
+- ID: SCA2019-056, year: 2019
+- Authors: Dee Moronkeji, Richard Shouse, Rolando Lew
+- Method: review or workflow
+- Keywords: indirect tensile strength, Brazilian test, bedding plane, transverse isotropy, shale anisotropy, coring direction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-056)
+
+Reviews published and new indirect tensile strength tests on sandstones, shales and limestones, showing that bedding-plane orientation and anisotropy angle strongly change measured ITS, especially in VTI rocks.
+
+Indirect tensile strength (ITS) tests assume a linear elastic, homogeneous rock, but bedding and anisotropy make results depend on coring direction. The authors review published ITS data on disc samples as a function of loading direction relative to bedding and anisotropy angle. They also tested Mountain sandstone, clayey sandstone, Marcellus shale, Mancos shale, Alabama limestone and Carthage limestone. Loading direction relative to bedding changes measured ITS, with larger effects in anisotropic rocks such as VTI shales. Discs with bedding parallel to the disc face (vertical samples) gave the highest strength, and loading perpendicular to bedding gave higher ITS than loading parallel to it. Preexisting fractures and water content can significantly lower ITS.
+
+## Portable XRF Spectrometer as a Formation Evaluation and Geosteering Tool Applied in the Polish Permian Basin
+
+- ID: SCA2019-087, year: 2019
+- Authors: Rafał SKUPIO Urszula ZAGÓRSKA, Benedykt KUBIK, Sylwia KOWALSKA, Krzysztof WOLAŃSKI
+- Method: field or reservoir case study
+- Keywords: portable XRF, geosteering, Rotliegend, cuttings geochemistry, lithological modelling, horizontal well
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-087.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-087)
+
+A handheld XRF spectrometer, calibrated on Rotliegend core, was used on rig-site cuttings to interpret lithology and geosteer a horizontal well faster than LWD.
+
+The study addresses fast lithological reconstruction during drilling for geosteering in Rotliegend formations of the Polish Permian Basin. Archival core from reference well P4 was analysed by XRF, XRD and ICP-OES/MS to build geochemistry-based mineralogical models and calibrate a handheld XRF spectrometer. A new core sampling method produced material comparable to rig-site cuttings. During drilling of horizontal well P5H, cuttings were prepared and measured in real time, and the results were compared with the P4 reference profile to interpret lithology. This comparison was used to correct the well trajectory, and the authors report that sample preparation and analysis gave faster data than LWD measurements.
+
+## Comparing predicted 2D and 3D anisotropic properties from micro CT derived digital rock physics with experimentally measured anisotropy
+
+- ID: SCA2021-012, year: 2021
+- Authors: David K. Potter, Liam L. Belisle, Allyson L. Shewchuk, Brendan C. Snow, Aiden Zhu, Shaun Zhang
+- Method: digital rock or imaging
+- Keywords: digital rock physics, micro-CT, permeability anisotropy, anisotropy of magnetic susceptibility, anisotropy of remanence, shear-wave velocity anisotropy
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-012)
+
+Micro-CT digital rock predictions of permeability, conductivity and s-wave velocity anisotropy match magnetic and acoustic anisotropy measured on one igneous core plug, all giving Z>X>Y.
+
+Full 3D anisotropy from digital rock physics is rarely compared with experiment on a single plug. An igneous plug (VOLC-B-X2, 25 mm diameter) was imaged by µCT at 10.7 µm and segmented by random forest into quartz, plagioclase, biotite and porosity (3.4% porosity). Permeability, electrical conductivity and s-wave velocity anisotropy were simulated and compared with measured AMS, AIRM (20 and 60 mT), AGRM and 2D s-wave velocity anisotropy. All methods gave similar principal axis orientations close to the sample axes and the same ordering Z>X>Y. In the XY plane the measured s-wave maximum (12.6°) and AGRM maximum (11.7°) were nearly identical, so bulk mineral fabric aligns with the fine ferrimagnetic fabric. Magnetic measurements could therefore give rapid, non-destructive estimates of principal permeability axes, though full 3D permeability could not be verified experimentally.
+
+## Comparison of high resolution probe magnetics, X-ray fluorescence and permeability on core with borehole spectral gamma ray and spontaneous potential in an oil sand well
+
+- ID: SCA2021-035, year: 2021
+- Authors: Toan H. To, David K. Potter
+- Method: data analysis or correlation
+- Keywords: probe magnetic susceptibility, oil sands, X-ray fluorescence, inclined heterolithic stratification, illite content, spontaneous potential
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-035.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-035)
+
+Probe magnetic susceptibility on bitumen-saturated slabbed core distinguishes sand, IHS and shale better than GR and SP, and its derived illite content correlates with XRF and permeability.
+
+Characterizing unconsolidated oil sands is hard because cores cannot be plugged and bitumen hides lithology. The authors measured high-resolution probe magnetic susceptibility (Bartington MS2E) and portable XRF on slabbed core from a McMurray Formation well in northern Alberta, and converted susceptibility to a quartz+illite mixture 'illite' content. Susceptibility separated clean sand (negative), IHS beds (small positive) and shale (higher positive) better than total GR, and exposed a 162–168 m interval that GR misread as clean sand. Illite content correlated with total GR (R²=0.73), SP (0.64), spectral potassium (0.80), core air permeability (R²=0.801 versus 0.42 for SP) and XRF Fe and Al (0.62) and K (0.45). A thin bed with illite above 100% flagged an anomalous mineral, and an IRM test showed magnetite had minor effect (32.97% vs 30.67% illite).
+
+## Applications of Temperature Dependent Paramagnetic Properties for Quantifying Mineral Content and Extending the Use of Paramagnetic Dopants for Laboratory or Borehole Analysis of NMR Data
+
+- ID: SCA2022-44, year: 2022
+- Authors: Cody W. Good, David K. Potter
+- Method: theory or analytical model
+- Keywords: magnetic susceptibility, paramagnetic dopant MnCl2, NMR T2 relaxation, illite quartz mixtures, Curie law, borehole magnetic susceptibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-44)
+
+Curie-law modelling of temperature-dependent magnetic susceptibility quantifies paramagnetic minerals and predicts how MnCl2-doped brine NMR T2 varies with temperature and depth.
+
+The paper models the temperature dependence of volume and mass magnetic susceptibility of illite–quartz mixtures using the Curie equation, to quantify paramagnetic mineral content from laboratory or borehole data. It adds the effects of porosity (0–40%) and pore fluid type (Forties field water and hydrocarbons). Increasing porosity lowers susceptibility, with less effect on mass than volume susceptibility, and fluid type has little effect. Low-temperature curves amplify the paramagnetic signal, helping detect small illite contents. The same approach is applied to MnCl2 dopant, giving an effective molar concentration versus temperature, and a power-law fit to Mitchell et al.'s data (R2 = 0.94) converts this to T2 versus temperature and depth (35°C/km). Modelled T2 of doped brine increases with temperature and depth, reducing brine–oil peak separation, while slight cooling below room temperature should improve it.
+
+## Magnetic Core Analysis for Improved Interpretation of Geothermal Prospects
+
+- ID: SCA2023-042, year: 2023
+- Authors: Elena Y. Temnikova, David K. Potter, Arfan Ali
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, variable field translation balance, magnetic hysteresis, ferrimagnetic domain state, geothermal basement, temperature-dependent susceptibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-042.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-042)
+
+Magnetic susceptibility and hysteresis on rock powders from northern Alberta locate the Precambrian basement, match gamma ray, and show ferrimagnetic domain state shifting from MD to SP with depth.
+
+Radiogenic heat sources for geothermal prospects in northern Alberta are expected in Precambrian crystalline basement beneath sedimentary cover. Rock powders from a Hunt well (1656.5–2364.2 m) and 15 shallower wells were measured with a portable Bartington MS2B low-field susceptibility sensor and validated with VFTB hysteresis curves. Susceptibility rose sharply below about 600 m, marking the basement, and correlated with borehole gamma ray; the granitic basement at 2350–2364 m gave the highest susceptibility, arguably better identified than by gamma ray. Basement susceptibility and gamma ray varied widely, indicating more heterogeneity than expected. Extracted ferrimagnetic hysteresis curves showed domain state changing from MD/PSD to SSD to SP with depth, and temperature-dependent susceptibility with illite–quartz model curves can quantify paramagnetic and diamagnetic mineral content.
+
+## Mechanical characterization of unconventional shales – experimental challenges and solutions
+
+- ID: SCA2024_1050, year: 2024
+- Authors: Guodong Jin, Syed Shujath Ali, Hector J Gonzalez Perez, Ali Abdullah Al Dhamen
+- Method: measurement technique or apparatus
+- Keywords: multi-stage triaxial test, radial strain gradient, VTI elastic anisotropy, ultrasonic velocity, Mohr-Coulomb failure envelope, unconventional shale
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1050)
+
+Presents a one-horizontal-plug ultrasonic method for VTI shale anisotropy and a radial strain gradient unloading criterion for multi-stage triaxial tests, both validated against conventional methods.
+
+Unconventional shale is brittle and hard to plug, so the standard three-plug velocity anisotropy method and multiple single-stage triaxial tests are often impractical. The authors describe a method that measures the five VTI wave velocities with transducers placed radially around one horizontal plug. On synthetic samples it agreed with the three-plug method, with differences mostly below 3% at 5–30 MPa confining pressure. They also apply a radial strain gradient (RSG) criterion to choose unloading points in multi-stage triaxial (MST) tests, calibrated from the RSG at peak stress in single-stage tests (about -88 for Berea sandstone). MST failure envelopes using RSG matched single-stage envelopes for Berea, tight sands and shale. In one tight sand, the MST test gave a usable envelope where the single-stage tests did not, and it worked for shale where the maximum volumetric strain criterion fails.
+
+## Rapid Predicted Profiles of Elemental Contents Along Slabbed Cores from Probe Magnetic and Well Log Data Using a Machine Learning Approach Trained on XRF Data
+
+- ID: SCA2024_1070, year: 2024
+- Authors: Emmanuel Okwoli, David K. Potter, Toan H. To
+- Method: data analysis or correlation
+- Keywords: probe magnetic susceptibility, XRF elemental content, convolutional neural network, artificial neural network, well log prediction, oil sands
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1070)
+
+2D CNN and ANN models trained on XRF data predict Fe, K and Al contents from probe magnetic susceptibility and well logs, with magnetics key for iron.
+
+XRF profiling of core is costly and slow, so the authors train neural networks to predict Fe, K and Al contents from rapid probe magnetic susceptibility on slabbed core and well logs. Data came from two Alberta oil sands wells (McMurray Formation) with XRF, MS2E probe susceptibility and logs. Predictors were 2D CNNs (inputs converted to binary-string images, VGG16-inspired) and MLP ANNs, trained with 10-fold cross-validation on 70% or 30% of the data and tested on the remainder. Iron predictions had R2 of 0.83–0.99 for cases including magnetics, versus 0.64–0.89 with well logs only. Al and K R2 were typically 0.83–0.96. Training on only 30% gave only slightly poorer results, and CNNs marginally outperformed ANNs in some cases.
+
+## Magnetic SCAL Techniques for Rapidly Improving Estimates of Mineral Contents, Elemental Contents and Permeability in Oil Sands Core
+
+- ID: SCA2026-036, year: 2026
+- Authors: Toan H. To, David K. Potter
+- Method: laboratory experiment
+- Keywords: magnetic susceptibility, isothermal remanent magnetization, magnetite quantification, illite content, temperature-dependent susceptibility, oil sands
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-036.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-036)
+
+Portable IRM measurements quantify trace magnetite in oil sands cores to correct magnetically derived illite content; mass susceptibility and temperature-dependent susceptibility confirm earlier probe results.
+
+Probe magnetic susceptibility on oil sands core correlates with illite, XRF elements and permeability, but cannot separate paramagnetic illite from trace ferrimagnetic magnetite. Twenty-four powdered samples (clean sand, IHS, shale) from three wells were measured for volume and mass susceptibility, XRF (Fe, K, Al), IRM up to 130 mT, and temperature-dependent susceptibility. IRM curves matched small multidomain magnetite (4.4–13.1 µm); magnetite masses were only 0.0007–0.0099 % of sample mass, yet corrected illite estimates fell, e.g. 11.8 % to 0 % in a clean sand and 97 % to 72 % in a shale. A low/high-field susceptibility difference (0.43 vs 0.50 ×10⁻⁸ m³/kg) independently supported the magnetite estimate. Mass susceptibility correlations with XRF were similar to or slightly better than volume-based probe results, so porosity effects are minimal. Susceptibility decreased with temperature in IHS/shale samples, following quartz+illite template curves, and was constant to 190 °C in clean sands.

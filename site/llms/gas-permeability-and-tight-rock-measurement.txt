@@ -1,0 +1,733 @@
+# Gas permeability and tight rock measurement
+
+> 56 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: permeability, klinkenberg, gas, decay, pressure, tight, coal, permeabilities, flow, porosity.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Quantification of Permeability Variations Across Thin Laminae in Cross Bedded Sandstone
+
+- ID: SCA1992-02EURO, year: 1992
+- Authors: Alle Brendsdal, Christian Halvorsen
+- Method: laboratory experiment
+- Keywords: probe permeameter, laminae, permeability anisotropy, crossbedded sandstone, arithmetic and harmonic averaging, well test permeability
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-02EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-02EURO)
+
+Probe permeameter measurements on plugs, cubes and whole core quantify lamina-scale permeability in crossbedded Statfjord sandstone and give a unit permeability estimate consistent with well test.
+
+The study uses an automated probe permeameter to characterize permeability of thin laminae in tabular crossbedded fluvial sandstone from the Statfjord Formation (Gullfaks Sør). Fine-grid probe scans, 1-inch plugs (23 Kh, 27 Kv) and 23-24 mm cubes with confined three-direction permeability were compared. Arithmetic probe averages best matched Kh (R² 0.91) and harmonic averages best matched Kv (R² 0.89, 0.93 after removing five plugs with thin laminae). The unconfined probe overestimates permeability of laminae thinner than the tip-seal, with laminae of about 1-5 mD read as 13-15 mD on cube surfaces. Cubes of visually homogeneous or micaceous material showed Kv/Kh of 0.54-0.78 not explained by probe data, indicating sub-probe-scale anisotropy. For a 7 m unit, crossbed-level averaging with a residual-saturation correction of 1.7 gave about 806 mD versus a thickness-corrected well test permeability of 816 mD.
+
+## Measurement of "Rock Properties" in Coal for Coalbed Methane Production
+
+- ID: SCA1991-19, year: 1991
+- Authors: Bruce W. Gash
+- Method: laboratory experiment
+- Keywords: coalbed methane, cleat porosity, miscible displacement tracer, gas-water relative permeability, fines migration, JBN unsteady-state method
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-19)
+
+Modified core-analysis methods on undried coal cores give cleat porosity near 2% or less, declining water permeability, and consistent gas-water relative permeability from unsteady- and steady-state tests.
+
+Standard porosity, permeability and relative permeability methods need modification for coal, where flow occurs in cleats and drying alters structure. Four undried cores (three San Juan Basin, one Warrior Basin) were tested using a lithium chloride miscible displacement tracer, water permeability measurements and helium-water unsteady-state relative permeability with JBN analysis. Cleat porosities were 1.6% ± 0.3 or less and matched mobile water porosity within error, implying little irreducible water. Water permeability fell by up to an order of magnitude (to 0.04 md) with continued flow, attributed to fines migration, possibly face plugging, but did not significantly affect relative permeability. Dead volume uncertainty strongly affects unsteady-state results, while sodium iodide adsorption biases steady-state saturations; the two methods nonetheless agreed within error on Core B.
+
+## Permeability Measurement on Small Rock Samples
+
+- ID: SCA2010-32, year: 2010
+- Authors: R. Lenormand, F. Bauget, Gabriel Ringot Cydarex
+- Method: measurement technique or apparatus
+- Keywords: Klinkenberg effect, pulse decay permeability, resin disc, nanoDarcy permeability, Darcylog, inertial effects
+- Cited by 8 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-32)
+
+Resin-disc, miniplug, Darcylog and open-surface pulse-decay methods measure permeability on cm-scale samples from sub-nanoD to Darcy, interpreted with Klinkenberg and inertial numerical models.
+
+Small rock samples (0.5-2 cm) are needed when plugs are unavailable, such as with cuttings, sidewall cores or laminated rock. The authors test miniplugs in silicone tubes, resin-embedded discs (1-5 mm) under a press, Darcylog liquid pulse decay, and a gas pulse-decay open-surface device (PDOS). Steady- and unsteady-state data are interpreted with a numerical simulator including local Klinkenberg and Forchheimer effects and automatic history matching. Resin discs measure from about 0.1 nanoD to several Darcy, with stabilization near 1 hour in the nanoD range. Unsteady-state data above about 1.5-3 bar require local Klinkenberg correction, and both b and Kl can be obtained from one experiment above 4 bar. PDOS is limited to below about 50 microD by thermal effects, and for laminated argilite AT1 it differs from the disc result by a factor of 6.
+
+## Klinkenberg Permeability Measurements: Problems and Practical Solutions
+
+- ID: SCA1991-20EURO, year: 1991
+- Authors: Colin A. McPhee, Kevin G. Arthur
+- Method: laboratory experiment
+- Keywords: Klinkenberg permeability, gas slip factor, backpressure flow mode, non-Darcy flow, Forchheimer equation, net effective stress
+- Cited by 3 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-20EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-20EURO)
+
+Shows Klinkenberg permeability and slip factor depend strongly on flow mode, transducer accuracy, sleeve pressure and non-Darcy flow, and recommends backpressure measurement and corrections.
+
+Klinkenberg gas permeability parameters are shown to be sensitive to how data are acquired and analyzed. Steady-state nitrogen measurements were made on reservoir and outcrop plugs and a 160 mD sintered glass core, comparing atmospheric versus backpressure flow, constant differential pressure versus constant mass flow, transducer error, sleeve pressure, and non-Darcy flow. Atmospheric flow gave negative slip factors and no slip factor–permeability correlation (r=0.158), while backpressure gave strong correlations (r=0.94–0.98). A ±0.1 psid transducer error changed slip factor by about ±72–74% under constant mass flow, with much less effect at constant differential pressure. Non-constant net effective stress, non-Darcy flow (corrected with an iterative Forchheimer-slippage fit) and apparent pressure-dependent slip factor at higher permeabilities further affect results, so gas permeability at 1 atm is suggested as a more robust base value.
+
+## Permeability Characterization on Tight Gas Samples Using Pore Pressure Oscillation Method
+
+- ID: SCA2010-30, year: 2010
+- Authors: Y. Wang, R. J. Knabe
+- Method: measurement technique or apparatus
+- Keywords: pore pressure oscillation, tight gas permeability, Klinkenberg permeability, FFT amplitude attenuation, phase shift, storage capacity
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-30)
+
+Applies a sinusoidal pore pressure oscillation permeameter with FFT analysis to tight gas and shale samples, finding good agreement with steady-state Klinkenberg permeability and better accuracy at microdarcy levels.
+
+Measuring microdarcy and lower permeability in tight gas and shale samples is difficult with steady-state and pulse-decay methods. The authors use a sinusoidal pore pressure oscillation permeameter (SPPOP) in which a small upstream pressure wave (e.g. 5 psi at 100 psig mean pressure) is applied and permeability is derived from the attenuation and phase shift of the downstream signal via FFT. Tests on 1-inch plugs with 3-12% porosity at 1000 psi effective stress gave Klinkenberg permeabilities from about 2.5e-5 to 3.6e-2 mD. Results agreed with steady-state measurements between 1e-4 and 1e-2 mD, and SPPOP uncertainty grew far less than steady-state uncertainty as permeability fell. A 15% error in attenuation or phase shift changes permeability by about 20%, while storage capacity is far more sensitive, up to 2.4 times higher for a 15% phase error. Oscillation period must be increased for lower permeability so that attenuation exceeds roughly 0.01-0.02.
+
+## Steady State Stress Dependent Permeability Measurements of Tight Oil Bearing Rocks
+
+- ID: SCA2014-012, year: 2014
+- Authors: Shreerang S. Chhatre, Edward M. Braun, Somnath Sinha, Matthew D. Determan, Quinn R. Passey, Timothy E. Zirkle, Alex C. Wood, Jeff A. Boros, Daniel W. Berry, Sergio A. Leonardi, Ryan A. Kudva
+- Method: laboratory experiment
+- Keywords: steady-state liquid permeability, stress creep, net confining stress, permeability hysteresis, capillary standards, Vaca Muerta tight oil
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-012)
+
+A steady-state liquid permeability method for intact tight oil plugs under net confining stress, validated with capillary standards, shows strong stress creep, permeability decline and hysteresis.
+
+Crushed-rock permeability does not represent in-situ tight oil rock, so the authors developed a constant-pressure-difference steady-state liquid permeability apparatus for intact, CT-screened, as-received Vaca Muerta plugs, using toluene or decalin and back pressure to dissolve gas. The apparatus measures from about 10 µD down to 30 nD and was validated with stainless steel capillary standards whose permeability follows k = d^4/(32D^2). At constant net confining stress (NCS) of 2,500 psi, permeability crept down from 5,500 to 1,500 nD over 30 days, with an asymptote of 1,290 nD, so plugs are stress-aged about 4 weeks. Initial permeability exceeded steady-state values by a factor of 2 to 10 at the first stress state, with less creep at later stages. Steady-state permeability fell exponentially with NCS (plug B: 760 nD at 2,500 psi to 260 nD at 6,500 psi) and recovered only to 440 nD on unloading; permeability modulus was 2–6×10^-4 /psi for drawdown and 1–2×10^-4 /psi for buildup.
+
+## The Effects of Cleat Orientation and Confining Pressure on Cleat Porosity, Permeability and Relative Permeability in Coal
+
+- ID: SCA1992-24, year: 1992
+- Authors: Bruce W. Gash, Richard F. Volz, Gary Potter, John M. Corgan
+- Method: laboratory experiment
+- Keywords: coal cleat, gas-water relative permeability, confining pressure, permeability anisotropy, unsteady-state method, coalbed methane
+- Cited by 3 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-24)
+
+Measurements on La Plata coal show cleat orientation does not affect gas-water relative permeability, while raising confining pressure from 450 to 1000 psig cuts permeability about fivefold.
+
+Coal permeability is expected to be anisotropic and stress-dependent, but gas-water relative permeability had not been tested for either effect. Three aligned 3.5-in. La Plata (Fruitland) coal cores were tested: flow perpendicular to bedding, parallel to face cleat, and parallel to butt cleat, at 450 and 1000 psig confining pressure. Permeability was highest along the face cleat (0.6-1.7 md at 1000 psig), lower along the butt cleat (0.3-1.0 md), and lowest perpendicular to bedding (0.007 md). Raising confining pressure reduced permeability about 5-fold and cleat porosity about 1.7-fold, consistent with Jones' fracture relation. Apparatus modifications (low-range mass flow meters, ballast vessel) improved relative permeability reproducibility from ±5 to ±2 saturation percent; simulations showed production forecasts are sensitive to this. Relative permeability showed no dependence on cleat orientation, and higher confining pressure reduced krw more than krg.
+
+## A Detailed Analysis of Permeability and Klinkenberg Coefficient Estimation from Unsteady-State Pulse-Decay or Draw-Down Experiments
+
+- ID: SCA2007_08, year: 2007
+- Authors: Yves Jannot, Didier Lasseux, Guillaume Vizé, Gérald Hamon
+- Method: numerical simulation
+- Keywords: pulse-decay permeability, Klinkenberg coefficient, draw-down experiment, sensitivity analysis, tight rock gas permeability, inverse estimation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_08)
+
+A 1D gas-flow model with Klinkenberg effect and sensitivity analysis identify optimal pulse-decay/draw-down conditions for estimating permeability and Klinkenberg coefficient from a single pressure decay; draw-down is best.
+
+Steady-state permeability measurements on tight rocks are slow, and separating intrinsic permeability and Klinkenberg coefficient normally needs several mean pressures. The authors built a 1D isothermal ideal-gas finite-difference model including Klinkenberg slip and computed parameter standard deviations from sensitivity matrices, assuming a pressure error of 0.5% of the initial pressure step. Three synthetic materials were studied (k = 1e-17 and 1e-19 m², porosity 0.02-0.1, b from Jones' correlation). Errors are largest when upstream and downstream volumes are equal because mean pressure barely changes, so the draw-down configuration is optimal. Upstream volume, sample diameter and length do not affect precision but control test duration. An initial upstream pressure near 10-15 bar (up to about 50 bar for high b) minimizes error, and longer recording down to P0 = 0.1 P0i improves precision.
+
+## Non-Darcy Flow in Core Plugs: A Practical Approach
+
+- ID: SCA1991-19EURO, year: 1991
+- Authors: Stuart J. Morrison, Terry P. Duggan
+- Method: data analysis or correlation
+- Keywords: non-Darcy flow, Forchheimer equation, Klinkenberg slip factor, gas permeability, limiting flow rate, Morecambe Bay
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-19EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-19EURO)
+
+Derives a permeability-dependent limiting gas flow rate keeping non-Darcy pressure loss under 1% in routine plug measurements, using Forchheimer β–k correlations from 46 Morecambe Bay plugs.
+
+Routine single-point gas permeability must be free of significant non-Darcy effects before a Klinkenberg slip correction is valid. The authors argue the Forchheimer equation is continuous, so a 'critical' Reynolds number is a subjective tolerance, and they set it at 1% non-Darcy contribution. They measured Klinkenberg permeability, slip factor and non-Darcy coefficient β on 46 one-inch Sherwood plugs from Morecambe Bay (channel, sheetflood, aeolian facies, illite-free and illite-affected) at 400 psi net confining pressure with nitrogen. Field-wide correlations were β = 1.56e11 k^-1.84 and b = 8.4 k^-0.347, with facies and illite having surprisingly little influence and porosity adding little. This gives a limiting flow rate Q_L = 8.28 k^0.844 cm3/min for 1-inch plugs, presented as charts and an iterative procedure to convert kg to Klinkenberg permeability.
+
+## Low Permeability Measurements Using Steady-State and Transient Methods
+
+- ID: SCA2007_07, year: 2007
+- Authors: P. Carles, P. Egermann, R. Lenormand, JM. Lombard
+- Method: laboratory experiment
+- Keywords: Klinkenberg correction, pulse decay permeability, Darcygas, tight caprock, mercury injection correlations, steady-state gas permeability
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_07)
+
+Compares steady-state, pulse-decay, Darcygas and Darcylog gas permeability methods and mercury-injection correlations on tight caprock samples after Klinkenberg correction; unsteady-state reads about twice steady-state.
+
+Permeability below 10 microDarcy is hard to measure because of very low flow rates, so the authors compared several methods on carbonate and clayey sandstone caprock samples (porosity 2-22%). Steady-state and pulse-decay gas measurements on plugs, the Darcygas pulse method on miniplugs or crushed rock, Darcylog liquid invasion, and mercury-injection correlations (Swanson, Thomeer, Kamath) were applied. A Klinkenberg factor database of 46 samples was built, and the Jones correlation fitted best for 0.0001-1 mD. On 8 plugs, unsteady-state permeability was roughly twice the steady-state value, with the difference proportional to permeability. Kamath's correlation matched Darcygas and Darcylog best (maximum differences 0.4 and 2 microDarcy), while Swanson underestimated. Permeability was 1.1-1.7 times higher at 60 bar than at 110 bar confining pressure.
+
+## Permeability, Porosity and Klinkenberg Coefficient Determination on Crushed Porous Media
+
+- ID: SCA2011-32, year: 2011
+- Authors: Sandra Profice, Didier Lasseux, Yves Jannot, Naime Jebara, Gérald Hamon
+- Method: numerical simulation
+- Keywords: pulse decay, crushed samples, Klinkenberg coefficient, gas shale permeability, sensitivity analysis, parameter inversion
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-32)
+
+Numerical simulation and inversion of pulse decay on crushed packed spheres show that permeability and Klinkenberg coefficient are strongly correlated and hard to identify together, while porosity is robust.
+
+Pulse decay on crushed tight or shale samples is cheap and fast but cannot apply overburden. The authors model a monodisperse sphere pack with a Darcy-Klinkenberg model, solve it numerically, and validate against an approximate analytical solution (residual about 1 mbar). Particle radius controls test duration, which drops about tenfold from 1 cm to 1 mm. Sensitivity analysis shows pressure decay is most sensitive to porosity, and kl and b are almost perfectly correlated, so inversions give errors up to 62% on b and 56% on kl at kl=1e-21 m2. With a reduced gas volume and a single large particle, inversion becomes reliable. A 6% bias on sample volume then causes about 48% error on kl and large porosity error, whereas b is unaffected and a 2% chamber volume bias gives only about 2% error.
+
+## Principles, Practice and Applications of Laboratory Minipermeametry
+
+- ID: SCA1990-26EURO, year: 1990
+- Authors: Christian Halvorsen, Andrew Hurst
+- Method: measurement technique or apparatus
+- Keywords: minipermeameter, Hassler-sleeve permeability, automated gas permeability, permeability heterogeneity, sampling density, net-to-gross
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-26EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-26EURO)
+
+Describes Statoil's automated laboratory minipermeameter, its calibration against Hassler-sleeve plugs and an analytical solution, core handling changes, and applications showing dense grid data reveal heterogeneity missed by plugs and logs.
+
+The paper argues that laboratory minipermeametry should become a standard core analysis method and documents Statoil's automated x,y-table minipermeameter (nitrogen, constant pressure 10-900 mbar, 1 mD to 15 D, <3% uncertainty, <1% repeatability). Calibration was done on homogeneous plugs and by the Goggin et al. analytical solution; for the large probe, calculated/measured permeability ratios were 0.89-1.01, while the small probe gave values about 20% too low. Fresh versus dried core showed drying matters for 2-20 mD material but not above 100 mD. Edge effects were under 5% even with half the tip over the edge, and revised core handling (minipermeametry before slabbing and 1" plugging) is proposed. Dense grids revealed more heterogeneity than CT images, up to 41% differences between orthogonal faces, and in a laminated reservoir gave a net-to-gross of 0.66 at a 20 mD cutoff versus 1.00 from plugs and logs; N0 tests suggested optimal spacing of 7-10 cm for plugs.
+
+## "Correlations of Liquid and Air Permeabilities for Use in Reservoir Engineering Studies"
+
+- ID: SCA1990-12, year: 1990
+- Authors: Virgil J. Pugh, David C. Thomas
+- Method: data analysis or correlation
+- Keywords: air permeability, brine permeability, effective oil permeability, Klinkenberg effect, clayey reservoir, permeability correlation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-12)
+
+Correlates air permeability with oil and brine permeability for 1868 samples, showing air permeability approximates liquid permeability and can predict effective oil permeability in a clayey reservoir, cutting costs.
+
+Amoco analyzed 40 years of specific permeability data from 875 wells to test whether routine air permeabilities can represent liquid permeabilities. Air-versus-oil data for 1868 samples (1117 sandstones, 422 dolomites, 329 limestones; 0.1 to 10,000 md) correlate closely, with oil slightly lower, attributed to the Klinkenberg effect. Brine permeability is lower, with a brine-to-air ratio of about 0.5 across the range, and rock types show similar deviations. For a clayey reservoir (16% smectite, 4% chlorite, 3% kaolinite), effective oil permeability measured on 71 of 282 samples was correlated with air permeability. The oil-to-air ratio is about 1.0 at 10,000 md, 0.53 at 1000 md and 0.12 at 1 md. The correlation estimated oil permeability for the other 211 samples, so oil permeability was measured on only about 25% of samples, reducing costs.
+
+## Measurement of Gas Permeabilities Under Different Compaction Modes on Tight Reservoir Samples
+
+- ID: SCA1995-19, year: 1995
+- Authors: Ludovic D. JAUMOUILLE, Philippe R. CORDELIER, Adel KHARROUBI
+- Method: laboratory experiment
+- Keywords: uniaxial compaction, hydrostatic stress, pulse decay permeability, Klinkenberg correction, tight sandstone, stress-dependent permeability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-19)
+
+Gas permeability and porosity of tight sandstones and carbonates were measured under hydrostatic and uniaxial compaction; uniaxial loading gave smaller permeability and porosity reductions.
+
+Permeability is usually measured under hydrostatic load, which does not reproduce reservoir stress paths during depletion. The authors built an unsteady-state gas permeameter (pulse decay for low permeability, draw-down for higher) with Klinkenberg correction. Three tight sandstones and two dolomite samples (about 0.01 to 0.9 mD) were loaded hydrostatically and uniaxially up to 1200 bar (sandstone) or 700 bar (carbonate). Hydrostatic permeability reductions were 57-65% in sandstones versus 32-45% uniaxial, while carbonates showed only 5-8% uniaxial reduction. Lower-permeability rocks lost proportionally more permeability, and higher-permeability sandstones (6.5 and 12.6 mD) lost under 21% (uniaxial) and 29% (hydrostatic). Hydrostatic tests alone overestimate property loss, and no general correction factor can be derived.
+
+## Low Water Permeability Measurements of Clay Sample. Contribution of Steady State Method Compared to Transient Methods
+
+- ID: SCA2010-31, year: 2010
+- Authors: P.F. Boulin, P. Bretonnier, N. Gland, J.M. Lombard
+- Method: laboratory experiment
+- Keywords: steady state permeability, pulse decay, pore pressure transmission test, clay rock, nanoDarcy permeability, specific storage
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-31)
+
+Steady-state push-pull measurement with a dual-piston pump gave 0.8 nD water permeability of Tournemire argillite in three days, outperforming pulse decay and PPTT in reliability.
+
+Very low permeability clays are usually measured by transient pulse decay because steady state is thought too slow. The authors tested one Tournemire argillite core (40 mm diameter, 20 mm long, 15 MPa confining, 10 MPa mean pore pressure) with steady state push-pull using a dual-piston Quizix pump, a pore pressure transmission test (PPTT), and a pulse decay test. Four pressure gradients (1 to 2.5 MPa) gave flow rates of 0.005 to 0.01 cc/day and a permeability of 0.82 nD, with flow stabilizing in under three hours per step. PPTT did not reach equilibrium in six days and gave no unique (kw, Ss) pair; with kw fixed it gave Ss of 3.4e-6 1/m. Pulse decay was affected by a micro leak, reservoir storage factor and initial pulse uncertainty, so kw could only be bracketed between 0.2 and 2 nD.
+
+## A Simultaneous Determination of Permeability and Klinkenberg Coefficient from an Unsteady-State Pulse-Decay Experiment
+
+- ID: SCA2008-09, year: 2008
+- Authors: Yves Jannot, Didier Lasseux, Laure Delottier, Gérald Hamon
+- Method: numerical simulation
+- Keywords: pulse-decay permeability, Klinkenberg coefficient, draw-down experiment, inverse modelling, Levenberg-Marquardt, tight rock gas permeability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-09)
+
+An inverse Levenberg-Marquardt method with a complete flow model estimates permeability and Klinkenberg coefficient from draw-down pressure decay; porosity and dead volume errors matter most.
+
+Interpreting pulse-decay and draw-down gas experiments on tight rocks with simplified constant-mass-flow models requires long records and can give unphysical results, such as a negative Klinkenberg b. The authors couple a Levenberg-Marquardt inversion to a complete 1D finite-difference flow model including compressibility and Klinkenberg slip. Tests used noisy synthetic signals for three materials (k = 1e-17 and 1e-19 m², porosity 0.02 and 0.1). For material 2, the simplified model gave b = -5.2e5 Pa, while the full inversion recovered k = 1.0e-17 m² and b = 2.487e5 Pa. Time sampling, errors in sample diameter and length (1e-4 m) and errors in upstream volume (1e-8 m³) had little effect (below about 1.5% extra error on k and 3.3% on b). Porosity errors (±20% for ε ≤ 0.05) and a 1% upstream dead volume caused large errors, up to about 59% in k and over 150% in b, so both must be known precisely.
+
+## The “Step Decay”: A New Transient Method for the Simultaneous Determination of Intrinsic Permeability, Klinkenberg Coefficient and Porosity on Very Tight Rocks
+
+- ID: SCA2012-25, year: 2012
+- Authors: Didier Lasseux, Yves Jannot, Sandra Profice, Mathieu Mallet, Gérald Hamon
+- Method: measurement technique or apparatus
+- Keywords: Step Decay, pulse decay, Klinkenberg coefficient, tight rock permeability, history matching, sensitivity analysis
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-25)
+
+A transient Step Decay method uses measured upstream pressure steps as input and matches downstream response to get permeability, Klinkenberg coefficient and porosity in one test, reproducible across two labs.
+
+Classical pulse-decay tests for tight rocks are sensitive to porosity bias, upstream dead volume, initial pulse pressure error and leaks. Synthetic tests show a 20% porosity error or a dead volume under 1% of V0 can produce errors of roughly 65–940% on k1 and b. The Step Decay method imposes the measured upstream pressure P0(t) as a boundary condition and history-matches only the downstream build-up P1(t), removing dependence on V0, dead volume and leaks. Applying multiple pressure steps raises sensitivity to porosity and decorrelates k1 and b. Synthetic cases (10 µD to 10 nD) recovered parameters within 0.5%. Three plugs tested independently in two laboratories agreed within about 27% on k1, 30% on b and 6% on porosity.
+
+## Low Permeability Measurements: Insights
+
+- ID: SCA2015-021, year: 2015
+- Authors: Sandra Profice, Gérald Hamon, Benjamin Nicot
+- Method: laboratory experiment
+- Keywords: Step Decay permeability, Pulse Decay, Klinkenberg coefficient, pyrophyllite, shale permeability, round-robin test
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-021)
+
+Step Decay, Pulse Decay and steady-state tests on pyrophyllite and shale agree, supporting Darcy-Klinkenberg flow; a round-robin shows modest inter-laboratory discrepancies when plugs are untreated.
+
+Reported inter-laboratory permeability discrepancies of several decades in tight rocks motivated a comparison of methods and interpretation models. Five pyrophyllite plugs (10-60 nD, ~20 nm pore throats) and two shales were tested with Step Decay, Pulse Decay and gas steady-state, plus liquid steady-state on one plug, with porosity checked by helium pycnometry. Step Decay and Pulse Decay kl differed by 5-17% and steady-state gas versus Pulse Decay by 19-40%. Klinkenberg plots were linear despite Knudsen numbers of 0.04-3.8, supporting Darcy-Klinkenberg flow, with deviations only at short times. In a round robin on untreated whole plugs, laboratory results differed from Total's by 9-27% (steady-state) and 31-118% (unsteady-state), a maximum factor of 3.8. The authors conclude that sample preparation, not interpretative models, likely causes large discrepancies and recommend whole-plug measurements.
+
+## Low permeability measurement on crushed rock: insights
+
+- ID: SCA2019-016, year: 2019
+- Authors: Sandra Profice, Roland Lenormand
+- Method: laboratory experiment
+- Keywords: GRI crushed rock permeability, Klinkenberg coefficient, DarcyPress, Step Decay, pressure pulse decay, interlaboratory comparison
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-016)
+
+Three commercial labs' GRI crushed-rock permeabilities on pyrophyllite, shale and clayey sandstone were compared with DarcyPress and Step Decay; crushed-sample results were more dispersed and mostly lower.
+
+The study benchmarks GRI crushed-rock permeability measurements from three commercial laboratories against DarcyPress (10x5 mm) and Step Decay (23x25 mm plugs) on pyrophyllite, shale and clayey sandstone (1–50 nD). DarcyPress and Step Decay agreed for pyrophyllite and shale, but differed by up to a factor of 5 in kl for the clayey sandstone. Fewer than 50% of the laboratories' apparent permeabilities fell in the expected ranges, and the rest were mostly lower, by factors of 3.5 to 28. SEM images showed fractures in crushed particles but not in the plug, suggesting crushing damages the rock rather than removing microfractures. Two labs' pressure signals were long, not stabilized and affected by artifacts or thermal effects. The authors' own GRI device, built to minimize artifacts, gave kapp values closer to expected, and dispersion grew as sample characteristic length decreased.
+
+## Low Permeability Rocks: Validation of Routine Core Properties
+
+- ID: SCA2017-068, year: 2017
+- Authors: F. Pairoys, P. Gramin, W. Xu
+- Method: laboratory experiment
+- Keywords: Klinkenberg permeability, pressure falloff, steady-state permeability, helium vs nitrogen, gas slippage, low permeability
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-068.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-068)
+
+Pressure falloff helium Klinkenberg permeability overestimates nitrogen steady-state reference values below 1 mD on 18 plugs; nitrogen falloff reduces but does not remove the bias.
+
+The paper checks whether Klinkenberg permeability from the unsteady-state pressure falloff method (helium) matches four-point steady-state nitrogen references. Eighteen plugs of various rock types, spanning about 0.001 to 10,000 mD, were tested at 800 psi confining pressure and judged against Thomas and Pugh acceptance criteria (±35% below 0.01 mD). Porosity was within criteria, and helium permeability agreed above 1 mD. Below 1 mD helium values were higher than reference, with error growing as permeability fell. Re-measuring the out-of-criteria samples with nitrogen in pressure falloff lowered values into the acceptance limits, but they stayed slightly above steady-state values. Hypotheses include model and integration differences, non-isothermal effects, and nitrogen adsorption.
+
+## Small Scale Permeability Measurements at Evelated Pressures: Analysis and Correction of Experimental Error Using Micro Xray-CT
+
+- ID: SCA2013-032, year: 2013
+- Authors: S.M. Alizadeh, N. Francois, J. Middleton, S. Latham, A. Limaye, T. Senden, C.H. Arns
+- Method: digital rock or imaging
+- Keywords: sleeve boundary effects, lattice Boltzmann permeability, micro-CT triaxial cell, core damage, topological pore partitioning, confining pressure
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-032.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-032)
+
+Micro-CT images of small plugs in a triaxial cell, with lattice Boltzmann flow including the sleeve, quantify sleeve-bypass errors in permeability, up to 15x for Castlegate.
+
+Permeability measurements on 5-7 mm plugs under confining stress suffer from sleeve-boundary bypass and coring damage. Bentheimer and Castlegate sandstone, Mt Gambier limestone and a sucrosic dolomite were imaged by micro-CT in a beryllium triaxial cell with a heat-shrink sleeve. Lattice Boltzmann simulations on full plugs including the segmented sleeve were compared with epoxy-closed boundaries, and flux was partitioned by Euclidean and topological distance from the sleeve. Open/closed permeability ratios were 1.5 (Bentheimer), 15 (Castlegate), 2.1 (Mt Gambier) and 1.3 (dolomite), with boundary regions covering 21-57% of sample volume. Castlegate showed a damaged zone at the rim that was removed by loading to 1700 psi. Numerical sleeve filling allows boundary-free permeability-deformation relationships.
+
+## DarcyShale: An improved GRI method for more reliable measurements on low permeability samples
+
+- ID: SCA2021-024, year: 2021
+- Authors: Roland Lenormand, Sandra Profice
+- Method: measurement technique or apparatus
+- Keywords: GRI crushed rock permeability, pulse decay, thermal artifact, Klinkenberg correction, shale, nitrogen versus helium
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-024.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-024)
+
+DarcyShale modifies the GRI crushed-rock permeability method with a pressurized-sample pulse-decay design, nitrogen and added fine powder, suppressing thermal artifacts and enabling Klinkenberg correction and porosity-based quality control.
+
+Standard GRI permeability tests on crushed rock are corrupted by thermal effects at early times and cover a wide pore-pressure range that prevents Klinkenberg correction. The authors built a device (V1 0.8 cc, V2 8 cc, up to 10 barg) in which the sample is pressurized and then vented into a small volume, giving average pressures of 9-10 bar. They measured blank responses on a 10 mD brick (BLM) and glass beads, and tested N2, He and Kr on shale and pyrophyllite samples. Adding fine powder (diatomite, flour, talc) cut the blank amplitude at 1 s by about a factor of 10, and nitrogen gave the best contrast with the blank. With powder, simulations matched the data using the true porosity (0.045 pyrophyllite, 0.13 shale), which serves as a quality check; without powder they did not. Klinkenberg plots on shale gave about 9.6 nD (N2) and 9.4 nD (Kr), with b of 33 and 8.6 bar.
+
+## Investigation of Permeability Anomalies
+
+- ID: SCA2011-11, year: 2011
+- Authors: Andrew Cable, Mike Burke
+- Method: theory or analytical model
+- Keywords: relative permeability, permeability anomaly, filamentous illite, lubrication effect, residual oil saturation, pore-scale model
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-11)
+
+Reviews permeability anomalies (phase-dependent absolute permeability, kro and krw above unity) and uses a simple pore-scale force model to show krw>1 is plausible.
+
+Relative permeability end points sometimes exceed unity, and absolute permeabilities can differ between gas, brine and oil. The paper reviews causes: non-Darcy gas flow, filamentous illite swelling/shrinkage, and a lubrication effect by the wetting phase. Centrifuge data on six plugs gave kro of 1.03 to 1.26 at Swi, and imbibition data gave krw up to 1.28 at Sor. A simple cuboid-pore model combining drag and collision forces predicts krw above 1 for Sor below about 3.5%, with a maximum of 1.32 at Sor of 0.5%. The authors argue such data should not be automatically disqualified, and that simulation input only requires consistent normalisation with block permeability.
+
+## Principles, Practice and Applications of Laboratory Minipermeametry
+
+- ID: SCA1990-27EURO, year: 1990
+- Authors: Christian Halvorsen, Andrew Hurst
+- Method: measurement technique or apparatus
+- Keywords: minipermeameter, probe permeametry, Hassler-sleeve calibration, permeability heterogeneity, sampling density, core handling
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-27EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-27EURO)
+
+Describes Statoil's automated laboratory minipermeameter, its calibration against Hassler-sleeve plugs and an analytical solution, core handling changes, and applications showing dense minipermeameter data better capture heterogeneity.
+
+The paper argues that laboratory minipermeametry should become a routine core analysis method because it is non-destructive, cheap and fast. Statoil's automatic minipermeameter uses an x,y-table with 0.01 mm positioning, constant-pressure nitrogen flow (10-900 mbar), a ~25 N probe force, and measures about 1 mD to 15 D with better than 3% uncertainty and 1% repeatability. Calibration with homogeneous plugs and the Goggin et al. analytical solution agreed well for the large probe (Kmp/Ka about 0.97-1.01) but underestimated permeability by about 20% for the small probe. Edge effects were found to be small (<5% even with half the seal over an edge), and revised core handling procedures are proposed to preserve core for measurement and geological description. Dense-grid data revealed heterogeneity beyond CT-scan images, up to 41% permeability differences between adjacent faces, net sand definition in laminated reservoirs, and N0 tests showing plug sampling at 25 cm intervals is statistically inadequate.
+
+## Pore Structure Characteristics of Low Permeability Shales from Deep Formations
+
+- ID: SCA1990-10, year: 1990
+- Authors: T.J. Katsube, T.B. Murphy, M.E. Best
+- Method: laboratory experiment
+- Keywords: shale pore structure, mercury porosimetry, formation factor, surface resistivity, clay-lined surfaces, diagenesis
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-10)
+
+Porosity, mercury porosimetry, formation factor, resistivity and texture data on ten deep Venture field shales suggest clay-lined surface networks distinct from macropore networks control ionic transport.
+
+Ten shale samples from 4693-5557 m in the Venture Gas Field, offshore Nova Scotia, were studied to understand pore structure and diagenetic controls on very low permeability. Effective porosity (0.8-9.3%), formation factor (240-1600, with 17600 for one sample), bulk and surface resistivity, mercury porosimetry and XRD/SEM/thin-section texture analysis were combined. Pore size distributions are unimodal in the 2.5-25 nm range with geometric means of 8.7-16.2 nm, and are classed as Type A, B or AB. Pore sizes derived from permeability and formation factor (9-11 nm) match the mercury means, indicating that pores larger than 25 nm are not part of the main flow paths. Comparison of porosity and resistivity parameters indicates a network of clay-lined surfaces that need not coincide with the macropore network, so diffusion may persist even where cementation blocks pores to flow.
+
+## Permeability Imaging for Detailed Reservoir Characterisation
+
+- ID: SCA1991-22EURO, year: 1991
+- Authors: Lawrence T. Bourke, Reservoir Studies
+- Method: measurement technique or apparatus
+- Keywords: nitrogen minipermeameter, permeability imaging, FMS microresistivity image, cement distribution, massive sandstone, primary bedding fabric
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-22EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-22EURO)
+
+Fine-grid nitrogen minipermeameter imaging of visually massive sandstones reveals hidden bedding and cement distribution, and corroborates borehole microresistivity images.
+
+Visually massive sandstones often hide primary bedding and diagenetic cement patterns. The author used a nitrogen minipermeameter (3.5-4 mm probe tip, 4 mm grid) to image sawn slabs and one whole core from three massive sandstones (Hopeman, Millstone Grit, a North Sea reservoir) and one cross-bedded sandstone (Burghead). Permeability images revealed planar lamination and bedding not visible in core photographs, and matched FMS microresistivity images in the North Sea example. Image quality degraded at 6-8 mm grid spacing, and surface defects or inconsistent cleaning caused artefacts. In the Hopeman sandstone, light and dark laminae about 1 cm wide differed in permeability by about 15% around a 1.35 D mean. Image binarisation allowed areal percentages of cemented beds to be quantified, bridging thin-section and log scales.
+
+## Shale Pore Structure Evolution and Its Effect on Permeability
+
+- ID: SCA1992-14, year: 1992
+- Authors: T.J. Katsube, M. Williamson, M.E. Best
+- Method: data analysis or correlation
+- Keywords: shale permeability, nano-pores, mercury porosimetry, formation factor, diagenesis, compaction and burial
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-14)
+
+Shales from Canadian frontier basins show porosity, pore size and permeability falling with burial, with nano-pores (modes 2.7-12 nm) controlling permeability and cementation blocking flow paths.
+
+The paper examines how compaction, burial and diagenesis shape shale pore structure and permeability, to support hydrocarbon migration modelling in Canadian frontier basins. Shales from 1000-4100 m in the Beaufort-MacKenzie Basin and 4500-5600 m on the Scotian shelf (Venture Gas Field) were studied with mercury porosimetry, formation factor, permeability, immersion porosity, XRD, SEM and thin sections. Porosity falls from 30% at 1000 m to 5-10% at 2500-4000 m, the pore-size mode shrinks from ~200 nm to 10-20 nm, and permeability drops 6-10 orders of magnitude to 10^-22-10^-20 m2. In the deep Scotian samples 70-80% of porosity lies in 0.5-100 nm nano-pores; a normal-distribution fit adds 0.2-4.0% missing porosity, improving agreement with immersion porosity (r=0.96). Flow-path sizes from permeability and formation factor match nano-pore modes, about 50-60% of nano-pores carry flow above a critical nano-pore porosity of ~6%, and late dolomite or other cement blocks 70-80% of nano-pores in samples of 1.5-2.5% porosity.
+
+## Investigation of Discrepancies in Laboratory Measurements of Liquid Permeability
+
+- ID: SCA1994-09, year: 1994
+- Authors: F. M. Nakagawa, S. F. Rinehart, La Habra
+- Method: laboratory experiment
+- Keywords: miscible solvent cleaning, liquid permeability, dissolved gas, ternary phase diagram, gravity-stable displacement, glass micro-model
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-09)
+
+Glass micro-model, phase-diagram and Berea core flow tests show that incomplete miscible cleaning, gas evolution and gravity effects cause erroneous liquid permeability; degassing and gravity-stable flushing are recommended.
+
+Discrepancies in laboratory liquid permeability are investigated, focusing on experimental technique and fluid properties during miscible flow-through cleaning and saturation. Ternary phase diagrams (3% KCl brine, toluene, methanol) show that 2% hydrocarbon contamination greatly enlarges the two-phase region. GC effluent analysis on a Berea core and glass bead-pack micro-models show that toluene and methanol flushes leave residual contamination that appears as phase separation when brine is injected, even with clean fluids. Permeability tests on Berea in a Hassler cell show that non-degassed or resaturated fluids cause dramatic permeability changes because gas evolves when brine displaces methanol. Gravity-stable vertical flushing improved cleaning in micro-models, but bottom injection of methanol produced fingering and poor cleaning; the authors recommend in-line degassing, backpressure and gravity-stable flush capability.
+
+## Resistivity and Permeability Mapping at the Lamina Scale
+
+- ID: SCA1994-15, year: 1994
+- Authors: M.A. Jackson, D.G. Bowen, J.L. Jensen, A.C. Todd
+- Method: measurement technique or apparatus
+- Keywords: probe permeameter, resistivity probe, formation factor, lamina-scale heterogeneity, aeolian sandstone, permeability prediction
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-15)
+
+A new resistivity probe with permeameter-matched geometry maps a laminated sandstone, showing a strong lamina-scale formation factor–permeability correlation (R²=0.90).
+
+Published resistivity–permeability correlations are usually weak, which the authors attribute to unaccounted heterogeneity within the sampled rock volumes. They built a resistivity probe whose tip geometry matches a pressure-decay probe permeameter and mapped a laminated aeolian Locharbriggs sandstone slab on a 2 mm grid. Permeability ranged from 56 to 3900 mD, and resistivity was measured in brine-saturated (100,000 mg/l NaCl) conditions on part of the slab. Resistivity and permeability maps looked alike and showed the same low-permeability lamination. A log-log fit of formation factor against permeability gave R²=0.90, k_est = 1.29×10^9 F^-5.8 (the printed Eq. 5 omits the negative sign), predicting permeability to within about ±40%. The relationship is expected to be facies-specific, and brine degradation limited the scanned area.
+
+## Coupling of Wall-Slip and High-Velocity Flow for Determination of Gas Permeability
+
+- ID: SCA1995-22, year: 1995
+- Authors: E. Skjetne, J. S. Gudmundsson
+- Method: laboratory experiment
+- Keywords: Klinkenberg correction, Forchheimer inertial resistance, wall-slip gas flow, high-velocity gas flow, tight sandstone permeability
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-22)
+
+Gas flow experiments on a tight sandstone show wall-slip and high-velocity inertial flow are coupled; the coupled Model B fits better than uncoupled Model A.
+
+Gas permeability determination at high velocity normally applies Klinkenberg and Forchheimer corrections separately. The authors compare an uncoupled model (Model A, Jones) with a coupled model (Model B, Skjetne and Gudmundsson) using nitrogen flow through a short, tight Obernkirchner sandstone plug (9.55 mm long, porosity 0.2015). Low-velocity Klinkenberg tests gave kl = 6.914e-15 m2 and b = 3.35e4 Pa, taken as true values. In a 64-point high-velocity series, Model A with fixed kl and b fit poorly, while Model B fit well. When all parameters were fitted, Model A underestimated kl by 21% and overestimated the rock-dependent Klinkenberg term by 935%, versus 6.7% and 50% for Model B. The simple approximation of Model B (Eq. 9) is recommended.
+
+## The Effect of Water Saturation on Gas Slip Factor by Pore Scale Network Modeling
+
+- ID: SCA2002-53, year: 2002
+- Authors: Liu Qingjie, Liu Baohua, Li Xianbing, Yan Shouguo
+- Method: numerical simulation
+- Keywords: Klinkenberg slip factor, pore network model, Adzumi gas flow, invasion percolation, tight gas permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-53)
+
+A triangular-lattice pore network model with Adzumi's dual viscous-slip gas flow reproduces the Klinkenberg effect and predicts the slip factor decreasing with permeability and water saturation.
+
+Gas permeability in tight rocks depends on mean pressure (Klinkenberg effect), and the reported dependence of the slip factor on water saturation is contradictory. The authors built a pore network model on a regular triangular lattice (coordination number 6, 100 x 100, over 120,000 throats) with Weibull-type throat radius distributions. Each capillary carries Poiseuille plus Knudsen slip flow following Adzumi's superposition, with the Adzumi factor defined as the slip-layer area ratio. Simulations reproduce Klinkenberg behavior, with log b linear in log k (b proportional to k^-m, m depending on the radius distribution). With water distributed by invasion percolation, the slip factor decreases as water saturation increases, with a smaller change above Sw of 20%. The authors argue that differing results in the literature may reflect channel flow versus funicular flow of the water phase.
+
+## Anomalous Declines in Liquid Permeability
+
+- ID: SCA2009-33, year: 2009
+- Authors: N. Bona, M. Anelli, M. Rosania Eni E
+- Method: laboratory experiment
+- Keywords: liquid permeability decline, cavitation nuclei, gas microbubbles, backpressure, Klinkenberg permeability, long-term flow test
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-33)
+
+Month-long low-rate flow tests on two sandstones show reversible liquid permeability decline, attributed to gas microbubbles or cavitation nuclei rather than fines migration.
+
+Long-term single-phase flow tests were run on two sandstone samples, a 400 md medium-grained and a sub-1 md fine-grained one. They were flowed for about a month with brine or Soltrol oil at Darcy velocities up to 15 cm/day, with and without 2000 psi backpressure. Liquid permeability declined during flow, more for water than oil, more for undegassed than degassed liquids, and more at ambient pressure, where it never stabilized. Klinkenberg permeability was recovered after cleaning and drying. Fines migration, clay-water interaction, scale and bacteria were judged incompatible with the results, so the authors attribute the decline to gas microbubbles, either artificial or naturally occurring stabilized cavitation nuclei. They suggest backpressure should be used in long-term flow tests to avoid bubble damage.
+
+## First Non-Contact Mini-Permeameter
+
+- ID: SCA2012-45, year: 2012
+- Authors: Naim Al-Jabari, Dave Bowen, Brian Smart, Jim Somerville
+- Method: measurement technique or apparatus
+- Keywords: mini-permeameter, non-contact permeability, apparent gas-distance, pressure-decay, permeability mapping, laser distance sensor
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-45.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-45)
+
+A patented non-contact mini-permeameter uses a gas distance sensor's apparent distance to estimate permeability, measuring 400-15,000 mD about 12,000 times faster than pressure-decay devices.
+
+Conventional mini-permeameters must seal against the core, which is slow, can break samples and has poor repeatability. The authors developed a non-contact device based on an 'apparent gas-distance' principle: a nozzle with an inner blowing and outer sucking cylinder is held at constant height by a laser distance sensor, and gas lost into the rock makes the measured distance larger than the true distance. Calibration used two synthetic ceramic samples (1900 and 2700 mD) measured with a pressure-decay mini-permeameter, giving a linear relation P = 5000·D (mD, mm). Repeatability was 98%, response time about 5 ms per point and resolution up to 0.0125 mm, and permeability maps of a real slab were produced in hours. The reliable range of the prototype is 400-15,000 mD, with limitations from coarse grains (>0.5 mm), dusty or unconsolidated samples and noise from crystalline grains.
+
+## Tight Rock Permeability Measurement by Pressure Pulse Decay and Modeling
+
+- ID: SCA2013-010, year: 2013
+- Authors: Xiangmin Zhang, Christopher J. Spiers, Colin J. Peach, Albert Hebing
+- Method: measurement technique or apparatus
+- Keywords: pressure pulse decay, tight rock permeability, Klinkenberg effect, mercury injection capillary pressure, gas shale, nitrogen virial compressibility
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-010)
+
+A new temperature-compensated pulse decay permeameter measured nanodarcy-to-microdarcy permeability of tight rocks; results exceeded steady-state values and were generally higher than MICP-modeled permeability.
+
+The paper describes a pressure pulse decay permeameter built for tight rocks, with temperature-compensated transmitters, multiple reservoir volumes, confining pressure to 700 bar and pore pressure to 300 bar. Blank runs with an impermeable plug showed leakage equivalent to less than 0.5 nD and were used to derive a temperature correction. Thirty-two measurements on 21 limestone, gas shale, oil shale and siltstone plugs gave 0.01 to 113 microdarcy, processed with a Brace-type method using nitrogen viscosity and virial compressibility. Sample LS10 gave a Klinkenberg permeability of 6.03 microdarcy, and BS-1 permeability fell about threefold when confining pressure doubled. Pulse decay values were consistently higher than steady-state values on four samples, and MICP-based permeability from a cylindrical-pore model was of the same order but generally lower than pulse decay.
+
+## CONTRIBUTION OF THE STEADY STATE APPROACH FOR COMPLEX GAS TRANSFER IN UNCONVENTIONAL RESSOURCES Boulin, P.F. IFP Energies nouvelles, 1-4 avenue de Bois-Préau, 92852 Rueil-Malmaison, France
+
+- ID: SCA2013-030, year: 2013
+- Authors: P.F. Boulin
+- Method: numerical simulation
+- Keywords: steady state permeability, Klinkenberg effect, surface diffusion, Langmuir isotherm, pulse decay, shale gas
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-030)
+
+Simulations show steady state gas experiments on shale can be as fast as pulse decay and can yield Klinkenberg, surface diffusivity and Langmuir parameters.
+
+Transient pulse decay is usually preferred for shale gas characterization, with steady state considered too slow. Using COMSOL finite element simulations of a hypothetical 10 nD nitrogen sample (2-20% porosity), the paper shows steady state flux stabilizes in hours (about 3 h at 2% porosity), comparable to the ~100 h pulse decay. A protocol is proposed: determine k∞ and bk with an inert gas, predict the methane Klinkenberg coefficient by Knudsen scaling, attribute excess methane flux to surface diffusion (Ds), and fit the transient flux stabilization to adjust Langmuir parameters. In an example, bk rises from 25 bar (no surface diffusion) to 38 bar with Ds = 5e-9 m2/s, and the apparent bk is proportional to Ds. Reservoir-scale simulations show Klinkenberg and sorption matter in a low pressure scenario (80 to 5 bar) but little in a high pressure one (250 to 100 bar), and surface diffusion has limited impact.
+
+## Particle size effect on porosity and specific surface area measurements of shales
+
+- ID: SCA2014-013, year: 2014
+- Authors: Ali Tinni, Carl Sondergeld, Chandra Rai
+- Method: laboratory experiment
+- Keywords: shale porosity, mercury injection capillary pressure, BET specific surface area, particle size effect, crushed rock helium porosity, conformance correction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-013.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-013)
+
+MICP porosity and BET surface area of six Haynesville, Barnett and Wolfcamp shales rise as particles get smaller, reflecting improved pore accessibility rather than new cracks.
+
+Porosity and specific surface area of shales are usually measured on crushed samples, raising concerns about crushing damage and comparability with intact rock. Six shales (two each from Haynesville, Barnett, Wolfcamp) were crushed to 5.7, 3.5, 1.6 and 0.7 mm for conformance- and blank-corrected MICP porosity, and to 1.6, 0.7 and 0.07 mm for N2 BET surface area; crushed helium porosity was also measured. MICP porosity was roughly constant down to 1.6 mm, then increased below that, by up to a factor of 2 in low-porosity samples; high-clay samples H-1 and B-2 rose steadily (34% and 87%). Crushed helium porosity always exceeded MICP porosity, by an average factor of 2.3 at 5.7 mm and 1.5 at 0.7 mm. Surface area was constant from 1.6 to 0.7 mm but increased from 0.7 to 0.07 mm, which together with the unchanged area at 1.6–0.7 mm suggests negligible new crack creation.
+
+## A Case Study of Fluid Transport in Shale Crushed Samples: Experiment and Interpretation
+
+- ID: SCA2014-071, year: 2014
+- Authors: Tianhao Wu, Zheng Jiang, Dongxiao Zhang
+- Method: laboratory experiment
+- Keywords: crushed shale pulse-decay, Knudsen diffusion, methane adsorption, molecular dynamics, intrinsic permeability, Klinkenberg slip
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-071.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-071)
+
+Pulse-decay tests on crushed Ordos shale, interpreted with a Knudsen diffusion and adsorption model supported by MD simulation, give nanodarcy permeabilities and indicate dual-porosity behavior.
+
+Shale matrix permeability is hard to measure, and crushed-sample pulse-decay tests need models that capture slip, transition flow and adsorption. The authors ran equilibrium MD of methane in a carbon slit pore (30x4x2 nm, 300 K, ~10 MPa), finding number density strongly enhanced near the wall while self-diffusion velocity stays flat. Triassic Ordos shale (porosity 12.58%, bulk density 2.13 g/cm3, MICP pore peaks near 9 nm and <3 nm) was crushed and tested with CH4 and CO2 after measuring Langmuir isotherms. Numerical fitting of pressure decay with a model including Knudsen correction and adsorption gave intrinsic permeabilities of 4.2 nD (early-time) and 1.8 nD (late-time) for CH4 and 3.9 nD for CO2. The two-stage CH4 decay that cannot be fitted with one permeability suggests dual-porosity behavior, not seen in CO2, which has higher apparent permeability.
+
+## Improved Core Analysis Measurements in Low Permeability Tight Gas Formations
+
+- ID: SCA2015-020, year: 2015
+- Authors: S. Kryuchkov, J. Bryan, D. Burns, A. Kantzas
+- Method: laboratory experiment
+- Keywords: tight gas, NMR, Dean-Stark extraction, transient pressure permeability, gas expansion porosity, residual water saturation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-020)
+
+Six tight gas carbonate plugs were measured with NMR, gas expansion and steady-state versus transient permeability before and after Dean-Stark; transient analysis is more reliable below 1 µD.
+
+Routine core analysis is unreliable in micro-Darcy tight gas rock, so six plugs from the Ferrier field were tested as received and after extended Dean-Stark cleaning (three weeks of solvents plus oven drying). Low-field NMR gave liquid volumes, gas expansion gave effective porosity, and gas permeability was obtained by steady-state flow and by history matching of transient pressure data at 14.9 MPa overburden. Effective porosity rose after cleaning (e.g. SP16A 5.57 to 10.10%), while total porosity from gas expansion plus NMR water stayed essentially constant (10.62 vs 10.59%). Gas permeability rose roughly five- to tenfold after cleaning (e.g. SP33A 2.36 to 12.51 µD steady state), and residual water of 2-15% remained, so post-cleaning values are still effective rather than absolute. Steady-state results deviated from transient ones below about 1 µD, and NMR residual water agreed well with mass balance.
+
+## Gas Migration Through Self-Sealed or Intact Claystone
+
+- ID: SCA2015-046, year: 2015
+- Authors: Yang Song, C. A. Davy, F. Skoczylas, CS Villeneuve
+- Method: laboratory experiment
+- Keywords: gas breakthrough pressure, Callovo-Oxfordian claystone, snap-off, self-sealing, gas permeability, mass spectrometer
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-046.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-046)
+
+Gas breakthrough in water-saturated COx claystone occurs first by discontinuous capillary snap-off then continuous flow; self-sealed samples break through at 1.45-3 MPa versus about 4.4-5.4 MPa undisturbed.
+
+Gas migration through fully water-saturated Callovo-Oxfordian claystone is studied for deep nuclear waste storage, comparing macro-cracked then self-sealed samples with undisturbed ones. Samples 37 mm in diameter and 9.5-30 mm thick were saturated with water under 6-12 MPa confinement, then argon or an argon/helium mix was applied upstream with slow pressure steps. Downstream detection used an argon detector, pressure rise rate and a mass spectrometer (2-5 ppm). Gas first passed discontinuously (capillary snap-off, with helium peaks upon valve opening not explained by diffusion), then continuously, with gas permeability around 1.6x10^-21 m2 at breakthrough. GBP was 1.45-3 MPa for self-sealed samples and 4.38-5.4 MPa for undisturbed ones, and was not repeatable across re-saturation cycles. Self-sealed claystone therefore seals water but does not recover the gas-tightness of intact rock.
+
+## Determining gas permeability in tight rocks: How do we know if we are obtaining the right value?
+
+- ID: SCA2016-010, year: 2016
+- Authors: Carlos A. Grattoni, Samuel Allshorn, Quentin J. Fisher
+- Method: measurement technique or apparatus
+- Keywords: gas permeability standards, Klinkenberg slip factor, pulse-decay permeability, capillary reference plugs, Hagen–Poiseuille, tight rocks
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-010)
+
+Capillary-based reference plugs (11 nD to 5.9 mD) with calculable permeability validate steady-state and pulse-decay gas permeameters and show the Klinkenberg constant C depends on capillary size.
+
+Gas permeability measurements on tight rocks disagree widely between laboratories, and no reference standards exist at low permeability. The authors built standards from glass and fused silica capillaries (5–75 µm) embedded in PVC cylinders 38 mm in diameter and about 50 mm long, with permeability calculable from Hagen–Poiseuille flow. A second, more robust set includes an internal pore volume. Helium permeability was measured by steady-state and pulse-decay methods in a PDP200 and a Wolfson Transient Permeameter at several pore pressures. Klinkenberg-corrected permeabilities agreed with theory within capillary manufacturing tolerance, and the slip factor required a constant C that is not unity but scales with capillary size (C of about 2.5 for 5 µm capillaries).
+
+## Alternative Approaches for Transient-Flow Laboratory-Scale Permeametry
+
+- ID: SCA2016-061, year: 2016
+- Authors: Michael J. Hannon Jr
+- Method: theory or analytical model
+- Keywords: pressure-pulse decay, shale permeability, crushed rock permeametry, radial flow, particle size distribution, pseudo-pressure
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-061.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-061)
+
+Proposes analytical models for bidirectional and radial pulse-decay permeametry and for crushed particles with a size distribution, cutting test times by roughly 8-18 times versus conventional pulse decay.
+
+Conventional pressure-pulse-decay permeametry is slow for ultra-low permeability shales and caprocks, and crushed-sample models assume uniform particle size. The paper derives analytical models, using pseudo-pressure and pseudo-time transforms, for bidirectional axial pulses, radial flow into a sealed-end cylinder, and a discrete size distribution of spherical particles. The bidirectional scheme halves the characteristic length and can also detect a single permeability discontinuity along the core. For a plug with diameter equal to length, time to decay to within 0.01% of equilibrium is 7.8 times shorter for bidirectional and 17.6 times shorter for radial flow than for unidirectional flow. Crushed particles (Table 1 sieve distribution, equivalent radius 1.08 mm) are over 2,500 times faster but have documented accuracy limits.
+
+## Klinkenberg Permeability by Pressure Decay on Tight Rocks
+
+- ID: SCA2016-066, year: 2016
+- Authors: Xiangmin Zhang, Albert Hebing
+- Method: laboratory experiment
+- Keywords: Klinkenberg permeability, pressure decay, pressure pulse decay, Brace method, gas slippage factor, tight rocks
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-066.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-066)
+
+Compares steady-state, pulse decay and pressure decay Klinkenberg permeability on four tight samples; pressure decay processed with Brace's method matches steady-state, while Jones' method overestimates.
+
+Unsteady-state methods are known to give higher Klinkenberg permeability than steady-state measurements in tight rocks. Four samples (millidarcy to microdarcy) were measured at 500 psi effective confining pressure using steady-state (mass flow meter or soap-bubble micropipette), pressure pulse decay, and pressure decay (draw-down) with nitrogen and helium, with kerosene oil permeability as reference. Pressure decay data processed with Brace's method matched steady-state Klinkenberg permeability and was close to oil permeability. The industry Jones-method calculation gave values about 50% higher for S1 and about two times higher for S2 and S3. Pressure pulse decay and draw-down agreed on the same apparatus, and the slip factor b could also be obtained. The sample set is limited, and more work over a wider permeability range is planned.
+
+## New Approach to Evaluation of Coal Permeability in Underground Coal Mines (CBM)
+
+- ID: SCA2016-097, year: 2016
+- Authors: Budak P, Szpunar T, Leśniak G
+- Method: field or reservoir case study
+- Keywords: coal permeability, coalbed methane, confining pressure, slug test, fracture permeability, packer injection test
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-097.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-097)
+
+Compares laboratory coal permeability at confining pressures with in situ slug and injection well tests in a Silesian mine, finding rough agreement around 0.1–0.4 mD.
+
+Coal permeability is key to methane production, but plugs cut from mine corridor walls contain fractures from mining and stress relief that may bias lab results. Plugs parallel and perpendicular to bedding were measured at 400–1600 psi confining pressure on a Temco system, with porosity of 1.32–12.7% and specific surface up to 29 m2/g. Permeability depended strongly on confining pressure, indicating fracture control. At 1600 psi, average lab permeability was 0.28 mD (parallel) and 0.40 mD (perpendicular). In situ tests gave 0.18 mD (vertical well slug test), with wellbore-zone fracture permeability 1.71 mD and matrix 0.128 mD, and 0.13 mD in the horizontal well with packers. Lab and well-test results agreed roughly.
+
+## Workflow for Measurement of Steady-State to Liquid Permeability in Nano-Darcy Reservoir Rock
+
+- ID: SCA2017-038, year: 2017
+- Authors: Robert L. Krumm, James J. Howard, Houston TX
+- Method: measurement technique or apparatus
+- Keywords: steady-state permeability, nano-Darcy shale, micro-CT screening, NMR T2 relaxation, decane saturation, crushed rock analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-038.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-038)
+
+A workflow combining micro-CT crack screening, NMR liquid volumes and steady-state decane flow measures nano-Darcy matrix permeability in shale plugs, giving values one to two orders below crushed-rock results.
+
+Measuring permeability of unconventional rocks is hampered by micro-cracks and by uncertain as-received liquid content. The authors propose a workflow using rapid low-resolution micro-CT (~58 µm) to screen plugs, trimming and epoxy-potting cracked samples, low-field NMR to track liquid volumes, and decane pressure saturation (2500 psi, 150°F). Steady-state permeability to oil is measured in a Hassler cell at 160°F and 240 atm confining pressure, at flow rates of 0.01–0.2 cm³/hr, with tests lasting 7–14 days. Tests on marl and argillaceous marl plugs showed point-by-point and graphical Darcy results within 3%, and replicates within 5% over 20–1000 nD. SSKo permeabilities were one to two orders of magnitude lower than crushed-rock results at similar porosity, and sum-of-fluids porosity matched NMR volumes on saturated plugs.
+
+## Application of Core Analysis Techniques for Tight Rocks for the Investigation of Borehole Cement
+
+- ID: SCA2017-049, year: 2017
+- Authors: Marisa B. Rydzy, James Heathman, Chad Broussard, Jorge Patino, Nours Elmetni, Aaron Dhaemers, Matthias Appel
+- Method: laboratory experiment
+- Keywords: borehole cement, water permeability, nano-Darcy permeability, MICP pore-throat size, NMR T2, MXCT bubble analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-049.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-049)
+
+Shale-type permeability, NMR, MICP and MXCT methods applied to five borehole cements show nano-Darcy water permeability controlled by pore-throat size, with bubbles negligible and dried gas permeability inflated.
+
+Borehole cement permeability is widely scattered in the literature, so the authors applied core analysis methods developed for shale and tight sand to plugs from five Portland cement mixtures (classes H, A, G with additives). Steady-state water permeability was measured at 4.5 MPa effective stress, alongside NMR T2, MICP on crushed cement, and MXCT bubble analysis in ImageJ. Water permeability was 0.5–10 nd and declined over 11 days of testing as cement cured; Cement 1 was highest, extrapolating to about 200 nd at day 10. Permeability correlated with the MICP weighted-average pore-throat size (below 1000 nm) but not with porosity or log mean T2. Bubbles occupied only 0.2–1% of volume and were isolated, so their effect was negligible. Gas permeability on dried plugs was 2·10^5–4.5·10^5 nd at 500 psi, orders of magnitude above water values, attributed to drying-induced cracks and slippage.
+
+## A Comparative Study of Shale Pore Structure Analysis
+
+- ID: SCA2017-092, year: 2017
+- Authors: R. Cicha-Szot, P. Budak, G. Leśniak, P. Such
+- Method: laboratory experiment
+- Keywords: Klinkenberg gas slippage, pulse decay permeability, mercury intrusion capillary pressure, nitrogen adsorption, FIB-SEM, shale pore size
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-092.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-092)
+
+Pore sizes of ten Baltic Basin shales from Klinkenberg slippage under stress are compared with MICP, nitrogen adsorption and SEM; unstressed methods overestimate effective flow pore size in clay-rich samples.
+
+Estimating shale gas flow requires an effective pore diameter, but conventional unstressed methods may misrepresent flow-relevant pores. Ten Silurian and Ordovician Baltic Basin shale plugs were pulse-decay tested with nitrogen at 33 MPa effective stress, and two (samples 32 and 42) at 4.8, 8.2 and 19.9 MPa. Klinkenberg slippage gave slit and tube pore sizes, which were compared on the same plugs with MICP, N2 adsorption, SEM/FIB-SEM and micro-CT. Clay-rich, low-carbonate samples gave Klinkenberg diameters smaller than MICP, while microfractured samples (32, 42) gave similar Klinkenberg and MICP values. SEM and FIB-SEM pore sizes were 2-3 times or more larger than slippage values (e.g., sample 8 FIB-SEM 1.0e-7 m vs 1.6e-8 m). Effective pore size fell with increasing stress in sample 32 but rose in sample 42, attributed to small pores being cut off from flow.
+
+## Reconsidering Klinkenberg'S Permeability Data
+
+- ID: SCA2018-001, year: 2018
+- Authors: Douglas Ruth, Rasoul Arabjamaloei
+- Method: data analysis or correlation
+- Keywords: Klinkenberg coefficient, gas slippage, Darcy permeability, mean free path, tortuosity, effective pore diameter
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-001.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-001)
+
+Reanalysis of Klinkenberg and Ash and Grove gas permeability data shows a second-order correction gives marginal gains, while Ash-Grove data yield pore diameter and tortuosity estimates.
+
+The paper revisits Klinkenberg's gas slippage data, noting he observed that permeability is not strictly linear in inverse mean pressure. Data for three samples were refitted with a generalized equation including a second Klinkenberg coefficient; this brings errors within ±5% but gives only marginal improvement and leaves systematic deviations near 10 to 100 kPa. Ash and Grove's data for 10 gases on one ceramic initially gave Darcy permeabilities varying by nearly a factor of 3, because data did not reach Darcy numbers near 1. Refitting with only the highest-pressure points gave a consistent k_o of about 16 mD, and the Klinkenberg coefficient correlated linearly with the mean free path coefficient (R = 0.9962). Using Carman's capillary model, an effective pore diameter of 1.91 µm and tortuosity of 1.46 were derived, close to the expected √2.
+
+## Insights, Trends and Challenges Associated with Measuring Coal Relative Permabiltiy
+
+- ID: SCA2018-005, year: 2018
+- Authors: Dylan Shaw, Peyman Mostaghimi, Furqan Hussein, Ryan T. Armstrong
+- Method: laboratory experiment
+- Keywords: coal relative permeability, effective stress, history matching, modified Brooks-Corey, cleat compression, unsteady-state drainage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-005)
+
+Unsteady-state helium-brine floods on one Gloucester Basin coal at three effective stresses, history matched with modified Brooks-Corey, show rising gas end-point kr, Swi and cross-point with stress.
+
+Coal relative permeability changes with effective stress because of cleat compression, but few data exist. A Gloucester Basin coal core (79.3 mm long, 61 mm diameter) was tested by drainage unsteady-state helium-brine floods at effective stresses of 165, 491 and 725 psi. The data were history matched in ECLIPSE100 using a modified Brooks-Corey model, with Pc-Sw curves scaled by the Leverett J-function from a porous plate measurement and checked against micro-CT cleat widths. Capillary end effects affected about 20-30% of the core. As effective stress rose, gas end-point relative permeability increased from 0.11 to 0.38, irreducible water saturation increased by about 6 saturation units and the cross-point shifted right. Gas slippage and cleat compression are proposed explanations. The J-function predictions deviated from measured cleat widths by 1-62%.
+
+## Gas Slippage in Partially Saturated Tight Rocks and During Drainage
+
+- ID: SCA2019-033, year: 2019
+- Authors: Alexandra Amann-Hildenbrand, Mohammadebrahim Shabani, Thomas Hiller, Norbert Klitzsch, Norbert Schleifer, Bernhard M. Krooss
+- Method: laboratory experiment
+- Keywords: gas slippage, Klinkenberg, tight sandstone, partial water saturation, NMR drainage, effective gas permeability
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-033.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-033)
+
+Gas permeability and slippage were measured on tight sandstones at partial water saturation and during NMR-monitored drainage; capillary redistribution dominates at high saturation, slippage at low.
+
+Effective gas permeability in water-bearing tight sandstones (porosity <15%, k <0.1 mD) is affected by both slippage and capillary effects. Helium permeability was measured in triaxial cells on samples pre-humidified to defined saturations (up to about 60%) via salt-solution relative humidity. Drainage from full saturation was monitored by NMR in a flow-through cell using steady-state and non-steady-state gas tests. Apparent gas permeability dropped by more than two orders of magnitude at 30-45% water saturation, and up to three orders in the drainage tests. At low saturation (<25-30%) Klinkenberg plots are linear with the slope decreasing with saturation, while the slip factor either rises or falls depending on water distribution. At higher saturations Klinkenberg trends turn negative because increasing pressure difference drains mobile water.
+
+## Validation of Simulated Relative Permeability Estimates in Very Low Permeability Rocks
+
+- ID: SCA2019-046, year: 2019
+- Authors: Nick Drenzek, Ryan Antler, Shawn Zhang, James Howard
+- Method: digital rock or imaging
+- Keywords: shale relative permeability, digital rock simulation, steady-state permeability, FIB-SEM, NMR, mercury injection capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-046.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-046)
+
+A minimal measurement workflow validates image-based relative permeability simulations in an organic-rich shale, showing cracks strongly affect flow and permeability measured under different stress.
+
+Validating image-based relative permeability simulations in very low permeability shales is costly, so the authors propose a workflow using the minimum static and dynamic measurements needed. A fossiliferous organic-rich shale core plug (2.5 cm diameter) was scanned by microCT (~20 µm/voxel) before and after steady-state flow testing, revealing faint longitudinal cracks. Steady-state water permeability at ~2500 psi effective stress was 50 nD, while gas flow and pressure decay permeability on the dried sample at much lower stress were up to three orders of magnitude higher. NMR and MICP showed bimodal pore and throat distributions, and NMR indicated very low residual oil saturation after the test. The mercury drainage curve validated the image-derived pore geometry. FIB-SEM simulations of the matrix were upscaled to ~1 µm/voxel microCT and then to the low-resolution volume, where the role of cracks was tested by numerically removing them.
+
+## New method for characterising the nano- to macro-scale voidage within black shale and for modelling shale gas recovery efficiency
+
+- ID: SCA2019-058, year: 2019
+- Authors: G. Peter Matthews, Katie L. Jones, G. Maurizio Laudone
+- Method: measurement technique or apparatus
+- Keywords: mercury intrusion porosimetry, helium pycnometry, black shale nano-porosity, percolation modelling, PoreXpert, Vaca Muerta
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-058.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-058)
+
+Combines helium pycnometry and mercury intrusion on intact 1 cm3 black shale samples with PoreXpert inverse and forward modelling to map voids from 1 nm to 6 µm.
+
+The paper addresses characterising nano-scale voidage in tight shale using intact rather than crushed samples. Samples of about 1 cm3 are cleaned with IPA and methanol (avoiding toluene, which can cause secondary porosity), dried, then measured by helium pycnometry and mercury intrusion porosimetry from 4 nm to 6 µm. The intrusion curve is corrected and extended down to 1 nm using the helium porosity. PoreXpert performs quasi-Bayesian inverse modelling of the percolation curve, stochastically bridges the 1–4 nm gap, and uses forward modelling to identify void clusters. The resulting void network matches the experimental volumes, cross-sections and connectivities, and supports permeability calculation with trapped fluids and fines. Further simulations of relative permeability change under diethyl ether huff-and-puff are under way on Vaca Muerta kitchen-zone samples.
+
+## The KPC-Log: A new method for measuring the permeability of a noncylindrical tight sample
+
+- ID: SCA2021-025, year: 2021
+- Authors: Sandra Profice, Romain De Loubens, Diego Potenzoni, Philippe Chehade, Benjamin Nicot, Roland Lenormand
+- Method: measurement technique or apparatus
+- Keywords: GRI crushed rock permeability, Klinkenberg coefficient, 3D laser surface scanning, pressure pulse build-up, tight shale permeability, pyrophyllite
+- Cited by 0 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-025.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-025)
+
+KPC-Log measures kabs and Klinkenberg b on irregular tight rock pieces using GRI-type tests interpreted with a laser-scanned 3D mesh; geometry simplification mainly biases b.
+
+Fractured shale cores are usually crushed for GRI tests, which can create microfractures, shorten responses and force simplified particle geometry. The KPC-Log runs a pressurized-sample pulse test with talc powder filling the dead volume to suppress thermal effects, and a laser robot scans the sample surface to build a 3D Cartesian mesh for numerical inversion of kapp. kabs and b come from Klinkenberg regression over several tests, with small pore-pressure variation so the mean pressure is well defined. On pyrophyllite half-cylinders, errors were 6% (kabs) and 18% (b) for the broken piece and 4% and 8% for the pair, whereas standard GRI on the cylinder overestimated kabs by 3.6 and underestimated b by 5.1. Simplified sphere or cylinder geometries underestimated kabs by 1.3–2.7 times and overestimated b by 3.6–4.4 times. For 13 cube-shaped shale particles, kabs was the same (25 nD) for true and spherical geometry, and b was 21 versus 38 bara, so non-elongated particles can be treated as spheres.
+
+## A priori simulation of relative permeabilities of intact subsamples of tight oil shale from a hydraulic fracturing play
+
+- ID: SCA2023-014, year: 2023
+- Authors: G.Peter Matthews, Katie Jones
+- Method: numerical simulation
+- Keywords: relative permeability, tight oil shale, mercury intrusion porosimetry, inverse pore network modelling, wettability, helium pycnometry
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-014)
+
+Oil/water relative permeabilities of tight shale are simulated a priori from mercury porosimetry and helium pycnometry via inverse-modelled void networks; validation is only indirect and calibration is still needed.
+
+Oil/water relative permeabilities of tight-oil shale are too low to measure, so the authors simulate them a priori. Half-cm3 subsamples containing natural cracks were cleaned with IPA Soxhlet and methanol, then characterised by SEM/FIB-SEM, helium and powder pycnometry and mercury intrusion to 400 MPa (helium porosity 0.21±0.10, mercury 0.066±0.039). PoreXpert inverse modelling produced 25×25×25 pore networks (about 43,000 voids) fitted to the intrusion curve, with a linear extension to 1 nm. Network capacity was computed with Navier-Stokes arc flow and a Dinic max-flow algorithm, and water and oil relative permeability bounds were derived for static and dynamic oil films and aqueous ganglia at various wettabilities. Validation is only indirect, using five conventional rocks whose permeability trends are followed, though exaggerated; the shale results are uncalibrated work in progress.
+
+## The effect of sample anisotropy properties, dimensions, and imposed noflow boundaries on the measurement of directional permeability and viscous resistivity
+
+- ID: SCA2023-034, year: 2023
+- Authors: Jacob McGregor
+- Method: numerical simulation
+- Keywords: anisotropic permeability tensor, viscous resistivity, diameter-to-length ratio, no-flow boundary, apparent directional permeability, Darcy's law
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-034.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-034)
+
+Numerical simulations show that in anisotropic cores, permeability needs thin discs (D/L≫1) with sealed sides, while viscous resistivity suits long rods (D/L≪1); approximate analytical solutions estimate errors.
+
+Conventional permeability measurements on anisotropic cores use D/L ≤ 1, yet the specific discharge and potential gradient are not collinear, so the apparent permeability depends on sample geometry. Three-dimensional Darcy flow simulations were run on a cylinder with a rotated permeability tensor (kxx = 10.5 md along the axis, principal values 20/1/1 md at 45°) for varying D/L and sealed or open cylindrical boundaries. Sealing the cylindrical surface gave smaller errors than leaving it open, and the apparent permeability approached the true value only as D/L increased, with a best-case error of about -2% from edge effects. At D/L→0 the apparent permeability fell to about 2.16 md (-79%), approximating 1/r_xx, whereas apparent viscous resistivity became accurate for D/L<0.5. An approximate analytical solution for k_a and r_a agreed well with simulations and literature data for k1/k2 up to about 33, and a measured 3D tensor with 81.6 anisotropy illustrates the six-or-more directional resistivity measurement procedure.
+
+## A novel approach to gas cycling enhanced oil recovery (GCEOR) evaluation in unconventional porous media
+
+- ID: SCA2024_1011, year: 2024
+- Authors: F. Brent Thomas, Michael S. Piwowar, William M. Gibb, Carter W. D. Clarkson
+- Method: laboratory experiment
+- Keywords: gas cycling EOR, huff and puff, radial flow core test, unconventional reservoirs, Montney, gas condensate
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1011)
+
+A patented radial-flow core apparatus enables full-condition gas-cycling EOR tests on nanodarcy Montney and Duvernay rock; geology controls response and gas utilization is low.
+
+Axial core flooding is impractical in nanodarcy unconventional rock, so the authors used a patented radial-flow design that allows one HCPV to be injected in hours rather than weeks. More than 70 primary depletions followed by multiple GCEOR huff-and-puff cycles were run on Montney and Duvernay cores (about 5 to 2400 nD) with oils of 41-48 API and two gas condensates. In one 13 nD test, GCEOR recovered more than twice as much as primary depletion, with overall recovery approaching 85% versus about 27% for primary. Swapping fluids between cores showed geology, not fluid, limited the response. Gas condensate fluids responded better than volatile oil in the same rock, recovering over three times more liquid. Gas utilization was low, typically 1-2 Mscf per incremental barrel and up to 4.6, resembling gas storage.
+
+## Developing Correlation for Porosity and Permeability Between Mercury Intrusion and Gas Expansion Methods for Sandstone Core Plugs
+
+- ID: SCA2024_1089, year: 2024
+- Authors: Lucky Abiashue, Yueping Yu, Omid Mohammadzadeh, Jules Reed, Lesley Anne James
+- Method: data analysis or correlation
+- Keywords: mercury intrusion porosimetry, Klinkenberg permeability, helium pycnometry, Swanson model, Katz-Thompson permeability, sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1089.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1089)
+
+Compares MIP-derived porosity and permeability with helium pycnometry and Klinkenberg-corrected gas permeametry on 19 sandstone plugs, finding MIP underestimates and proposing correction correlations.
+
+MIP is faster and cheaper than gas methods but tends to underestimate porosity and permeability, so a correction is needed. Nineteen sandstone plugs from offshore Newfoundland and Labrador (about 200–3956 mD) were measured by steady-state helium permeametry with Klinkenberg correction, by helium pycnometry, and by MIP (Autopore IV). Klinkenberg permeability was also estimated with Heid, Jones-Owens, Sampath and Florence correlations via Newton-Raphson iteration; Jones-Owens was closest to graphical regression (3.47% average absolute difference) and Sampath furthest (7.26%). MIP permeability from the built-in Katz-Thompson model was mostly underestimated but correlated with gas permeability, while the Swanson model showed large scatter (about 49% average difference). Pycnometry porosity was generally higher than MIP porosity, with a weak correlation improved when two outliers (SP04, SP13) were excluded.

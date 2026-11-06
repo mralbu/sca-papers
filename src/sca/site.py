@@ -1,7 +1,8 @@
 """Stage: export the published site data (``site/data/``).
 
 Joins metadata, topics, citation scores and figure picks into
-``site/data/papers.json`` and ``site/data/topics.json``. Only derived data and
+``site/data/papers.json`` and ``site/data/topics.json``, plus the llms.txt files
+(``llms.py``). Only derived data and
 metadata go here: title, authors, year, abstract, topic, map position, scores,
 in-corpus citation links, the figure caption, and the LLM summary fields (TL;DR,
 summary, keywords, method, figure reason). Never full text, reference lists or
@@ -25,6 +26,7 @@ from sca import (
     citations,
     embed,
     figures,
+    llms,
     metadata,
     paths,
     summarize,
@@ -249,14 +251,16 @@ def run() -> str:
         PAPERS_JSON, json.dumps(papers, ensure_ascii=False, separators=(",", ":")) + "\n"
     )
     cache.write_json_atomic(TOPICS_JSON, topic_list)
+    llms_files = llms.write(papers, topic_list)
     figures_bytes = sum(f.stat().st_size for f in paths.SITE_FIGURES_DIR.glob("*.webp"))
-    sizes = {p: p.stat().st_size for p in (PAPERS_JSON, TOPICS_JSON)}
+    sizes = {p: p.stat().st_size for p in (PAPERS_JSON, TOPICS_JSON, *llms_files)}
     too_big = [p.name for p, s in sizes.items() if s > MAX_FILE_BYTES]
     if too_big:
         raise SystemExit(f"over the 100 MB GitHub Pages file limit: {too_big}")
     total = sum(f.stat().st_size for f in paths.SITE_DIR.rglob("*") if f.is_file())
     return (
         f"{len(papers)} papers, {len(topic_list)} topics -> {PAPERS_JSON.relative_to(paths.ROOT)} "
-        f"({sizes[PAPERS_JSON] / 1e6:.1f} MB), figures {figures_bytes / 1e6:.1f} MB, "
-        f"site total {total / 1e6:.1f} MB\n"
+        f"({sizes[PAPERS_JSON] / 1e6:.1f} MB), llms.txt + {len(llms_files) - 2} topic files + "
+        f"llms-full.txt ({sizes[llms.LLMS_FULL] / 1e6:.1f} MB), "
+        f"figures {figures_bytes / 1e6:.1f} MB, site total {total / 1e6:.1f} MB\n"
     )

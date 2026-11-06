@@ -1,0 +1,524 @@
+# CO2, carbonated water and WAG injection
+
+> 40 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: co2 injection, oil recovery, water injection, carbonated water, cwi, flooding, miscible, wag, gas, miscibility.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Mechanisms of Oil Recovery by Carbonated Water Injection
+
+- ID: SCA2009-26, year: 2009
+- Authors: Mehran Sohrabi, Masoud Riazi, Mahmoud Jamiolahmady, Shaun Ireland, Chris Brown
+- Method: laboratory experiment
+- Keywords: carbonated water injection, micromodel, oil swelling, CO2 dissolution, tertiary recovery, pore-scale visualisation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-26)
+
+High-pressure micromodel tests show tertiary carbonated water injection recovers extra oil from n-decane (32.7%) and viscous oil (11.8%) mainly through oil swelling and coalescence.
+
+Direct CO2 flooding suffers from poor sweep and water shielding; carbonated water injection (CWI) is proposed as an alternative that also stores CO2. Two water-wet glass micromodel experiments at 2000 psia and 38 °C compared n-decane (light oil) and a 16.5 cP mineral oil, with waterflood, CWI, then a second waterflood to strip CO2 and obtain dead-oil saturation. For n-decane, waterflood reduced oil saturation from 67% to 49%, and CWI gave a further 16% PV, i.e. 32.7% of the waterflood residual oil. For viscous oil, saturation went from 76.4% to 56.7% after waterflood and a further 6.7% PV (11.8%) was recovered by CWI. Swelling factors were about 94-105% for n-decane and 23% for viscous oil, so swelling and ganglion coalescence dominate in light oil, while viscosity reduction matters more in viscous oil.
+
+## Mechanisms of Extra-Heavy Oil Recovery by Gravity-Stable CO2 Injection
+
+- ID: SCA2008-20, year: 2008
+- Authors: Mehran Sohrabi, Alireza Emadi, Mahmoud Jamiolahmady, Shaun Ireland, Chris Brown
+- Method: laboratory experiment
+- Keywords: heavy oil, CO2 injection, micromodel visualisation, oil viscosity reduction, double displacement, asphaltene
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-20)
+
+High-pressure micromodel experiments show gravity-stable CO2 injection dilutes extra-heavy oil, enabling large additional recovery in subsequent waterflooding, while water presence hinders CO2 performance.
+
+Non-thermal recovery of extra-heavy oil by CO2 is poorly understood at the pore scale. A water-wet, rock-look-alike glass micromodel (4 x 0.7 cm, 50 µm deep) was run vertically at 600 psig and 44 °C with an 11.5 °API oil (5500 cp at 60 °C, 11.6 wt% asphaltenes). The sequence was oil flood, 3-day waterflood, 2-day CO2 injection from the top, water, a second 24 h CO2 period, and final water, all at 0.01 cm3/hr (Ca 2.5E-7). Waterflood recovered little oil, but CO2 diluted the oil, turning it from black to brown, and the following water injection mobilised much additional oil. Water layers separating oil from CO2 reduced dilution. The second CO2 period gave little recovery, with oil darkening and shrinking by vaporisation. No major asphaltene precipitation was seen, and CO2 advanced by double displacement.
+
+## Pore Scale Investigation of Carbonated Water Injection with and without Gravity
+
+- ID: SCA2016-037, year: 2016
+- Authors: S. Mahdavi, L.A James, T.E Johansen
+- Method: laboratory experiment
+- Keywords: carbonated water injection, micromodel, residual oil saturation, gravity effect, capillary and Bond number, oil film flow
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-037.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-037)
+
+Glass micromodel experiments compare water flooding and carbonated water injection in horizontal and vertical orientations and at two rates; CWI lowers residual oil to about 50% versus 64% for water flooding.
+
+The study examines carbonated water injection (CWI) for oil recovery at pore scale using etched homogeneous glass micromodels (450 D, 30% porosity) at 21 °C and 2.1 MPa. Water flooding and secondary CWI were run in horizontal and vertical orientations at production rates of 0.0008 and 0.004 cc/min, with image analysis of residual oil saturation. Gravity caused earlier breakthrough in the vertical micromodel (CW moved downward), while the horizontal case distributed CW more evenly. After about 7 PV, residual oil reached about 50% for CWI regardless of orientation or rate, versus 64% for water flooding. Lower production rates gave better sweep and lower residual oil after breakthrough. Trapped oil in throats was lower after CWI, attributed to oil film flow and reconnection from CO2 transfer to the oil.
+
+## Carbonated Water Flood: What We Observed in Sand Pack Experiments
+
+- ID: SCA2011-34, year: 2011
+- Authors: Yannong Dong, Claudia Ishizawa, Ed Lewis, Birol Dindoruk
+- Method: laboratory experiment
+- Keywords: carbonated water flooding, sand pack, CO2 solubility, oil viscosity reduction, injection rate, enhanced oil recovery
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-34)
+
+Eight sand pack floods with viscous oil compare carbonated water and water flooding at four injection rates; carbonated water improves recovery and 2 PV/day is judged optimal.
+
+Literature data on carbonated water flooding (CWF) are inconsistent, so a multi-year project began with Phase I sand pack floods testing injection speed. Eight packs (porosity about 0.30, permeability 1.7-3.7 D) were flooded with 70.7 cp Gulf of Mexico dead oil at 600 psig and 104°F using DI water carbonated to an average 17.6 cc/cc (99 SCF/STB). In four groups, one pack received water then carbonated water (tertiary) and one received carbonated water only (secondary), at 15, 1, 4 and 2 PV/day. Recovery improvement over waterflood ranged from 0.03 PV at 1 PV/day to 0.35 PV at 15 PV/day. Water broke through early (≤0.2 PV) at 15 and 4 PV/day, indicating unstable displacement. 2 PV/day was chosen as the representative optimal rate, since high rates give artificially high recovery that is not field-scalable. Pressure drop fell until breakthrough, which is explained by total mobility behavior.
+
+## Improved Oil Recovery and Injectivity by Carbonated Water Injection
+
+- ID: SCA2012-05, year: 2012
+- Authors: M. Sohrabi, M. Tavakolian, A. Emadi, M. Jami, S. Ireland
+- Method: laboratory experiment
+- Keywords: carbonated water injection, coreflood, tertiary recovery, water breakthrough, injectivity, Clashach sandstone
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-05)
+
+Coreflood tests on Clashach sandstone show carbonated water injection, secondary or tertiary, increases oil recovery, delays water breakthrough and lowers differential pressure versus plain waterflood.
+
+Carbonated water injection (CWI) is proposed as a way to raise recovery using little CO2 where gas flooding is impractical. Three corefloods were run on companion Clashach sandstone cores (about 1100-1400 md, 32 cm long) with a South American crude (28.55 API, 8.54 cp) and synthetic seawater at 2500 psia and 100 F, injecting at 5 cm3/hr. Waterflood recovered about 41-43% OIIP, and subsequent tertiary CWI added 24% OIIP, with a repeat test at lower Swi (21%) giving similar recovery. Secondary CWI recovered over 55% OIIP, about 12.5% more than waterflood after 2.5 PV, with later water breakthrough and higher recovery at breakthrough. Differential pressure was lower for CWI despite higher viscosity (0.88 vs 0.80 cp), indicating better injectivity, though tertiary CWI needed much larger injected volumes.
+
+## Using MRI to Study in Situ Oil Recovery During CO2 Injection in Carbonates
+
+- ID: SCA2008-41, year: 2008
+- Authors: A. Brautaset, G. Ersland, A. Graue, J. Stevens, J. Howard
+- Method: laboratory experiment
+- Keywords: CO2 injection, MRI saturation imaging, chalk, supercritical CO2, oil swelling, wettability
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-41.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-41)
+
+MRI monitored waterflood and miscible liquid or supercritical CO2 injection in four Portland chalk cores at different wettabilities; CO2 after waterflood gave the highest recovery, up to 93.6% OOIP.
+
+The study examines in situ displacement during waterflooding and subsequent miscible CO2 injection in low-permeability Portland chalk (about 4 mD, 48% porosity) with n-decane and D2O brine. Four cores with Amott indices from 0.15 to 1.00 were flooded at 2 ml/h with liquid CO2 (23 °C) or supercritical CO2 (40 °C) at 8274 kPa, imaged with high-resolution MRI. Images showed oil swelling, oil bank formation and piston-like CO2 displacement. CO2 injected at Swi gave the lowest total recovery (67.1% OOIP), while waterflood followed by supercritical CO2 in the less water-wet core P2 gave 93.6% OOIP with Sor of 4.8% PV. Liquid CO2 gave 81.0% (water-wet) and 74.6% (near neutral-wet). MRI signal vanished behind the CO2 front, so saturations during CO2 flooding relied on material balance; oil-CO2 MRI properties need further characterization.
+
+## Pore-scale experimental investigation of in-situ wettability and displacement mechanisms governing WAG in oil-wet carbonates
+
+- ID: SCA2019-038, year: 2019
+- Authors: Ziqiang Qin, Maziar Arshadi, Mohammad Piri
+- Method: digital rock or imaging
+- Keywords: WAG injection, micro-CT imaging, oil-wet carbonate, pore-fluid occupancy, in-situ contact angle, residual oil saturation
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-038.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-038)
+
+Micro-CT imaging of a miniature Fond du Lac carbonate core during aging and three WAG cycles shows how gas shielding improves sweep and recovery, diminishing after two cycles.
+
+Pore-scale mechanisms of WAG injection in oil-wet carbonates are poorly understood. A 4.9 mm diameter Fond du Lac carbonate miniature core was flooded at 90°C and 600 psi inside a micro-CT scanner. After primary drainage (Swi 0.241) and about 15 days of dynamic aging with crude oil, three waterflood/nitrogen-injection cycles were imaged in 3D. Waterflooding left 0.445 residual oil saturation (41.4% recovery), and the first gas injection lowered it to 0.284. The second cycle reduced it to 0.188 and 0.122, and the third cycle to 0.121 and 0.105, so incremental recovery faded quickly. Trapped gas partially blocked earlier channels, opening new brine and gas flow paths and raising sweep efficiency, while remaining oil sat in small, poorly connected pores.
+
+## Gas Displacement Efficiency for a Low Permeability Carbonate Field
+
+- ID: SCA2004-05, year: 2004
+- Authors: A. Cable, M. Spearing, J. Bahamaish, Y. Dabbour, Z. Kalam
+- Method: laboratory experiment
+- Keywords: miscible gas injection, WAG, water blocking, tertiary gas flood, minimum miscibility pressure, carbonate composite core
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-05)
+
+Reservoir-condition miscible gas, water, tertiary gas and WAG floods on a 52 cm carbonate composite show recovery rising linearly with initial gas slug size, with water blocking.
+
+Miscible gas displacement data were needed for a low-permeability carbonate field (about 4 mD, 16% porosity). Floods were run at reservoir conditions (129°C, 28 bar above MMP) on a 52 cm composite of 10 plugs (1.66 mD) aged with live oil, at 3 mL/h. Secondary rich gas flood recovered 96 %HCPV (Sorm 0.04 PV, breakthrough 0.85 PV), whereas water flood recovered 74 %HCPV and tertiary gas added 14 %HCPV (total 88%), indicating water blocking. Two secondary WAG floods with first gas slugs of 0.23 and 0.50 PV recovered 79 and 85 %HCPV. Recovery varied linearly with initial gas slug size, with about 0.62 PV needed to match water flood plus tertiary gas. The rock is intermediate to oil-wet (Amott-Harvey about -0.3).
+
+## Can Field Wide Variations in Water Injectivity During Wag Be Explained by Differences in Rock Type?
+
+- ID: SCA2002-20, year: 2002
+- Authors: Jairam Kamath, Frank Nakagawa
+- Method: laboratory experiment
+- Keywords: WAG injectivity, CO2 flooding, asphaltene precipitation, chase brine, trapped CO2, San Andres dolomite
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-20)
+
+Corefloods on McElroy field rock types showed no rock-type explanation for WAG water injectivity loss; a crude/CO2 soaked core showed injectivity loss from asphaltene plugging.
+
+Some McElroy field (West Texas) injectors lost chase brine injectivity severely during WAG, while others did not. Conventional corefloods were run on composite cores of four rock types (good and medium quality moldic, fine intercrystalline, poor quality) from a good and a poor injector, with CO2-brine, toluene and crude systems at ambient and reservoir conditions (88 °F, 2000 psi). Chase live brine injectivity was comparable to the secondary waterflood (about 0.15 end point) and rose toward unity as trapped CO2 dissolved. CO2 injectivity exceeded waterflood injectivity, and no systematic rock-type or cleaned versus restored difference explained the field variation. A core soaked for 3 weeks after alternating 0.03 PV slugs of CO2 and crude (0.7 PV each) gave end point injectivities of 0.04 (live) and 0.3 (dead brine), versus 0.1 and 0.7 for the non-soaked rock. This suggests poor sweep plus heavy-phase (asphaltene) precipitation are necessary for injectivity loss.
+
+## Effects of Paraffin Wax Precipitation During Cold Water Injection in a Fractured Carbonate Reservoir
+
+- ID: SCA2004-28, year: 2004
+- Authors: D. Maloney, A. Oesthus
+- Method: laboratory experiment
+- Keywords: paraffin wax precipitation, cold seawater injection, cloud point, fractured chalk, ESEM, water relative permeability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-28)
+
+Coreflods, ESEM imaging and thermal simulation show wax precipitation from cold seawater injection in chalk barely harms injectivity or recovery, so heating injection water is not justified.
+
+Cold seawater injection into a 130 °C fractured chalk reservoir may precipitate paraffin wax below the ~25 °C cloud point, raising concerns about injectivity and recovery. Waterfloods were run on an analog outcrop chalk plug (1.5 mD, 35% porosity) cooled stepwise from 66 to 10 °C at Sor, and on two reservoir plugs (2.8 and 1.6 mD) cooled to 10 °C at high initial oil saturation. Cooling at Sor raised brine saturation (62 to 64%) through oil shrinkage and increased brine relative permeability from 0.05 to about 0.10. Statically cooled, oil-rich plugs needed threshold pressures of 0.6-0.8 bar to start brine flow but then recovered oil efficiently. ESEM/EDS showed wax as uneven masses adhering to mineral surfaces, more abundant at higher oil saturation. Thermal simulations showed the cold front lags the waterflood front, with under 0.3% of remaining moveable oil in wax-prone cold zones, though cold regions matter for future EOR.
+
+## An Experimental Approach of CO2 Sequestration in Gas Condensate Reservoirs
+
+- ID: SCA2006-35, year: 2006
+- Authors: E. Shtepani, F.B. Thomas
+- Method: laboratory experiment
+- Keywords: CO2 sequestration, gas condensate, enhanced gas recovery, P-x PVT experiment, core flood, CO2 breakthrough
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-35)
+
+Describes PVT and composite-core flood experiments on CO2 injection into depleted gas condensate, showing condensate vaporization and CO2 breakthrough after about 0.9 PV, supporting enhanced gas recovery and storage.
+
+The paper outlines laboratory work preceding compositional simulation of CO2 sequestration with enhanced gas recovery in depleted gas condensate reservoirs. PVT tests (CCE, CVD, P-x with 20-80 mol% CO2) were run at 212 °F on a recombined fluid with a dew point near 3415 psia; maximum liquid drop-out was 2.3% (CCE) and 3.4% (CVD), and no retrograde liquid appeared at 80 mol% CO2. A 3 ft composite core stack (12% porosity, 0.12 mD, 51% connate water) was depleted to 1015 psia, re-pressurized to 1515 psia with CO2 and flooded for about 3 PV. Pressure differential rose to about 485 psi until roughly 0.9 PV, after which condensate and water production began, with cumulative condensate of 0.48 cc and water of 0.80 cc by 2.96 PV. Effluent gas chromatography tracked CO2 breakthrough and compositional change, and the data can yield dispersion coefficients and support simulation.
+
+## Measurement and Modeling of Gas-Oil Miscibility for Improved Oil Recovery
+
+- ID: SCA2006-54, year: 2006
+- Authors: Subhash C. Ayirala, Dandina N. Rao
+- Method: laboratory experiment
+- Keywords: vanishing interfacial tension, minimum miscibility pressure, Parachor model, pendent drop, slim-tube, CO2 injection
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-54)
+
+Vanishing interfacial tension measurements on live decane-CO2 and Rainbow Keg River crude systems determine gas-oil miscibility quickly, agree with slim-tube data, and are matched by a mechanistic Parachor model.
+
+Slim-tube miscibility tests take 4-5 weeks, so the paper evaluates the faster vanishing interfacial tension (VIT) technique, which extrapolates gas-oil IFT to zero. IFT was measured by pendent drop (RKR live crude with C2+-enriched gas at 2150 psi, 190°F) and capillary rise (live decane-CO2 at 160°F). For RKR oil, VIT gave a minimum miscible composition of 51.2 mole% C2+, versus 54.4 mole% predicted by the mechanistic Parachor model (about 6.2% deviation). For live decane-CO2, VIT MMP was 1764 psi against a literature slim-tube value of 1685 psi, and the model predicted 1758 psi (0.3% deviation). The authors conclude that VIT is validated and that the modified Parachor model predicts miscibility well despite small IFT deviations.
+
+## Oil Recovery During CO2-Foam Injection in Fractured Chalk Rock at Reservoir Conditions
+
+- ID: SCA2009-27, year: 2009
+- Authors: John Zuta, Ingebret Fjelde, Roman Berenblyum
+- Method: laboratory experiment
+- Keywords: CO2 foam, fractured chalk, foaming agent retention, STARS simulation, oil recovery, supercritical CO2
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-27.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-27)
+
+CO2-foam coinjection in artificially fractured Liege chalk at 340 bar and 55°C recovers far more oil than pure CO2, matched by STARS simulation.
+
+CO2 flooding in fractured carbonates suffers early breakthrough, and little is known about CO2-foam in fractured chalk. Fractured models were made by drilling a 0.3 cm hole in Liege chalk plugs and packing it with glass beads (effective permeability about 20 mD), with non-fractured plugs as references. Pre-formed foam (1 wt% ethoxylated sulphonate, 90% gas fraction) or pure CO2 was injected at 340 bar and 55°C after waterflooding. Oil recovery as % of Sorw was 83.9% for foam in the fractured model versus 31.2% for pure CO2, and 90.1% (foam) versus 81.8% (CO2) in non-fractured plugs. Foaming agent retention was 1.05-2.32 mg/g in non-fractured plugs (higher with oil) and 0.73-0.85 mg/g in fractured models, indicating slower transport from fracture to matrix. STARS history matching gave 80.4% and 84.9% recovery, and simulations showed that raising effective permeability from 20 to 50 mD lowered recovery rate and ultimate recovery.
+
+## Permian Basin: Historical Review of CO2 EOR Processes, Current Challenges and Improved Optimization Possibilities
+
+- ID: SCA2009-38, year: 2009
+- Authors: Abiodun Matthew Amao, Shameem Siddiqui
+- Method: review or workflow
+- Keywords: CO2 EOR, minimum miscibility pressure, Permian Basin, miscible displacement, WAG injection, process optimization
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-38)
+
+Reviews CO2 miscible EOR history in the Permian Basin, identifies operational and MMP-measurement gaps, and proposes a systems approach to optimizing recovery.
+
+The paper reviews the history of CO2 miscible EOR in the Permian Basin of West Texas and New Mexico, where low-cost natural CO2, favorable oil and high residual oil in place drove adoption. It tabulates operational challenges (sweep efficiency, early breakthrough, corrosion, asphaltenes, scale, injectivity) against industry solutions such as WAG, foams, 4-D seismic and horizontal wells. Literature and field reports indicate many projects perform below coreflood and slim-tube expectations, leaving billions of barrels unrecovered. The authors argue MMP methods ignore formation water and changing fluid composition during production. They also note that there is no analytical basis for the injected CO2 volume or injection scheme. They call for a systems approach covering reservoir characterization, management, and flood pattern evaluation, and for standardized, field-representative MMP measurement.
+
+## Experimental Study of CO2 Storage in Water-Flooded Oilfields
+
+- ID: SCA2011-43, year: 2011
+- Authors: Zhang Zubo, Luo Manli, Lu Weifeng, Fan Xiliang
+- Method: laboratory experiment
+- Keywords: CO2 storage, CO2 EOR, waterflooding, coreflood, trapped storage capacity, back pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-43)
+
+Coreflood tests of CO2 injection after waterflooding in sandstone show about 15% OOIP extra recovery, with storage capacity rising with back pressure and oil saturation.
+
+The paper evaluates CO2 storage combined with enhanced oil recovery in water-flooded oilfields. Sandstone cores from Sichuan (porosity about 12-13%, permeability 22-30 mD) were flooded with refined oil, brine and CO2 at 60 °C and 3 MPa overburden. Waterflooding to 99.9% water cut was followed by about 3-3.5 PV CO2 at back pressures of 10, 15 and 20 MPa, and at different initial oil saturations. CO2 added about 15-18% OOIP recovery, and CO2 saturation rose from 25.2% to 30.5% with pressure. Storage capacity, computed from trapped plus dissolved CO2, increased from 0.225 to 0.526 g/cm3 with pressure. Trapped CO2 was 55-80% of the total, and higher oil saturation before CO2 injection gave higher recovery and storage.
+
+## Tertiary Liquid and Supercritical CO2 Injection in Chalk and Limestone at Strongly Water-Wet and Near Neutral-Wet conditions
+
+- ID: SCA2012-06, year: 2012
+- Authors: S. Svenningsen, K. Ersland, M. Fernø, A. Graue
+- Method: laboratory experiment
+- Keywords: tertiary CO2 injection, supercritical CO2, minimum miscibility pressure, carbonate heterogeneity, Amott-Harvey wettability, Rørdal chalk
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-06)
+
+Tertiary liquid and supercritical CO2 floods in Rørdal chalk and Edwards limestone show heterogeneity dominates recovery; wettability effects are unclear, with slightly oil-wet limestone somewhat favorable.
+
+The study examines tertiary CO2 injection for EOR in homogeneous Rørdal chalk and heterogeneous Edwards limestone, at strongly water-wet to slightly oil-wet states, using liquid (21 °C) and supercritical (46 °C) CO2 at 82 bar with decane as oil. Sixteen cores were waterflooded to Sor,w and then flooded with CO2. Chalk reached 62-77% OOIP total recovery with an average CO2 end-point oil saturation of 0.22, and liquid-CO2 (above MMP) floods kept producing after 4-14 PV. Limestone produced oil quickly but ended with lower recovery (29-73% OOIP, average Sor 0.34), attributed to CO2 channeling. Wettability had no visible effect in chalk, while the slightly oil-wet limestone cores gave lower residual oil, though large data scatter makes this uncertain.
+
+## Performance of Swag Injection Versus Alternating and Continuous Injection of Water and Gas in Low Gas-Oil Ift and Mixed-Wet Systems
+
+- ID: SCA2012-17, year: 2012
+- Authors: M. Sohrabi, S.M. Fatemi, S.A. Farzaneh, M. Jami, S. Ireland, K. Ahmed
+- Method: laboratory experiment
+- Keywords: SWAG injection, WAG injection, mixed-wet sandstone, near-miscible gas injection, coreflood, injectivity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-17)
+
+Near-miscible coreflood tests on mixed-wet sandstones show WAG starting with water recovers most oil, while SWAG underperforms waterflooding and causes high pressure drop.
+
+The study compares continuous gas, waterflood, WAG and SWAG injection in mixed-wet 65 mD and 1000 mD sandstone cores. Tests used a methane/n-butane oil and gas system near its critical point (12.69 MPa, 38°C, IFT about 0.04 mN/m) with x-ray saturation monitoring. WAG beat all other strategies, and WAG starting with water gave faster and somewhat higher recovery (about 5% difference) than WAG starting with gas. Recovery ranked WAG, waterflood, SWAG, gas injection. Raising the SWAG gas/water ratio from 0.25 to 1.0 delayed oil production by about 0.3 PV and increased produced GOR but left ultimate recovery nearly unchanged. SWAG raised pressure drop from about 20 psi (waterflood) to 70-80 psi in the 65 mD core, indicating injectivity problems, and performed somewhat better in the 1000 mD core.
+
+## Spontaneous CO2 Emulsion Generation; a New Approach for Mobility Control
+
+- ID: SCA2013-026, year: 2013
+- Authors: Alireza Emadi, Mehran Sohrabi
+- Method: laboratory experiment
+- Keywords: CO2 emulsion, spontaneous nucleation, mobility control, micromodel, liquid CO2 surfactant coinjection, apparent viscosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-026.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-026)
+
+Micromodel and coreflood tests show liquid CO2 with an anionic surfactant spontaneously forms emulsion droplets, giving very high apparent viscosity and improved oil recovery even at high oil saturation.
+
+CO2 foam mobility control normally fails deep in reservoirs because low velocities and high oil saturation hinder bubble generation. The authors combined high-pressure micromodel visualisation with corefloods in a 2.5 D Fife sandstone core, using an anionic surfactant (HW-A) and a 617 cp heavy crude. Co-injection with surfactant gave apparent viscosities of about 4 cp (vapour CO2), 40 cp (SC CO2) and nearly 3000 cp (liquid CO2). Micromodel tests showed spontaneous nucleation of small CO2 droplets under no-flow conditions only for liquid CO2, and oil accelerated it (nine droplets in six seconds at oil/surfactant interfaces). In tertiary corefloods, CO2/surfactant co-injection raised recovery from 28% to 56% OOIP after 1 PV and recovered about 24% of Sorw after 0.4 PV versus about 12% for CO2 alone, with pressure drop one to two orders of magnitude higher.
+
+## Carbonated Water Injection for EOR in One Dimensional Flow with Constant Pressure
+
+- ID: SCA2013-090, year: 2013
+- Method: numerical simulation
+- Keywords: carbonated water injection, compositional model, CO2 partitioning, oil viscosity reduction, interfacial tension, IMPES
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-090.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-090)
+
+A 1D three-component compositional model of carbonated water injection at constant pressure shows extra oil recovery over water flooding, driven mainly by CO2-induced oil viscosity reduction.
+
+The paper addresses carbonated water injection (CWI) as an alternative to CO2 flooding, which suffers from poor sweep. A one-dimensional, three-component (water, oil, CO2), two-phase compositional model with no free gas was built and solved with block-centred IMPES. It includes CO2 partitioning between phases, CO2-dependent oil viscosity and density, and IFT-dependent residual oil saturation. Two cases were compared with water injection: low temperature (80 °C, high IFT) and high temperature (250 °C, low IFT). Under high IFT, residual oil is unchanged, but extra recovery arises from oil viscosity reduction. Under low IFT, residual oil falls once CO2 mass concentration in oil reaches about 56%, giving the best recovery. Since such low IFT is hard to reach with regular CWI, viscosity reduction is the main recovery mechanism.
+
+## Gas Process Miscible Displacements and Its Impact on Future Oil Recovery Schemes in Super Giant Carbonate Reservoirs
+
+- ID: SCA2014-016, year: 2014
+- Authors: Mohamed Ibrahim Al Hammadi, Ali Al Sumaiti, Zubair Kalam, Abu Dhabi
+- Method: laboratory experiment
+- Keywords: miscible gas injection, CO2 WAG, water blocking, restored-state wettability, carbonate coreflood, minimum miscibility pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-016)
+
+Reviews 1D live-fluid miscible gas, WAG and CO2 coreflood tests on long carbonate composites from six reservoirs, showing wettability controls water blocking and CO2 gives very high recovery.
+
+Water-flooded super giant Middle East carbonate reservoirs leave large residual oil, motivating miscible gas and CO2 EOR evaluation. Six sets of 1D displacements were run on 50-70 cm composites of 1.5 inch plugs at full reservoir conditions (125 °C, 220-310 bar, live fluids, ~1 ft/day), covering rich gas, lean gas and CO2 in secondary, tertiary, continuous, WAG and SWAG modes. Plugs were screened by CT, NMR and MICP, and wettability was restored by aging; Amott indices ranged from -0.17 to -0.51. Oil-wet reservoirs gave similar high recoveries (about 90% or more) across injection schemes, while the less oil-wet Reservoir C showed water blocking and scheme-dependent recovery, with recovery linear in initial gas slug size. CO2 floods reached about 92-98% recovery, over 20% above water flood, despite viscous fingering at mobility ratio above 6, and compositional simulations supported the measurements.
+
+## CO2 EOR by Diffusive Mixing in Fractured Reservoirs
+
+- ID: SCA2014-020, year: 2014
+- Authors: Ø. Eide, G. Ersland, S. H. Lie, S. Baird, M. Haugen, T. Skagseth, A. Graue, M. A. Fernø
+- Method: laboratory experiment
+- Keywords: CO2 diffusion, fractured chalk, MRI saturation imaging, X-ray CT, miscible CO2 EOR, tortuosity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-020.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-020)
+
+CO2 injection in fractured chalk cores imaged by CT and MRI shows diffusion drives oil recovery (up to 96% OOIP); simulation gives D = 3.02e-9 m2/s.
+
+The study examines CO2 EOR by diffusive mixing in fractured reservoirs, where a high-permeability fracture limits viscous displacement. Fractured Rørdal chalk cores (43-47% porosity, 2-5 mD) were flooded with CO2 at first-contact miscible conditions using decane as oil; one supercritical test was imaged with CT and two liquid CO2 tests with MRI, with and without residual (D2O) water and with one aged near neutral-wet core. Recoveries were 96.0%, 95.5% and 86.7% OOIP, and saturation versus square root of time was linear, indicating diffusion dominance after an initial viscous period in the closed-fracture cores. Water reduced diffusion rate (slope -0.094 without water versus -0.032 and -0.026 with water), attributed to water shielding and higher tortuosity. History matching in CMG GEM gave an effective diffusion coefficient of 3.02e-9 m2/s, and sensitivity runs showed rate depends strongly on tortuosity and system size, so lab results need careful upscaling. NMR T2 shifts to longer times during injection indicated reduced oil viscosity from CO2 dissolution.
+
+## Supercritical CO2 Injection for Enhanced Oil Recovery in Fractured Chalk
+
+- ID: SCA2014-092, year: 2014
+- Authors: M. Steinsbø, B. Brattekås, M.A. Fernø, G. Ersland, A. Graue
+- Method: laboratory experiment
+- Keywords: supercritical CO2 injection, fractured chalk, diffusion, water shielding, minimum miscibility pressure, wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-092.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-092)
+
+Supercritical CO2 injections in fractured and unfractured chalk plugs show diffusion-controlled recovery in fractures, lower recovery for crude oil than n-Decane, and water shielding reducing tertiary recovery.
+
+The study examines supercritical CO2 injection for EOR in fractured and unfractured Rørdal chalk plugs saturated with n-Decane or North Sea crude oil, at strongly water-wet and nearly neutral-wet conditions. Experiments were run at reservoir conditions above MMP (40°C/95 bar for n-Decane, 75°C/208 bar for crude), with 1 mm fractures held open by POM spacers. Secondary CO2 injection recovered 96% OOIP with n-Decane in both fractured and unfractured plugs, versus 56-71% OOIP with crude oil. Fractured systems showed early CO2 breakthrough, low rates and long production tails, indicating diffusion-dominated recovery. In tertiary mode, unfractured plugs reached 92% OOIP total, fractured 60-70%; in fractured crude-oil plugs tertiary CO2 added 59% OOIP at NNW but only 10% OOIP at SWW, due to water shielding.
+
+## Study of CO2 foam performance in a CCS context
+
+- ID: SCA2016-014, year: 2016
+- Authors: Guillaume Batôt, Marc Fleury, Lahcen Nabzar
+- Method: laboratory experiment
+- Keywords: CO2 foam, mobility reduction factor, shear-thinning, MRI saturation profiles, X-ray saturation monitoring, Clashach sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-014.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-014)
+
+CO2-foam corefloods in Clashach sandstone at low (MRI) and high pressure (X-ray) show relative foam viscosity follows a shear-rate power law with exponent near -1.
+
+The study assesses CO2 foam as a way to reduce gas flow for CO2 storage leakage remediation. Clashach sandstone cores (225-1550 mD, 10-20% porosity) were co-injected with CO2 and 0.5 wt% AOS surfactant in 3.5 wt% brine at gas fraction ~0.7. Saturation was monitored by MRI at 10 bar and by X-ray at 40°C and 130 bar with dense CO2, over interstitial velocities of about 3 to 100 ft/day. Foam onset required low water saturation (~15%) and a transient of a few pore volumes; in the 225 mD core, no foam formed at 2.2 ft/day but relative viscosity reached 100-200 at 9.2 ft/day. Using a Chauveteau-type shear rate, data from different permeabilities and pressures collapse onto one power law (ηr = 16000/shear rate, exponent -0.92 to -0.95), with water saturation staying below the injected water fraction of 30%.
+
+## Measurements of Rock Core Dispersivity and Tortuosity for Multi-Phase Systems
+
+- ID: SCA2016-016, year: 2016
+- Authors: Marco Zeccaa, Abdolvahab Honaria, Sarah J. Vogta, Branko Bijeljicb, Eric F. Maya, Michael L. Johnsa
+- Method: laboratory experiment
+- Keywords: supercritical CO2 dispersion, Peclet number, tortuosity NMR, mobile-immobile model, enhanced gas recovery, pulsed field gradient
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-016.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-016)
+
+A core-flood pulse apparatus measures supercritical CO2-CH4 dispersion in two sandstones and two carbonates, with NMR tortuosity, giving K/D versus Peclet curves for CSEGR simulation.
+
+CO2-natural gas mixing at supercritical conditions must be quantified to assess carbon sequestration with enhanced gas recovery. A pulse-injection core-flood apparatus with FT-IR effluent analysis measured dispersion in Berea, Donnybrook, Ketton and Estaillades cores at 40-100 °C, 8-14 MPa and 0.004-1.9 mm/s, with entry/exit effects corrected using short and long cores. Dispersivity was 0.35 mm for Berea and 1.31 mm for Donnybrook. Ketton showed the greatest dispersion and non-Fickian tailing fitted by a mobile-immobile model. K/D versus Pe data supported power-law exponents n=1.2 for sandstones and 1.4 for carbonates. NMR PGSTE tortuosities were 4.3 (Berea) and 4.8 (Donnybrook), and 4.5 from methane for Berea. 58% residual water raised Donnybrook dispersion from 5.7×10-7 to 39.0×10-7 m2/s.
+
+## Experimental Assessment of the Hydrocarbons Yeilds from Bazhenov Shale Formation by Kerogen Conversion in the Presence of Supercritical Water
+
+- ID: SCA2016-075, year: 2016
+- Authors: Tatiana Bondarenko, Evgeny Popov, Alexey Cheremisin, Russia Igor Karpov, Nikita Morozov
+- Method: laboratory experiment
+- Keywords: supercritical water, hydrous pyrolysis, kerogen conversion, Bazhenov shale, GRI crushed rock permeability, open-system pyrolysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-075.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-075)
+
+Hydrous pyrolysis of crushed Bazhenov shale with supercritical water at 300-480°C converts kerogen above 400°C, with 82% S2 reduction and large permeability growth at 480°C.
+
+Bazhenov shale is a large Russian resource lacking a proven recovery method, and supercritical water (SCW) was tested as an EOR agent. Four crushed samples (0.5-2 mm, 2558-2561 m) were treated in a 200 cc Monel vessel at 27 MPa and 300, 350, 400 and 480°C for 30 hours. Only gas was produced below 400°C, and liquid hydrocarbon films appeared from 400°C. At 480°C, 1350 scm3 of gas was generated from 55 g of rock, rich in methane, suggesting onset of secondary oil cracking and coking. Rock-Eval-type pyrolysis showed S1 fell 96.8% and S2 fell 82.1% at 480°C, giving an estimated recovery factor near 83%. GRI crushed-rock permeability rose from 28 to 244 nD at 480°C, with porosity from 1.04 to 1.55%, attributed to microfracturing.
+
+## Unlocking the Potential Without Fracking – CO2 Injection in Tight Shale Oil
+
+- ID: SCA2017-018, year: 2017
+- Authors: Arthur U. Rognmo, Sunniva B. Fredriksen, Martin A. Fernø
+- Method: laboratory experiment
+- Keywords: CO2 EOR, tight shale oil, molecular diffusion, miscibility, core flooding, CO2 storage
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-018)
+
+CO2 flooding of unfractured tight shale oil core plugs under a high differential pressure recovered 34% of OOIP on average, with diffusion increasingly dominant over time.
+
+The study tests whether CO2 injection can produce oil from ultra-tight shale without fracturing. Five US shale oil core plugs (0.12-2.36 µD, 4.5-9.3% porosity) were saturated with crude oil or n-decane and flooded with CO2 at 60°C (decane also at 25°C) under a 7 MPa differential pressure. Thirteen crude oil floods averaged 33.7% OOIP, with a maximum of 98.3%, and four n-decane floods (first-contact miscible) averaged 68% OOIP. Recovery rate was highest early and declined over time, which is interpreted as viscous displacement giving way to diffusion. A larger system of three cores in series reached 55% OOIP after 3.7 PV, with CO2 breakthrough at about 0.5 PV. Recovery and recovery rate correlated positively with system length and CO2 exposure time.
+
+## Carbonate Rock Dissolution under Carbonated Water Injection (CWI)
+
+- ID: SCA2017-045, year: 2017
+- Authors: Rodrigo G. Vaz, Erika T. Koroishi, Ricardo D. G. de Freitas Filho, Osvair V. Trevisan
+- Method: laboratory experiment
+- Keywords: carbonated water injection, dolomite dissolution, mineral precipitation, X-ray CT porosity, core flooding, permeability reduction
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-045.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-045)
+
+Carbonated brine was flooded through two dolomite cores in series at reservoir conditions; CT showed dissolution concentrated near the inlet, with precipitation and permeability loss downstream.
+
+Carbonated water injection in carbonate reservoirs can alter porosity and permeability through dissolution and precipitation, affecting injectivity. Four core-flooding tests injected CO2-saturated brine at 2 cm³/min, 70°C and 7500–8500 psi through two Thornton dolomite plugs in series, with CT scanning for porosity profiles and separate differential-pressure recording. Porosity rose by up to 35% within about 2 cm of the injection face in the first cores, while the second cores stayed constant or lost porosity. Mass loss in first cores was eight to eleven times greater than in second cores. Calcium in the effluent stabilized near 0.04 mol/kg, indicating dissolution reached equilibrium quickly. Permeability of the first core changed little, while the second core lost permeability mainly during the first 60 pore volumes, attributed to precipitation. Regions of higher initial porosity favored dissolution and lower-porosity regions favored precipitation.
+
+## A Simulation Study of Low Concentration Surfactant Enhanced Water Alternating Gas Flooding
+
+- ID: SCA2017-050, year: 2017
+- Authors: Perekaboere Ivy Sagbana, Sarkodie Kwame, Farzin Vajihi, Diaz Pedro, Ali Soleiman
+- Method: numerical simulation
+- Keywords: surfactant enhanced WAG, Eclipse black oil simulation, relative permeability, interfacial tension reduction, water cut, surfactant concentration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-050)
+
+Eclipse black-oil simulations using core-flood-derived relative permeabilities show low-concentration surfactant-enhanced WAG gives the highest recovery (58%) and delayed water cut versus WAG, waterflood and gas flood.
+
+Gas injection and WAG suffer from poor sweep and water blocking, so the authors propose injecting a low-concentration surfactant slug (alcohol alkoxy sulfate) before gas and water (SWAG). A 10x1x1 homogeneous sandstone box model (porosity 0.18, 100 mD, 20 cp oil) was built in Eclipse 100 with relative permeability and surfactant interfacial tension data taken from core flooding experiments. SWAG gave the highest oil recovery of 58%, compared with 48% for waterflooding, 47% for WAG and 37% for gas flooding. SWAG also delayed water breakthrough (about 0.4 hours) relative to the other methods. Recovery increased with surfactant concentration up to an optimum of 0.03 g/cc, beyond which it did not change. The model neglects surfactant adsorption and assumes isothermal conditions.
+
+## Visualization Investigation of the Mechanisms of Higher Quality Heavy Oil Recovery by Dense CO2 Injection
+
+- ID: SCA2017-055, year: 2017
+- Authors: Seyyed Mehdi Seyyedsar, Mehran Sohrabi, United Kingdom
+- Method: laboratory experiment
+- Keywords: dense CO2 injection, heavy oil, component extraction, micromodel visualization, oil swelling, oil-rich phase
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-055.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-055)
+
+Visual cell and micromodel experiments show dense CO2 extracts light and intermediate components from heavy oil, forming a mobile, light, less viscous oil-rich phase that improves produced oil quality.
+
+Coreflood work had shown that dense CO2 injection yields higher quality (lighter, less viscous) heavy oil. To identify the mechanisms, CO2 and heavy oil contact was observed visually in a high-pressure cell at 28 °C, and CO2 flow was observed in a transparent micromodel at 0.01 cm3/hr. CO2 contact triggered immediate extraction of hydrocarbons, initially methane, causing sudden swelling and then, after about 10 days, shrinkage of the oil volume. Compositional analysis showed components up to C10 were fully extracted and those up to C23 strongly reduced, with about 29% mass loss. In the micromodel, a light-colored, mobile oil-rich phase formed in the CO2 stream, consistent with enrichment in light and intermediate components, and a third oil type was trapped after tertiary waterflood.
+
+## Investigation of Water Flooding and Carbonated Water Injection (CWI) in a Fractured Porous Media
+
+- ID: SCA2017-058, year: 2017
+- Authors: Sedigheh Mahdavi, L.A. James
+- Method: laboratory experiment
+- Keywords: carbonated water injection, fractured micromodel, gravity effects, sweep efficiency, oil swelling, water flooding
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-058.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-058)
+
+Glass micromodel experiments show carbonated water injection beats water flooding in fractured porous media, with and without gravity, through better sweep, later breakthrough and higher recovery.
+
+Fractures cause poor sweep in gas-based EOR, and CWI had not been compared with water flooding in fractured media under gravity. A 20 × 3.5 cm glass micromodel with a sandstone-thin-section matrix (38% porosity) and four fractures perpendicular to flow was flooded with water or CWI at 305 psi and 21°C, in horizontal and vertical orientations, using 29.8 °API oil. In the vertical case, breakthrough came at 0.24 PV for water flooding and 0.37 PV for CWI, and 7 PV recovery was 38.8% for water flooding versus 49.7% for CWI. Horizontally, recovery at 7 PV was 43.7% for water flooding versus 57.1% for CWI. CWI gave more stable fronts, better pore-scale recovery and enhanced fracture-matrix oil conduction. The authors attribute this to mobility control, CO2 transfer, oil swelling and viscosity reduction.
+
+## Core-scale sensitivity study of CO2 foam injection strategies for mobility control, enhanced oil recovery, and CO2 storage
+
+- ID: SCA2019-030, year: 2019
+- Authors: Zachary Paul Alcorn, Sunniva B. Fredriksen, Mohan Sharma, Tore Føyen, Connie Wergeland, Martin A. Fernø, Arne Graue, Geir Ersland
+- Method: laboratory experiment
+- Keywords: CO2 foam, surfactant-alternating gas, apparent viscosity, miscible CO2 EOR, CO2 storage, foam mobility reduction
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-030.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-030)
+
+Core-scale experiments and simulation compare CO2 foam co-injection and SAG strategies; multi-cycle SAG gives the strongest foam, but CO2 diffusion and miscibility dominate recovery at core scale.
+
+The study supports design of a CO2 foam field pilot in the Permian Basin by comparing co-injection, single-cycle SAG and multi-cycle SAG in stacked outcrop limestone cores (8-73 mD) at 60°C and 180 bar with a non-ionic surfactant. In brine-saturated cores, multi-cycle SAG gave an apparent viscosity of 120.2 cP versus 56.0 cP for co-injection and 18.2 cP for single-cycle SAG. In EOR corefloods with n-Decane (FCM), multi-cycle SAG reached 100.7 cP; with North Sea crude (MCM), little foam formed, attributed to wettability alteration and oil destabilization. Incremental recovery averaged 30.6% OOIP regardless of strategy or surfactant, showing diffusion and miscibility dominate at core scale. CO2 storage was 9.0% greater for multi-cycle SAG than co-injection at MCM and 17.1% greater at FCM than MCM. A history-matched local-equilibrium foam model (ECLIPSE E300) was insensitive to grid resolution and reproduced higher storage with foam.
+
+## Pore-scale experimental study of carbonated water injection in an oilwet carbonate: an improved insight into wettability alteration and displacement mechanisms
+
+- ID: SCA2019-040, year: 2019
+- Authors: Ziqiang Qin, Maziar Arshadi, Mohammad Piri
+- Method: digital rock or imaging
+- Keywords: carbonated water injection, micro-CT imaging, in-situ contact angle, wettability alteration, depressurization, oil-wet carbonate
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-040.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-040)
+
+Micro-CT coreflooding of an oil-wet Fond du Lac carbonate shows carbonated water injection and depressurization raise oil recovery from 41.6% to 74.6%, with gradual wettability alteration.
+
+The study investigates pore-scale mechanisms of carbonated water injection (CWI) and subsequent depressurization in an oil-wet carbonate. A miniature Fond du Lac sample (10% porosity, 45 mD) was aged with crude oil and flooded at 1400 psi and 50 °C inside a micro-CT scanner (3.23 µm voxels). Waterflooding recovered 41.6% of oil; CWI raised recovery to 52%, and depressurization to 40 psi raised it to 74.6%. Average in-situ oil-brine contact angle stayed near 118° during waterflooding but fell gradually to 107° after 15 PV of CWI and 95.9° after depressurization. Oil swelling and exsolved CO2 displacements also contributed to production.
+
+## Improving oil recovery by injecting alcohol-treated CO₂
+
+- ID: SCA2019-091, year: 2019
+- Authors: Saira Saira, Emmanuel Ajoma, Furqan Hussain
+- Method: laboratory experiment
+- Keywords: alcohol-treated CO₂, miscibility pressure, interfacial tension, CO₂ injection, Bentheimer sandstone, ethanol
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-091.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-091)
+
+Core-flood and IFT experiments show that adding 4% ethanol to supercritical CO₂ lowers IFT and miscibility pressure, raising oil recovery by roughly 10–20%.
+
+In depleted reservoirs, pressure is often too low for CO₂ to reach miscible or near-miscible conditions. The study tests CO₂ equilibrated with ethanol (4% in scCO₂) against pure CO₂ in Bentheimer sandstone displacing a 35% hexane/65% decane oil at 70 °C. Pressures of 1300 psi (immiscible) and 1700 psi (near-miscible) were used, and capillary rise experiments measured IFT for both fluid pairs. Alcohol-treated CO₂ lowered IFT and miscibility pressure and increased oil recovery by about 10–20%. The gain was largest at immiscible conditions and much smaller near miscibility.
+
+## Dissolution behaviour in carbonate reservoirs during WAG injection: A preliminary experimental study
+
+- ID: SCA2021-013, year: 2021
+- Authors: Mohamed Khather, Matthew Myers, Ali Saeedi, Ausama Giwelli
+- Method: laboratory experiment
+- Keywords: CO2-WAG, carbonate dissolution, wormhole formation, X-ray CT, NMR T2, Damkohler number
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-013.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-013)
+
+A CO2-WAG coreflood on one oil-saturated carbonate plug gave ~30% extra oil recovery but dissolution created wormholes, raising permeability from 1.5 to 16 mD and bypassing oil.
+
+CO2 injection in carbonates risks reactive dissolution, so the authors tested CO2-WAG on one heterogeneous Middle East carbonate plug (calcite 82%, 12.7% porosity, 1.5 mD) at 14 MPa pore pressure, 65 °C and 27 MPa overburden. After 4 weeks of aging in crude oil and waterflooding to residual oil (~40% recovery), ten cycles of 0.5 PV CO2 alternating with 0.5 PV brine raised recovery to about 71%. Gas permeability rose from 1.5 to 16 mD, gas porosity fell slightly from 12.7 to 12.1%, and NMR T2 shifted toward smaller pores. Effluent calcium was highest in the first cycles, and X-ray CT showed dissolution at the inlet and wormholes along the core. Estimated Peclet (5.22×10^3) and Damkohler (7.26×10^3) numbers are consistent with the wormhole regime, and the wormhole channel let fluids bypass oil.
+
+## Carbonated Water Injection for Heavy Oil Recovery
+
+- ID: SCA2022-29, year: 2022
+- Authors: Jinxun Wang, Abdulkarim M. AlSofi, Hassan Behairy, Abdullah M. Boqmi, Sinan Caliskan
+- Method: laboratory experiment
+- Keywords: carbonated water injection, heavy oil, hot water flooding, coreflooding, CO2 diffusion oil viscosity reduction, rock dissolution CT
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-29)
+
+Tertiary carbonated water coreflooding of a 560-cP heavy oil in carbonate cores gave 15.5% OOIC incremental recovery, comparable to hot water flooding (21.0%), with shallow rock dissolution.
+
+Carbonated water injection (CWI) was evaluated as a non-thermal option for heavy oil carbonates. Composite carbonate cores (porosity about 31-33%, permeability about 1,400 md) were flooded at 77°C and 2,600 psi backpressure with a 565 cP crude, using tertiary-mode injection at 0.25 ml/min. After waterflooding to 33.2% OOIC, 5 PV of carbonated water (18 scc CO2/cc water) plus a post water flush raised recovery to 48.7% OOIC, an incremental 15.5%, or about 1.3 ml oil per litre CO2. A hot water flood at 120°C gave 21.0% OOIC incremental recovery (55.9% final) and responded faster, whereas CWI responded slowly because CO2 diffusion into oil takes time. CT scans showed small dissolution holes at the inlet face with dissolution depth about 1 cm, suggesting limited rock impact. Capillary end effects may slightly overestimate the incremental recoveries.
+
+## Carbonated Smart Water Injection for Optimized Oil Recovery in Chalk at High Temperature
+
+- ID: SCA2022-30, year: 2022
+- Authors: Md Ashraful Islam Khan, Sander Haaland Kleiberg, Ivan Dario Pinerez Torrijos, Tina Puntervold, Skule Strand
+- Method: laboratory experiment
+- Keywords: carbonated water injection, smart water, Stevns Klint chalk, CO2 solubility, PHREEQC, wettability alteration
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-30)
+
+Carbonated seawater and formation water floods in Stevns Klint chalk at 130°C gave modest extra oil; CO2 solubility is low, and swelling or dissolution are unlikely mechanisms.
+
+The study tests whether carbonated smart water improves oil recovery in chalk and which mechanisms are responsible. Restored Stevns Klint chalk cores (Swi 10%, intermediate water-wet, modified Amott index 0.44) were flooded at 130°C with FW, SW, CFW and CSW in secondary and tertiary mode. Secondary recovery was 68% OOIP for FW, 74% for SW and 79% for CSW, while tertiary CFW or CSW added only about 1–2% OOIP. CO2 solubility, measured at 60°C and matched by PHREEQC, was low (max ~50 mg/g in DI water, <10 mg/g at 10 bar), and produced-water pH stayed around 6. A two-phase flash showed CO2 transfers to oil, but much stays in the brine; SEM/EDX showed no mineral dissolution. The authors conclude swelling, viscosity reduction and dissolution are unlikely main mechanisms and suggest wettability alteration.
+
+## Laboratory Assessment of CO2 Storage in Oil Reservoirs through Converting Waterfloods to Carbonated Waterfloods
+
+- ID: SCA2023-011, year: 2023
+- Authors: Mehran Sohrabi, Amir Farzaneh, Almohannad AlGhamdi
+- Method: laboratory experiment
+- Keywords: carbonated water injection, CO2 storage, live oil coreflood, low salinity waterflooding, oil swelling, CO2 retention
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-011)
+
+Corefloods and micromodel tests show carbonated water injection raises oil recovery by about 20-30% over waterflood and retains most injected CO2 in the rock.
+
+The paper evaluates carbonated water injection (CWI) as a way to combine enhanced oil recovery with CO2 storage in oil reservoirs. Micromodel visualisation showed oil swelling and spontaneous hydrocarbon gas evolution in live oil, and CO2 dissolution cut a 600 cp heavy oil to 15 cp. Corefloods used a 23 cm composite carbonate core (10 mD, 25% porosity) with live oil at 100°C and 3100 psig. Carbonated seawater (27 cc CO2/cc water) gave about 20% more oil than seawater, low salinity water about 5%, and low salinity carbonated water about 30%. Tertiary CWI gave 24% additional recovery after 13 PV, with ultimate recovery of about 82% regardless of injection mode. After 2.5 PV, roughly two thirds of the injected CO2 was still retained in the core.
+
+## Comparison of Fur and Lark diatomite potential for hydrocarbon production and CO2 storage
+
+- ID: SCA2024_1041, year: 2024
+- Authors: Veronika Abdulina, Aleksandr Mamonov, Skule Strand, Tina Puntervold
+- Method: laboratory experiment
+- Keywords: diatomite, spontaneous imbibition, CO2 storage, carbonated water exposure, wettability, MICP
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1041.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1041)
+
+Lark reservoir and Fur outcrop diatomite are compared by mineralogy, pore properties, imbibition and CO2-brine exposure; Fur is nearly pure opal and strongly water-wet, so not a direct analogue.
+
+Diatomite is a rare, high-porosity, low-permeability reservoir rock, and the study compares Lark reservoir diatomite from the Norwegian shelf with Fur outcrop diatomite from Denmark. Characterization used SEM/EDX, XRD, MICP, BET and zeta potential. The outcrop is about 98% opal with 68.7% porosity and 6.8 mD permeability. The reservoir rock contains illite, kaolinite, muscovite and pyrite, with 48.6% porosity and 0.25 mD. Spontaneous imbibition with formation water recovered 75 %OOIP from the outcrop within 8 days (strongly water-wet) but only 45 %OOIP from the reservoir sample, which is mixed-wet and slower. One-month exposure of powdered rock to carbonated low-salinity brine at 60 °C and 80 bar showed pH around 5, minor pyrite dissolution (about 0.9 mM sulfate) and no visible grain changes, which suggests chemical stability for CO2 storage.
+
+## Utilisation of Extended Slow Heating (ESH) pyrolysis and core analysis for determination of oil saturations and porosity correction
+
+- ID: SCA_2025_1031, year: 2025
+- Authors: Wael F. Al-Masri, Bettina Jenei, Arka Rudra, Hamed Sanei, Henrik I. Petersen
+- Method: laboratory experiment
+- Keywords: Extended Slow Heating pyrolysis, oil saturation, porosity correction, core cleaning efficiency, scCO2 flooding, solid bitumen asphaltenes
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1031)
+
+ESH pyrolysis on 50 mg ground rock is converted to oil saturation and used to correct helium porosity for residual hydrocarbons, validated on Nini West plugs.
+
+Oil saturation is normally obtained from core plugs by extensive solvent extraction, while ESH pyrolysis gives only oil fractions in vol.%. The authors derive equations converting ESH vol.% to saturation using porosity, and a porosity correction for hydrocarbons left in cleaned plugs after helium porosimetry. They apply this to thirteen glauconitic sandstone plugs from the Nini-4 well (Nini West, Danish North Sea): preserved, brine-stored, cleaned by three methods, restored, and scCO2-flooded. For the restored plug REST1, ESH gave 70.7% oil saturation versus 70% gravimetric. Residual hydrocarbons in cleaned plugs were 0.72–1.88 vol.%, implying porosity underestimation of 0.43–1.14 PU. scCO2-flooded plugs contained mainly solid bitumen/asphaltenes, comparable to cleaned plugs, indicating no significant asphaltene precipitation, and non-movable saturations of 8.8–14.3% matched literature residual oil saturation.
+
+## Evolution Mechanism and Application of Miscible Zone in CO₂ Flooding
+
+- ID: SCA2026-003, year: 2026
+- Authors: Ke Zhang, Yaoze Cheng, Yu Zhang, Weifeng Lv, Lin Jiang, Ruisi Wang, Tiyao Zhou, Yuhao Mei, Wang Zhang
+- Method: laboratory experiment
+- Keywords: CO₂ flooding, minimum miscibility pressure, miscible zone, slim-tube, degree of miscibility, CT scanning
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-003)
+
+Compares four MMP methods, defines CO₂ miscible zone edges, phase intervals and a miscibility degree, and validates a coupled flow-phase model against BLX field GOR data.
+
+The paper addresses the lack of unified criteria for the miscible zone and degree of miscibility in CO₂ flooding. MMP of XH crude oil was measured by slim-tube (13.01 MPa), bubble rising (13.21), vanishing IFT (13.42) and capillary rising (13.84), with the faster static methods proposed to bracket MMP before slim-tube testing. Long 20 m slim-tube floods at 15 and 20 MPa (50 °C) defined the leading edge by CO₂ breakthrough (0.8 PV vs 0.5 PV) and the trailing edge by a GOR slope rise and increased C₂–C₁₅ in produced oil; recovery rose from 91.56% to 92.33%. CT online scanning showed the miscible zone grows with pressure, GOR-based intervals were classified from black oil to CO₂ main flow, and a multi-parameter miscibility degree was defined. A 1D model coupling two-phase flow, dispersion, adsorption and PR-EOS reproduced field GOR in the BLX fractured buried-hill reservoir with over 87% agreement.

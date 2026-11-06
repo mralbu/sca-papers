@@ -99,6 +99,12 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    `INCLUDE_ABSTRACTS` in `site.py`), topic, coordinates, scores, in-corpus
    citation links, similar-paper IDs, one thumbnail + caption. Never
    reference lists or full text.
+   `llms.py` (run by `site-data`) also writes the llmstxt.org files from the
+   same records: `site/llms.txt` (index), `site/llms/<topic>.txt` (per topic,
+   with AI summaries, PageRank order) and `site/llms-full.txt` (one line per
+   paper: all authors, method, keywords, TL;DR; ~1.2 MB). All are markdown
+   in `.txt` files: browsers display them (they download `.md`), and the
+   Pages guard keeps refusing any `.md` under `site/`.
    Paper text is untrusted: the front end only inserts it via `textContent`,
    except inline LaTeX (`$…$` in titles, abstracts, captions), which goes
    through KaTeX with `trust: false` (`setTex` in `app.js`). marker escapes
@@ -161,7 +167,8 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   when they change so cached per-paper outputs are redone.
 - `site/` (published): static site (`index.html`, `app.js`, `style.css`);
   generated data goes in `site/data/` (`papers.json`, `topics.json`,
-  `figures/<id>.webp`).
+  `figures/<id>.webp`), plus the generated `llms.txt`, `llms-full.txt` and
+  `llms/`.
 - `topics.yaml`: hand merge/rename overrides for topics; `duplicates.txt`:
   preview PDFs that `just download` skips.
 - `just check` runs pytest and ruff.

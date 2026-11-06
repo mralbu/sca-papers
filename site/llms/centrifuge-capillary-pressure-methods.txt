@@ -1,0 +1,954 @@
+# Centrifuge capillary pressure methods
+
+> 73 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: centrifuge, capillary pressure, pressure curves, saturation, pressure curve, drainage, technique, fluid, imbibition, hysteresis.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Simple and Accurate Methods for Converting Centrifuge Data into Drainage and Imbibition Capillary Pressure Curves
+
+- ID: SCA1991-07, year: 1991
+- Authors: P. Forbes
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, Hassler-Brunner inversion, forced imbibition, USBM wettability index, ill-conditioned inversion
+- Cited by 22 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-07)
+
+Two analytical methods invert the centrifuge equation for drainage and imbibition capillary pressure; the second needs no smoothing or fitting and matches artificial and experimental data well.
+
+Converting centrifuge average-saturation data into local capillary pressure curves requires inverting an ill-conditioned equation, and common methods smooth or fit the data, which can bias the results. The first method approximates the centrifuge equation with an Abel-type equation, giving a closed-form solution that also yields the corrected USBM wettability index directly, but it still needs data fitting. The second method uses the proven bounds S_HB ≤ S ≤ S_D (Hassler-Brunner and van Domselaar) to build S_alpha and S_beta solutions, combined as S_alphabeta, in a simple recursive differencing scheme. It processes a dataset in under one second on a PC, with no iteration, smoothing or averaging, and works with about five or more points. It reproduces artificial curves, including step functions, and handles noisy experimental drainage data (Bentsen and Anli, North Sea sandstones, Berea with mercury injection comparison). For forced imbibition the simple S_alpha solution is accurate for all B, and it reconstructs the raw data better than the averaged solution of Hermansen et al.
+
+## Water-Oil Capillary Pressure and Wettability Measurements Using Micropore Membrane Technique
+
+- ID: SCA1994-26, year: 1994
+- Authors: Daniel LONGERON, Wibeke L. HAMMERVOLD
+- Method: measurement technique or apparatus
+- Keywords: micropore membrane, capillary pressure hysteresis, wettability index, Amott index, USBM index, porous plate
+- Cited by 10 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-26.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-26)
+
+A micropore membrane coreholder measures full four-curve water-oil capillary pressure cycles in days, and a new area-based HL wettability index is proposed and tested on sandstone and carbonate.
+
+Full capillary pressure cycles (spontaneous and forced imbibition and drainage) by the porous plate method take months. The authors built a coreholder with thin water-wet and oil-wet micropore membranes and short, large-diameter cores (5 cm diameter, 2 cm thick) to speed this up. Tests used Vosges sandstone and Estaillade carbonate, both native water-wet and aged in Lagrave crude oil. Drainage curves agreed well with mercury injection and porous plate data, and full cycles took 20-30 days, about 30 times faster than standard porous plate. They propose the Hammervold-Longeron index, an Amott-like index weighting the four saturation intervals by the areas under the capillary pressure curves. HL values were 0.85 (water-wet sandstone), 0.97 (water-wet carbonate) and -0.01 (aged carbonate), compared with Amott and USBM indices.
+
+## A Novel Method for the Determination of Water/Oil Capillary Pressures of Mixed Wettability Samples
+
+- ID: SCA1993-22, year: 1993
+- Authors: R. Lenormand, A. Eisenzimmer
+- Method: measurement technique or apparatus
+- Keywords: capillary pressure, mixed wettability, semi-dynamic method, ultrasonic saturation measurement, negative capillary pressure, USBM wettability index
+- Cited by 15 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1993/SCA1993-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1993-22)
+
+A semi-dynamic steady-flow method with outlet washing and ultrasonic saturation measurement gives full positive and negative capillary pressure cycles for sands and Berea of varying wettability without membranes.
+
+Standard porous plate and centrifuge methods struggle to give imbibition and negative capillary pressure curves for mixed-wettability rocks. The authors propose a semi-dynamic method: one fluid is injected at stepped rates (5–500 cc/h) while the in-situ fluid washes the outlet face at 20 cc/h, so Pc is obtained from a pressure tap and local ultrasonic saturation measurements. Tests used sand packs (about 4.6 D) with silane-treated oil-wet fractions f=0, 0.5, 1, and a 130 mD Berea sample. Water-wet and oil-wet sands gave mirror-image cycles with plateaus near 40 mbar, while f=0.5 gave more symmetrical curves with smaller plateaus, interpreted with two interpenetrating wettability networks. The Berea positive Pc agreed with porous plate data, though the maximum rate did not reach irreducible water saturation. Results are considered qualitative owing to low pressures and dead volumes.
+
+## Centrifuge Data Analysis Techniques : An Sca Survey on the Calculation of Drainage Capillary Pressure Curves from Centrifuge Measurements
+
+- ID: SCA1997-14, year: 1997
+- Authors: Pierre Forbes
+- Method: data analysis or correlation
+- Keywords: centrifuge capillary pressure, inversion of centrifuge data, radial correction, Hassler-Brunner solution, interlaboratory survey, synthetic data
+- Cited by 21 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-14)
+
+An SCA survey tests about 19 centrifuge capillary pressure interpretation solutions on ten synthetic datasets, finding geometry-dependent errors up to 10 saturation units and only a few reliable methods.
+
+The 1993 SCA centrifuge survey showed large scatter between laboratories, and it was unclear whether measurement or interpretation caused it. This survey gave 14 contributors ten synthetic centrifuge datasets, built from known Pc curves and varied core/centrifuge geometries (B, N parameters) with added experimental error. Contributors used 19 solutions (HB, DOM, Sα, Sαβ, RW, HER, spline, parameter estimation etc.), with and without radial correction, giving about 50 interpretations per case. Interpretation error depended mainly on geometry: for 1"x1" cores at 21.5 cm many solutions stayed within ±3 saturation units, but elsewhere errors of ±10 units were common. Most methods bias saturation negatively, so averaging methods does not help, and more rotation steps or lower measurement error did not help. Only SPL and Sαβ with radial correction and consistency constraints and proper numerical implementation kept errors near ±3 saturation units across geometries.
+
+## Advances in Centrifuge Methodology for Core Analysis
+
+- ID: SCA1990-11, year: 1990
+- Authors: M. J. King, K. R. Narayanan, A. J. Falzone
+- Method: measurement technique or apparatus
+- Keywords: centrifuge gravity drainage, Hassler-Brunner analysis, stretched exponential extrapolation, history matching, oil relative permeability, capillary pressure
+- Cited by 9 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-11)
+
+Reviews centrifuge capillary pressure analyses, presents an automated ultracentrifuge and stretched-exponential extrapolation, and shows history matching with fixed Pc gives less biased oil relative permeability than simultaneous Pc estimation.
+
+The paper reviews centrifuge methods for capillary pressure and relative permeability, recasting Hassler-Brunner and later finite-core-length corrections (Hoffman, van Domselaar, Rajan) in a common form alongside an exact solution. An automated Beckman ultracentrifuge with a line camera records oil and water production at 4 µl resolution for six cores. Multi-stage gravity drainage on ~200 mD Berea and reservoir samples showed equilibrium was not reached after 24 hours, and a stretched exponential with β = 0.77 extrapolated one-day data to ten days. History matching with an automatic simulator (rotational discrimination) compared fixed Pc (Procedure I) with simultaneous Pc and kr estimation (Procedure II). Procedure II misrepresented the sharp Pc elbow, and the kr curves differed by up to an order of magnitude below 30% saturation, so fixing Pc from Hassler-Brunner points is recommended.
+
+## Calculation of Capillary Pressure Curves from Data Obtained by the Centrifuge Method
+
+- ID: SCA1988-02, year: 1988
+- Authors: Douglas Ruth
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, Hassler-Brunner equation, van Domselaar method, Bentsen parameter estimation, linear interpolation method
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1988/SCA1988-02.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1988-02)
+
+Compares centrifuge capillary pressure data reduction methods, introduces a linear interpolation method that matches Bentsen's parameter estimation on simulated data, and recommends using multiple methods.
+
+Centrifuge capillary pressure curves must be inferred from production versus speed data, and existing reduction methods are approximate. The authors compare the Hassler-Brunner approximation, van Domselaar's equation, Bentsen's parameter estimation and a new linear interpolation method (LIM) on simulated data with four curve shapes (a = 12 kPa, b from -96 to -1.5 kPa). Hassler-Brunner systematically underestimates and van Domselaar overestimates capillary pressure, while LIM agrees well, with errors within the ±0.15 cc reading error. LIM deviates near irreducible saturation for low b, traced to derivative estimation, and denser data at low pressure fixes this. Applied to Skuse's data and three new samples (dolostone, brownstone, Berea), LIM and Bentsen agree well except near irreducible saturation, where data quality limits LIM. The authors recommend taking data before the inner face reaches irreducible saturation and analyzing with more than one method.
+
+## Comparative Study of Drainage Capillary Pressure Measurements Using Different Techniques and for Different Fluid Systems
+
+- ID: SCA1994-24, year: 1994
+- Authors: Lionel Sabatier
+- Method: laboratory experiment
+- Keywords: drainage capillary pressure, centrifuge, porous plate, mercury injection, interfacial tension scaling, clay content
+- Cited by 9 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-24.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-24)
+
+Drainage capillary pressure on six water-wet samples compared across porous plate, centrifuge and mercury injection and three fluid pairs; gas-liquid data do not transfer to oil-brine.
+
+The paper compares drainage capillary pressure curves from porous plate, centrifuge and mercury injection on six samples (sandstones, dolomite, oolitic limestone) cleaned to be water-wet. Centrifuge runs used air-brine, air-oil and oil-brine on big plugs, while porous plate and mercury injection used small companion plugs. Air-brine curves from all three techniques agree well, with mercury data scaled by the interfacial tension ratio (6.85) and zero contact angle; no size effect was seen, and centrifuge differences at high saturation were attributed to insufficient equilibration time in low-permeability samples. Air-oil curves lie 3 to 8 saturation points from air-brine, while oil-brine curves end about 5 to 10 saturation points higher in saturation, so gas-liquid data are not transposable to oil-brine. Mercury injection diverges from air-brine centrifuge data when clay exceeds about 7%, by over 20 saturation points at 20% kaolinite/dickite.
+
+## Capillary Pressure From Centrifuge —A New, Direct Method
+
+- ID: SCA1991-24EURO, year: 1991
+- Authors: Hroar Hermansen
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, Volterra integral equation, Hassler-Brunner method, forced imbibition, modified midpoint method, mercury injection
+- Cited by 6 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-24EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-24EURO)
+
+A direct modified-midpoint solution of the centrifuge Volterra equation gives capillary pressure curves without iteration, validated on synthetic data, nine cores against diaphragm and mercury methods, and forced imbibition.
+
+The Hassler-Brunner interpretation of centrifuge data for long cores requires iteration and numerical differentiation. The authors solve the resulting Volterra integral equation of the first kind directly using a modified midpoint method, with a simple three-point smoothing (1/4, 1/2, 1/4) to suppress oscillations. They validated it on synthetic curves (Bentsen-Anli and Ayappa et al.), which were reproduced accurately, and on drainage of six Berea and three North Sea cores compared with porous diaphragm and mercury injection. Agreement with converted mercury data was very satisfactory, and the method was also applied to forced imbibition data from three North Sea sandstone cores. At least 5-6 datapoints are recommended; with only six points, Core 8's curve bend was not captured. A modified Hassler-Brunner procedure gave nearly the same results.
+
+## Comparison Study of Capillary Pressure Curves Obtained Using Traditional Centrifuge and Magnetic Resonance Imaging Techniques
+
+- ID: SCA2007_30, year: 2007
+- Authors: Derrick P. Green, Josh R. Dick, John Gardner, Bruce J. Balcom, Bing Zhou
+- Method: measurement technique or apparatus
+- Keywords: capillary pressure, centrifuge, SPRITE MRI, saturation profile, Leverett J function, Hassler-Brunner
+- Cited by 10 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_30)
+
+Centrifuged core plugs are scanned with 1D centric-scan SPRITE MRI to get saturation profiles and capillary pressure curves, matching traditional centrifuge results with 3-5 times fewer speeds.
+
+Traditional centrifuge capillary pressure measurements need 7-10 equilibrium speeds, each taking days, and infer inlet-face saturation from expelled fluid. The authors present GIT-CAP, which centrifuges plugs and then measures the saturation profile directly with 1D double half k-space centric scan SPRITE MRI on a 0.18 T instrument. Four low-permeability gas-water samples (0.9-2.3 mD, 12.6-14.5% porosity) were spun at five speeds chosen from Leverett J values, with MRI profiles normalized to the fully saturated profile. MRI-derived primary drainage curves agreed very well with separately measured traditional curves (Forbes method). As few as three speeds defined the curve, and two may suffice with longer cores, cutting measurement time by 3-5 times. Fluid redistribution during MRI acquisition was insignificant, with profiles stable even after days.
+
+## Interpretation of centrifuge data using local saturation
+
+- ID: SCA1994-28, year: 1994
+- Authors: M. Fleury, R. Lenormand, F. Deflandre
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, ultrasonic local saturation, multi-speed centrifuge, relative permeability, forced imbibition, wettability
+- Cited by 5 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-28)
+
+Ultrasonic local saturation measured during multi-speed centrifuge runs matches computed Pc curves on water-wet to oil-wet samples but does not improve relative permeability determination.
+
+Centrifuge Pc and Kr are normally derived from production data, so the authors measured local saturation during spinning using ultrasonic transit times at up to 5 locations on 7 cm plugs. Three samples were tested (water-wet, intermediate-wet, oil-wet) in drainage and forced imbibition with a 15 cP oil. Rotation effects on transit time required empirical corrections, up to 100% at the largest radii, and the saturation error is about 4% PV. Direct local Pc curves agreed with those computed from production and confirmed zero Pc at the outflow face, and local data revealed quasi-spontaneous drainage and fluid redistribution after the centrifuge stopped. Kr curves from production, single channels and all channels differed, because the inversion is very sensitive to Pc and to small heterogeneities, so local saturation gave no practical improvement.
+
+## Oil/Water Imbibition and Drainage Capillary Pressure Determined by MRI on a Wide Sampling of Rocks
+
+- ID: SCA2008-01, year: 2008
+- Authors: Derrick P. Green, Josh R. Dick, Mike McAloon, P.F. de J. Cano-Barrita, Jon Burger, Bruce Balcom
+- Method: measurement technique or apparatus
+- Keywords: SPRITE MRI, centrifuge capillary pressure, imbibition and secondary drainage, D2O brine, T2 cutoff, Brooks-Corey fit
+- Cited by 9 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-01)
+
+A centrifuge combined with quantitative SPRITE MRI saturation profiles gives drainage and imbibition capillary pressure curves from few centrifuge speeds, including negative Pc portions, tested on sandstone and chalk.
+
+Traditional centrifuge capillary pressure measurements need 7-10 speeds and rely on expelled-fluid volumes and approximate inlet-face saturation. The authors instead use centric-scan 1D SPRITE MRI on a 0.18 T system to measure saturation profiles in the core after centrifugation, pairing each position with the Hassler-Brunner capillary pressure. Oil/brine tests used D2O brine to make the water phase invisible to NMR, with the oil/water contact placed halfway up the plug to capture both positive and negative imbibition and secondary drainage pressures. An air/brine sandstone drainage curve agreed with porous plate data and T2 measurements gave FFI 23.3%, BVI 4.54% and a 63 ms cutoff. Two chalk samples were weakly water wet (Amott-Harvey 0.069 and 0.297; USBM 0.028 and 0.302) and a sandstone had USBM 0.28. The method is claimed to be 7-10 times faster for some curves.
+
+## Experimental Measurements of Capillary Pressure and Relative Permeability Hysteresis
+
+- ID: SCA2001-23, year: 2001
+- Authors: Shehadeh K. Masalmeh
+- Method: laboratory experiment
+- Keywords: capillary pressure hysteresis, contact angle hysteresis, wettability change, water trapping, scanning curves, Pc-probe
+- Cited by 6 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-23)
+
+Measures capillary pressure and relative permeability hysteresis on water-wet and non-water-wet cores, proposing a model based on trapping, contact angle hysteresis and wettability change.
+
+Existing hysteresis models rely mostly on water-wet data, so the paper measures capillary pressure and relative permeability hysteresis on carbonate and sandstone cores of varying wettability using centrifuge, steady-state, CAPRICI and Pc-probe techniques. A conceptual model attributes hysteresis to trapping, contact angle hysteresis and wettability change. In aged low-permeability limestones, primary imbibition and secondary drainage Pc curves do not form closed loops, and connate water rose by up to 15 saturation units after secondary drainage because of water trapping. Effective contact angle hysteresis calculated for two samples was 45-50° and 25-30°. Oil relative permeability showed strong hysteresis between primary drainage and imbibition, while water relative permeability showed little hysteresis unless the plugs were oil-wet. Oil kro end points ranged from above 1 for water-wet plugs to 0.2 for oil-wet ones.
+
+## Analysis of Centrifuge Relative Permeability Data
+
+- ID: SCA1997-11, year: 1997
+- Authors: Douglas Ruth
+- Method: numerical simulation
+- Keywords: centrifuge relative permeability, history matching, Corey exponents, Bentsen capillary pressure, sensitivity analysis, speed ramp-up
+- Cited by 4 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-11)
+
+Simulation of multi-speed centrifuge drainage shows wetting-phase exponents are well determined, non-wetting exponents poorly so, and capillary pressure should be fitted separately; ignoring speed ramp-up biases results.
+
+The paper simulates multi-speed centrifuge relative permeability experiments using Corey relative permeability and Bentsen capillary pressure curves with a finite-difference model including finite capillary pressure, non-uniform acceleration and finite non-wetting mobility. Grid-block number (N=40) and saturation-change time step (0.001) were chosen from convergence studies. Sensitivity tests with an assumed production error of 0.06 cm3 show the wetting exponent is determined accurately in all cases, while the non-wetting exponent is poorly determined unless non-wetting viscosity is high (error bar ±0.29 base case, ±2.59 at 0.01 cp). Capillary pressure parameters influence the whole experiment, and the wetting and non-wetting exponents influence different time regions after speed changes. History matching of random-error-corrupted data recovered exponents near 2.0, whereas ignoring a 1000 rpm/min ramp-up shifted the wetting exponent to 2.195. Recommendations are to compute capillary pressure separately, choose speeds near threshold pressure, weight early data after speed changes, and account for ramp-up.
+
+## Local Saturation Measurement While Centrifuging (MWC) for Improving Centrifuge Capillary-Pressure Curve Determination
+
+- ID: SCA1992-15, year: 1992
+- Authors: P. Forbes, C. Chardaire-Rivière, F. Deflandre, M. Fleury
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, ultrasonic transit time, local saturation measurement, Hassler-Brunner boundary condition, Vosges sandstone, CT scanner calibration
+- Cited by 3 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-15)
+
+Ultrasonic transit-time measurements at three core locations during centrifuging give local saturations and direct capillary pressure curves, and show centrifuge assumptions can fail at fairly low speeds.
+
+Standard centrifuge capillary pressure interpretation uses only average saturation from production and relies on ill-conditioned inversion and unverified assumptions. The authors built a centrifuge holder with ultrasonic transducers at three positions along a 7 cm core and recorded transit time during rotation, correcting for temperature and rotation effects. Calibration against CT scanner saturations on Vosges sandstone (about 23% porosity, 500-600 mD) gave a quasi-linear relation, So = a(Δt/t0) with a of 19-23, enabling a rapid one-point calibration; Berea gave a≈37. Capillary pressure curves from local saturations agreed with standard centrifuge interpretation and scaled mercury injection data. Signal changes at low production indicated failure of the boundary condition or fluid continuity at about 1800-2200 RPM (inlet Pc of 650-1000 mbar), much lower than commonly reported, while cavitation was not observed.
+
+## A Method for Measuring in-Situ Capillary Pressures at Different Wettabilities Using Live Crude Oil at Reservoir Conditions, Part 1: Feasibility Study
+
+- ID: SCA2002-18, year: 2002
+- Authors: Arne Graue, Thomas Bognø, Eugene A. Spinler, Bernard A. Baldwin
+- Method: measurement technique or apparatus
+- Keywords: nuclear tracer imaging, centrifuge capillary pressure, in-situ saturation, Na-22 tracer, collimator geometry, Portland chalk
+- Cited by 3 papers in the corpus, cites 11
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-18.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-18)
+
+A nuclear tracer imaging system on a centrifuge measures in-situ saturations during spinning; feasibility tests on chalk show reproducible saturations and a plausible primary drainage Pc curve.
+
+The paper presents a feasibility study of Nuclear Tracer Imaging (NTI) to measure in-situ saturation profiles in core plugs while spinning in a Beckman J-6B centrifuge, aiming at capillary pressure with live crude oil at reservoir conditions. A NaI scintillation detector with a collimator scans along the plug axis, with Na-22 labeled brine (2 mCi/l) in Portland chalk plugs (about 45% porosity, 3-4 mD) with decane. Collimator geometry was optimized by calculation of counts and resolution; a 2/4 mm slit, 15 cm depth and 15 cm distance were chosen. Static scans were reproducible, better with the 4 mm slit, and agreed with a horizontal flow rig. In-situ saturations of 83.4% and 62.8% matched material balance values of 81% and 63%. A preliminary primary drainage Pc curve with an 8 cm slit compared satisfactorily with conventional centrifuge and DMS data for similar chalk.
+
+## Radial effect and sample heterogeneity effect on centrifuge capillary pressure curves
+
+- ID: SCA1995-34, year: 1995
+- Authors: M. FLEURY, P. FORBES
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, radial effect correction, sample heterogeneity, porous plate, drainage, double porosity
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-34)
+
+Centrifuge experiments at different radii confirm and validate a radial-effect correction, and show that centimeter-scale heterogeneity makes capillary pressure curves depend on sample orientation.
+
+Two possible error sources in centrifuge capillary pressure measurement are examined: neglecting the radial geometry of the centrifugal field and sample heterogeneity. Short, wide Vosges sandstone and Estaillade limestone plugs were drained at small and large radii of rotation. Without correction the curves differed by up to about 10 saturation units, for example 0.255 versus 0.270 against 0.33 from the porous plate at about 460 mB. Applying the radial correction (parameter N of 0.064–0.114) as a data pre-process gave a single curve that matched the porous plate data. For heterogeneous Fontainebleau sandstone and St Maximin limestone, orientation barely mattered for lamination parallel to acceleration. For perpendicular lamination, entry pressure changed from 100 to 250 mB and "bumps" appeared, as reproduced by two-medium simulations. The authors recommend running both orientations, or placing the most porous face farthest from the axis if only one run is possible.
+
+## Capillary Pressure Scanning Curves by Direct Measurement of Saturation by
+
+- ID: SCA1997-05, year: 1997
+- Authors: E. A. Spinler, B. A. Baldwin
+- Method: measurement technique or apparatus
+- Keywords: capillary pressure scanning curves, MRI saturation profile, centrifuge, frozen octadecane, imbibition hysteresis, free water level
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-05)
+
+Centrifuge-established saturation profiles, frozen in place with octadecane and mapped by MRI, give direct capillary pressure drainage and imbibition scanning curves for Berea sandstone and chalk.
+
+Conventional capillary pressure methods infer saturation indirectly or take weeks to months, so complete drainage-imbibition scanning curves are rarely reported. The authors centrifuged plugs with a free water level inside the plug, froze the octadecane phase, and imaged the remaining water by MRI, getting 105 to 133 saturation points per profile, calibrated against air-water weight saturations. Placing the free water level along the plug gave positive and negative Pc simultaneously. Berea imbibition crossed Pc=0 at Sw 62% and secondary drainage at 69%, suggesting slightly less water-wet behavior, and closure of the bounding curves was not achieved. Chalk imbibition and secondary drainage both crossed at 72% and overlaid with no hysteresis. Each equilibrium step took about 2 days for Berea and up to 12 days for chalk, giving total test times of about 16 days and 1.5 months.
+
+## Calillary Pressure Curve Measurement Using a Single-Moderate-Speed Centrifuge and Quantitative Magnetic Resonance Imaging
+
+- ID: SCA2005-44, year: 2005
+- Authors: Quan Chen, Bruce J. Balcom
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, SPRITE MRI, saturation profile, Berea sandstone, mercury intrusion porosimetry, single-speed centrifuge
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-44.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-44)
+
+A single-speed centrifuge run on a long core, with 1D SPRITE MRI saturation profiling, gives a drainage capillary pressure curve matching mercury intrusion for Berea sandstone.
+
+Traditional centrifuge capillary pressure measurements need 7-10 speeds and approximate solutions to convert average saturation to Pc. The authors spin a long water-saturated Berea sandstone core (porosity 0.19, permeability 0.2 D) at a single 1500 rpm for 140 min in a tabletop centrifuge. They measure the 1D water saturation profile along the core with centric scan SPRITE MRI (64 points, 25 s acquisition). Since Pc(r) follows directly from the centrifugal field, saturation vs. position gives about 40 Pc points without an approximate inversion. Average saturation after spinning was 46.3%, outlet face saturation was 100% confirming the boundary condition, and the converted curve agreed remarkably well with mercury intrusion porosimetry.
+
+## Centrifuge Capillary Pressure Data Interpretation: Gravity Degradation Aspect Consideration
+
+- ID: SCA1994-25, year: 1994
+- Authors: Zhigang Andy CHEN, Douglas W. RUTH
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, gravity degradation, three-dimensional centrifuge theory, equipotential surfaces, parameter estimation, Beckman centrifuge
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-25)
+
+A 3D centrifuge theory including gravity at low rampup speeds is used to interpret capillary pressure, showing 2D models misestimate the high-saturation zone for high-permeability sandstones.
+
+At low initial speeds (<500 rpm) in horizontal-rotor Beckman centrifuges, gravity distorts the centrifugal field in high permeability and porosity sandstones, which biases capillary pressure interpretation near threshold pressure. The authors extend a three-dimensional centrifuge theory with equipotential surfaces and use implicit parameter estimation with simple capillary pressure functions (Bentsen log, Chen reversal-curvature) on synthetic data (k>700 md, φ>20%, 50–1000 rpm) and two SCA survey samples (EF3, FA4). Curves recovered with the 3D theory lie above those from Christiansen's 2D model at high saturation, with differences of 1 to 5 saturation percent. Simple functions with few parameters can shift or force-bend the recovered curve beyond the low-speed range. Pivoted rotor heads are suggested to minimize the effect, and experimental verification remains to be done.
+
+## Simultaneous Measurement of Multiple Capillary Pressure Curves from Wettability and Rock Property Variations Within Single Rock Plugs
+
+- ID: SCA1999-57, year: 1999
+- Authors: E. A. Spinler, B. A. Baldwin, A. Graue, Bartlesville OK
+- Method: measurement technique or apparatus
+- Keywords: MRI saturation profiles, direct measurement of saturation, imbibition capillary pressure, wettability variation, Amott index, chalk
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-57.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-57)
+
+MRI saturation profiles from centrifuged chalk plugs yield multiple capillary pressure curves per plug, revealing porosity bands and wettability variations from edge to center that bulk Amott tests miss.
+
+Heterogeneity in porosity and wettability can compromise capillary pressure data from core plugs. The authors used MRI (2T Varian system, ~4 mm slice, 0.52 x 0.62 mm pixels) with the Direct Measurement of Saturation method on centrifuged low-permeability chalk plugs. In plug A (25.5% porosity, 23-27% locally), air-brine drainage gave two distinct primary drainage Pc curves for the lower and higher porosity zones. In plug B (Portland chalk outcrop, 48% porosity, aged in crude oil, bulk Amott water index 0.07), octadecane solidified to fix fluid positions allowed spontaneous and forced imbibition Pc curves at different positions. Local wettability ranged from strongly water-wet at the center to moderately water-wet near the edges, probably from crude oil aging effects, while porosity and initial water saturation had only minor influence on the curves.
+
+## A Single-Shot Method for Determining Drainage and Imbibition Capillary Pressure Curves
+
+- ID: SCA2006-12, year: 2006
+- Authors: Quan Chen, Heather Hickey, Bruce J. Balcom
+- Method: measurement technique or apparatus
+- Keywords: single-shot capillary pressure, centric scan SPRITE MRI, centrifuge saturation profile, imbibition capillary pressure, D2O brine, Hassler-Brunner
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-12)
+
+A single-speed centrifuge run plus 1D SPRITE MRI saturation profiles yields full drainage and imbibition capillary pressure curves with about 40 points, far faster than multi-speed centrifugation.
+
+Traditional centrifuge capillary pressure measurements need about 10 speeds, an expensive ultracentrifuge and days to weeks. The authors instead spin a core at one speed (3000 rpm, 24-48 h) with the free water level at the outlet face, then measure the saturation profile S(r) with 1D centric scan SPRITE MRI at 0.2 T in about one minute. D2O brine and decane make the oil and water phases distinguishable. On a 370 md, 0.28 porosity sandstone, primary drainage, imbibition and secondary drainage curves were obtained from about 40 profile points and resembled literature curves. The authors estimate a more than 50-fold throughput gain, with negligible gravity and pore-structure effects. A spinning-disk variant with 2D Spiral SPRITE on a 4-inch Berea disk at 1920 rpm gave a drainage curve (average Sw 44%) with no radial effect.
+
+## Measurement of Capillary Pressure by Direct Visualization of a Centrifuge Experiment
+
+- ID: SCA1998-38, year: 1998
+- Authors: Osamah A. Al-Omair, Richard L. Christiansen
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, video visualization, gray level saturation correlation, Hassler-Brunner, Bond number, outlet boundary condition
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-38)
+
+Video imaging of sand packs and Berea slices during centrifuge drainage yields capillary pressure curves matching Hassler-Brunner and suggests the outlet boundary condition fails above Bond number 0.0012.
+
+The study tests a visualization method for centrifuge capillary pressure measurement, motivated by doubts about the zero-capillary-pressure outlet boundary condition. A custom circular rotor with transparent holders was used in a Beckman J6-B centrifuge, with four sand packs and four Berea slices (2x3x0.2 in) saturated with dyed water and imaged at each spin rate with a video camera. Local saturation was obtained from a gray-level correlation built from the centrifuge data itself, and Pc was computed from radius and spin rate. Capillary pressure curves agree qualitatively with Hassler-Brunner results, though with scatter. Saturations fell below 5% at Bond numbers above 0.00001, consistent with King et al., and the standard outlet condition may fail in sand packs above Bond number 0.0012 but was not clearly seen failing in Berea.
+
+## Full Imbibition Capillary Pressure Measurements on Preserved Samples Using the Micropore Membrane Technique
+
+- ID: SCA1997-16, year: 1997
+- Authors: M. Fleury, M. Doevle, D. Longeron
+- Method: measurement technique or apparatus
+- Keywords: micropore membrane, imbibition capillary pressure, preserved core, intermediate wettability, equilibrium criterion, residual oil saturation
+- Cited by 7 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-16)
+
+Full imbibition capillary pressure curves were measured on preserved North Sea sandstone plugs with micropore membranes; exponential production fitting gives an equilibrium criterion, and premature steps bias Sor by about 6 saturation units.
+
+Full imbibition capillary pressure curves are needed to assess waterflooding in non-strongly water-wet reservoirs. The authors measured them with the CAPWET micropore membrane apparatus on three thin plugs (about 39.5 mm diameter, 24 mm long) from a preserved Rannoch sandstone core, using only oil and water flooding to resaturate and no cleaning or ageing. A capacitance level detector resolves about 0.01 cc of produced brine. The curves had nearly vertical positive parts and most saturation change in one negative step (about -10 to -80 mBar), indicating intermediate wettability. An inadequate equilibrium criterion on plug 1 gave a 1-Sor about 6 units lower than companion plug 2 (70 vs 76%). Fitting each pressure step with P = Pex(1 - exp(-t/tc)) and stepping at t = 4tc gives a non-empirical equilibrium criterion. Waxy crude may have plugged the membrane, so refined oil is recommended when temperatures above 40°C cannot be used.
+
+## Effect of the Spreading Coefficient on Gas/Oil Capillary Pressure Curves in Presence of Connate Water
+
+- ID: SCA1991-06, year: 1991
+- Authors: François KALAYDJIAN, Mireille TIXIER
+- Method: laboratory experiment
+- Keywords: spreading coefficient, three-phase drainage capillary pressure, centrifuge method, residual oil saturation, network model, gas injection
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-06)
+
+Centrifuge gas/oil drainage capillary pressure tests on sand show negative spreading coefficients lower the capillary threshold and raise residual oil saturation, supported by glass network model experiments.
+
+Standard three-phase flow models ignore fluid/fluid interactions, deriving three-phase capillary pressures from two-phase data. The authors argue the spreading coefficient S = γwg − (γow + γog) controls the apparent contact angle and hence gas/oil drainage capillary pressure. Centrifuge experiments on unconsolidated waterwet sand (about 40% porosity, 2.3–2.8 D) with four fluid systems gave S from +15.7 to −90 mN/m. Residual oil saturation stayed near 1% for positive or near-zero S but rose to 10–11.5% for negative S, and the capillary threshold fell with negative S, reaching zero for the silanated sand. Glass etched-network experiments showed oil ganglia less stretched for S<0 (stretching coefficient 5.5 vs 9.1). Field-condition tension estimates show S can be positive or negative, so laboratory tests should scale S.
+
+## Resistivity measurements while centrifuging
+
+- ID: SCA1997-15, year: 1997
+- Authors: Claudine Durand, Roland Lenormand
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, resistivity index, Archie saturation exponent, rotary electrical contacts, Forbes algorithm, saturation gradient
+- Cited by 4 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-15)
+
+A centrifuge device with rotary contacts and radial four-electrode geometry measures resistivity index during capillary pressure drainage; simulation links curved RI-Sw trends to non-uniform saturation.
+
+The paper presents a light-weight centrifuge coreholder that records rock resistance during drainage using rotary electrical contacts and six radial electrodes pressed on the plug by a compression kit or heat-shrink casing. Tests used 23 mm diameter Fontainebleau and Vosges sandstones, then two North Sea reservoir samples, with Soltrol 130 oil and brine. The radial-to-longitudinal resistance ratio was 0.5, showing the measurement is less local than expected and integrates about half the sample volume. Resistivity index versus mean saturation was curved because of the saturation gradient; local saturations from Forbes' algorithm and a 40x20x20 grid simulation with Archie's law reproduced this shape, with n = 2 fitting Vosges sandstone end points. Reservoir samples gave higher n values, consistent with oil-wet or mixed-wet behavior.
+
+## Reservoir Engineering Implications of Capillary Pressure and Relative Permeability Hysteresis
+
+- ID: SCA1989-09, year: 1989
+- Authors: Jeffrey T. Hawkins, Andre' J. Bouchard
+- Method: laboratory experiment
+- Keywords: capillary pressure hysteresis, relative permeability hysteresis, first-cycle waterflood, native-state core analysis, transition zone saturation, centrifuge
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1989/SCA1989-09.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1989-09)
+
+Capillary pressure and relative permeability show flooding-phase and cycle-dependent hysteresis that affects reservoir calculations, so data from the correct flood cycle must be used, with implications for native-state cores.
+
+The paper examines hysteresis in capillary pressure and relative permeability and its consequences for reservoir engineering. Capillary pressure was measured on Berea sandstone by centrifuge and porous plate; relative permeability was measured on a synthetic oil-wet bead core using steady-state and unsteady-state methods. Two types of hysteresis were found: flooding-phase dependent and cycle dependent. Using a second-cycle oilflood capillary curve would overestimate transition-zone oil by 100% and underestimate original oil in place above the transition zone by about 11%. Irreducible water saturation differed by 30 saturation percent between first- and second-cycle oilfloods, and second-cycle waterflood curves wrongly indicated water-wet behavior. First-cycle data should be used for waterflood and initial saturation, second-cycle oilflood for EOR, and native-state cores often cannot provide first-cycle waterflood data, whereas restored-state cores can.
+
+## Some Observations on the Capillary Pressure Hysteresis Using the Ultracentrifuge
+
+- ID: SCA1994-23, year: 1994
+- Authors: Ben Nikakhtar, Apostolos Kantzas
+- Method: laboratory experiment
+- Keywords: capillary pressure hysteresis, ultracentrifuge, irreducible water saturation, USBM wettability index, native and restored state, carbonate reefs
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1994/SCA1994-23.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1994-23)
+
+Ultracentrifuge tests on about 60 plugs show irreducible water saturation shifts between first and second drainage, depending on fluids, wettability and rock type, and correlating with sample depth.
+
+Centrifuge capillary pressure hysteresis differs from porous plate hysteresis, with irreducible water saturation shifting between first and second drainage. About 60 plugs were tested: Berea sandstone, Baker dolomite and native and restored carbonate pinnacle reef cores from Western Canada, using crude and refined oils at room and reservoir temperature. Refined oil gave negligible shifts, while crude oil gave the widest hysteresis. Berea and Baker cores showed lower irreducible water saturation in the second drainage, whereas restored reef cores consistently showed higher values; native cores were split. The saturation difference trended with wettability (USBM index, RDI, Amott water index) but not with porosity or permeability, and the best correlation was with sample depth relative to the gas/oil and water/oil contacts, suggesting reservoir saturation history matters.
+
+## A model of capillary equilibrium for the centrifuge technique
+
+- ID: SCA2000-31, year: 2000
+- Authors: M. Fleury, P. Egermann, E. Goglin
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, capillary equilibrium, bi-exponential model, equilibrium saturation extrapolation, forced imbibition, production curve
+- Cited by 5 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-31)
+
+A bi-exponential model fits transient centrifuge production curves, extrapolates equilibrium saturation and gives a speed-change criterion that roughly halves experiment duration with negligible accuracy loss.
+
+Capillary equilibrium in centrifuge experiments is hard to define, and speed-step durations are usually set empirically, which can bias capillary pressure curves. The authors fit transient average saturation with a four-parameter bi-exponential model (ΔSeq, T1, T2, w), with T1 and T2 differing by about a factor of ten (e.g. 0.12 h and 3.9 h for a Vosges sandstone air-water drainage). It was validated on forced imbibition and second drainage of a 107 mD intermediate-wet carbonate (USBM -0.15) and on a sandstone, using an automated centrifuge with capacitance level detection. A stretched-exponential form handles slow acceleration (5 rpm/min), tested with simulations. Changing speed when the extrapolated saturation varies less than 1% over 4 h cuts duration by about a factor of two; shortened steps gave errors of 2-4% relative with 25-75% time gain. The method also improves equilibrium estimates from manually read data.
+
+## Combined Resistivity and Capillary Pressure Measurements Using Micropore Membrane Technique
+
+- ID: SCA1996-15, year: 1996
+- Authors: M. Fleury, D. Longeron
+- Method: measurement technique or apparatus
+- Keywords: micropore membrane, resistivity index, saturation exponent, four-electrode technique, contact resistance, capillary pressure
+- Cited by 3 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-15)
+
+A peripheral-electrode design allows simultaneous micropore-membrane capillary pressure and four-electrode resistivity measurements, avoiding contact-resistance artefacts seen with two-electrode methods; validated experimentally and by simulation.
+
+Thin micropore membranes speed up capillary pressure measurements on short, wide samples, but face-mounted electrodes conflict with the membranes. The authors place current and potential electrodes around the periphery of the sample, as in electrical tomography, so resistivity can be measured in any drainage or imbibition step. Tests on a Grès des Vosges sandstone (80 mD, 22.5% porosity, formation factor 11) gave a single power law in drainage and imbibition with a saturation exponent of about 2.35 for the four-electrode combinations. A two-electrode arrangement showed contact resistance from oil at the electrodes, giving an index about twice as large near Swi and a spurious hysteresis (slopes -2.7 and -1.5). Reservoir-simulator analogies for the electrical field showed large current electrodes give a fairly uniform field, and conductive end-pieces raised current by about 11% in simulation versus 18.5% measured, though non-conductive end-pieces are recommended.
+
+## The Role of Bound Water and Capillary Water in the Evaluation of Porosity in Reservoir Rocks
+
+- ID: SCA1990-12EURO, year: 1990
+- Authors: Nadia Pallatt, David Thornley
+- Method: laboratory experiment
+- Keywords: thermogravimetry evolved water analysis, bound water, capillary water, water vapour sorption isotherm, chlorite microporosity, mercury porosimetry
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-12EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-12EURO)
+
+Thermogravimetry/evolved water analysis on North Sea sandstones and Berea shows capillary water far exceeds bound water, up to 10 times in chlorite-rich rock.
+
+The paper examines how bound and capillary water affect porosity evaluation in reservoir sandstones. Core from three North Sea reservoirs (A kaolinite, B illite, C chlorite; porosity 20-27%) and Berea sandstone were equilibrated at 0.55 RVP (bound water) and 0.9735 RVP (capillary water, pores up to 0.08 µm, 3.63 MPa equivalent). Evolved water was quantified by TG/EWA heating to 200°C, and combined with XRD, SEM, krypton surface area and mercury porosimetry. Bound water was only 1.1-2.4% of pore volume, while water at 0.9735 RVP was 6.0% (Berea), 7.1% (A), 18.5% (B) and 22.6% (C). The capillary/bound ratio rose from 4.7-5.5 for kaolinite to 7.7 for illite and 9.8 for chlorite, versus 2.5 for non-microporous material, reflecting clay morphology and microporosity.
+
+## The "Spinning Disk" Approach to Capillary Pressure Measurement with a Centrifuge Experiment
+
+- ID: SCA1998-34, year: 1998
+- Authors: Salah M. Al-Modhi, Richard L. Christiansen
+- Method: measurement technique or apparatus
+- Keywords: spinning disk centrifuge, capillary pressure, Hassler-Brunner expression, video imaging saturation, unconsolidated packs, threshold pressure
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-34)
+
+First experimental test of the spinning disk centrifuge geometry, where the Hassler-Brunner expression is exact, using sand and glass-bead packs with average-saturation and video methods.
+
+The spinning disk method spins a cylindrical sample about its own axis of symmetry, unlike the standard offset centrifuge geometry. The authors show analytically that for this geometry the truncated Hassler-Brunner expression gives local saturation exactly from average saturation data, and that large-diameter samples are preferred. Experiments used a plastic sample cell in a Beckman J6-B centrifuge with unconsolidated 20-40 mesh sand and 80-120 and 120-170 mesh glass-bead packs (permeability 8.5 to 154 darcies, initial saturation about 95%). Threshold pressures from the centrifuge (0.25 to 0.85 psi) agreed with independent measurements, and the capillary pressure curves matched those from standard geometry. Video-derived saturations agreed with the differentiated average saturation data above Sw of about 0.2, but differed at lower saturations. Unequal drainage among the four collection vessels was a complication.
+
+## Comparing Different Methods for Capillary Pressure Measurements
+
+- ID: SCA2000-51, year: 2000
+- Authors: M. Sarwaruddin, Ole Torsæter, Arne Skauge
+- Method: laboratory experiment
+- Keywords: capillary pressure, centrifuge, gamma-ray saturation scanning, Hassler-Brunner, Berea sandstone, J-function
+- Cited by 3 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-51.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-51)
+
+Gas-oil drainage capillary pressure on Berea was measured by centrifuge saturation monitoring with gamma scanning; it matches porous plate data, while Hassler-Brunner interpretation gives higher Pc.
+
+Drainage capillary pressure for an air/C19 system in Berea cores was measured by Hassler-Brunner centrifuge, free gravity drainage and a saturation monitoring (SM) method. In SM, cores were centrifuged at 500 and 2000 rpm at 40°C, then cooled to 20°C to freeze the saturation profile, and in-situ saturation was scanned by gamma-ray attenuation (241Am) every mm. Average Pc over the thin scanned section was used to remove radial effects. Five Berea plugs (190-382 mD, 18.5-22.3% porosity) were scaled by J-function to a common basis and fitted with an analytical function and a Leverett J-function (a=1.51, b=-1.65). SM data were repeatable and agreed with literature porous plate, gravity drainage and NMR data, whereas centrifuge analytical interpretations, including those with radial corrections, gave higher Pc.
+
+## A Capacitance Technique for Measuring Production While Centrifuging
+
+- ID: SCA1998-33, year: 1998
+- Authors: M. FLEURY, P. POULAIN, G. RINGOT
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, capacitance level detector, production measurement, forced imbibition, slip ring, drainage
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-33)
+
+A capacitance level detector in rotating centrifuge core holders measures production at 200-4000 rpm with about 1.5% pore volume accuracy, for drainage and forced imbibition Pc curves.
+
+Optical production measurement in centrifuges struggles at low speed because of vibration, alignment and contrast. The authors developed a capacitance-based level detector (coated metallic rod) in core holders for a modified large-radius Jouan centrifuge, holding four 4 cm by 6 cm samples and transmitting signals through a slip ring. Calibration is linear over about 13 cc with resolution of 0.013 cc, and the signal is independent of brine salinity and only weakly temperature dependent. Tests on Vosges sandstone and plastic plugs showed stability better than 0.2 cc, and accuracy of 1-2% of pore volume. Air-brine drainage and oil-water forced imbibition examples were shown, with Pc ranges of 0.011-3.3 bar in drainage and -0.013 to -5 bar in imbibition, plus slow acceleration (1000 rpm/hr) for relative permeability.
+
+## A New Technique to Obtain the Real Capillary Pressure-Saturation Curve Directly from Centrifuge Experiments
+
+- ID: SCA1992-04EURO, year: 1992
+- Authors: Giovanna Ragazzini, Carlo Venturini, Agip SpA, S. Donato Milanese MILANO
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, end effect, end-piece, Rajan solution, Forbes solution, saturation profile
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-04EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-04EURO)
+
+A porous end-piece in capillary contact at the outlet of centrifuged sandstone plugs gives capillary pressure curves directly, matching Rajan and Forbes solutions and inlet-piece data without mathematical correction.
+
+Centrifuge capillary pressure data normally require mathematical correction because only average saturation is measured and the outlet end effect biases it. The authors attach a 1 cm porous end-piece of the same lithology to the outlet of 5 cm sandstone plugs, using brine-wetted paper for capillary contact, and weigh only the core sample at each speed. Air-brine and oil-brine drainage was run on Berea and reservoir sandstones (31.7-757 mD) up to 3500 rpm. Results were compared with Rajan and Forbes interpretations and with the inlet-piece curve from samples cut into five 1 cm pieces. The end-piece method matched these curves within experimental error (<3%), and the end effect was confined to the last centimeter.
+
+## Hysteresis Effects in Capillary Pressure, Relative Permeability and Resistivity Index of North Sea Chalk
+
+- ID: SCA2001-65, year: 2001
+- Authors: M.T. Tweheyo, M.S. Talukdar, O. Torsæter
+- Method: laboratory experiment
+- Keywords: hysteresis, capillary pressure, relative permeability, resistivity index, Amott wettability index, North Sea chalk
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-65.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-65)
+
+Lab tests on four North Sea chalk cores show significant drainage-imbibition hysteresis in capillary pressure and relative permeability, but only minor hysteresis in resistivity index.
+
+The paper examines drainage-imbibition hysteresis in capillary pressure, relative permeability and resistivity index for four North Sea chalk plugs (porosity 0.19-0.31, liquid permeability 0.09-1.94 md). Capillary pressure was measured by centrifuge with spontaneous imbibition cells, relative permeability by unsteady-state flooding with n-decane and brine history-matched using Corey exponents, and resistivity by a two-electrode method. Amott wettability indices of 0.34-0.53 indicated moderately water-wet cores, with no spontaneous oil uptake. Capillary and relative permeability hysteresis were significant, the latter more so in the non-wetting phase, and forced imbibition was an important oil production mechanism. Archie saturation exponents ranged 1.4-1.7, with small drainage-imbibition differences in cores 2 (1.6 vs 1.4) and 6 (1.7 vs 1.6) and none in core 4.
+
+## Application of Linear X-Ray Analysis Using Absorption Coefficients for Direct Determination of in Situ Core Saturation for PC Measurement
+
+- ID: SCA2001-31, year: 2001
+- Authors: E. A. Spinler, D. R. Maloney
+- Method: measurement technique or apparatus
+- Keywords: direct measurement of saturation, linear x-ray absorption, imbibition capillary pressure, Lambert's law, wettability alteration, Kansas chalk
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-31.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-31)
+
+Linear x-ray scanning with Lambert's law gives in situ saturation for direct-measurement imbibition Pc curves on chalk, but follow-up tests revealed non-uniform wettability compromising altered plugs.
+
+The paper applies linear x-ray absorption (Lambert's law) to obtain in situ saturation profiles for Pc determination by direct measurement of saturation (DMS). Four Kansas outcrop chalk plugs (three wettability-altered with stearic acid) were saturated with solid octadecane and KI-doped brine, with absorption coefficients calibrated using cells of known thickness (0.74305 for brine, 0.1276 for octadecane). Analysis used a 4 mm central slice to limit geometric, gravity and edge artifacts, and a dry reference plug corrected positioning and intensity drift. Octadecane saturation reached 95-97% after repeated centrifuging. Positive and negative imbibition Pc curves were obtained from centrifuge profiles with free water level from MRI or x-ray. Counter-current imbibition tests and post-imbibition profiles showed axial and probably radial wettability non-uniformity in plugs 8-2 and 10-2, so their Pc curves were compromised.
+
+## Quantitative Evaluation and Correction of Gravity Effects on Centrifuge Capillary Pressure Curves
+
+- ID: SCA1997-34, year: 1997
+- Authors: European Commission
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, gravity correction, radial effect, drainage and imbibition, inversion of saturation equation
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1997/SCA1997-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1997-34)
+
+Quantifies gravity effects on centrifuge capillary pressure curves and proposes a combined radial-gravity pre-processing correction, finding gravity effects usually below measurement uncertainty.
+
+The paper analyzes how gravity, superimposed on the centrifugal field, affects centrifuge capillary pressure measurements in drainage and imbibition. Gravity can alter the saturation equation formulation in drainage, but the affected zone is under 1% of core volume, so the error is far below saturation uncertainty. Its effect on inversion is larger, equivalent to a pressure shift never exceeding 2ΔρgR (about 0.08 psi gas-liquid, 0.016 psi oil-brine). A pre-process correction combining radial and gravity effects is derived and validated against exact polynomial capillary pressure cases, with differences under 1 saturation unit for spontaneous production below 10 saturation units. Gravity matters only below about 150-300 RPM in drainage and 400-800 RPM in imbibition. The correction is recommended since it costs nothing extra and could extend centrifuge use to low-capillary-pressure media if low-speed rotation accuracy (<5 RPM) is available.
+
+## A Proposal for a Constant Flow Rate Centrifuge Technique to Measure Relative Permeability and Capillary Pressure
+
+- ID: SCA2006-06, year: 2006
+- Authors: Douglas Ruth
+- Method: numerical simulation
+- Keywords: centrifuge displacement, relative permeability, capillary pressure, constant flow rate control, production rate feedback, numerical simulation
+- Cited by 2 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-06)
+
+Proposes a centrifuge method that uses production-rate feedback to hold total flow rate within a band, and shows by simulation it is faster and feasible.
+
+Existing centrifuge methods (single-speed, multi-speed, constantly-accelerating) allow non-reservoir-realistic flow rates or very long run times. The paper proposes a constant flow rate method in which rotational speed is increased or held based on measured production rate, keeping flow within preselected minimum and maximum limits, emulating unsteady-state displacement. Numerical simulation using real capillary pressure and relative permeability curves from a multi-speed experiment (final speed 7000 rpm) compared the four modes. The constant flow rate mode kept flow in a tight band and finished faster than the optimized constantly-accelerating mode (29 rpm/min), while multi-speed took much longer. A standard-error analysis of fitted production slopes shows that for a 0.00111 cc/s rate and 10% error, an observation error under 0.01 cc at 0.1 s sampling suffices, within present system capability.
+
+## Comparison of Capillary Pressure Measurements at Various Wettabilities Using the Direct Measurement of Saturation Method and Conventional Centrifuge Techniques
+
+- ID: SCA2001-28, year: 2001
+- Authors: T. Bognø, E. Aspenes, A. Graue, Spinler E.A, Tobola D
+- Method: laboratory experiment
+- Keywords: Direct Measurement of Saturation, MRI saturation imaging, centrifuge capillary pressure, chalk wettability, Amott-Harvey index, spontaneous imbibition
+- Cited by 2 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-28)
+
+Capillary pressure scanning curves in chalk at varied wettability from MRI-based direct saturation measurement are compared with conventional centrifuge data, showing agreement at water-wet conditions and differences at lower Iw.
+
+The study compares capillary pressure curves measured with the Direct Measurement of Saturation (DMS) method, using MRI and solidifying octadecane, against conventional centrifuge techniques. Rordal chalk plugs (about 45% porosity, 4 mD) were aged in crude oil at 90°C at Swi=25%, with continuous flushing for the DMS plugs, giving Amott-Harvey indices from 1.0 to about 0.5, and down to 0.0 for the static-aged plugs. DMS provided drainage, the positive spontaneous imbibition part and the negative forced imbibition part of the Pc curve, the positive part usually being unobtainable in chalk by centrifuge. Drainage and forced imbibition curves agreed well at strongly and moderately water-wet conditions (Iw≈0.7). At Iw≈0.4 the DMS drainage Pc was higher and the DMS forced imbibition Pc lower than the centrifuge values, which may reflect radial wettability non-uniformity in the long-aged plugs or model error in the conventional method. With decreasing water-wetness, drainage threshold pressure fell, the positive imbibition curve shifted to lower Sw, and residual oil decreased.
+
+## Three-Phase Capillary Pressure Measurements in Centrifuge at Reservoir Conditions
+
+- ID: SCA2004-19, year: 2004
+- Authors: G. A. Virnovsky, K.O. Vatne, J.E. Iversen, C. Signy
+- Method: laboratory experiment
+- Keywords: three-phase capillary pressure, high-pressure centrifuge, gas drainage, spreading coefficient, Berea sandstone, residual oil saturation
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2004/SCA2004-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2004-19)
+
+High-pressure, high-temperature three-phase centrifuge tests on Berea sandstone show residual oil and capillary pressures differ from ambient tests and cannot be rescaled by interfacial tension.
+
+Three-phase capillary pressure is rarely measured at reservoir conditions. The authors built a high-pressure, high-temperature centrifuge core holder (up to 2800 RPM, 120 °C, 5000 psi pore pressure) and applied a generalized Hassler-Brunner interpretation for three mobile phases, using PORCAP software. Four Berea cores (about 1150-1200 mD) with different initial water saturations underwent gas drainage with a methane/n-heptane system at 71.1 °C and 50 bar, followed by forced water imbibition, and at 1 bar for gas drainage only. Residual oil at 50 bar was very low (0-0.077) compared with 1 bar (0.07-0.15), consistent with a higher spreading coefficient (7.8 vs 3.5 mN/m). Gas-oil and oil-water capillary pressure curves at the two pressures did not match even after rescaling by interfacial tension, so SCAL measurements need representative conditions. The data cover only the low oil saturation region of the saturation domain.
+
+## Experimental Measurements of Capillary Pressure with the Centrifuge Technique – Emphasis on Equilibrium Time and Accuracy in Production
+
+- ID: SCA2007_22, year: 2007
+- Authors: M.A. Fernø, R. Treinen
+- Method: laboratory experiment
+- Keywords: multi-speed centrifuge, capillary pressure, equilibrium time, automated production measurement, wettability, Forbes spline interpretation
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_22)
+
+Automated camera-based multi-speed centrifuge on chalk and limestone shows equilibrium times of days to over a month, depending on wettability and permeability, undetectable by visual reading.
+
+The study examines how long saturation equilibrium takes at each speed in multi-speed centrifuge capillary pressure tests. One moderately water-wet chalk (3.7 mD) and four Edwards limestones (two strongly water-wet, two moderately oil-wet, 5.7–11.8 mD) were spun at 350–3000 RPM with an automated fiber-optic line-camera system resolving 0.01 cc (0.0006 PV). Equilibrium times ranged from a few days to 37 days per speed; the chalk test lasted 130 days, and oil-wet limestones needed over 30 days at 600 RPM owing to combined spontaneous and viscous displacement. Production rates below 0.006 PV/day would be missed visually, so an operator would need to wait about 10 days of zero production per speed to match the criterion. Cydar history matching showed Forbes/splines gave smooth local capillary pressure curves while Hassler-Brunner gave discontinuities. Oil-wet cores reached lower water saturation (cumulative production about 0.59–0.63 PV) than the water-wet limestones.
+
+## The Constantly-Accelerating Centrifuge Revisited
+
+- ID: SCA1998-12, year: 1998
+- Authors: Douglas Ruth
+- Method: numerical simulation
+- Keywords: constantly-accelerating centrifuge, capillary pressure, relative permeability, history matching, Corey and Bentsen curves, parameter sensitivity
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-12)
+
+Simulation study shows a constantly-accelerating centrifuge yields accurate capillary pressure and displaced-phase relative permeability quickly, with a correlation for choosing acceleration rate, outperforming single- and multi-speed methods.
+
+Fixed speed schedules in centrifuge capillary pressure and relative permeability tests can miss data, especially near threshold pressure. The paper simulates constantly-accelerating primary drainage experiments (up to 12000 rpm) using Corey relative permeability and Bentsen capillary pressure curves with water-wet base-case parameters. Sensitivity of fitting parameters (nd, ni, Pct, Pcp) to acceleration rate was assessed against an assumed 0.06 cm3 production error. Errors in nd and Pcp are typically below 0.1 over a wide range of acceleration, while ni is less accurate and Pct is best found from the speed at which production begins. A power-law correlation for the optimal ramp time was developed from a parametric study; it works well except for low Pcp and high nd. The method gives lower errors and shorter test times than single-speed and multi-speed approaches.
+
+## Gas-Liquid Relative Permeabilities from One-Step and Multi-Step Centrifuge Experiments
+
+- ID: SCA2012-13, year: 2012
+- Authors: F. Bauget, S. Gautier, R. Lenormand, A. Samouillet
+- Method: laboratory experiment
+- Keywords: centrifuge relative permeability, Hagoort method, Forbes method, history matching, multi-speed drainage, capacitance level detection
+- Cited by 2 papers in the corpus, cites 8
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-13)
+
+Compares Hagoort analytical and history-matched interpretations of single-speed centrifuge gas drainage, and shows that a continuous Forbes method improves multi-speed Pc and Kr determination.
+
+The paper evaluates relative permeability and capillary pressure derived from single-speed and multi-speed gas-water centrifuge drainage. A 230 mD Stuttgart sandstone plug was tested in an IFPEN centrifuge with capacitance-based production monitoring (accuracy about 0.05 cc), using one run at about 2000 rpm and a 9-step run from 500 to 2000 rpm. The discrete Forbes calculation is shown to be inaccurate with few points; fitting the Pc data and applying the continuous Forbes equations gives better production curves on an analytical test case. The Hagoort analytical method underestimates maximum Kr because of the speed ramp (about 650 rpm/min) and overestimates Swi because of capillary end effects. History matching with the recorded speed and a mercury-injection Pc improves the single-speed interpretation. Synthetic tests suggest that 6 steps are optimal, cutting a multi-step test from about 90 to 30 hours.
+
+## A New Versatile Capillary Pressure Correlation
+
+- ID: SCA2008-08, year: 2008
+- Authors: Frode Lomeland, Einar Ebeltoft
+- Method: theory or analytical model
+- Keywords: LET correlation, capillary pressure, spontaneous imbibition saturation, hysteresis scanning curves, multi-speed centrifuge, porous plate
+- Cited by 2 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-08)
+
+Introduces a finite LET capillary pressure correlation using spontaneous saturation as a parameter, and fits it to porous plate and centrifuge data and a simulated centrifuge history match.
+
+Conventional capillary pressure correlations go to infinite values at the residual saturations and do not include the spontaneous saturation, which causes problems in reservoir modelling. The authors propose a finite correlation built from LET functions (L, E, T parameters) for primary drainage, secondary imbibition and secondary drainage, with fixed maximum/minimum pressures, threshold pressure and spontaneous saturation. It also supports hysteresis scanning curves by replacing end points with boundary-curve values at the turning point. The correlation was fitted to porous plate data on two North Sea sandstones (Cores A and B) and to Hassler-Brunner-interpreted multi-speed centrifuge data on two sandstones (Cores C and D). It was also implemented in the Sendra core flow simulator to history-match production from a seven-speed centrifuge experiment (500-5000 RPM), and it reproduced the data and agreed with the independent analytical capillary pressure points.
+
+## The Contribution of Oil Production Mechanisms as Determined by a Novel Centrifuging Technique
+
+- ID: SCA1996-17, year: 1996
+- Authors: David P. Tobola
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, spontaneous imbibition, viscous displacement, Amott-Harvey relative displacement index, North Sea chalk, wettability
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-17.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-17)
+
+An extended centrifuge method splits oil recovery into spontaneous imbibition and viscous displacement in North Sea chalk; imbibition dominates in highly water-wet samples, viscous displacement matters in less water-wet ones.
+
+The paper presents an extended centrifuge technique in which spontaneous imbibition occurs at a very low rotation rate (about -0.6 psi) before the speed is stepped up to about -10 psi, so recovery can be allocated between imbibition and viscous displacement. Eight North Sea chalk samples (RDI 0.41 to 0.99) were tested with decane and brine, and data were processed with the Hassler-Brunner method. For the six samples with RDI above 0.85, spontaneous imbibition gave on average 92% of recovery, and in the most water-wet samples the imbibition and viscous endpoints were nearly equal. For the two low-to-moderately water-wet samples (RDI 0.41 and 0.54), imbibition gave only 47% of recovery and the curves were still in transition at the pressure limit. Viscous displacement therefore can dominate in less water-wet chalk if sufficient pressure is available.
+
+## Positive imbibition capillary pressure curves using the centrifuge technique
+
+- ID: SCA1999-13, year: 1999
+- Authors: M. FLEURY, G. RINGOT, P. POULAIN
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, spontaneous imbibition, rotating fitting, oil-water level detection, Spo wettability index, Pumping While Centrifuging
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-13.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-13)
+
+A modified centrifuge with a rotating fitting, pump and capacitance level detector measures spontaneous (positive) imbibition Pc curves; a water-wet Vosges sandstone test gave consistent drainage and imbibition results.
+
+Standard centrifuges cannot measure the positive (spontaneous) imbibition capillary pressure curve or the Pc=0 saturation Spo. The authors built a Pumping While Centrifuging system in which a pump, connected through a rotating fitting, keeps the oil-water interface at the sample outlet face under PID control from a capacitance level detector. Average saturation comes from the pumped volume; tests showed volume errors of about 0.02 cc at 10 cc/h, level resolution of 0.2 mm, and a low-leak fitting rated for 15000 rpm. A perforated ceramic end-piece and a temporary 1 cm level shift at the end of drainage give a uniform saturation profile before imbibition. On a Vosges sandstone (610 mD, 23% porosity, 5.9 cm long) irreducible water saturation was 20% from drainage and 18.5% from imbibition, with final saturation 54% against 55% by mass balance. Samples up to 8 cm can be run without removal from the core holder.
+
+## Developments in Centrifuge Measurements of Relative Permeability and Capillary Pressure Hysteresis
+
+- ID: SCA1999-43, year: 1999
+- Authors: Minghua Ding, Ole Torsæter, Tom Aage Jelmert
+- Method: laboratory experiment
+- Keywords: centrifuge relative permeability, acceleration period, capillary pressure hysteresis, footbath method, spontaneous imbibition, Berea sandstone
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-43)
+
+Centrifuge relative permeability must include the acceleration period for ~450 md Berea but not ~1 md chalk; the footbath hysteresis method is unreliable for weakly water-wet plugs.
+
+The paper examines two centrifuge techniques: transient-production relative permeability and the footbath method for capillary pressure hysteresis. For relative permeability, the Hagoort dimensionless time was modified to include a linear-ramp acceleration period, tested on ten Berea plugs (about 400-500 md, air/brine primary drainage) and two ~1 md chalk plugs (decane/formation water secondary drainage). Including acceleration changed the calculated curves for Berea but had negligible effect for the tight chalk. Footbath hysteresis was run on four strongly water-wet Berea and three aged chalk plugs, starting with secondary drainage followed by spontaneous imbibition. In weakly water-wet plugs, imbibition below the fluid contact gives a saturation error of (Sor−Soi)·hf/ht, which is small only for long plugs with hf/ht<0.2.
+
+## An Automatic-Optimization Data Analysis Technique Based On Forbes' Second Method
+
+- ID: SCA2000-22, year: 2000
+- Authors: Douglas Ruth
+- Method: data analysis or correlation
+- Keywords: centrifuge capillary pressure, Forbes Second Method, Hassler-Brunner, automatic optimization, data reduction, production simulation
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-22)
+
+Extends Chen-Ruth automatic optimization to Forbes' Second Method by fitting three parameters, removing analyst hand-correction and improving centrifuge capillary pressure production fits on ten SCA survey cases.
+
+Forbes' Second Method for reducing centrifuge capillary pressure data normally needs analyst hand-correction, making results operator dependent. The authors treat its three theoretically fixed parameters (a, b, g) as fitting variables and optimize them simultaneously to minimize the RMS difference between measured and simulated production. They tested the method on the 10 synthetic SCA Data Analysis Survey cases from Forbes (1997), using radial correction and minimal consistency constraints. The new method reduced production RMS error in all cases, sometimes markedly (e.g. Case 3 from 0.166 to 0.015), but the match to the true capillary curve improved significantly only in Case 3. Of 115 points, only 12 failed Forbes' 3-saturation-unit additional-error criterion, 8 of them in Cases 6 and 7. Optimal parameters can deviate substantially from theoretical values, and in several cases the method reduces to the Chen-Ruth method.
+
+## Effect of the Presence of Interstitial Brine on Gas-Oil Capillary Pressure
+
+- ID: SCA2015-015, year: 2015
+- Authors: F. Pairoys, D. Simons, K. Bohn, M. Alexander, V. Odu, R. DeLeon, J. Ramos, United States
+- Method: laboratory experiment
+- Keywords: gas-oil centrifuge capillary pressure, Hassler-Brunner method, Forbes method, irreducible water saturation, gravity drainage, Indiana limestone
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-015.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-015)
+
+Gas-oil centrifuge drainage on Berea and Indiana limestone with and without irreducible brine shows brine changes oil recovery and Berea local Pc; Forbes splines improve Hassler-Brunner results.
+
+The study examines how immobile interstitial brine affects gas-oil capillary pressure and oil recovery in centrifuge drainage. Berea sandstone (unimodal, ~736 mD) and Indiana limestone (bimodal, ~32 mD) plugs were tested with ten Pc steps up to 84 psi, first at 100% oil saturation and then at irreducible water saturation (Swi 16.6% Berea, 36.1% limestone). Residual oil saturation fell from 43.6% to 6.1% in the limestone (ORF 56.4% to 90.5%) and from 19.8% to 10.1% in Berea (ORF 80.2% to 87.9%) when brine was present. Local Pc curves for limestone overlapped with and without brine, but differed for Berea. Hassler-Brunner gave a non-monotonic local Pc for Berea with brine, which Forbes with splines corrected. Dean-Stark Swi agreed with material balance, and gas permeability at Sor was close to absolute values.
+
+## Consideration of Thermal Effects During Reservoir Condition Special Core Analysis Tests
+
+- ID: SCA1995-30, year: 1995
+- Authors: Daniel R. Maloney, James H. Hedges
+- Method: laboratory experiment
+- Keywords: thermal expansion correction, centrifuge capillary pressure, USBM wettability, stabilization time, fluid viscosity, high-temperature SCAL
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-30.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-30)
+
+Shows that thermal fluid expansion and viscosity-dependent stabilization times can bias high-temperature centrifuge saturations by over 10 saturation percent units, and gives correction procedures.
+
+High-temperature spontaneous imbibition, centrifuge capillary pressure and USBM wettability tests involve heating and cooling cycles that change fluid volumes in the pores. The authors describe how to correct saturations for thermal expansion and contraction using fluid densities at test and ambient temperatures, with a numerical example at 66, 93 and 152°C. Uncorrected analyses gave errors of over 0.10 saturation units at 152°C for brine-displacing-oil cycles. North Sea sandstone tests with n-decane and brine showed corrected capillary pressure curves were fairly insensitive to temperature up to 93°C. In a 39 mD plug, mineral oil at 23°C (70 cP, 35 times more viscous than at 152°C) needed six times longer stabilization than at 152°C. Using a 2 hour per point criterion at 23°C gave errors up to 10 saturation percent units, and over 15 in lower permeability plugs, distorting wettability indices.
+
+## Investigation of Cycle Dependent Centrifuge Capillary Pressure and Wettability Index Behavior for Water-Wet High Permeability Sandstones
+
+- ID: SCA1990-06, year: 1990
+- Authors: Matt Honarpour, Dan Maloney
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, hysteresis, USBM wettability index, CT scanning, Bentheimer sandstone, Berea sandstone
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1990/SCA1990-06.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1990-06)
+
+Multi-cycle centrifuge drainage/imbibition tests on fired Bentheimer and Berea sandstones show wettability index falling with successive cycles, non-uniform CT saturations, and Teflon jackets failing to stop edge imbibition.
+
+The study examines cycle-dependent hysteresis in centrifuge capillary pressure and USBM wettability index for water-wet, high-permeability fired sandstones: Bentheimer (3500 md) and two Bereas (1330 and 832 md). 3.8 cm Teflon-wrapped plugs were cycled through drainage and imbibition with brine and Soltrol 100 at up to about 200 kPa, using 1 h or 48 h equilibration, with mercury porosimetry, Amott cells and CT scanning as support. Hysteresis appeared in every multi-cycle test; imbibition curves shifted to lower water saturation, and wettability index decreased with cycling, likely due to increased oil trapping. Hassler-Brunner and Rajan solutions were similar, with Rajan more consistent, and equilibration time (1 vs 48 h) had little effect. CT showed piston-like, non-uniform saturation distributions until about 800 RPM, differing between rocks, and brine imbibed around plug margins despite the Teflon jacket. A report form for documenting centrifuge test parameters is proposed.
+
+## The Effect of Reservoir Conditions and Wettability on the Capillary Pressure Curve
+
+- ID: SCA1991-08, year: 1991
+- Authors: Erik Søndenå, Fred Bratteli, Hans P. Normann, Kristofer Kolltveit
+- Method: laboratory experiment
+- Keywords: capillary pressure, porous plate method, USBM wettability index, reservoir conditions, crude oil aging, temperature effect
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/1991/1-SCA1991-08.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1991-08)
+
+Porous plate drainage on North Sea sandstones shows reservoir-temperature shifts Pc curves to lower Sw, and crude oil aging during the test raises Sw at high Pc via wettability change.
+
+The study examines how temperature, pressure and wettability affect drainage capillary pressure curves on sandstone plugs from North Sea reservoirs A and B, using the porous plate method. Cleaned samples were drained with refined oil, crude oil and live crude oil at ambient and reservoir conditions (98–104 °C, up to 414 bar pore pressure), with wettability measured by USBM and Amott tests. For water-wet reservoir B samples, the difference between reservoir and ambient curves was due to temperature rather than pressure; pressure mattered only in the transition zone near the water table. Crude oil curves matched refined oil curves at low Pc but lay above them at high Pc, giving higher brine saturation. The largest differences occurred in samples with the largest USBM wettability shift, e.g. from 0.40 to -0.27 for A-5b and 0.30 to -0.42 for A-8b. The authors argue that aging cleaned samples during the test mimics oil migration and yields mixed-wettability behavior.
+
+## The Use of Footbaths in Centrifuge Capillary Pressure Curve Measurements
+
+- ID: SCA1992-06EURO, year: 1992
+- Authors: Klaas J. Bil
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, footbath, Hassler and Brunner boundary condition, ultracentrifuge, air/brine drainage, capillary bundle model
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1992/1-SCA1992-06EURO.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1992-06EURO)
+
+Air/brine centrifuge capillary pressure curves on six sandstones measured with and without footbaths show about 4% Vp lower Sw with footbaths, indicating Pc=0 fails without them.
+
+The Hassler and Brunner centrifuge data processing assumes zero capillary pressure at the sample bottom face, which a footbath physically imposes. Six low-permeability North Sea sandstone samples (preserved and unpreserved sets) were run in a Beckman ultracentrifuge with a PIR-20 rotor, with and without footbaths, in air/brine drainage up to 15,000 rev/min. At Pc = 55 bar, Sw was on average 3.9% Vp lower with a footbath (standard deviation 1.9% Vp), with individual differences from -2.8 to 9.8% Vp. A capillary bundle model explains this: without a footbath the lower meniscus helps hold brine so Pc≠0 at the bottom. The author concludes footbaths give more representative curves and should be standard procedure.
+
+## Theoretical and Experimental Study of the Positive Imbibition Capillary Pressure Curves Obtained from Centrifuge Data
+
+- ID: SCA1995-33, year: 1995
+- Authors: Trond BolHs, Ole Torsaeter, The Norwegian
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, spontaneous imbibition, moving fluid level, crossing zones, radial correction, hysteresis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-33)
+
+Analyzes a moving fluid-level centrifuge method giving drainage and spontaneous imbibition capillary pressure in one run; crossing zones are negligible and results match porous plate data.
+
+The paper addresses obtaining both drainage and spontaneous imbibition capillary pressure curves in a single standard centrifuge run, where the external fluid/fluid contact moves with rotational speed. The authors adapt the Hassler-Brunner conversion for a moving contact and derive equations for the drainage front position and the pressure change at the last drainage front, to check for crossing zones. Berea sandstone and low-permeability chalk plugs (2.5 cm diameter, 3.4 cm long, with a slot for reading the interface) were centrifuged with Exxsol D60 and brine. Calculations showed no crossing zones during drainage or imbibition, with a good margin, and low-permeability, high-entry-pressure cores were safest. Centrifuge curves agreed fairly well with porous plate curves on twin plugs, with unexplained differences at higher capillary pressure. Forbes' radial correction was extended to moving levels and had a minor effect for this geometry.
+
+## A New Method to Normalize Capillary Pressure Curves
+
+- ID: SCA1995-35, year: 1995
+- Authors: Finn Engstrem, Mzrsk Olie
+- Method: data analysis or correlation
+- Keywords: capillary pressure normalization, North Sea chalk, equivalent radius model, saturation-height function, free water level, air-mercury capillary pressure
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1995/SCA1995-35.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1995-35)
+
+Introduces the Equivalent Radius (EQR) capillary pressure normalization for Danish North Sea chalks, calibrated by one constant, and matches log-derived saturations in two wells.
+
+Standard normalization methods (Leverett J, Thomeer, Heseldin, CapLog) could not model capillary behavior of Danian and Maastrichtian chalk across the porosity range (20-50%). The EQR model uses porosity-dependent functions for irreducible water saturation and capillary entry pressure, plus a porosity-independent shape function relating normalized non-wetting saturation to equivalent radius. The functions were derived from air-Hg capillary pressure curves, from a database of almost 1000 curves, with 14 Danian drainage curves used for the iterative fit. Swir uncertainty was typically under 5%, while some Pce points deviated 25-30% from the porosity correlation. A single constant (density difference times conversion factor) is calibrated to log data, via OWC/FWL matching or by making predicted FWL independent of depth. Two wells showed good agreement between modelled and logged saturations.
+
+## A Capacitance Based Measurement System for Produced Fluids in A Pivotted or Horizontal Centrifuge by
+
+- ID: SCA1996-16, year: 1996
+- Authors: Terry Pohjoisrinne, Douglas Ruth
+- Method: measurement technique or apparatus
+- Keywords: capacitance measurement, centrifuge capillary pressure, pivotted rotor, infrared opto-coupler, produced fluid volume, dielectric constant
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/1996/SCA1996-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1996-16)
+
+A capacitance cell with an infrared opto-coupler measures produced liquid volume in spinning pivotted or horizontal centrifuges without strobes or slip-rings; stationary and spinning calibrations agree over 15-22 cc.
+
+Stroboscopic visual methods for reading produced fluid in centrifuge capillary pressure tests need line-of-sight and fail with pivotted rotors. The authors built a capacitance cell of five polyurethane-coated copper plates in the receiver cup, exploiting the dielectric contrast between water (~35) and oil (2.2-2.8). On-board electronics (555 timer, frequency divider, pulse shaper) convert capacitance to frequency, which an infrared emitter sends to a fixed detector, tolerating up to 1.5 mm misalignment; external circuitry converts frequency to voltage. Stationary and spinning calibrations on a pivotted rotor differed at low volumes, probably because bucket tilt changes plate wetting, but agreed well and were nearly linear between 15 and 22 cc. Calibration is unique to each fluid pair.
+
+## Centrifuge Forward Modelling: The Key to Improved Capillary Pressure Determination
+
+- ID: SCA1998-10, year: 1998
+- Authors: Simon Clinch
+- Method: numerical simulation
+- Keywords: centrifuge capillary pressure, forward modelling, outflow boundary condition, radial effects, SCA survey, resistivity index
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-10.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-10)
+
+A forward-modelling method simulates centrifuge production from an estimated Pc curve, handling radial effects and boundary failure; tested on SCA survey data, most points fall within measurement error.
+
+Centrifuge capillary pressure interpretation often struggles with noisy data, radial effects and failure of the outflow boundary condition. The paper presents a forward modelling technique that divides the core into elements, computes combined radial and gravitational capillary pressure at each speed, and adjusts an estimated Pc curve (linear interpolation, 10-20 points) until simulated average saturations match measured ones. Applied to ten synthetic samples from the SCA centrifuge survey, about 81% of evaluated points fell within measurement error and about 90% within three saturation units of the true solution. The method can reinterpret experiments where a wetted support disk shifted the zero-Pc boundary, improving agreement with porous plate data in a real example. Because a saturation profile is calculated at each speed, resistivity measured during centrifuging could also be inverted to give resistivity index.
+
+## Capillary Pressure and Resistivity Measurements Using the Centrifuge: A New Interpretation Method
+
+- ID: SCA1998-11, year: 1998
+- Authors: Bhavani Raghuraman, T. S. Ramakrishnan, Michael Supp, Old Quarry
+- Method: measurement technique or apparatus
+- Keywords: centrifuge capillary pressure, perturbation inversion, resistivity index, Archie saturation exponent, Hassler-Brunner, porous membrane method
+- Cited by 0 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/1998/SCA1998-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1998-11)
+
+Presents in-situ centrifuge measurement of capillary pressure and resistivity up to 10000 rpm and a perturbation inversion method, validated against membrane data on a ceramic.
+
+Centrifuge resistivity measurements normally require removing the sample at each speed, so the authors use a four-electrode design that keeps contact under centrifugal force and measures average saturation and resistivity during rotation up to 10000 rpm. They developed a perturbation-expansion inversion (to third order in epsilon) to convert average saturation and resistivity into local state functions, and compared it with the Forbes and Rajan methods on model capillary pressure curves. For a sharp breakthrough curve at epsilon 0.75 and 2.1 psi, Forbes' method gave an error of -0.12, the third-order perturbation 0.037, and the fourth-order 0.025. Experiments on Indiana limestone (19% porosity) and a synthetic ceramic (45%) gave Archie saturation exponents of 2.2 for both, with deviations below 20-30% saturation. Simulation showed a 6-8% absolute resistance error from field nonuniformity that cancels in resistance ratios, and centrifuge capillary pressure for the ceramic agreed with membrane and mercury porosimetry data.
+
+## The H&B Boundary Condition in Centrifuge PC Experiments. (or Why There Is No Experimental Evidence That the Pressure Field Model Ever Failed)
+
+- ID: SCA2000-19, year: 2000
+- Authors: Pierre Forbes
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, Hassler-Brunner boundary condition, end-face desaturation, pressure field model, footbath, CT saturation profiles
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2000/SCA2000-19.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2000-19)
+
+Re-examines published evidence against the Hassler-Brunner zero-capillary-pressure boundary condition in centrifuge Pc tests and shows it is explained by the full radial pressure field and interpretation errors.
+
+The paper reviews literature claims that the Hassler and Brunner outflow boundary condition fails in centrifuge capillary pressure measurements, including end-face desaturation and differences from footbath or porous plate results. Using a full pressure field model with radial and gravity effects, Pc=0 occurs only at the edge of the bottom face, so partial end-face desaturation is expected. Re-interpreting the CT data of Baardsen et al. reproduces desaturation onset at 1000-1250 RPM and removes the mismatch with the CT-derived Pc curves. Modelling Wunderlich's epoxy-casting data reproduces the saturation profiles, the heights of 100% saturation (0.63, 0.13 and 0.04 cm at 500, 1000 and 1500 RPM) and end-face desaturation at 2000-2500 RPM. Bil's footbath differences of 0 to 6 saturation units are attributed to using the same interpretation model for different geometries. Pore-scale instability and pendant-drop mechanisms are judged too small to matter at normal speeds, and the author concludes that the standard technique is reliable when correctly interpreted.
+
+## FLUID DISTRIBUTION IN TRANSITION ZONES (Using a New Initial-Residual Saturation Correlation)
+
+- ID: SCA2001-62, year: 2001
+- Authors: A. Skauge, O. Torsæter
+- Method: laboratory experiment
+- Keywords: transition zone, imbibition capillary pressure hysteresis, initial-residual saturation correlation, centrifuge gamma absorption, Berea sandstone, water-oil contact movement
+- Cited by 0 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2001/SCA2001-62.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2001-62)
+
+Centrifuge and gamma-absorption experiments on Berea cores yield a new linear-plus-sigmoidal initial-residual saturation correlation for building imbibition Pc hysteresis curves in transition zones.
+
+Fluid distribution in oil transition zones after water-oil contact movement is hard to model, and existing initial-residual non-wetting saturation correlations (e.g., Land) are questioned. The authors used a centrifuge with gamma-absorption saturation monitoring and high-melting paraffin oil on liquid-wet Berea cores (porosity 22.6%, permeability 228 md average). Drainage Pc was fit with a power-law form, and bounding imbibition Pc with a two-asymptote model. Hysteresis curves were built by honoring each initial-residual endpoint and adjusting only exponent n2 as a linear function of Snwi (slope about 0.43). A new correlation combines a linear segment (slope m = 0.15) with a four-parameter sigmoid whose parameters depend on maximum residual non-wetting saturation; it was compared with Land, Kleppe, Masalmeh and Jerauld models for sample Bx3 (Snwr max = 0.2).
+
+## Benefits of Saturation Profiles for Estimating Gas and Liquid Relative Permeabilities from Centrifuge Tests
+
+- ID: SCA2002-14, year: 2002
+- Authors: Osamah Al-Omair, Richard L. Christiansen
+- Method: laboratory experiment
+- Keywords: spinning-disk centrifuge, saturation profiles, video imaging, gas-water relative permeability, critical gas saturation, capillary pressure comparison
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2002/SCA2002-14.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2002-14)
+
+Video-imaged saturation profiles from spinning-disk centrifuge tests, history-matched with production data, reduce uncertainty in gas and water relative permeabilities; capillary pressures from four methods are compared.
+
+Conventional centrifuge tests yield relative permeability only for the low-mobility phase. The authors recorded video images of gas-water drainage in a spinning-disk geometry using a transparent polycarbonate holder, converting gray level to saturation for dolomite and Berea samples. A 1D radial IMPES model with Brooks-Corey relative permeabilities was history-matched to production alone and to production plus saturation profiles. Matching production alone gave relative permeabilities that varied with spin rate, especially for gas, whereas adding saturation profiles removed this variation and allowed critical gas saturation (about 11% for Sample 4D) to be estimated from the profile front. Capillary pressures from spinning-disk, standard centrifuge and porous plate agreed well, while mercury injection agreed for only one of six samples. Unsealed sample faces conflict with the model's no-flow boundaries, so the relative permeabilities are not fully quantitative.
+
+## "Experimental Design" Approach for Sensitivity Study of Capillary Pressure Measurements - Comparison Between Porous Plate and Centrifugation Methods
+
+- ID: SCA2005-28, year: 2005
+- Authors: V. Lepoivre
+- Method: numerical simulation
+- Keywords: capillary pressure, porous plate, centrifuge, experimental design, Corey exponent, drainage simulation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-28)
+
+Experimental design combined with two-phase flow simulation shows centrifuge capillary pressure curves are more reliable than porous plate in critical configurations, notably low permeability or unfavorable water relative permeability.
+
+Capillary pressure drainage measurements often disagree between techniques and with logs. An experimental design approach (central composite design with polynomial response surfaces) was combined with a two-phase flow lab simulator to test the sensitivity of porous plate and centrifuge results to core and process parameters. Parameters were permeability (10-1000 mD and 0.1-10 mD), Pc curve exponent, water and oil Corey exponents, step duration and porous plate permeability. Water relative permeability (Corey exponent nw) was the dominant parameter for both methods, but its impact was smaller for centrifuge. Using a criterion of 5 saturation units difference, centrifugation was better in nearly all configurations and was the only reliable method in some critical cases, especially for low permeability consolidated samples. The study is limited by a simplified model without pore network or wettability effects.
+
+## Determination of Fluid Flow Properties Using Capillary Pressure Curves
+
+- ID: SCA2005-63, year: 2005
+- Authors: H. Karimaie, E. Kazemzadeh, M.R. Esfahani, M. Rezaie
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, Hassler-Brunner, pore size distribution, relative volumetric flow, irreducible water saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2005/SCA2005-63.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2005-63)
+
+Centrifuge capillary pressure curves on sandstone, limestone and dolomite are converted via Hassler-Brunner to pore size distributions and relative flow contributions of pore size ranges.
+
+The paper uses centrifuge capillary pressure measurements to characterize pore size distribution and fluid flow in rocks. Sandstone, limestone and dolomite cores, saturated with brine, were spun in oil in a Beckman ultracentrifuge at increasing speeds. Average saturations were corrected to inlet-face saturations with the Hassler-Brunner approach. Pore entry radius distributions were derived from the Pc curves, and a relative volumetric flow was computed from a Poiseuille-based capillary bundle model. Irreducible water occupied 9% of pore volume in dolomite, 25.2% in limestone and 15.2% in sandstone, and the larger pore ranges carried most of the flow. The sandstone Pc curve was shifted to lower saturation, attributed to its higher porosity and permeability.
+
+## Sensitivity Study of Variables Associated with Magnetic Resonance Imaging Capillary Pressure Measurements in Porous Rocks
+
+- ID: SCA2009-32, year: 2009
+- Authors: B.A. Baldwin, D. Green, J.C. Stevens, J.J. Howard
+- Method: laboratory experiment
+- Keywords: MRI capillary pressure, centrifuge, footbath, Berea sandstone, Pc=0 boundary condition, fluid redistribution
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-32.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-32)
+
+MRI imaging of centrifuged Berea plugs shows that sample preparation, footbaths, fluid redistribution and correct plug-base location strongly affect MRI-derived capillary pressure curves.
+
+The study examines sensitivity of MRI-based capillary pressure measurements on centrifuged core plugs in an air/brine drainage system. Four Berea sandstone plugs (about 800 mD and 200 mD) were saturated with 0.1 wt% NaCl, centrifuged at 750-1500 rpm in a nylon cell, and imaged at 2 T. Reproducibility was good (standard deviation 2.7% for saturated images and 2.1% for centrifuged distributions), but plugs that were not dried before resaturation showed excess brine from trapped air. Footbaths (0.5 and 1.0 cm) kept about 100% saturation at the outlet (Pc=0), whereas no footbath left it below 100%, more so at higher speeds. Brine redistributes after centrifuging in high-permeability Berea but hardly in low-permeability Berea or chalk. Susceptibility broadening blurred the Berea plug base over about 4 mm. A 2 mm error in base location changed threshold pressure and transition zone by about 10%.
+
+## A Comparison of Pore-Scale Centrifuge, Mercury Intrusion and Porous Plate Capillary Drainage Numerical Experiments
+
+- ID: SCA2013-049, year: 2013
+- Authors: Igor Shikhov, Christoph H. Arns
+- Method: digital rock or imaging
+- Keywords: centrifuge capillary pressure, Hassler-Brunner approximation, morphological drainage simulation, Fontainebleau sandstone, MICP, saturation profiles
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-049.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-049)
+
+Morphology-based pore-scale simulations of porous plate, MICP and centrifuge drainage on Fontainebleau and a heterogeneous model show Hassler-Brunner works for homogeneous short cores.
+
+Porous plate, centrifuge and MICP drainage often give different capillary pressure curves. The authors simulate all three in 3D using morphological invasion with a ball structuring element. For centrifuge, the ball radius varies with position to reflect the capillary pressure field. Two samples were used: a 15 mm Fontainebleau sandstone image at 3.66 µm, and a dual-scale Gaussian random field/Poisson particle model at 9.375 µm. Porous plate and MICP give relatively homogeneous saturation profiles away from the boundaries, while centrifuge profiles show strong trends and saturation fronts differ between homogeneous and heterogeneous samples. For the homogeneous sample (r1/r2 = 0.83) the Hassler-Brunner approximation agrees well with porous plate and MICP results.
+
+## Modelling of the Full Envelope of Capillary Pressure Curves from the Centrifuge
+
+- ID: SCA2014-003, year: 2014
+- Authors: Julia Maria Inés Bruchbacher, Hans Kleppe, Svein M. Skjæveland Montanuniversität Leoben
+- Method: numerical simulation
+- Keywords: centrifuge capillary pressure, spontaneous imbibition, hysteresis scanning curves, mixed-wet correlation, Land trapping constant, free water level
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-003)
+
+Uses a mixed-wet capillary pressure correlation with hysteresis to model centrifuge spontaneous imbibition with the free water level inside the core, fitting parameters to synthetic saturation profiles.
+
+Conventional centrifuge methods give primary drainage and forced imbibition but handle spontaneous imbibition and scanning loops poorly. The authors apply the Skjaeveland mixed-wet capillary pressure correlation with Land's trapping model to generate bounding and scanning curves along a core with the FWL inside it, using a centripetal pressure equation referenced to the FWL. Synthetic 'laboratory' saturation profiles (500–4500 rpm) were generated from a reference parameter set, and Excel Solver with a Visual Basic bisection routine fitted parameters starting from two shifted cases. The fitted profiles agreed well with the synthetic data, and recovered parameters were close to the reference (e.g. cwi 10.99 and 7.99 versus 10.0), though Sw0i was less well recovered (0.61 and 0.66 versus 0.50). The paper compares this with Torsaeter, Spinler and Baldwin, and Fleury et al., noting that Fleury's uniform-Swr start cannot determine Land's constant.
+
+## Exponential Capillary Pressure Functions in Sedimentary Rocks
+
+- ID: SCA2018-012, year: 2018
+- Authors: Armin Afrough, Mehdi Bahari Moghaddam, Laura Romero-Zerón, Bruce J. Balcom
+- Method: data analysis or correlation
+- Keywords: exponential capillary pressure, Brooks-Corey model, fractal pore structure, centrifuge capillary pressure, MRI saturation profiles, bimodal pore size distribution
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-012.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-012)
+
+Simplifying Hunt's fractal model gives an exponential Pc(Sw) function that fits seventeen literature centrifuge drainage datasets over wide saturation ranges better than Brooks-Corey.
+
+Brooks-Corey power-law capillary pressure is often applied outside its valid low-saturation range. The authors simplify Hunt's random fractal model with a Taylor expansion to obtain Pc = Pc_A exp[φ/(3-D)(1-Sw)], so log Pc is linear in Sw. They tested it against 17 literature centrifuge drainage datasets (sandstones and carbonates, permeability 0.0014–0.69 µm², porosity 0.14–0.48), mostly from saturation-profile measurements by MRI or nuclear tracer imaging. Exponential fits had R² above 0.90 for most datasets (0.993 over Sw 0.23–0.75 in a typical sandstone), with deviations at high saturation from macropores and at low saturation from film flow. Low-saturation data collapse to power laws implying fractal dimensions of 2.57 (sandstone) and 2.70 (carbonate), and one carbonate showed bi-exponential behavior suggesting bimodal pores. The exponential form also simplifies analytical gravity-drainage recovery models for fractured reservoirs.
+
+## Inverted bucket centrifugation with fluorinated oils and its applications to T2 cut-offs
+
+- ID: SCA2019-022, year: 2019
+- Authors: Ben Anger, Stefan Hertel, Keith Love, Michael Ehiwario, Matthias Appel
+- Method: laboratory experiment
+- Keywords: inverted bucket centrifuge, Fluorinert FC-70, NMR T2 cut-off, capillary pressure, MICP comparison, Brooks-Corey model
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-022)
+
+Centrifuging brine-saturated sandstone plugs in inverted buckets with Fluorinert FC-70 doubles achievable capillary pressure and gives NMR T2 cut-offs of 4-5 ms, far below the standard 33 ms.
+
+High capillary pressures are needed for tall reservoirs and tight rocks, but conventional air-brine centrifuges are limited and MICP is destructive. The authors displaced brine with dense, NMR-invisible Fluorinert FC-70 in an inverted bucket configuration on six sandstone plugs (1.8-3.3 mD, 0.148-0.178 porosity). Speeds from 1000 to 15000 RPM covered Hg/air equivalent pressures of about 15 to 4300 psi, with the Pc=0 outlet boundary condition satisfied. NMR saturations agreed well with MICP and with mass-balance volumes, and 1D profiles showed Sw approaching 100% at the outlet face. T2 cut-offs fell with increasing capillary pressure to an asymptotic 4-5 ms, versus the standard 33 ms, and a modified Brooks-Corey model fitted the trend (T2irr = 3.3 ms, Pe = 1 psi, n = 1.1).
+
+## Prediction of centrifuge capillary pressure using machine learning techniques
+
+- ID: SCA2022-20, year: 2022
+- Authors: Brandon Jeremy Bursey, Erfan Mohagheghian, Edison Sripal, Lesley Anne James
+- Method: data analysis or correlation
+- Keywords: centrifuge capillary pressure, machine learning, random forest regression, support vector regression, artificial neural network, Forbes solution
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-20.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-20)
+
+Neural network, support vector and random forest models predict full centrifuge drainage capillary pressure curves from routine core data for 13 cores, performing well on validation and reasonably on unseen cores.
+
+The study asks whether machine learning can predict complete centrifuge capillary pressure curves, not just raw data points, from routine core analysis data. Centrifuge drainage tests were run on 13 high-permeability cores, and CYDAR software applied the Forbes first-solution correlation to produce full Pc curves. Porosity, permeability, grain density and irreducible water saturation were inputs to ANN, SVR and random forest regression models that jointly output Pc and water saturation. Eleven cores (10,955 points) were split 70-30 for training and validation, and two cores (1,995 points) were held out. On unseen data random forest had the best metrics (MSE 0.0248, R2 0.973), followed by SVR (0.0438, 0.953) and ANN (0.1034, 0.889), but RFR curves were noisy while SVR was smoother. ANN sensitivity showed tanh activation changed accuracy most, with 2 hidden layers and 32 neurons performing best.
+
+## Centrifuge Data Correction for Complex Carbonate Rock Samples
+
+- ID: SCA2023-050, year: 2023
+- Authors: Ahmad AlZoukani, Farhan Ali, Mohammed Al Hamad, Gallyam Aidagulov, Wael Abdallah
+- Method: laboratory experiment
+- Keywords: centrifuge capillary pressure, Forbes solution, cubic spline fitting, porous plate, local saturation, carbonate heterogeneity
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-050)
+
+Centrifuge capillary pressure data from two heterogeneous carbonates, corrected with Forbes's solution and spline fitting, are validated against porous plate curves, agreeing well at low confining pressure.
+
+Centrifuge capillary pressure requires converting average to local saturation, which is difficult for complex data from heterogeneous carbonates. Two carbonate samples were characterized with petrophysical measurements and CT imaging, saturated with brine, and centrifuged with model oil to irreducible water saturation, then tested on a porous plate. Centrifuge tests ran at ambient and 2000 psig confining pressure, and porous plate tests at 800 and 2000 psig, all at 24°C. The 2000 psig centrifuge test used a 1.0" plug because of machine limits. Data were corrected using Hassler-Brunner and Forbes's second approximate solutions with cubic spline fitting. Ambient centrifuge and 800 psig porous plate curves agreed well, validating the correction, while the 2000 psig comparison showed mismatch, mainly at early capillary pressure points, attributed to sample heterogeneity.
+
+## Sensitivity Analysis for Capillary Pressure Data from Centrifuge Considering Different Rotation Speed Range, Centrifuges Models and Sample Size
+
+- ID: SCA_2025_1050, year: 2025
+- Authors: Alessandra S. Winter, Andre L. M. Compan, Flavia B. De Andrade, Rosangela B. Z. L. Moreno
+- Method: data analysis or correlation
+- Keywords: centrifuge capillary pressure, uncertainty propagation, drainage, produced volume resolution, sandstone, irreducible water saturation
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1050.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1050)
+
+Propagates instrument resolution uncertainties for four centrifuge models on drainage capillary pressure curves of sandstone; finer volume resolution lowers saturation uncertainty, but low maximum speed limits desaturation.
+
+Centrifuge capillary pressure data carry uncertainties from speed, geometry and produced-volume resolution, which differ among centrifuge models. The authors propagated manual-specified resolutions for four centrifuges (A–D) through the Hassler-Brunner equations, computing Pc ranges for maximum-length and 5 cm samples. Drainage tests on three outcrop sandstones (porosity ~25%, permeability 154–180 mD) with brine and mineral oil were run on Centrifuge B; production for the other centrifuges was estimated by interpolation. Relative Pc uncertainty was about 2% throughout, while saturation uncertainty was 0.0102 (A), 0.0086 (B), 0.0025 (C) and 0.0010 (D). Centrifuge D had the lowest uncertainty but its 4500 rpm limit gave only 19.05% final Sw versus 16.05% for the others, and all three samples reached about 16% irreducible saturation.
+
+## Impact of Volume Production Stabilization Uncertainties on Experimental Acquisitions of Capillary Pressure Curves
+
+- ID: SCA2026-021, year: 2026
+- Authors: Quentin Danielczick¹, Benjamin Nicot¹
+- Method: numerical simulation
+- Keywords: capillary pressure, porous plate, centrifuge Forbes correction, stabilization criteria, Monte Carlo uncertainty, bi-exponential extrapolation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-021)
+
+Simulations of porous plate and centrifuge drainage show incomplete stabilization biases Swi far more than volume noise, especially in tight rocks; centrifuge accuracy depends mainly on interpretation.
+
+The study quantifies how imperfect stabilization and volumetric measurement noise affect reconstructed primary drainage Pc curves from porous plate and centrifuge tests. Five synthetic Brooks–Corey/Burdine rock types (0.1–1000 mD, φ 0.08–0.30, λ=2) were simulated with Cydar, with Monte Carlo noise (±0.05 ml porous plate, ±0.01 ml centrifuge, 80,000 realizations). For porous plate, stopping steps at 1 s.u./24 h raised Swi by 2.2–6.9 s.u. versus full stabilization (tightest rock: 6.7 s.u. error with an ~11-fold time saving), whereas noise gave p95 errors of only 0.5–1.8 s.u. In centrifuge tests, a bi-exponential extrapolation criterion cut duration by a factor of 2–3 with under 0.3 s.u. Swirr difference after Forbes correction, and camera noise kept Swi error below 1 s.u. Forbes interpretation is sensitive to entry pressure (linear versus semi-log extrapolation gave 0.059 vs 0.116 bar for RT4), and recommendations stress Pc step design, entry pressure determination and rock-quality-based stabilization criteria.
+
+## Quality Control for the Determination of the Local Saturation in Centrifuge Experiments
+
+- ID: SCA2026-042, year: 2026
+- Authors: Fabrice Pairoys, Benjamin Nicot, Quentin Danielczick, Guillaume Lenormand¹
+- Method: theory or analytical model
+- Keywords: centrifuge capillary pressure, local saturation, Forbes method, Hassler-Brunner, spline interpolation, quality control
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-042.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-042)
+
+Proposes quality control of centrifuge local saturation by numerically recalculating average saturation, showing the continuous Forbes method outperforms the standard discrete Forbes calculation with few points.
+
+Converting average saturation from centrifuge production to entrance saturation is ill-posed, and the standard discrete Forbes calculation with few points can be inaccurate. The authors propose integrating the local saturation numerically (trapezoidal, 1000 points) to recalculate average saturation and compare it with measurement. They review Hassler-Brunner, Forbes, spline and CYDAR models, where the continuous Forbes approach fits the data with a smooth function and applies Forbes on about 1000 points. On an imbibition example, CYDAR's recalculated average saturation matched the data better than Forbes. Final local saturation depended on the fit function (0.225 hyperbolic vs 0.198 Hermite), indicating the method's inherent error range. Forbes' own backward check is misleading because discrete integration compensates discrete differentiation errors; using at least 10 points from a smooth fit in Forbes' spreadsheet is recommended.

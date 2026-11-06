@@ -1,0 +1,796 @@
+# Low salinity waterflooding mechanisms
+
+> 61 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: salinity water, oil recovery, brine, waterflooding, injection, wettability alteration, ions, brines, crude, tertiary.
+
+TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+
+## Low Salinity Oil Recovery - an Experimental Investigation
+
+- ID: SCA2006-36, year: 2006
+- Authors: A. Lager, K. J. Webb, C. J. J. Black, M. Singleton, K. S. Sorbie
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, multicomponent ionic exchange, effluent chemistry, pH variation, fines migration, wettability alteration
+- Cited by 18 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2006/SCA2006-36.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2006-36)
+
+Low salinity coreflood data and effluent chemistry argue against fines migration and pH rise as causes, and support multicomponent ionic exchange as the main mechanism.
+
+The paper investigates what drives increased oil recovery in low salinity (LoSal) waterfloods of sandstone reservoir plugs (3 in. x 1.5 in.), run in secondary and tertiary mode at ambient and reservoir conditions. Effluent pH and ICP ion analyses were measured. No fines migration or permeability loss was seen in BP floods, and recovery gains occurred with low acid number crude (AN < 0.05) and no correlation with acid number. PHREEQC modelling and floods where pH rose only from 5 to 6 indicate pH rise is not the cause. Effluent Ca2+ and Mg2+ were strongly adsorbed, indicating multicomponent ionic exchange. In a North Slope core stripped of divalent cations with NaCl at 102°C, high salinity NaCl flood recovered 48% OOIP versus 35% for conventional flood, and low salinity floods gave no additional oil, supporting cation exchange removing organo-metallic complexes as the mechanism.
+
+## Oil Recovery by Waterflooding and Imbibition - Invading Brine Cation Valency and Salinity
+
+- ID: SCA1999-11, year: 1999
+- Authors: Guoqing Tang, Norman R. Morrow
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, cation valence, spontaneous imbibition, Berea sandstone, wettability, fines migration
+- Cited by 4 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/1999/SCA1999-11.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA1999-11)
+
+Berea sandstone imbibition and waterflood tests show higher cation valence lowers water-wetness but raises waterflood recovery, and dilute brine injection improves recovery regardless of cation type, except AlCl3.
+
+The paper examines how invading brine cation valence and salinity affect wettability and oil recovery in crude oil/brine/Berea sandstone systems. Cores (about 23% porosity, 500-650 md brine permeability) were aged with CS or A-95 crude oil and tested by spontaneous imbibition and waterflooding with NaCl, KCl, CaCl2, MgCl2, AlCl3 and synthetic reservoir brines. At 1% salinity, imbibition rate fell and waterflood recovery rose with increasing cation valence (CS oil: 56.7% NaCl, 60.9% CaCl2, 71.6% AlCl3). Lower salinity generally increased recovery, except AlCl3, where pH effects dominated. Injecting 0.0085 M single-cation brines into cores with PB connate brine raised final recovery by 9-15% OOIP, and switching to dilute brine at high water cut gave 6-12% additional recovery, with minor fines production but no obvious permeability damage. Earlier dilute brine injection gave better breakthrough and final recovery.
+
+## Impact of Dopants on SCAL Experiments, Phase I
+
+- ID: SCA2023-007, year: 2023
+- Authors: Fabrice Pairoys, Cyril Caubit, Laurent Rochereau, Ata Nepesov, Quentin Danielczick, Nicolas Agenet, Franck Nono
+- Method: laboratory experiment
+- Keywords: sodium iodide dopant, wettability alteration, Amott spontaneous imbibition, centrifuge forced imbibition, Bentheimer sandstone, residual oil saturation
+- Cited by 6 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-007.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-007)
+
+Six Bentheimer samples show that NaI dopant in connate brine makes rock more water-wet, raising Sor and lowering recovery, while NaI only in imbibing brine has little effect.
+
+NaI is routinely added to brines for X-ray saturation monitoring, but it may alter wettability and bias SCAL results. Six Bentheimer sandstone plugs were saturated with undoped or NaI-doped (1, 6, 12 g/l) synthetic seawater, drained to Swi by centrifuge, aged four weeks at 80°C with a Middle East crude, then tested by Amott spontaneous imbibition (42 days) and centrifuge forced imbibition. Samples with no NaI in connate brine showed low spontaneous imbibition and similar Amott water index (Iw 0.13-0.23) regardless of NaI in imbibing brine. Samples with NaI in connate brine were more water-wet (Iw 0.44-0.74, rising with concentration), with Sor about 8% higher at 1 and 6 g/l and up to 15% higher at 12 g/l, giving lower recovery. Proposed mechanisms (iodide interaction with oil polar species and clays) remain unverified, and carbonate and organic-dopant phases are pending.
+
+## Experimental Evidence of Low Salinity Water Flooding Yielding a More Oil-Wet Behaviour
+
+- ID: SCA2011-16, year: 2011
+- Authors: K. Sandengen, M.T. Tweheyo, M. Raphaug, A. Kjølhamar, C. Crescente
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, wettability alteration, ion exchange, history matching capillary pressure, CO2 pH buffering, siderite kaolinite sandstone
+- Cited by 3 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-16)
+
+Low-salinity flooding of North Sea sandstone composites halted oil production, interpreted via history matching as a shift to more oil-wet conditions; CO2 buffering is proposed to control pH.
+
+Most low-salinity studies report a shift toward water-wetness, but this work presents sandstone core floods (Rannoch-type, kaolinite- and siderite-bearing, basic oil) at 124 °C where low-salinity water appeared to make the rock more oil-wet. Three composite-core floods were run: high-salinity secondary, high-to-low switch at ~2.5 PVI, and secondary low-salinity. Low-salinity injection gave lower water saturation at breakthrough and less production, and stopped production when switched early; no response occurred when switched after more than 25 PVI. History matching in Eclipse yielded relative permeability and Pc curves needing a significant downward Pc shift for low salinity, and these curves reproduced the switched-flood behaviour qualitatively. Pore network modelling showed that a moderate wettability change can shift Pc substantially. An ion exchange framework (cation exchange vs. bridging) explains alteration in either direction, with pH acting opposite to salinity; a CO2/bicarbonate buffer was shown to control outlet pH in low-pressure floods.
+
+## Nuclear Magnetic Resonance Imaging: Application to Determination of Saturation Changes in a Sandstone Core by Sequential Waterflooding
+
+- ID: SCA2010-16, year: 2010
+- Authors: Nina Loahardjo, Norman R. Morrow, James Howard
+- Method: laboratory experiment
+- Keywords: sequential waterflooding, MRI saturation profiles, residual oil saturation, Berea sandstone, D2O brine, wettability change
+- Cited by 2 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-16.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-16)
+
+MRI with D2O brine on Berea sandstone confirms that sequential waterfloods without re-aging progressively lower residual oil saturation, from 36.2% to 21.9%, matching tracer-test and volumetric results.
+
+Earlier volumetric tests showed increased oil recovery in successive waterfloods without salinity change or re-aging; this study checks that independently with MRI. A Berea sandstone core (518 mD, 21% porosity) was flooded with D2O synthetic seawater and WP crude oil at 60 °C, so only oil gave MRI signal. Four cycles gave 3D-image residual oil saturations of 36.2%, 28.8%, 24.0% and 21.9%, with the last confirmed at 23.0% by a tracer test. The water front was sharp in cycle 1 but became more dispersed in later cycles, with a growing share of recovery after breakthrough. The incremental recovery between cycles 1 and 2 was 18.4%. The authors attribute the gains to a shift toward greater water-wetness, supported by imbibition results.
+
+## Direct Experimental Evidence of Wettability Modification by Low Salinity
+
+- ID: SCA2009-12, year: 2009
+- Authors: S. Berg, A. W. Cense, E. Jansen, K. Bakker
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, wettability modification, montmorillonite clay, oil droplet detachment, double layer expansion, clay swelling and fines migration
+- Cited by 1 papers in the corpus, cites 4
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-12.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-12)
+
+Flow-cell visualization shows crude oil droplets detaching from montmorillonite-coated slides when brine salinity is lowered, supporting wettability modification; diluted brine releases oil without clay deflocculation.
+
+Evidence for low salinity waterflooding has been indirect, so the authors built a flow cell where crude oil droplets are attached to Na-montmorillonite particles glued on glass slides under high salinity brine. Brine was switched to 2 g/l NaCl or diluted high salinity brine at about 1 cm/s, and droplet release was quantified by image analysis (error 5-60%). With 2 g/l NaCl, oil release averaged 66.6 ± 20 vol-% (up to about 98%), but the clay swelled several hundred percent and deflocculated, releasing fines. A 4x diluted high salinity brine, containing divalent ions, released about 59% of the oil with only minor swelling and no fines release ("controlled formation damage"). A force-balance analysis shows gravity dominates in the cell while viscous forces dominate in reservoir pores. The results support weakening of oil-clay adhesion, but they cannot separate double layer expansion from ion exchange.
+
+## Low Salinity Flooding: Experimental Evaluation and Numerical Interpretation
+
+- ID: SCA2013-022, year: 2013
+- Authors: Shehadeh K. Masalmeh, Tibi G. Sorop, Bart M.J.M. Suijkerbuijk, Esther C.M
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, capillary end effect, history matching, relative permeability, tertiary mode coreflood, wettability alteration
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-022.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-022)
+
+Sandstone tertiary and secondary low salinity corefloods, history-matched by simulation, show low-rate tests overstate LSF benefit through capillary end effects; multi-rate tertiary plus secondary tests are needed for relative permeability.
+
+Many published low salinity flooding (LSF) corefloods use ~1 ft/day rates, where capillary end effects can inflate the apparent extra recovery. The authors ran tertiary and secondary mode sandstone floods, including multi-rate unsteady-state tests and long composite cores up to 20 cm, and history-matched them with a passive-tracer salinity-dependent relative permeability and Pc model in MoReS. A low-rate tertiary test showed about 7% extra oil, but simulations showed much of it came from the Pc shift reducing end effect, and the match was non-unique. A high-rate HS flood followed by LS gave only 2-3% extra recovery (Sorw about 15%), and pressure drop generally fell on LS injection, indicating no formation damage. Reliable HS and LS relative permeability curves required combining tertiary and secondary multi-rate floods, while Pc remained only loosely constrained.
+
+## Low Salinity Waterflooding of a Reservoir Rock
+
+- ID: SCA2007_29, year: 2007
+- Authors: Nina Loahardjo, Xina Xie, Peigui Yin, Norman R. Morrow
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, reservoir sandstone, kaolinite, tertiary recovery, crude oil/brine/rock interactions, effluent pH
+- Cited by 2 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2007/SCA2007_29.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2007_29)
+
+Low salinity waterflooding of four kaolinite-bearing reservoir sandstone cores gave large secondary and tertiary oil recovery gains, but repeated cycles and restorations altered core properties.
+
+Low salinity brine flooding is crude oil-brine-rock specific, and no outcrop sandstone serves as a model, so four friable, poorly sorted kaolinite-bearing reservoir cores were tested with two crude oils at 60°C. Secondary and tertiary floods used seawater, 0.1 and 0.01 diluted seawater, 1,500 ppm dilute seawater and NaCl brines from 350 to 35,000 ppm. In Core 2060/4, secondary recovery rose from 50.9% OOIP (seawater) to 66.7% (0.1 seawater) and about 80% (0.01 seawater). Tertiary gains reached up to about 17% OOIP, often with sustained pressure drop increases and brine-in-oil emulsions, while effluent pH stayed near neutral. Repeated flooding and restoration changed the cores: seawater recovery rose to 75% in later cycles, tertiary response disappeared, brine and gas permeability increased with some fines production, and one core ended up fractured and friable. The authors conclude cycle-to-cycle comparisons on the same core must be treated with caution.
+
+## Low Salinity Oil Recovery on Clayey Sandstone: Experimental Study
+
+- ID: SCA2009-05, year: 2009
+- Authors: M. Cissokho, S. Boussour, Ph. Cordier, H. Bertin
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, clayey sandstone, tertiary oil recovery, salinity threshold, effluent pH and ion exchange, temperature effect
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-05.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-05)
+
+Low salinity waterflooding of a kaolinite-free clayey sandstone gave about 10% OOIP extra recovery at 35°C, with a salinity threshold and no benefit at 60–90°C.
+
+The study tests low salinity waterflooding on DU3 outcrop sandstone (9.2% clays, no kaolinite, 398–825 mD) with a crude oil, monitoring pressure drop, pH, effluent ions and recovery. One-phase dispersion tests and secondary and tertiary floods were run with brines from 50 g/l down to 0.1 g/l. At 35°C, tertiary injection of 1 g/l brine gave +10–11% OOIP, even for NaCl-only brine, with the gain occurring in the first three pore volumes. Stepwise dilution gave no extra oil until 1 g/l, indicating a threshold between 2.5 and 1 g/l, although pH and pressure drop rose at each step. Final secondary recovery with high salinity brine rose with temperature (67.8, 73.6 and 80.8% OOIP at 35, 60 and 90°C), but low salinity gave no significant extra oil at 60–90°C. The results argue against kaolinite or divalent-ion exchange being essential mechanisms.
+
+## Visual Microscopic Investigations About the Role of pH, Salinity and Clay on Oil Adhesion and Recovery
+
+- ID: SCA2013-021, year: 2013
+- Authors: Igor Bondino, Shashvat Doorwar, Raed Ellouz, Gerald Hamon
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, glass micromodel, kaolinite coating, oil adhesion, pH effect on wettability, emulsion
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-021.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-021)
+
+Test-tube and glass-micromodel experiments, including kaolinite-coated micromodels, show oil adhesion depends on pH, salinity, sand type and clay; no low salinity recovery gain was observed.
+
+The study probes mechanisms of low salinity waterflooding with simple visual tests. Oil adhesion tests used Fontainebleau and Landes sands and glass vials with high- and low-salinity brines at pH 4–8.5 and 50°C. Oil adhesion rose sharply at acidic pH (below about 5), Fontainebleau and glass behaved alike, Landes sand and kaolinite-coated sand showed no adhesion, and low salinity at high pH produced stable oil-in-water emulsions. Twelve micromodel floods (1D and 2D, 0.1 PV/hr, 20 and 50°C) used a new kaolinite coating method; clay made models strongly water wet with oil displaced by thick water layers, even after acidic aging. No quantifiable low salinity recovery gain was seen, but oil beading and a dark oil phase appeared during low salinity floods at 50°C with a pH gradient.
+
+## Field and Laboratory Observations of Remaining Oil Saturations in a Light Oil Reservoir Flooded by a Low Salinity Aquifer
+
+- ID: SCA2009-01, year: 2009
+- Authors: J. J. Batias, G. Hamon, B. Lalanne, C. Romero
+- Method: field or reservoir case study
+- Keywords: low salinity waterflooding, residual oil saturation, single well tracer test, Liquid Trapper coring, Dean Stark extraction, low invasion coring
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-01.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-01)
+
+Single-well tracer test and Liquid Trapper cores show 10-15% residual oil in a reservoir swept by low-salinity aquifer water, far below same-salinity coreflood values of 20-37%.
+
+The paper examines remaining oil saturation in a watered-out light oil sandstone (30% porosity, 500-5000 mD) swept by a 2.5-3.5 g/l aquifer, versus 10-15 g/l connate brine. A single-well tracer test on Well Y gave Sor of about 10%, and Dean Stark on cores from new Well X, cut with low-invasion water-base mud and the Liquid Trapper tool, gave 9-15%. Expelled oil during trip-out was below 0.1% of pore volume, so no correction was needed. Resistivity, RST and MRX log saturations were inconclusive (resistivity 40-50% Sor; MRX porosity 5-8 PU off core). Earlier unsteady-state coreflood with same-salinity brine gave Sor of 20-37%; the gap is attributed to low-salinity effects, possibly three-phase flow at the reservoir top, and gravity segregation.
+
+## CO2-Saturated Brine Flooding: An Effective Process for Mobilization and Recovery of
+
+- ID: SCA2011-07, year: 2011
+- Method: laboratory experiment
+- Keywords: CO2-saturated brine flooding, CO2 exsolution, residual oil mobilization, dual-energy CT saturation, Berea sandstone, three-phase flow
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-07.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-07)
+
+CO2-saturated brine flooding with gradual pressure depletion in a water-wet Berea core recovered over 50% of waterflood residual oil via in-situ CO2 exsolution and disconnected gas flow.
+
+Waterflood residual oil is high in water-wet rock, and this study tests recovery by exsolving CO2 from injected CO2-saturated brine as pressure is reduced. A 10-inch Berea core (89 mD, 20.8% porosity) was drained to 31.6% water saturation and waterflooded to 41% residual oil. CO2-saturated brine at 90 psig was injected while back pressure was lowered to 2 psig, with three-phase saturations tracked by dual-energy CT. Oil saturation fell to 20% (about 51% of trapped oil recovered). A second stage at 180 psig reduced it only to 17.3%, giving 74.7% cumulative recovery. Micromodel tests showed recovery occurs through interaction of oil ganglia with a flowing, disconnected gas phase (steady-state gas cluster dynamics).
+
+## Assessing the impact of dopants on electrokinetic rock properties as potential indicators for dopant induced wettability changes
+
+- ID: SCA2024_1031, year: 2024
+- Authors: Matthias Halisch, Fabrice Pairoys, Cyril Caubit, Thomas Grelle
+- Method: laboratory experiment
+- Keywords: zeta potential, electrokinetic sonic amplitude, X-ray dopants, NaI, electrical double layer, selFrag
+- Cited by 2 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1031.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1031)
+
+Electroacoustic zeta potential measurements on three sandstones show iodide and chloride dopants give negative zeta potentials without irreversible surface change, but do not explain the NaI-driven wettability increase.
+
+X-ray dopants such as NaI used in SCAL floods were previously found to make Bentheimer more water-wet. To probe the mechanism, Bentheimer, Berea and Obernkirchen sandstones were disaggregated by selFrag to preserve grain surfaces, and zeta potentials were measured by electrokinetic sonic amplitude on 2 wt% suspensions. Dopants NaI, KI, CsCl and BaCl2 were tested at 1, 6 and 12 g/l, with NaCl reference runs between cycles. Reference runs showed no irreversible surface change; compensated zeta potentials averaged about -5 mV (NaI), -3 mV (KI), -10 mV (CsCl) and -7.5 mV (BaCl2). Iodides gave a linear zeta potential versus ionic strength trend, while chlorides showed non-linear behavior indicating surface conductivity, and CsCl interacted with mica and clays. All dopants gave negative zeta potentials consistent with more water-wet surfaces, but the data do not explain the large Iw increase with NaI; biofilms, iodine redox species and pH effects are suggested.
+
+## Mechanisms of Improved Oil Recovery from Sandstone by Low Salinity Flooding
+
+- ID: SCA2010-25, year: 2010
+- Authors: Munish Kumar, Andrew Fogden, Norman R. Morrow, Jill S. Buckley
+- Method: digital rock or imaging
+- Keywords: low salinity waterflooding, fines migration, Berea sandstone, registered SEM imaging, asphaltene deposits, x-ray micro-CT
+- Cited by 1 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2010/SCA2010-25.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2010-25)
+
+Registered before/after SEM and CT imaging of Berea mini-plugs shows fines migrate with oil during waterflooding, more so with low salinity brine, suggesting a recovery mechanism.
+
+The study examines why low salinity flooding increases oil recovery in sandstone, focusing on movement of clays and fines. Eight Berea mini-plugs (four Berea types) underwent single-phase high-to-low salinity brine flow or two-phase crude oil drainage, aging and high or low salinity waterflooding. Registered FESEM images of cut faces before and after, plus x-ray micro-CT on one uncut plug, were compared; asphaltene deposits were quantified by UV-visible spectroscopy. CT could not resolve changes well, while SEM showed small-particle changes of about 1.5-2.5% of image area in single-phase flow. In two-phase floods, small changes were ~4% for high salinity and more than twice that for low salinity, concentrated in oil-wet pores where fines accompany asphaltene films, and asphaltene mass fraction rose from high to low salinity. The authors interpret this as the moving oil-brine meniscus stripping fines that stabilize the interface and aid recovery.
+
+## Comparison of High/Low Salinity Water/Oil Relative Permeability
+
+- ID: SCA2008-39, year: 2008
+- Authors: Kevin Webb, Arnaud Lager, Cliff Black
+- Method: laboratory experiment
+- Keywords: low salinity waterflood, reservoir condition coreflood, water/oil relative permeability, residual oil saturation, in-situ saturation monitoring, live crude oil
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2008/SCA2008-39.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2008-39)
+
+Reservoir-condition live-fluid corefloods on plugs from many basins show low salinity waterflooding gives about 5-40% incremental oil, lowers Sor, and leaves water endpoint permeability unchanged.
+
+Most published low salinity corefloods used dead oil at reduced conditions, and no interpreted relative permeabilities were available for simulation. BP ran unsteady-state waterfloods at full reservoir conditions (60-130 °C, 2500-7500 psi) with live crude and brine on restored plugs, using gamma-ray in-situ saturation monitoring and an in-line ultrasonic separator. Swi ranged from 0.05 to over 0.25, and connate salinities from about 15,000 to 200,000 ppm. Relative permeabilities were derived from JBN and history matched with the PAWS simulator including imbibition capillary pressure. Low salinity injection, secondary or tertiary, gave incremental recovery of about 5-40% as dry oil and lowered Sor, shifting the relative permeability curves in saturation with similar mobilities. Water endpoint relative permeability was similar after high and low salinity injection, indicating no fines or clay damage, and tertiary response was quick, unlike earlier reduced-condition reports.
+
+## Contradictory Trends for Smart Water Injection Method: Role of pH and Salinity from Sand/Oil/Brine Adhesion Maps
+
+- ID: SCA2015-005, year: 2015
+- Authors: Mathilde Didier, Annabelle Chaumont, Thibaut Joubert, Igor Bondino, Gérald Hamon
+- Method: laboratory experiment
+- Keywords: smart water injection, adhesion map, pH control, salinity, Fontainebleau sand, wettability
+- Cited by 1 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-005.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-005)
+
+Test-tube oil adhesion maps on Fontainebleau and Ottawa sands with controlled pH show oil adhesion increases at low salinity, contradicting the usual smart-water water-wetting claim.
+
+Smart water injection mechanisms are unclear, and earlier adhesion maps ignored divalent ions and long equilibration times. The authors built adhesion maps for one crude oil on Fontainebleau and Ottawa sands (both >99.9% SiO2) in NaCl/CaCl2 (9/1) brines of 0.5–50 g/L TDS and pH 2–12, using a protocol with 60°C equilibration, repeated pH adjustment to remove sand buffering, and 48 h oil contact. Three areas emerged: adhesion at pH ~2.5–6, non-adhesion at pH ~6–8.5, and adhesion at pH >8.5–10. For Fontainebleau, oil adhesion extends into the reservoir-relevant pH 6–8 range at TDS <3 g/L, and small pH or salinity changes there switch the outcome, while Ottawa shows a larger water-wet zone and less salinity influence. The trends are explained by electrostatic interaction between charged oil acid/base groups and quartz, with sand roughness and specific surface area proposed as a cause of the sand differences.
+
+## Potential wettability alteration/IOR study for pre-salt carbonate by low salinity brines: from experiments to field scale simulation
+
+- ID: SCA2024_1046, year: 2024
+- Authors: Omid Karoussi, Rex M.S. Wat, Claudio De Lima, Lidiana Ribeiro
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, wettability alteration, pre-salt carbonate, steady-state relative permeability, spontaneous imbibition, desulphated seawater
+- Cited by 1 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2024/SCA2024_1046.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2024_1046)
+
+Spontaneous imbibition and steady-state relative permeability on pre-salt carbonates show salinity-driven wettability alteration; sector and full-field simulations show about 2% oil gain and reduced water production.
+
+Pre-salt carbonates with 330k ppm formation brine face large salinity shifts during seawater injection, and their wettability response is poorly studied. Spontaneous imbibition on three plugs (about 300 days) at reservoir temperature showed incremental oil recovery with each switch from formation water to desulphated, synthetic and low-salinity seawater. Steady-state relative permeability at reservoir conditions on three plugs, history-matched with LET curves, showed right-shifted crossover points and fractional flow for two plugs with desulphated seawater, consistent with Craig criteria. Krw at Sorw fell from 1 to 0.7 for plug 2. A dynamic brine switch on plug 1 gave a reversible 4-6% saturation change favouring the lower salinity brine. Sector simulation with LOWSAL (5% Sorw reduction) gave up to 2% more cumulative oil, while full-field simulation showed little field oil change but lower water production and higher oil at a selected well.
+
+## Oil Recovery from Bentheim Sandstone by Sequential Waterflooding and Spontaneous Imbibition
+
+- ID: SCA2012-22, year: 2012
+- Authors: Nina Loahardjo, Winoto Winoto, Norman R Morrow
+- Method: laboratory experiment
+- Keywords: sequential waterflooding, Bentheim sandstone, spontaneous imbibition, Amott index, residual oil saturation, wettability aging
+- Cited by 1 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-22.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-22)
+
+Sequential waterfloods of aged Bentheim sandstone cores progressively cut residual crude oil, and imbibition rates show wettability shifts despite Amott indices of unity.
+
+Sequential waterflooding (SWF), in which initial water saturation is re-established with crude oil between floods, was studied on Bentheim sandstone (about 2 D, 21-28% porosity) with an asphaltic crude at 60°C. Residual oil fell systematically over the first four floods, for example from 50% to 12% for core Bh 1 and 46% to 29% for Bh 3. Aging at residual oil usually increased the next flood's recovery, while aging at initial water saturation reduced it. Fired and acidized core showed no reduction in residual oil. Brine relative permeabilities at residual oil were very low (mostly below 0.04), well below those for mineral oil at very strongly water-wet conditions. Spontaneous imbibition of crude oil was over an order of magnitude slower than for mineral oil, but faster for a previously waterflooded core, even though Amott water indices were unity. This indicates a wettability transition within the very strongly water-wet range.
+
+## Use of Enzymes to Improve Waterflood Performance
+
+- ID: SCA2009-28, year: 2009
+- Authors: Hamidreza Nasiri, Kristine Spildo, Arne Skauge
+- Method: laboratory experiment
+- Keywords: enzyme flooding, contact angle, wettability alteration, spontaneous imbibition, Berea sandstone, interfacial tension
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-28.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-28)
+
+Enzyme-in-brine solutions, especially Greenzyme, lowered contact angles and gave 3.5-11% OOIP extra recovery in aged Berea cores, with little wettability change.
+
+The study tests whether enzyme-protein solutions can make oil-wet surfaces more water-wet and increase waterflood recovery. Contact angles, interfacial tension and viscosity were measured for three enzymes (Greenzyme, Zonase1, Zonase2) in synthetic seawater against two North Sea crude oils on glass and oil-aged glass. Greenzyme gave the largest contact angle reductions, up to about 30° on glass, with relative change levelling near 0.5 at 0.75 wt%, and lowered IFT from 24 to 7 mN/m for oil A and 11 to 5 mN/m for oil B without changing brine viscosity. In four aged Berea cores, 1 wt% Greenzyme brine after waterflooding gave 3.5-11% OOIP incremental oil, 10 wt% gave none, and spontaneous imbibition was delayed early but slightly higher in total (43% vs 41% OOIP). Water endpoint permeabilities showed little wettability change except for the core never exposed to untreated brine and the core flooded with 10 wt% Greenzyme.
+
+## Is Wettability Alteration of Carbonates by Seawater Caused by Rock Dissolution?
+
+- ID: SCA2009-43, year: 2009
+- Authors: Tor Austad, Skule Strand, Tina Puntervold
+- Method: review or workflow
+- Keywords: seawater wettability alteration, chalk dissolution, spontaneous imbibition, potential determining ions, geochemical modeling, Ca2+ Mg2+ SO4 2- exchange
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2009/SCA2009-43.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2009-43)
+
+Reviews published imbibition and solubility experiments and concludes they contradict a chalk dissolution mechanism for seawater wettability alteration, supporting ion adsorption and exchange instead.
+
+Hiorth et al. proposed, from geochemical equilibrium modeling, that chalk dissolution drives wettability alteration when seawater imbibes into oil-containing chalk at high temperature. The authors challenge this by questioning the use of a thermodynamic model for a kinetic process. They note that dolomite has not been observed to form in lab experiments at 70-130 °C and that the modeled brine compositions ignore displaced connate water. They then re-examine their own imbibition data: oil recovery increased with Ca2+ (0 to 0.050 mol/l) even though added Ca2+ suppresses dissolution by the common ion effect. Mg2+ plus sulfate improved recovery through Ca2+/Mg2+ surface exchange, while Mg2+ alone at 130 °C gave no improvement. Solubility tests with amine surfactants showed that strong chalk dissolution (2.31% at 90 °C) coincided with stopped imbibition in dolomite cores. They conclude that no experimental evidence supports a dissolution mechanism.
+
+## Experimental and Modeling Investigation of Ion Exchange During Low Salinity Waterflooding
+
+- ID: SCA2011-38, year: 2011
+- Authors: Aruoture Voke Omekeh, Steinar Evje, Ingrebet Fjelde, Helmer André Friis
+- Method: numerical simulation
+- Keywords: low salinity waterflooding, ion exchange, Gapon model, divalent cation desorption, Berea sandstone, clay CEC
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-38.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-38)
+
+Single-phase Berea floods and static tests show cation release with low salinity brine; a Gapon ion-exchange transport model links divalent desorption to improved recovery seen in literature.
+
+The paper investigates ion release as a mechanism for low salinity waterflood recovery in sandstone. Single-phase floods in a 30 cm Berea core at 80°C (formation water, seawater, then low salinity water) and static crushed-rock/brine tests at 40 and 80°C were analyzed by ICP. Low salinity injection gave slow return of effluent ion concentrations to injected values, indicating release of ions, and static tests showed more calcium release in low salinity and distilled water than potassium. A 1D two-phase ion-exchange transport model (Gapon exchange, clay CEC) was built, with flow functions interpolated by a weighting function tied to divalent cation desorption. Simulations reproduced literature cases with little low salinity benefit (e.g., F changing from 1 to 0.67 after seawater in the Skrettingland case, and no further change with low salinity), and the model is proposed for screening brine compositions.
+
+## An Experimental Investigation of Low Salinity Waterflooding in Berea Sandstone
+
+- ID: SCA2011-55, year: 2011
+- Authors: Pubudu Gamage, Geoffrey Thyne
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, Berea sandstone, secondary and tertiary recovery, effluent pH, Minnelusa crude oil, core flooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-55.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-55)
+
+Core floods on Berea sandstone with two Minnelusa crudes compare low-salinity injection in secondary versus tertiary mode; secondary mode gave about 7-8% OOIP higher total recovery.
+
+The study compares low-salinity waterflooding in secondary and tertiary modes using Berea sandstone plugs (about 240-370 mD, ~20-21% porosity) and two Minnelusa crude oils (Raven Creek and Gibbs). Formation brine (38,753 ppm TDS) was compared with a 100-fold diluted brine, injected at 0.2 ml/min for about 10 PV, while recovery, pressure drop, effluent pH and conductivity were monitored. In tertiary mode, low-salinity flooding after the high-salinity flood gave about 2-6% OOIP additional oil, and effluent pH rose from about 7.5-7.7 to roughly 8-9. Raven Creek tertiary floods recovered about 41% OOIP with high-salinity brine, while secondary-mode low-salinity floods recovered about 51% OOIP. Total recovery was about 7.3-7.9% OOIP higher in secondary mode for the same oil.
+
+## Evaluation of Low-Salinity Waterflooding for 51 Fields in Wyoming
+
+- ID: SCA2011-56, year: 2011
+- Authors: Geoffrey Thyne, Pubudu Gamage
+- Method: field or reservoir case study
+- Keywords: low-salinity waterflooding, Minnelusa Formation, recovery factor, salinity ratio, water breakthrough, field data analysis
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2011/SCA2011-56.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2011-56)
+
+Field data from 51 Minnelusa waterfloods in Wyoming show no recovery or water-breakthrough benefit from low-salinity injection versus mixed or formation-brine injection, regardless of dilution.
+
+Laboratory studies report low-salinity EOR benefits, so the authors tested this against field data from Minnelusa Formation waterfloods in the Powder River Basin. Recovery factors were compiled for 51 fields (30-70%, mean 52%), classed by injection water source as low-salinity (Lance/Fox Hills, ~2100 ppm), mixed, or saline. Average recovery was 52.2% OOIP for low-salinity versus 52.6% for saline/mixed injection, with similar results with and without polymer treatment. Salinity ratio (injected/formation) showed no correlation with recovery, even for 10-100-fold dilution. A second metric, normalized cumulative production at water breakthrough for 19 fields, averaged 0.24 for low-salinity versus 0.32 for saline, again showing no benefit. Any small benefit may be hidden by the large natural variability in recovery.
+
+## Some Investigations on the Role of Microparticles on the Low Salinity Process
+
+- ID: SCA2012-15, year: 2012
+- Authors: M. CISSOKHO, A. AHMADI, H. BERTIN, A. OMARI, G. HAMON
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, fines migration, Pickering emulsion, latex particles, particle wettability, clayey sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-15.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-15)
+
+Low salinity flooding in clayey sandstone raised recovery, while latex-particle batch emulsion tests and an artificial porous medium show particle release alone does not yield extra oil.
+
+The paper examines whether microparticle detachment and wettability explain low salinity oil recovery. In a clayey sandstone (9.2% clay, 400-800 mD), high salinity flooding recovered 43% OOIP, low salinity brine (1 g/L) added 4.5% and very low salinity (0.1 g/L) a further 6.0%, with effluent pH rising to 10 and clay fines produced in single-phase flow. Batch experiments with polystyrene latex particles (280 and 780 nm) and mineral, crude and blended oils showed that ionic strength controls particle wettability and thus Pickering emulsion type and stability. In an artificial sintered silicate medium (8 D, 43% porosity) with deposited latex particles, pure water injection released particles but gave almost no extra oil. The authors conclude particle mobilization is insufficient, and that particle wettability, oil type and emulsion formation must be considered.
+
+## Investigation of Electrical Surface Charges and Wettability Alteration by Ions Matching Waterflooding
+
+- ID: SCA2012-33, year: 2012
+- Authors: Xie Quan, Wu Jiazhong, Qin Jishun, Liu Qingjie, Ma Desheng, Liu Li, Luo Manli
+- Method: laboratory experiment
+- Keywords: zeta potential, contact angle, ions matching waterflooding, electrical double layer, clay minerals, low permeability sandstone
+- Cited by 0 papers in the corpus, cites 2
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-33.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-33)
+
+Zeta potential and contact angle measurements with Changqing crude oil, clays and sandstone show NaCl and Na2SO4 brines make interfaces more negative and more water-wet than CaCl2 or MgCl2.
+
+Ions Matching Waterflooding mechanisms in low permeability sandstone were studied through interfacial charge and wettability. Zeta potential was measured by electrophoretic light scattering at 25°C for Changqing crude oil/brine and for kaolinite, illite, chlorite, montmorillonite, quartz and crushed Chang 8 sandstone in NaCl, CaCl2, MgCl2 and Na2SO4 at 0.1, 1 and 5 wt% plus deionized water. Contact angles of oil drops on quartz glass were measured by drop shape analysis. NaCl and Na2SO4 gave more negative zeta potentials at oil/brine and solid/brine interfaces than CaCl2 and MgCl2, which gave positive charges on some clays and sandstone at 1 and 5 wt%. Oil/Na2SO4 reached -30.8 mV at 1 wt% but -17.0 mV at 5 wt%, and the contact angle was 38° for 1 wt% Na2SO4. Contact angles agreed with the zeta potentials, indicating ion type matters more than salinity.
+
+## SCA2012-34
+
+- ID: SCA2012-34, year: 2012
+- Authors: Rajib Ahsan, Merete V. Madland, Fred Bratteli, Aksel Hiorth
+- Method: laboratory experiment
+- Keywords: sulphate wettability alteration, resistivity index, saturation exponent, imbibition capillary pressure, porous plate, Liège chalk
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-34.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-34)
+
+Resistivity monitoring during ageing and porous-plate imbibition on Liège chalk show sulphate brine gives more water-wet behaviour, with final recovery depending on local sulphate concentration, not when introduced.
+
+The study examines how sulphate ions affect wettability change during ageing and the imbibition capillary pressure of Liège outcrop chalk with Valhall crude oil. Cores were saturated with 1.1 M NaCl or 0.37 M Na2SO4, drained to Swi below 10%, aged about 10 weeks at 90°C with resistivity monitoring, then imbibed at 130°C by the porous plate method. Resistivity index doubled in sulphate cores but rose by a factor of 8 in NaCl cores, and saturation exponent rose 13-18% versus 42-55%, indicating NaCl cores were more oil-wet. NaCl-aged cores imbibed NaCl to Sw 0.28 at zero Pc, while NaCl-aged cores imbibed with Na2SO4 reached 0.43, the same as Na2SO4-Na2SO4. Sulphate-induced wettability alteration thus appears to depend on local sulphate concentration, though some companion cores failed during imbibition.
+
+## Visual Investigation of Low Salinity Waterflooding
+
+- ID: SCA2012-53, year: 2012
+- Authors: Alireza Emadi, Mehran Sohrabi
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, micromodel, water micro-emulsions, wettability alteration, surface active agents, flow visualization
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-53.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-53)
+
+Micromodel tests show low salinity water forms water-in-oil micro-emulsions in crude oil, suggesting interface depletion of surface active agents as a wettability alteration mechanism.
+
+The mechanisms behind low salinity waterflooding remain unclear. Three high-pressure (600 psig, 44 °C) glass micromodel tests with an extra-heavy crude (19.1 API) compared high salinity (30000 ppm), low salinity (500 ppm) and tertiary low salinity injection at a capillary number of about 2.5E-7. High salinity flooding showed no change in fluid distribution even after 50 PV. Low salinity water darkened the oil through formation of fine water micro-emulsions at the interface, which later settled at the bottom of oil blobs, with only slight change in oil/water distribution in the tertiary test and no added recovery. The authors hypothesize that micro-emulsion formation depletes surface active agents from the oil/water interface, reducing oil surface charge and cation bridging, which could shift wettability towards water-wet in real rocks with clays and divalent ions.
+
+## Coreflood Study of Low Salinity Effect in Low Permeability Sandstone Reservoirs
+
+- ID: SCA2012-54, year: 2012
+- Authors: Wu Jiazhong, Xie Quan, Liu Li, Liu Qingjie, Qin Jishun, Ma Desheng, Wu Kangyun, Yan Shouguo
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, ionic adjustment waterflooding, low permeability sandstone, coreflood, effluent pH, tertiary recovery
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2012/SCA2012-54.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2012-54)
+
+Coreflood tests on low-permeability Xifeng sandstone show low salinity (ionic adjustment) waterflooding raises recovery by 13-16% over formation brine, with lower differential pressure and higher effluent pH.
+
+Low salinity waterflooding was investigated for low-permeability (<1 mD) Chang 8 sandstone cores from the Xifeng oilfield, China, which have sub-micrometer throats and high clay content. Cores were flooded at 65°C with crude oil (9.0 cP) using synthetic formation brine (about 57,000 mg/L) and diluted brines (about 5,569 and 2,784 mg/L), in secondary (Swi) and tertiary (Sorw) modes. Ultimate recovery with low salinity water was 37.8-45.6% versus 23.3-30.0% with formation brine. Tertiary low salinity injection added 13.3-14.5% recovery after brine flooding. Differential pressure was lower than in high-salinity floods, indicating no formation damage and no fines production, and effluent pH rose by 1-3 units.
+
+## Primary Mechanism of Improved Oil Recovery by Ions-Tuning Waterflooding: Double Layer Expansion or Multicomponent Ionic Exchange?
+
+- ID: SCA2013-085, year: 2013
+- Authors: Xie Quan, Wu Jiazhong, Ma Desheng, Liu Qingjie, Liu Li
+- Method: laboratory experiment
+- Keywords: ions-tuning waterflooding, zeta potential, electrical double layer expansion, multicomponent ionic exchange, low salinity waterflooding, contact angle
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2013/SCA2013-085.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2013-085)
+
+Zeta potential, contact angle and coreflood tests on Changqing sandstone indicate electrical double layer expansion, not multicomponent ion exchange, is the main mechanism of ions-tuning waterflooding.
+
+The study asks whether double layer expansion or multicomponent ionic exchange primarily drives extra oil recovery in ions-tuning waterflooding of Changqing sandstone. Zeta potential, pH and contact angle were measured at 65°C for formation brine, ions-tuning water and NaCl brines from 0.2 to 10%, and cores were flooded in secondary and tertiary modes. Ions-tuning water (5569 mg/L) made oil and rock zeta potentials strongly negative (about -19 and -22 mV versus about -8 mV for formation brine) and reduced contact angle from 74° to 39°. Secondary recovery was 45.6% OOIP with ITW versus 30% with formation brine, and tertiary ITW added about 13-14% OOIP. Tertiary 10% NaCl added only about 3% OOIP, whereas 0.2% NaCl after 5.8% NaCl added about 10% despite no divalent cations, supporting double layer expansion as dominant.
+
+## Nano-scale modeling of rock-fluid interactions in low salinity water imbibition
+
+- ID: SCA2014-018, year: 2014
+- Authors: Hamid Hosseinzade Khanamiri, Rasoul Khaledialidusti, Ole Torsaeter, Jan Aage Stensen
+- Method: numerical simulation
+- Keywords: molecular dynamics, low salinity waterflooding, kaolinite, electrical double layer, acetic acid desorption, Ca2+ density profile
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-018.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-018)
+
+Molecular dynamics of kaolinite, acetic acid and brines shows low salinity imbibition moves Ca2+ away, expands double layers, and desorbs more acid than high salinity.
+
+Mechanisms of low salinity waterflooding are hard to verify at the nano scale, so molecular dynamics (LAMMPS) was used to model basal kaolinite, acetic acid as the polar oil component, and in-situ Na/Ca brine at 60°C. Two models differed only in imbibing fluid: high salinity NaCl brine versus pure water, run for about 7 ns. Acetic acid was initially bound to kaolinite mainly by hydrogen bonds, not divalent cation bridges. In low salinity, the peak acid density near the surface fell to 0.7 g/cc versus 0.9 g/cc in high salinity, and desorbed molecules reached about 50 Å versus under 30 Å. Ca2+ density peak shifted from 11.5 Å to 45.5 Å in low salinity but stayed near 9.5 Å in high salinity, indicating double layer expansion. Water moved counter-currently toward and into the clay, and ion RDFs around acid oxygen showed double layer expansion on the polar component too, which may hinder readsorption.
+
+## Experimental Studies of Low Salinity Water Flooding and Interpretation by Simulation for Low Permeability Sandstone
+
+- ID: SCA2014-065, year: 2014
+- Authors: Quan Xie, Jiazhong Wu, Qingjie Liu
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, wettability alteration, history matching, relative permeability, low permeability sandstone, tertiary recovery
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2014/SCA2014-065.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2014-065)
+
+Coreflood tests and ECLIPSE history matching on low permeability Chang Qing sandstones show low salinity flooding yields about 10% extra recovery in oil-wet reservoir cores versus 3.4% in water-wet outcrop.
+
+The study examines how rock wettability controls the low salinity waterflood (LSWF) response in low permeability sandstone, using Chang Qing reservoir cores (23.6% clay, oil-wet) and quartz-rich outcrop cores (4.2% clay, water-wet). Corefloods were run at 65°C in secondary and tertiary modes with formation brine (57,114 mg/L) and ten-fold diluted brine. Relative permeability curves were derived by history matching production and pressure drop with ECLIPSE 100. The water-wet outcrop showed piston-like displacement, about 50% OOIP recovery with high salinity brine, only 3.4% extra from LSWF and no real wettability change. The oil-wet reservoir core produced oil over longer periods, gained about 10% OOIP from LSWF, and its relative permeability curves shifted toward water-wet. Capillary pressure had minor influence on the history match.
+
+## Ion Tuning Waterflooding in Low Permeability Sandstone: Coreflooding Experiments and Interpretation by Thermodynamics and Simulation
+
+- ID: SCA2015-004, year: 2015
+- Authors: Quan Xie, Desheng Ma, Qingjie Liu, Weifeng Lv
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, zeta potential, disjoining pressure, Amott wettability index, history matching relative permeability, double layer expansion
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-004.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-004)
+
+Coreflooding, zeta potential and disjoining-pressure calculations show low salinity waterflooding recovers extra oil in slightly water-wet low-permeability reservoir cores but little in strongly water-wet outcrop.
+
+The study asks whether the low salinity EOR effect depends on rock wettability in low-permeability sandstone (<1 mD). Reservoir cores (slightly water-wet, Amott Iw 0.43) and quartz-rich outcrop cores (strongly water-wet, Iw 0.88) were flooded with Changqing crude and formation brine or 10x diluted brine at 65°C, in secondary and tertiary modes. Low salinity water gave about 10% OOIP extra recovery in the reservoir cores and shifted history-matched relative permeability curves toward more water-wet. In the outcrop cores the gain was minor (about 3.4% OOIP tertiary; 50.5% vs 50.0% secondary). Zeta potential became more negative at oil/brine and rock/brine interfaces with low salinity, and disjoining pressure calculations showed repulsion only with low salinity brine in the slightly water-wet rock, consistent with the corefloods.
+
+## Low Salinity Water Flooding: Facts, Inconsistencies and Way Forward
+
+- ID: SCA2015-006, year: 2015
+- Authors: G. Hamon
+- Method: review or workflow
+- Keywords: low salinity waterflooding, tertiary recovery, double saturation shock, dispersion at residual oil, wettability alteration, viscosity ratio
+- Cited by 0 papers in the corpus, cites 6
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-006.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-006)
+
+Reviews published low salinity corefloods and argues poor tertiary response stems from unfavorable viscosity ratio, dispersion at Sorw and wettability shift direction; recommends a more complete experimental protocol.
+
+Despite over 500 laboratory studies, tertiary low salinity water injection (LSWI) often fails to give significant incremental oil within 2-3 PV, even in sandstones where secondary LSWI beats high salinity injection. The paper reviews literature and unreleased data (Cissokho, Nasralla, Shehata, Loahardjo, Zhou) against three hypotheses. Simulations show an oil bank forms at about 0.5-0.6 PV at viscosity ratio 2 but vanishes or is delayed at ratios of 7 to 18, and most published tertiary floods used large viscosity ratios (up to ~54). Tracer tests show strong dispersion at Sorw: injected concentration appeared after 1.7 PV at Sw=1 but after more than 3.5 PV at Sorw, and deionized water composition was not reached after 5 PV in 15 cm cores. Simulations also show that a shift toward less water-wet conditions delays and weakens tertiary recovery. The author proposes an ideal protocol with tracer tests, secondary HS and LS floods, full Amott-Harvey tests, tertiary floods with ionic analysis, and IFT measurements versus salinity.
+
+## Pore-Scale Observation of Residual Oil in Low Salinity Surfactant Flooding
+
+- ID: SCA2015-053, year: 2015
+- Authors: Hamid Hosseinzade Khanamiri, Ole Torsæter, Jan Åge Stensen
+- Method: digital rock or imaging
+- Keywords: low salinity surfactant, micro-CT, residual oil clusters, calcium, interfacial tension, Berea sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2015/SCA2015-053.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2015-053)
+
+Micro-CT coreflooding of Berea shows calcium-doped low salinity surfactant recovers previously affected residual oil clusters, with higher pore-scale recovery than in conventional core floods.
+
+The study examines whether adding a small amount of calcium to low salinity surfactant (SDBS, 500 mg/l) improves oil recovery. A 4 mm Berea sandstone sample with iodododecane-doped crude oil was flooded sequentially with low salinity water, low salinity surfactant with NaCl (LSS-Na), calcium-containing surfactant (LSS-Ca) and high salinity brine, and scanned by micro-CT at 5.44 µm resolution after each step. Recoveries were 26.4% OOIP for low salinity water, 12.4% for LSS-Na, 11.9% for LSS-Ca and 12.7% for high salinity brine, totaling 63.3%. LSS-Ca mainly mobilized rounded clusters already altered by LSS-Na and left unaffected oil in place, with less re-trapping (4.8% vs 12.9% OOIP). Surfactant recovery was higher than in a conventional core flood (3% OOIP), implying microscopic sweep exceeds macroscopic sweep and mobility control may be needed.
+
+## An Improved Insight into Low-Salinity Waterflooding: In-Situ Characterization of Wettability Alteration at Elevated Pressure and Temperature Conditions
+
+- ID: SCA2016-003, year: 2016
+- Authors: M. Khishvand, A.H. Alizadeh, I. Oraki Kohshour, M. Piri
+- Method: digital rock or imaging
+- Keywords: low-salinity waterflooding, micro-CT, in-situ contact angle, wettability alteration, fluid occupancy maps, reservoir sandstone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-003.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-003)
+
+Micro-CT imaging of low- and high-salinity floods in reservoir sandstone at reservoir conditions shows in-situ contact angle shifts from 115° to 89° only during low-salinity flooding, lowering residual oil.
+
+Pore-level mechanisms behind low-salinity waterflooding (LSWF) lack direct evidence. Two secondary-mode floods (LSWF and HSWF) were run on 5-mm preserved reservoir sandstone samples (about 6% kaolinitic clay, Swi 13%) at 800 psi pore pressure and 60 °C inside a micro-CT scanner, using doped crude oil and seawater-type brine (40,300 ppm TDS) diluted 50 times for LSWF. Both floods gave Sor of about 0.45 after 5 PV, but HSWF stabilized there while LSWF continued to a Sorw of 0.30 by 10 PV. In-situ contact angles averaged 115-117° (weakly oil-wet) initially and did not change in HSWF, but fell to about 89° during LSWF. Single-pore images show water invading a medium-sized oil-filled pore only after its contact angle dropped from 127° to 99°, consistent with reduced threshold capillary pressure.
+
+## Wettability Effects on Osmosis as an Oil Mobilization Mechanism During Low Salinity Waterflooding
+
+- ID: SCA2016-011, year: 2016
+- Authors: S.B. Fredriksen, A.U. Rognmo, K. Sandengen, M.A. Fernø
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, osmosis, micromodel, water-in-oil emulsions, wettability, semi-permeable oil membrane
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-011.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-011)
+
+Capillary-tube and micromodel experiments show osmosis through oil mobilizes oil during low salinity waterflooding at both water-wet and oil-wet conditions, independent of wettability.
+
+Low salinity waterflooding mechanisms remain unresolved, particularly in carbonates, and osmosis has been little considered. Oil-wet PTFE capillary tubes with toluene separating high-salinity brine and deionized water were held at 50 °C for 20 days; water moved through the oil toward the high-salinity brine, matching osmosis predictions in all tested brine combinations, with no transport in baselines. Silicon-wafer micromodels, water-wet with crude oil and oil-wet (HMDS-treated) with toluene, were flooded with low salinity water in an adjacent channel at 1 ml/day for 7–14 days. In water-wet models, water diffusion dominated at capillary equilibrium, and osmotic growth of water-in-oil emulsions displaced oil. In oil-wet models, capillary-trapped high-salinity brine swelled and pushed oil into the fracture channel. The authors conclude osmosis is wettability-independent and should act in sandstones and carbonates, though its effect on total recovery is likely modest except in fractured oil-wet systems.
+
+## Micro-CT study of the Impact of Low Salinity Waterflooding on the pore-scale fluid distribution during flow
+
+- ID: SCA2016-017, year: 2016
+- Authors: W.-B. Bartels, M. Rücker, S. Berg, H. Mahani, A. Georgiadis, N. Brussee, A. Coorn, H. van der Linde, A. Fadili, C. Hinz, A. Jacob, C. Wagner, S. Henkel, F. Enzmann, A. Bonnin, M. Stampanoni, H. Ott, M. Blunt, S.M. Hassanizadeh
+- Method: digital rock or imaging
+- Keywords: low salinity waterflooding, synchrotron fast X-ray tomography, wettability alteration, ganglion dynamics, pore-scale imaging, oil/water emulsion structures
+- Cited by 0 papers in the corpus, cites 3
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-017.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-017)
+
+Fast synchrotron micro-CT during tertiary low-salinity flooding of Berea and Ketton shows oil moving from pore throats to pore bodies, indicating a shift toward water-wet conditions.
+
+The paper addresses how pore-scale wettability change from low salinity flooding leads to Darcy-scale oil recovery. Aged Berea sandstone and Ketton carbonate plugs (20 mm by 4 mm) with crude oil were flooded at 30 µl/min, first with 200 g/L KI high-salinity brine and then 27 g/L KI low-salinity water. Fast synchrotron tomography (TOMCAT) gave 3 µm voxels and a full 3D image in about 7 s. An intermediate grey phase in the oil was examined against artefacts, gas trapping, X-ray gas formation, degassing, brine discoloration and oil/water structures; emulsion-like structures were the most plausible. On switching to low salinity, oil moved from pore throats to pore bodies, oil saturation in the field of view increased (possible oil banking), and ganglion dynamics with remobilization occurred, including in sandstone at salinities above the usual 1500–5000 ppm range.
+
+## Contact angle and IFT measurements at elevated temperatures for evaluating wettability in a selected carbonate reservoir in the UAE
+
+- ID: SCA2016-076, year: 2016
+- Authors: Hazim Al-Attar, Jassim Abubacker, Abdurazak Zekri, Mohammad Khalifi, Essa Lwisa
+- Method: laboratory experiment
+- Keywords: smart water, contact angle, interfacial tension, sulphate spiking, carbonate wettability alteration, pendant drop
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-076.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-076)
+
+Pendant-drop IFT and contact angle tests at 90°C on 26 brines with Asab crude and limestone identify undiluted seawater as the best smart-water candidate.
+
+The study seeks a smart water for wettability alteration in an Asab field carbonate reservoir in the UAE. Twenty-six brines were prepared from Arabian Gulf seawater (TDS 57,539 mg/l), including dilutions and sulphate spiking (x2, x6), plus formation and injection water. IFT against Asab crude was measured by pendant drop at ambient and HPHT conditions (up to 90°C and 248 psia). Contact angles were measured over 72 hours on limestone aged in crude oil, assumed oil-wet at 180°. Sulphate spiking lowered IFT but raised contact angle, and dilution did not reduce IFT or contact angle. Seawater and SW/50 gave the lowest contact angles, shifting wettability to the oil-wet/intermediate border. Seawater (IFT 9.503 dyne/cm, contact angle 113°, Δθ = 67°) was proposed as the smart water.
+
+## Characterization of Interaction Between Oil/Brine/Rock Under Different Ion Conditions by Low Field Solid-State NMR
+
+- ID: SCA2016-077, year: 2016
+- Authors: Shijing XU, Xiaoliang WANG, Weifeng LV, Qingjie LIU
+- Method: laboratory experiment
+- Keywords: low-field solid-state NMR, fully refocused FID, magic-sandwich echo, ion tuning waterflooding, oil-rock interface interaction, Ca2+
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2016/SCA2016-077.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2016-077)
+
+Low-field solid-state NMR FID measurements on model oil/silica systems show added water weakens oil-rock interaction while Ca2+ ions strengthen it, which is unfavorable for ion-tuning waterflooding.
+
+Ion-tuning waterflooding mechanisms remain uncertain, so the authors probe oil-rock interface interactions with low-field solid-state NMR. Model oils (nonanoic acid and 2-methyl quinoline) were mixed with mesoporous SiO2 spheres (10 µm, 17 nm pores) and D2O. Measurements used a Bruker Minispec mq20 (20 MHz); magic-sandwich echo FID at short times was combined with Hahn echo decay (80 to 10^6 µs) to give a fully refocused FID. Faster FID decay indicates more rigid, surface-bound oil. Added water slowed FID decay in the nonanoic acid system, with no further change beyond 2.0D, and had little effect for 2-methyl quinoline. Small amounts of Ca2+ changed little, but large amounts (5 equiv) sped up FID decay, indicating stronger oil-rock interaction.
+
+## New Experimental Evidence on the Dominant Mechanism of Oil Recovery by Low Salinity Water Injection in Carbonate Rocks
+
+- ID: SCA2017-008, year: 2017
+- Authors: Mohamed AlHammadi, Pedram Mahzari, Mehran Sohrabi, CO Solutions
+- Method: laboratory experiment
+- Keywords: low salinity water injection, micro-dispersion, carbonate wettability alteration, tertiary coreflood, crude oil-brine interaction, effluent chemistry
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-008.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-008)
+
+Coreflood tests on Middle East carbonate cores with micro-dispersion-forming and depleted crudes show tertiary low salinity recovery depends on the oil's micro-dispersion propensity, not pH or dissolution.
+
+The paper tests whether water-in-oil micro-dispersion formation controls low salinity water injection (LSWI) recovery in carbonates. Five crudes were screened with brines from 1,000 to 208,600 ppm using Karl-Fischer titration; Crude A showed the highest micro-dispersion, increasing as salinity fell. A treated version, Crude At (upper two thirds of Crude A), formed none. Two similar 30 cm carbonate cores (porosity about 0.27, permeability about 2.5 mD) were aged with each oil and flooded at 80 °C with secondary high salinity then tertiary 1,000 ppm brine. Secondary recovery was similar, bump floods showed no capillary end effect, and tertiary LSWI gave 6.3% additional recovery with Crude A but none with Crude At. Effluent pH and ion ratios (Ca/Na, Mg/Na, SO4/Cl) behaved identically in both floods, indicating calcite and anhydrite dissolution and pH rise are not the dominant mechanism.
+
+## Prediction, Control and Validation of Rock Dissolution During Smart Water Injection and Its Impact on Waterflood Performance in Heavy Oil Carbonate Reservoirs
+
+- ID: SCA2017-010, year: 2017
+- Authors: Heron Gachuz-Muro, Mehran Sohrabi, Pemex E, Heriot Watt
+- Method: laboratory experiment
+- Keywords: smart water injection, rock dissolution, dolomite coreflood, low salinity seawater, crude oil acidity (TAN/TBN), permeability change
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-010.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-010)
+
+Four dolomite coreflood tests at 92 °C show low salinity water dissolves rock and raises permeability with basic crude, while seawater damages it; recovery depends on oil type.
+
+The paper tests whether acidic water generated by crude oil/low salinity brine interaction causes carbonate dissolution and affects oil recovery. Four sequential coreflood experiments were run at 92 °C on one dolomite core (142 mD, 18.8% porosity) with a basic heavy oil (A) and an acidic oil (E), injecting seawater, LSSW10 and LSSW50. With oil A, LSSW10 recovered 69.3% OOIP and raised permeability from 142 to 180 mD, with calcium and bicarbonate production in the effluent. Seawater gave about 32% recovery and cut permeability to 64 mD (~65% loss), consistent with supersaturation and precipitation. With acidic oil E, recoveries were lower (42% with LSSW10 then ~4% extra with LSSW50; 36.9% with seawater then 3.8% with LSSW10), dissolution was negligible, and permeability recovered to about 158 mD after low salinity injection. Differential pressure did not reveal dissolution or blockage.
+
+## Effect of Low Salinity Water Injection on Capillary Pressure and Wettability in Carbonates
+
+- ID: SCA2017-051, year: 2017
+- Authors: Farzin Vajihi, Pedro Diaz, Ivy Sagbana, Hassan Zabihi, Arash Farhadi, Saham Sherhani
+- Method: laboratory experiment
+- Keywords: low salinity water injection, centrifuge capillary pressure, USBM wettability index, sulphate smart water, Indiana limestone, imbibition
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-051.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-051)
+
+Centrifuge capillary pressure on Indiana limestone at ambient conditions shows low salinity and sulphate-spiked brines shift wettability toward water-wet and raise oil recovery up to about 8%.
+
+Wettability alteration by low salinity water injection in carbonates is usually reported only at high temperature. The authors measured forced drainage and imbibition capillary pressure curves by multi-speed centrifuge on four Indiana limestone plugs (98% calcite, 54-75 mD) at ambient conditions, without aging. Brines were formation water, seawater, diluted seawater, and seawater spiked with sulphate or depleted in NaCl, with wettability computed by the USBM method. Residual oil saturation fell as salinity dropped, with more than 95% salinity reduction needed for noticeable gains. Four times sulphate in twenty times diluted seawater gave 7% incremental recovery and a shift toward water-wet, while NaCl depletion added 1.6% without changing wettability.
+
+## Explicit Continuum-Scale Modeling of Water-Based IOR/EOR Mechanisms
+
+- ID: SCA2017-056, year: 2017
+- Authors: Kata Kurgyis, Bernd Flemisch, Rainer Helmig, Holger Ott
+- Method: numerical simulation
+- Keywords: low salinity water flooding, multicomponent ion exchange, double layer expansion, wettability alteration, DuMux, Buckley-Leverett
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-056.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-056)
+
+A mechanistic continuum-scale low-salinity flooding model in DuMux links ion adsorption to interpolated relative permeability and capillary pressure, matching Buckley-Leverett solutions apart from numerical dispersion.
+
+The paper develops an explicit continuum-scale model of low-salinity water flooding in the open-source simulator DuMux, using a fully implicit 2-phase-N-component formulation. Wettability change is represented by linear interpolation between high- and low-salinity relative permeability and capillary pressure curves, with the interpolation coefficient tied to adsorbed ion concentration. Model complexity is built up in three steps: dissolved salinity tracer, adsorbed tracer, and a mechanistic model with Na+ and Ca2+ equilibrium adsorption reactions representing double layer expansion and multicomponent ion exchange. Simulated secondary and tertiary floods agree well with Buckley-Leverett analytical solutions, with deviations from numerical dispersion that is amplified at the low-salinity front by the interpolation. In tertiary mode the simulated oil bank grows over time because constant pressure difference rather than constant rate is applied. Using an optimal-salinity interpolation function reduces smearing of the low-salinity front and produces an oil bank, showing high sensitivity to the interpolation definition.
+
+## Low Salinity Water Flooding in Carbonate Rocks – Dissolution Effect
+
+- ID: SCA2017-070, year: 2017
+- Authors: M. Altahir, M. Yu, F. Hussain
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, carbonate dissolution, fines migration, effluent pH, SEM imaging, limestone
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-070.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-070)
+
+Single-phase injection of seawater, diluted seawater and deionized water into a low-permeability limestone shows dissolution (Ca2+, pH rise) and fines migration, with no net permeability change.
+
+Dissolution during low salinity waterflooding of carbonates is poorly documented. A 0.5 mD Iraqi limestone core (96.6% calcite, 3.4% dolomite) saturated with seawater was flooded at 50 °C and 0.1 cc/min with seawater, 3x and 6x diluted seawater, then deionized water, at least 15 PV each. Effluent Ca2+, TDS and pH rose during deionized water injection (TDS 20-30 mg/l produced versus 0 injected; pH up to about 9.5), indicating calcite dissolution. SEM of 40 subsections at inlet and outlet faces showed fines migration, likely dissolution-induced. Permeability barely changed (0.55 to 0.60 mD), attributed to dissolution-driven enlargement offsetting fines blockage.
+
+## Low-Salinity Waterflood with non-Polar Oil: the effects of fines migration excluding the wettability alteration effects
+
+- ID: SCA2017-071, year: 2017
+- Authors: M. Yu, F. Hussain, P. Bedrikovetsky
+- Method: laboratory experiment
+- Keywords: fines migration, low-salinity waterflood, Berea sandstone, kaolinite, permeability reduction, SEM-EDS
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-071.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-071)
+
+Using non-polar Soltrol oil to exclude wettability alteration, Berea coreflooding shows low-salinity fines migration cuts permeability and modestly improves oil recovery through flow diversion.
+
+Low-salinity waterflood benefits are often attributed to wettability alteration, making fines migration effects hard to isolate. The authors used non-polar Soltrol 130 oil so the rock stays water-wet, and flooded Berea sandstone plugs (22.6% porosity, ~340 mD; 85% quartz, 6% kaolinite) at 25°C. A single-phase test with stepwise salinity reduction from 4% NaCl to deionized water gave about a tenfold permeability drop, accompanied by particle production (mainly quartz and kaolinite, with kaolinite surging in fresh water). In the two-phase test, low-salinity injection reduced Sor from 0.385 to 0.362 and Krw from 0.09 to 0.05, with kaolinite fines produced near breakthrough. Pre- and post-flood SEM images showed fines removal and pore blockage, supporting flow diversion by fines straining as the cause of the improved recovery.
+
+## Investigation of Wettability Alteration of Carbonate Rock in Presence of Sulfate, Calcium and Magnesium Ions
+
+- ID: SCA2017-102, year: 2017
+- Authors: Pouyan Ahmadi, Masoud Riazi, Mohammad Reza Malayeri
+- Method: laboratory experiment
+- Keywords: wettability alteration, contact angle, smart water, sulfate calcium magnesium ions, carbonate, drop shape analysis
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2017/SCA2017-102.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2017-102)
+
+Contact angle measurements on aged carbonate thin sections show that seawater with tuned sulfate, calcium and magnesium (SW-3S-C-6M) gives the strongest wettability alteration, from 129° to 30°.
+
+The study examines how sulfate, calcium and magnesium ions in seawater-based brines of constant ionic strength alter the wettability of oil-aged carbonate thin sections. Sections were aged in formation brine at 75°C for 14 days and in crude oil at 75°C and 2500 psi for 20 days, then exposed to diluted seawater and synthetic brines with varied ion ratios. Contact angles were measured with a drop shape analyzer at 0, 48, 120 and 360 hrs. Refreshing the brine at each step was needed for appreciable change; 5-times diluted seawater reached 87° versus 106° for seawater. SW-3S-C-6M gave the largest shift (129.2° to 30.1°), and magnesium was more effective than calcium, while excess sulfate reduced cation access to the surface.
+
+## Impact of Brine Composition and Concentra-Tion on Capillary Pressure and Residual Oil Saturation in Limestone Core Samples
+
+- ID: SCA2018-013, year: 2018
+- Authors: F. Feldmann, A. M. AlSumaiti, S. K. Masalmeh, W. S. AlAmeri, S. Oedai
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, centrifuge imbibition capillary pressure, spontaneous imbibition, residual oil saturation, Indiana limestone, diluted sea water
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-013.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-013)
+
+Spontaneous imbibition, centrifuge forced imbibition and core floods on Indiana limestone show oil recovery rises and residual oil falls as imbibing brine salinity drops below connate salinity.
+
+The study examines how connate and imbibing brine composition (formation brine, sea water, 100-times diluted sea water) affect oil recovery in aged Indiana limestone. Spontaneous imbibition at 70°C gave recovery only when imbibing water was less saline than connate water, up to 34.7–36.1% OIIP for formation brine connate water with diluted sea water. Centrifuge forced imbibition, reported as a first for low-salinity work, gave less negative (more water-wet) Pc curves and lower remaining oil as salinity fell, e.g. 16.8% and 14.2% for formation brine versus 3.0% and 4.1% for diluted sea water as connate and imbibing water. Three unsteady-state floods at 0.05 cc/min recovered 21.9%, 30.1% and 38.5% for formation brine, sea water and diluted sea water, with final remaining oil of 37.4%, 35.5% and 30.6%. Tertiary diluted sea water added 3.4% and 1.8% in one test, while sea water added nothing; floods showed higher residual oil than centrifuge, attributed to adverse mobility ratio and heterogeneity.
+
+## Effects of Ions on the Characteristics of Monolayer at Brine/Oil Interfaces
+
+- ID: SCA2018-028, year: 2018
+- Authors: Mohammed B. Alotaibi, Dongkyu Cha, Karam Chand, Ali A. Yousef
+- Method: laboratory experiment
+- Keywords: sum frequency generation spectroscopy, SmartWater, oil/water interface monolayer, stearic acid, ionic strength, hydrogen bonding network
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-028.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-028)
+
+Sum Frequency Generation spectroscopy of dodecane/stearic acid emulsions in different brines shows low-ionic-strength SmartWater enhances interfacial monolayer interactions and hydrogen bonding compared with high-salinity water.
+
+Mechanisms behind SmartWater and low-salinity wettability alteration are unclear because macroscopic techniques cannot probe molecular structure at oil/water interfaces. The authors used SFG spectroscopy (1,000–3,800 cm-1, SSP polarization) on n-dodecane with stearic acid emulsified (5 vol%) in DI water, NaCl, SmartWater (ionic strength 0.11) and high salinity water (1.15), plus air/water references. Stearic acid enhanced dodecane alkyl chain intensities by more than two-fold. The r+/d+ ratio was highest for SmartWater (0.78) and lowest for DI water (0.47), with HSW at 0.70 and NaCl at 0.50. Lower ionic strength increased hydrogen bonding and free OH intensity at oil/water interfaces, and SmartWater differed from NaCl at similar ionic strength, indicating mixed ions enhance monolayer interactions.
+
+## Insights into Low Salinity Water Flooding
+
+- ID: SCA2018-039, year: 2018
+- Authors: Hasan N. Al-Saedi, Ralph E. Flori, Patrick V. Brady
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, divalent cations, Berea sandstone, effluent pH, cation exchange, kaolinite
+- Cited by 0 papers in the corpus, cites 1
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-039.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-039)
+
+Berea sandstone core floods at 90°C show that diluting Ca2+ in injected low-salinity water boosts tertiary recovery more than diluting Mg2+, with effluent pH rising as divalent cations fall.
+
+The study examines how divalent cations (Ca2+, Mg2+) in the injected brine affect low-salinity (LS) waterflood recovery in sandstone. Four Berea cores were saturated with 96,100 ppm formation water containing 90 mmole Mg2+ or Ca2+, aged in crude oil for three weeks at 90°C, then flooded with FW followed by 4000 ppm LS water with the divalent cation diluted 3 or 10 times. Mg2+ cores gave higher secondary recovery (52.5% and 52.2% OOIP vs 43.25% and 44.7% for Ca2+), but tertiary LS recovery was 0% and 1.5% for Mg2+ versus 2.7% and 5% for Ca2+. Effluent pH rose more when divalent cations were lower (e.g. 6.83 to 8 for Core1-2, about 7 to 8.27 for Core2-1), and Ca2+ cores showed higher injection pressures (134 psi) attributed to kaolinite agglomeration. The authors conclude Mg2+ should be minimized in LS injection water, and Ca2+ diluted for extra recovery.
+
+## Study of the Sulphate Ion Effect on Oil Recovery During Low Salinity Water Injection in Dolomites
+
+- ID: SCA2018-064, year: 2018
+- Authors: Guilherme Bueno
+- Method: laboratory experiment
+- Keywords: low salinity waterflooding, sulphate ion, dolomite, wettability alteration, anhydrite, coreflooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2018/SCA2018-064.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2018-064)
+
+Coreflooding of dolomite with seawater and diluted seawater at 65 and 110°C shows initial sulphate (anhydrite) raises recovery and speeds production only at 110°C.
+
+The study examines how initial sulphate in carbonate rock affects oil recovery during low salinity waterflooding. Four corefloods were run on Thornton dolomite outcrop pairs at 65°C and 110°C, with and without anhydrite precipitated by aging in sulphate-enriched formation water. Brines were injected in sequence: seawater, 2x diluted and 10x diluted seawater, 4 PV each at 0.1 mL/min. Twice-diluted seawater gave 2.8–8.2% OOIP additional recovery, while the 10x diluted brine gave negligible oil. Initial sulphate made little difference at 65°C (<1% OOIP) but increased recovery by 8.6% OOIP at 110°C (49.6% vs 41% after seawater) and shortened the time to plateau (about 6 vs 11 PVI). Effluent ion chromatography at 65°C showed sulphate adsorption during seawater injection.
+
+## A Surface Complexation Model of Alkaline-Smart Water Electrokinetic Interactions in Carbonates
+
+- ID: SCA2019-043, year: 2019
+- Authors: Moataz Abu-Al-Saud, Amani Al-Ghamdi, Subhash Ayirala, Mohammed Al-Otaibi
+- Method: numerical simulation
+- Keywords: surface complexation model, zeta-potential, SmartWater, alkaline flooding, calcite/brine interface, carbonate wettability
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-043)
+
+A surface complexation model fitted to measured zeta-potentials of calcite/brine and crude oil/brine shows Na2SO4 brine with Na2CO3 alkali gives the most negative surface charges.
+
+The paper models how alkali (0.1 wt% NaOH or Na2CO3) added to SmartWater, NaCl, Na2SO4 and seawater brines changes surface charge in carbonates. Zeta-potentials of calcite (99% CaCO3, ~10 µm particles) and crude oil droplets (acid number 0.47 mg KOH/g) were measured by PALS, with variation within 3 mV. A surface complexation model (PHREEQC-type, Gouy-Chapman with Debye-Hückel conversion) was fitted by adjusting intrinsic equilibrium constants (nine calcite reactions, five oil reactions). At the calcite/brine interface the model matched the data well, except for seawater without alkali. NaOH changed zeta-potential little (within 2.5 mV), while Na2CO3 made it more negative owing to carbonate surface complexation. Oil/brine agreement was qualitative only, with changes under 2 mV in the model, and Na2SO4 with Na2CO3 was the most negatively charged recipe, favorable for anionic surfactant.
+
+## Pore scale visualization of Improved Sweep Efficiency During Fines Assisted Low-salinity Waterflooding Using Micro-CT Imaging
+
+- ID: SCA2019-057, year: 2019
+- Authors: Yamin Wang, Muhan Yu, Furqan Hussain
+- Method: digital rock or imaging
+- Keywords: low-salinity waterflooding, fines migration, micro-CT imaging, sweep efficiency, Berea sandstone, residual oil saturation
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-057.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-057)
+
+Micro-CT imaging of a Berea sandstone core shows fines migration during tertiary low-salinity flooding sweeps additional pores, giving about 5% extra oil recovery and a tenfold permeability drop.
+
+Improved sweep efficiency from fines migration has been proposed as a low-salinity waterflooding mechanism, but direct evidence has been lacking. A Berea sandstone core was characterized by XRD, XRF and SEM-EDS, then flooded sequentially with synthetic oil, 40 g/L NaCl brine and distilled water. Micro-CT images were acquired at five stages (dry, after oil, after brine, after distilled water, dry after the experiment), while pressure drop and produced-water fines concentration (ion chromatography) were recorded. Distilled water injection gave about 5% extra oil recovery and an order of magnitude permeability drop. Micro-CT showed additional swept pores after low-salinity flooding, supporting fines-induced flow diversion.
+
+## In-situ Characterization of Mixed Wettability in Carbonate Rock: A Cryo-BIB-SEM Approach
+
+- ID: SCA2019-065, year: 2019
+- Method: digital rock or imaging
+- Keywords: Cryo-BIB-SEM, mixed wettability, contact angle distribution, SmartWater, carbonate, EDS
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-065.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-065)
+
+Cryo-BIB-SEM with EDS is used to image oil-brine-carbonate interfaces at nanoscale and measure contact angles, showing how brine ionic composition affects wettability.
+
+Understanding how SmartWater brines alter carbonate wettability requires nanoscale visualization of fluid phases within the pore matrix, which conventional methods cannot provide. The study applies cryogenic broad ion beam SEM (Cryo-BIB-SEM) with high-resolution EDS to carbonate samples aged in crude oil and saturated with brines of varying composition, salinity gradient and ionic strength. The method identifies oil and brine distribution, quantifies oil-carbonate interface length and contact angle distributions, and characterizes porosity and connectivity. Results show crude oil distribution and connectivity in the pore structure with clear oil-brine-carbonate interfaces, and indicate effects of brine ionic composition on interfaces, fluid distribution and contact angle.
+
+## Effects of Temperature on Fines Migration during Low Salinity Water Injection
+
+- ID: SCA2019-074, year: 2019
+- Authors: Yamin Wang, Muhan Yu, Furqan Hussain
+- Method: laboratory experiment
+- Keywords: fines migration, low salinity water injection, Berea sandstone, temperature effect, mineral dissolution, pH
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-074.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-074)
+
+Berea sandstone core floods at 25, 50 and 80°C show temperature-driven mineral dissolution raises pH and worsens fines migration and permeability loss during low salinity injection.
+
+Fines migration in sandstone is often reported to worsen at higher temperature, usually attributed to temperature-dependent zeta potential. This study tests whether dissolution-induced pH increase is responsible. Outcrop Berea sandstone cores, characterized by XRD, XRF and SEM, were flooded with single-phase NaCl brines of 40, 10, 2.5, 0.5 and 0 g/L at 25, 50 and 80°C while permeability was monitored. Effluent was analyzed for fines concentration, ion content and pH, and post-injection SEM/EDS identified the pore-blocking fines. At 50 and 80°C, Ca2+ production rose markedly and pH increased up to 9, which did not occur at 25°C, indicating cement dissolution. Permeability decline was greatest at 80°C and smallest at 25°C, and analytical models were matched to the data.
+
+## Study of the Effects of
+
+- ID: SCA2019-086, year: 2019
+- Authors: NaCl REDUCTION, Carlos A. Rivas, Alessandra Winter, Osvair V. Trevisan
+- Method: laboratory experiment
+- Keywords: calibrated water injection, NaCl reduction, dolomite, wettability alteration, coreflooding, ion chromatography
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2019/SCA2019-086.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2019-086)
+
+Four coreflooding tests on two dolomite samples show that reducing NaCl in seawater by 50% gives significant extra oil recovery after improved aging.
+
+Seawater and calibrated-composition injection in carbonates is thought to alter wettability through active ions (Mg2+, Ca2+, SO42-), with Na+ and Cl- interfering. Four coreflooding tests were run on two dolomite samples, each injecting four brines: seawater, then seawater with NaCl reduced by 50%, 90% and 95%. Effluents were analyzed by ion chromatography. The first two tests used conventional aging and the last two an improved aging method. With conventional aging, seawater recovered about 50% of oil, over 90% of it before one pore volume, suggesting the samples were not sufficiently oil-wet. After improved aging, results agreed better with the ionic substitution model, and the reduced-NaCl brines gave significant recovery, especially the 50% reduction brine.
+
+## A Mechanistic Study of Wettability Alterations in Sandstone by Low Salinity Water Injection (LSWI) and CO2 Low Salinity Water-Alternating-Gas (WAG) Injection
+
+- ID: SCA2021-043, year: 2021
+- Authors: Shijia Ma, L.A. James
+- Method: laboratory experiment
+- Keywords: low salinity water injection, CO2 LSWAG, contact angle, wettability alteration, Berea sandstone, multicomponent ion exchange
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2021/SCA2021-043.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2021-043)
+
+Displacement contact angle tests on Berea sandstone show NaCl low salinity water and CO2 promote water-wetness, CaCl2 promotes oil-wetness, and injection scheme matters.
+
+The paper investigates wettability alteration during low salinity water injection (LSWI) and CO2 low salinity WAG using a displacement-type contact angle method that places the oil drop before injection fluids. Water-wet (initial ~40.6°) and oil-wet (~133°) Berea sandstone slices were tested at ambient conditions with Hibernia-type formation brine, seawater, and 2000 mg/L NaCl or CaCl2 low salinity brines across 7 injection scenarios. NaCl low salinity water shifted contact angle about 10% toward water-wet, while CaCl2 shifted it toward oil-wet; seawater had negligible effect (<5%). CO2 injection promoted water-wetness, attributed to carbonic acid and H+ exchange with divalent cations. Continuous CO2 + NaCl was more effective than CO2/NaCl WAG, whereas for CaCl2 the WAG cycle was more effective. Oil drop deformation resembled surfactant-like emulsification without CO2 and roll-up with CO2; a Bond number of 0.154 confirmed surface tension dominance.
+
+## Manganese-Ion Based Tailored Waterflooding Processes for Carbonates
+
+- ID: SCA2022-60, year: 2022
+- Authors: Amani Alghamdi, Saleh Salah, Mohammed Otaibi, Subhash Ayirala, Ali Yousef
+- Method: laboratory experiment
+- Keywords: manganese ions, wettability alteration, zeta potential, contact angle, spontaneous imbibition, tailored waterflooding
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-60.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-60)
+
+Adding 100-1,000 ppm manganese ions to high-salinity injection water shifts carbonate wettability toward water-wet, lowering contact angles from 156° to 88° and raising imbibition recovery about 10%.
+
+The study examines whether divalent manganese ions in injection water can alter carbonate wettability for enhanced oil recovery. Zeta potentials were measured at calcite/brine and crude oil/brine interfaces using high salinity water (57,670 ppm TDS) with 100-1,000 ppm Mn. Results were extended to carbonate rocks and reservoir cores with contact angle and spontaneous imbibition tests at reservoir conditions. Manganese made zeta potentials more negative at both interfaces, attributed to incorporation of Mn into the calcite structure. Contact angles fell from 156° to 88° (oil-wet to intermediate/water-wet), and imbibition recovery rose by about 10% at reservoir temperature.
+
+## In-situ Characterization of Carbonate/Oil/SmartWater Interfacial Layers Using Advanced EM Techniques
+
+- ID: SCA2022-63, year: 2022
+- Authors: Dongkyu Cha, Mohammed B. AlOtaibi, Subhash Ayirala, Ahmed Gmira, Ali A. Yousef
+- Method: measurement technique or apparatus
+- Keywords: liquid cell TEM, cryogenic electron microscopy, SmartWater, EDS elemental mapping, wettability alteration, carbonate rock-oil-brine interface
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2022/SCA2022-63.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2022-63)
+
+Cryogenic EM and a liquid-cell TEM holder with EDS give nanoscale images and chemical maps of oil, calcite nanoparticles and ions in SmartWater near native conditions.
+
+Conventional imaging lacks the resolution to characterize interactions among SmartWater, oil and carbonate rock that drive wettability alteration and enhanced oil recovery. The study applies cryogenic electron microscopy and a liquid cell TEM holder with an encapsulation feature, and compares the results of the two techniques. Simultaneous energy dispersive spectroscopy provides chemical mapping of rock-fluid interfaces. The authors report, for the first time, nanoscale images of oil droplets, calcite nanoparticles and dissolved salt ions in their native environment, along with the distribution and elemental maps of multiple elements in solution. The insight is proposed as a basis for optimizing salinity and SmartWater composition in carbonate reservoirs.
+
+## Alkali Metal Cation Specific Effects at Calcite/Brine Interfaces for Wettability Alteration
+
+- ID: SCA2023-053, year: 2023
+- Authors: Salem Alshammari, Hussain Saleem, Subhash Ayirala, Ali Yousef
+- Method: laboratory experiment
+- Keywords: zeta potential, calcite, molecular dynamics, SmartWater flooding, alkali metal cations, wettability alteration
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2023/SCA2023-053.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2023-053)
+
+Zeta potential measurements and molecular dynamics show alkali cation adsorption on calcite increases as ionic radius decreases (Li+ > Na+ > K+), consistent with solvation free energy.
+
+SmartWater flooding in carbonates depends on ion-rock interactions that alter wettability, but the roles of specific ions remain unclear. The study examines calcite interacting with Li+, Na+ and K+ chloride solutions at ionic strengths of 0.025 to 0.1 mol/kgw, using zeta potential measurements and molecular dynamics simulation. Calcite dissolution at atmospheric CO2 and laboratory conditions had a negligible effect on solution speciation. The calcite/brine slip plane charge became more negative with smaller cation radii (Li+ < Na+ < K+), indicating an inverse relation between ionic radius and adsorption extent. MD simulations reproduced this trend, which agrees with the ions' free energies of solvation.
+
+## Impact of Dopants on SCAL Experiments, Phase II
+
+- ID: SCA_2025_1075, year: 2025
+- Authors: Quentin Danielczick, Cyril Caubit, Laurent Rochereau, Fabrice Pairoys
+- Method: laboratory experiment
+- Keywords: sodium iodide dopant, wettability alteration, Richemont carbonate, spontaneous imbibition, residual oil saturation, Amott-Harvey index
+- Cited by 0 papers in the corpus, cites 5
+- [PDF](https://www.jgmaas.com/SCA/2025/SCA_2025_1075.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA_2025_1075)
+
+Six Richemont carbonate samples tested with NaI-doped brines show higher Sor in most doped-connate cases, but little spontaneous imbibition effect, weaker than in Bentheimer sandstone.
+
+Phase II extends an earlier sandstone study of whether sodium iodide dopant alters wettability in SCAL experiments, using six Richemont carbonate plugs (porosity 28-30%, ~62-72 mD). Samples were saturated with undoped or NaI-doped brine (1, 6, 12 g/L), drained to Swi on a porous plate, aged four weeks with Middle Eastern crude at 80°C, then run through Amott spontaneous imbibition (50 days) and centrifuge forced imbibition. Spontaneous imbibition was negligible (~2.3-2.6 s.u.) regardless of NaI, versus 15 vs 44 s.u. in sandstone. Sor was ~15 s.u. for the reference and ~11 s.u. when NaI was only in the imbibing brine, but ~36 s.u. for 1 and 6 g/L NaI in the connate brine; the 12 g/L sample matched the reference, unexplained. Amott-Harvey Iw was ~0.04 for carbonate vs ~0.3 for sandstone. The authors advise avoiding NaI in connate brine and note that effects are weaker in carbonates.
+
+## Core-Scale Simulation of Low-Salinity Spontaneous Imbibition in Carbonates: Oil Recovery by Wettability Alteration at Experimental Condition
+
+- ID: SCA2026-061, year: 2026
+- Authors: Sousa Bruno Rangel, Andersen Pål Østebø, Omekeh Aruoture Voke, Strand Skule, Moreno Rosângela B.Z.L
+- Method: numerical simulation
+- Keywords: smart water, spontaneous imbibition, sulfate adsorption, wettability alteration, anion exchange model, IORCoreSim
+- Cited by 0 papers in the corpus, cites 0
+- [PDF](https://www.jgmaas.com/SCA/2026/SCA2026-061.pdf) · [On the site](https://mralbu.github.io/sca-papers/#SCA2026-061)
+
+IORCoreSim simulations couple sulfate adsorption to wettability alteration and match final recoveries of eleven smart-water spontaneous imbibition experiments in carbonates, but transient recovery is reproduced less well.
+
+The study asks whether sulfate adsorption alone can explain oil recovery trends in smart-water spontaneous imbibition in carbonates. Eleven literature experiments were history matched in IORCoreSim, covering brines with varied NaCl and NaCl-depleted brines with 0 to 4 times seawater sulfate. Wettability alteration was modelled by interpolating between two capillary pressure curves (Skjaeveland form) as a function of adsorbed sulfate, with relative permeability (Corey) held fixed. Final recoveries were generally matched within about 0 to 6%, capturing for example 50% plateau recovery for SW0Na, 8% above seawater, and about 21% to 50% from 0S to 1S sulfate. Simulated curves reached plateau earlier than the experiments, and recovery rose even at constant sulfate, indicating other mechanisms or kinetics and transport limits. The authors note non-uniqueness of the history match since only recovery data were available.
