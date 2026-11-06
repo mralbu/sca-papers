@@ -430,8 +430,13 @@ _REF_GLUED_RE = re.compile(
 )
 
 
-def find_references(md: str) -> list[str]:
-    lines = [_SPAN_RE.sub("", ln).strip() for ln in md.splitlines()]
+def _reference_section(lines: list[str]) -> tuple[int, int, list[str]] | None:
+    """The reference list in ``lines``: (first line, end line, entry lines).
+
+    The section starts at the last references heading (or a label sharing its
+    line with the first entry) and ends at the next section heading, appendix
+    or caption list; tables and images inside it are skipped.
+    """
     start, first = None, None
     for i, line in enumerate(lines):
         if _REF_HEADING_RE.search(line):
@@ -439,18 +444,41 @@ def find_references(md: str) -> list[str]:
         elif m := _REF_INLINE_RE.match(line) or _REF_GLUED_RE.search(line):
             start, first = i, m["rest"]
     if start is None:
-        return []
+        return None
     body: list[str] = [first] if first else []
-    for line in lines[start + 1 :]:
-        s = line.strip()
+    end = len(lines)
+    for i in range(start + 1, len(lines)):
+        s = lines[i].strip()
         if _REF_STOP_RE.match(s) or _CAPTION_RE.match(s):
+            end = i
             break
         if s.startswith("#") and not _ENTRY_START_RE.match(clean_inline(s)):
+            end = i
             break  # any later section heading ends the list
         if s.startswith(("|", "![")):  # tables/figures interleaved after the list
             continue
         body.append(s)
-    return split_references(body)
+    return start, end, body
+
+
+def find_references(md: str) -> list[str]:
+    lines = [_SPAN_RE.sub("", ln).strip() for ln in md.splitlines()]
+    section = _reference_section(lines)
+    return split_references(section[2]) if section else []
+
+
+def without_references(md: str) -> str:
+    """``md`` with its reference list cut out (from the heading to the section end).
+
+    If the label shares a line with other text ("... **References** [1] ..."),
+    that whole line goes too.
+    """
+    lines = md.splitlines()
+    section = _reference_section([_SPAN_RE.sub("", ln).strip() for ln in lines])
+    if not section:
+        return md
+    start, end, _ = section
+    return "\n".join(lines[:start] + lines[end:])
 
 
 def split_references(lines: list[str]) -> list[str]:

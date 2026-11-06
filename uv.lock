@@ -1286,6 +1286,7 @@ name = "sca"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "anthropic" },
     { name = "marker-pdf" },
     { name = "pypdfium2" },
     { name = "pyyaml" },
@@ -1301,6 +1302,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "anthropic", specifier = ">=0.125.0" },
     { name = "marker-pdf", specifier = ">=2.0.0" },
     { name = "pypdfium2", specifier = ">=5.10.1" },
     { name = "pyyaml", specifier = ">=6.0.3" },

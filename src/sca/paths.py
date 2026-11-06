@@ -23,6 +23,7 @@ EMBEDDINGS_DIR = DATA_DIR / "embeddings"
 TOPICS_DIR = DATA_DIR / "topics"
 CITATIONS_DIR = DATA_DIR / "citations"
 FIGURES_DIR = DATA_DIR / "figures"
+LLM_DIR = DATA_DIR / "llm"  # per-model LLM outputs: data/llm/<model>/<paper id>.json
 
 SITE_DIR = ROOT / "site"  # published static site
 SITE_DATA_DIR = SITE_DIR / "data"  # generated: papers.json, figures/, ...

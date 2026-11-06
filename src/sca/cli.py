@@ -88,6 +88,30 @@ def figures(args: argparse.Namespace) -> None:
     print(stage.summary(stage.run(force=args.force)), end="")
 
 
+def summarize(args: argparse.Namespace) -> None:
+    """LLM summaries, structured metadata and figure picks (Claude API)."""
+    from sca import metadata as metadata_stage
+    from sca import summarize as stage
+
+    records = json.loads(metadata_stage.COMBINED.read_text(encoding="utf-8"))
+    if args.all:
+        ids = [r["id"] for r in records if r["status"] == "ok"]
+    else:
+        ids = args.ids or stage.choose_sample(records)
+    if args.batch:
+        for alias in args.models or ["sonnet"]:
+            done = stage.run_batch(ids, alias, force=args.force)
+            print(stage.usage_table(done, len(records)), end="")
+        return
+    aliases = args.models or list(stage.MODELS)
+    done = stage.run(ids, aliases, force=args.force, workers=args.workers)
+    print(f"{len(done)} of {len(ids) * len(aliases)} done")
+    print(stage.usage_table(done, len(records)), end="")
+    if not args.all:
+        page = stage.compare(ids, aliases)
+        print(f"comparison -> {page.relative_to(paths.ROOT)}")
+
+
 def site(args: argparse.Namespace) -> None:
     """Export the published site data (site/data/papers.json, topics.json)."""
     from sca import site as stage
@@ -122,6 +146,21 @@ def main() -> None:
     p = stages.add_parser("figures", help=figures.__doc__)
     p.add_argument("--force", action="store_true", help="redo every paper")
     p.set_defaults(func=figures)
+    p = stages.add_parser("summarize", help=summarize.__doc__)
+    p.add_argument("ids", nargs="*", help="paper IDs (default: the fixed sample in data/llm/)")
+    p.add_argument("--all", action="store_true", help="every paper with markdown")
+    p.add_argument(
+        "--batch", action="store_true", help="use the Batch API (half price; waits for results)"
+    )
+    p.add_argument(
+        "--models",
+        nargs="+",
+        choices=["haiku", "sonnet"],
+        help="default: both (with --batch: sonnet)",
+    )
+    p.add_argument("--workers", type=int, default=4, help="concurrent API requests")
+    p.add_argument("--force", action="store_true", help="ignore cached outputs")
+    p.set_defaults(func=summarize)
     stages.add_parser("site", help=site.__doc__).set_defaults(func=site)
     args = parser.parse_args()
     args.func(args)

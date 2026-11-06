@@ -97,19 +97,28 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    reference lists or full text.
    Paper text is untrusted: the front end only inserts it via `textContent`.
 
-### Phase 2 — LLM features (deferred, not started)
-- **Summaries + structured metadata:** one call per paper returning JSON
-  (title, authors, abstract, short summary, keywords, method/topic label,
-  chosen figures). Keep the model backend swappable: same prompt and output
-  schema for the Claude API (Batch), `claude -p --model haiku` (Pro
-  subscription; check usage limits and terms for bulk scripted use first) or
-  a local model on the GPU. Run a ~20-paper test for cost/quality before the
-  full run.
-- **Figure selection:** the LLM picks 1–2 figures from marker's captions (text
-  only, no vision), with a one-line reason. Candidate cheap decision model:
-  jev by typesafeai (not configured yet). Fallback without an LLM: the largest
-  figure that has a caption.
-- **Topic names:** optional LLM refinement of the c-TF-IDF labels.
+### Phase 2 — LLM features (`just summarize`, `src/sca/summarize.py`)
+- **Summaries + structured metadata:** one Claude API call per paper returning
+  schema-enforced JSON: title, authors, abstract (copied, never written by the
+  model), TL;DR, 3–5 sentence summary, keywords, method (fixed list), topic,
+  0–2 figure picks. Input: the markdown without the reference list and image
+  links (capped at 150k chars), plus the captioned figures labelled A, B, …
+  (numbers got confused with the paper's own "Figure N").
+- **Role of the LLM fields:** the rule-based metadata stays primary. LLM
+  title/authors/abstract only fill fields the rules left empty, and only if
+  they pass `verify` (title matches a line near the top, author surname in the
+  front matter, abstract's word 6-grams found in the paper). The site keeps
+  showing the paper's own abstract.
+- **Model:** Sonnet 5.5 via the Batch API (~$31 for the corpus). 20-paper test
+  (`data/llm/sample.txt`, `data/llm/compare.html`): Haiku 5.5 summaries were
+  nearly as good at 1/20 the cost, but Haiku invented a title for a paper
+  with none even when told not to; Sonnet followed the copy-only rules. A
+  model-reported text-quality flag was dropped (uninformative from both).
+  Credentials: an `ant auth login` profile, which the SDK picks up. Costs
+  money: confirm before a full run.
+- **Figure selection:** done in the same call (no separate jev model).
+  Fallback without an LLM: the largest figure that has a caption.
+- **Topic names:** optional LLM refinement of the c-TF-IDF labels (not done).
 
 ## Layout
 
@@ -121,7 +130,9 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   `SCA1991-03EURO`, `SCA_2025_1011`), and it is unique across the corpus.
 - `data/` (git-ignored, local only): `inventory.json`, `markdown/<id>/`,
   `metadata/` (per-paper JSON in `papers/`, combined `metadata.json`, and a
-  per-year `report.txt` of missing fields), and the other stage intermediates.
+  per-year `report.txt` of missing fields), `llm/<model>/<id>.json` (LLM
+  results with `checks`; `llm/batches/` holds a submitted batch until it is
+  collected), and the other stage intermediates.
 - `metadata.py` rules are heuristics tuned on the corpus. Bump its `VERSION`
   when they change so cached per-paper outputs are redone.
 - `site/` (published): static site (`index.html`, `app.js`, `style.css`);

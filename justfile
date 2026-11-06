@@ -90,6 +90,10 @@ figures *args:
 site-data:
     uv run sca site
 
+# Phase 2: LLM summaries/metadata/figure picks -> data/llm/<model>/ (Claude API; costs money). Args: paper IDs (default: the 20-paper sample), --models haiku sonnet, --force
+summarize *args:
+    uv run sca summarize {{args}}
+
 # Run every stage after convert, in order (each is cached/resumable)
 build: metadata embed topics citations figures site-data
 
