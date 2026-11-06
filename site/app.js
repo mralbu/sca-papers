@@ -64,6 +64,31 @@ function render() {
   document.body.classList.toggle("has-detail", !!state.selected);
   renderList(shown);
   renderMap(shown);
+  renderTopicBars();
+}
+
+// Topic rows double as a histogram: a faint track sized by the topic's papers
+// (relative to the largest topic) and a fill for those matching the year range
+// and search. Topic on/off doesn't change the counts, so toggling a topic
+// doesn't make its own bar vanish.
+function renderTopicBars() {
+  const matching = new Map();
+  for (const p of state.papers) {
+    if (p.year < state.yearMin || p.year > state.yearMax) continue;
+    if (state.matches && !state.matches.has(p.id)) continue;
+    matching.set(p.topic, (matching.get(p.topic) || 0) + 1);
+  }
+  const [lo, hi] = state.yearBounds || [state.yearMin, state.yearMax];
+  const filtered = state.yearMin > lo || state.yearMax < hi || !!state.matches;
+  const max = Math.max(...[...state.topics.values()].map((t) => t.size));
+  for (const t of state.topics.values()) {
+    if (!t.li) continue; // topic list not built yet
+    const m = matching.get(t.id) || 0;
+    t.li.style.setProperty("--track", `${(100 * t.size) / max}%`);
+    t.li.style.setProperty("--fill", `${(100 * m) / max}%`);
+    t.li.classList.toggle("empty", filtered && m === 0);
+    t.countEl.textContent = filtered ? `${m} / ${t.size}` : t.size;
+  }
 }
 
 function renderMap(shown) {
@@ -648,14 +673,15 @@ function buildTopicList() {
     ...sorted.map((t) => {
       const li = document.createElement("li");
       li.title = `${t.keywords.join(", ")}\n\nClick to toggle, double-click to show only this topic`;
+      li.style.setProperty("--c", css(t.rgb));
       const sw = document.createElement("span");
       sw.className = "swatch";
-      sw.style.background = css(t.rgb);
       const name = document.createElement("span");
       name.textContent = t.label;
       const n = document.createElement("span");
       n.className = "n";
       n.textContent = t.size;
+      t.countEl = n;
       li.append(sw, name, n);
       li.addEventListener("click", (e) => {
         if (e.altKey || e.metaKey) {
@@ -697,6 +723,7 @@ function setupYears() {
   maxEl.placeholder = hi;
   minEl.value = state.yearMin = lo;
   maxEl.value = state.yearMax = hi;
+  state.yearBounds = [lo, hi];
 
   // Parse a box: empty means the default end; anything else must be a year in range.
   const read = (el, fallback) => {
