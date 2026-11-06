@@ -192,6 +192,22 @@ input[type="search"], select {
 .detail h3 { font-size: 13px; margin: 22px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 .abstract { margin: 0; font-size: 17px; line-height: 1.7; max-width: 72ch; text-wrap: pretty; }
 .detail.wide .abstract { font-size: 18.5px; }
+.ai-tag {
+  margin-left: 6px; padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px;
+  font-size: 11px; font-weight: 600; letter-spacing: .04em; cursor: help;
+}
+.tldr { margin: 0 0 10px; font-size: 17px; line-height: 1.6; font-weight: 600; max-width: 72ch; text-wrap: pretty; }
+.detail.wide .tldr { font-size: 18.5px; }
+.keywords { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.keywords button, .keywords .method {
+  padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; background: transparent;
+  color: var(--text); font: inherit; font-size: 13.5px; cursor: pointer;
+}
+.keywords button:hover { border-color: var(--accent); color: var(--accent); }
+.keywords .method { border-style: dashed; color: var(--muted); cursor: default; }
+.keywords .method:hover { border-color: var(--line); color: var(--muted); }
+.filled { margin: -2px 0 8px; font-size: 13px; color: var(--muted); }
+.fig-reason { margin: 4px 0 0; font-size: 13.5px; color: var(--muted); font-style: italic; }
 figure { margin: 22px 0 0; }
 figure img { width: 100%; height: auto; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
 .detail.wide figure img { max-height: 60vh; object-fit: contain; }

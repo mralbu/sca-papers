@@ -84,8 +84,12 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    per-paper assets loaded lazily. Picked `deck.gl` for the scatter map and
    `MiniSearch` for search (both from jsDelivr, pinned versions). Two views:
    a sortable list (newest, oldest, most cited, PageRank, best match) and the
-   topic map; year-range and topic filters; a reading pane per paper with
-   Similar (8 nearest bge-m3 neighbours) / Cited by / Cites tabs. Deployed
+   topic map; year-range and topic filters; a reading pane per paper (AI
+   summary, keywords that search on click, abstract, figure, "Show on map",
+   copy link) with Similar (8 nearest bge-m3 neighbours) / Cited by / Cites
+   tabs. KaTeX (jsDelivr, pinned) renders inline math. Copy link falls back to
+   `execCommand` because the clipboard API needs https or localhost (`just
+   serve` on the LAN is plain http). Deployed
    to GitHub Pages by `.github/workflows/pages.yml`, which also refuses PDFs
    or markdown under `site/` and checks the Pages size limits. Preview
    locally with `just serve`.
@@ -95,7 +99,12 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    `INCLUDE_ABSTRACTS` in `site.py`), topic, coordinates, scores, in-corpus
    citation links, similar-paper IDs, one thumbnail + caption. Never
    reference lists or full text.
-   Paper text is untrusted: the front end only inserts it via `textContent`.
+   Paper text is untrusted: the front end only inserts it via `textContent`,
+   except inline LaTeX (`$…$` in titles, abstracts, captions), which goes
+   through KaTeX with `trust: false` (`setTex` in `app.js`). marker escapes
+   currency as `\$`; `metadata.MATH_SPAN_RE` and the JS `MATH_SPLIT` must
+   agree. AI summaries use bare `$` for money, so they are never rendered as
+   math.
 
 ### Phase 2 — LLM features (`just summarize`, `src/sca/summarize.py`)
 - **Summaries + structured metadata:** one Claude API call per paper returning
@@ -108,8 +117,17 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   title/authors/abstract only fill fields the rules left empty, and only if
   they pass `verify` (title matches a line near the top, author surname in the
   front matter, abstract's word 6-grams found in the paper). The site keeps
-  showing the paper's own abstract.
-- **Model:** Sonnet 5.5 via the Batch API (~$31 for the corpus). 20-paper test
+  showing the paper's own abstract. Full run: filled authors for 39 papers,
+  abstracts for 4, titles for 2; 6 titles the model composed from the
+  abstract were rejected. `summarize.recheck()` redoes the checks on saved
+  records without API calls (after changing `verify`).
+- **On the site:** `site.py` publishes TL;DR, summary, keywords, method and
+  `filled` (which fields came from the LLM); the reading pane labels the
+  summary as AI-generated and list cards show the TL;DR. `figures.py` uses
+  the LLM's first figure pick (1,880 papers), falling back to the largest
+  captioned figure. Run `just figures site-data` after `summarize`.
+- **Model:** Sonnet 5.5 via the Batch API. Full run done 2026-11-06: 2,064
+  papers, $33.30 including the sample tests, no failures. 20-paper test
   (`data/llm/sample.txt`, `data/llm/compare.html`): Haiku 5.5 summaries were
   nearly as good at 1/20 the cost, but Haiku invented a title for a paper
   with none even when told not to; Sonnet followed the copy-only rules. A
@@ -117,7 +135,6 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   Credentials: an `ant auth login` profile, which the SDK picks up. Costs
   money: confirm before a full run.
 - **Figure selection:** done in the same call (no separate jev model).
-  Fallback without an LLM: the largest figure that has a caption.
 - **Topic names:** optional LLM refinement of the c-TF-IDF labels (not done).
 
 ## Layout

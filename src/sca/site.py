@@ -3,8 +3,13 @@
 Joins metadata, topics, citation scores and figure picks into
 ``site/data/papers.json`` and ``site/data/topics.json``. Only derived data and
 metadata go here: title, authors, year, abstract, topic, map position, scores,
-in-corpus citation links and the figure caption. Never full text, reference
-lists or PDFs (the site links to the original PDF on jgmaas.com).
+in-corpus citation links, the figure caption, and the LLM summary fields (TL;DR,
+summary, keywords, method, figure reason). Never full text, reference lists or
+PDFs (the site links to the original PDF on jgmaas.com).
+
+Rule-based metadata stays primary: an LLM title, author list or abstract is
+used only where the rules found none, and only if it passed ``summarize.verify``
+(``filled`` lists those fields so the front end can say so).
 
 Set ``INCLUDE_ABSTRACTS = False`` to publish without abstracts.
 """
@@ -15,7 +20,7 @@ from collections import defaultdict
 
 import numpy as np
 
-from sca import cache, citations, embed, figures, metadata, paths, topics
+from sca import cache, citations, embed, figures, metadata, paths, summarize, topics
 
 INCLUDE_ABSTRACTS = True
 PAPERS_JSON = paths.SITE_DATA_DIR / "papers.json"
@@ -100,7 +105,7 @@ SMALL_WORDS = {
 
 def display_title(title: str) -> str:
     """Title-case a title that is mostly upper case; leave mixed-case titles alone."""
-    letters = [c for c in title if c.isalpha()]
+    letters = [c for c in metadata.MATH_SPAN_RE.sub(" ", title) if c.isalpha()]
     if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.8:
         return title
 
@@ -113,12 +118,20 @@ def display_title(title: str) -> str:
         lw = w.lower()
         return lw if lw in SMALL_WORDS and not first else lw[:1].upper() + lw[1:]
 
+    # Math spans stay as they are: swap them for placeholders while re-casing.
+    maths: list[str] = []
+
+    def hold(m: re.Match) -> str:
+        maths.append(m.group(0))
+        return f"\x00{len(maths) - 1}\x00"
+
+    held = metadata.MATH_SPAN_RE.sub(hold, title)
     out, first = [], True
-    for part in re.split(r"(\s+)", title):
+    for part in re.split(r"(\s+)", held):
         out.append(re.sub(r"[A-Za-z0-9]+", lambda m, f=first: word(m, f), part))
         if part.strip():
             first = part.endswith(":")
-    return "".join(out)
+    return re.sub(r"\x00(\d+)\x00", lambda m: maths[int(m.group(1))], "".join(out))
 
 
 def similar(model: str, k: int = N_SIMILAR) -> dict[str, list[str]]:
@@ -128,6 +141,30 @@ def similar(model: str, k: int = N_SIMILAR) -> dict[str, list[str]]:
     np.fill_diagonal(sims, -np.inf)
     top = np.argsort(-sims, axis=1)[:, :k]
     return {pid: [ids[j] for j in row] for pid, row in zip(ids, top, strict=True)}
+
+
+def llm_fields(r: dict, record: dict | None) -> tuple[dict, dict]:
+    """Published LLM fields, and checked values for the metadata fields the rules
+    left empty (title, authors, abstract)."""
+    if not record:
+        return {}, {}
+    res, checks = record["result"], record["checks"]
+    published = {
+        "tldr": res["tldr"],
+        "summary": res["summary"],
+        "keywords": res["keywords"],
+        "method": res["method"],
+    }
+    fills = {}
+    if not r["title"] and checks["title"]:
+        fills["title"] = res["title"]
+    if not r["authors"]:
+        good = [a for a, ok in zip(res["authors"], checks["authors"], strict=True) if ok]
+        if good:
+            fills["authors"] = good
+    if not r["abstract"] and checks["abstract"]:
+        fills["abstract"] = res["abstract"]
+    return published, fills
 
 
 def build() -> tuple[list[dict], list[dict]]:
@@ -147,10 +184,12 @@ def build() -> tuple[list[dict], list[dict]]:
             continue
         score = cite_data["scores"][r["id"]]
         pick = (fig_index.get(r["id"]) or {}).get("pick")
+        llm, fills = llm_fields(r, summarize.load(r["id"]))
+        title = fills.get("title") or r["title"]
         paper = {
             "id": r["id"],
-            "title": display_title(r["title"]) if r["title"] else r["id"],
-            "authors": r["authors"],
+            "title": display_title(title) if title else r["id"],
+            "authors": fills.get("authors", r["authors"]),
             "year": r["year"],
             "series": r["series"],
             "url": r["url"],
@@ -165,9 +204,15 @@ def build() -> tuple[list[dict], list[dict]]:
             "similar": neighbours.get(r["id"], []),
             "figure": f"data/figures/{r['id']}.webp" if pick else None,
             "caption": pick["caption"] if pick else None,
+            "figure_reason": pick.get("reason") if pick else None,
+            **llm,
         }
         if INCLUDE_ABSTRACTS:
-            paper["abstract"] = r["abstract"]
+            paper["abstract"] = fills.get("abstract", r["abstract"])
+        elif "abstract" in fills:
+            del fills["abstract"]
+        if fills:
+            paper["filled"] = sorted(fills)
         papers.append(paper)
     return papers, topic_data["topics"]
 

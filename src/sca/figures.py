@@ -6,13 +6,15 @@ marker writes each extracted image next to the markdown and references it as
 block right before it (some older papers caption above). Each caption is
 used once, by the image nearest to it.
 
-Phase 1 pick (no LLM): the largest captioned image; without any caption, no
-thumbnail. The pick is exported as a WebP thumbnail (max ``THUMB_WIDTH`` px
+Pick: the LLM's first choice from ``sca summarize`` when there is one (with
+its one-line reason), else the largest captioned image; without any caption,
+no thumbnail. The pick is exported as a WebP thumbnail (max ``THUMB_WIDTH`` px
 wide) to ``site/data/figures/<id>.webp``; the caption goes with it.
 
 Output: ``data/figures/index.json`` (every image with page, kind, size,
 caption, plus the pick per paper) and the thumbnails. Re-runs only redo papers
-whose markdown is newer than their thumbnail.
+whose markdown is newer than the index, and re-export a thumbnail when the
+pick changes.
 """
 
 import json
@@ -79,30 +81,55 @@ def _thumbnail(src: Path, dst: Path) -> None:
         tmp.replace(dst)
 
 
+def llm_pick(paper_id: str, figures: list[dict]) -> dict | None:
+    """The LLM's first figure pick (``sca summarize``), if it names one of ``figures``."""
+    from sca import summarize
+
+    record = summarize.load(paper_id)
+    picks = record["result"]["figures"] if record else []
+    by_file = {f["file"]: f for f in figures}
+    for p in picks:
+        if p["file"] in by_file:
+            return {**by_file[p["file"]], "reason": p["reason"]}
+    return None
+
+
 def process(paper_id: str, old: dict | None) -> dict:
     from PIL import Image
 
     md = paths.MARKDOWN_DIR / paper_id / f"{paper_id}.md"
     thumb = paths.SITE_FIGURES_DIR / f"{paper_id}.webp"
-    if old and (not old["pick"] or thumb.exists()) and cache.is_fresh(INDEX, md):
-        return old
-    figures = find_figures(md.read_text(encoding="utf-8", errors="replace"))
-    for f in figures:
-        path = md.parent / f["file"]
-        try:
-            with Image.open(path) as im:
-                f["width"], f["height"] = im.size
-                f["pixels"] = im.width * im.height
-        except (OSError, ValueError):
-            f["pixels"] = 0
-    chosen = pick(figures)
+    if old and cache.is_fresh(INDEX, md):
+        figures = old["figures"]
+    else:
+        figures = find_figures(md.read_text(encoding="utf-8", errors="replace"))
+        for f in figures:
+            path = md.parent / f["file"]
+            try:
+                with Image.open(path) as im:
+                    f["width"], f["height"] = im.size
+                    f["pixels"] = im.width * im.height
+            except (OSError, ValueError):
+                f["pixels"] = 0
+    chosen = llm_pick(paper_id, figures)
+    source = "llm" if chosen else "rule"
+    chosen = chosen or pick(figures)
     if chosen:
-        _thumbnail(md.parent / chosen["file"], thumb)
+        same = old and old["pick"] and old["pick"]["file"] == chosen["file"]
+        if not (same and thumb.exists() and cache.is_fresh(thumb, md)):
+            _thumbnail(md.parent / chosen["file"], thumb)
     else:
         thumb.unlink(missing_ok=True)
     return {
         "figures": figures,
-        "pick": {"file": chosen["file"], "caption": chosen["caption"]} if chosen else None,
+        "pick": {
+            "file": chosen["file"],
+            "caption": chosen["caption"],
+            "source": source,
+            "reason": chosen.get("reason"),
+        }
+        if chosen
+        else None,
     }
 
 

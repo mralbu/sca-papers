@@ -246,3 +246,10 @@ def test_ocr_glued_by_splits_title_from_authors():
     m = extract(md + "word " * 30)
     assert m.title == "ANALYSIS OF CENTRIFUGE DATA"
     assert m.authors == ["Douglas Ruth"]
+
+
+def test_clean_inline_keeps_math_and_escaped_dollars():
+    from sca.metadata import clean_inline
+
+    raw = r"**Figure 5** – (c)  $k_r$  and  $P_{\text{cr}}$ at \$2 million <sup>1</sup>"
+    assert clean_inline(raw) == r"Figure 5 – (c) $k_r$ and $P_{\text{cr}}$ at \$2 million 1"

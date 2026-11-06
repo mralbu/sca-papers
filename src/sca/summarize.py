@@ -308,6 +308,17 @@ def output_path(alias: str, paper_id: str) -> Path:
     return paths.LLM_DIR / alias / f"{paper_id}.json"
 
 
+SITE_ALIAS = "sonnet"  # the model whose results the site and figures stage use
+
+
+def load(paper_id: str, alias: str = SITE_ALIAS) -> dict | None:
+    """Saved record for ``paper_id`` (any prompt version), or None."""
+    try:
+        return json.loads(output_path(alias, paper_id).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
 def _cached(out: Path, md: Path) -> dict | None:
     if not cache.is_fresh(out, md):
         return None

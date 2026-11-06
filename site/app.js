@@ -209,7 +209,7 @@ function tooltip(p, x, y) {
   }
   el.replaceChildren();
   const b = document.createElement("b");
-  b.textContent = p.title;
+  b.textContent = plainTex(p.title);
   const s = document.createElement("div");
   s.className = "muted";
   s.textContent = `${p.year} · ${p.authors.slice(0, 3).join(", ")}${p.authors.length > 3 ? " et al." : ""}`;
@@ -222,12 +222,86 @@ function tooltip(p, x, y) {
 
 function paperItem(p, onClick) {
   const li = document.createElement("li");
-  li.textContent = p.title;
+  li.textContent = plainTex(p.title);
   const small = document.createElement("small");
   small.textContent = ` ${p.year} · ${p.authors[0] || p.id}`;
   li.append(small);
   li.addEventListener("click", onClick);
   return li;
+}
+
+// Inline LaTeX in marker's text ($...$, $$...$$; \$ is a literal dollar). Must
+// match metadata.MATH_SPAN_RE. Math goes through KaTeX (trust off, so no links or
+// HTML); everything else stays textContent.
+const MATH_SPLIT = /(\$\$[\s\S]+?\$\$|(?<!\\)\$[^$\n]+?(?<!\\)\$)/;
+
+function setTex(el, text) {
+  el.replaceChildren();
+  const parts = (text || "").split(MATH_SPLIT);
+  parts.forEach((part, i) => {
+    if (i % 2 === 0) {
+      if (part) el.append(part.replaceAll("\\$", "$"));
+      return;
+    }
+    const display = part.startsWith("$$");
+    const tex = part.slice(display ? 2 : 1, display ? -2 : -1);
+    const span = document.createElement("span");
+    if (window.katex) {
+      try {
+        katex.render(tex, span, { throwOnError: false, trust: false, displayMode: false });
+      } catch {
+        span.textContent = tex;
+      }
+    } else {
+      span.textContent = tex;
+    }
+    el.append(span);
+  });
+}
+
+// For one-line places (tooltips, compact lists): drop the math markup.
+function plainTex(text) {
+  return (text || "")
+    .split(MATH_SPLIT)
+    .map((part, i) =>
+      i % 2 === 0
+        ? part.replaceAll("\\$", "$")
+        : part.replace(/^\$+|\$+$/g, "").replace(/\\(text|mathrm|mathbf|rm)\{([^}]*)\}/g, "$2").replace(/[{}\\]/g, ""),
+    )
+    .join("");
+}
+
+// navigator.clipboard exists only in secure contexts (https, localhost); over plain
+// http on the LAN (`just serve`) fall back to a selected textarea + execCommand.
+async function copyText(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // fall through to the legacy path
+    }
+  }
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.setAttribute("readonly", "");
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.append(ta);
+  ta.select();
+  let ok = false;
+  try {
+    ok = document.execCommand("copy");
+  } catch {
+    ok = false;
+  }
+  ta.remove();
+  return ok;
+}
+
+function listWords(words) {
+  const w = words.map((x, i) => (i ? x : x[0].toUpperCase() + x.slice(1)));
+  return w.length > 1 ? `${w.slice(0, -1).join(", ")} and ${w.at(-1)}` : w[0];
 }
 
 function select(id) {
@@ -245,8 +319,10 @@ function select(id) {
   $("d-year").textContent = p.year;
   $("d-topic").textContent = topic.label;
   $("d-topic").style.background = css(topic.rgb);
-  $("d-title").textContent = p.title;
+  setTex($("d-title"), p.title);
   $("d-authors").textContent = p.authors.join(", ") || "Authors not extracted";
+  $("d-filled").hidden = !p.filled;
+  $("d-filled").textContent = p.filled ? `${listWords(p.filled)} extracted by AI (not found by the rule-based parser)` : "";
   $("d-pdf").href = p.url;
   $("d-cited-n").textContent = p.cited.length;
   $("d-cites-n").textContent = p.cites.length;
@@ -256,10 +332,35 @@ function select(id) {
   fig.hidden = !p.figure;
   if (p.figure) {
     $("d-img").src = p.figure;
-    $("d-caption").textContent = p.caption || "";
+    setTex($("d-caption"), p.caption);
+    $("d-fig-reason").hidden = !p.figure_reason;
+    $("d-fig-reason").textContent = p.figure_reason ? `Picked by AI: ${p.figure_reason}` : "";
+  }
+  $("d-summary-wrap").hidden = !p.summary;
+  $("d-tldr").textContent = p.tldr || "";
+  $("d-summary").textContent = p.summary || "";
+  const kw = $("d-keywords");
+  kw.replaceChildren();
+  if (p.method) {
+    const m = document.createElement("span");
+    m.className = "method";
+    m.textContent = p.method;
+    m.title = "Main approach (AI-assigned)";
+    kw.append(m);
+  }
+  for (const k of p.keywords || []) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = k;
+    b.title = "Search for this keyword";
+    b.addEventListener("click", () => {
+      $("search").value = k;
+      $("search").dispatchEvent(new Event("input"));
+    });
+    kw.append(b);
   }
   $("d-abstract-wrap").hidden = !p.abstract;
-  $("d-abstract").textContent = p.abstract || "";
+  setTex($("d-abstract"), p.abstract);
   $("n-similar").textContent = p.similar.length;
   $("n-cited").textContent = p.cited.length;
   $("n-cites").textContent = p.cites.length;
@@ -300,7 +401,7 @@ function relatedCard(q) {
   li.tabIndex = 0;
   const t = document.createElement("span");
   t.className = "t";
-  t.textContent = q.title;
+  t.textContent = plainTex(q.title);
   const m = document.createElement("span");
   m.className = "m";
   const dot = document.createElement("span");
@@ -314,6 +415,19 @@ function relatedCard(q) {
   return li;
 }
 
+// "Show on map": map view, out of reading mode, zoomed in on the paper.
+function showOnMap(id) {
+  const p = state.byId.get(id);
+  if (!p) return;
+  setWide(false);
+  setView("map");
+  focus(id, 3);
+  if (!visible(p)) {
+    $("d-map").textContent = "Hidden by filters";
+    setTimeout(() => ($("d-map").textContent = "Show on map"), 1800);
+  }
+}
+
 function setWide(on) {
   $("detail").classList.toggle("wide", on);
   $("wide").setAttribute("aria-pressed", on);
@@ -322,12 +436,12 @@ function setWide(on) {
   } catch {}
 }
 
-function focus(id) {
+function focus(id, minZoom = 1.2) {
   const p = state.byId.get(id);
   if (!p) return;
   select(id);
   scrollListTo(id);
-  const zoom = Math.max(state.mapView?.zoom ?? 0, 1.2);
+  const zoom = Math.max(state.mapView?.zoom ?? 0, minZoom);
   deck.setProps({
     initialViewState: {
       target: [p.x * WORLD, (1 - p.y) * WORLD, 0],
@@ -397,15 +511,20 @@ function card(p) {
   metaText.textContent = `${topic.short} · ${p.year} · ${p.id}`;
   meta.append(dot, metaText);
   const h = document.createElement("h3");
-  h.textContent = p.title;
+  setTex(h, p.title);
   const au = document.createElement("p");
   au.className = "c-authors";
   au.textContent = p.authors.join(", ") || "Authors not extracted";
   body.append(meta, h, au);
-  if (p.abstract) {
+  if (p.tldr || p.abstract) {
     const ab = document.createElement("p");
     ab.className = "c-abs";
-    ab.textContent = p.abstract;
+    if (p.tldr) {
+      ab.textContent = p.tldr;
+      ab.title = "AI-generated summary";
+    } else {
+      setTex(ab, p.abstract);
+    }
     body.append(ab);
   }
   if (p.cited_by) {
@@ -614,16 +733,24 @@ function setupYears() {
 
 function setupSearch() {
   search = new MiniSearch({
-    fields: ["title", "authorText", "abstract", "id"],
+    fields: ["title", "authorText", "keywordText", "abstract", "summaryText", "id"],
     storeFields: [],
     searchOptions: {
-      boost: { title: 3, authorText: 2, id: 3 },
+      boost: { title: 3, authorText: 2, keywordText: 2, id: 3 },
       prefix: true,
       fuzzy: 0.15,
       combineWith: "AND",
     },
   });
-  search.addAll(state.papers.map((p) => ({ ...p, authorText: p.authors.join(" "), abstract: p.abstract || "" })));
+  search.addAll(
+    state.papers.map((p) => ({
+      ...p,
+      authorText: p.authors.join(" "),
+      keywordText: (p.keywords || []).join(" "),
+      abstract: p.abstract || "",
+      summaryText: `${p.tldr || ""} ${p.summary || ""}`,
+    })),
+  );
   let timer;
   $("search").addEventListener("input", () => {
     clearTimeout(timer);
@@ -739,19 +866,16 @@ async function main() {
     syncTopicList();
     render();
   });
+  $("d-map").addEventListener("click", () => showOnMap(state.selected));
   $("d-copy").addEventListener("click", async () => {
-    try {
-      await navigator.clipboard.writeText(location.href);
-      $("d-copy").textContent = "Copied";
-    } catch {
-      $("d-copy").textContent = "Copy failed";
-    }
+    $("d-copy").textContent = (await copyText(location.href)) ? "Copied" : "Copy failed";
     setTimeout(() => ($("d-copy").textContent = "Copy link"), 1500);
   });
   document.addEventListener("keydown", (e) => {
     if (e.target.matches("input, select, textarea")) return;
     if (e.key === "Escape") select(null);
     else if (e.key === "r" && state.selected) setWide(!$("detail").classList.contains("wide"));
+    else if (e.key === "m" && state.selected) showOnMap(state.selected);
   });
   window.addEventListener("hashchange", () => focus(location.hash.slice(1)));
   render();

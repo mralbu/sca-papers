@@ -35,7 +35,7 @@ from pathlib import Path
 from sca import cache, corpus, paths
 from sca.corpus import Paper
 
-VERSION = 18  # bump when extraction rules change, to invalidate cached outputs
+VERSION = 19  # bump when extraction rules change, to invalidate cached outputs
 
 PAPERS_OUT = paths.METADATA_DIR / "papers"
 COMBINED = paths.METADATA_DIR / "metadata.json"
@@ -71,11 +71,26 @@ _TAG_RE = re.compile(r"</?[a-z]+[^>]*>")
 _SPACES_RE = re.compile(r"\s+")
 
 
-def clean_inline(text: str) -> str:
-    """Markdown/HTML-free single-line text (keeps sub/sup content as plain text)."""
+# Inline LaTeX as marker writes it: $...$ or $$...$$. Escaped dollars (\$, currency)
+# don't open or close a span.
+MATH_SPAN_RE = re.compile(r"(\$\$.+?\$\$|(?<!\\)\$[^$\n]+?(?<!\\)\$)", re.S)
+
+
+def _clean_text(text: str) -> str:
     text = _TAG_RE.sub("", text)
-    text = text.replace("\\*", "*").replace("\\_", "_").replace("\\", "")
-    text = re.sub(r"\*+|__+", "", text)
+    text = text.replace("\\*", "*").replace("\\_", "_")
+    text = re.sub(r"\\(?!\$)", "", text)  # keep \$ so currency stays distinct from math
+    return re.sub(r"\*+|__+", "", text)
+
+
+def clean_inline(text: str) -> str:
+    """Markdown/HTML-free single-line text (keeps sub/sup content as plain text).
+
+    Math spans are kept verbatim (only whitespace collapsed), so the site can
+    render them; the markdown cleanup would otherwise strip their backslashes.
+    """
+    parts = MATH_SPAN_RE.split(text)
+    text = "".join(" ".join(p.split()) if i % 2 else _clean_text(p) for i, p in enumerate(parts))
     text = re.sub(r"^#+\s*", "", text.strip())
     return _SPACES_RE.sub(" ", text).strip()
 

@@ -10,16 +10,54 @@
    "pore",
    "fluid",
    "distributions",
+   "water",
    "surface",
-   "field",
-   "water"
+   "field"
   ],
-  "size": 213,
-  "x": 0.8957,
-  "y": 0.2567
+  "size": 214,
+  "x": 0.8959,
+  "y": 0.2651
  },
  {
   "id": 1,
+  "label": "resistivity index / electrical / conductivity",
+  "keywords": [
+   "resistivity index",
+   "electrical",
+   "conductivity",
+   "water saturation",
+   "archie",
+   "saturation exponent",
+   "dielectric",
+   "clay",
+   "formation",
+   "factor"
+  ],
+  "size": 134,
+  "x": 0.49,
+  "y": 0.9454
+ },
+ {
+  "id": 2,
+  "label": "x-ray / imaging / ct",
+  "keywords": [
+   "x-ray",
+   "imaging",
+   "ct",
+   "tomography",
+   "resolution",
+   "image",
+   "images",
+   "scanning",
+   "computed",
+   "density"
+  ],
+  "size": 54,
+  "x": 0.7174,
+  "y": 0.4717
+ },
+ {
+  "id": 3,
   "label": "magnetic susceptibility / anisotropy / paramagnetic",
   "keywords": [
    "magnetic susceptibility",
@@ -34,30 +72,49 @@
    "rapid"
   ],
   "size": 34,
-  "x": 0.7563,
-  "y": 0.8476
+  "x": 0.9138,
+  "y": 0.6287
  },
  {
-  "id": 2,
-  "label": "resistivity index / electrical / conductivity",
+  "id": 4,
+  "label": "vuggy / dispersion coefficient / vugs",
   "keywords": [
-   "resistivity index",
-   "electrical",
-   "conductivity",
-   "water saturation",
-   "archie",
-   "saturation exponent",
-   "dielectric",
-   "clay",
-   "formation",
-   "factor"
+   "vuggy",
+   "dispersion coefficient",
+   "vugs",
+   "tracer",
+   "matrix",
+   "porous",
+   "media",
+   "pore",
+   "miscible",
+   "carbonate"
   ],
-  "size": 133,
-  "x": 0.4646,
-  "y": 0.8822
+  "size": 27,
+  "x": 0.4784,
+  "y": 0.5646
  },
  {
-  "id": 3,
+  "id": 5,
+  "label": "scal / relative permeability / saturation",
+  "keywords": [
+   "scal",
+   "relative permeability",
+   "saturation",
+   "wettability",
+   "oil",
+   "flow",
+   "swi",
+   "water",
+   "initial",
+   "wi"
+  ],
+  "size": 38,
+  "x": 0.3471,
+  "y": 0.6724
+ },
+ {
+  "id": 6,
   "label": "fracture / fractures / fractured",
   "keywords": [
    "fracture",
@@ -69,68 +126,11 @@
    "fracturing",
    "fluid",
    "chalk",
-   "oil"
+   "aperture"
   ],
-  "size": 62,
-  "x": 0.5369,
-  "y": 0.3871
- },
- {
-  "id": 4,
-  "label": "x-ray / imaging / ct",
-  "keywords": [
-   "x-ray",
-   "imaging",
-   "ct",
-   "tomography",
-   "resolution",
-   "image",
-   "images",
-   "scanning",
-   "computed",
-   "density"
-  ],
-  "size": 52,
-  "x": 0.7164,
-  "y": 0.4299
- },
- {
-  "id": 5,
-  "label": "dispersion coefficient / vuggy / vugs",
-  "keywords": [
-   "dispersion coefficient",
-   "vuggy",
-   "vugs",
-   "tracer",
-   "porous media",
-   "pore",
-   "matrix",
-   "miscible",
-   "flow",
-   "carbonate"
-  ],
-  "size": 31,
-  "x": 0.4912,
-  "y": 0.4834
- },
- {
-  "id": 6,
-  "label": "permeability / klinkenberg / gas",
-  "keywords": [
-   "permeability",
-   "klinkenberg",
-   "gas",
-   "decay",
-   "pressure",
-   "tight",
-   "coal",
-   "flow",
-   "permeabilities",
-   "porosity"
-  ],
-  "size": 55,
-  "x": 0.5325,
-  "y": 0.6493
+  "size": 61,
+  "x": 0.5055,
+  "y": 0.4704
  },
  {
   "id": 7,
@@ -139,39 +139,20 @@
    "heterogeneity",
    "flow",
    "heterogeneous",
-   "relative permeability",
-   "scal",
-   "simulation",
    "capillary",
-   "heterogeneities",
+   "permeability",
+   "relative",
+   "simulation",
    "scale",
-   "permeabilities"
+   "heterogeneities",
+   "numerical"
   ],
-  "size": 44,
-  "x": 0.4096,
-  "y": 0.5097
+  "size": 34,
+  "x": 0.4019,
+  "y": 0.5829
  },
  {
   "id": 8,
-  "label": "flooding / ct / x-ray",
-  "keywords": [
-   "flooding",
-   "ct",
-   "x-ray",
-   "oil",
-   "monitoring",
-   "fluid",
-   "steam",
-   "saturation",
-   "water",
-   "fluids"
-  ],
-  "size": 34,
-  "x": 0.3657,
-  "y": 0.38
- },
- {
-  "id": 9,
   "label": "stress / pore pressure / velocity",
   "keywords": [
    "stress",
@@ -181,13 +162,32 @@
    "porosity",
    "compressibility",
    "acoustic",
-   "loading",
    "stresses",
-   "volume"
+   "pore volume",
+   "loading"
   ],
-  "size": 76,
-  "x": 0.6097,
-  "y": 0.7553
+  "size": 70,
+  "x": 0.62,
+  "y": 0.8105
+ },
+ {
+  "id": 9,
+  "label": "gas saturation / gas condensate / relative permeability",
+  "keywords": [
+   "gas saturation",
+   "gas condensate",
+   "relative permeability",
+   "depletion",
+   "depressurisation",
+   "critical gas",
+   "sgr",
+   "trapped",
+   "flow",
+   "residual gas"
+  ],
+  "size": 53,
+  "x": 0.1492,
+  "y": 0.5828
  },
  {
   "id": 10,
@@ -197,73 +197,73 @@
    "oil saturation",
    "capillary",
    "transition",
-   "water",
-   "flooding",
-   "pore",
    "cdc",
+   "pore",
    "mobilization",
-   "sor"
+   "flooding",
+   "sor",
+   "cluster"
   ],
-  "size": 47,
-  "x": 0.3391,
-  "y": 0.3737
+  "size": 44,
+  "x": 0.2794,
+  "y": 0.4641
  },
  {
   "id": 11,
-  "label": "wettability / nmr / relaxation time",
+  "label": "flooding / ct / fluid",
   "keywords": [
-   "wettability",
-   "nmr",
-   "relaxation time",
-   "t2",
+   "flooding",
+   "ct",
+   "fluid",
+   "x-ray",
+   "flow",
    "oil",
    "water",
-   "surface",
-   "pore",
-   "signal",
-   "index"
+   "monitoring",
+   "in-situ",
+   "steam"
   ],
-  "size": 25,
-  "x": 0.6388,
-  "y": 0.1063
+  "size": 39,
+  "x": 0.2997,
+  "y": 0.4598
  },
  {
   "id": 12,
-  "label": "gas saturation / gas condensate / relative permeability",
-  "keywords": [
-   "gas saturation",
-   "gas condensate",
-   "relative permeability",
-   "depletion",
-   "depressurisation",
-   "flow",
-   "critical gas",
-   "sgr",
-   "trapped gas",
-   "residual gas"
-  ],
-  "size": 57,
-  "x": 0.1984,
-  "y": 0.5107
- },
- {
-  "id": 13,
   "label": "crude oil / wettability / contact angle",
   "keywords": [
    "crude oil",
    "wettability",
    "contact angle",
-   "asphaltene",
    "surface",
+   "asphaltene",
    "wetting",
    "brine",
-   "surfactants",
-   "alteration",
-   "adsorption"
+   "chalk",
+   "water",
+   "alteration"
   ],
-  "size": 34,
-  "x": 0.3858,
-  "y": 0.1231
+  "size": 37,
+  "x": 0.3377,
+  "y": 0.2165
+ },
+ {
+  "id": 13,
+  "label": "spontaneous imbibition / oil recovery / initial water",
+  "keywords": [
+   "spontaneous imbibition",
+   "oil recovery",
+   "initial water",
+   "counter-current",
+   "face",
+   "open",
+   "end",
+   "saturation",
+   "boundary",
+   "brine"
+  ],
+  "size": 35,
+  "x": 0.3082,
+  "y": 0.3064
  },
  {
   "id": 14,
@@ -273,38 +273,133 @@
    "oil",
    "cleaning",
    "state",
-   "wetting",
-   "surface",
    "contact",
-   "restoration",
    "amott",
+   "surface",
+   "wetting",
+   "restoration",
    "aging"
   ],
-  "size": 107,
-  "x": 0.5016,
-  "y": 0.1107
+  "size": 105,
+  "x": 0.4689,
+  "y": 0.1989
  },
  {
   "id": 15,
-  "label": "coring / drilling / petrophysical",
+  "label": "wettability / nmr / relaxation time",
   "keywords": [
-   "coring",
-   "drilling",
-   "petrophysical",
-   "log",
-   "formation",
-   "evaluation",
-   "porosity",
-   "wells",
-   "logs",
-   "parameters"
+   "wettability",
+   "nmr",
+   "relaxation time",
+   "t2",
+   "oil",
+   "water",
+   "surface",
+   "signal",
+   "pore",
+   "index"
   ],
-  "size": 175,
-  "x": 0.7821,
-  "y": 0.6467
+  "size": 25,
+  "x": 0.6261,
+  "y": 0.1771
  },
  {
   "id": 16,
+  "label": "co2 injection / oil recovery / water injection",
+  "keywords": [
+   "co2 injection",
+   "oil recovery",
+   "water injection",
+   "carbonated water",
+   "cwi",
+   "flooding",
+   "miscible",
+   "wag",
+   "gas",
+   "miscibility"
+  ],
+  "size": 40,
+  "x": 0.1407,
+  "y": 0.2361
+ },
+ {
+  "id": 17,
+  "label": "co2 storage / brine / gas",
+  "keywords": [
+   "co2 storage",
+   "brine",
+   "gas",
+   "hydrate",
+   "permeability",
+   "dissolution",
+   "injection",
+   "salt",
+   "relative",
+   "precipitation"
+  ],
+  "size": 104,
+  "x": 0.24,
+  "y": 0.0999
+ },
+ {
+  "id": 18,
+  "label": "permeability / klinkenberg / gas",
+  "keywords": [
+   "permeability",
+   "klinkenberg",
+   "gas",
+   "decay",
+   "pressure",
+   "tight",
+   "coal",
+   "permeabilities",
+   "flow",
+   "porosity"
+  ],
+  "size": 56,
+  "x": 0.5368,
+  "y": 0.7
+ },
+ {
+  "id": 19,
+  "label": "three-phase relative / gas / oil",
+  "keywords": [
+   "three-phase relative",
+   "gas",
+   "oil",
+   "relative permeability",
+   "saturation",
+   "three-phase flow",
+   "water",
+   "relative permeabilities",
+   "saturations",
+   "wag"
+  ],
+  "size": 27,
+  "x": 0.1948,
+  "y": 0.5217
+ },
+ {
+  "id": 20,
+  "label": "oil recovery / gravity drainage / gas injection",
+  "keywords": [
+   "oil recovery",
+   "gravity drainage",
+   "gas injection",
+   "viscous",
+   "gagd",
+   "displacement",
+   "water",
+   "phase",
+   "vapour",
+   "immiscible"
+  ],
+  "size": 35,
+  "x": 0.1517,
+  "y": 0.4327
+ },
+ {
+  "id": 21,
   "label": "pore / permeability / digital",
   "keywords": [
    "pore",
@@ -314,111 +409,73 @@
    "images",
    "porosity",
    "image",
-   "flow",
    "model",
+   "flow",
    "size"
   ],
-  "size": 236,
-  "x": 0.6333,
-  "y": 0.4529
- },
- {
-  "id": 17,
-  "label": "oil / three-phase relative / gas injection",
-  "keywords": [
-   "oil",
-   "three-phase relative",
-   "gas injection",
-   "relative permeability",
-   "gravity drainage",
-   "water",
-   "saturation",
-   "recovery",
-   "displacement",
-   "phase"
-  ],
-  "size": 59,
-  "x": 0.2492,
-  "y": 0.3803
- },
- {
-  "id": 18,
-  "label": "co2 injection / oil recovery / carbonated water",
-  "keywords": [
-   "co2 injection",
-   "oil recovery",
-   "carbonated water",
-   "wag",
-   "gas",
-   "cwi",
-   "flooding",
-   "miscible",
-   "water injection",
-   "coal"
-  ],
-  "size": 44,
-  "x": 0.1538,
-  "y": 0.2367
- },
- {
-  "id": 19,
-  "label": "co2 storage / brine / hydrate",
-  "keywords": [
-   "co2 storage",
-   "brine",
-   "hydrate",
-   "gas",
-   "relative permeability",
-   "dissolution",
-   "salt",
-   "injection",
-   "precipitation",
-   "carbon"
-  ],
-  "size": 101,
-  "x": 0.0741,
-  "y": 0.3581
- },
- {
-  "id": 20,
-  "label": "spontaneous imbibition / oil recovery / initial water",
-  "keywords": [
-   "spontaneous imbibition",
-   "oil recovery",
-   "initial water",
-   "counter-current",
-   "open",
-   "face",
-   "end",
-   "saturation",
-   "boundary",
-   "brine"
-  ],
-  "size": 36,
-  "x": 0.3795,
-  "y": 0.2049
- },
- {
-  "id": 21,
-  "label": "nanoparticles / polymer / oil recovery",
-  "keywords": [
-   "nanoparticles",
-   "polymer",
-   "oil recovery",
-   "surfactant",
-   "eor",
-   "flooding",
-   "water",
-   "enhanced",
-   "chalk",
-   "nanoparticle"
-  ],
-  "size": 61,
-  "x": 0.2708,
-  "y": 0.1242
+  "size": 229,
+  "x": 0.6319,
+  "y": 0.492
  },
  {
   "id": 22,
+  "label": "coring / drilling / mud",
+  "keywords": [
+   "coring",
+   "drilling",
+   "mud",
+   "damage",
+   "invasion",
+   "formation",
+   "sponge",
+   "quality",
+   "hole",
+   "fluid"
+  ],
+  "size": 104,
+  "x": 0.8053,
+  "y": 0.7411
+ },
+ {
+  "id": 23,
+  "label": "petrophysical / log / porosity",
+  "keywords": [
+   "petrophysical",
+   "log",
+   "porosity",
+   "logs",
+   "parameters",
+   "wells",
+   "plug",
+   "evaluation",
+   "images",
+   "formation"
+  ],
+  "size": 78,
+  "x": 0.7456,
+  "y": 0.6355
+ },
+ {
+  "id": 24,
+  "label": "nanoparticles / oil recovery / polymer",
+  "keywords": [
+   "nanoparticles",
+   "oil recovery",
+   "polymer",
+   "surfactant",
+   "eor",
+   "flooding",
+   "enhanced",
+   "water",
+   "chalk",
+   "nanoparticle"
+  ],
+  "size": 70,
+  "x": 0.1038,
+  "y": 0.3047
+ },
+ {
+  "id": 25,
   "label": "salinity water / oil recovery / brine",
   "keywords": [
    "salinity water",
@@ -430,87 +487,30 @@
    "ions",
    "brines",
    "crude",
-   "flooding"
+   "tertiary"
   ],
-  "size": 69,
-  "x": 0.1954,
-  "y": 0.085
- },
- {
-  "id": 23,
-  "label": "two-phase flow / relative permeability / steady-state two-phase",
-  "keywords": [
-   "two-phase flow",
-   "relative permeability",
-   "steady-state two-phase",
-   "porous media",
-   "phase",
-   "capillary",
-   "darcy",
-   "flow porous",
-   "flows",
-   "viscous"
-  ],
-  "size": 30,
-  "x": 0.3768,
-  "y": 0.5891
- },
- {
-  "id": 24,
-  "label": "relative permeability / capillary pressure / saturation",
-  "keywords": [
-   "relative permeability",
-   "capillary pressure",
-   "saturation",
-   "scal",
-   "curves",
-   "flow",
-   "unsteady-state",
-   "oil",
-   "steady-state",
-   "relative permeabilities"
-  ],
-  "size": 90,
-  "x": 0.2972,
-  "y": 0.5763
- },
- {
-  "id": 25,
-  "label": "mercury injection / capillary pressure / micp",
-  "keywords": [
-   "mercury injection",
-   "capillary pressure",
-   "micp",
-   "pore",
-   "curves",
-   "porous",
-   "breakthrough capillary",
-   "distribution",
-   "drainage capillary",
-   "phase"
-  ],
-  "size": 21,
-  "x": 0.2617,
-  "y": 0.7655
+  "size": 61,
+  "x": 0.0611,
+  "y": 0.1988
  },
  {
   "id": 26,
-  "label": "capillary pressure / water saturation / drainage",
+  "label": "capillary pressure / saturation / pc",
   "keywords": [
    "capillary pressure",
-   "water saturation",
-   "drainage",
-   "porous plate",
-   "imbibition",
+   "saturation",
    "pc",
+   "porous plate",
+   "mercury",
+   "drainage",
    "curves",
-   "oil",
-   "hysteresis",
-   "technique"
+   "water",
+   "permeability",
+   "micp"
   ],
-  "size": 84,
-  "x": 0.2621,
-  "y": 0.6873
+  "size": 77,
+  "x": 0.262,
+  "y": 0.8128
  },
  {
   "id": 27,
@@ -519,16 +519,54 @@
    "centrifuge",
    "capillary pressure",
    "pressure curves",
-   "pressure curve",
    "saturation",
-   "technique",
+   "pressure curve",
    "drainage",
+   "technique",
    "fluid",
-   "production",
-   "forbes"
+   "imbibition",
+   "hysteresis"
   ],
-  "size": 54,
-  "x": 0.1675,
-  "y": 0.7789
+  "size": 73,
+  "x": 0.1645,
+  "y": 0.8684
+ },
+ {
+  "id": 28,
+  "label": "flow porous / relative permeability / porous media",
+  "keywords": [
+   "flow porous",
+   "relative permeability",
+   "porous media",
+   "phase",
+   "steady-state two-phase",
+   "darcy",
+   "capillary",
+   "two-phase flow",
+   "flows",
+   "viscous"
+  ],
+  "size": 27,
+  "x": 0.3273,
+  "y": 0.6296
+ },
+ {
+  "id": 29,
+  "label": "relative permeability / capillary pressure / saturation",
+  "keywords": [
+   "relative permeability",
+   "capillary pressure",
+   "saturation",
+   "unsteady-state",
+   "flow",
+   "steady-state",
+   "oil",
+   "curves",
+   "relative permeabilities",
+   "water"
+  ],
+  "size": 79,
+  "x": 0.259,
+  "y": 0.6681
  }
 ]

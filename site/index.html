@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/deck.gl@9.1.14/dist.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg=" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q=" crossorigin="anonymous" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -90,8 +92,10 @@
       <button id="d-topic" class="chip" type="button" title="Show only this topic"></button>
       <h2 id="d-title"></h2>
       <p id="d-authors" class="authors"></p>
+      <p id="d-filled" class="filled" hidden></p>
       <div class="d-actions">
         <a id="d-pdf" class="btn primary" target="_blank" rel="noopener">Read PDF ↗</a>
+        <button id="d-map" class="btn" type="button" title="Switch to the map and zoom to this paper (M)">Show on map</button>
         <button id="d-copy" class="btn" type="button">Copy link</button>
       </div>
       <dl class="stats">
@@ -99,6 +103,12 @@
         <div><dt>Cites</dt><dd id="d-cites-n"></dd></div>
         <div><dt>PageRank</dt><dd id="d-rank"></dd></div>
       </dl>
+      <section id="d-summary-wrap" hidden>
+        <h3>Summary <span class="ai-tag" title="Written by Claude (Sonnet 5.5) from the paper's text. It can contain errors: check the PDF.">AI-generated</span></h3>
+        <p id="d-tldr" class="tldr"></p>
+        <p id="d-summary" class="abstract"></p>
+        <div id="d-keywords" class="keywords"></div>
+      </section>
       <section id="d-abstract-wrap">
         <h3>Abstract</h3>
         <p id="d-abstract" class="abstract"></p>
@@ -106,6 +116,7 @@
       <figure id="d-figure" hidden>
         <img id="d-img" alt="" loading="lazy">
         <figcaption id="d-caption"></figcaption>
+        <p id="d-fig-reason" class="fig-reason" hidden></p>
       </figure>
       <section class="related">
         <div class="tabs" role="tablist">
