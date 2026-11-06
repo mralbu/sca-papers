@@ -41,19 +41,19 @@ function hslToRgb(h, s, l) {
 
 const css = (rgb) => `rgb(${rgb.join(",")})`;
 
-function visible(p) {
-  return (!state.method || p.method === state.method) && visibleAnyMethod(p);
-}
-
-// Every filter except the method one: what the method dropdown counts.
-function visibleAnyMethod(p) {
+// All filters, or all but one (`skip`: "topic" | "method"), which is what that
+// filter's counts use: each option shows what it would give with the others applied.
+function passes(p, skip) {
   return (
-    !state.hiddenTopics.has(p.topic) &&
+    (skip === "topic" || !state.hiddenTopics.has(p.topic)) &&
+    (skip === "method" || !state.method || p.method === state.method) &&
     p.year >= state.yearMin &&
     p.year <= state.yearMax &&
     (!state.matches || state.matches.has(p.id))
   );
 }
+
+const visible = (p) => passes(p);
 
 function radius(p) {
   // Point size from PageRank on the citation graph.
@@ -65,7 +65,9 @@ function render() {
   document.body.classList.toggle("has-detail", !!state.selected);
   renderList(shown);
   renderMap(shown);
+  renderResults();
   updateMethodCounts();
+  updateTopicCounts();
 }
 
 function renderMap(shown) {
@@ -691,6 +693,7 @@ function buildFilterList(ul, countEl, items, hidden) {
       const n = document.createElement("span");
       n.className = "n";
       n.textContent = t.size;
+      t.n = n;
       li.append(sw, name, n);
       li.addEventListener("click", (e) => {
         if (e.altKey || e.metaKey) return showOnly(items, hidden, t.id);
@@ -751,7 +754,7 @@ function updateMethodCounts() {
   const counts = new Map();
   let all = 0;
   for (const p of state.papers) {
-    if (!visibleAnyMethod(p)) continue;
+    if (!passes(p, "method")) continue;
     all++;
     counts.set(p.method, (counts.get(p.method) || 0) + 1);
   }
@@ -759,6 +762,19 @@ function updateMethodCounts() {
     const label = o.value || "All methods";
     o.textContent = `${label} (${o.value ? counts.get(o.value) || 0 : all})`;
   }
+}
+
+// Topic counts follow the year/method/search filters (not the topic toggles, so
+// clicking a topic never reorders the list under the cursor), and the list is
+// re-sorted by them: most papers first, ties by size in the whole corpus.
+function updateTopicCounts() {
+  const counts = new Map();
+  for (const p of state.papers) if (passes(p, "topic")) counts.set(p.topic, (counts.get(p.topic) || 0) + 1);
+  const n = (t) => counts.get(t.id) || 0;
+  const sorted = [...state.topics.values()].filter((t) => t.li).sort((a, b) => n(b) - n(a) || b.size - a.size);
+  for (const t of sorted) t.n.textContent = n(t);
+  const ul = $("topics");
+  if (sorted.some((t, i) => ul.children[i] !== t.li)) ul.append(...sorted.map((t) => t.li));
 }
 
 function setMethod(m) {
@@ -844,18 +860,17 @@ function setupSearch() {
 
 function runSearch() {
   const q = $("search").value.trim();
-  const list = $("results");
   const sortEl = $("sort");
   if (!q) {
-    state.matches = state.hitRank = null;
+    state.matches = state.hitRank = state.hits = null;
     sortEl.querySelector('[value="relevance"]').disabled = true;
     if (state.sort === "relevance") sortEl.value = state.sort = state.sortBeforeSearch || "newest";
-    list.replaceChildren();
     render();
     return;
   }
   const hits = search.search(q);
-  state.matches = new Set(hits.map((h) => h.id));
+  state.hits = hits.map((h) => h.id);
+  state.matches = new Set(state.hits);
   state.hitRank = new Map(hits.map((h, i) => [h.id, i]));
   sortEl.querySelector('[value="relevance"]').disabled = false;
   if (state.sort !== "relevance") {
@@ -863,16 +878,24 @@ function runSearch() {
     sortEl.value = state.sort = "relevance";
   }
   $("list-view").scrollTop = 0;
-  list.replaceChildren(
-    ...hits.slice(0, 40).map((h) => paperItem(state.byId.get(h.id), () => focus(h.id)))
-  );
-  if (hits.length > 40) {
-    const more = document.createElement("li");
-    more.className = "muted";
-    more.textContent = `… ${hits.length - 40} more on the map`;
-    list.append(more);
-  }
   render();
+}
+
+// Search results under the box (map view): best matches that pass the filters.
+function renderResults() {
+  const list = $("results");
+  if (!state.hits) return list.replaceChildren();
+  const ids = state.hits.filter((id) => visible(state.byId.get(id)));
+  list.replaceChildren(...ids.slice(0, 40).map((id) => paperItem(state.byId.get(id), () => focus(id))));
+  const note = (text) => {
+    const li = document.createElement("li");
+    li.className = "muted";
+    li.textContent = text;
+    list.append(li);
+  };
+  if (ids.length > 40) note(`… ${ids.length - 40} more on the map`);
+  const hidden = state.hits.length - ids.length;
+  if (hidden) note(`${hidden} more hidden by the filters`);
 }
 
 async function main() {

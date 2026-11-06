@@ -181,6 +181,7 @@ input[type="search"]:focus, select:focus, .years input:focus {
 .results { list-style: none; margin: 0 0 12px; padding: 0; max-height: 34vh; overflow: auto; }
 .results li { padding: 4px 6px; border-radius: 6px; cursor: pointer; }
 .results li:hover, .links li:hover { background: #8881; }
+.results li.muted { cursor: default; background: none; }
 .results small { display: block; color: var(--muted); }
 
 .topics { list-style: none; margin: 0; padding: 0; }
