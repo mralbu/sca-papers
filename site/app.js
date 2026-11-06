@@ -54,7 +54,7 @@ function radius(p) {
 }
 
 function render() {
-  const { ScatterplotLayer, TextLayer, LineLayer } = deck_gl();
+  const { ScatterplotLayer, LineLayer } = deck_gl();
   const shown = state.papers.filter(visible);
   $("count").textContent = `${shown.length} of ${state.papers.length} papers`;
   const sel = state.selected && state.byId.get(state.selected);
@@ -96,24 +96,81 @@ function render() {
       onHover: ({ object, x, y }) => tooltip(object, x, y),
       onClick: ({ object }) => object && select(object.id),
     }),
-    new TextLayer({
-      id: "labels",
-      data: [...state.topics.values()].filter((t) => !state.hiddenTopics.has(t.id)),
-      getPosition: (t) => [t.x * WORLD, (1 - t.y) * WORLD],
-      getText: (t) => t.short,
-      getSize: 12,
-      getColor: (t) => [...t.rgb.map((c) => Math.round(c * 0.6)), 230],
-      fontWeight: 700,
-      fontFamily: "system-ui, -apple-system, Segoe UI, sans-serif",
-      outlineWidth: 3,
-      outlineColor: [255, 255, 255, 200],
-      fontSettings: { sdf: true },
-      characterSet: "auto",
-      getTextAnchor: "middle",
-      getAlignmentBaseline: "center",
-    }),
   ];
-  deck.setProps({ layers });
+  state.baseLayers = layers;
+  state.labelKey = null;
+  updateLabels(true);
+}
+
+const LABEL_FONT = "600 13px system-ui, -apple-system, Segoe UI, sans-serif";
+const LABEL_GAP = 4; // px between label pills
+
+// Pill size in pixels (text + padding + border), measured once per label.
+function labelBox(t) {
+  if (!t.box) {
+    const ctx = (labelBox.ctx ||= document.createElement("canvas").getContext("2d"));
+    ctx.font = LABEL_FONT;
+    t.box = [ctx.measureText(t.short).width + 15, 22];
+  }
+  return t.box;
+}
+
+// Greedy placement: biggest topics first, skip any label that would overlap
+// one already placed at this zoom. Zooming in spreads them out and reveals more.
+function placeLabels(zoom) {
+  const scale = 2 ** zoom; // world units -> pixels
+  const placed = [];
+  const topics = [...state.topics.values()]
+    .filter((t) => !state.hiddenTopics.has(t.id))
+    .sort((a, b) => b.size - a.size);
+  for (const t of topics) {
+    const [w, h] = labelBox(t);
+    const cx = t.x * WORLD * scale, cy = (1 - t.y) * WORLD * scale;
+    const r = [cx - w / 2 - LABEL_GAP, cy - h / 2 - LABEL_GAP, cx + w / 2 + LABEL_GAP, cy + h / 2 + LABEL_GAP];
+    if (placed.some(({ r: q }) => r[0] < q[2] && q[0] < r[2] && r[1] < q[3] && q[1] < r[3])) continue;
+    placed.push({ t, r });
+  }
+  return placed.map(({ t }) => t);
+}
+
+function updateLabels(force = false) {
+  if (!state.baseLayers) return;
+  const data = placeLabels(state.view?.zoom ?? state.zoom);
+  const key = data.map((t) => t.id).join(",");
+  if (!force && key === state.labelKey) return;
+  state.labelKey = key;
+  const theme = labelTheme();
+  const labels = new window.deck.TextLayer({
+    id: "labels",
+    data,
+    getPosition: (t) => [t.x * WORLD, (1 - t.y) * WORLD],
+    getText: (t) => t.short,
+    getSize: 13,
+    getColor: theme.text,
+    fontWeight: 600,
+    fontFamily: "system-ui, -apple-system, Segoe UI, sans-serif",
+    characterSet: "auto",
+    getTextAnchor: "middle",
+    getAlignmentBaseline: "center",
+    // Opaque pill with a topic-coloured border: readable over dense points.
+    background: true,
+    getBackgroundColor: theme.pill,
+    getBorderColor: (t) => [...t.rgb, 255],
+    getBorderWidth: 1.5,
+    backgroundPadding: [6, 3],
+    backgroundBorderRadius: 4,
+    updateTriggers: { getColor: theme.key, getBackgroundColor: theme.key },
+  });
+  deck.setProps({ layers: [...state.baseLayers, labels] });
+}
+
+function labelTheme() {
+  const dark = document.documentElement.dataset.theme
+    ? document.documentElement.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  return dark
+    ? { key: "dark", text: [235, 235, 238, 255], pill: [24, 25, 30, 225] }
+    : { key: "light", text: [29, 29, 31, 255], pill: [255, 255, 255, 230] };
 }
 
 function deck_gl() {
@@ -245,17 +302,26 @@ function setupYears() {
   for (const el of [$("year-min"), $("year-max")]) Object.assign(el, { min: lo, max: hi, step: 1 });
   $("year-min").value = state.yearMin = lo;
   $("year-max").value = state.yearMax = hi;
-  const update = () => {
-    let a = +$("year-min").value;
-    let b = +$("year-max").value;
-    if (a > b) [a, b] = [b, a];
+  // Knobs can't cross: the one being dragged stops at the other's value.
+  const update = (moved) => {
+    const minEl = $("year-min"), maxEl = $("year-max");
+    if (+minEl.value > +maxEl.value) {
+      if (moved === minEl) minEl.value = maxEl.value;
+      else maxEl.value = minEl.value;
+    }
+    const a = +minEl.value, b = +maxEl.value;
     state.yearMin = a;
     state.yearMax = b;
-    $("year-label").textContent = `${a}–${b}`;
+    // When both knobs sit at the right end, keep the first-year knob on top so it can still move.
+    minEl.style.zIndex = a === hi ? 2 : "";
+    const pct = (v) => ((v - lo) / (hi - lo || 1)) * 100;
+    Object.assign($("year-fill").style, { left: `${pct(a)}%`, width: `${pct(b) - pct(a)}%` });
+    $("year-label").textContent = a === b ? `${a}` : `${a}–${b}`;
     render();
   };
-  $("year-min").addEventListener("input", update);
-  $("year-max").addEventListener("input", update);
+  $("year-min").addEventListener("input", (e) => update(e.target));
+  $("year-max").addEventListener("input", (e) => update(e.target));
+  Object.assign($("year-fill").style, { left: "0%", width: "100%" });
   $("year-label").textContent = `${lo}–${hi}`;
 }
 
@@ -322,6 +388,7 @@ async function main() {
   // setProps before deck.gl has created its GPU device throws.
   const box = $("map").getBoundingClientRect();
   const zoom = Math.log2(Math.min(box.width, box.height) / (WORLD * 1.08));
+  state.zoom = zoom;
   deck = new window.deck.Deck({
     parent: $("map"),
     views: new window.deck.OrthographicView({ flipY: false }),
@@ -329,6 +396,7 @@ async function main() {
     controller: { doubleClickZoom: true },
     onViewStateChange: ({ viewState }) => {
       state.view = viewState;
+      updateLabels();
       return viewState;
     },
     getCursor: ({ isHovering }) => (isHovering ? "pointer" : "grab"),
@@ -337,6 +405,7 @@ async function main() {
 
   buildTopicList();
   setupYears();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => render());
   setupSearch();
   $("size-by").addEventListener("change", (e) => {
     state.sizeBy = e.target.value;

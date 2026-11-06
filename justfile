@@ -99,6 +99,23 @@ site-data:
 # Run every stage after convert, in order (each is cached/resumable)
 build: metadata embed topics citations figures site-data
 
-# Serve the site locally at http://localhost:8000
-serve:
-    python3 -m http.server -d site 8000
+# Serve the site on all interfaces (port 8000) and print the LAN URL
+serve port="8000":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    # LAN IP: macOS (default-route interface) or Linux (hostname -I).
+    ip=""
+    if command -v ipconfig >/dev/null 2>&1; then
+        iface=$(route -n get default 2>/dev/null | awk '/interface:/ {print $2}')
+        [ -n "$iface" ] && ip=$(ipconfig getifaddr "$iface" 2>/dev/null || true)
+    fi
+    [ -z "$ip" ] && ip=$(hostname -I 2>/dev/null | awk '{print $1}' || true)
+    echo "Local:   http://localhost:{{port}}"
+    echo "Network: http://${ip:-unknown-ip}:{{port}}"
+    # no-cache: browsers revalidate on every load, so edits to site/ show up on a normal reload.
+    exec python3 -c 'import functools, http.server as h, sys
+    class H(h.SimpleHTTPRequestHandler):
+        def end_headers(self):
+            self.send_header("Cache-Control", "no-cache")
+            super().end_headers()
+    h.ThreadingHTTPServer(("0.0.0.0", int(sys.argv[1])), functools.partial(H, directory="site")).serve_forever()' {{port}}
