@@ -205,9 +205,8 @@ function setupTheme() {
   const btn = $("theme");
   const isDark = () => labelTheme().key === "dark";
   const sync = () => {
-    btn.textContent = isDark() ? "☾" : "☀\uFE0E"; // monochrome text glyphs, not colour emoji
-    btn.title = isDark() ? "Dark theme. Switch to light" : "Light theme. Switch to dark";
-    btn.setAttribute("aria-label", btn.title);
+    btn.setAttribute("aria-checked", isDark());
+    btn.title = isDark() ? "Switch to light theme" : "Switch to dark theme";
   };
   btn.addEventListener("click", () => {
     const t = isDark() ? "light" : "dark";
@@ -469,9 +468,12 @@ function focus(id, minZoom = 1.2) {
   select(id);
   scrollListTo(id);
   const zoom = Math.max(state.mapView?.zoom ?? 0, minZoom);
+  // The detail panel floats over the map's right side: centre the paper in the
+  // part left uncovered (on narrow screens the panel covers the map anyway).
+  const covered = innerWidth > 760 ? state.widths.right + 24 : 0;
   deck.setProps({
     initialViewState: {
-      target: [p.x * WORLD, (1 - p.y) * WORLD, 0],
+      target: [p.x * WORLD + covered / 2 / 2 ** zoom, (1 - p.y) * WORLD, 0],
       zoom,
       transitionDuration: 500,
     },
