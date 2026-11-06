@@ -77,15 +77,20 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    (cited IDs are often mistyped).
 6. **Site:** a static site, not a single HTML file: `index.html` + plain JS (no
    build step) + `papers.json` (metadata, coordinates, scores, summaries) +
-   per-paper assets loaded lazily. A fast scatter library (`deck.gl` or
-   `regl-scatterplot`), `MiniSearch` for search, year slider and topic
-   filters, and a detail panel per paper. Deployed to GitHub Pages via a
-   GitHub Action.
+   per-paper assets loaded lazily. Picked `deck.gl` for the scatter map and
+   `MiniSearch` for search (both from jsDelivr, pinned versions). Two views:
+   a sortable list (newest, oldest, most cited, PageRank, best match) and the
+   topic map; year-range and topic filters; a reading pane per paper with
+   Similar (8 nearest bge-m3 neighbours) / Cited by / Cites tabs. Deployed
+   to GitHub Pages by `.github/workflows/pages.yml`, which also refuses PDFs
+   or markdown under `site/` and checks the Pages size limits. Preview
+   locally with `just serve`.
    The Action cannot run the pipeline (no PDFs/markdown in CI), so the
    generated `site/data/` is committed: rebuild with `just build`, commit,
    push. Published per paper: title, authors, year, abstract (switch:
    `INCLUDE_ABSTRACTS` in `site.py`), topic, coordinates, scores, in-corpus
-   citation links, one thumbnail + caption. Never reference lists or full text.
+   citation links, similar-paper IDs, one thumbnail + caption. Never
+   reference lists or full text.
    Paper text is untrusted: the front end only inserts it via `textContent`.
 
 ### Phase 2 — LLM features (deferred, not started)
@@ -115,7 +120,11 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   per-year `report.txt` of missing fields), and the other stage intermediates.
 - `metadata.py` rules are heuristics tuned on the corpus. Bump its `VERSION`
   when they change so cached per-paper outputs are redone.
-- `site/` (published): static site; generated data goes in `site/data/`.
+- `site/` (published): static site (`index.html`, `app.js`, `style.css`);
+  generated data goes in `site/data/` (`papers.json`, `topics.json`,
+  `figures/<id>.webp`).
+- `topics.yaml`: hand merge/rename overrides for topics; `duplicates.txt`:
+  preview PDFs that `just download` skips.
 - `just check` runs pytest and ruff.
 
 ## Conventions

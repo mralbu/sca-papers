@@ -62,12 +62,6 @@ setup:
 inventory:
     uv run sca inventory
 
-# Run tests and lint
-check:
-    uv run pytest -q
-    uv run ruff check src tests
-    uv run ruff format --check src tests
-
 # Stage 1: convert PDFs to markdown with marker (data/markdown/<id>/). Args: paper IDs, --workers N, --limit N
 convert *args:
     uv run sca convert {{args}}
@@ -92,7 +86,7 @@ citations *args:
 figures *args:
     uv run sca figures {{args}}
 
-# Stage 7: export site/data/ (papers.json, topics.json) from the stage outputs
+# Stage 7: export site/data/ (papers.json, topics.json) from the stage outputs; commit it to publish
 site-data:
     uv run sca site
 
@@ -119,3 +113,9 @@ serve port="8000":
             self.send_header("Cache-Control", "no-cache")
             super().end_headers()
     h.ThreadingHTTPServer(("0.0.0.0", int(sys.argv[1])), functools.partial(H, directory="site")).serve_forever()' {{port}}
+
+# Run tests and lint
+check:
+    uv run pytest -q
+    uv run ruff check src tests
+    uv run ruff format --check src tests
