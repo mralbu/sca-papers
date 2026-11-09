@@ -2,6 +2,7 @@
 # marker output and a GPU); this workflow only uploads the committed site/
 # folder: static files, derived data and figure thumbnails. Never full text or
 # PDFs, which the guard step enforces along with the Pages size limits.
+# One-time repo setting: Settings > Pages > Source: GitHub Actions.
 name: Deploy site to GitHub Pages
 
 on:
@@ -15,36 +16,69 @@ permissions:
   pages: write
   id-token: write
 
+# Queue deploys instead of cancelling one mid-flight (GitHub's recommendation
+# for Pages: a cancelled deployment can leave the site in a failed state).
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: site
 
       - name: Guard published content and size limits
         run: |
           set -euo pipefail
-          # No full text or PDFs: only the site's own files and derived data.
-          bad=$(find site -type f \( -iname '*.pdf' -o -iname '*.md' \) -print)
-          if [ -n "$bad" ]; then echo "refusing to publish: $bad"; exit 1; fi
+          # Allowlist of file types: the site's own files, derived data and
+          # thumbnails. Anything else (PDFs, markdown, full text dumps in
+          # another format) fails the deploy until it is added here on purpose.
+          bad=$(find site -type f ! \( -name '*.html' -o -name '*.js' -o -name '*.css' \
+            -o -name '*.json' -o -name '*.txt' -o -name '*.webp' -o -name '*.svg' \
+            -o -name '*.png' -o -name '*.ico' \) -print)
+          if [ -n "$bad" ]; then echo "refusing to publish:"; echo "$bad"; exit 1; fi
+          # upload-pages-artifact rejects symlinks; say so clearly.
+          links=$(find site -type l -print)
+          if [ -n "$links" ]; then echo "symlinks under site/: $links"; exit 1; fi
           # GitHub Pages: 100 MB per file, 1 GB per site.
           big=$(find site -type f -size +100M -print)
           if [ -n "$big" ]; then echo "files over 100 MB: $big"; exit 1; fi
           total=$(du -sk site | cut -f1)
           echo "site size: $((total / 1024)) MB"
           if [ "$total" -gt 1000000 ]; then echo "site over 1 GB"; exit 1; fi
-          test -s site/data/papers.json
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Check generated data
+        run: |
+          python3 -I - <<'EOF'
+          import json, pathlib, sys
+          site = pathlib.Path("site")
+          papers = json.loads((site / "data/papers.json").read_text())
+          json.loads((site / "data/topics.json").read_text())
+          assert isinstance(papers, list) and papers, "papers.json is empty"
+          ids = {p["id"] for p in papers}
+          assert len(ids) == len(papers), "duplicate paper ids"
+          missing = [p["figure"] for p in papers
+                     if p.get("figure") and not (site / p["figure"]).is_file()]
+          dangling = sorted({i for p in papers for k in ("cites", "cited", "similar")
+                             for i in p.get(k) or [] if i not in ids})
+          print(f"{len(papers)} papers, {sum(bool(p.get('figure')) for p in papers)} figures")
+          for name, bad in (("missing figures", missing), ("unknown paper ids", dangling)):
+              if bad:
+                  print(f"{name} ({len(bad)}): {bad[:10]}")
+          sys.exit(1 if missing or dangling else 0)
+          EOF
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
