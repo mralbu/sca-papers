@@ -90,8 +90,9 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
    tabs. KaTeX (jsDelivr, pinned) renders inline math. Copy link falls back to
    `execCommand` because the clipboard API needs https or localhost (`just
    serve` on the LAN is plain http). Deployed
-   to GitHub Pages by `.github/workflows/pages.yml`, which also refuses PDFs
-   or markdown under `site/` and checks the Pages size limits. Preview
+   to GitHub Pages by `.github/workflows/pages.yml`, which only publishes allowlisted file types (no PDFs
+   or markdown), checks the Pages size limits and that `papers.json` references
+   only existing figures and paper IDs. Preview
    locally with `just serve`.
    The Action cannot run the pipeline (no PDFs/markdown in CI), so the
    generated `site/data/` is committed: rebuild with `just build`, commit,
