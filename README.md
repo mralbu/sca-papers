@@ -27,6 +27,7 @@ similar papers and citations to the original PDF.
 - **Readable topics.** Topics are named by an LLM from their keywords and
   titles ("NMR relaxation and pore size", "Centrifuge capillary pressure
   methods").
+- **About page** ([about.html](https://mralbu.github.io/sca-papers/about.html)): how the corpus was organized, embedded, clustered and mapped, in plain language.
 - Inline math in titles, abstracts and captions is rendered with KaTeX.
   Keyboard shortcuts: **R** reading mode, **M** show on map, **Esc** close.
 

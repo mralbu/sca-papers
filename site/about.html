@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About · SCA Papers Explorer</title>
+  <meta name="description" content="How the SCA Papers Explorer was built: the corpus of Society of Core Analysts symposium papers, how they were read, embedded, clustered into topics and mapped.">
+  <script>
+    // Apply a saved light/dark choice before first paint (no flash); otherwise follow the system.
+    try {
+      const t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="about">
+  <header class="bar">
+    <h1><a href="./">SCA Papers Explorer</a></h1>
+    <nav class="links" aria-label="Site">
+      <a href="./">Explorer</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a class="gh" href="https://github.com/mralbu/sca-papers" target="_blank" rel="noopener" aria-label="Source on GitHub" title="Source on GitHub"><svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+    </nav>
+    <button id="theme" class="theme" type="button" role="switch" aria-label="Dark theme">
+      <span class="knob" aria-hidden="true"></span>
+      <!-- Sun and moon outlines from Lucide (ISC licence), drawn in currentColor. -->
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span>
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span>
+    </button>
+  </header>
+
+  <main class="prose">
+    <h1>About</h1>
+    <p class="lead">
+      The Society of Core Analysts (SCA) has held a symposium every year since 1987, and its papers are the
+      working literature of core analysis: capillary pressure, relative permeability, wettability, NMR,
+      resistivity, digital rock. The papers are mirrored at
+      <a href="https://www.jgmaas.com/SCA/">jgmaas.com</a> as some two thousand PDFs sorted by year. This
+      site puts all 2,064 of them on one searchable list and one map, so you can see what has been written on a
+      subject, which papers the community keeps citing, and what sits next to a paper you already know.
+    </p>
+    <p class="note">A personal project, not affiliated with the SCA. The papers belong to the SCA and their authors.</p>
+
+    <h2>From PDF to map</h2>
+    <ol class="flow" aria-label="Pipeline">
+      <li><b>PDF</b><span>2,064 papers</span></li>
+      <li><b>Text</b><span>marker + OCR</span></li>
+      <li><b>Metadata</b><span>rules + Claude</span></li>
+      <li><b>Embedding</b><span>bge-m3</span></li>
+      <li><b>Map + topics</b><span>UMAP, HDBSCAN</span></li>
+      <li><b>Citations</b><span>PageRank</span></li>
+    </ol>
+    <p>
+      Every step runs locally and is cached, so a rebuild only processes papers that are new or changed.
+    </p>
+
+    <h2>How the papers were organized</h2>
+    <p>
+      The corpus is every PDF on jgmaas.com, 1987–2026. A few clean-ups decide what counts as a paper:
+    </p>
+    <ul>
+      <li>For 1991 and 1992 the server has a one-page preview ("click here to download the complete version")
+        next to each full paper. The 97 previews are dropped.</li>
+      <li>1990–1992 had a separate European symposium, whose papers reuse the same numbers. They are kept as
+        their own series, with IDs ending in <code>EURO</code>.</li>
+      <li>One-page short papers and posters (2019, 2022, 2023) have their own title and authors, so they stay.</li>
+      <li>One PDF (<code>SCA2014-051</code>) is truncated on the server and cannot be read. The mirror has almost
+        nothing for 2020.</li>
+    </ul>
+    <p>
+      Each paper keeps the ID from its file name (<code>SCA2014-051</code>, <code>SCA_2025_1011</code>), and
+      that ID is its link on this site: <code>#SCA2014-051</code>.
+    </p>
+
+    <h2>Reading the papers</h2>
+    <p>
+      <a href="https://github.com/datalab-to/marker">marker</a> turns each PDF into Markdown, with its figures
+      and captions. About 200 papers, all of 1987–1993 among them, are scans without a text layer; marker reads
+      those with OCR. From the Markdown, hand-written rules take the title, the authors, the abstract and the
+      reference list. Where the rules find nothing, nothing is guessed.
+    </p>
+    <p>
+      Claude (Sonnet 5.5) then read each paper once and wrote the TL;DR, a short summary, keywords, a method
+      label from a fixed list of eight (laboratory experiment, numerical simulation, digital rock or imaging,
+      …) and its pick of the paper's most telling figure. Claude could also fill a title, author list or
+      abstract the rules had missed, but only if a check confirmed it against the paper's own text: that
+      added authors for 39 papers, abstracts for 4 and titles for 2, and rejected 6 titles it had composed. The
+      abstract shown on the site is always the paper's own. Everything Claude wrote is marked
+      <em>AI-generated</em> on the site, and can be wrong: the PDF is the reference.
+    </p>
+
+    <h2>Embedding</h2>
+    <p>
+      To place papers by what they are about, each one becomes a vector: an embedding of its title, abstract and
+      the first ~500 words of its introduction (math, tables and Markdown removed), made with
+      <a href="https://huggingface.co/BAAI/bge-m3">bge-m3</a>. Papers with similar vectors are about similar
+      things. The <strong>Similar</strong> tab of each paper lists its 8 nearest neighbours by cosine similarity.
+    </p>
+    <p>
+      bge-m3 was chosen over SPECTER2, a model trained on scientific papers, with a test the embeddings never
+      see: papers that end up close together should cite the same work. With bge-m3, a paper's nearest
+      neighbours have more similar reference lists (0.158 TF-IDF cosine, against 0.147 for SPECTER2 and 0.055 for
+      random pairs).
+    </p>
+
+    <h2>The map</h2>
+    <p>
+      The embeddings have 1,024 dimensions. <a href="https://umap-learn.readthedocs.io/">UMAP</a> squeezes them
+      to two for the map, keeping each paper near its closest neighbours. Separately, it reduces them to 10
+      dimensions, where <a href="https://hdbscan.readthedocs.io/">HDBSCAN</a> finds dense groups: 30 topics of
+      at least 20 papers each. Papers that fit no group well (352 of them) are put in the nearest topic and drawn
+      fainter. The topics are named by Claude from each one's distinctive words (c-TF-IDF over titles and
+      abstracts, as in BERTopic) and its most-cited titles.
+    </p>
+    <dl>
+      <dt>Position</dt><dd>Nearby points are papers with similar text. Distances between far-apart clusters mean
+        little, and the axes have no units.</dd>
+      <dt>Colour</dt><dd>The topic.</dd>
+      <dt>Size</dt><dd>PageRank in the citation graph (below): bigger points are papers the community builds on.</dd>
+      <dt>Lines</dt><dd>When a paper is selected, lines go to the papers it cites (blue) and the papers that cite
+        it (orange).</dd>
+    </dl>
+
+    <h2>Citations and importance</h2>
+    <p>
+      Each reference in a paper's list is matched to a paper in the corpus, by an explicit SCA number
+      (<code>SCA2003-12</code>, <code>SCA 9114</code>) or, more often, by a fuzzy match of the title together
+      with the year and the first author's surname. When the number and the title disagree, the title wins,
+      because cited numbers are often mistyped. A hand check of samples found nearly all matches correct, and
+      92% of the references that mention the SCA are matched. The result is a graph of 1,663 citations between
+      SCA papers.
+    </p>
+    <p>
+      <strong>Cited by</strong> counts the citations a paper receives from other SCA papers;
+      <strong>PageRank</strong> also weighs who cites it (scaled so the average paper scores 1). Both count only
+      citations inside this corpus: a paper cited mostly in journals can score low here.
+    </p>
+
+    <h2>What is published</h2>
+    <p>
+      Only derived data: titles, authors, years, abstracts, topics, map coordinates, citation links and scores,
+      the AI summaries and one small thumbnail of a figure per paper. The PDFs, their full text and their
+      reference lists are not published; every paper links to its PDF on jgmaas.com.
+    </p>
+
+    <h2>For language models</h2>
+    <p>
+      <a href="llms.txt"><code>llms.txt</code></a> lists the topics with links to one file per topic (papers in
+      PageRank order, with their summaries), and <a href="llms-full.txt"><code>llms-full.txt</code></a> has
+      every paper on one line each.
+    </p>
+
+    <h2>Source</h2>
+    <p>
+      The pipeline (Python) and the site (plain JavaScript with <a href="https://deck.gl/">deck.gl</a>,
+      <a href="https://lucaong.github.io/minisearch/">MiniSearch</a> and <a href="https://katex.org/">KaTeX</a>)
+      are on <a href="https://github.com/mralbu/sca-papers">GitHub</a>, with the design notes and the quirks of
+      the corpus. A sibling site does the same for the abstracts of the
+      <a href="https://mralbu.github.io/interpore-papers/">InterPore annual meetings</a>.
+    </p>
+
+    <footer>
+      Papers from the <a href="https://www.jgmaas.com/SCA/">jgmaas.com SCA mirror</a>, © the SCA and the
+      authors. Source on <a href="https://github.com/mralbu/sca-papers">GitHub</a>.
+    </footer>
+  </main>
+
+  <script>
+    // Same light/dark switch as the explorer (shared localStorage key).
+    (() => {
+      const btn = document.getElementById("theme");
+      const root = document.documentElement;
+      const isDark = () =>
+        root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      const sync = () => {
+        btn.setAttribute("aria-checked", isDark());
+        btn.title = isDark() ? "Switch to light theme" : "Switch to dark theme";
+      };
+      btn.addEventListener("click", () => {
+        const t = isDark() ? "light" : "dark";
+        root.dataset.theme = t;
+        try { localStorage.setItem("theme", t); } catch {}
+        sync();
+      });
+      matchMedia("(prefers-color-scheme: dark)").addEventListener("change", sync);
+      sync();
+    })();
+  </script>
+</body>
+</html>

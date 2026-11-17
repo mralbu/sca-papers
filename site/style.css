@@ -54,7 +54,16 @@ a { color: var(--accent); }
   background: var(--panel); border-bottom: 1px solid var(--line);
 }
 .bar h1 { font-size: 16.5px; margin: 0; }
-.bar a { margin-left: auto; font-size: 14.5px; }
+/* Right side of the header: source site, About, GitHub (then the theme switch). */
+.links { margin-left: auto; flex-shrink: 0; display: flex; align-items: center; gap: 14px; font-size: 14.5px; }
+.links a { color: var(--muted); text-decoration: none; }
+.links a:hover, .links a[aria-current="page"] { color: var(--text); }
+.links a:hover { text-decoration: underline; }
+.links .gh { display: grid; place-items: center; }
+.links .gh:hover { text-decoration: none; }
+.bar h1 a { color: inherit; text-decoration: none; }
+.about-link { display: inline-flex; align-items: center; }
+.about-link svg { display: none; }
 /* Light/dark switch: a pill with sun and moon glyphs; the knob slides under the current one. */
 .theme {
   position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center;
@@ -62,6 +71,7 @@ a { color: var(--accent); }
   background: color-mix(in srgb, var(--text) 6%, transparent); cursor: pointer;
   font: 13px/1 system-ui, sans-serif; color: var(--muted);
 }
+.theme { flex-shrink: 0; }  /* keep the switch whole on narrow headers */
 .theme:hover { border-color: var(--muted); }
 .theme:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .theme .knob {
@@ -290,6 +300,45 @@ figcaption { font-size: 14px; color: var(--muted); margin-top: 6px; line-height:
   #controls { top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 40vh; }
   .detail, .detail.wide { inset: 52px 8px 8px 8px; width: auto; }
   #wide { display: none; }
-  .bar a { display: none; }
-  .theme { margin-left: auto; }
+  .links { gap: 10px; }
+  .about-link svg { display: block; }
+  .about-link span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .links .src { display: none; }
 }
+
+/* ---- About page (about.html) ---------------------------------------------- */
+body.about { height: auto; overflow: auto; }
+.prose {
+  max-width: 700px; margin: 0 auto; padding: 76px 16px 56px;
+  font-size: 16.5px; line-height: 1.65; text-wrap: pretty;
+}
+.prose h1 { font-size: 32px; line-height: 1.2; margin: 0 0 12px; letter-spacing: -.01em; }
+.prose h2 { font-size: 21px; line-height: 1.3; margin: 40px 0 8px; letter-spacing: -.005em; }
+.prose p, .prose ul, .prose ol { margin: 0 0 14px; }
+.prose ul, .prose ol { padding-left: 22px; }
+.prose li { margin-bottom: 6px; }
+.prose code { font-size: .9em; padding: 1px 5px; border-radius: 4px; background: color-mix(in srgb, var(--text) 7%, transparent); }
+.prose .lead { font-size: 18.5px; color: var(--text); }
+.prose .note { font-size: 14.5px; color: var(--muted); }
+.prose dl { margin: 0 0 14px; display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; }
+.prose dt { font-weight: 650; }
+.prose dd { margin: 0; }
+@media (max-width: 520px) { .prose dl { grid-template-columns: 1fr; gap: 0; } .prose dd { margin-bottom: 8px; } }
+/* Pipeline strip: one card per stage, arrows between; wraps on narrow screens. */
+.flow { list-style: none; padding: 0 !important; margin: 18px 0 8px !important; display: flex; flex-wrap: wrap; gap: 8px 0; counter-reset: step; }
+.flow li {
+  position: relative; display: grid; gap: 1px; margin: 0 22px 0 0; padding: 7px 12px;
+  border: 1px solid var(--line); border-radius: 8px; background: var(--card); font-size: 14px; line-height: 1.3;
+}
+.flow li::after { content: "→"; position: absolute; right: -18px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+.flow li:last-child { margin-right: 0; }
+.flow li:last-child::after { content: none; }
+.flow b { font-weight: 650; }
+.flow span { color: var(--muted); font-size: 12.5px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 14px; font-size: 14.5px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.legend i { display: inline-block; border-radius: 50%; background: var(--accent); }
+.legend i.line { width: 18px; height: 2px; border-radius: 1px; }
+.prose footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14.5px; color: var(--muted); }
+/* Very narrow phones: the explorer header keeps About; GitHub stays on the About page. */
+@media (max-width: 420px) { body:not(.about) .links .gh { display: none; } }
