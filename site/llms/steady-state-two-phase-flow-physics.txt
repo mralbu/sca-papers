@@ -2,7 +2,7 @@
 
 > 27 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: flow porous, relative permeability, porous media, phase, steady-state two-phase, darcy, capillary, two-phase flow, flows, viscous.
 
-TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
 
 ## Transition from Laminar to Non-Darcy Flow of Gases in Porous Media
 

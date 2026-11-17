@@ -2,7 +2,7 @@
 
 > 44 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: residual oil, oil saturation, capillary, transition, cdc, pore, mobilization, flooding, sor, cluster.
 
-TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
 
 ## Pore-Scale to Core-Scale Study of Capillary Desaturation Curves Using Multi-Scale 3D Imaging
 

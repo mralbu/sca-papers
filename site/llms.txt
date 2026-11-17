@@ -2,7 +2,7 @@
 
 > An explorer for the 2,064 papers of the Society of Core Analysts (SCA) symposium, 1987–2026: core analysis and petrophysics (SCAL, wettability, capillary pressure, relative permeability, NMR, digital rock and more), grouped by topic, with in-corpus citations and AI-written summaries. The PDFs are hosted by jgmaas.com and linked from each entry.
 
-- TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail.
+- TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail.
 - Citation counts only cover citations between papers in this corpus.
 - Each paper has a page at `https://mralbu.github.io/sca-papers/#<ID>` (e.g. `#SCA2014-051`) and a PDF link.
 - Topics come from clustering text embeddings; method labels are a fixed list of 8.

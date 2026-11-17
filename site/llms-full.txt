@@ -2,7 +2,7 @@
 
 > All 2,064 Society of Core Analysts symposium papers, one line each: title (linked to the PDF), ID, year, authors, method, keywords and TL;DR. Grouped by topic (largest first), most central (PageRank) first within a topic.
 
-TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Per-topic files with longer summaries: https://mralbu.github.io/sca-papers/llms.txt
+TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Per-topic files with longer summaries: https://mralbu.github.io/sca-papers/llms.txt
 
 ## Digital rock and pore network modelling
 

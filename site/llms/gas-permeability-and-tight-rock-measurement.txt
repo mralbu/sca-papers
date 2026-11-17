@@ -2,7 +2,7 @@
 
 > 56 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: permeability, klinkenberg, gas, decay, pressure, tight, coal, permeabilities, flow, porosity.
 
-TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
 
 ## Quantification of Permeability Variations Across Thin Laminae in Cross Bedded Sandstone
 

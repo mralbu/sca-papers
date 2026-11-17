@@ -20,7 +20,7 @@ LLMS_FULL = paths.SITE_DIR / "llms-full.txt"
 TOPIC_DIR = paths.SITE_DIR / "llms"  # generated; markdown in .txt so browsers show it
 
 AI_NOTE = (
-    "TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) "
+    "TL;DRs, summaries, keywords and method labels were written by a large language model "
     "from each paper's text and can contain errors; titles, authors and years come "
     "from the papers themselves. Check the PDF before relying on a detail."
 )
