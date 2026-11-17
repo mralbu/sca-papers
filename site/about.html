@@ -46,7 +46,7 @@
     <ol class="flow" aria-label="Pipeline">
       <li><b>PDF</b><span>2,064 papers</span></li>
       <li><b>Text</b><span>marker + OCR</span></li>
-      <li><b>Metadata</b><span>rules + Claude</span></li>
+      <li><b>Metadata</b><span>rules + LLM</span></li>
       <li><b>Embedding</b><span>bge-m3</span></li>
       <li><b>Map + topics</b><span>UMAP, HDBSCAN</span></li>
       <li><b>Citations</b><span>PageRank</span></li>
@@ -81,12 +81,12 @@
       reference list. Where the rules find nothing, nothing is guessed.
     </p>
     <p>
-      Claude (Sonnet 5.5) then read each paper once and wrote the TL;DR, a short summary, keywords, a method
+      A large language model then read each paper once and wrote the TL;DR, a short summary, keywords, a method
       label from a fixed list of eight (laboratory experiment, numerical simulation, digital rock or imaging,
-      …) and its pick of the paper's most telling figure. Claude could also fill a title, author list or
+      …) and its pick of the paper's most telling figure. The model could also fill a title, author list or
       abstract the rules had missed, but only if a check confirmed it against the paper's own text: that
       added authors for 39 papers, abstracts for 4 and titles for 2, and rejected 6 titles it had composed. The
-      abstract shown on the site is always the paper's own. Everything Claude wrote is marked
+      abstract shown on the site is always the paper's own. Everything the model wrote is marked
       <em>AI-generated</em> on the site, and can be wrong: the PDF is the reference.
     </p>
 
@@ -110,7 +110,7 @@
       to two for the map, keeping each paper near its closest neighbours. Separately, it reduces them to 10
       dimensions, where <a href="https://hdbscan.readthedocs.io/">HDBSCAN</a> finds dense groups: 30 topics of
       at least 20 papers each. Papers that fit no group well (352 of them) are put in the nearest topic and drawn
-      fainter. The topics are named by Claude from each one's distinctive words (c-TF-IDF over titles and
+      fainter. The topics are named by the language model from each one's distinctive words (c-TF-IDF over titles and
       abstracts, as in BERTopic) and its most-cited titles.
     </p>
     <dl>
