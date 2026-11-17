@@ -166,6 +166,9 @@ Audience: personal exploration. Published as a static site on GitHub Pages.
   collected), and the other stage intermediates.
 - `metadata.py` rules are heuristics tuned on the corpus. Bump its `VERSION`
   when they change so cached per-paper outputs are redone.
+- `site/about.html`: hand-written About page (corpus, embedding, map, citations/history,
+  publishing boundary; numbers in it are copied by hand: update them after a rebuild
+  changes the counts). The explorer header links to it and to the GitHub repo.
 - `site/` (published): static site (`index.html`, `app.js`, `style.css`);
   generated data goes in `site/data/` (`papers.json`, `topics.json`,
   `figures/<id>.webp`), plus the generated `llms.txt`, `llms-full.txt` and
