@@ -2,7 +2,7 @@
 
 > 35 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: oil recovery, gravity drainage, gas injection, viscous, gagd, displacement, water, phase, vapour, immiscible.
 
-TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
 
 ## Comparing Core Analysis Data to Field Observations for Gravity Drainage Gas Injection
 

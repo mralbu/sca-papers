@@ -2,7 +2,7 @@
 
 > 70 SCA symposium papers in this topic, most central in the citation graph (PageRank) first. Topic keywords: stress, pore pressure, velocity, permeability, porosity, compressibility, acoustic, stresses, pore volume, loading.
 
-TL;DRs, summaries, keywords and method labels were written by Claude (Sonnet 5.5) from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
+TL;DRs, summaries, keywords and method labels were written by a large language model from each paper's text and can contain errors; titles, authors and years come from the papers themselves. Check the PDF before relying on a detail. Index of all topics: https://mralbu.github.io/sca-papers/llms.txt
 
 ## Measurement of Pore Compressibility Characteristics in Rock Exhibiting "Pore Collapse" and Volumetric Creep
 
