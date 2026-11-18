@@ -63,7 +63,8 @@ a { color: var(--accent); }
 .links .gh:hover { text-decoration: none; }
 .bar h1 a { color: inherit; text-decoration: none; }
 .about-link { display: inline-flex; align-items: center; }
-.about-link svg { display: none; }
+/* About is an icon at every width; the word stays for screen readers. */
+.about-link span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 /* Light/dark switch: a pill with sun and moon glyphs; the knob slides under the current one. */
 .theme {
   position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center;
@@ -301,8 +302,6 @@ figcaption { font-size: 14px; color: var(--muted); margin-top: 6px; line-height:
   .detail, .detail.wide { inset: 52px 8px 8px 8px; width: auto; }
   #wide { display: none; }
   .links { gap: 10px; }
-  .about-link svg { display: block; }
-  .about-link span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
   .links .src { display: none; }
 }
 
